@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!-- This file was validated and processed by DayZ BoosterZ. Visit us today @ dayzboosterz.com -->
+
+<types>
+<type name="JD_Groza">
+<nominal>0</nominal>
+<lifetime>28800</lifetime>
+<restock>0</restock>
+<min>0</min>
+<quantmin>-1</quantmin>
+<quantmax>-1</quantmax>
+<cost>100</cost>
+<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+<category name="weapons"/>
+<usage name="Military"/>
+</type>
+<type name="JD_Groza_762">
+<nominal>2</nominal>
+<lifetime>28800</lifetime>
+<restock>0</restock>
+<min>1</min>
+<quantmin>10</quantmin>
+<quantmax>30</quantmax>
+<cost>100</cost>
+<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+<category name="weapons"/>
+<usage name="Military"/>
+</type>
+<type name="JD_M249">
+<nominal>1</nominal>
+<lifetime>28800</lifetime>
+<restock>0</restock>
+<min>8</min>
+<quantmin>1</quantmin>
+<quantmax>2</quantmax>
+<cost>100</cost>
+<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+<category name="weapons"/>
+<usage name="Military"/>
+<value name="Tier4"/>
+</type>
+<type name="JD_Model1887">
+<nominal>10</nominal>
+<lifetime>28800</lifetime>
+<restock>0</restock>
+<min>8</min>
+<quantmin>1</quantmin>
+<quantmax>40</quantmax>
+<cost>100</cost>
+<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+<category name="weapons"/>
+<usage name="Hunting"/>
+<value name="Tier3"/>
+<value name="Tier4"/>
+</type>
+<type name="JD_SerbuSuperShorty">
+<nominal>10</nominal>
+<lifetime>28800</lifetime>
+<restock>0</restock>
+<min>8</min>
+<quantmin>-1</quantmin>
+<quantmax>-1</quantmax>
+<cost>100</cost>
+<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+<category name="weapons"/>
+<usage name="Military"/>
+</type>
+<type name="JD_CZ_EVO3A1">
+<nominal>10</nominal>
+<lifetime>28800</lifetime>
+<restock>0</restock>
+<min>8</min>
+<quantmin>1</quantmin>
+<quantmax>20</quantmax>
+<cost>100</cost>
+<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+<category name="weapons"/>
+<usage name="Military"/>
+</type>
+<type name="JD_CZ_EVO3A1_FDE">
+<nominal>0</nominal>
+<lifetime>28800</lifetime>
+<restock>0</restock>
+<min>0</min>
+<quantmin>-1</quantmin>
+<quantmax>-1</quantmax>
+<cost>100</cost>
+<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+<category name="weapons"/>
+<usage name="Military"/>
+</type>
+<type name="JD_CZ_EVO3A1_Grey">
+<nominal>0</nominal>
+<lifetime>28800</lifetime>
+<restock>0</restock>
+<min>0</min>
+<quantmin>-1</quantmin>
+<quantmax>-1</quantmax>
+<cost>100</cost>
+<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+<category name="weapons"/>
+<usage name="Military"/>
+</type>
+<type name="JD_CZ_EVO3A1_Olive">
+<nominal>10</nominal>
+<lifetime>28800</lifetime>
+<restock>0</restock>
+<min>4</min>
+<quantmin>1</quantmin>
+<quantmax>10</quantmax>
+<cost>100</cost>
+<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+<category name="weapons"/>
+<usage name="Military"/>
+</type>
+<type name="JD_MP7">
+<nominal>10</nominal>
+<lifetime>28800</lifetime>
+<restock>0</restock>
+<min>4</min>
+<quantmin>1</quantmin>
+<quantmax>20</quantmax>
+<cost>100</cost>
+<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+<category name="weapons"/>
+<usage name="Military"/>
+</type>
+<type name="JD_BT_MP9">
+<nominal>10</nominal>
+<lifetime>28800</lifetime>
+<restock>0</restock>
+<min>8</min>
+<quantmin>-1</quantmin>
+<quantmax>-1</quantmax>
+<cost>100</cost>
+<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+<category name="weapons"/>
+<usage name="Military"/>
+</type>
+<type name="JD_P90">
+<nominal>10</nominal>
+<lifetime>28800</lifetime>
+<restock>0</restock>
+<min>8</min>
+<quantmin>1</quantmin>
+<quantmax>20</quantmax>
+<cost>100</cost>
+<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+<category name="weapons"/>
+<usage name="Military"/>
+</type>
+<type name="JD_Tec9">
+<nominal>10</nominal>
+<lifetime>28800</lifetime>
+<restock>0</restock>
+<min>8</min>
+<quantmin>-1</quantmin>
+<quantmax>-1</quantmax>
+<cost>100</cost>
+<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+<category name="weapons"/>
+<usage name="Military"/>
+</type>
+<type name="JD_Groza_Optic">
+<nominal>10</nominal>
+<lifetime>28800</lifetime>
+<restock>0</restock>
+<min>8</min>
+<quantmin>-1</quantmin>
+<quantmax>-1</quantmax>
+<cost>100</cost>
+<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+<category name="weapons"/>
+<usage name="Military"/>
+</type>
+<type name="JD_MP7Suppressor">
+<nominal>10</nominal>
+<lifetime>28800</lifetime>
+<restock>0</restock>
+<min>8</min>
+<quantmin>-1</quantmin>
+<quantmax>-1</quantmax>
+<cost>100</cost>
+<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+<category name="weapons"/>
+<usage name="Military"/>
+</type>
+<type name="JD_MP9_Suppressor">
+<nominal>10</nominal>
+<lifetime>28800</lifetime>
+<restock>0</restock>
+<min>8</min>
+<quantmin>-1</quantmin>
+<quantmax>-1</quantmax>
+<cost>100</cost>
+<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+<category name="weapons"/>
+<usage name="Military"/>
+</type>
+<type name="JD_Mag_Groza_20Rnd">
+<nominal>10</nominal>
+<lifetime>28800</lifetime>
+<restock>0</restock>
+<min>8</min>
+<quantmin>-1</quantmin>
+<quantmax>-1</quantmax>
+<cost>100</cost>
+<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+<category name="weapons"/>
+<usage name="Military"/>
+</type>
+<type name="JD_Mag_M249_Box200Rnd">
+<nominal>10</nominal>
+<lifetime>28800</lifetime>
+<restock>0</restock>
+<min>6</min>
+<quantmin>40</quantmin>
+<quantmax>100</quantmax>
+<cost>100</cost>
+<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+<category name="weapons"/>
+<usage name="Military"/>
+<value name="Tier3"/>
+<value name="Tier4"/>
+</type>
+<type name="JD_CZ_Mag_EVO_35rnd">
+<nominal>10</nominal>
+<lifetime>28800</lifetime>
+<restock>0</restock>
+<min>8</min>
+<quantmin>45</quantmin>
+<quantmax>100</quantmax>
+<cost>100</cost>
+<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+<category name="weapons"/>
+<usage name="Military"/>
+</type>
+<type name="JD_Mag_MP7_40Rnd">
+<nominal>10</nominal>
+<lifetime>28800</lifetime>
+<restock>0</restock>
+<min>8</min>
+<quantmin>25</quantmin>
+<quantmax>50</quantmax>
+<cost>100</cost>
+<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+<category name="weapons"/>
+<usage name="Military"/>
+</type>
+<type name="JD_BT_MP9_30Rnd_Mag">
+<nominal>10</nominal>
+<lifetime>28800</lifetime>
+<restock>0</restock>
+<min>8</min>
+<quantmin>-1</quantmin>
+<quantmax>-1</quantmax>
+<cost>100</cost>
+<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+<category name="weapons"/>
+<usage name="Military"/>
+</type>
+<type name="JD_BT_MP9_15Rnd_Mag">
+<nominal>10</nominal>
+<lifetime>28800</lifetime>
+<restock>0</restock>
+<min>8</min>
+<quantmin>-1</quantmin>
+<quantmax>-1</quantmax>
+<cost>100</cost>
+<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+<category name="weapons"/>
+<usage name="Military"/>
+</type>
+<type name="JD_Mag_P90_50Rnd">
+<nominal>10</nominal>
+<lifetime>28800</lifetime>
+<restock>0</restock>
+<min>8</min>
+<quantmin>-1</quantmin>
+<quantmax>-1</quantmax>
+<cost>100</cost>
+<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+<category name="weapons"/>
+<usage name="Military"/>
+</type>
+<type name="JD_Mag_Tec9_32rnd">
+<nominal>10</nominal>
+<lifetime>28800</lifetime>
+<restock>0</restock>
+<min>8</min>
+<quantmin>-1</quantmin>
+<quantmax>-1</quantmax>
+<cost>100</cost>
+<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+<category name="weapons"/>
+<usage name="Military"/>
+</type>
+<!--JD's Weapons -->
+<!--JD's AMMO -->
+<type name="Ammo_FN57x28">
+<nominal>7</nominal>
+<lifetime>28800</lifetime>
+<restock>0</restock>
+<min>5</min>
+<quantmin>-1</quantmin>
+<quantmax>-1</quantmax>
+<cost>100</cost>
+<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+<category name="weapons"/>
+<usage name="Military"/>
+<value name="Tier3"/>
+<value name="Tier4"/>
+</type>
+<type name="AmmoBox_FN57x28_40rnd">
+<nominal>15</nominal>
+<lifetime>28800</lifetime>
+<restock>0</restock>
+<min>7</min>
+<quantmin>-1</quantmin>
+<quantmax>-1</quantmax>
+<cost>100</cost>
+<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+<category name="weapons"/>
+<usage name="Military"/>
+<value name="Tier3"/>
+<value name="Tier4"/>
+</type>
+<type name="Ammo_HK_46x30">
+<nominal>7</nominal>
+<lifetime>28800</lifetime>
+<restock>0</restock>
+<min>5</min>
+<quantmin>-1</quantmin>
+<quantmax>-1</quantmax>
+<cost>100</cost>
+<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+<category name="weapons"/>
+<usage name="Military"/>
+<value name="Tier3"/>
+<value name="Tier4"/>
+</type>
+<type name="AmmoBox_HK_46x30_40rnd">
+<nominal>15</nominal>
+<lifetime>28800</lifetime>
+<restock>0</restock>
+<min>7</min>
+<quantmin>-1</quantmin>
+<quantmax>-1</quantmax>
+<cost>100</cost>
+<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+<category name="weapons"/>
+<usage name="Military"/>
+<value name="Tier3"/>
+<value name="Tier4"/>
+</type>
+</types>
