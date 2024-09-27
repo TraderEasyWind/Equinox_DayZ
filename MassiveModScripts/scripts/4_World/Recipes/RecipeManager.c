@@ -1,0 +1,50 @@
+modded class PluginRecipesManager 
+{
+	override void RegisterRecipies()
+	{	super.RegisterRecipies();
+        RegisterRecipe(new MassiveMod_PistolScrapping);
+        RegisterRecipe(new MassiveMod_RifleScrapping);
+        RegisterRecipe(new MassiveMod_HighEndScrapping);
+        RegisterRecipe(new MassiveMod_HighEndRepairKit);
+		RegisterRecipe(new MassiveMod_RifleRepairKit);
+		RegisterRecipe(new MassiveMod_PistolRepairKit);
+        RegisterRecipe(new MassiveMod_RepairHighEnd);
+        RegisterRecipe(new MassiveMod_RepairRifle);
+        RegisterRecipe(new MassiveMod_RepairPistol);
+		RegisterRecipe(new MassiveMod_AdminRepair);
+        RegisterRecipe(new StackCrates);	
+        RegisterRecipe(new StackCrates2);		
+        RegisterRecipe(new StackCrates3);	
+        RegisterRecipe(new DeStackCrates3);
+        RegisterRecipe(new DeStackCrates2);
+        RegisterRecipe(new DeStackCrates1);	
+        RegisterRecipe(new UnpackBDUPackage);
+        RegisterRecipe(new UnpackGorkaAutumnPackage);
+        RegisterRecipe(new UnpackGorkaFlatPackage);
+        RegisterRecipe(new UnpackGorkaSummerPackage);
+        RegisterRecipe(new UnpackGorkaPautRevPackage);
+        RegisterRecipe(new UnpackUSMCDesertPackage);
+        RegisterRecipe(new UnpackUSMCWoodlandPackage);
+        RegisterRecipe(new UnpackTTSKOPackage);
+        RegisterRecipe(new UnpackSumrakPackage);
+        RegisterRecipe(new UnpackYegerWoodlandPackage);
+        RegisterRecipe(new UnpackYegerWinterPackage);	
+        RegisterRecipe(new UnpackGorkaWinterPackage);
+        RegisterRecipe(new UnpackBDUWinterPackage);
+        RegisterRecipe(new UnpackUSMCWinterPackage);
+        RegisterRecipe(new UnpackTropicamPackage);
+		RegisterRecipe(new UnpackMandrakePackage);
+        RegisterRecipe(new UnpackUrbanPackage);
+        RegisterRecipe(new UnpackSM90Package);
+        RegisterRecipe(new UnpackInvertGorkaWoodlandPackage);
+        RegisterRecipe(new UnpackInvertGorkaWinterPackage);
+        RegisterRecipe(new UnpackInvertGorkaFlecktarnPackage);
+        RegisterRecipe(new Craft556AmmoBox);
+        RegisterRecipe(new Craft545AmmoBox);
+        RegisterRecipe(new Craft762x39AmmoBox);
+        RegisterRecipe(new Craft762x54AmmoBox);
+        RegisterRecipe(new Craft308AmmoBox);
+        RegisterRecipe(new BuryBarerlStash);
+        RegisterRecipe(new DigUpBarerlStash);		
+	}
+}

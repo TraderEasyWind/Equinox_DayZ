@@ -1,0 +1,26 @@
+ImageSetClass {
+ Name "MassiveModATlas"
+ RefSize 2400 2400
+ Textures {
+  ImageSetTextureClass {
+   mpix 1
+   path "{CD8959A88F21A13C}MassiveMod/GUI/ImageSets/MassiveModAtlas.edds"
+  }
+ }
+ Images {
+  ImageSetDefClass MM_Melee {
+   Name "MM_Melee"
+   Pos 4 2
+   Size 810 810
+   Flags 0
+  }
+  ImageSetDefClass MM_VestPlate {
+   Name "MM_VestPlate"
+   Pos -79 1080
+   Size 950 950
+   Flags 0
+  }
+ }
+ Groups {
+ }
+}

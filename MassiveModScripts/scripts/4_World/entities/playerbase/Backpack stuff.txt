@@ -1,0 +1,86 @@
+/**
+ *  \file PlayerBase.c
+ *  \author David BRIWA (Hellmaker2a) : https://github.com/davidou2a
+ *  \version 1.0
+ *  \date  2021/10/20
+ */
+
+modded class PlayerBase
+{			
+	/**
+	 *  \name OnConnect
+	 *  \return void
+	 */
+	override void OnConnect()
+	{
+		super.OnConnect();
+						
+		if (GetGame().IsClient())
+		{
+			EntityAI eai = FindAttachmentBySlotName("Back");
+			
+			if (eai != null)
+			{
+				eai.GetInventory().LockInventory(HIDE_INV_FROM_SCRIPT);
+			}
+		}
+	}
+	
+	/**
+	 *  \name OnPlayerLoaded
+	 *  \return void
+	 */
+	override void OnPlayerLoaded()
+	{
+		super.OnPlayerLoaded(); 
+		 
+		if (GetGame().IsClient())
+		{
+			EntityAI eai = FindAttachmentBySlotName("Back");
+			
+			if (eai != null)
+			{
+				eai.GetInventory().LockInventory(HIDE_INV_FROM_SCRIPT);
+			}		
+		}	
+	}
+
+	/**
+	 *  \name OnSelectPlayer
+	 *  \return void
+	 */
+	override void OnSelectPlayer()
+	{
+		super.OnSelectPlayer();  
+
+		if (GetGame().IsClient())
+		{
+			
+			EntityAI eai = FindAttachmentBySlotName("Back");
+			
+			if (eai != null)
+			{
+				eai.GetInventory().LockInventory(HIDE_INV_FROM_SCRIPT);
+			}			
+		}
+	}
+	
+	/**
+	 *  \name EEItemAttached
+	 *  \param [in] item      EntityAI
+	 *  \param [in] slot_name string
+	 *  \return void
+	 */
+	override void EEItemAttached(EntityAI item, string slot_name)
+    {
+        super.EEItemAttached(item, slot_name);
+
+		if (GetGame().IsClient())
+		{
+			if (slot_name == "Back")
+			{
+				item.GetInventory().LockInventory(HIDE_INV_FROM_SCRIPT);
+			}	
+		}	
+	}
+}

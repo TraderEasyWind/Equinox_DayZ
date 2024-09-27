@@ -1,0 +1,37 @@
+modded class FarmingHoe: ItemBase
+{
+	override void SetActions()
+	{
+		super.SetActions();
+		
+		RemoveAction(ActionDigGardenPlot);
+	}
+}
+modded class Iceaxe: Inventory_Base
+{
+	override void SetActions()
+	{
+		super.SetActions();
+		
+		RemoveAction(ActionDigGardenPlot);
+	}
+};
+modded class Pickaxe extends ItemBase
+{
+	override void SetActions()
+	{
+		super.SetActions();
+		
+		RemoveAction(ActionDigGardenPlot);
+	}
+}	
+modded class Shovel extends ItemBase
+{
+	override void SetActions()
+	{
+		super.SetActions();
+		
+		RemoveAction(ActionDigGardenPlot);
+	}
+}
+

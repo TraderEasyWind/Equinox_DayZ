@@ -1,0 +1,11 @@
+modded class PlayerBase
+{
+    override void UpdateColdResistance( float coldresist )
+    {
+        if(g_Game.GetWorldName() == "chernarusplus")
+            coldresist = coldresist / 9999;
+        GetStatColdResistance().Add( coldresist );
+        m_ColdResistance = (int) ( GetStatColdResistance().Get() * 10000 );
+        SetSynchDirty();
+    }
+}

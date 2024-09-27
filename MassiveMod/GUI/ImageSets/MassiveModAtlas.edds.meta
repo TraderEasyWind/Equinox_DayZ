@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{CD8959A88F21A13C}MassiveMod/GUI/ImageSets/MassiveModAtlas.edds"
+ Author "desktop-u37uqmj"
+ ChangeDate 556478639
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "MassiveModAtlas.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

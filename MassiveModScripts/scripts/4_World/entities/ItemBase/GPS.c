@@ -1,0 +1,1 @@
+class MassiveMod_GPS: Inventory_Base{};

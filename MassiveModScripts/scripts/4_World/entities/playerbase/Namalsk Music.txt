@@ -1,0 +1,32 @@
+modded class PlayerBase
+{
+	protected ref DynamicMusic 							m_DynamicMusic;
+	protected bool  									m_IsOnNamalsk;
+
+	override void Init()
+	{	
+		super.Init();
+
+		string worldName = "empty";
+		GetGame().GetWorldName( worldName );
+		worldName.ToLower();
+		if ( worldName == "namalsk" )
+		{
+			m_IsOnNamalsk = true;
+			
+			if ( !GetGame().IsServer() || !GetGame().IsMultiplayer() )
+			{
+				m_DynamicMusic = new DynamicMusic( this );
+			}
+		}
+		else 
+		{
+			m_IsOnNamalsk = false;
+			
+			if ( !GetGame().IsServer() || !GetGame().IsMultiplayer() )
+			{
+				m_DynamicMusic = new DynamicMusic( this );
+			}
+		}
+	}
+};
