@@ -139,9 +139,9 @@ class CfgVehicles
 		attachments[]={"Vest","Shoulder","Case","ClothingPackage"};
 		itemsCargoSize[] = {10,6};
 	};
-	class MassiveMod_CrateTier1_Food_Meds: MassiveMod_CrateTier1{};
-	class MassiveMod_CrateTier1_Tools: MassiveMod_CrateTier1{};
-	class MassiveMod_CrateTier1_Guns: MassiveMod_CrateTier1{};
+	class MassiveMod_CrateTier1_2: MassiveMod_CrateTier1{};
+	class MassiveMod_CrateTier1_3: MassiveMod_CrateTier1{};
+	class MassiveMod_CrateTier1_4: MassiveMod_CrateTier1{};
 	class MassiveMod_CrateTier2: MassiveModCrate_Base
 	{
 		scope = 2;
@@ -151,11 +151,11 @@ class CfgVehicles
 		attachments[]={"Vest","Shoulder","Case"};
 		itemsCargoSize[] = {10,8};
 	};
-	class MassiveMod_CrateTier2_Mosin: MassiveMod_CrateTier2{};
-	class MassiveMod_CrateTier2_SKS: MassiveMod_CrateTier2{};
-	class MassiveMod_CrateTier2_SVT: MassiveMod_CrateTier2{};
-	class MassiveMod_CrateTier2_PPSH: MassiveMod_CrateTier2{};
-	class MassiveMod_CrateTier2_MP153: MassiveMod_CrateTier2{};
+	class MassiveMod_CrateTier2_2: MassiveMod_CrateTier2{};
+	class MassiveMod_CrateTier2_3: MassiveMod_CrateTier2{};
+	class MassiveMod_CrateTier2_4: MassiveMod_CrateTier2{};
+	class MassiveMod_CrateTier2_5: MassiveMod_CrateTier2{};
+	class MassiveMod_CrateTier2_6: MassiveMod_CrateTier2{};
 	class MassiveMod_CrateTier3: MassiveModCrate_Base
 	{
 		scope = 2;
@@ -165,13 +165,13 @@ class CfgVehicles
 		attachments[]={"Vest","Headgear","Shoulder","Case","ClothingPackage"};
 		itemsCargoSize[] = {10,9};
 	};
-	class MassiveMod_CrateTier3_AKM: MassiveMod_CrateTier3{};
-	class MassiveMod_CrateTier3_AK74: MassiveMod_CrateTier3{};
-	class MassiveMod_CrateTier3_AK101: MassiveMod_CrateTier3{};
-	class MassiveMod_CrateTier3_M4A1: MassiveMod_CrateTier3{};
-	class MassiveMod_CrateTier3_TacticalMP153: MassiveMod_CrateTier3{};
-	class MassiveMod_CrateTier3_VSS: MassiveMod_CrateTier3{};
-	class MassiveMod_CrateTier3_AVS: MassiveMod_CrateTier3{};
+	class MassiveMod_CrateTier3_2: MassiveMod_CrateTier3{};
+	class MassiveMod_CrateTier3_3: MassiveMod_CrateTier3{};
+	class MassiveMod_CrateTier3_4: MassiveMod_CrateTier3{};
+	class MassiveMod_CrateTier3_5: MassiveMod_CrateTier3{};
+	class MassiveMod_CrateTier3_6: MassiveMod_CrateTier3{};
+	class MassiveMod_CrateTier3_7: MassiveMod_CrateTier3{};
+	class MassiveMod_CrateTier3_8: MassiveMod_CrateTier3{};
 	class MassiveMod_CrateTier4: MassiveModCrate_Base
 	{
 		scope = 2;
@@ -187,14 +187,14 @@ class CfgVehicles
 			allowOwnedCargoManipulation = 1;
 		};
 	};
-	class MassiveMod_CrateTier4_SVD: MassiveMod_CrateTier4{};
-	class MassiveMod_CrateTier4_FAL: MassiveMod_CrateTier4{};
-	class MassiveMod_CrateTier4_M417: MassiveMod_CrateTier4{};
-	class MassiveMod_CrateTier4_M24A3: MassiveMod_CrateTier4{};
-	class MassiveMod_CrateTier4_AWM: MassiveMod_CrateTier4{};
-	class MassiveMod_CrateTier4_WolfAR15: MassiveMod_CrateTier4{};
-	class MassiveMod_CrateTier4_Vaiga: MassiveMod_CrateTier4{};
-	class MassiveMod_CrateTier4_M4A1: MassiveMod_CrateTier4{};
+	class MassiveMod_CrateTier4_2: MassiveMod_CrateTier4{};
+	class MassiveMod_CrateTier4_3: MassiveMod_CrateTier4{};
+	class MassiveMod_CrateTier4_4: MassiveMod_CrateTier4{};
+	class MassiveMod_CrateTier4_5: MassiveMod_CrateTier4{};
+	class MassiveMod_CrateTier4_6: MassiveMod_CrateTier4{};
+	class MassiveMod_CrateTier4_7: MassiveMod_CrateTier4{};
+	class MassiveMod_CrateTier4_8: MassiveMod_CrateTier4{};
+	class MassiveMod_CrateTier4_9: MassiveMod_CrateTier4{};
 	class MassiveMod_CrateTier5: MassiveModCrate_Base
 	{
 		scope = 2;
@@ -204,11 +204,11 @@ class CfgVehicles
 		attachments[]={"Vest","Back","Shoulder","Case","ClothingPackage","Slot_Melee"};
 		itemsCargoSize[] = {10,15};
 	};
-	class MassiveMod_CrateTier5_M300: MassiveMod_CrateTier5{};
-	class MassiveMod_CrateTier5_M24A3: MassiveMod_CrateTier5{};
-	class MassiveMod_CrateTier5_Kivaari: MassiveMod_CrateTier5{};
-	class MassiveMod_CrateTier5_AWM: MassiveMod_CrateTier5{};
-	class MassiveMod_CrateTier5_M98B: MassiveMod_CrateTier5{};
-	class MassiveMod_CrateTier5_PKM: MassiveMod_CrateTier5{};
-	class MassiveMod_CrateTier5_338: MassiveMod_CrateTier5{};
+	class MassiveMod_CrateTier5_2: MassiveMod_CrateTier5{};
+	class MassiveMod_CrateTier5_3: MassiveMod_CrateTier5{};
+	class MassiveMod_CrateTier5_4: MassiveMod_CrateTier5{};
+	class MassiveMod_CrateTier5_5: MassiveMod_CrateTier5{};
+	class MassiveMod_CrateTier5_6: MassiveMod_CrateTier5{};
+	class MassiveMod_CrateTier5_7: MassiveMod_CrateTier5{};
+	class MassiveMod_CrateTier5_8: MassiveMod_CrateTier5{};
 };

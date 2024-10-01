@@ -1,8 +1,8 @@
 <events>
 	<event name="StaticC130Wreck">
-        <nominal>1</nominal>
-        <min>1</min>
-        <max>2</max>
+        <nominal>5</nominal>
+        <min>5</min>
+        <max>5</max>
         <lifetime>28800</lifetime>
         <restock>28800</restock>
         <saferadius>1000</saferadius>
@@ -14,7 +14,7 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="40" lootmin="40" max="1" min="1" type="MassiveMod_Land_Wreck_C130J"/>
+            <child lootmax="40" lootmin="40" max="5" min="5" type="MassiveMod_Land_Wreck_C130J"/>
         </children>
     </event>
 </events>

@@ -67,11 +67,12 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
         <file name="JunkFoodCan.xml" type="types" />
 		<file name="StoreLoot.xml" type="types" />
 		<file name="EventTypes.xml" type="types" />
+		<file name="Basebuilding.xml" type="types" />
    </ce>
    <ce folder="CustomEvents">
-		<file name="DatsunEvent.xml" type="events" />
 		<file name="SurvivorCamp.xml" type="events" />
-		<file name="C130.xml" type="events" />
-		<file name="Zombies.xml" type="events" />
+	</ce>
+	<ce folder="CustomCFGSpawnableTypes">
+		<file name="TieredCachesCFG.xml" type="spawnabletypes" />
 	</ce>
 </economycore>
