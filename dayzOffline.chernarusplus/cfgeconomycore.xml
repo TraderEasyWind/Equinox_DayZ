@@ -60,4 +60,7 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
   <ce folder="CustomTypes/JD">
         <file name="jd_types.xml" type="types" />
   </ce>
+  <ce folder="CustomTypes/MMIO">
+        <file name="MMIO_types.xml" type="types" />
+   </ce>
 </economycore>

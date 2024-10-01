@@ -23,10 +23,9 @@
     <text>Tell your friends about #name, have them join!</text>
   </message>
  
-  <message>
-    <deadline>360</deadline>
-    <shutdown>1</shutdown>
-    <text>#name will restart in #tmin minutes!</text>
-  </message>
- 
+    <message>
+        <deadline>360</deadline>
+        <shutdown>1</shutdown>
+        <text>#name will shutdown in #tmin minutes.</text>
+    </message>
 </messages>

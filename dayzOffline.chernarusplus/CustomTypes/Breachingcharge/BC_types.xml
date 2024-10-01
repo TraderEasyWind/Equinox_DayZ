@@ -92,25 +92,25 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="HDSN_C4Sticks">
-		<nominal>0</nominal>
+		<nominal>1</nominal>
 		<lifetime>0</lifetime>
 		<restock>0</restock>
-		<min>0</min>
-		<quantmin>0</quantmin>
-		<quantmax>0</quantmax>
+		<min>1</min>
+		<quantmin>1</quantmin>
+		<quantmax>1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name=""/>
-		<usage name=""/>
-		<value name=""/>
+		<category name="explosives"/>
+		<usage name="Military"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="HDSN_C4NoWiring">
 		<nominal>0</nominal>
 		<lifetime>0</lifetime>
 		<restock>0</restock>
 		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<quantmin>1</quantmin>
+		<quantmax>1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name=""/>
@@ -123,11 +123,11 @@
 		<restock>3600</restock>
 		<min>1</min>
 		<quantmin>1</quantmin>
-		<quantmax>16</quantmax>
+		<quantmax>1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name=""/>
-		<usage name=""/>
-		<value name=""/>
+		<category name="explosives"/>
+		<usage name="Military"/>
+		<value name="Tier4"/>
 	</type>
 </types>
