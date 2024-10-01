@@ -150,21 +150,29 @@ class CfgVehicles
 		scope=2;
 		hiddenSelections[] = {"camoGround"};
 		hiddenSelectionsTextures[] = {"MassiveMod\zenleftoversadjustment\Data\foodcan_100g_pajka_empty_co.paa"};
+		displayName = "Empty Can";
+		descriptionShort="$STR_Pajka1";
 	};
 	class MM_Pate_Empty: MM_FoodCan_100g_Opened_ColorBase
 	{
 		scope=2;
 		hiddenSelections[] = {"camoGround"};
 		hiddenSelectionsTextures[] = {"MassiveMod\zenleftoversadjustment\Data\foodcan_100g_liver_empty_co.paa"};
+		displayName = "Empty Can";
+		descriptionShort="$STR_Pate1";
 	};
 	class MM_Brisket_Empty: MM_FoodCan_100g_Opened_ColorBase
 	{
 		scope=2;
 		hiddenSelections[] = {"camoGround"};
 		hiddenSelectionsTextures[] = {"MassiveMod\zenleftoversadjustment\Data\foodcan_100g_brisket_empty_co.paa"};
+		displayName = "Empty Can";
+		descriptionShort="$STR_BrisketSpread1";
 	};
 	class MM_FoodCan_250g_Opened_ColorBase: Inventory_Base
 	{
+		displayName = "Empty Can";
+		descriptionShort="$STR_Lunchmeat1";
 		debug_ItemCategory = 6;
 		model = "\dz\gear\food\FoodCan_250g_open.p3d";
 		itemSize[] = {2,1};
@@ -222,17 +230,23 @@ class CfgVehicles
 		scope=2;
 		hiddenSelections[] = {"camoGround"};
 		hiddenSelectionsTextures[] = {"MassiveMod\zenleftoversadjustment\Data\foodcan_250g_cat_empty_co.paa"};
+		displayName = "Empty Can";
+		descriptionShort="$STR_CatFoodCan1";
 	};
 	class MM_FoodCan_250g_DogEmpty: MM_FoodCan_250g_Opened_ColorBase
 	{
 		scope=2;
 		hiddenSelections[] = {"camoGround"};
 		hiddenSelectionsTextures[] = {"MassiveMod\zenleftoversadjustment\Data\foodcan_250g_dog_empty_co.paa"};
+		displayName = "Empty Can";
+		descriptionShort="$STR_DogFoodCan1";
 	};
 	class MM_FoodCan_250g_PorkEmpty: MM_FoodCan_250g_Opened_ColorBase
 	{
 		scope=2;
 		hiddenSelections[] = {"camoGround"};
 		hiddenSelectionsTextures[] = {"MassiveMod\zenleftoversadjustment\Data\foodcan_250g_pork_empty_co.paa"};
+		displayName = "Empty Can";
+		descriptionShort="$STR_PorkCan1";
 	};
 };

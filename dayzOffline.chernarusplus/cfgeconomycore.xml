@@ -63,4 +63,8 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
   <ce folder="CustomTypes/MMIO">
         <file name="MMIO_types.xml" type="types" />
    </ce>
+   <ce folder="CustomTypes/MassiveMod">
+        <file name="JunkFoodCan.xml" type="types" />
+		<file name="StoreLoot.xml" type="types" />
+   </ce>
 </economycore>

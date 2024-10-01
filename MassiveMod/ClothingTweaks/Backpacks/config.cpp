@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class Spearhead_BackpackTweaks
+	class EQ_BackpackTweaks
 	{
 		units[] = {};
 		weapons[] = {};
@@ -8,7 +8,6 @@ class CfgPatches
 		requiredAddons[] = 
 		{
 			"DZ_Data",
-			"Spearhead_ClothingTweaks",
 			"DZ_Characters_Backpacks"
 		};
 		author = "Mass";
