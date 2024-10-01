@@ -1,0 +1,21 @@
+<events>
+	<event name="StaticSurvivorCamp">
+        <nominal>20</nominal>
+        <min>10</min>
+        <max>21</max>
+        <lifetime>2100</lifetime>
+        <restock>0</restock>
+        <saferadius>1000</saferadius>
+        <distanceradius>1000</distanceradius>
+        <cleanupradius>1000</cleanupradius>
+        <secondary>InfectedSolitude</secondary>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="15" lootmin="10" max="10" min="5" type="MassiveMod_SurvivorCamp"/>
+			<child lootmax="15" lootmin="10" max="10" min="5" type="MassiveMod_SurvivorCampImprov"/>
+        </children>
+    </event>
+</events>
