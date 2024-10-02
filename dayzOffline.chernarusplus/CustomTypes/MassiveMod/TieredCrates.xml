@@ -1,74 +1,6 @@
 <types>
-<!-->
-    <type name="MassiveMod_CrateTier5">
-        <nominal>1</nominal>
-        <lifetime>604800</lifetime>
-        <restock>0</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>10000</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-		<tag name="floor"/>
-		<category name="Tier5Crate"/>
-		<usage name="T5Cache"/>
-		<usage name="C130Exclusive"/>	
-		<value name="Tier4"/>
-		<value name="Tier3"/>
-		<value name="Tier2"/>
-		<value name="Tier1"/>
-    </type>
-<!-->
 	<type name="MassiveMod_CrateTier1">
-        <nominal>10</nominal>
-        <lifetime>604800</lifetime>
-        <restock>0</restock>
-        <min>5</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>0</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
-		<tag name="floor"/>
-		<value name="Tier1"/>
-    </type>
-	<type name="MassiveMod_CrateTier1_2">
-        <nominal>0</nominal>
-        <lifetime>604800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>0</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
-		<tag name="floor"/>
-		<value name="Tier1"/>
-    </type>
-	<type name="MassiveMod_CrateTier1_3">
-        <nominal>0</nominal>
-        <lifetime>604800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>0</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
-		<tag name="floor"/>
-		<value name="Tier1"/>
-    </type>
-	<type name="MassiveMod_CrateTier1_4">
-        <nominal>0</nominal>
-        <lifetime>604800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>0</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
-		<tag name="floor"/>
-		<value name="Tier1"/>
-    </type>
-	<type name="MassiveMod_CrateTier2">
-        <nominal>10</nominal>
+       <nominal>5</nominal>
         <lifetime>604800</lifetime>
         <restock>0</restock>
         <min>3</min>
@@ -76,47 +8,23 @@
         <quantmax>-1</quantmax>
         <cost>0</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <value name="Tier2"/>
+		<value name="Tier1"/>
 		<tag name="floor"/>
     </type>
-	<type name="MassiveMod_CrateTier2_2">
-        <nominal>0</nominal>
+	<type name="MassiveMod_CrateTier2">
+       <nominal>5</nominal>
         <lifetime>604800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>0</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <value name="Tier2"/>
-		<tag name="floor"/>
-    </type>
-	<type name="MassiveMod_CrateTier2_3">
-        <nominal>0</nominal>
-        <lifetime>604800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>0</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <value name="Tier2"/>
-		<tag name="floor"/>
-    </type>
-	<type name="MassiveMod_CrateTier2_4">
-        <nominal>0</nominal>
-        <lifetime>604800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>0</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <value name="Tier2"/>
+		<value name="Tier2"/>
 		<tag name="floor"/>
     </type>
 	<type name="MassiveMod_CrateTier3">
-        <nominal>5</nominal>
+       <nominal>5</nominal>
         <lifetime>604800</lifetime>
         <restock>0</restock>
         <min>3</min>
@@ -124,211 +32,19 @@
         <quantmax>-1</quantmax>
         <cost>0</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<tag name="floor"/>
-		<value name="Tier2"/>
 		<value name="Tier3"/>
-		<usage name="Military"/>
-    </type>
-	<type name="MassiveMod_CrateTier3_2">
-        <nominal>0</nominal>
-        <lifetime>604800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>0</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<tag name="floor"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-		<usage name="Military"/>
-    </type>
-	<type name="MassiveMod_CrateTier3_3">
-        <nominal>0</nominal>
-        <lifetime>604800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>0</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<tag name="floor"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-		<usage name="Military"/>
-    </type>
-	<type name="MassiveMod_CrateTier3_4">
-        <nominal>0</nominal>
-        <lifetime>604800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>0</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<tag name="floor"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-		<usage name="Military"/>
-    </type>
-	<type name="MassiveMod_CrateTier3_5">
-        <nominal>0</nominal>
-        <lifetime>604800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>0</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<tag name="floor"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-		<usage name="Military"/>
-    </type>
-	<type name="MassiveMod_CrateTier3_6">
-        <nominal>0</nominal>
-        <lifetime>604800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>0</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<tag name="floor"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-		<usage name="Military"/>
-    </type>
-	<type name="MassiveMod_CrateTier3_7">
-        <nominal>0</nominal>
-        <lifetime>604800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>0</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<tag name="floor"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-		<usage name="Military"/>
-    </type>
-	<type name="MassiveMod_CrateTier3_8">
-        <nominal>0</nominal>
-        <lifetime>604800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>0</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<tag name="floor"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-		<usage name="Military"/>
     </type>
 	<type name="MassiveMod_CrateTier4">
-        <nominal>3</nominal>
+       <nominal>5</nominal>
         <lifetime>604800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>0</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<tag name="floor"/>
 		<value name="Tier4"/>
-		<usage name="Military"/>
-    </type>
-	<type name="MassiveMod_CrateTier4_2">
-        <nominal>0</nominal>
-        <lifetime>604800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>0</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<tag name="floor"/>
-		<value name="Tier4"/>
-		<usage name="Military"/>
-    </type>
-	<type name="MassiveMod_CrateTier4_3">
-        <nominal>0</nominal>
-        <lifetime>604800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>0</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<tag name="floor"/>
-		<value name="Tier4"/>
-		<usage name="Military"/>
-    </type>
-	<type name="MassiveMod_CrateTier4_4">
-        <nominal>0</nominal>
-        <lifetime>604800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>0</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<tag name="floor"/>
-		<value name="Tier4"/>
-		<usage name="Military"/>
-    </type>
-	<type name="MassiveMod_CrateTier4_5">
-        <nominal>0</nominal>
-        <lifetime>604800</lifetime>
-        <restock>0</restock>
-        <min>0<min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>0</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<tag name="floor"/>
-		<value name="Tier4"/>
-		<usage name="Military"/>
-    </type>
-	<type name="MassiveMod_CrateTier4_6">
-        <nominal>0</nominal>
-        <lifetime>604800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>0</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<tag name="floor"/>
-		<value name="Tier4"/>
-		<usage name="Military"/>
-    </type>
-	<type name="MassiveMod_CrateTier4_7">
-        <nominal>0</nominal>
-        <lifetime>604800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>0</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<tag name="floor"/>
-		<value name="Tier4"/>
-		<usage name="Military"/>
-    </type>
-	<type name="MassiveMod_CrateTier4_8">
-        <nominal>0</nominal>
-        <lifetime>604800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>0</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<tag name="floor"/>
-		<value name="Tier4"/>
-		<usage name="Military"/>
     </type>
 </types>

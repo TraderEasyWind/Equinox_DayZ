@@ -1,5 +1,5 @@
 <spawnabletypes>
-	<type name="MassiveMod_CrateTier1_Tools">
+	<type name="MassiveMod_CrateTier1">
 		<cargo chance="0.50"> <item name="CodeLock" /> </cargo>
 	    <cargo chance="0.20"> <item name="MassiveMod_Tier2Key" /> </cargo>
 		<cargo chance="0.5"> <item name="SledgeHammer" /> </cargo>
@@ -16,59 +16,6 @@
         <cargo chance="0.5"> <item name="MetalWire" /> </cargo>		
 		<cargo chance="0.10"> <item name="MassiveMod_KeyRing" /> </cargo>
         <cargo chance="0.25"> <item name="Mass_LunchBox" /> </cargo>
-	</type>
-	<type name="MassiveMod_CrateTier1_Guns"> <!--Tier1 For Cross-Map CIV Spawns!-->
-		<cargo chance="0.50"> <item name="CodeLock" /> </cargo>
-	    <cargo chance="0.20"> <item name="MassiveMod_Tier2Key" /> </cargo>
-		<cargo chance="0.5"> <item name="SledgeHammer" /> </cargo>
-        <cargo chance="0.5"> <item name="Shovel" /> </cargo>
-        <cargo chance="0.5"> <item name="Pliers" /> </cargo>		
-		<cargo chance="0.5"> <item name="Hammer" /> </cargo>
-        <cargo chance="0.5"> <item name="Hatchet" /> </cargo>
-        <cargo chance="0.5"> <item name="Hacksaw" /> </cargo>
-        <cargo chance="0.5"> <item name="HandSaw" /> </cargo>
-        <cargo chance="0.5"> <item name="NailBox" /> </cargo>
-        <cargo chance="0.5"> <item name="NailBox" /> </cargo>
-        <cargo chance="0.5"> <item name="HuntingKnife" /> </cargo>	
-        <cargo chance="0.5"> <item name="Whetstone" /> </cargo>
-        <cargo chance="0.5"> <item name="MetalWire" /> </cargo>		
-		<cargo chance="0.10"> <item name="MassiveMod_KeyRing" /> </cargo>
-        <cargo chance="0.25"> <item name="Mass_LunchBox" /> </cargo>
-	</type>
-	<type name="MassiveMod_CrateTier1_Food_Meds">
-	    <cargo chance="0.50"> <item name="MassiveMod_Tier2Key" /> </cargo>
-		<cargo chance="0.5"> <item name="BakedBeansCan" /> </cargo>			
-		<cargo chance="0.5"> <item name="SpaghettiCan" /> </cargo>			
-		<cargo chance="0.5"> <item name="Epinephrine" /> </cargo>			
-		<cargo chance="0.5"> <item name="Morphine" /> </cargo>	
-		<cargo chance="0.5"> <item name="VitaminBottle" /> </cargo>			
-		<cargo chance="0.5"> <item name="TetracyclineAntibiotics" /> </cargo>				
-		<cargo chance="0.5"> <item name="SalineBagIV" /> </cargo>			
-		<cargo chance="0.5"> <item name="BandageDressing" /> </cargo>
-        <cargo chance="0.5"> <item name="BandageDressing" /> </cargo>	
-        <cargo chance="0.5"> <item name="BandageDressing" /> </cargo>			
-		<cargo chance="0.5"> <item name="DisinfectantSpray" /> </cargo>			
-		<cargo chance="0.5"> <item name="TunaCan" /> </cargo>			
-		<cargo chance="0.5"> <item name="SardinesCan" /> </cargo>			
-		<cargo chance="0.5"> <item name="PorkCan" /> </cargo>	
-        <cargo chance="0.5"> <item name="TacticalBaconCan" /> </cargo>
-		<cargo chance="0.5"> <item name="BakedBeansCan" /> </cargo>			
-		<cargo chance="0.5"> <item name="SpaghettiCan" /> </cargo>			
-		<cargo chance="0.5"> <item name="Epinephrine" /> </cargo>			
-		<cargo chance="0.5"> <item name="Morphine" /> </cargo>	
-		<cargo chance="0.5"> <item name="VitaminBottle" /> </cargo>			
-		<cargo chance="0.5"> <item name="TetracyclineAntibiotics" /> </cargo>				
-		<cargo chance="0.5"> <item name="SalineBagIV" /> </cargo>			
-		<cargo chance="0.5"> <item name="BandageDressing" /> </cargo>
-        <cargo chance="0.5"> <item name="BandageDressing" /> </cargo>	
-        <cargo chance="0.5"> <item name="BandageDressing" /> </cargo>			
-		<cargo chance="0.5"> <item name="DisinfectantSpray" /> </cargo>			
-		<cargo chance="0.5"> <item name="TunaCan" /> </cargo>			
-		<cargo chance="0.5"> <item name="SardinesCan" /> </cargo>			
-		<cargo chance="0.5"> <item name="PorkCan" /> </cargo>	
-        <cargo chance="0.5"> <item name="TacticalBaconCan" /> </cargo>		
-		<cargo chance="0.10"> <item name="MassiveMod_KeyRing" /> </cargo>
-        <cargo chance="0.25"> <item name="Mass_LunchBox" /> </cargo>		
 	</type>
 	<type name="MassiveMod_CrateTier2">
 	    <cargo chance="1.00">
@@ -102,40 +49,6 @@
 		<cargo chance="0.20"> <item name="AmmoBox_45ACP_25rnd" /> </cargo>	
 		<cargo chance="0.50"> <item name="MassiveMod_KeyRing" /> </cargo>
         <cargo chance="0.30"> <item name="Mass_LunchBox" /> </cargo>
-        <cargo chance="0.15"> <item name="MRTs_C4_Homemade" /> </cargo>		
-	</type>
-	<type name="MassiveMod_CrateTier2_Mosin"> <!--Tier2 For Cross-Map CIV Spawns!-->
-	    <cargo chance="1.00">
-			<item name="Mosin9130_Green"  chance="0.05" />
-			<item name="Mosin9130_Black"  chance="0.05" />
-			<item name="Mosin9130_Camo"  chance="0.05" />
-			<item name="SKS_Black"  chance="0.05" />
-			<item name="SKS_Green"  chance="0.05" />
-			<item name="MassiveMod_Mosin9130_Dark"  chance="0.05" />
-			<item name="MassiveMod_Mosin9130_Light"  chance="0.05" />
-			<item name="MassSVT40_Black"  chance="0.05" />
-			<item name="MassSVT40_Green"  chance="0.05" />
-			<item name="MassSVT40_Camo"  chance="0.05" />
-			<item name="MassPPSH41_Black"  chance="0.05" />
-			<item name="MassPPSH41_Green"  chance="0.05" />
-			<item name="MassPPSH41_Camo"  chance="0.05" />
-			<item name="SNAFUSten"  chance="0.05" />
-			<item name="MassMP40"  chance="0.05" />
-			<item name="SNAFUThompsonMk2"  chance="0.05" />
-			<item name="SNAFUUZI"  chance="0.05" />
-			<item name="MassMP153"  chance="0.05" />
-			<item name="SNAFU_ADAR_Modular16_GUN"  chance="0.05" />
-			<item name="GCGN_Vepr"  chance="0.06" />
-		</cargo>
-		<cargo chance="0.20"> <item name="MassiveMod_Tier3Key" /> </cargo>
-		<cargo chance="0.20"> <item name="WeaponCleaningKit" /> </cargo>
-		<cargo chance="0.20"> <item name="AmmoBox_308Win_20Rnd" /> </cargo>									
-		<cargo chance="0.20"> <item name="AmmoBox_762x54Tracer_20Rnd" /> </cargo>														
-		<cargo chance="0.20"> <item name="AmmoBox_762x39_20Rnd" /> </cargo>			
-		<cargo chance="0.20"> <item name="AmmoBox_9x19_25rnd" /> </cargo>								
-		<cargo chance="0.20"> <item name="AmmoBox_45ACP_25rnd" /> </cargo>	
-		<cargo chance="0.20"> <item name="MassiveMod_KeyRing" /> </cargo>
-        <cargo chance="0.20"> <item name="Mass_LunchBox" /> </cargo>
         <cargo chance="0.15"> <item name="MRTs_C4_Homemade" /> </cargo>		
 	</type>
 	<type name="MassiveMod_CrateTier3">

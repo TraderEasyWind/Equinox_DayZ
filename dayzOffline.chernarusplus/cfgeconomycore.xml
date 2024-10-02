@@ -68,6 +68,7 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="StoreLoot.xml" type="types" />
 		<file name="EventTypes.xml" type="types" />
 		<file name="Basebuilding.xml" type="types" />
+		<file name="TieredCrates.xml" type="types" />
    </ce>
    <ce folder="CustomEvents">
 		<file name="SurvivorCamp.xml" type="events" />
