@@ -542,7 +542,7 @@ class MassiveMod_RepairHighEnd extends RecipeBase
 		
 		//ingredient 2
 		InsertIngredient(1,"MassKivaari");
-		InsertIngredient(1,"Massm300");
+		InsertIngredient(1,"MassM300");
 		InsertIngredient(1,"Massm24");
 		InsertIngredient(1,"MassM110");
 		InsertIngredient(1,"FAL");
