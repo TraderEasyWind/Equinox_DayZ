@@ -14,7 +14,6 @@
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_GallusGallusDomesticus"/>
             <child lootmax="0" lootmin="0" max="4" min="1" type="Animal_GallusGallusDomesticusF_Brown"/>
             <child lootmax="0" lootmin="0" max="4" min="1" type="Animal_GallusGallusDomesticusF_Spotted"/>
             <child lootmax="0" lootmin="0" max="4" min="1" type="Animal_GallusGallusDomesticusF_White"/>
