@@ -15,24 +15,24 @@
 <usage name="Military"/>
 </type>
 <type name="JD_Groza_762">
-<nominal>2</nominal>
+<nominal>0</nominal>
 <lifetime>28800</lifetime>
 <restock>0</restock>
-<min>1</min>
-<quantmin>10</quantmin>
-<quantmax>30</quantmax>
+<min>0</min>
+<quantmin>1</quantmin>
+<quantmax>1</quantmax>
 <cost>100</cost>
 <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 <category name="weapons"/>
 <usage name="Military"/>
 </type>
 <type name="JD_M249">
-<nominal>1</nominal>
+<nominal>0</nominal>
 <lifetime>28800</lifetime>
 <restock>0</restock>
 <min>8</min>
-<quantmin>1</quantmin>
-<quantmax>2</quantmax>
+<quantmin>0</quantmin>
+<quantmax>0</quantmax>
 <cost>100</cost>
 <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 <category name="weapons"/>
@@ -59,7 +59,7 @@
 <restock>0</restock>
 <min>8</min>
 <quantmin>-1</quantmin>
-<quantmax>-1</quantmax>
+<quantmax>-40</quantmax>
 <cost>100</cost>
 <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 <category name="weapons"/>
@@ -75,7 +75,7 @@
 <cost>100</cost>
 <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 <category name="weapons"/>
-<usage name="Military"/>
+<usage name="Police"/>
 </type>
 <type name="JD_CZ_EVO3A1_FDE">
 <nominal>0</nominal>
@@ -114,22 +114,22 @@
 <usage name="Military"/>
 </type>
 <type name="JD_MP7">
-<nominal>10</nominal>
+<nominal>0</nominal>
 <lifetime>28800</lifetime>
 <restock>0</restock>
-<min>4</min>
+<min>0</min>
 <quantmin>1</quantmin>
-<quantmax>20</quantmax>
+<quantmax>1</quantmax>
 <cost>100</cost>
 <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 <category name="weapons"/>
 <usage name="Military"/>
 </type>
 <type name="JD_BT_MP9">
-<nominal>10</nominal>
+<nominal>0</nominal>
 <lifetime>28800</lifetime>
 <restock>0</restock>
-<min>8</min>
+<min>0</min>
 <quantmin>-1</quantmin>
 <quantmax>-1</quantmax>
 <cost>100</cost>
@@ -138,12 +138,12 @@
 <usage name="Military"/>
 </type>
 <type name="JD_P90">
-<nominal>10</nominal>
+<nominal>0</nominal>
 <lifetime>28800</lifetime>
 <restock>0</restock>
-<min>8</min>
+<min>0</min>
 <quantmin>1</quantmin>
-<quantmax>20</quantmax>
+<quantmax>1</quantmax>
 <cost>100</cost>
 <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 <category name="weapons"/>
@@ -155,43 +155,43 @@
 <restock>0</restock>
 <min>8</min>
 <quantmin>-1</quantmin>
-<quantmax>-1</quantmax>
+<quantmax>-20</quantmax>
 <cost>100</cost>
 <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 <category name="weapons"/>
-<usage name="Military"/>
+<usage name="Police"/>
 </type>
 <type name="JD_Groza_Optic">
-<nominal>10</nominal>
+<nominal>8</nominal>
 <lifetime>28800</lifetime>
 <restock>0</restock>
 <min>8</min>
 <quantmin>-1</quantmin>
-<quantmax>-1</quantmax>
+<quantmax>-20</quantmax>
 <cost>100</cost>
 <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 <category name="weapons"/>
 <usage name="Military"/>
 </type>
 <type name="JD_MP7Suppressor">
-<nominal>10</nominal>
+<nominal>8</nominal>
 <lifetime>28800</lifetime>
 <restock>0</restock>
 <min>8</min>
 <quantmin>-1</quantmin>
-<quantmax>-1</quantmax>
+<quantmax>-20</quantmax>
 <cost>100</cost>
 <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 <category name="weapons"/>
 <usage name="Military"/>
 </type>
 <type name="JD_MP9_Suppressor">
-<nominal>10</nominal>
+<nominal>8</nominal>
 <lifetime>28800</lifetime>
 <restock>0</restock>
 <min>8</min>
 <quantmin>-1</quantmin>
-<quantmax>-1</quantmax>
+<quantmax>-20</quantmax>
 <cost>100</cost>
 <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 <category name="weapons"/>
@@ -203,19 +203,19 @@
 <restock>0</restock>
 <min>8</min>
 <quantmin>-1</quantmin>
-<quantmax>-1</quantmax>
+<quantmax>-20</quantmax>
 <cost>100</cost>
 <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 <category name="weapons"/>
 <usage name="Military"/>
 </type>
 <type name="JD_Mag_M249_Box200Rnd">
-<nominal>10</nominal>
+<nominal>0</nominal>
 <lifetime>28800</lifetime>
 <restock>0</restock>
 <min>6</min>
-<quantmin>40</quantmin>
-<quantmax>100</quantmax>
+<quantmin>1</quantmin>
+<quantmax>1</quantmax>
 <cost>100</cost>
 <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 <category name="weapons"/>
@@ -228,12 +228,12 @@
 <lifetime>28800</lifetime>
 <restock>0</restock>
 <min>8</min>
-<quantmin>45</quantmin>
-<quantmax>100</quantmax>
+<quantmin>1</quantmin>
+<quantmax>20</quantmax>
 <cost>100</cost>
 <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 <category name="weapons"/>
-<usage name="Military"/>
+<usage name="Police"/>
 </type>
 <type name="JD_Mag_MP7_40Rnd">
 <nominal>10</nominal>
