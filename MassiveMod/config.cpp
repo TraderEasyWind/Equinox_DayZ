@@ -24,7 +24,7 @@ class CfgMods
 		hidePicture=1;
 		name="MassiveMod";
 		credits="";
-		author="Niphoria/Mass";
+		author="Penis";
 		authorID="0";
 		version="1.0";
 		extra=0;
