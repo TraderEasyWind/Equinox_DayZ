@@ -4,86 +4,60 @@
 	    <cargo chance="0.20"> <item name="MassiveMod_Tier2Key" /> </cargo>
 		<cargo chance="0.5"> <item name="SledgeHammer" /> </cargo>
         <cargo chance="0.5"> <item name="Shovel" /> </cargo>
-        <cargo chance="0.5"> <item name="Pliers" /> </cargo>		
 		<cargo chance="0.5"> <item name="Hammer" /> </cargo>
         <cargo chance="0.5"> <item name="Hatchet" /> </cargo>
         <cargo chance="0.5"> <item name="Hacksaw" /> </cargo>
         <cargo chance="0.5"> <item name="HandSaw" /> </cargo>
         <cargo chance="0.5"> <item name="NailBox" /> </cargo>
         <cargo chance="0.5"> <item name="NailBox" /> </cargo>
-        <cargo chance="0.5"> <item name="HuntingKnife" /> </cargo>	
+        <cargo chance="0.5"> <item name="HuntingKnife" /> </cargo>
         <cargo chance="0.5"> <item name="Whetstone" /> </cargo>
-        <cargo chance="0.5"> <item name="MetalWire" /> </cargo>		
+        <cargo chance="0.5"> <item name="MetalWire" /> </cargo>
 		<cargo chance="0.10"> <item name="MassiveMod_KeyRing" /> </cargo>
         <cargo chance="0.25"> <item name="Mass_LunchBox" /> </cargo>
 	</type>
 	<type name="MassiveMod_CrateTier2">
 	    <cargo chance="1.00">
-			<item name="Mosin9130_Green"  chance="0.05" />
-			<item name="Mosin9130_Black"  chance="0.05" />
-			<item name="Mosin9130_Camo"  chance="0.05" />
-			<item name="SKS_Black"  chance="0.05" />
-			<item name="SKS_Green"  chance="0.05" />
-			<item name="MassiveMod_Mosin9130_Dark"  chance="0.05" />
-			<item name="MassiveMod_Mosin9130_Light"  chance="0.05" />
-			<item name="MassSVT40_Black"  chance="0.05" />
-			<item name="MassSVT40_Green"  chance="0.05" />
-			<item name="MassSVT40_Camo"  chance="0.05" />
-			<item name="MassPPSH41_Black"  chance="0.05" />
-			<item name="MassPPSH41_Green"  chance="0.05" />
-			<item name="MassPPSH41_Camo"  chance="0.05" />
-			<item name="SNAFUSten"  chance="0.05" />
-			<item name="MassMP40"  chance="0.05" />
-			<item name="SNAFUThompsonMk2"  chance="0.05" />
-			<item name="SNAFUUZI"  chance="0.05" />
-			<item name="MassMP153"  chance="0.05" />
-			<item name="SNAFU_ADAR_Modular16_GUN"  chance="0.05" />
-			<item name="GCGN_Vepr"  chance="0.06" />
+      <item name="MassSVT40"  chance="0.142857142857" />
+      <item name="MassPPSH41"  chance="0.142857142857" />
+      <item name="MassMP40"  chance="0.142857142857" />
+      <item name="MassMP153"  chance="0.142857142857" />
+      <item name="MassAR15DMR"  chance="0.142857142857" />
+      <item name="Massmini14"  chance="0.142857142857" />
+      <item name="JD_BT_MP9"  chance="0.142857142857" />
 		</cargo>
 		<cargo chance="0.20"> <item name="MassiveMod_Tier3Key" /> </cargo>
 		<cargo chance="0.20"> <item name="WeaponCleaningKit" /> </cargo>
-		<cargo chance="0.20"> <item name="AmmoBox_308Win_20Rnd" /> </cargo>									
-		<cargo chance="0.20"> <item name="AmmoBox_762x54Tracer_20Rnd" /> </cargo>														
-		<cargo chance="0.20"> <item name="AmmoBox_762x39_20Rnd" /> </cargo>			
-		<cargo chance="0.20"> <item name="AmmoBox_9x19_25rnd" /> </cargo>								
-		<cargo chance="0.20"> <item name="AmmoBox_45ACP_25rnd" /> </cargo>	
+		<cargo chance="0.20"> <item name="AmmoBox_308Win_20Rnd" /> </cargo>
+		<cargo chance="0.20"> <item name="AmmoBox_762x54Tracer_20Rnd" /> </cargo>
+		<cargo chance="0.20"> <item name="AmmoBox_762x39_20Rnd" /> </cargo>
+		<cargo chance="0.20"> <item name="AmmoBox_9x19_25rnd" /> </cargo>
+		<cargo chance="0.20"> <item name="AmmoBox_45ACP_25rnd" /> </cargo>
 		<cargo chance="0.50"> <item name="MassiveMod_KeyRing" /> </cargo>
-        <cargo chance="0.30"> <item name="Mass_LunchBox" /> </cargo>
-        <cargo chance="0.15"> <item name="MRTs_C4_Homemade" /> </cargo>		
 	</type>
 	<type name="MassiveMod_CrateTier3">
 	    <cargo chance="1.00">
-			<item name="AK74_Green"  chance="0.07142857142" />
-			<item name="AK101_Green"  chance="0.07142857142" />
-			<item name="AKM"  chance="0.07142857142" />
-			<item name="SNAFU_RDB"  chance="0.07142857142" />
-			<item name="Mass_SPAS12"  chance="0.07142857142" />
-			<item name="MassTMP153"  chance="0.07142857142" />
-			<item name="Mass_SLR106"  chance="0.07142857142" />
-			<item name="GCGN_Vityaz"  chance="0.07142857142" />
-			<item name="GCGN_MP7"  chance="0.07142857142" />
-			<item name="SNAFU_G3A3"  chance="0.07142857142" />
-			<item name="SNAFU_M4556_Modular10_GUN"  chance="0.07142857142" />
-			<item name="SNAFU_M4556_Modular14_GUN"  chance="0.07142857142" />
-			<item name="SNAFU_M4556_Modular16_GUN"  chance="0.07142857142" />
-			<item name="SNAFU_AR15_Modular16_GUN"  chance="0.07142857142" />
+				<item name="Mass_SLR106"  chance="0.142857142857" />
+				<item name="JD_MP7"  chance="0.142857142857" />
+				<item name="JD_Groza_762"  chance="0.142857142857" />
+				<item name="JD_P90"  chance="0.142857142857" />
+				<item name="Mass_RPK74"  chance="0.142857142857" />
+				<item name="Mass_AK9"  chance="0.142857142857" />
+				<item name="Mass_AN94"  chance="0.142857142857" />
 		</cargo>
 		<cargo chance="0.20"> <item name="MassiveMod_Tier4Key" /> </cargo>
 		<cargo chance="0.20"> <item name="WeaponCleaningKit" /> </cargo>
-		<cargo chance="0.20"> <item name="AmmoBox_545x39Tracer_20Rnd" /> </cargo>									
 		<cargo chance="0.20"> <item name="AmmoBox_545x39Tracer_20Rnd" /> </cargo>
-        <cargo chance="0.20"> <item name="AmmoBox_308Win_20Rnd" /> </cargo>		
+		<cargo chance="0.20"> <item name="AmmoBox_545x39Tracer_20Rnd" /> </cargo>
+        <cargo chance="0.20"> <item name="AmmoBox_308Win_20Rnd" /> </cargo>
 		<cargo chance="0.20"> <item name="AmmoBox_762x39_20Rnd" /> </cargo>
-        <cargo chance="0.20"> <item name="AmmoBox_762x39_20Rnd" /> </cargo>	 		
-		<cargo chance="0.20"> <item name="AmmoBox_556x56_20Rnd" /> </cargo>								
-		<cargo chance="0.20"> <item name="AmmoBox_556x56_20Rnd" /> </cargo>	
+        <cargo chance="0.20"> <item name="AmmoBox_762x39_20Rnd" /> </cargo>
+		<cargo chance="0.20"> <item name="AmmoBox_556x56_20Rnd" /> </cargo>
+		<cargo chance="0.20"> <item name="AmmoBox_556x56_20Rnd" /> </cargo>
 		<cargo chance="0.50"> <item name="MassiveMod_KeyRing" /> </cargo>
-        <cargo chance="0.50"> <item name="Mass_LunchBox" /> </cargo>
         <cargo chance="0.20"> <item name="Mass_PistolCase" /> </cargo>
 		<cargo chance="0.10"> <item name="NVGoggles" /> </cargo>
 		<cargo chance="0.10"> <item name="MassAR500" /> </cargo>
-		<cargo chance="0.15"> <item name="MRTs_C4_Homemade" /> </cargo>
-        <cargo chance="0.10"> <item name="MRTs_C4_Military" /> </cargo>
 		<cargo chance="0.30"> <item name="MassiveMod_AmmoBox" /> </cargo>
         <cargo chance="0.30">
 			<item name="MassMRE4" chance="0.33" />
@@ -111,60 +85,39 @@
 			<item name="MassiveMod_SM90Package" chance="0.05" />
 			<item name="MassiveMod_InvertGorkaWoodlandPackage" chance="0.05" />
 			<item name="MassiveMod_InvertGorkaWinterPackage" chance="0.05" />
-		</cargo>		
+		</cargo>
 	</type>
 	<type name="MassiveMod_CrateTier4">
-	    <cargo chance="1.00">
- 			<item name="SNAFU_RPK16_Black"  chance="0.04166666666" />
-		    <item name="SNAFU_RPK16_Tan"  chance="0.04166666666" />
-			<item name="SNAFU_RPK16_Green"  chance="0.04166666666" /> 
-			<item name="SNAFU_Saint_Gun"  chance="0.125" />           
-			<item name="Snafu_ScarH_Black_GUN"  chance="0.125" />
-		    <item name="Snafu_ScarH_DKMC_GUN"  chance="0.025" />
-			<item name="Snafu_ScarH_OD_GUN"  chance="0.025" />
-			<item name="Snafu_ScarH_Snow_GUN"  chance="0.025" />
-			<item name="Snafu_ScarH_Tan_GUN"  chance="0.025" />       
-			<item name="SNAFUMDARSBR_Black"  chance="0.125" />
-            <item name="SNAFUMDARSBR_Green"  chance="0.01388888888" />
-			<item name="SNAFUMDARSBR_Tan"  chance="0.01388888888" />
-			<item name="SNAFUMDARCAR_Black"  chance="0.01388888888" />
-            <item name="SNAFUMDARCAR_Green"  chance="0.01388888888" />
-			<item name="SNAFUMDARCAR_Tan"  chance="0.01388888888" />
-			<item name="SNAFUMDARIF_Black"  chance="0.01388888888" />
-			<item name="SNAFUMDARIF_Green"  chance="0.01388888888" />
-			<item name="SNAFUMDARIF_Tan"  chance="0.01388888888" />          
-			<item name="SVD"  chance="0.125" />
-			<item name="FAL"  chance="0.125" />
-			<item name="MassM417"  chance="0.125" />
-			<item name="Mass_RugerPrecision"  chance="0.125" />
-			<item name="Mass_SVU"  chance="0.125" />
-		</cargo>
+		<cargo chance="1.00">
+		<item name="SVD"  chance="0.1111111111111111" />
+		<item name="FAL"  chance="0.1111111111111111" />
+		<item name="MassM417"  chance="0.1111111111111111" />
+		<item name="Mass_RugerPrecision"  chance="0.1111111111111111" />
+		<item name="Massm24"  chance="0.1111111111111111" />
+		<item name="Mass_SVU"  chance="0.1111111111111111" />
+		<item name="Mass_M98B"  chance="0.1111111111111111" />
+		<item name="Mass_ACR"  chance="0.1111111111111111" />
+		<item name="M14"  chance="0.1111111111111111" />
+	</cargo>
 		<cargo chance="0.10"> <item name="MassiveMod_Tier5Key" /> </cargo>
 		<cargo chance="0.20"> <item name="WeaponCleaningKit" /> </cargo>
-		<cargo chance="0.20"> <item name="AmmoBox_545x39Tracer_20Rnd" /> </cargo>									
 		<cargo chance="0.20"> <item name="AmmoBox_545x39Tracer_20Rnd" /> </cargo>
-        <cargo chance="0.20"> <item name="AmmoBox_308Win_20Rnd" /> </cargo>		
+		<cargo chance="0.20"> <item name="AmmoBox_545x39Tracer_20Rnd" /> </cargo>
+        <cargo chance="0.20"> <item name="AmmoBox_308Win_20Rnd" /> </cargo>
 		<cargo chance="0.20"> <item name="AmmoBox_762x39_20Rnd" /> </cargo>
-        <cargo chance="0.20"> <item name="AmmoBox_762x39_20Rnd" /> </cargo>	 		
-		<cargo chance="0.20"> <item name="AmmoBox_556x56_20Rnd" /> </cargo>								
-		<cargo chance="0.20"> <item name="AmmoBox_556x56_20Rnd" /> </cargo>	
-		<cargo chance="0.50"> <item name="MassiveMod_KeyRing" /> </cargo>
-        <cargo chance="0.50"> <item name="Mass_LunchBox" /> </cargo>
+        <cargo chance="0.20"> <item name="AmmoBox_762x39_20Rnd" /> </cargo>
+		<cargo chance="0.20"> <item name="AmmoBox_556x56_20Rnd" /> </cargo>
+		<cargo chance="0.20"> <item name="AmmoBox_556x56_20Rnd" /> </cargo>
 		<cargo chance="0.50"> <item name="WeaponCleaningKit" /> </cargo>
-		<cargo chance="0.20"> <item name="AmmoBox_308Win_20Rnd" /> </cargo>									
-		<cargo chance="0.20"> <item name="AmmoBox_762x54Tracer_20Rnd" /> </cargo>														
-		<cargo chance="0.20"> <item name="AmmoBox_762x39_20Rnd" /> </cargo>			
-		<cargo chance="0.20"> <item name="AmmoBox_9x19_25rnd" /> </cargo>								
-		<cargo chance="0.20"> <item name="AmmoBox_45ACP_25rnd" /> </cargo>	
+		<cargo chance="0.20"> <item name="AmmoBox_308Win_20Rnd" /> </cargo>
+		<cargo chance="0.20"> <item name="AmmoBox_762x54Tracer_20Rnd" /> </cargo>
+		<cargo chance="0.20"> <item name="AmmoBox_762x39_20Rnd" /> </cargo>
+		<cargo chance="0.20"> <item name="AmmoBox_9x19_25rnd" /> </cargo>
+		<cargo chance="0.20"> <item name="AmmoBox_45ACP_25rnd" /> </cargo>
 		<cargo chance="0.50"> <item name="MassiveMod_KeyRing" /> </cargo>
-        <cargo chance="0.50"> <item name="Mass_LunchBox" /> </cargo>
-        <cargo chance="0.20"> <item name="Mass_PistolCase" /> </cargo>
 		<cargo chance="0.30"> <item name="MassAR500pair" /> </cargo>
 		<cargo chance="0.30"> <item name="NVGoggles" /> </cargo>
 		<cargo chance="0.30"> <item name="MassiveMod_AmmoBox" /> </cargo>
-		<cargo chance="0.15"> <item name="MRTs_C4_Homemade" /> </cargo>
-        <cargo chance="0.05"> <item name="MRTs_C4_Tactical" /> </cargo>
-		<cargo chance="0.10"> <item name="MRTs_C4_Military" /> </cargo>
         <cargo chance="0.30">
 			<item name="MassMRE4" chance="0.33" />
 			<item name="MassMRE9" chance="0.33" />
@@ -172,25 +125,25 @@
 		</cargo>
         <cargo chance="0.40">
 			<item name="MassiveMod_BDUPackage" chance="0.05" />
-			<item name="MassiveMod_WinterBDUPackage" chance="0.05" />
+			<item name="MassLightRatnik" chance="0.05" />
 			<item name="MassiveMod_GorkaAutumnPackage" chance="0.05" />
 			<item name="MassiveMod_GorkaFlatPackage" chance="0.05" />
 			<item name="MassiveMod_GorkaSummerPackage" chance="0.05" />
-			<item name="MassiveMod_GorkaPautRevPackage" chance="0.05" />
+			<item name="MassLightRatnik_Desert" chance="0.05" />
 			<item name="MassiveMod_USMCDesertPackage" chance="0.05" />
 			<item name="MassiveMod_USMCWoodlandPackage" chance="0.05" />
 			<item name="MassiveMod_TTSKOPackage" chance="0.05" />
 			<item name="MassiveMod_SumrackPackage" chance="0.05" />
-			<item name="MassiveMod_YegerWinterPackage" chance="0.05" />
+			<item name="MassLightRatnik_Black" chance="0.05" />
 			<item name="MassiveMod_YegerWoodlandPackage" chance="0.05" />
 			<item name="MassiveMod_GorkaWinterPackage" chance="0.05" />
-			<item name="MassiveMod_WinterUSMCPackage" chance="0.05" />
+			<item name="MassLightRatnik_Olive" chance="0.05" />
 			<item name="MassiveMod_TropicamPackage" chance="0.05" />
 			<item name="MassiveMod_MandrakePackage" chance="0.05" />
 			<item name="MassiveMod_UrbanPackage" chance="0.05" />
 			<item name="MassiveMod_SM90Package" chance="0.05" />
-			<item name="MassiveMod_InvertGorkaWoodlandPackage" chance="0.05" />
-			<item name="MassiveMod_InvertGorkaWinterPackage" chance="0.05" />
-		</cargo>		
+			<item name="MassLightRatnik_Tan" chance="0.05" />
+			<item name="MassGDShirt" chance="0.05" />
+		</cargo>
 	</type>
 </spawnabletypes>
