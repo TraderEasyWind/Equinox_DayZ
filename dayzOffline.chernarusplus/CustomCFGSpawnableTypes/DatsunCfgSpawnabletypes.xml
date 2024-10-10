@@ -1,0 +1,43 @@
+<spawnabletypes>
+    <type name="nd_datsun">
+		<attachments chance="1.00">
+			<item name="HatchbackWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HatchbackWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HatchbackWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HatchbackWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="nd_datsun_driverdoor" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="nd_datsun_codriverdoor" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="nd_datsun_trunk" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="nd_datsun_hood" chance="1.00" />
+		</attachments>
+	</type>
+</spawnabletypes>
