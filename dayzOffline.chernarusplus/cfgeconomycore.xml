@@ -69,11 +69,14 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="EventTypes.xml" type="types" />
 		<file name="Basebuilding.xml" type="types" />
 		<file name="TieredCrates.xml" type="types" />
+		<file name="Datsun.xml" type="types" />
    </ce>
    <ce folder="CustomEvents">
 		<file name="SurvivorCamp.xml" type="events" />
+		<file name="DatsunEvent.xml" type="events" />
 	</ce>
 	<ce folder="CustomCFGSpawnableTypes">
 		<file name="TieredCachesCFG.xml" type="spawnabletypes" />
+		<file name="DatsunCfgSpawnabletypes.xml" type="spawnabletypes" />
 	</ce>
 </economycore>
