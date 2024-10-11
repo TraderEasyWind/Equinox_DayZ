@@ -37,29 +37,29 @@ class CfgMods
 		};
 	};
 };
-class CfgSlots
-{
-    class Slot_Melee
-	{
-		name = "Melee";
-		displayName = "Melee";
-		ghostIcon="set:MassiveModATlas image:MM_Melee";
-	};
-	class Slot_Shoulder
-	{
-		name = "Shoulder";
-		displayName = "#STR_CfgShoulder0";
-		ghostIcon = "set:dayz_inventory image:shoulderleft";
-	};
-};
-class CfgWeapons
-{
-    class RifleCore;
-    class Rifle_Base : RifleCore
-    {
-        inventorySlot[] -= 
-        {
-            "Melee"
-        };
-    };
-};
+//class CfgSlots
+//{
+//    class Slot_Melee
+//	{
+//		name = "Melee";
+//		displayName = "Melee";
+//		ghostIcon="set:MassiveModATlas image:MM_Melee";
+//	};
+//	class Slot_Shoulder
+//	{
+//		name = "Shoulder";
+//		displayName = "#STR_CfgShoulder0";
+//		ghostIcon = "set:dayz_inventory image:shoulderleft";
+//	};
+//};
+//class CfgWeapons
+//{
+//    class RifleCore;
+//    class Rifle_Base : RifleCore
+//    {
+//        inventorySlot[] -= 
+//        {
+//            "Melee"
+//        };
+//    };
+//};
