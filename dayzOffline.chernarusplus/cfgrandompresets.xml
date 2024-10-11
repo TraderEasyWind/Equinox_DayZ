@@ -635,7 +635,7 @@
 			<item name="TLRLight" chance="0.05" />
 			<item name="UniversalLight" chance="0.05" />
 			<item name="NVGHeadstrap" chance="0.05" />
-			<item name="NVGoggles" chance="0.01" />
+<!--		<item name="NVGoggles" chance="0.01" />     -->
 		</cargo>
 		<cargo chance="1.0" name="Xmas_Chemlights_Small">
 			<item name="Chemlight_Blue" chance="0.50" />

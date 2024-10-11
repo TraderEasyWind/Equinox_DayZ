@@ -55,10 +55,11 @@
 	<type name="GiftWrapPaper">
 		<damage min="0.0" max="0.32" />
 	</type>
+<!--
 	<type name="NVGoggles">
 		<damage min="0.0" max="0.32" />
 	</type>
-	
+-->
 	<type name="KazuarOptic">
 		<damage min="0.0" max="0.32" />
 	</type>

@@ -49,8 +49,10 @@
         <cost>20</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="shelves"/>
-        <usage name="Police"/>
+        <usage name="Military"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
     </type>
     <type name="CJ_NVG_ANPVS23">
         <nominal>5</nominal>
@@ -63,6 +65,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+		<value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="CJ_NVG_GPNVG18_Black">
         <nominal>1</nominal>
@@ -75,6 +79,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier4"/>
     </type>
 <!--
     <type name="CJ_NVG_GPNVG18_Green">
