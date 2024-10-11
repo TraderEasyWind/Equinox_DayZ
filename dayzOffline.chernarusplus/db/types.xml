@@ -13934,7 +13934,7 @@
         <usage name="Military"/>
 		<usage name="Police"/>
     </type>
-<!--    <type name="NVGoggles">
+<!--<type name="NVGoggles">
         <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>28800</restock>
@@ -13945,7 +13945,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <usage name="Military"/>
-    </type>  -->
+    </type>
+-->
     <type name="Nail">
         <nominal>0</nominal>
         <lifetime>14400</lifetime>
