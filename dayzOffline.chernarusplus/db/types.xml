@@ -13705,6 +13705,7 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
+<!---
     <type name="NVGoggles">
         <nominal>5</nominal>
         <lifetime>28800</lifetime>
@@ -13717,6 +13718,7 @@
         <category name="weapons"/>
         <usage name="Military"/>
     </type>
+--->
     <type name="Nail">
         <nominal>0</nominal>
         <lifetime>14400</lifetime>
