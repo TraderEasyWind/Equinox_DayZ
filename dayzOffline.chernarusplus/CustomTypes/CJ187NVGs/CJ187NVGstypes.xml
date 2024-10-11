@@ -35,9 +35,9 @@
         <quantmax>-1</quantmax>
         <cost>30</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
+        <category name="weapons"/>
+        <tag name="shelves"/>
+        <usage name="Police"/>
     </type>
     <type name="CJ_NVG_BCNVG21">
         <nominal>5</nominal>
