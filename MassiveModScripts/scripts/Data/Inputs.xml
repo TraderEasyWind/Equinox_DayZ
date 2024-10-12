@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<modded_inputs>
+    <inputs>
+        <actions>
+            <input name="UASchanaAutorunToggle" loc="Autorun Toggle" />
+        </actions>
+    </inputs>
+    <exclude name="AutoRun">
+        <input name="UASchanaAutorunToggle" />
+    </exclude>
+    <sorting name="AutoRun" loc="Auto Run">
+        <input name="UASchanaAutorunToggle" />
+    </sorting>
+    <preset>
+        <input name="UASchanaAutorunToggle">
+            <btn name="kZ" />
+        </input>
+    </preset>
+</modded_inputs>
