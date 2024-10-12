@@ -1,0 +1,392 @@
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<types>
+    <type name="ExpansionStairS1_5x3x3">
+            <nominal>0</nominal>
+            <lifetime>604800</lifetime>
+            <restock>0</restock>
+            <min>0</min>
+            <quantmin>-1</quantmin>
+            <quantmax>-1</quantmax>
+            <cost>100</cost>
+            <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+            <category name="tools"/>
+        </type>
+        <type name="ExpansionRamp6x1_5x6">
+            <nominal>0</nominal>
+            <lifetime>604800</lifetime>
+            <restock>0</restock>
+            <min>0</min>
+            <quantmin>-1</quantmin>
+            <quantmax>-1</quantmax>
+            <cost>100</cost>
+            <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+            <category name=""/>
+        </type>
+        <type name="ExpansionFloor3x3">
+            <nominal>0</nominal>
+            <lifetime>604800</lifetime>
+            <restock>0</restock>
+            <min>0</min>
+            <quantmin>-1</quantmin>
+            <quantmax>-1</quantmax>
+            <cost>100</cost>
+            <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+            <category name="tools"/>
+        </type>
+        <type name="ExpansionFloor6x6">
+            <nominal>0</nominal>
+            <lifetime>604800</lifetime>
+            <restock>0</restock>
+            <min>0</min>
+            <quantmin>-1</quantmin>
+            <quantmax>-1</quantmax>
+            <cost>100</cost>
+            <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+            <category name="tools"/>
+        </type>
+        <type name="ExpansionWall6x3">
+            <nominal>0</nominal>
+            <lifetime>604800</lifetime>
+            <restock>0</restock>
+            <min>0</min>
+            <quantmin>-1</quantmin>
+            <quantmax>-1</quantmax>
+            <cost>100</cost>
+            <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+            <category name="tools"/>
+        </type>
+        <type name="ExpansionWoodPillar">
+            <nominal>0</nominal>
+            <lifetime>604800</lifetime>
+            <restock>0</restock>
+            <min>0</min>
+            <quantmin>-1</quantmin>
+            <quantmax>-1</quantmax>
+            <cost>100</cost>
+            <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+            <category name="tools"/>
+        </type>
+        <type name="ExpansionHelipad">
+            <nominal>0</nominal>
+            <lifetime>604800</lifetime>
+            <restock>0</restock>
+            <min>0</min>
+            <quantmin>-1</quantmin>
+            <quantmax>-1</quantmax>
+            <cost>100</cost>
+            <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+            <category name="tools"/>
+        </type>
+        <type name="ExpansionCamoTent">
+            <nominal>0</nominal>
+            <lifetime>604800</lifetime>
+            <restock>0</restock>
+            <min>0</min>
+            <quantmin>-1</quantmin>
+            <quantmax>-1</quantmax>
+            <cost>100</cost>
+            <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+            <category name="tools"/>
+        </type>
+        <type name="ExpansionATent">
+            <nominal>0</nominal>
+            <lifetime>604800</lifetime>
+            <restock>0</restock>
+            <min>0</min>
+            <quantmin>-1</quantmin>
+            <quantmax>-1</quantmax>
+            <cost>100</cost>
+            <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+            <category name="tools"/>
+        </type>
+        <type name="ExpansionCamoBox">
+            <nominal>0</nominal>
+            <lifetime>604800</lifetime>
+            <restock>0</restock>
+            <min>0</min>
+            <quantmin>-1</quantmin>
+            <quantmax>-1</quantmax>
+            <cost>100</cost>
+            <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+            <category name="tools"/>
+        </type>
+        <type name="ExpansionBarrierGate">
+            <nominal>0</nominal>
+            <lifetime>604800</lifetime>
+            <restock>0</restock>
+            <min>0</min>
+            <quantmin>-1</quantmin>
+            <quantmax>-1</quantmax>
+            <cost>100</cost>
+            <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+            <category name="tools"/>
+        </type>
+        <type name="ExpansionHesco">
+            <nominal>0</nominal>
+            <lifetime>604800</lifetime>
+            <restock>0</restock>
+            <min>0</min>
+            <quantmin>-1</quantmin>
+            <quantmax>-1</quantmax>
+            <cost>100</cost>
+            <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+            <category name="tools"/>
+        </type>
+        <type name="ExpansionBarbedWire">
+            <nominal>0</nominal>
+            <lifetime>604800</lifetime>
+            <restock>0</restock>
+            <min>0</min>
+            <quantmin>-1</quantmin>
+            <quantmax>-1</quantmax>
+            <cost>100</cost>
+            <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+            <category name="tools"/>
+        </type>
+        <type name="ExpansionSignRoadBarrier">
+            <nominal>0</nominal>
+            <lifetime>604800</lifetime>
+            <restock>0</restock>
+            <min>0</min>
+            <quantmin>-1</quantmin>
+            <quantmax>-1</quantmax>
+            <cost>100</cost>
+            <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+            <category name="tools"/>
+        </type>
+        <type name="ExpansionSignDanger3">
+            <nominal>0</nominal>
+            <lifetime>604800</lifetime>
+            <restock>0</restock>
+            <min>0</min>
+            <quantmin>-1</quantmin>
+            <quantmax>-1</quantmax>
+            <cost>100</cost>
+            <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+            <category name="tools"/>
+        </type>
+        <type name="ExpansionSignDanger2">
+            <nominal>0</nominal>
+            <lifetime>604800</lifetime>
+            <restock>0</restock>
+            <min>0</min>
+            <quantmin>-1</quantmin>
+            <quantmax>-1</quantmax>
+            <cost>100</cost>
+            <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+            <category name="tools"/>
+        </type>
+        <type name="ExpansionSignDanger">
+            <nominal>0</nominal>
+            <lifetime>604800</lifetime>
+            <restock>0</restock>
+            <min>0</min>
+            <quantmin>-1</quantmin>
+            <quantmax>-1</quantmax>
+            <cost>100</cost>
+            <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+            <category name="tools"/>
+        </type>
+        <type name="ExpansionCone">
+            <nominal>0</nominal>
+            <lifetime>604800</lifetime>
+            <restock>0</restock>
+            <min>0</min>
+            <quantmin>-1</quantmin>
+            <quantmax>-1</quantmax>
+            <cost>100</cost>
+            <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+            <category name="tools"/>
+        </type>
+        <type name="ExpansionCodeLock">
+            <nominal>2</nominal>
+            <lifetime>604800</lifetime>
+            <restock>10800</restock>
+            <min>1</min>
+            <quantmin>-1</quantmin>
+            <quantmax>-1</quantmax>
+            <cost>100</cost>
+            <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+            <category name="tools"/>
+            <usage name="Industrial"/>
+        </type>
+        <type name="ExpansionHescoKit">
+            <nominal>0</nominal>
+            <lifetime>86400</lifetime>
+            <restock>0</restock>
+            <min>0</min>
+            <quantmin>-1</quantmin>
+            <quantmax>-1</quantmax>
+            <cost>100</cost>
+            <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+            <category name="tools"/>
+        </type>
+        <type name="ExpansionBarbedWireKit">
+            <nominal>0</nominal>
+            <lifetime>86400</lifetime>
+            <restock>0</restock>
+            <min>0</min>
+            <quantmin>-1</quantmin>
+            <quantmax>-1</quantmax>
+            <cost>100</cost>
+            <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+            <category name="tools"/>
+        </type>
+        <type name="ExpansionHelipadKit">
+            <nominal>0</nominal>
+            <lifetime>604800</lifetime>
+            <restock>0</restock>
+            <min>0</min>
+            <quantmin>-1</quantmin>
+            <quantmax>-1</quantmax>
+            <cost>100</cost>
+            <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+            <category name="tools"/>
+        </type>
+        <type name="ExpansionGunrack">
+            <nominal>2</nominal>
+            <lifetime>604800</lifetime>
+            <restock>43200</restock>
+            <min>1</min>
+            <quantmin>-1</quantmin>
+            <quantmax>-1</quantmax>
+            <cost>100</cost>
+            <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+            <category name="containers"/>
+            <usage name="Military"/>
+        </type>
+        <type name="ExpansionCamoTentKit">
+            <nominal>0</nominal>
+            <lifetime>604800</lifetime>
+            <restock>0</restock>
+            <min>0</min>
+            <quantmin>-1</quantmin>
+            <quantmax>-1</quantmax>
+            <cost>100</cost>
+            <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+            <category name="containers"/>
+            <usage name="Military"/>
+        </type>
+        <type name="ExpansionBarrierGateKit">
+            <nominal>0</nominal>
+            <lifetime>604800</lifetime>
+            <restock>0</restock>
+            <min>0</min>
+            <quantmin>-1</quantmin>
+            <quantmax>-1</quantmax>
+            <cost>100</cost>
+            <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+            <category name="tools"/>
+        </type>
+        <type name="ExpansionCamoBoxKit">
+            <nominal>0</nominal>
+            <lifetime>604800</lifetime>
+            <restock>0</restock>
+            <min>0</min>
+            <quantmin>-1</quantmin>
+            <quantmax>-1</quantmax>
+            <cost>100</cost>
+            <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+            <category name="tools"/>
+        </type>
+        <type name="ExpansionWallKit">
+            <nominal>0</nominal>
+            <lifetime>604800</lifetime>
+            <restock>0</restock>
+            <min>0</min>
+            <quantmin>-1</quantmin>
+            <quantmax>-1</quantmax>
+            <cost>100</cost>
+            <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+            <category name="tools"/>
+        </type>
+        <type name="ExpansionStairKit">
+            <nominal>0</nominal>
+            <lifetime>604800</lifetime>
+            <restock>0</restock>
+            <min>0</min>
+            <quantmin>-1</quantmin>
+            <quantmax>-1</quantmax>
+            <cost>100</cost>
+            <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+            <category name="tools"/>
+        </type>
+        <type name="ExpansionRampKit">
+            <nominal>0</nominal>
+            <lifetime>604800</lifetime>
+            <restock>0</restock>
+            <min>0</min>
+            <quantmin>-1</quantmin>
+            <quantmax>-1</quantmax>
+            <cost>100</cost>
+            <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+            <category name="tools"/>
+        </type>
+        <type name="ExpansionWoodPillarKit">
+            <nominal>0</nominal>
+            <lifetime>604800</lifetime>
+            <restock>0</restock>
+            <min>0</min>
+            <quantmin>-1</quantmin>
+            <quantmax>-1</quantmax>
+            <cost>100</cost>
+            <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+            <category name="tools"/>
+        </type>
+        <type name="ExpansionFloorKit">
+            <nominal>0</nominal>
+            <lifetime>604800</lifetime>
+            <restock>0</restock>
+            <min>0</min>
+            <quantmin>-1</quantmin>
+            <quantmax>-1</quantmax>
+            <cost>100</cost>
+            <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+            <category name="tools"/>
+        </type>
+        <type name="ExpansionLumber3">
+            <nominal>0</nominal>
+            <lifetime>604800</lifetime>
+            <restock>0</restock>
+            <min>0</min>
+            <quantmin>-1</quantmin>
+            <quantmax>-1</quantmax>
+            <cost>100</cost>
+            <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+            <category name="tools"/>
+        </type>
+        <type name="ExpansionLumber1_5">
+            <nominal>0</nominal>
+            <lifetime>604800</lifetime>
+            <restock>0</restock>
+            <min>0</min>
+            <quantmin>-1</quantmin>
+            <quantmax>-1</quantmax>
+            <cost>100</cost>
+            <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+            <category name="tools"/>
+        </type>
+        <type name="ExpansionLumber1">
+            <nominal>0</nominal>
+            <lifetime>604800</lifetime>
+            <restock>0</restock>
+            <min>0</min>
+            <quantmin>-1</quantmin>
+            <quantmax>-1</quantmax>
+            <cost>100</cost>
+            <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+            <category name="tools"/>
+        </type>
+        <type name="ExpansionLumber0_5">
+            <nominal>0</nominal>
+            <lifetime>604800</lifetime>
+            <restock>0</restock>
+            <min>0</min>
+            <quantmin>-1</quantmin>
+            <quantmax>-1</quantmax>
+            <cost>100</cost>
+            <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+            <category name="tools"/>
+        </type>
+</types>
