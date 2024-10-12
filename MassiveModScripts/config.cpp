@@ -28,7 +28,6 @@ class CfgMods
 		version="1.0";
 		extra=0;
 		type="mod";
-		inputs="MassiveModScripts/scripts/Data/Inputs.xml";
 		dependencies[]=
 		{
 			"Game",
@@ -70,7 +69,8 @@ class CfgMods
 				files[]=
 				{
 					"MassiveModScripts/scripts/Combine",
-					"MassiveModScripts/scripts/4_World"
+					"MassiveModScripts/scripts/4_World",
+					"MassiveModScripts/scripts/4_World/EQScripts/EQAutorun"
 				};
 			};
 			class missionScriptModule
@@ -79,7 +79,17 @@ class CfgMods
 				files[]=
 				{
 					"MassiveModScripts/scripts/Combine",
-					"MassiveModScripts/scripts/5_Mission"
+					"MassiveModScripts/scripts/5_Mission",
+					"MassiveModScripts\scripts\5_Mission\EQAutorun"
+				};
+			};
+			class dataScriptModule
+			{
+				value="";
+				files[]=
+				{
+					"MassiveModScripts/scripts/Combine",
+					"MassiveModScripts/scripts/Data"
 				};
 			};
 		};
