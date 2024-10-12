@@ -1,11 +1,11 @@
-class AK101_Green: AK101
+modded class Mass_SVU_Base : RifleBoltLock_Base
 {
 	override void EEOnCECreate()
 	{
 		GetGame().GetCallQueue( CALL_CATEGORY_SYSTEM ).CallLater(this.SpawnAttachments, 1000);
 	}
 	
-    ref TStringArray SNAFUOptics101 = 
+	ref TStringArray SNAFUOptics = 
 	{
 		"SNAFU_AKAimpoint_ACO",
 		"SNAFU_AKElcan",
@@ -21,15 +21,16 @@ class AK101_Green: AK101
 		"KazuarOptic",
 		"Mass1P69"
 	};
-	ref TStringArray AKOptics101 = 
+	
+	ref TStringArray AKOptics = 
 	{
 		"KashtanOptic",
 		"PSO1Optic",
 		"KobraOptic"
 	};
-	int randomchance101 = Math.RandomInt(1,100);
+	int randomchance = Math.RandomInt(1,100);
 
-	override void SpawnAttachments()
+	void SpawnAttachments()
     {
 		GameInventory m_Inventory = GetInventory();
         if (GetHierarchyParent().IsInherited(MassiveModCrate_Base))
@@ -37,17 +38,16 @@ class AK101_Green: AK101
 		    if (GetGame() &&  ( GetGame().IsServer() || !GetGame().IsMultiplayer() ))
             {
 				AddHealth("", "",9999);
-				m_Inventory.CreateAttachment("AK_RailHndgrd_Green");
-				m_Inventory.CreateAttachment("AK_FoldingBttstck_Green");
-				m_Inventory.CreateAttachment("Mag_AK101_30Rnd_Green");
-				if (randomchance101 < 50)
+				m_Inventory.CreateAttachment("Mag_SVD_10Rnd");
+				if (randomchance < 50)
 				{
-			        m_Inventory.CreateAttachment(AKOptics101.GetRandomElement());	
+			        m_Inventory.CreateAttachment(AKOptics.GetRandomElement());	
 				}	
                 else
 				{
-				    m_Inventory.CreateAttachment(SNAFUOptics101.GetRandomElement());	
-				}
+				    m_Inventory.CreateAttachment(SNAFUOptics.GetRandomElement());	
+				}	
+					
             }
 		}
     }
