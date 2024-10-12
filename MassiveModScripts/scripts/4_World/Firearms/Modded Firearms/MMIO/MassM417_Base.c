@@ -1,11 +1,11 @@
-modded class FAL_Base : RifleBoltLock_Base
-{
-	override void EEOnCECreate()
+modded class MassM417_Base: RifleBoltLock_Base
+{	
+    override void EEOnCECreate()
 	{
 		GetGame().GetCallQueue( CALL_CATEGORY_SYSTEM ).CallLater(this.SpawnAttachments, 1000);
 	}
 	
-	ref TStringArray RandomOptics = 
+    ref TStringArray RandomOptics = 
 	{
 		//"SNAFU_Aimpoint_ACO",
 		//"SNAFU_Elcan",
@@ -18,17 +18,17 @@ modded class FAL_Base : RifleBoltLock_Base
 		//"SNAFU_Tango6T_Black",
 		//"SNAFU_Trijicon_Docter",
 		//"SNAFU_Walther",
-		//"SNAFU_Kobra",
 		//"MassScope",
+		//"SNAFU_Kobra",
 		"ACOGOptic",
 		"ACOGOptic_6x",
 		"M68Optic",
 		"M4_T3NDRDSOptic",
 		"ReflexOptic",
-		"StarlightOptic",
-		"Akol_Specter6x"
+		"StarlightOptic"
 	};
-
+	
+	
 	void SpawnAttachments()
     {
 		GameInventory m_Inventory = GetInventory();
@@ -37,9 +37,8 @@ modded class FAL_Base : RifleBoltLock_Base
 		    if (GetGame() &&  ( GetGame().IsServer() || !GetGame().IsMultiplayer() ))
             {
 				AddHealth("", "",9999);
-				m_Inventory.CreateAttachment("Fal_OeBttstck");
-				m_Inventory.CreateAttachment("Mag_FAL_20Rnd");
-			    m_Inventory.CreateAttachment(RandomOptics.GetRandomElement());		
+				m_Inventory.CreateAttachment("Mass_Mag_M417_20Rnd");
+			    m_Inventory.CreateAttachment(RandomOptics.GetRandomElement()); 				
             }
 		}
     }

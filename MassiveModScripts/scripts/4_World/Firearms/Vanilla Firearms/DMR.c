@@ -1,4 +1,4 @@
-modded class FAL_Base : RifleBoltLock_Base
+modded class M14_Base : RifleBoltLock_Base
 {
 	override void EEOnCECreate()
 	{
@@ -25,8 +25,7 @@ modded class FAL_Base : RifleBoltLock_Base
 		"M68Optic",
 		"M4_T3NDRDSOptic",
 		"ReflexOptic",
-		"StarlightOptic",
-		"Akol_Specter6x"
+		"StarlightOptic"
 	};
 
 	void SpawnAttachments()
@@ -37,8 +36,7 @@ modded class FAL_Base : RifleBoltLock_Base
 		    if (GetGame() &&  ( GetGame().IsServer() || !GetGame().IsMultiplayer() ))
             {
 				AddHealth("", "",9999);
-				m_Inventory.CreateAttachment("Fal_OeBttstck");
-				m_Inventory.CreateAttachment("Mag_FAL_20Rnd");
+				m_Inventory.CreateAttachment("Mag_M14_20Rnd");
 			    m_Inventory.CreateAttachment(RandomOptics.GetRandomElement());		
             }
 		}
