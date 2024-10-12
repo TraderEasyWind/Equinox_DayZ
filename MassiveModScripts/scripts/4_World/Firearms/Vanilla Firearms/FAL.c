@@ -7,25 +7,26 @@ modded class FAL_Base : RifleBoltLock_Base
 	
 	ref TStringArray RandomOptics = 
 	{
-		"SNAFU_Aimpoint_ACO",
-		"SNAFU_Elcan",
-		"SNAFU_Aimpoint_M5",
-		"SNAFU_EOTech_EXPS3",
-		"SNAFU_HuntingOptic",
-		"SNAFU_Kahles",
-		"SNAFU_Leupold_Mark8",
-		"SNAFU_Nightforce",
-		"SNAFU_Tango6T_Black",
-		"SNAFU_Trijicon_Docter",
-		"SNAFU_Walther",
+		//"SNAFU_Aimpoint_ACO",
+		//"SNAFU_Elcan",
+		//"SNAFU_Aimpoint_M5",
+		//"SNAFU_EOTech_EXPS3",
+		//"SNAFU_HuntingOptic",
+		//"SNAFU_Kahles",
+		//"SNAFU_Leupold_Mark8",
+		//"SNAFU_Nightforce",
+		//"SNAFU_Tango6T_Black",
+		//"SNAFU_Trijicon_Docter",
+		//"SNAFU_Walther",
+		//"SNAFU_Kobra",
+		//"MassScope",
 		"ACOGOptic",
 		"ACOGOptic_6x",
-		"MassScope",
-		"SNAFU_Kobra",
 		"M68Optic",
 		"M4_T3NDRDSOptic",
 		"ReflexOptic",
-		"StarlightOptic"
+		"StarlightOptic",
+		"Akol_Specter6x"
 	};
 
 	void SpawnAttachments()

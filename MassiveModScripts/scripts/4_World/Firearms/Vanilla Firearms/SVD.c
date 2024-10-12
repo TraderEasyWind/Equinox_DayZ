@@ -5,7 +5,7 @@ modded class SVD_Base : RifleBoltLock_Base
 		GetGame().GetCallQueue( CALL_CATEGORY_SYSTEM ).CallLater(this.SpawnAttachments, 1000);
 	}
 	
-	ref TStringArray SNAFUOptics = 
+	ref TStringArray RandomOptics = 
 	{
 		"SNAFU_AKAimpoint_ACO",
 		"SNAFU_AKElcan",
@@ -19,15 +19,13 @@ modded class SVD_Base : RifleBoltLock_Base
 		"SNAFU_AKTrijicon_Docter",
 		"SNAFU_AKWalther",
 		"KazuarOptic",
-		"Mass1P69"
-	};
-	
-	ref TStringArray AKOptics = 
-	{
+		"Mass1P69",
+		"Akol_AkMount_NoAttachment",
 		"KashtanOptic",
 		"PSO1Optic",
 		"KobraOptic"
 	};
+	
 	int randomchance = Math.RandomInt(1,100);
 
 	void SpawnAttachments()
@@ -42,13 +40,8 @@ modded class SVD_Base : RifleBoltLock_Base
 				m_Inventory.CreateAttachment("Mag_SVD_10Rnd");
 				if (randomchance < 50)
 				{
-			        m_Inventory.CreateAttachment(AKOptics.GetRandomElement());	
-				}	
-                else
-				{
-				    m_Inventory.CreateAttachment(SNAFUOptics.GetRandomElement());	
-				}	
-					
+			        m_Inventory.CreateAttachment(RandomOptics.GetRandomElement());	
+				}		
             }
 		}
     }

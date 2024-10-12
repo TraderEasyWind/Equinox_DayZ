@@ -28,6 +28,7 @@ class CfgMods
 		version="1.0";
 		extra=0;
 		type="mod";
+		inputs="MassiveModScripts/scripts/Data/Inputs.xml";
 		dependencies[]=
 		{
 			"Game",
