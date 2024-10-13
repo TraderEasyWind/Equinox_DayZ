@@ -62,10 +62,10 @@
 
     -->
     <type name="Akol_CZRail_NoAttachment">
-        <nominal>2</nominal>
+        <nominal>6</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -74,10 +74,10 @@
         <category name="weapons"/>
     </type>
     <type name="Akol_M700Rail_NoAttachment">
-        <nominal>2</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -86,10 +86,10 @@
         <category name="weapons"/>
     </type>
     <type name="Akol_B95Rail_NoAttachment">
-        <nominal>2</nominal>
+        <nominal>5</nominal>
         <lifetime>3888000</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
