@@ -36,17 +36,8 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<default name="save_events_startup" value="true"/>
 		<default name="save_types_startup" value="true"/>
 	</defaults>
-	<ce folder="CustomTypes/Codelock">
-		<file name="codelock_types.xml" type="types" />
-	</ce>
 	<ce folder="CustomTypes/FlipTransport">
 		<file name="ft_types.xml" type="types" />
-	</ce>
-	<ce folder="CustomTypes/BBP">
-		<file name="BBP_types.xml" type="types" />
-	</ce>
-	<ce folder="CustomTypes/BreachingCharge">
-		<file name="BC_types.xml" type="types" />
 	</ce>
 	<ce folder="CustomTypes/Sights_Mounts">
 		<file name="sights_types.xml" type="types" />
@@ -66,8 +57,11 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
    <ce folder="CustomTypes/CJ187NVGs">
         <file name="CJ187NVGstypes.xml" type="types" />
    </ce>
-   <ce folder="CustomTypes/CJ187NVGs">
+   <ce folder="CustomTypes">
         <file name="Notestypes.xml" type="types" />
+   </ce>
+   <ce folder="CustomTypes">
+        <file name="ExpansionBB.xml" type="types" />
    </ce>
    <ce folder="CustomTypes/MassiveMod">
         <file name="JunkFoodCan.xml" type="types" />
