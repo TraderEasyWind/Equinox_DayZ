@@ -136,7 +136,7 @@ class CfgVehicles
 		displayName = "Tier 1 Cache";
 		descriptionShort = "A wooden Cache Containing Valuable Goodies, Weapons, Clothing. Equipment to help you further survive in the apocalypse. To Open this Item you'll need to FIND some sort of Key.";
 		model = "MassiveMod\Caches\Tier1\Tier1Crate.p3d";
-		attachments[]={"Vest","Shoulder","Case","ClothingPackage"};
+		attachments[]={"Vest","Case","ClothingPackage"};
 		itemsCargoSize[] = {10,6};
 	};
 	class MassiveMod_CrateTier1_2: MassiveMod_CrateTier1{};
@@ -148,7 +148,7 @@ class CfgVehicles
 		displayName = "Tier 2 Cache";
 		descriptionShort = "A Large wooden Cache Containing Valuable Goodies, Weapons, Clothing. Equipment to help you further survive in the apocalypse. To Open this Item you'll need to FIND some sort of Key.";
 		model = "MassiveMod\Caches\Tier2\Tier2Crate.p3d";
-		attachments[]={"Vest","Shoulder","Case"};
+		attachments[]={"Vest","Case"};
 		itemsCargoSize[] = {10,8};
 	};
 	class MassiveMod_CrateTier2_2: MassiveMod_CrateTier2{};
@@ -162,7 +162,7 @@ class CfgVehicles
 		displayName = "Tier 3 Cache";
 		descriptionShort = "A Military Cache Containing Valuable Goodies, Weapons, Clothing. Equipment to help you further survive in the apocalypse. To Open this Item you'll need to FIND some sort of Key.";
 		model = "MassiveMod\Caches\Tier3\Tier3Crate.p3d";
-		attachments[]={"Vest","Headgear","Shoulder","Case","ClothingPackage"};
+		attachments[]={"Vest","Headgear","Case","ClothingPackage"};
 		itemsCargoSize[] = {10,9};
 	};
 	class MassiveMod_CrateTier3_2: MassiveMod_CrateTier3{};
@@ -178,7 +178,7 @@ class CfgVehicles
 		displayName = "Tier 4 Cache";
 		descriptionShort = "A Large Military Cache Containing Valuable Goodies, Weapons, Clothing. Equipment to help you further survive in the apocalypse. To Open this Item you'll need to FIND some sort of Key.";
 		model = "MassiveMod\Caches\Tier4\Tier4Crate.p3d";
-		attachments[]={"Vest","Back","Shoulder","Case","ClothingPackage"};
+		attachments[]={"Vest","Back","Case","ClothingPackage"};
 		itemsCargoSize[] = {10,13};
 		class Cargo
 		{
@@ -201,7 +201,7 @@ class CfgVehicles
 		displayName = "Tier 5 Cache";
 		descriptionShort = "A Large Military Cache Containing Valuable Goodies, Weapons, Clothing. Equipment to help you further survive in the apocalypse. To Open this Item you'll need to FIND some sort of Key.";
 		model = "MassiveMod\Caches\Tier5\Tier5Crate.p3d";
-		attachments[]={"Vest","Back","Shoulder","Case","ClothingPackage","Slot_Melee"};
+		attachments[]={"Vest","Back","Case","ClothingPackage","Slot_Melee"};
 		itemsCargoSize[] = {10,15};
 	};
 	class MassiveMod_CrateTier5_2: MassiveMod_CrateTier5{};
