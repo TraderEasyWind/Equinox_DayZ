@@ -15,6 +15,71 @@
 				<default name="clusterMatrix" de="TrajectoryStumps" width="12" height="12"/>
 -->
 		</defaults>
+		<group name="MassiveMod_SurvivorCamp" lootmax="10">
+		    <category name="tools" />
+		    <category name="clothes" />
+		    <category name="food" />
+			<category name="weapons"/>
+        	<usage name="BasicMedic"/>
+			<usage name="Town"/>
+			<tag name="floor"/>
+            <tag name="shelves"/>
+            <tag name="ground"/>
+        	<container name="lootFloor" lootmax="10">
+        		<point pos="2.803913 -0.766965 2.368513" range="1" height="1" /> 
+        		<point pos="0.363471 -0.736039 2.304064" range="1" height="1" /> 
+        		<point pos="-1.422531 -0.689270 2.768453" range="1" height="1" /> 
+        		<point pos="-1.164415 -0.225736 -0.904106" range="1" height="1" /> 
+        		<point pos="-6.095659 -0.534770 2.657078" range="1" height="1" /> 
+        		<point pos="-6.066500 -0.443617 -0.086289" range="1" height="1" /> 
+        		<point pos="-1.597413 -0.626334 0.461406" range="1" height="1" /> 
+        		<point pos="-3.015300 -0.274596 -1.182051" range="1" height="1" /> 
+        		<point pos="-1.353850 -0.272421 -2.741612" range="1" height="1" /> 
+        		<point pos="2.405035 -0.681991 -2.063524" range="1" height="1" /> 
+        		<point pos="0.906357 -0.302299 -1.243447" range="1" height="1" /> 
+        		<point pos="1.636804 -0.344785 0.347363" range="1" height="1" /> 
+        		<point pos="3.272623 -0.713182 -0.154325" range="1" height="1" /> 
+        		<point pos="-3.907679 -0.422116 0.854442" range="1" height="1" /> 
+        		<point pos="-2.727729 -0.311173 -5.322142" range="1" height="1" /> 
+        		<point pos="5.001904 -0.318421 0.531164" range="1" height="1" /> 
+        		<point pos="3.336692 -0.413288 -4.398652" range="1" height="1" /> 
+        		<point pos="4.717283 -0.540602 -2.681100" range="1" height="1" /> 
+        		<point pos="-6.488926 -0.715778 -3.585406" range="1" height="1" /> 
+        	</container>
+        </group>
+		<group name="MassiveMod_SurvivorCampImprov" lootmax="10">
+		    <category name="tools" />
+		    <category name="clothes" />
+		    <category name="food" />
+			<category name="weapons"/>
+			<usage name="FreshAmmo"/>
+			<usage name="Hunting"/>
+        	<usage name="BasicMedic"/>
+			<tag name="floor"/>
+            <tag name="shelves"/>
+            <tag name="ground"/>
+        	<container name="lootFloor" lootmax="10">
+        		<point pos="2.803913 -0.766965 2.368513" range="1" height="1" /> 
+        		<point pos="0.363471 -0.736039 2.304064" range="1" height="1" /> 
+        		<point pos="-1.422531 -0.689270 2.768453" range="1" height="1" /> 
+        		<point pos="-1.164415 -0.225736 -0.904106" range="1" height="1" /> 
+        		<point pos="-6.095659 -0.534770 2.657078" range="1" height="1" /> 
+        		<point pos="-6.066500 -0.443617 -0.086289" range="1" height="1" /> 
+        		<point pos="-1.597413 -0.626334 0.461406" range="1" height="1" /> 
+        		<point pos="-3.015300 -0.274596 -1.182051" range="1" height="1" /> 
+        		<point pos="-1.353850 -0.272421 -2.741612" range="1" height="1" /> 
+        		<point pos="2.405035 -0.681991 -2.063524" range="1" height="1" /> 
+        		<point pos="0.906357 -0.302299 -1.243447" range="1" height="1" /> 
+        		<point pos="1.636804 -0.344785 0.347363" range="1" height="1" /> 
+        		<point pos="3.272623 -0.713182 -0.154325" range="1" height="1" /> 
+        		<point pos="-3.907679 -0.422116 0.854442" range="1" height="1" /> 
+        		<point pos="-2.727729 -0.311173 -5.322142" range="1" height="1" /> 
+        		<point pos="5.001904 -0.318421 0.531164" range="1" height="1" /> 
+        		<point pos="3.336692 -0.413288 -4.398652" range="1" height="1" /> 
+        		<point pos="4.717283 -0.540602 -2.681100" range="1" height="1" /> 
+        		<point pos="-6.488926 -0.715778 -3.585406" range="1" height="1" /> 
+        	</container>
+        </group>
 		<group name="Land_Shed_M1" lootmax="2">
 				<usage name="Industrial" />
 				<usage name="Farm" />
