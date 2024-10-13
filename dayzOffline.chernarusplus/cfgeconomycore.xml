@@ -57,11 +57,11 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
    <ce folder="CustomTypes/CJ187NVGs">
         <file name="CJ187NVGstypes.xml" type="types" />
    </ce>
-   <ce folder="CustomTypes">
-        <file name="Notestypes.xml" type="types" />
-   </ce>
-   <ce folder="CustomTypes">
+   <ce folder="CustomTypes/Expansion">
         <file name="ExpansionBB.xml" type="types" />
+   </ce>
+   <ce folder="CustomTypes/Notes">
+        <file name="Notestypes.xml" type="types" />
    </ce>
    <ce folder="CustomTypes/MassiveMod">
         <file name="JunkFoodCan.xml" type="types" />
