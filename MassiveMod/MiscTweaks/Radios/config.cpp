@@ -8,7 +8,6 @@ class CfgPatches
 		requiredVersion=0.1;
 		requiredAddons[]=
 		{
-			"Testmod_ModTweaks", 
 			"DZ_Radio"
 		};
 	};
