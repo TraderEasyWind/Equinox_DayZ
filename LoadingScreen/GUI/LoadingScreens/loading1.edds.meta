@@ -1,7 +1,7 @@
 MetaFileClass {
  Name "{9AF8AB71C38BE984}LoadingScreen/GUI/LoadingScreens/loading1.edds"
  Author "desktop-u37uqmj"
- ChangeDate 642429261
+ ChangeDate -344280755
  Configurations {
   PAAResourceClass PC {
    SourceFile "loading1.paa"
