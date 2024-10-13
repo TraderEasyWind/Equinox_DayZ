@@ -80,7 +80,7 @@ class CfgMods
 				{
 					"MassiveModScripts/scripts/Combine",
 					"MassiveModScripts/scripts/5_Mission",
-					"MassiveModScripts\scripts\5_Mission\EQAutorun"
+					"MassiveModScripts/scripts/5_Mission/EQAutorun"
 				};
 			};
 			class dataScriptModule

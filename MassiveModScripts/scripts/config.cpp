@@ -17,7 +17,7 @@ class CfgMods
 		name="SchanaModAutorun";
 		action="https://github.com/schana/dayz-mod-autorun";
 		type="mod";
-		inputs="Testmod/Mod Tweaks/Autorun/Data/Inputs.xml";
+		inputs="MassiveModScripts/scripts/Data/Inputs.xml";
 		dependencies[]=
 		{
 			"4_World",
