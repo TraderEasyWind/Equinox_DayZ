@@ -1,8 +1,8 @@
 <events>
 	<event name="StaticSurvivorCamp">
-        <nominal>20</nominal>
-        <min>10</min>
-        <max>21</max>
+        <nominal>10</nominal>
+        <min>5</min>
+        <max>11</max>
         <lifetime>2100</lifetime>
         <restock>0</restock>
         <saferadius>1000</saferadius>
@@ -14,8 +14,8 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="15" lootmin="10" max="10" min="5" type="MassiveMod_SurvivorCamp"/>
-			<child lootmax="15" lootmin="10" max="10" min="5" type="MassiveMod_SurvivorCampImprov"/>
+            <child lootmax="15" lootmin="10" max="5" min="3" type="MassiveMod_SurvivorCamp"/>
+			<child lootmax="15" lootmin="10" max="5" min="3" type="MassiveMod_SurvivorCampImprov"/>
         </children>
     </event>
 </events>

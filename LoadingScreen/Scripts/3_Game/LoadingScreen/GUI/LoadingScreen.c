@@ -17,7 +17,7 @@ class CustomLoadingScreenBackground
 
 class CustomLoadingScreenData
 {
-	bool ShowLogo = true;
+	bool ShowLogo = false;
 	string LogoPath = "LoadingScreen/GUI/logo.edds";
 	bool RandomizeBackgounds = true;
 	int LoadingBarColor = ARGB(255, 199, 38, 81);

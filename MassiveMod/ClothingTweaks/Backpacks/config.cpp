@@ -16,5 +16,9 @@ class CfgPatches
 };
 class CfgVehicles
 {
-
+	class Clothing;
+    class TaloonBag_ColorBase: Clothing
+	{
+		allowOwnedCargoManipulation=1;
+	};
 };
