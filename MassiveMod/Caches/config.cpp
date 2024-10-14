@@ -66,7 +66,7 @@ class CfgVehicles
 	class MassiveModCrate_Base: Container_Base
 	{
 		scope=0;
-		weight = 10000;
+		weight = 50000;
 		itemBehaviour = 0;
 		itemSize[] = {100,100};
 		carveNavmesh = 1;

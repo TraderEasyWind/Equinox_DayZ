@@ -28,7 +28,7 @@ class CfgMods
 		version="1.0";
 		extra=0;
 		type="mod";
-		inputs="MassiveModScripts/scripts/6_Data/Inputs.xml";
+		inputs="MassiveModScripts/Data/Inputs.xml";
 		dependencies[]=
 		{
 			"Game",
@@ -81,15 +81,6 @@ class CfgMods
 				{
 					"MassiveModScripts/scripts/Combine",
 					"MassiveModScripts/scripts/5_Mission",
-				};
-			};
-			class dataScriptModule
-			{
-				value="";
-				files[]=
-				{
-					"MassiveModScripts/scripts/Combine",
-					"MassiveModScripts/scripts/6_Data",
 				};
 			};
 		};

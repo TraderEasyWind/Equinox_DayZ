@@ -5,15 +5,9 @@
             <input name="UASchanaAutorunToggle" loc="Autorun Toggle" />
         </actions>
     </inputs>
-    <exclude name="AutoRun">
-        <input name="UASchanaAutorunToggle" />
-    </exclude>
-    <sorting name="AutoRun" loc="Auto Run">
-        <input name="UASchanaAutorunToggle" />
-    </sorting>
     <preset>
         <input name="UASchanaAutorunToggle">
-            <btn name="kZ" />
+            <btn name="kAdd" />
         </input>
     </preset>
 </modded_inputs>
