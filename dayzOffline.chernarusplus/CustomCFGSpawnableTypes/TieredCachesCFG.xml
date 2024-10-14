@@ -115,14 +115,11 @@
         <cargo chance="0.20"> <item name="AmmoBox_762x39_20Rnd" /> </cargo>
 		<cargo chance="0.20"> <item name="AmmoBox_556x56_20Rnd" /> </cargo>
 		<cargo chance="0.20"> <item name="AmmoBox_556x56_20Rnd" /> </cargo>
-<<<<<<< Updated upstream
 		<cargo chance="0.50"> <item name="MassiveMod_KeyRing" /> </cargo>
         <cargo chance="0.20"> <item name="Mass_PistolCase" /> </cargo>
 		<cargo chance="0.10"> <item name="CJ_NVG_ANPVS14" /> </cargo>
-=======
 		<cargo chance="0.40"> <item name="MassiveMod_KeyRing" /> </cargo>
         <cargo chance="0.10"> <item name="Mass_PistolCase" /> </cargo>
->>>>>>> Stashed changes
 		<cargo chance="0.10"> <item name="MassAR500" /> </cargo>
 		<cargo chance="0.20"> <item name="MassiveMod_AmmoBox" /> </cargo>
 		<cargo chance="0.20"> <item name="SodaCan_Pipsi" /> </cargo>
@@ -206,11 +203,8 @@
 		<cargo chance="0.20"> <item name="AmmoBox_45ACP_25rnd" /> </cargo>
 		<cargo chance="0.50"> <item name="MassiveMod_KeyRing" /> </cargo>
 		<cargo chance="0.30"> <item name="MassAR500pair" /> </cargo>
-<<<<<<< Updated upstream
 		<cargo chance="0.30"> <item name="CJ_NVG_ANPVS23" /> </cargo>
-=======
 		<cargo chance="0.10"> <item name="CJ_NVG_GPNVG18_Black" /> </cargo>
->>>>>>> Stashed changes
 		<cargo chance="0.30"> <item name="MassiveMod_AmmoBox" /> </cargo>
 		<cargo chance="0.20"> <item name="TacticalBaconCan" /> </cargo>
 		<cargo chance="0.10"> <item name="BakedBeansCan" /> </cargo>
