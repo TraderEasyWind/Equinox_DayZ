@@ -1,12 +1,22 @@
 [
 	{
-		"m_Headline": "Custom Title 1",
+		"m_Headline": "Making History",
 		"m_ImagePath": "",
-		"m_Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+		"m_Description": "Add your contribution to the history of Equinox, post your stories and odd happenings to the journal."
 	},
 	{
-		"m_Headline": "Custom Title 2",
+		"m_Headline": "Getting on the Map",
 		"m_ImagePath": "",
-		"m_Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+		"m_Description": "Looking to make your group official? Contact a member of staff and get the ball rolling today."
+	},
+	{
+		"m_Headline": "Oops!",
+		"m_ImagePath": "",
+		"m_Description": "Watch out for landmines."
+	},
+	{
+		"m_Headline": "Lore",
+		"m_ImagePath": "",
+		"m_Description": "Equinox is a living world, make your mark on it. Start your story in the journal."
 	}
 ]
