@@ -1,0 +1,338 @@
+{
+    "m_Version": 5,
+    "EnableStatusTab": 0,
+    "EnablePartyTab": 0,
+    "EnableServerInfoTab": 1,
+    "EnableServerRulesTab": 1,
+    "EnableTerritoryTab": 1,
+    "EnableBookMenu": 1,
+    "CreateBookmarks": 0,
+    "ShowHaBStats": 1,
+    "ShowPlayerFaction": 0,
+    "RuleCategories": [
+        {
+            "CategoryName": "Equinox Server Rules",
+            "Rules": [
+                {
+                    "RuleParagraph": "1.1.",
+                    "RuleText": "No hate speech"
+                },
+                {
+                    "RuleParagraph": "1.2.",
+                    "RuleText": "No cheating or associating with cheaters"
+                },
+                {
+                    "RuleParagraph": "1.3.",
+                    "RuleText": "No glitching of any kind that impacts gameplay or server performance"
+                },
+                {
+                    "RuleParagraph": "1.4.",
+                    "RuleText": "No stream sniping"
+                },
+                {
+                    "RuleParagraph": "1.5.",
+                    "RuleText": "No combat logging (15 minutes after final contact) If server crashes or restarts mid-engagement, you must log back in immeciately"
+                },
+				{
+                    "RuleParagraph": "1.6.",
+                    "RuleText": "No base griefing"
+                },
+				{
+                    "RuleParagraph": "1.7.",
+                    "RuleText": "No despawning storage during raids"
+                },
+				{
+                    "RuleParagraph": "1.8.",
+                    "RuleText": "Your in game character must be named"
+                }
+            ]
+        }
+    ],
+    "DisplayServerSettingsInServerInfoTab": 0,
+    "SettingCategories": [
+        {
+            "CategoryName": "Base-Building Settings",
+            "Settings": [
+                {
+                    "SettingTitle": "Expansion.Settings.BaseBuilding.CanCraftVanillaBasebuilding",
+                    "SettingText": "",
+                    "SettingValue": ""
+                },
+                {
+                    "SettingTitle": "Expansion.Settings.BaseBuilding.CanCraftExpansionBasebuilding",
+                    "SettingText": "",
+                    "SettingValue": ""
+                }
+            ]
+        },
+        {
+            "CategoryName": "Raid Settings",
+            "Settings": [
+                {
+                    "SettingTitle": "Expansion.Settings.Raid.CanRaidSafes",
+                    "SettingText": "",
+                    "SettingValue": ""
+                },
+                {
+                    "SettingTitle": "Expansion.Settings.Raid.SafeExplosionDamageMultiplier",
+                    "SettingText": "",
+                    "SettingValue": ""
+                },
+                {
+                    "SettingTitle": "Expansion.Settings.Raid.SafeProjectileDamageMultiplier",
+                    "SettingText": "",
+                    "SettingValue": ""
+                },
+                {
+                    "SettingTitle": "Expansion.Settings.Raid.ExplosionTime",
+                    "SettingText": "",
+                    "SettingValue": ""
+                },
+                {
+                    "SettingTitle": "Expansion.Settings.Raid.ExplosionDamageMultiplier",
+                    "SettingText": "",
+                    "SettingValue": ""
+                },
+                {
+                    "SettingTitle": "Expansion.Settings.Raid.ProjectileDamageMultiplier",
+                    "SettingText": "",
+                    "SettingValue": ""
+                }
+            ]
+        },
+        {
+            "CategoryName": "Territory Settings",
+            "Settings": [
+                {
+                    "SettingTitle": "Expansion.Settings.Territory.TerritorySize",
+                    "SettingText": "",
+                    "SettingValue": ""
+                },
+                {
+                    "SettingTitle": "Expansion.Settings.Territory.UseWholeMapForInviteList",
+                    "SettingText": "",
+                    "SettingValue": ""
+                }
+            ]
+        }
+    ],
+    "Links": [
+        {
+            "Name": "Website",
+            "URL": "http://dayzequinox.com",
+            "IconName": "Info",
+            "IconColor": -14473430
+        },
+        {
+            "Name": "Discord",
+            "URL": "https://discord.gg/tUMfw5p3hp",
+            "IconName": "Discord",
+            "IconColor": -9270822
+        }
+    ],
+    "Descriptions": [
+        {
+            "CategoryName": "Equinox General Info",
+            "Descriptions": [
+                {
+                    "DescriptionText": "What is Equinox? - Equinox DayZ is a community with a long & varied history, Friends and neighbors playing on one DayZ server to the next, Expanding the history of our characters, groups & general nonsense from as far back as 2017. As our collective hours played increased to nigh-on embarrassing numbers, our idea of a server honed in. Equinox is a vanilla+ organic RP experience that is heavily community influenced & driven. Everyone's voice matters here, our server has a real history, driven by the wonderful folks within it.                  "                            
+                },
+								{
+                    "DescriptionText": "What is Organic RP? - Organic RP simply means it is not force. Any & all interactions in game happen without oversight by server staff. Any engagement or interaction can go any way. Perhaps the folks with blue armbands in Berezino are benevolent, offering aide to all. Or maybe you notice that a few of them have bloody hands and speak in an odd manner. Its all natural here in Chernarus. Simultaneously, you are not forced to RP. If you you'd like to kill people, by all means go for it. The equinox-journal forum is for any and all interaction write ups / stories / group introductions, declarations / character intros... anything that happened in game that you'd like to write about, these forums are for you!                        "      													            	               
+                },
+								{
+                    "DescriptionText": "What is Vanilla+? - Vanilla+ is a tastefully modded experience that stays true to the base game / Official servers. The goal is to provide a place where players new to the game & players with 3k+ hours can find common ground. All additional content is built directly off of vanilla content. We add the expansions and QOL improvement that everyone has wanted for years, but not go so far as to fundamentally change what makes DayZ DayZ.                                                                       "                  	                            				
+                },
+								{
+                    "DescriptionText": "How does my group become Official? - Official groups get a myriad of perks over unofficial ones. To start off, anyone can have an unofficial group.  Official groups, however, get their territory on the custom Equinox map, custom roles in discord for their members, a leadership role for their leader with access to a custom leadership chat with other group leaders, (FUTURE: discord warning when main base is under attack). Official groups must have: At least 4 members, be active in the Equinox discord for a week, have IC RP introductions for the majority of their members & leader, A group introduction & ROE (Rules of Engagement) post in #equinox-journal (discord channel) aswell as generally display good conduct and respect for the community. If you'd like to begin the process of forming an official group, contact a member of staff."       		         			  
+				},
+								{
+                    "DescriptionText": "How do I post in IC Broadcasts? - Message a member of staff with your IC broadcast and we will post it for you! That way we can be sure that your broadcast doesn't jeopardize other plays experience & is in good faith. Metagaming is allowed in an IC broadcast but only on yourself. Acceptable broadcast: Traders in blue armbands have set up in the Mogilevka church and are specifically looking for boxed 5.45 ammunition. Approach with your gun on your back and hand up and you will be welcomed. Unacceptable broadcast: To the guys in red armbands that just killed me and my buddy at nwaf, screw you you suck.                                                                         "      								            	                    
+                },
+								{
+                    "DescriptionText": "See Discord and Website links on the left side"				
+                }
+            ]
+        },
+		{
+            "CategoryName": "Equinox Factions",
+            "Descriptions": [
+                {
+                    "DescriptionText": "Trade Union - Located at Altar, the Trade Union are here to help you with all your gear-fear inducing needs. For years, we have picked entire cities clean like a school of hungry fish, stocking our trade post (Brokedown Palace) with everything under the sun. Traders try to be friendly, but also don't take any nonsense. Try us on 87.8!                                                          "            	
+                },
+								{
+                    "DescriptionText": "NCR - The NCR is more than just a faction—it’s a promise. We are the shield in a broken world, forged from the ashes of chaos and bound by honor, strength, and the will to survive. When others falter, we stand tall. We rebuild from the ruins, we protect the innocent, and we strike fast when danger looms. We are the watchmen in the dark, the ones who believe in a brighter tomorrow, even when hope seems lost. We don’t just survive the wasteland—we shape it, one battle, one victory at a time. The NCR isn’t just a force; it’s the heartbeat of Chernarus, and in that heartbeat, you’ll find courage, discipline, and unwavering loyalty. We are the line between order and the abyss.                                               "  			                 	
+                },
+								{
+                    "DescriptionText": "Empire of Chernarus - The Empire of Chernarus is what was left of the military forces stationed in Chernarus post-outbreak. They were tired of the way the current diplomats, and government officials were handing the land. They killed and maimed the officials claiming that they were now the true governing force of Chernarus, and do not recognize any groups, leaving a wake of destruction, and fire wherever their path takes them.                                             " 			                 	
+                },
+								{
+                    "DescriptionText": "Sanctuary - The Sanctuary is an independent settlement that has no motives or plans to change Chernarus, but only seeks to protect its own residents and provide a safe place for all who seek it. Those that choose to live in The Sanctuary are free from taxations and unjust laws, free to build their home and live as they please.  The Sanctuary will always choose to not involve itself in politics or feuds, instead opting for diplomatic solutions and peaceful resolutions as a way to preserve lives.  The Sanctuary's biggest mission is to save as many lives as possible, and to ultimately make a safe place that all are welcome to take shelter in.                                  "  			                	
+                },
+								{
+                    "DescriptionText": "Ghosts of Kumryna - The Ghosts of Kumryna are a battle-hardened faction formed in the aftermath of the tragic bombing of the Church of Kumryna. Originally known as the Kumryna Resistance, they fought against the Chernarus Red Star Movement and the United Nations forces who clashed in the region. The bombing, which claimed countless lives and destroyed their sanctuary, marked a turning point. The survivors, driven by a desire for vengeance and survival, rebranded themselves as the Ghosts of Kumryna—a grey faction with few rules but a fierce loyalty to their own."   				               	
+                }
+            ]
+        }
+    ],
+    "CraftingCategories": [
+        {
+            "CategoryName": "Accessories",
+            "Results": [
+                "armband_",
+                "armband_white",
+                "eyepatch_improvised"
+            ]
+        },
+        {
+            "CategoryName": "Backpacks",
+            "Results": [
+                "courierbag",
+                "furcourierbag",
+                "furimprovisedbag",
+                "improvisedbag",
+                "leathersack_brown"
+            ]
+        },
+        {
+            "CategoryName": "Base-Building",
+            "Results": [
+                "expansionbarbedwirekit",
+                "fencekit",
+                "expansionfloorkit",
+                "expansionhelipadkit",
+                "expansionhescokit",
+                "expansionrampkit",
+                "shelterkit",
+                "expansionstairkit",
+                "territoryflagkit",
+                "expansionwallkit",
+                "watchtowerkit"
+            ]
+        },
+        {
+            "CategoryName": "Camouflage",
+            "Results": [
+                "camonet",
+                "ghillieatt_tan",
+                "ghillieatt_mossy",
+                "ghillieatt_woodland",
+                "ghilliebushrag_tan",
+                "ghilliebushrag_mossy",
+                "ghilliebushrag_woodland",
+                "ghilliehood_tan",
+                "ghilliehood_mossy",
+                "ghilliehood_woodland",
+                "ghilliesuit_tan",
+                "ghilliesuit_mossy",
+                "ghilliesuit_woodland",
+                "ghillietop_tan",
+                "ghillietop_mossy",
+                "ghillietop_woodland"
+            ]
+        },
+        {
+            "CategoryName": "Cooking",
+            "Results": [
+                "fireplace",
+                "firewood",
+                "handdrillkit"
+            ]
+        },
+        {
+            "CategoryName": "Fishing",
+            "Results": [
+                "bait",
+                "bonebait",
+                "bonehook",
+                "improvisedfishingrod"
+            ]
+        },
+        {
+            "CategoryName": "Food",
+            "Results": [
+                "carpfilletmeat",
+                "mackerelfilletmeat",
+                "expansionmilkbottle",
+                "potato",
+                "slicedpumpkin"
+            ]
+        },
+        {
+            "CategoryName": "Horticulture",
+            "Results": [
+                "pepperseeds",
+                "pumpkinseeds",
+                "tomatoseeds",
+                "zucchiniseeds"
+            ]
+        },
+        {
+            "CategoryName": "Lights",
+            "Results": [
+                "longtorch",
+                "torch"
+            ]
+        },
+        {
+            "CategoryName": "Medical Supplies",
+            "Results": [
+                "bloodbagiv",
+                "salinebagiv",
+                "splint"
+            ]
+        },
+        {
+            "CategoryName": "Melee Weapons",
+            "Results": [
+                "nailedbaseballbat",
+                "stoneknife"
+            ]
+        },
+        {
+            "CategoryName": "Storage",
+            "Results": [
+                "woodencrate"
+            ]
+        },
+        {
+            "CategoryName": "Supplies",
+            "Results": [
+                "boarpelt",
+                "burlapsack",
+                "burlapstrip",
+                "longwoodenstick",
+                "expansionlumber1",
+                "expansionlumber1_5",
+                "expansionlumber3",
+                "nails",
+                "netting",
+                "rag",
+                "rope",
+                "sharpwoodenstick",
+                "smallstone",
+                "tannedleather",
+                "woodenplank",
+                "woodenstick"
+            ]
+        },
+        {
+            "CategoryName": "Weapon Modifications",
+            "Results": [
+                "sawedoffizh18shotgun"
+            ]
+        },
+        {
+            "CategoryName": "Weapon Attachments",
+            "Results": [
+                "improvisedsuppressor"
+            ]
+        },
+		{
+            "CategoryName": "Other Crafts",
+            "Results": [
+            ]
+        }
+    ],
+    "EnableCraftingRecipesTab": 1
+}
