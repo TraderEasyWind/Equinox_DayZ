@@ -2,20 +2,56 @@
 	<type name="MassiveMod_CrateTier1">
 		<cargo chance="0.50"> <item name="CodeLock" /> </cargo>
 	    <cargo chance="0.20"> <item name="MassiveMod_Tier2Key" /> </cargo>
-		<cargo chance="0.5"> <item name="SledgeHammer" /> </cargo>
+		<cargo chance="0.10"> <item name="SledgeHammer" /> </cargo>
         <cargo chance="0.5"> <item name="Shovel" /> </cargo>
 		<cargo chance="0.5"> <item name="Hammer" /> </cargo>
         <cargo chance="0.5"> <item name="Hatchet" /> </cargo>
-        <cargo chance="0.5"> <item name="Hacksaw" /> </cargo>
-        <cargo chance="0.5"> <item name="HandSaw" /> </cargo>
+        <cargo chance="0.25"> <item name="HandSaw" /> </cargo>
         <cargo chance="0.5"> <item name="NailBox" /> </cargo>
         <cargo chance="0.5"> <item name="NailBox" /> </cargo>
         <cargo chance="0.5"> <item name="HuntingKnife" /> </cargo>
         <cargo chance="0.5"> <item name="Whetstone" /> </cargo>
         <cargo chance="0.5"> <item name="MetalWire" /> </cargo>
+				<cargo chance="0.5"> <item name="SparkPlug" /> </cargo>
+				<cargo chance="0.2"> <item name="TomatoSeedsPack" /> </cargo>
+				<cargo chance="0.1"> <item name="CannabisSeedsPack" /> </cargo>
+				<cargo chance="0.2"> <item name="PepperSeedsPack" /> </cargo>
+				<cargo chance="0.2"> <item name="ZucchiniSeedsPack" /> </cargo>
+				<cargo chance="0.2"> <item name="PumpkinSeedsPack" /> </cargo>
 		<cargo chance="0.10"> <item name="MassiveMod_KeyRing" /> </cargo>
+		<cargo chance="0.20"> <item name="SodaCan_Pipsi" /> </cargo>
+		<cargo chance="0.10"> <item name="SodaCan_Cola" /> </cargo>
+		<cargo chance="0.20"> <item name="SodaCan_Kvass" /> </cargo>
+		<cargo chance="0.20"> <item name="TacticalBaconCan" /> </cargo>
+		<cargo chance="0.20"> <item name="BakedBeansCan" /> </cargo>
+		<cargo chance="0.20"> <item name="PeachesCan" /> </cargo>
+		<cargo chance="0.3"> <item name="Pot" /> </cargo>
         <cargo chance="0.25"> <item name="Mass_LunchBox" /> </cargo>
-	</type>
+				<cargo chance="0.10">
+				<item name="CJ_NVG_TIG7"  chance="0.5" />
+				<item name="CJ_NVG_ANPVS7"  chance="0.5" />
+				</cargo>
+				<cargo chance="0.50">
+				<item name="OMNOGloves_Gray"  chance="0.25" />
+				<item name="OMNOGloves_Brown"  chance="0.25" />
+				<item name="WoolGloves_Black"  chance="0.25" />
+				<item name="WoolGloves_Green"  chance="0.25" />
+        </cargo>
+				<cargo chance="0.40">
+				<item name="PoliceVest"  chance="0.25" />
+				<item name="HighCapacityVest_Black"  chance="0.25" />
+				<item name="UKAssVest_Camo"  chance="0.25" />
+				<item name="HighCapacityVest_Olive"  chance="0.25" />
+        </cargo>
+				<cargo chance="0.30">
+				<item name="DryBag_Red"  chance="0.5" />
+				<item name="DryBag_Orange"  chance="0.5" />
+				<item name="DryBag_Yellow"  chance="0.5" />
+				<item name="DryBag_Blue"  chance="0.5" />
+				<item name="DryBag_Green"  chance="0.5" />
+				<item name="DryBag_Black"  chance="0.5" />
+				</cargo>
+        </type>
 	<type name="MassiveMod_CrateTier2">
 	    <cargo chance="1.00">
       <item name="MassSVT40"  chance="0.142857142857" />
@@ -26,14 +62,39 @@
       <item name="Massmini14"  chance="0.142857142857" />
       <item name="JD_BT_MP9"  chance="0.142857142857" />
 		</cargo>
+		<cargo chance="0.10"> <item name="NailBox" /> </cargo>
+		<cargo chance="0.20"> <item name="TacticalBaconCan" /> </cargo>
 		<cargo chance="0.20"> <item name="MassiveMod_Tier3Key" /> </cargo>
 		<cargo chance="0.20"> <item name="WeaponCleaningKit" /> </cargo>
 		<cargo chance="0.20"> <item name="AmmoBox_308Win_20Rnd" /> </cargo>
+		<cargo chance="0.20"> <item name="AmmoBox_HK_46x30_40rnd" /> </cargo>
 		<cargo chance="0.20"> <item name="AmmoBox_762x54Tracer_20Rnd" /> </cargo>
 		<cargo chance="0.20"> <item name="AmmoBox_762x39_20Rnd" /> </cargo>
 		<cargo chance="0.20"> <item name="AmmoBox_9x19_25rnd" /> </cargo>
 		<cargo chance="0.20"> <item name="AmmoBox_45ACP_25rnd" /> </cargo>
-		<cargo chance="0.50"> <item name="MassiveMod_KeyRing" /> </cargo>
+		<cargo chance="0.20"> <item name="Shemagh_Red" /> </cargo>
+		<cargo chance="0.20"> <item name="Shemagh_Brown" /> </cargo>
+		<cargo chance="0.30"> <item name="MassiveMod_KeyRing" /> </cargo>
+		<cargo chance="0.20"> <item name="SodaCan_Pipsi" /> </cargo>
+		<cargo chance="0.10"> <item name="SodaCan_Cola" /> </cargo>
+		<cargo chance="0.20"> <item name="SodaCan_Kvass" /> </cargo>
+		<cargo chance="0.20"> <item name="TacticalBaconCan" /> </cargo>
+		<cargo chance="0.20"> <item name="BakedBeansCan" /> </cargo>
+		<cargo chance="0.20"> <item name="PeachesCan" /> </cargo>
+		<cargo chance="0.40">
+		<item name="MountainBag_Red"  chance="0.25" />
+		<item name="MountainBag_Blue"  chance="0.25" />
+		<item name="MountainBag_Orange"  chance="0.25" />
+		<item name="MountainBag_Green"  chance="0.25" />
+	</cargo>
+	<cargo chance="0.10"> <item name="CJ_NVG_ANPVS14" /> </cargo>
+	<cargo chance="0.3"> <item name="Pot" /> </cargo>
+	<cargo chance="0.40">
+	<item name="PressVest_Blue"  chance="0.25" />
+	<item name="PressVest_LightBlue"  chance="0.25" />
+	<item name="PoliceVest"  chance="0.25" />
+	<item name="HuntingVest"  chance="0.25" />
+</cargo>
 	</type>
 	<type name="MassiveMod_CrateTier3">
 	    <cargo chance="1.00">
@@ -54,16 +115,31 @@
         <cargo chance="0.20"> <item name="AmmoBox_762x39_20Rnd" /> </cargo>
 		<cargo chance="0.20"> <item name="AmmoBox_556x56_20Rnd" /> </cargo>
 		<cargo chance="0.20"> <item name="AmmoBox_556x56_20Rnd" /> </cargo>
+<<<<<<< Updated upstream
 		<cargo chance="0.50"> <item name="MassiveMod_KeyRing" /> </cargo>
         <cargo chance="0.20"> <item name="Mass_PistolCase" /> </cargo>
 		<cargo chance="0.10"> <item name="CJ_NVG_ANPVS14" /> </cargo>
+=======
+		<cargo chance="0.40"> <item name="MassiveMod_KeyRing" /> </cargo>
+        <cargo chance="0.10"> <item name="Mass_PistolCase" /> </cargo>
+>>>>>>> Stashed changes
 		<cargo chance="0.10"> <item name="MassAR500" /> </cargo>
-		<cargo chance="0.30"> <item name="MassiveMod_AmmoBox" /> </cargo>
+		<cargo chance="0.20"> <item name="MassiveMod_AmmoBox" /> </cargo>
+		<cargo chance="0.20"> <item name="SodaCan_Pipsi" /> </cargo>
+		<cargo chance="0.10"> <item name="SodaCan_Cola" /> </cargo>
+		<cargo chance="0.20"> <item name="SodaCan_Kvass" /> </cargo>
+		<cargo chance="0.20"> <item name="TacticalBaconCan" /> </cargo>
+		<cargo chance="0.10"> <item name="BakedBeansCan" /> </cargo>
+		<cargo chance="0.10"> <item name="PeachesCan" /> </cargo>
         <cargo chance="0.30">
 			<item name="MassMRE4" chance="0.33" />
 			<item name="MassMRE9" chance="0.33" />
 			<item name="MassMRE10" chance="0.33" />
 		</cargo>
+		<cargo chance="0.10">
+			 <item name="CJ_NVG_ANPVS23" chance="0.50"/>
+			 <item name="CJ_NVG_BCNVG21" chance="0.50"/>
+		 </cargo>
         <cargo chance="0.20">
 			<item name="MassiveMod_BDUPackage" chance="0.05" />
 			<item name="MassiveMod_WinterBDUPackage" chance="0.05" />
@@ -85,6 +161,20 @@
 			<item name="MassiveMod_SM90Package" chance="0.05" />
 			<item name="MassiveMod_InvertGorkaWoodlandPackage" chance="0.05" />
 			<item name="MassiveMod_InvertGorkaWinterPackage" chance="0.05" />
+		</cargo>
+		<cargo chance="0.40">
+			<item name="HuntingBag"  chance="0.166666666667" />
+			<item name="HuntingBag_Hannah"  chance="0.166666666667" />
+			<item name="Massbrownhuntingbp"  chance="0.166666666667" />
+			<item name="Massszech"  chance="0.166666666667" />
+			<item name="Massbag4"  chance="0.166666666667" />
+			<item name="MassLightRatnik"  chance="0.166666666667" />
+		</cargo>
+		<cargo chance="0.30">
+			<item name="PlateCarrierVest"  chance="0.166666666667" />
+			<item name="PlateCarrierVest_Black"  chance="0.166666666667" />
+			<item name="PlateCarrierVest_Green"  chance="0.166666666667" />
+			<item name="PlateCarrierVest_Camo"  chance="0.166666666667" />
 		</cargo>
 	</type>
 	<type name="MassiveMod_CrateTier4">
@@ -116,34 +206,55 @@
 		<cargo chance="0.20"> <item name="AmmoBox_45ACP_25rnd" /> </cargo>
 		<cargo chance="0.50"> <item name="MassiveMod_KeyRing" /> </cargo>
 		<cargo chance="0.30"> <item name="MassAR500pair" /> </cargo>
+<<<<<<< Updated upstream
 		<cargo chance="0.30"> <item name="CJ_NVG_ANPVS23" /> </cargo>
+=======
+		<cargo chance="0.10"> <item name="CJ_NVG_GPNVG18_Black" /> </cargo>
+>>>>>>> Stashed changes
 		<cargo chance="0.30"> <item name="MassiveMod_AmmoBox" /> </cargo>
+		<cargo chance="0.20"> <item name="TacticalBaconCan" /> </cargo>
+		<cargo chance="0.10"> <item name="BakedBeansCan" /> </cargo>
+		<cargo chance="0.10"> <item name="PeachesCan" /> </cargo>
         <cargo chance="0.30">
 			<item name="MassMRE4" chance="0.33" />
 			<item name="MassMRE9" chance="0.33" />
 			<item name="MassMRE10" chance="0.33" />
 		</cargo>
         <cargo chance="0.40">
-			<item name="MassiveMod_BDUPackage" chance="0.05" />
-			<item name="MassLightRatnik" chance="0.05" />
-			<item name="MassiveMod_GorkaAutumnPackage" chance="0.05" />
-			<item name="MassiveMod_GorkaFlatPackage" chance="0.05" />
-			<item name="MassiveMod_GorkaSummerPackage" chance="0.05" />
-			<item name="MassLightRatnik_Desert" chance="0.05" />
-			<item name="MassiveMod_USMCDesertPackage" chance="0.05" />
-			<item name="MassiveMod_USMCWoodlandPackage" chance="0.05" />
-			<item name="MassiveMod_TTSKOPackage" chance="0.05" />
-			<item name="MassiveMod_SumrackPackage" chance="0.05" />
-			<item name="MassLightRatnik_Black" chance="0.05" />
-			<item name="MassiveMod_YegerWoodlandPackage" chance="0.05" />
-			<item name="MassiveMod_GorkaWinterPackage" chance="0.05" />
-			<item name="MassLightRatnik_Olive" chance="0.05" />
-			<item name="MassiveMod_TropicamPackage" chance="0.05" />
-			<item name="MassiveMod_MandrakePackage" chance="0.05" />
-			<item name="MassiveMod_UrbanPackage" chance="0.05" />
-			<item name="MassiveMod_SM90Package" chance="0.05" />
-			<item name="MassLightRatnik_Tan" chance="0.05" />
-			<item name="MassGDShirt" chance="0.05" />
+			<item name="MassiveMod_BDUPackage" chance="0.0666666666667" />
+			<item name="MassiveMod_GorkaAutumnPackage" chance="0.0666666666667" />
+			<item name="MassiveMod_GorkaFlatPackage" chance="0.0666666666667" />
+			<item name="MassiveMod_GorkaSummerPackage" chance="0.0666666666667" />
+			<item name="MassiveMod_USMCDesertPackage" chance="0.0666666666667" />
+			<item name="MassiveMod_USMCWoodlandPackage" chance="0.0666666666667" />
+			<item name="MassiveMod_TTSKOPackage" chance="0.0666666666667" />
+			<item name="MassiveMod_SumrackPackage" chance="0.0666666666667" />
+			<item name="Mass_CamonetGhillie_Nato" chance="0.0666666666667" />
+			<item name="Mass_CamonetGhillie_East" chance="0.0666666666667" />
+			<item name="MassiveMod_TropicamPackage" chance="0.0666666666667" />
+			<item name="MassiveMod_MandrakePackage" chance="0.0666666666667" />
+			<item name="MassiveMod_UrbanPackage" chance="0.0666666666667" />
+			<item name="MassiveMod_SM90Package" chance="0.0666666666667" />
+			<item name="MassGDShirt" chance="0.0666666666667" />
 		</cargo>
+        <cargo chance="0.20">
+			<item name="MassRuckBagGorka" chance="0.10" />
+			<item name="MassRuckBagBlack" chance="0.10" />
+			<item name="MassRuckBagGreen" chance="0.10" />
+			<item name="MassCBhelmet" chance="0.10" />
+			<item name="MassCBhelmet_Desert" chance="0.10" />
+			<item name="Mass_IFAK_TAN" chance="0.10" />
+			<item name="Mass_IFAK_BLACK" chance="0.10" />
+			<item name="Mass_IFAK_ODG" chance="0.10" />
+			<item name="Mass_IFAK_BDU" chance="0.10" />
+			<item name="Mass_CamonetGhillie_Marpat" chance="0.10" />
+		</cargo>
+		<cargo chance="0.30">
+	<item name="MassLightRatnik" chance="0.25" />
+	<item name="MassLightRatnik_Desert" chance="0.25" />
+	<item name="MassLightRatnik_Black" chance="0.25" />
+	<item name="MassMRE10_Olive" chance="0.24" />
+	<item name="MassRatnik" chance="0.01" />
+</cargo>
 	</type>
 </spawnabletypes>
