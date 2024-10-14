@@ -18,5 +18,10 @@
 		"m_Headline": "Lore",
 		"m_ImagePath": "",
 		"m_Description": "Equinox is a living world, make your mark on it. Start your story in the journal."
+	},
+	{
+		"m_Headline": "Moo!",
+		"m_ImagePath": "",
+		"m_Description": "Cows are not friendly."
 	}
 ]
