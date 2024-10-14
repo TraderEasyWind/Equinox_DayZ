@@ -789,10 +789,10 @@
         <value name="Tier4"/>
     </type>
 	<type name="MassScout556">
-        <nominal>25</nominal>
+        <nominal>15</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
-        <min>15</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -911,7 +911,7 @@
         <usage name="Military"/>
     </type>
 	<type name="kivaarimag">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>21600</restock>
         <min>1</min>
@@ -921,32 +921,35 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier4"/>
+        <value name="Tier3"/>
+		<value name="Tier4"/>
     </type>
 	<type name="Ammo_338">
-        <nominal>10</nominal>
+        <nominal>6</nominal>
         <lifetime>10800</lifetime>
         <restock>21600</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>40</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+		<value name="Tier3"/>
         <value name="Tier4"/>
     </type>
 	<type name="Ammo_408Chey">
-        <nominal>10</nominal>
+        <nominal>6</nominal>
         <lifetime>10800</lifetime>
         <restock>21600</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>40</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+		<value name="Tier3"/>
         <value name="Tier4"/>
     </type>
 	<type name="AmmoBox_408Chey">
@@ -978,10 +981,10 @@
         <usage name="Village"/>
     </type>
 	<type name="shotgun_Suppressor">
-        <nominal>20</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -991,7 +994,7 @@
         <usage name="Police"/>
     </type>
 	<type name="Massarmsan">
-        <nominal>25</nominal>
+        <nominal>15</nominal>
         <lifetime>10800</lifetime>
         <restock>0</restock>
         <min>15</min>
@@ -1006,32 +1009,19 @@
         <usage name="Hunting"/>
     </type>
 	<type name="MassPpskn">
-        <nominal>25</nominal>
+        <nominal>20</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
-        <min>15</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-    </type>
-	<type name="Scout556mag">
-        <nominal>30</nominal>
-        <lifetime>10800</lifetime>
-        <restock>1800</restock>
-        <min>15</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-		<usage name="Hunting"/>
     </type>
 	<type name="Massm300mag">
-        <nominal>3</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -1262,7 +1252,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
     </type>
 	<type name="MassPlateCarrier_PartizanM">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>21600</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -1274,7 +1264,7 @@
         <usage name="Military"/>
     </type>
 	<type name="MassPlateCarrier_Black">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>21600</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -1286,7 +1276,7 @@
         <usage name="Military"/>
     </type>
 	<type name="MassPlateCarrier_ODG">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>21600</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -1333,7 +1323,7 @@
         <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1348,7 +1338,7 @@
         <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1721,11 +1711,11 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-	<type name="Mass308STANAG">
-        <nominal>8</nominal>
+	<type name="Mass_Mag_M417_20Rnd">
+        <nominal>4</nominal>
         <lifetime>7200</lifetime>
         <restock>14400</restock>
-        <min>3</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1788,7 +1778,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Massppshbox">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>7200</lifetime>
         <restock>14400</restock>
         <min>4</min>
@@ -2341,7 +2331,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="MassStevens301">
-        <nominal>26</nominal>
+        <nominal>35</nominal>
         <lifetime>10800</lifetime>
         <restock>0</restock>
         <min>13</min>
@@ -2356,10 +2346,10 @@
         <usage name="Hunting"/>
     </type>
 	<type name="MassStevens301_green">
-        <nominal>26</nominal>
+        <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>0</restock>
-        <min>13</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2371,10 +2361,10 @@
         <usage name="Hunting"/>
     </type>
 	<type name="MassStevens301_tan">
-        <nominal>26</nominal>
+        <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>0</restock>
-        <min>13</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2592,10 +2582,10 @@
         <usage name="Village"/>
     </type>
 	<type name="MassFedora_Pink">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>1800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2606,10 +2596,10 @@
         <usage name="Village"/>
     </type>
 	<type name="MassFedora_Yellow">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>1800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2620,10 +2610,10 @@
         <usage name="Village"/>
     </type>
 	<type name="MassFedora_Red">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>1800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2634,10 +2624,10 @@
         <usage name="Village"/>
     </type>
 	<type name="MassFedora_Blue">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>1800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2648,10 +2638,10 @@
         <usage name="Village"/>
     </type>
 	<type name="MassFedora_Grey">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>1800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2662,10 +2652,10 @@
         <usage name="Village"/>
     </type>
 	<type name="MassFedora_Brown">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>1800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2676,10 +2666,10 @@
         <usage name="Village"/>
     </type>
 	<type name="MassFedora_Beige">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>1800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2810,10 +2800,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
     </type>
 	<type name="MassHolo">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2822,10 +2812,10 @@
         <usage name="Military"/>
     </type>
 	<type name="MassHolo2">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3396,10 +3386,10 @@
         <value name="Tier4"/>
     </type>
 	<type name="Mass357M1911Mag">
-        <nominal>20</nominal>
+        <nominal>15</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>8</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -3726,7 +3716,7 @@
         <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>43200</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3834,7 +3824,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="MassLightRatnik_Desert">
-        <nominal>2</nominal>
+        <nominal></nominal>
         <lifetime>5600</lifetime>
         <restock>43200</restock>
         <min>1</min>

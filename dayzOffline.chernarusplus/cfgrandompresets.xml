@@ -698,7 +698,7 @@
 			<item name="Headtorch_Grey" chance="0.05" />
 			<item name="Headtorch_Black" chance="0.05" />
 			<item name="NVGHeadstrap" chance="0.05" />
-			<item name="NVGoggles" chance="0.01" />
+			<item name="CJ_NVG_ANPVS14" chance="0.01" />
 		</cargo>
 		<cargo chance="1.0" name="Xmas_Chemlights_Small">
 			<item name="Chemlight_Blue" chance="0.50" />
