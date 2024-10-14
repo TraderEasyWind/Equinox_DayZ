@@ -1020,19 +1020,6 @@
         <category name="weapons"/>
         <usage name="Military"/>
     </type>
-	<type name="Scout556mag">
-        <nominal>20</nominal>
-        <lifetime>10800</lifetime>
-        <restock>1800</restock>
-        <min>10</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-		<usage name="Hunting"/>
-    </type>
 	<type name="Massm300mag">
         <nominal>2</nominal>
         <lifetime>7200</lifetime>
@@ -1724,7 +1711,7 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-	<type name="Mass308STANAG">
+	<type name="Mass_Mag_M417_20Rnd">
         <nominal>4</nominal>
         <lifetime>7200</lifetime>
         <restock>14400</restock>
