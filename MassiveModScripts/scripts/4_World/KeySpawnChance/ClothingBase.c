@@ -6,7 +6,7 @@ modded class Clothing
 		Print(GetType() + " -- Key Spawned in Clothing ");
         super.EEOnCECreate();
         if (GetGame().IsServer()){
-            int randomchance = Math.RandomInt(1,200);
+            int randomchance = Math.RandomInt(1,250);
             if (randomchance == 1)
 			{
                 this.GetInventory().CreateInInventory(itemstospawn.GetRandomElement());
