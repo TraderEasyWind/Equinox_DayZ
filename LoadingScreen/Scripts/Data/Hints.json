@@ -23,5 +23,15 @@
 		"m_Headline": "Moo!",
 		"m_ImagePath": "",
 		"m_Description": "Cows are not friendly."
+	},
+	{
+		"m_Headline": "Fishing!",
+		"m_ImagePath": "",
+		"m_Description": "Fishing is a great source of protein, pesky cans leave behind litter that can leave a trail for other survivors to follow!"
+	},
+	{
+		"m_Headline": "Hands up!",
+		"m_ImagePath": "",
+		"m_Description": "F5 allows you to surrender but be very aware your inventory is now accessible to the survivor you a surrender to, will you comply with your captor?"
 	}
 ]
