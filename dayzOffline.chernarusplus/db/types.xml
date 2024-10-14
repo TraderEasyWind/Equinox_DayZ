@@ -13940,14 +13940,14 @@
         <value name="Tier4"/>
     </type>
     <type name="NVGoggles">
-        <nominal>4</nominal>
-        <lifetime>28800</lifetime>
-        <restock>28800</restock>
-        <min>1</min>
+        <nominal>0</nominal>
+        <lifetime>0</lifetime>
+        <restock>0</restock>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <usage name="Military"/>
     </type>
