@@ -50,6 +50,57 @@
         <value name="Tier2"/>
 		<value name="Tier3"/>
     </type>
+    <type name="MM_Store_PeachesCan_Opened">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>0</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+		<usage name="Store"/>
+        <tag name="shelves"/>
+		<tag name="floor"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
+		<value name="Tier3"/>
+    </type>
+    <type name="MM_Store_BakedBeansCan_Opened">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>0</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+		<usage name="Store"/>
+        <tag name="shelves"/>
+		<tag name="floor"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
+		<value name="Tier3"/>
+    </type>
+    <type name="MM_Store_SpaghettiCan_Opened">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>0</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+		<usage name="Store"/>
+        <tag name="shelves"/>
+		<tag name="floor"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
+		<value name="Tier3"/>
+    </type>
 	<type name="MM_Store_Pajka">
         <nominal>10</nominal>
         <lifetime>14400</lifetime>
