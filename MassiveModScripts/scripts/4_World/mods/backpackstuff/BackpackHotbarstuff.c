@@ -51,7 +51,7 @@ modded class CourierBag
         return false;
     }
 };
-modded class class FurCourierBag
+modded class FurCourierBag
 {
 	override bool CanChildrenAssignToQuickbar()
     {
