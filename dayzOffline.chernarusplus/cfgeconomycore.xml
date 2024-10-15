@@ -60,8 +60,9 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
    <ce folder="CustomTypes/Expansion">
         <file name="ExpansionBB.xml" type="types" />
    </ce>
-   <ce folder="CustomTypes/Notes">
+   <ce folder="CustomTypes/ZensMods">
         <file name="Notestypes.xml" type="types" />
+		<file name="leftoverstypes.xml" type="types" />
    </ce>
    <ce folder="CustomTypes/MassiveMod">
         <file name="JunkFoodCan.xml" type="types" />
