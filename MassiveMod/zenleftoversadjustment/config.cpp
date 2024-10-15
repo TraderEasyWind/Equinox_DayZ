@@ -15,6 +15,7 @@ class CfgPatches
 class CfgVehicles
 {
 	class Inventory_Base;
+	class Edible_Base;
 	class SpaghettiCan;
 	class BakedBeansCan;
 	class PeachesCan;
@@ -26,9 +27,15 @@ class CfgVehicles
 	class SodaCan_Cola;
 	class SodaCan_Spite;
 	class SodaCan_Kvass;
+	class SpaghettiCan_Opened;
+	class BakedBeansCan_Opened;
 	class MM_Store_SpaghettiCan: SpaghettiCan{};
+	class MM_Store_SpaghettiCan_Opened: SpaghettiCan_Opened{};
 	class MM_Store_BakedBeansCan: BakedBeansCan{};
+	class MM_Store_BakedBeansCan_Opened: BakedBeansCan_Opened{};
+	class PeachesCan_Opened;
 	class MM_Store_PeachesCan: PeachesCan{};
+	class MM_Store_PeachesCan_Opened: PeachesCan_Opened{};
 	class MM_Store_Pajka : Pajka{};
 	class MM_Store_Pate: Pate{};
 	class MM_Store_BrisketSpread: BrisketSpread{};
