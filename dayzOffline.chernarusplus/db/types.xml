@@ -17329,7 +17329,7 @@
     <type name="ShortJeans_Green">
         <nominal>20</nominal>
         <lifetime>14400</lifetime>
-        <restock>600/restock>
+        <restock>600</restock>
         <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
