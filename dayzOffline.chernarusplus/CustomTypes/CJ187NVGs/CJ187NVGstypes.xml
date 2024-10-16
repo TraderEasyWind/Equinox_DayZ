@@ -1,30 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
     <type name="CJ_NVG_TIG7">
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>5</min>
+      <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>50</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <tag name="shelves"/>
+        <usage name="Police"/>
         <usage name="Town"/>
         <usage name="Village"/>
     </type>
     <type name="CJ_NVG_ANPVS7">
-        <nominal>10</nominal>
-        <lifetime>28800</lifetime>
+        <nominal>3</nominal>
+        <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>40</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <tag name="shelves"/>
+        <usage name="Police"/>
     </type>
     <type name="CJ_NVG_ANPVS14">
         <nominal>5</nominal>
-        <lifetime>28800</lifetime>
+        <lifetime>7200</lifetime>
         <restock>0</restock>
         <min>2</min>
         <quantmin>-1</quantmin>
@@ -37,7 +42,7 @@
     </type>
     <type name="CJ_NVG_BCNVG21">
         <nominal>5</nominal>
-        <lifetime>28800</lifetime>
+        <lifetime>7200</lifetime>
         <restock>0</restock>
         <min>2</min>
         <quantmin>-1</quantmin>
@@ -52,7 +57,7 @@
     </type>
     <type name="CJ_NVG_ANPVS23">
         <nominal>5</nominal>
-        <lifetime>28800</lifetime>
+        <lifetime>7200</lifetime>
         <restock>0</restock>
         <min>3</min>
         <quantmin>-1</quantmin>
@@ -66,7 +71,7 @@
     </type>
     <type name="CJ_NVG_GPNVG18_Black">
         <nominal>1</nominal>
-        <lifetime>28800</lifetime>
+        <lifetime>7200</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
@@ -80,7 +85,7 @@
 <!--
     <type name="CJ_NVG_GPNVG18_Green">
         <nominal>1</nominal>
-        <lifetime>28800</lifetime>
+        <lifetime>7200</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
@@ -92,7 +97,7 @@
     </type>
     <type name="CJ_NVG_GPNVG18_Tan">
         <nominal>1</nominal>
-        <lifetime>28800</lifetime>
+        <lifetime>7200</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
@@ -104,7 +109,7 @@
     </type>
     <type name="CJ_NVG_GPNVG18_White">
         <nominal>1</nominal>
-        <lifetime>28800</lifetime>
+        <lifetime>7200</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
