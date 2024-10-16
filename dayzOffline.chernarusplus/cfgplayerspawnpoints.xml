@@ -22,7 +22,7 @@
             <enablegroups>true</enablegroups>
             <groups_as_regular>true</groups_as_regular>
             <lifetime>10</lifetime>
-            <counter>5</counter>
+            <counter>2</counter>
         </group_params>
         <generator_posbubbles>
             <group name="WestCherno" lifetime="120" counter="-1">
