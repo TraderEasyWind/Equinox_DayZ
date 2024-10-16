@@ -912,7 +912,7 @@
         <usage name="Military"/>
     </type>
 	<type name="kivaarimag">
-        <nominal>3</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>21600</restock>
         <min>1</min>
@@ -926,10 +926,10 @@
 		<value name="Tier4"/>
     </type>
 	<type name="Ammo_338">
-        <nominal>6</nominal>
+        <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>21600</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>40</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -940,10 +940,10 @@
         <value name="Tier4"/>
     </type>
 	<type name="Ammo_408Chey">
-        <nominal>6</nominal>
+        <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>21600</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>40</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -954,10 +954,10 @@
         <value name="Tier4"/>
     </type>
 	<type name="AmmoBox_408Chey">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -968,10 +968,10 @@
         <usage name="Village"/>
     </type>
 	<type name="AmmoBox_338">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -984,7 +984,7 @@
 	<type name="Massm300mag">
         <nominal>2</nominal>
         <lifetime>7200</lifetime>
-        <restock>0</restock>
+        <restock>21600</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -2311,10 +2311,10 @@
         <usage name="Hunting"/>
     </type>
 	<type name="MassRatnik_Tan">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>5600</lifetime>
         <restock>43200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2325,10 +2325,10 @@
         <value name="Tier4"/>
     </type>
 	<type name="MassRatnik_Black">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>5600</lifetime>
         <restock>43200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2339,10 +2339,10 @@
         <value name="Tier4"/>
     </type>
 	<type name="MassRatnik">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>5600</lifetime>
         <restock>43200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
