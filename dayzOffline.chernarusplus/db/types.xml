@@ -1579,6 +1579,16 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
+	<type name="Animal_LepusEuropaeus">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
     <type name="Animal_OvisAries">
         <nominal>0</nominal>
         <lifetime>1800</lifetime>
@@ -1593,6 +1603,26 @@
         <nominal>0</nominal>
         <lifetime>1800</lifetime>
         <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+	<type name="Animal_RangiferTarandus">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Animal_RangiferTarandusF">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -5499,7 +5529,7 @@
         <tag name="shelves"/>
         <usage name="Military"/>
     </type>
-    <type name="CombinationLock">
+   <!-- <type name="CombinationLock">
         <nominal>60</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
@@ -5525,6 +5555,7 @@
         <usage name="Industrial"/>
         <usage name="Farm"/>
     </type>
+	-->
     <type name="Compass">
         <nominal>70</nominal>
         <lifetime>14400</lifetime>
@@ -5630,7 +5661,7 @@
     <type name="CookingStand">
         <nominal>0</nominal>
         <lifetime>14400</lifetime>
-        <restock>07200</restock>
+        <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -5766,6 +5797,35 @@
         <usage name="Military"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
+    </type>
+	    <type name="CrabCan">
+        <nominal>15</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>12</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="shelves"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Office"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+    </type>
+    <type name="CrabCan_Opened">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+        <category name="food"/>
     </type>
     <type name="Crackers">
         <nominal>23</nominal>
@@ -6529,7 +6589,7 @@
     <type name="DrysackBag_Yellow">
         <nominal>0</nominal>
         <lifetime>14400</lifetime>
-        <restock>07200</restock>
+        <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -6538,10 +6598,10 @@
         <category name="containers"/>
     </type>
     <type name="DuctTape">
-        <nominal>60</nominal>
+        <nominal>90</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>30</min>
+        <min>40</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -6958,7 +7018,7 @@
     <type name="FirefighterAxe_Black">
         <nominal>0</nominal>
         <lifetime>14400</lifetime>
-        <restock>07200</restock>
+        <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -6969,7 +7029,7 @@
     <type name="FirefighterAxe_Green">
         <nominal>0</nominal>
         <lifetime>14400</lifetime>
-        <restock>07200</restock>
+        <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -7694,7 +7754,7 @@
     <type name="FryingPan">
         <nominal>40</nominal>
         <lifetime>14400</lifetime>
-        <restock>07200</restock>
+        <restock>600</restock>
         <min>25</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -9359,7 +9419,7 @@
     <type name="HeadlightH7">
         <nominal>0</nominal>
         <lifetime>14400</lifetime>
-        <restock>07200</restock>
+        <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -10578,7 +10638,7 @@
     <type name="LactariusMushroom">
         <nominal>0</nominal>
         <lifetime>900</lifetime>
-        <restock>07200</restock>
+        <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -11067,7 +11127,7 @@
     <type name="LargeGasCanister">
         <nominal>20</nominal>
         <lifetime>14400</lifetime>
-        <restock>07200</restock>
+        <restock>600</restock>
         <min>5</min>
         <quantmin>65</quantmin>
         <quantmax>100</quantmax>
@@ -11367,7 +11427,7 @@
     <type name="LeatherSewingKit">
         <nominal>80</nominal>
         <lifetime>14400</lifetime>
-        <restock>07200</restock>
+        <restock>0</restock>
         <min>60</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -13148,7 +13208,7 @@
     <type name="MetalWire">
         <nominal>70</nominal>
         <lifetime>14400</lifetime>
-        <restock>07200</restock>
+        <restock>0</restock>
         <min>50</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -14003,7 +14063,7 @@
     <type name="NailedBaseballBat">
         <nominal>0</nominal>
         <lifetime>14400</lifetime>
-        <restock>07200</restock>
+        <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
