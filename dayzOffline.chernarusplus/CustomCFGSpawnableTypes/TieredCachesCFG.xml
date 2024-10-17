@@ -1,6 +1,6 @@
 <spawnabletypes>
 	<type name="MassiveMod_CrateTier1">
-		<cargo chance="0.50"> <item name="CodeLock" /> </cargo>
+		<cargo chance="0.50"> <item name="ExpansionCodeLock" /> </cargo>
 	    <cargo chance="0.20"> <item name="MassiveMod_Tier2Key" /> </cargo>
 		<cargo chance="0.10"> <item name="SledgeHammer" /> </cargo>
         <cargo chance="0.5"> <item name="Shovel" /> </cargo>
@@ -211,15 +211,8 @@
 			<item name="MassiveMod_USMCDesertPackage" chance="0.05" />
 			<item name="MassiveMod_USMCWoodlandPackage" chance="0.05" />
 			<item name="MassiveMod_TTSKOPackage" chance="0.05" />
-			<item name="MassiveMod_SumrackPackage" chance="0.05" />
-			<item name="MassiveMod_YegerWinterPackage" chance="0.05" />
-			<item name="MassiveMod_YegerWoodlandPackage" chance="0.05" />
-			<item name="MassiveMod_GorkaWinterPackage" chance="0.05" />
-			<item name="MassiveMod_WinterUSMCPackage" chance="0.05" />
 			<item name="MassiveMod_TropicamPackage" chance="0.05" />
-			<item name="MassiveMod_MandrakePackage" chance="0.05" />
 			<item name="MassiveMod_UrbanPackage" chance="0.05" />
-			<item name="MassiveMod_SM90Package" chance="0.05" />
 			<item name="MassiveMod_InvertGorkaWoodlandPackage" chance="0.05" />
 			<item name="MassiveMod_InvertGorkaWinterPackage" chance="0.05" />
 		</cargo>
@@ -334,14 +327,9 @@
 			<item name="MassiveMod_GorkaSummerPackage" chance="0.0666666666667" />
 			<item name="MassiveMod_USMCDesertPackage" chance="0.0666666666667" />
 			<item name="MassiveMod_USMCWoodlandPackage" chance="0.0666666666667" />
-		  <item name="Mass_CamonetGhillie_Marpat" chance="0.0666666666667" />
-			<item name="MassiveMod_SumrackPackage" chance="0.0666666666667" />
+		    <item name="Mass_CamonetGhillie_Marpat" chance="0.0666666666667" />
 			<item name="Mass_CamonetGhillie_Nato" chance="0.0666666666667" />
 			<item name="Mass_CamonetGhillie_East" chance="0.0666666666667" />
-			<item name="MassiveMod_TropicamPackage" chance="0.0666666666667" />
-			<item name="MassiveMod_MandrakePackage" chance="0.0666666666667" />
-			<item name="MassiveMod_UrbanPackage" chance="0.0666666666667" />
-			<item name="MassiveMod_SM90Package" chance="0.0666666666667" />
 			<item name="MassGDShirt" chance="0.0666666666667" />
 		</cargo>
         <cargo chance="0.30">
