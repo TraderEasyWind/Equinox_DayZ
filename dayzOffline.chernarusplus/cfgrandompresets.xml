@@ -134,6 +134,7 @@
 				<item name="DuctTape" chance="0.1" />
 				<item name="Battery9V" chance="0.2" />
 				<item name="Flashlight" chance="0.2" />
+				<item name="Nail" chance="0.2" />
 		</cargo>
 		<cargo chance="0.05" name="ammoCivil">
 				<item name="Ammo_380" chance="0.22" />

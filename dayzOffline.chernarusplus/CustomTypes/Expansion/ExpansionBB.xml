@@ -201,7 +201,7 @@
         </type>
         <type name="ExpansionCodeLock">
             <nominal>40</nominal>
-            <lifetime>604800</lifetime>
+            <lifetime>14400</lifetime>
             <restock>0</restock>
             <min>20</min>
             <quantmin>-1</quantmin>

@@ -345,13 +345,17 @@
 	<item name="Mass_IFAK_ODG" chance="0.25" />
 	<item name="Mass_IFAK_BDU" chance="0.25" />
 </cargo>
-		<cargo chance="0.30">
-	<item name="MassLightRatnik" chance="0.25" />
-	<item name="MassLightRatnik_Desert" chance="0.25" />
-	<item name="MassLightRatnik_Black" chance="0.25" />
-	<item name="MassLightRatnik_Olive" chance="0.22" />
-	<item name="MassRatnik" chance="0.03" />
-</cargo>
+	<cargo chance="0.30">
+	    <item name="MassCBhelmet_Green" chance="0.5" />
+	    <item name="MassCBhelmet" chance="0.5" />
+    </cargo>
+	<cargo chance="0.20">
+	    <item name="MassLightRatnik" chance="0.25" />
+	    <item name="MassLightRatnik_Desert" chance="0.25" />
+	    <item name="MassLightRatnik_Black" chance="0.25" />
+	    <item name="MassLightRatnik_Olive" chance="0.22" />
+	    <item name="MassRatnik" chance="0.03" />
+    </cargo>
 <cargo chance="0.30">
 	<item name="M4_Suppressor"  chance="0.142857142857" />
 	<item name="MassMuzzleComp556"  chance="0.142857142857" />

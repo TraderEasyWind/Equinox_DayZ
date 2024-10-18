@@ -77,36 +77,6 @@ class CfgVehicles
 		displayName="TTSKO Package";
 		descriptionShort=="A Package Containing a Full TTSKO Set of Clothing";
 	};
-	class MassiveMod_SumrackPackage: MassiveMod_PackageBase
-	{
-		scope=2;
-		displayName="Sumrak Package";
-		descriptionShort=="A Package Containing a Full Sumrak Set of Clothing";
-	};
-	class MassiveMod_YegerWinterPackage: MassiveMod_PackageBase
-	{
-		scope=2;
-		displayName="Winter Yeger Package";
-		descriptionShort=="A Package Containing a Full Winter Yeger Set of Clothing";
-	};
-	class MassiveMod_YegerWoodlandPackage: MassiveMod_PackageBase
-	{
-		scope=2;
-		displayName="Woodland Yeger Package";
-		descriptionShort=="A Package Containing a Full Woodland Yeger Set of Clothing";
-	};
-	class MassiveMod_GorkaWinterPackage: MassiveMod_PackageBase
-	{
-		scope=2;
-		displayName="Gorka Winter Package";
-		descriptionShort=="A Package Containing a Full Gorka Winter Set of Clothing";
-	};
-	class MassiveMod_WinterUSMCPackage: MassiveMod_PackageBase
-	{
-		scope=2;
-		displayName="USMC Winter Package";
-		descriptionShort=="A Package Containing a Full USMC Winter Set of Clothing";
-	};
 	class MassiveMod_TropicamPackage: MassiveMod_PackageBase
 	{
 		scope=2;

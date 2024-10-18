@@ -79,7 +79,7 @@ modded class DryBag_ColorBase
         return false;
     }
 };
-modded class class HuntingBag
+modded class HuntingBag
 {
 	override bool CanChildrenAssignToQuickbar()
     {
@@ -171,59 +171,60 @@ modded class DrysackBag_ColorBase
     }
 };
 //MMIO Backpacks-----------------------------------------------------------------------------
-modded class MassImprovisedBag_Colorbase
-{
-	override bool CanChildrenAssignToQuickbar()
-    {
-        return false;
-    }
-};
-modded class MassRainCoatcourier_ColorBase
-{
-	override bool CanChildrenAssignToQuickbar()
-    {
-        return false;
-    }
-};
-modded class MassRuckBagDesert
-{
-	override bool CanChildrenAssignToQuickbar()
-    {
-        return false;
-    }
-};
-modded class Massbag
-{
-	override bool CanChildrenAssignToQuickbar()
-    {
-        return false;
-    }
-};
-modded class MassSlingBag
-{
-	override bool CanChildrenAssignToQuickbar()
-    {
-        return false;
-    }
-};
-modded class MassMolleBagBlack
-{
-	override bool CanChildrenAssignToQuickbar()
-    {
-        return false;
-    }
-};
-modded class MassSurvivorBag
-{
-	override bool CanChildrenAssignToQuickbar()
-    {
-        return false;
-    }
-};
-modded class Canvas_Backpack_Base
-{
-	override bool CanChildrenAssignToQuickbar()
-    {
-        return false;
-    }
-};
+//modded class MassImprovisedBag_Colorbase
+//{
+//	override bool CanChildrenAssignToQuickbar()
+//    {
+//        return false;
+//    }
+//};
+//modded class MassRainCoatcourier_ColorBase
+//{
+//	override bool CanChildrenAssignToQuickbar()
+//    {
+//        return false;
+//    }
+//};
+//modded class MassRuckBagDesert
+//{
+//	override bool CanChildrenAssignToQuickbar()
+//    {
+//        return false;
+//    }
+//};
+//modded class Massbag
+//{
+//	override bool CanChildrenAssignToQuickbar()
+//    {
+//        return false;
+//    }
+//};
+//modded class MassSlingBag
+//{
+//	override bool CanChildrenAssignToQuickbar()
+//    {
+//        return false;
+//    }
+//};
+//modded class MassMolleBagBlack
+//{
+//	override bool CanChildrenAssignToQuickbar()
+//    {
+//        return false;
+//    }
+//};
+//modded class MassSurvivorBag
+//{
+//	override bool CanChildrenAssignToQuickbar()
+//    {
+//        return false;
+//    }
+//};
+////Windstrides Backpacks-----------------------------------------------------------------------------
+//modded class Canvas_Backpack_Base
+//{
+//	override bool CanChildrenAssignToQuickbar()
+//    {
+//        return false;
+//    }
+//};

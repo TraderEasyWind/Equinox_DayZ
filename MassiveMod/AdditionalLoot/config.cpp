@@ -34,7 +34,7 @@ class CfgVehicles
 	{
 		scope=2;
 		displayName = "GPS";
-		descriptionShort = "It seems the Global Positioning System still works, Connecting with the sattlites still functioning in orbit Post-Apocalypse. 'Used to see character icon on map' 'Spearhead'";
+		descriptionShort = "It seems the Global Positioning System still works, Connecting with the sattlites still functioning in orbit Post-Apocalypse. 'Used to see character icon on map'";
 		weight = 900;
 		itemSize[] = {1,2};
 	    inventorySlot[]={"WalkieTalkie"};
@@ -78,7 +78,7 @@ class CfgVehicles
 	{
 		scope = 2;
 		displayName = "Wallet";
-		descriptionShort = "Used for Holding Money. 'Spearhead'";
+		descriptionShort = "Used for Holding Money.";
 		model = "MassiveMod\AdditionalLoot\Data\Wallet.p3d";
 		inventorySlot[]={"Accessory"};
 		rotationFlags = 17;

@@ -27,7 +27,7 @@ class CfgVehicles
 	{
 		scope=2;
 		displayName = "Tier 1 Cache Key";
-		descriptionShort = "A Green Skeleton Key, Used for Unlocking Tier 1 Caches found in Tier 1 zones. 'Spearhead'";
+		descriptionShort = "A Green Skeleton Key, Used for Unlocking Tier 1 Caches found in Tier 1 zones.";
 		hiddenSelectionsMaterials[]={"MassiveMod\Caches\Keys\Tier1\Key.rvmat"};
 		hiddenSelectionsTextures[]={"MassiveMod\Caches\Keys\Tier1\Tier1Key_Co.paa"};
 	};
@@ -35,7 +35,7 @@ class CfgVehicles
 	{
 		scope=2;
 		displayName = "Tier 2 Cache Key";
-		descriptionShort = "A Blue Skeleton Key, Used for Unlocking Tier 2 Caches found in Tier 2 zones.'Spearhead'";
+		descriptionShort = "A Blue Skeleton Key, Used for Unlocking Tier 2 Caches found in Tier 2 zones.";
 		hiddenSelectionsMaterials[]={"MassiveMod\Caches\Keys\Tier1\Key.rvmat"};
 		hiddenSelectionsTextures[]={"MassiveMod\Caches\Keys\Tier2\Tier2Key_co.paa"};
 	};
@@ -43,7 +43,7 @@ class CfgVehicles
 	{
 		scope=2;
 		displayName = "Tier 3 Cache Key";
-		descriptionShort = "A Red Skeleton Key, Used for Unlocking Tier 3 Caches found in Tier 3 zones.'Spearhead'";
+		descriptionShort = "A Red Skeleton Key, Used for Unlocking Tier 3 Caches found in Tier 3 zones.";
 		hiddenSelectionsMaterials[]={"MassiveMod\Caches\Keys\Tier1\Key.rvmat"};
 		hiddenSelectionsTextures[]={"MassiveMod\Caches\Keys\Tier3\Tier3Key_co.paa"};
 	};
@@ -51,7 +51,7 @@ class CfgVehicles
 	{
 		scope=2;
 		displayName = "Tier 4 Cache Key";
-		descriptionShort = "A Gold Skeleton Key, Used for Unlocking Tier 4 Caches found in Tier 4 zones.'Spearhead'";
+		descriptionShort = "A Gold Skeleton Key, Used for Unlocking Tier 4 Caches found in Tier 4 zones.";
 		hiddenSelectionsMaterials[]={"MassiveMod\Caches\Keys\Tier1\Key.rvmat"};
 		hiddenSelectionsTextures[]={"MassiveMod\Caches\Keys\Tier4\Tier4Key_Co.paa"};
 	};
@@ -59,7 +59,7 @@ class CfgVehicles
 	{
 		scope=2;
 		displayName = "Tier 5 Cache Key";
-		descriptionShort = "A Black Skeleton Key, Used for Unlocking Tier 5 Caches found in special Admin Placed Events'Spearhead'";
+		descriptionShort = "A Black Skeleton Key, Used for Unlocking Tier 5 Caches";
 		hiddenSelectionsMaterials[]={"MassiveMod\Caches\Keys\Tier1\Key.rvmat"};
 		hiddenSelectionsTextures[]={"MassiveMod\Caches\Keys\Tier5\Tier5Key_Co.paa"};
 	};
