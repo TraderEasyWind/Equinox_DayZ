@@ -200,10 +200,10 @@
             <category name="tools"/>
         </type>
         <type name="ExpansionCodeLock">
-            <nominal>2</nominal>
+            <nominal>40</nominal>
             <lifetime>604800</lifetime>
-            <restock>10800</restock>
-            <min>1</min>
+            <restock>0</restock>
+            <min>20</min>
             <quantmin>-1</quantmin>
             <quantmax>-1</quantmax>
             <cost>100</cost>

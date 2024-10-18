@@ -2,7 +2,7 @@
     <type name="MM_EmptyFoodCan_Peaches">
         <nominal>100</nominal>
         <lifetime>14400</lifetime>
-        <restock>7200</restock>
+        <restock>0</restock>
         <min>50</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -21,7 +21,7 @@
 	<type name="MM_EmptyFoodCan_Beans">
         <nominal>100</nominal>
         <lifetime>14400</lifetime>
-        <restock>7200</restock>
+        <restock>0</restock>
         <min>50</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -40,7 +40,7 @@
 	<type name="MM_EmptyFoodCan_Spaghetti">
         <nominal>100</nominal>
         <lifetime>14400</lifetime>
-        <restock>7200</restock>
+        <restock>0</restock>
         <min>50</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -78,7 +78,7 @@
 	<type name="MM_Pajka_Empty">
         <nominal>100</nominal>
         <lifetime>14400</lifetime>
-        <restock>7200</restock>
+        <restock>0</restock>
         <min>50</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -97,7 +97,7 @@
 	<type name="MM_Pate_Empty">
         <nominal>100</nominal>
         <lifetime>14400</lifetime>
-        <restock>7200</restock>
+        <restock>0</restock>
         <min>50</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -116,7 +116,7 @@
 	<type name="MM_Brisket_Empty">
         <nominal>100</nominal>
         <lifetime>14400</lifetime>
-        <restock>7200</restock>
+        <restock>0</restock>
         <min>50</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -135,7 +135,7 @@
 	<type name="MM_FoodCan_250g_CatEmpty">
         <nominal>100</nominal>
         <lifetime>14400</lifetime>
-        <restock>7200</restock>
+        <restock>0</restock>
         <min>50</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -154,7 +154,7 @@
 	<type name="MM_FoodCan_250g_DogEmpty">
         <nominal>100</nominal>
         <lifetime>14400</lifetime>
-        <restock>7200</restock>
+        <restock>0</restock>
         <min>50</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -173,7 +173,7 @@
 	<type name="MM_FoodCan_250g_PorkEmpty">
         <nominal>100</nominal>
         <lifetime>14400</lifetime>
-        <restock>7200</restock>
+        <restock>0</restock>
         <min>50</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>

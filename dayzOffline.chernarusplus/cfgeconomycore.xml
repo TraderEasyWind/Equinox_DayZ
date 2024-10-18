@@ -15,6 +15,7 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<rootclass name="SurvivorBase" act="character" reportMemoryLOD="no" /> <!-- player characters -->
 		<rootclass name="DZ_LightAI" act="character" reportMemoryLOD="no" /> <!-- infected, animals -->
 		<rootclass name="CarScript" act="car" reportMemoryLOD="no" /> <!-- cars (sedan, hatchback, transitBus, V3S, ...) -->
+		<rootclass name="BoatScript" act="car" reportMemoryLOD="no" /> <!-- boats -->
 	</classes>
 	<defaults>
 		<default name="dyn_radius" value="30" />
@@ -61,9 +62,11 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
         <file name="ExpansionBB.xml" type="types" />
    </ce>
    <ce folder="CustomTypes/ZensMods">
-        <file name="Notestypes.xml" type="types" />
 		<file name="leftoverstypes.xml" type="types" />
    </ce>
+    <ce folder="CustomTypes/Notes">
+		<file name="Notestypes.xml" type="types" />
+    </ce>
    <ce folder="CustomTypes/MassiveMod">
         <file name="JunkFoodCan.xml" type="types" />
 		<file name="StoreLoot.xml" type="types" />
