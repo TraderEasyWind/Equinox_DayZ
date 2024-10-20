@@ -14038,9 +14038,10 @@
         <min>90</min>
         <quantmin>1</quantmin>
         <quantmax>3</quantmax>
-        <cost>0</cost>
+        <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<tag name="floor"/>
+		<tag name="shelves"/>
 		<usage name="Industrial"/>
         <usage name="Farm"/>
 		<usage name="Village"/>
@@ -14049,11 +14050,11 @@
     <type name="NailBox">
         <nominal>90</nominal>
         <lifetime>14400</lifetime>
-        <restock>1800</restock>
+        <restock>0</restock>
         <min>70</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>110</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
         <tag name="shelves"/>
