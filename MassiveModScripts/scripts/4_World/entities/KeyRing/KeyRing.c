@@ -17,11 +17,10 @@ class MassiveMod_KeyRing extends Container_Base
 				return true;
 			}
 		}
-
 		return false;
 	}
 
-	override bool CanSwapItemInCargo(EntityAI child_entity, EntityAI new_entity)
+    override bool CanSwapItemInCargo(EntityAI child_entity, EntityAI new_entity)
 	{
 		if (!super.CanSwapItemInCargo(child_entity, new_entity))
 		{
@@ -35,7 +34,6 @@ class MassiveMod_KeyRing extends Container_Base
 				return true;
 			}
 		}
-
 		return false;
 	}
 };
