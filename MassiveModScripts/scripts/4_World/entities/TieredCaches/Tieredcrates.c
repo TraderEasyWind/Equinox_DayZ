@@ -5,18 +5,12 @@ class CrateConsts
 
 class MassiveModCrate_Base: Container_Base
 {
-	bool m_IsOpen = true;
-	bool m_HasScanned = false;
-	
-	float GetSpawnHeight()
-	{
-		return 3;
-	}
+	bool m_IsOpen;
+	bool m_HasScanned;
 	
 	void MassiveModCrate_Base()
 	{
 		RegisterNetSyncVariableBool("m_IsOpen");
-		m_IsOpen = false;
 	}	
 	
 	override void EEOnCECreate()
@@ -27,12 +21,12 @@ class MassiveModCrate_Base: Container_Base
 
 			if (curpos[1] < GetSpawnHeight())
 			{
-			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(DelayedDelete, 5000, false); //call later to prevent null pointer issues
-			return;
+				GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(DelayedDelete, 5000, false); //call later to prevent null pointer issues
+				return;
 			}
 
 			if ( ScanForOtherCrates() )
-			return;
+				return;
 			
 			AddHealth("", "",9999);
 			Print("CrateSpawnedCE " + GetType() + " at " + GetPosition());
@@ -58,9 +52,9 @@ class MassiveModCrate_Base: Container_Base
         MassiveModCrate_Base masscrate;
         foreach(Object obj: objects)
         {
-            if ( Class.CastTo( masscrate, obj ) )
+			if ( obj.GetType() == GetType() )
             {
-                if ( masscrate.GetType() == GetType() )
+            	if ( Class.CastTo( masscrate, obj ) )
                 {
                     Print("Found a" + GetType() +obj.GetPosition()+" while we are at" +position);
                     if ( masscrate.GetPosition() != position )
@@ -71,6 +65,7 @@ class MassiveModCrate_Base: Container_Base
                 }
             }
         }
+
         return false;
     }
 	
@@ -93,19 +88,14 @@ class MassiveModCrate_Base: Container_Base
 		Print("CrateDestroyed " + GetType() + " at " + GetPosition());
 	}
 	
+	float GetSpawnHeight()
+	{
+		return 3;
+	}
 	
 	override bool CanPutInCargo( EntityAI parent )
 	{
 		return false;
-	}
-	
-	override bool CanReceiveItemIntoHands (EntityAI item_to_hands)
-	{
-		if (!m_IsOpen)
-		{
-			return false;
-		}
-		return true;
 	}
 	
 	override bool CanSaveItemInHands (EntityAI item_in_hands)
@@ -113,13 +103,14 @@ class MassiveModCrate_Base: Container_Base
 		return false;
 	}
 	
+	override bool CanReceiveItemIntoHands (EntityAI item_to_hands)
+	{
+		return m_IsOpen;
+	}
+	
 	override bool CanPutIntoHands (EntityAI parent)
 	{
-		if (!m_IsOpen)
-		{
-			return false;
-		}
-		return true;
+		return m_IsOpen;
 	}
 	
 	override bool IsInventoryVisible()
@@ -146,16 +137,10 @@ class MassiveModCrate_Base: Container_Base
             return false;
 
 		if ( !ctx.Read( m_IsOpen ) )
-		{
-			m_IsOpen = false;
 			return false;
-		}
 
 		if ( !ctx.Read( m_HasScanned ) )
-		{
-			m_HasScanned = true;
 			return false;
-		}
 
         return true;
     }
@@ -175,15 +160,16 @@ class MassiveModCrate_Base: Container_Base
         if (m_IsOpen) 
 		{ 
             GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(DelayedDestroy, 600000, false);
+
 			Print("CrateDestroyTimerAfterLoad " + GetType() + " at " + GetPosition());
 		}
     }
-}
+};
 
-class MassiveMod_CrateTier1 : MassiveModCrate_Base{}
-class MassiveMod_CrateTier1_Food_Meds : MassiveMod_CrateTier1{}
-class MassiveMod_CrateTier1_Tools : MassiveMod_CrateTier1{}
-class MassiveMod_CrateTier2 : MassiveModCrate_Base{}
-class MassiveMod_CrateTier3 : MassiveModCrate_Base{}
-class MassiveMod_CrateTier4 : MassiveModCrate_Base{}
-class MassiveMod_CrateTier5 : MassiveModCrate_Base{}
+class MassiveMod_CrateTier1 : MassiveModCrate_Base{};
+class MassiveMod_CrateTier1_Food_Meds : MassiveMod_CrateTier1{};
+class MassiveMod_CrateTier1_Tools : MassiveMod_CrateTier1{};
+class MassiveMod_CrateTier2 : MassiveModCrate_Base{};
+class MassiveMod_CrateTier3 : MassiveModCrate_Base{};
+class MassiveMod_CrateTier4 : MassiveModCrate_Base{};
+class MassiveMod_CrateTier5 : MassiveModCrate_Base{};

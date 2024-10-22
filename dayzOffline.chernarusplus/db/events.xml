@@ -804,7 +804,7 @@
         <nominal>3</nominal>
         <min>0</min>
         <max>0</max>
-        <lifetime>2100</lifetime>
+        <lifetime>3600</lifetime>
         <restock>0</restock>
         <saferadius>1000</saferadius>
         <distanceradius>1000</distanceradius>
@@ -823,7 +823,7 @@
         <nominal>5</nominal>
         <min>0</min>
         <max>0</max>
-        <lifetime>1800</lifetime>
+        <lifetime>3600</lifetime>
         <restock>0</restock>
         <saferadius>1000</saferadius>
         <distanceradius>1000</distanceradius>
@@ -839,7 +839,7 @@
         <nominal>10</nominal>
         <min>0</min>
         <max>0</max>
-        <lifetime>2500</lifetime>
+        <lifetime>3600</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
         <distanceradius>500</distanceradius>
