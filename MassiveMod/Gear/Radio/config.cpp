@@ -11,6 +11,29 @@ class CfgPatches
 class CfgVehicles
 {
 	class Transmitter_Base;
+	class PersonalRadio: Transmitter_Base
+	{
+		class EnergyManager
+		{
+			hasIcon=1;
+			autoSwitchOff=1;
+			energyUsagePerSecond=0.0049999999;
+			plugType=1;
+			attachmentAction=1;
+			wetnessExposure=0.1;
+		};
+	};
+	class BaseRadio: Transmitter_Base
+	{
+		class EnergyManager
+		{
+			hasIcon=1;
+			autoSwitchOff=1;
+			energyUsagePerSecond=0.03333333333;
+			plugType=5;
+			attachmentAction=1;
+		};
+	};
 	class MassiveMod_TacticalRadio_Colorbase: Transmitter_Base
 	{
 		scope = 0;

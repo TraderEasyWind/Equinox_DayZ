@@ -858,7 +858,7 @@
         <nominal>5</nominal>
         <min>0</min>
         <max>0</max>
-        <lifetime>1800</lifetime>
+        <lifetime>3600</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
         <distanceradius>1000</distanceradius>

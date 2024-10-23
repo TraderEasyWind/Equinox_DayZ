@@ -19,20 +19,6 @@ class CfgVehicles
 	class ItemOptics;
     class NVGoggles;
 	class CJ_NVGoggles: NVGoggles{};
-	class CJ_NVG_BCNVG21: CJ_NVGoggles
-	{
-		attachments[]=
-		{
-			"BatteryD"
-		};
-		class EnergyManager
-		{
-			hasIcon=1;
-			energyUsagePerSecond=0.0099999998;
-			plugType=1;
-			attachmentAction=1;
-		};
-	};
 	class CJ_NVG_ANPVS14: CJ_NVGoggles
 	{
 		attachments[]=
