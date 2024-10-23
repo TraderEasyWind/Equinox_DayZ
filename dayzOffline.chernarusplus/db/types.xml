@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
     <type name="FilteringBottle">
-        <nominal>1</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Medic"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
         <value name="Tier3"/>
+		<value name="Tier4"/>
     </type>
     <type name="ACOGOptic">
         <nominal>3</nominal>
@@ -2391,6 +2394,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
+		<usage name="School"/>
         <tag name="shelves"/>
         <usage name="Military"/>
         <usage name="Police"/>
@@ -6244,6 +6248,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
+		<usage name="School"/>
         <usage name="Town"/>
     </type>
     <type name="DirtBikeHelmet_Black">
@@ -6649,6 +6654,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
+		<usage name="School"/>
         <usage name="Village"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
@@ -16028,6 +16034,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
+		<usage name="School"/>
         <usage name="Coast"/>
         <usage name="Town"/>
         <usage name="Village"/>
@@ -16042,6 +16049,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
+		<usage name="School"/>
         <usage name="Coast"/>
         <usage name="Town"/>
         <usage name="Village"/>
@@ -16056,6 +16064,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
+		<usage name="School"/>
         <usage name="Coast"/>
         <usage name="Town"/>
         <usage name="Village"/>
@@ -16070,6 +16079,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
+		<usage name="School"/>
         <usage name="Coast"/>
         <usage name="Town"/>
         <usage name="Village"/>
@@ -16084,6 +16094,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
+		<usage name="School"/>
         <usage name="Coast"/>
         <usage name="Town"/>
         <usage name="Village"/>
@@ -16098,6 +16109,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
+		<usage name="School"/>
         <usage name="Coast"/>
         <usage name="Town"/>
         <usage name="Village"/>
@@ -16112,6 +16124,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
+		<usage name="School"/>
         <usage name="Coast"/>
         <usage name="Town"/>
         <usage name="Village"/>
@@ -17705,6 +17718,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
         <usage name="Town"/>
+		<usage name="School"/>
         <value name="Tier1"/>
         <value name="Tier2"/>
     </type>
@@ -17718,6 +17732,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
+		<usage name="School"/>
         <usage name="Town"/>
         <value name="Tier1"/>
         <value name="Tier2"/>
@@ -17732,6 +17747,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
+		<usage name="School"/>
         <usage name="Town"/>
         <value name="Tier1"/>
         <value name="Tier2"/>
@@ -18060,6 +18076,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
+		<usage name="School"/>
         <tag name="shelves"/>
         <usage name="Industrial"/>
         <usage name="Town"/>
@@ -18077,6 +18094,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
+		<usage name="School"/>
         <tag name="shelves"/>
         <usage name="Industrial"/>
         <usage name="Town"/>
@@ -18114,6 +18132,7 @@
         <tag name="shelves"/>
         <usage name="Industrial"/>
         <usage name="Town"/>
+		<usage name="School"/>
         <usage name="Village"/>
         <usage name="Office"/>
         <usage name="School"/>
@@ -18915,6 +18934,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
+		<usage name="School"/>
         <usage name="Town"/>
         <value name="Tier1"/>
         <value name="Tier2"/>
@@ -18930,6 +18950,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
         <usage name="Town"/>
+		<usage name="School"/>
         <value name="Tier1"/>
         <value name="Tier2"/>
     </type>
@@ -18944,6 +18965,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
         <usage name="Town"/>
+		<usage name="School"/>
         <value name="Tier1"/>
         <value name="Tier2"/>
     </type>
@@ -18958,6 +18980,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
         <usage name="Town"/>
+		<usage name="School"/>
         <value name="Tier1"/>
         <value name="Tier2"/>
     </type>
@@ -19059,6 +19082,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
+		<usage name="School"/>
         <usage name="Town"/>
         <usage name="Village"/>
     </type>
@@ -19072,6 +19096,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
+		<usage name="School"/>
         <usage name="Town"/>
         <usage name="Village"/>
     </type>
