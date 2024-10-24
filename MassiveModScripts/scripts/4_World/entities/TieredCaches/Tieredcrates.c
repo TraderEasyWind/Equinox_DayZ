@@ -56,7 +56,7 @@ class MassiveModCrate_Base: Container_Base
             {
             	if ( Class.CastTo( masscrate, obj ) )
                 {
-                    Print("Found a" + GetType() +obj.GetPosition()+" while we are at" +position);
+                    Print("Found " + GetType() +obj.GetPosition()+" while we are at" +position);
                     if ( masscrate.GetPosition() != position )
                     {
                         GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(DelayedDelete, 5000, false); //call later to prevent null pointer issues

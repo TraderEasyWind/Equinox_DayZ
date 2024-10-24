@@ -1,4 +1,21 @@
 <types>
+    <type name="MassiveMod_CrateTier5">
+       <nominal>3</nominal>
+        <lifetime>604800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>0</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+		<category name="t5"/>
+		<tag name="t5"/>
+		<usage name="t5"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
+    </type>
 	<type name="MassiveMod_CrateTier1">
        <nominal>9</nominal>
         <lifetime>604800</lifetime>

@@ -10,11 +10,13 @@
         <category name="weapons"/>
         <category name="books"/>
         <category name="explosives"/>
+		<category name="t5"/>
     </categories>
     <tags>
         <tag name="floor"/>
         <tag name="shelves"/>
         <tag name="ground"/>
+		<tag name="t5"/>
     </tags>
     <usageflags>
         <usage name="Military"/>
@@ -37,6 +39,7 @@
         <usage name="Historical"/>
 		<usage name="Store"/>
 		<usage name="Sniper"/>
+		<usage name="t5"/>
     </usageflags>
     <valueflags>
         <value name="Tier1"/>

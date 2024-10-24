@@ -16,6 +16,15 @@ class MassiveMod_Land_Wreck_C130J extends CrashBase
 			m_ParticleEfx = ParticleManager.GetInstance().PlayOnObject(ParticleList.SMOKING_HELI_WRECK, this, Vector(5, -2.0, -5.0));
 		}
 	}
+	
+	override void EEOnCECreate()
+	{
+		if ( GetGame().IsServer() )
+		{	
+	        vector curpos = GetPosition();
+			Print("A " + GetType() + " at " + GetPosition());
+		}
+	}
 
 //override void EEInit()
 //	{

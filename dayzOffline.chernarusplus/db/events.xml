@@ -817,6 +817,7 @@
         <children>
             <child lootmax="15" lootmin="10" max="3" min="1" type="Wreck_Mi8_Crashed"/>
             <child lootmax="15" lootmin="10" max="3" min="1" type="Wreck_UH1Y"/>
+			<child lootmax="15" lootmin="10" max="3" min="1" type="MassiveMod_Land_Wreck_C130J"/>
         </children>
     </event>
     <event name="StaticMilitaryConvoy">
