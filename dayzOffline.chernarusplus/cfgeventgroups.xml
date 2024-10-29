@@ -1,6 +1,162 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <eventgroupdef>
     <!--pos x="5587.466" z="2063.353" a="0" y="7.591" group="Train_Abandoned_Cherno"/-->
+    <group name="C130_NEAF">
+    	<child type="MassiveMod_Land_Wreck_C130J" deloot="0" lootmax="3" lootmin="1" x="0" z="0" y="0" a="306.000004"/>
+    	<child type="MassiveMod_CrateTier5" deloot="0" lootmax="3" lootmin="1" x="0.5000" z="-1.1006" y="-4.5990" a="35.999977"/>
+    	<child type="StaticObj_ShellCrater1" deloot="0" lootmax="3" lootmin="1" x="0.2334" z="-1.6621" y="-5.3934" a="0"/>
+    	<child type="bldr_ShellCrater1" deloot="0" lootmax="3" lootmin="1" x="1.1064" z="0.2920" y="-5.3944" a="0"/>
+    	<child type="StaticObj_ShellCrater2_Small" deloot="0" lootmax="3" lootmin="1" x="7.2314" z="-4.6943" y="-6.2352" a="351"/>
+    	<child type="StaticObj_ShellCrater1" deloot="0" lootmax="3" lootmin="1" x="3.7842" z="0.5596" y="-5.3996" a="0"/>
+    	<child type="CraterLong" deloot="0" lootmax="3" lootmin="1" x="-12.3447" z="9.4482" y="-5.4949" a="125.999924"/>
+    	<child type="CraterLong" deloot="0" lootmax="3" lootmin="1" x="-19.6260" z="14.1221" y="-5.5760" a="306.000004"/>
+    	<child type="bldr_ShellCrater1" deloot="0" lootmax="3" lootmin="1" x="10.2305" z="-6.4805" y="-5.3889" a="0"/>
+    	<child type="CraterLong" deloot="0" lootmax="3" lootmin="1" x="7.9756" z="-5.2617" y="-5.1442" a="125.999924"/>
+    	<child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="3" lootmin="1" x="-13.3506" z="16.3906" y="-4.7754" a="342"/>
+    	<child type="StaticObj_Misc_SupplyBox3_DE" deloot="0" lootmax="3" lootmin="1" x="-7.0537" z="4.4316" y="-4.6846" a="0"/>
+    	<child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="3" lootmin="1" x="-5.3623" z="10.5977" y="-4.6843" a="279.000046"/>
+    	<child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="3" lootmin="1" x="-15.2139" z="3.9014" y="-4.9167" a="0"/>
+    	<child type="CraterLong" deloot="0" lootmax="3" lootmin="1" x="-25.5479" z="17.9980" y="-5.2555" a="125.999992"/>
+    	<child type="CraterLong" deloot="0" lootmax="3" lootmin="1" x="-30.1445" z="20.9922" y="-5.1382" a="125.999924"/>
+    </group>
+	<group name="C130_NWAF">
+	    <child type="MassiveMod_Land_Wreck_C130J" deloot="0" lootmax="3" lootmin="1" x="0" z="0" y="0" a="351"/>
+	    <child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="3" lootmin="1" x="-7.0247" z="12.6934" y="-3.8575" a="44.999992"/>
+	    <child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="3" lootmin="1" x="2.6060" z="13.3076" y="-3.9248" a="0"/>
+	    <child type="StaticObj_Misc_SupplyBox3_DE" deloot="0" lootmax="3" lootmin="1" x="-4.1248" z="22.4443" y="-2.8815" a="306.000015"/>
+	    <child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="3" lootmin="1" x="-9.0447" z="19.2598" y="-3.4457" a="0"/>
+	    <child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="3" lootmin="1" x="-2.7874" z="14.2266" y="-3.6424" a="71.999954"/>
+	    <child type="MassiveMod_CrateTier5" deloot="0" lootmax="3" lootmin="1" x="0.1140" z="0.1680" y="-4.5012" a="0"/>
+	    <child type="CraterLong" deloot="0" lootmax="3" lootmin="1" x="7774.5588" z="1578.4990" y="-199.7285" a="125.999992"/>
+	    <child type="CraterLong" deloot="0" lootmax="3" lootmin="1" x="7769.9622" z="1581.4932" y="-199.6112" a="125.999924"/>
+    </group>
+	<!--<pos x="5081.865234" z="2380.819580" a="0" y="14.680514" group="C130_Balota"/>-->
+    <group name="C130_Balota">
+    	<child type="MassiveMod_Land_Wreck_C130J" deloot="0" lootmax="3" lootmin="1" x="0" z="0" y="0" a="316.549435"/>
+    	<child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="3" lootmin="1" x="-8.0054" z="18.3743" y="-4.5228" a="151.936935"/>
+    	<child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="3" lootmin="1" x="-5.5977" z="9.1885" y="-4.2881" a="268.937523"/>
+    	<child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="3" lootmin="1" x="-11.0649" z="9.8716" y="-4.3015" a="305.882908"/>
+    	<child type="StaticObj_Misc_SupplyBox3_DE" deloot="0" lootmax="3" lootmin="1" x="-12.2710" z="12.9380" y="-4.2976" a="79.936928"/>
+    	<child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="3" lootmin="1" x="-15.7100" z="15.0591" y="-4.5670" a="151.936935"/>
+    	<child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="3" lootmin="1" x="-6.3892" z="4.1509" y="-4.4911" a="151.936935"/>
+    	<child type="MassiveMod_CrateTier5" deloot="0" lootmax="3" lootmin="1" x="-0.2578" z="-0.9609" y="-4.5119" a="44.999992"/>
+    </group>
+	<!--<pos x="6351.226563" z="8126.265137" a="0" y="330.874176" group="C130_Stary"/>-->
+    <group name="C130_Stary">
+	    <child type="MassiveMod_Land_Wreck_C130J" deloot="0" lootmax="3" lootmin="1" x="0" z="0" y="0" a="171.000015"/>
+	    <child type="MassiveMod_CrateTier5" deloot="0" lootmax="3" lootmin="1" x="0.9282" z="-0.1035" y="-4.7289" a="80.999954"/>
+	    <child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="3" lootmin="1" x="5.8613" z="-16.3213" y="-4.8099" a="35.999996"/>
+	    <child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="3" lootmin="1" x="0.9707" z="-26.3413" y="-4.6301" a="346.178984"/>
+	    <child type="StaticObj_Misc_SupplyBox3_DE" deloot="0" lootmax="3" lootmin="1" x="0.3848" z="-17.2197" y="-4.3041" a="306.000015"/>
+	    <child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="3" lootmin="1" x="3.3281" z="-12.1318" y="-4.4314" a="261.000069"/>
+	    <child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="3" lootmin="1" x="3.4775" z="-20.6787" y="-4.5024" a="44.999981"/>
+	    <child type="StaticObj_Misc_SupplyBox3_DE" deloot="0" lootmax="3" lootmin="1" x="-3.3398" z="-12.5366" y="-4.1161" a="44.999981"/>
+        </group>
+		<!--<pos x="4392.211426" z="8579.373047" a="0" y="324.661560" group="C130_Vybor"/>-->
+    <group name="C130_Vybor">
+    	<child type="MassiveMod_Land_Wreck_C130J" deloot="0" lootmax="3" lootmin="1" x="0" z="0" y="0" a="62.999973"/>
+    	<child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="3" lootmin="1" x="12.2168" z="3.1445" y="-4.5053" a="0"/>
+    	<child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="3" lootmin="1" x="18.8521" z="15.2080" y="-4.3485" a="0"/>
+    	<child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="3" lootmin="1" x="15.9326" z="6.8701" y="-4.1866" a="53.999985"/>
+    	<child type="StaticObj_Misc_SupplyBox3_DE" deloot="0" lootmax="3" lootmin="1" x="22.6025" z="10.9678" y="-4.1354" a="9"/>
+    	<child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="3" lootmin="1" x="9.3735" z="8.7168" y="-4.1669" a="0"/>
+    	<child type="MassiveMod_CrateTier5" deloot="0" lootmax="3" lootmin="1" x="0.0996" z="0.8359" y="-4.5231" a="150.75592"/>
+    </group>
+	<!--<pos x="7655.295898" z="11406.734375" a="0" y="267.585480" group="C130_DevilsCastle"/>-->
+    <group name="C130_DevilsCastle">
+    	<child type="MassiveMod_Land_Wreck_C130J" deloot="0" lootmax="3" lootmin="1" x="0" z="0" y="0" a="273.59996"/>
+    	<child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="3" lootmin="1" x="-10.4785" z="-3.5049" y="-4.0970" a="0.000002"/>
+    	<child type="StaticObj_Misc_SupplyBox3_DE" deloot="0" lootmax="3" lootmin="1" x="-15.0972" z="0.4121" y="-3.0912" a="9"/>
+    	<child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="3" lootmin="1" x="-20.1909" z="3.1201" y="-2.2981" a="62.999973"/>
+    	<child type="StaticObj_Misc_SupplyBox3_DE" deloot="0" lootmax="3" lootmin="1" x="-17.3193" z="5.1455" y="-2.3093" a="279.000046"/>
+    	<child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="3" lootmin="1" x="-11.6855" z="4.8320" y="-3.4545" a="0"/>
+    	<child type="MassiveMod_CrateTier5" deloot="0" lootmax="3" lootmin="1" x="-0.8379" z="-0.6758" y="-4.5725" a="0"/>
+    </group>
+	<!--<pos x="7550.157227" z="13036.034180" a="0" y="165.880127" group="C130_Severograd"/>-->
+    <group name="C130_Severograd">
+    	<child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" y="0" a="0"/>
+    	<child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="3" lootmin="1" x="1.7627" z="12.3398" y="0.2463" a="27"/>
+    	<child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="3" lootmin="1" x="-2.1694" z="9.6611" y="0.6549" a="323.999989"/>
+    	<child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="3" lootmin="1" x="7.1016" z="3.9053" y="-0.3329" a="80.999977"/>
+    	<child type="StaticObj_Misc_SupplyBox3_DE" deloot="0" lootmax="3" lootmin="1" x="0.9512" z="3.7598" y="0.0560" a="350.999975"/>
+    	<child type="MassiveMod_CrateTier5" deloot="0" lootmax="3" lootmin="1" x="12.2432" z="-6.7168" y="-1.8173" a="44.999969"/>
+    	<child type="MassiveMod_Land_Wreck_C130J" deloot="0" lootmax="3" lootmin="1" x="13.5352" z="-7.1318" y="2.6556" a="316.800198"/>
+    </group>
+	<!--<pos x="1184.143188" z="12319.622070" a="0" y="384.450134" group="C130_Sinystok"/>-->
+    <group name="C130_Sinystok">
+    	<child type="MassiveMod_Land_Wreck_C130J" deloot="0" lootmax="3" lootmin="1" x="0" z="0" y="0" a="17.999823"/>
+    	<child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="3" lootmin="1" x="-1.3662" z="20.6289" y="-4.1067" a="0"/>
+    	<child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="3" lootmin="1" x="12.6814" z="22.5791" y="-3.7675" a="0"/>
+    	<child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="3" lootmin="1" x="10.3329" z="10.7100" y="-3.9817" a="0"/>
+    	<child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="3" lootmin="1" x="-0.2633" z="13.4775" y="-4.1289" a="143.999893"/>
+    	<child type="StaticObj_Misc_SupplyBox3_DE" deloot="0" lootmax="3" lootmin="1" x="7.5439" z="17.1973" y="-3.7284" a="89.999954"/>
+    	<child type="StaticObj_Misc_SupplyBox3_DE" deloot="0" lootmax="3" lootmin="1" x="5.9600" z="27.2500" y="-3.5343" a="9"/>
+    	<child type="MassiveMod_CrateTier5" deloot="0" lootmax="3" lootmin="1" x="-0.3695" z="1.6904" y="-4.5040" a="107.999939"/>
+    </group>
+	<!--<pos x="1284.298950" z="14515.063477" a="0" y="459.190765" group="C130_Tisy"/>-->
+    <group name="C130_Tisy">
+    	<child type="MassiveMod_Land_Wreck_C130J" deloot="0" lootmax="3" lootmin="1" x="0" z="0" y="0" a="287.99996899999996"/>
+    	<child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="3" lootmin="1" x="-16.4115" z="-1.0742" y="-4.4344" a="0"/>
+    	<child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="3" lootmin="1" x="-25.3912" z="13.5010" y="-4.3206" a="0"/>
+    	<child type="StaticObj_Misc_SupplyBox3_DE" deloot="0" lootmax="3" lootmin="1" x="-11.5884" z="6.9131" y="-4.1196" a="27"/>
+    	<child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="3" lootmin="1" x="-18.3180" z="2.8555" y="-4.1294" a="89.999954"/>
+    	<child type="StaticObj_Misc_SupplyBox3_DE" deloot="0" lootmax="3" lootmin="1" x="-21.2961" z="8.1875" y="-4.0967" a="35.999985"/>
+    	<child type="MassiveMod_CrateTier5" deloot="0" lootmax="3" lootmin="1" x="-1.9298" z="-0.2539" y="-4.5489" a="18"/>
+    </group>
+	<group name="C130_Zabolyte">
+	    <child type="MassiveMod_Land_Wreck_C130J" deloot="0" lootmax="3" lootmin="1" x="0" z="0" y="0" a="324.000015"/>
+	    <child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="3" lootmin="1" x="-7.5565" z="6.6924" y="-3.7697" a="18"/>
+	    <child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="3" lootmin="1" x="-13.4155" z="11.3994" y="-3.4271" a="252.00006100000002"/>
+	    <child type="StaticObj_Misc_SupplyBox3_DE" deloot="0" lootmax="3" lootmin="1" x="-25.5627" z="23.9268" y="-3.1522" a="53.999985"/>
+	    <child type="StaticObj_Misc_SupplyBox3_DE" deloot="0" lootmax="3" lootmin="1" x="-10.4764" z="27.6250" y="-3.3298" a="0"/>
+	    <child type="MassiveMod_CrateTier5" deloot="0" lootmax="3" lootmin="1" x="-1.7050" z="0.9082" y="-4.5199" a="53.999969"/>
+	    <child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="3" lootmin="1" x="-6.3309" z="13.8350" y="-3.8289" a="18"/>
+	    <child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="3" lootmin="1" x="-18.3928" z="19.9277" y="-3.4821" a="0"/>
+    </group>
+	<!--<pos x="3611.891113" z="6406.886230" a="0" y="349.817169" group="C130_GreenMountain"/>-->
+    <group name="C130_GreenMountain">
+    	<child type="MassiveMod_Land_Wreck_C130J" deloot="0" lootmax="3" lootmin="1" x="0" z="0" y="0" a="53.999985"/>
+    	<child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="3" lootmin="1" x="12.9099" z="14.5801" y="-5.5423" a="0"/>
+    	<child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="3" lootmin="1" x="24.0095" z="13.3735" y="-5.4391" a="0"/>
+    	<child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="3" lootmin="1" x="11.1968" z="5.2246" y="-4.3841" a="18"/>
+    	<child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="3" lootmin="1" x="10.1763" z="10.9932" y="-4.9281" a="125.999924"/>
+    	<child type="StaticObj_Misc_SupplyBox3_DE" deloot="0" lootmax="3" lootmin="1" x="18.3074" z="9.3149" y="-4.7350" a="279.000046"/>
+    	<child type="StaticObj_Misc_SupplyBox3_DE" deloot="0" lootmax="3" lootmin="1" x="17.3430" z="15.4214" y="-5.4050" a="134.999863"/>
+    	<child type="MassiveMod_CrateTier5" deloot="0" lootmax="3" lootmin="1" x="0.7495" z="1.4619" y="-4.5132" a="143.999863"/>
+    </group>
+	<!--<pos x="8586.304688" z="3939.241699" a="0" y="270.711700" group="C130_Pusta"/>-->
+    <group name="C130_Pusta">
+    	<child type="MassiveMod_Land_Wreck_C130J" deloot="0" lootmax="3" lootmin="1" x="0" z="0" y="0" a="80.999924"/>
+    	<child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="3" lootmin="1" x="20.1738" z="-1.1826" y="-3.5780" a="225.000122"/>
+    	<child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="3" lootmin="1" x="11.7471" z="-2.2986" y="-4.1905" a="333"/>
+    	<child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="3" lootmin="1" x="25.1621" z="7.7986" y="-3.2816" a="0"/>
+    	<child type="StaticObj_Misc_SupplyBox3_DE" deloot="0" lootmax="3" lootmin="1" x="11.8760" z="2.3618" y="-3.7124" a="359.999978"/>
+    	<child type="StaticObj_Misc_SupplyBox3_DE" deloot="0" lootmax="3" lootmin="1" x="25.3232" z="2.1492" y="-3.3337" a="8.999986"/>
+    	<child type="MassiveMod_CrateTier5" deloot="0" lootmax="3" lootmin="1" x="1.0527" z="0.9480" y="-4.5320" a="351"/>
+    	<child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="3" lootmin="1" x="12.2949" z="5.6951" y="-3.4727" a="0"/>
+    </group>
+	<!--<pos x="9506.293945" z="8153.402344" a="0" y="219.133041" group="C130_Gorka"/>-->
+    <group name="C130_Gorka">
+    	<child type="MassiveMod_Land_Wreck_C130J" deloot="0" lootmax="3" lootmin="1" x="0" z="0" y="0" a="44.999939"/>
+    	<child type="MassiveMod_CrateTier5" deloot="0" lootmax="3" lootmin="1" x="0.0762" z="1.3193" y="-4.4417" a="134.999908"/>
+    	<child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="3" lootmin="1" x="10.4541" z="2.0288" y="-4.3729" a="0"/>
+    	<child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="3" lootmin="1" x="17.9922" z="20.4526" y="-2.0776" a="0"/>
+    	<child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="3" lootmin="1" x="12.8174" z="12.3130" y="-2.8720" a="134.999908"/>
+    	<child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="3" lootmin="1" x="20.9707" z="13.5137" y="-2.9269" a="53.999985"/>
+    	<child type="StaticObj_Misc_SupplyBox3_DE" deloot="0" lootmax="3" lootmin="1" x="23.7539" z="19.0830" y="-2.1116" a="314.999996"/>
+    	<child type="StaticObj_Misc_SupplyBox3_DE" deloot="0" lootmax="3" lootmin="1" x="18.6494" z="6.7100" y="-3.7910" a="342"/>
+    </group>
+	<!--<pos x="13029.788086" z="13636.161133" a="0" y="58.010902" group="C130_Svetlojarsk"/>-->
+    <group name="C130_Svetlojarsk">
+    	<child type="StaticObj_Misc_SupplyBox3_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" y="0" a="0"/>
+    	<child type="StaticObj_Misc_SupplyBox3_DE" deloot="0" lootmax="3" lootmin="1" x="12.2314" z="4.3037" y="-0.3456" a="44.999939"/>
+    	<child type="MassiveMod_CrateTier5" deloot="0" lootmax="3" lootmin="1" x="24.9287" z="-3.8057" y="-0.0863" a="0"/>
+    	<child type="MassiveMod_Land_Wreck_C130J" deloot="0" lootmax="3" lootmin="1" x="26.5400" z="-3.1318" y="4.4676" a="275.400047"/>
+    	<child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="3" lootmin="1" x="6.7881" z="-4.8906" y="0.3108" a="27"/>
+    	<child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="3" lootmin="1" x="16.2402" z="-0.7734" y="-0.0613" a="0"/>
+    	<child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="3" lootmin="1" x="6.3652" z="1.7393" y="-0.1271" a="44.999981"/>
+    	<child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="3" lootmin="1" x="-5.2930" z="0.9141" y="-0.0529" a="0"/>
+    </group>
     <group name="Train_Abandoned_Cherno">
 <child type="StaticObj_Wreck_Train_742_Red_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="78.123" y="1.9"/>
         <child type="StaticObj_Wreck_Train_Wagon_Tanker_DE" deloot="0" lootmax="3" lootmin="1" x="12.085" z="2.740" a="256.739" y="1.789"/>
@@ -9,6 +165,16 @@
         <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="46.285" z="11.341" a="255.321" y="1.398"/>
         <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="69.472" z="18.594" a="250.938" y="1.450"/>
         <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="57.966" z="14.737" a="252.227" y="1.411"/>
+    </group>
+	<group name="C130_Frankie">
+	    <child type="MassiveMod_Land_Wreck_C130J" deloot="0" lootmax="3" lootmin="1" x="0" z="0" y="0" a="324.000015"/>
+	    <child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="3" lootmin="1" x="-11.9004" z="11.1118" y="-3.9104" a="0"/>
+	    <child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="3" lootmin="1" x="-10.9639" z="21.2813" y="-3.7648" a="0"/>
+	    <child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="3" lootmin="1" x="-5.6494" z="7.1538" y="-4.0314" a="80.999954"/>
+	    <child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="3" lootmin="1" x="-7.8779" z="14.1157" y="-3.7311" a="18"/>
+	    <child type="StaticObj_Misc_SupplyBox3_DE" deloot="0" lootmax="3" lootmin="1" x="-15.9590" z="19.5474" y="-3.3478" a="62.999973"/>
+	    <child type="StaticObj_Misc_SupplyBox3_DE" deloot="0" lootmax="3" lootmin="1" x="-28.3516" z="17.2007" y="-3.0473" a="98.999931"/>
+	    <child type="MassiveMod_CrateTier5" deloot="0" lootmax="3" lootmin="1" x="-1.2480" z="0.2124" y="-4.5493" a="53.999985"/>
     </group>
     <!--pos x="3678.228" z="2328.108" a="0" y="6.546" group="Train_Abandoned_Kamarovo"/-->
     <group name="Train_Abandoned_Kamarovo">

@@ -79,7 +79,7 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
    <ce folder="CustomEvents">
 		<file name="SurvivorCamp.xml" type="events" />
 		<file name="DatsunEvent.xml" type="events" />
-		<file name="c130.xml" type="events" />
+		<file name="Tier5Crate.xml" type="events" />
 	</ce>
 	<ce folder="CustomCFGSpawnableTypes">
 		<file name="TieredCachesCFG.xml" type="spawnabletypes" />

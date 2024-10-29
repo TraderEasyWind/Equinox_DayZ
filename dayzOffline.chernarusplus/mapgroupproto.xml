@@ -19,11 +19,8 @@
 				    <category name="containers" />
 				    <category name="clothes" />
 				    <category name="weapons" />
-				    <category name="t5"/>
 					<category name="tools" />
 				    <usage name="Military" />
-					<usage name="t5"/>
-					<tag name="t5"/>
 				<container name="lootFloor" lootmax="35">
 		                <point pos="15.180048 -5.203588 1.515779" range="1" height="1" /> 
 		                <point pos="15.556248 -5.160999 -1.383081" range="1" height="1" /> 
