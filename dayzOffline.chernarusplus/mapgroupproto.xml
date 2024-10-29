@@ -2131,6 +2131,7 @@
 			<usage name="Office" />
         	<usage name="Village"/>
 			<usage name="Coast"/>
+			<usage name="Tenement"/>
 			<usage name="Sniper"/>
 				<container name="lootFloor" lootmax="30">
 						<category name="tools" />
@@ -2310,6 +2311,7 @@
 			<usage name="Office" />
         	<usage name="Village"/>
 			<usage name="Coast"/>
+			<usage name="Tenement"/>
 			<usage name="Sniper"/>
 				<container name="lootFloor" lootmax="30">
 						<category name="tools" />

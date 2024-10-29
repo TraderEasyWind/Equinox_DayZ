@@ -36,7 +36,7 @@
         <usage name="SeasonalEvent"/>
         <usage name="ContaminatedArea"/>
 		<usage name="Historical"/>
-        <usage name="Historical"/>
+		<usage name="Tenement"/>
 		<usage name="Store"/>
 		<usage name="Sniper"/>
 		<usage name="t5"/>
