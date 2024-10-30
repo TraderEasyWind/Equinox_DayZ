@@ -1,4 +1,4 @@
-modded class Mass_PKM_Base extends RifleBoltLock_Base
+modded class Mass_PKM_Base extends RifleBoltFree_Base
 {
 	override void EEOnCECreate()
 	{
@@ -52,3 +52,42 @@ modded class Mass_PKM_Base extends RifleBoltLock_Base
 		}
     }
 }
+modded class ModItemRegisterCallbacks
+{
+	override void RegisterFireArms(DayZPlayerType pType, DayzPlayerItemBehaviorCfg pBehavior)
+    {
+    	super.RegisterFireArms(pType, pBehavior);  
+		
+		pType.AddItemInHandsProfileIK("Mass_PKM_Base", "AnimatedWeapons/Animations/M249/player_main_JDM249.asi", pBehavior, "AnimatedWeapons/Animations/M249/ik/M249.anm", "AnimatedWeapons/Animations/M249/w_M249_States.anm"); 	
+	};
+	
+	override void CustomBoneRemapping(DayZPlayerType pType)
+    {
+		super.CustomBoneRemapping(pType);
+		
+		pType.AddItemBoneRemap("Mass_PKM_Base", 
+		{ 
+			"bolt",
+			"Weapon_Bolt",
+			"magazine",
+			"Weapon_Magazine",
+			"charging",
+			"Weapon_Bone_01",
+			"cover",
+			"Weapon_Bone_02",
+			"trigger",
+			"Weapon_Trigger",
+			"bullet",
+			"Weapon_Bullet",
+			"flap",
+			"Weapon_Bone_06",
+			"beltpart3",
+			"Weapon_Bone_03",
+			"beltpart2",
+			"Weapon_Bone_04",
+			"beltpart1",
+			"Weapon_Bone_05" 
+		});
+			
+	}
+};
