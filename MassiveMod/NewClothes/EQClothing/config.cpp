@@ -292,5 +292,137 @@ class CfgVehicles
     		"MassiveMod\NewClothes\EQClothing\NCR_riders_jacket_black_co.paa",
     		"MassiveMod\NewClothes\EQClothing\NCR_riders_jacket_black_co.paa"
     	};
+	};
+	class EQ_Broke_Riderjacket: RidersJacket_ColorBase
+	{
+		displayName="Brokedown Palace MC Jacket";
+    	descriptionShort="A custom MC jacket for the Trade Union faction showing featuring their home the brokendown palace";
+		scope=2;
+		rotationFlags=12;
+		weight=2800;
+		itemSize[]={4,4};
+		itemsCargoSize[]={5,5};
+		varWetMax=0.49000001;
+		heatIsolation=0.99999999;
+		quickBarBonus=1;
+		repairableWithKits[]={3};
+		repairCosts[]={25};
+		visibilityModifier=0.89999998;
+		soundAttType="LeatherJacket";	
+    	hiddenSelectionsTextures[]=
+		{
+    		"MassiveMod\NewClothes\EQClothing\Brokedown_riders_jacket_black_co.paa",
+    		"MassiveMod\NewClothes\EQClothing\Brokedown_riders_jacket_black_co.paa",
+    		"MassiveMod\NewClothes\EQClothing\Brokedown_riders_jacket_black_co.paa"
+    	};
+	};
+	class Armband_ColorBase;
+	class Armband_108: Armband_ColorBase
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="108";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_108.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_108.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_108.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_108.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_108.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_108.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_108.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_108.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_108.paa"
+		};
+	};
+	class Armband_cmf: Armband_ColorBase
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="cmf";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_cmf.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_cmf.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_cmf.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_cmf.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_cmf.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_cmf.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_cmf.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_cmf.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_cmf.paa"
+		};
+	};
+	class Armband_ncr: Armband_ColorBase
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="ncr";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_ncr.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_ncr.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_ncr.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_ncr.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_ncr.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_ncr.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_ncr.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_ncr.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_ncr.paa"
+		};
+	};
+	class Armband_OOrder: Armband_ColorBase
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="OO";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_OO.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_OO.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_OO.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_OO.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_OO.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_OO.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_OO.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_OO.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_OO.paa"
+		};
+	};
+	class Armband_GOK: Armband_ColorBase
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="ghosts";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_ghosts.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_ghosts.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_ghosts.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_ghosts.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_ghosts.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_ghosts.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_ghosts.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_ghosts.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_ghosts.paa"
+		};
+	};
+	class Armband_TU: Armband_ColorBase
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="Trade";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_TU.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_TU.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_TU.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_TU.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_TU.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_TU.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_TU.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_TU.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_TU.paa"
+		};
 	};	
 };
