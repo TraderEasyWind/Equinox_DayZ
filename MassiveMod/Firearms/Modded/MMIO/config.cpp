@@ -21,10 +21,20 @@ class OpticsInfoRifle;
 class cfgWeapons
 {
 	class Rifle_Base;
+	class MassM300_Base;
+	class Mass_M98B_Base;
 	class Mass_PKM_Base;
 	class Mass_PKM: Mass_PKM_Base
 	{
 		model="MassiveMod\Firearms\Modded\MMIO\PKM\PKM.p3d";
+	};
+	class MassM300: MassM300_Base
+	{
+		itemSize[]={10,3};
+	};
+	class Mass_M98B: Mass_M98B_Base
+	{
+		itemSize[]={10,3};
 	};
 };
 //class CfgSlots
