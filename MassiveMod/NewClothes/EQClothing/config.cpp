@@ -424,5 +424,77 @@ class CfgVehicles
 			"MassiveMod\NewClothes\EQClothing\flag_white_co_TU.paa",
 			"MassiveMod\NewClothes\EQClothing\flag_white_co_TU.paa"
 		};
+	};
+	class Armband_Medic: Armband_ColorBase
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="medic";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_medic_armband_large.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_medic_armband_large.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_medic_armband_large.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_medic_armband_large.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_medic_armband_large.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_medic_armband_large.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_medic_armband_large.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_medic_armband_large.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_medic_armband_large.paa"
+		};
+	};
+	class Armband_Medic_small: Armband_ColorBase
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="medic2";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_medic_armband_small.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_medic_armband_small.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_medic_armband_small.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_medic_armband_small.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_medic_armband_small.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_medic_armband_small.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_medic_armband_small.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_medic_armband_small.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_medic_armband_small.paa"
+		};
+	};
+	class Armband_imperium: Armband_ColorBase
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="imperium";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_imperium.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_imperium.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_imperium.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_imperium.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_imperium.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_imperium.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_imperium.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_imperium.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_imperium.paa"
+		};
+	};
+	class Armband_bosh: Armband_ColorBase
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="bosh";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_bosh.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_bosh.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_bosh.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_bosh.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_bosh.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_bosh.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_bosh.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_bosh.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_bosh.paa"
+		};
 	};	
 };
