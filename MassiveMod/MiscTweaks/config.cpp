@@ -44,13 +44,13 @@ class CfgVehicles
 		varQuantityMin = 0.0;
 		varQuantityMax = 40.0;
 	};
-	class Firewood: Inventory_Base
-	{
-		canBeSplit=1;
-		varQuantityInit=1.0;
-		varQuantityMin=0.0;
-		varQuantityMax=3.0;
-		varQuantityDestroyOnMin=1.0;
-		varStackMax=3.0;
-	};
+	//class Firewood: Inventory_Base
+	//{
+	//	canBeSplit=1;
+	//	varQuantityInit=1.0;
+	//	varQuantityMin=0.0;
+	//	varQuantityMax=3.0;
+	//	varQuantityDestroyOnMin=1.0;
+	//	varStackMax=3.0;
+	//};
 };
