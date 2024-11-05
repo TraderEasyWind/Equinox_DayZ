@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <randompresets>
+        <cargo chance="0.078" name="Rares">
+				<item name="MassiveMod_Tier1Key" chance="0.40" />
+				<item name="MassiveMod_Tier2Key" chance="0.35" />
+				<item name="MassiveMod_Tier3Key" chance="0.25" />
+				<item name="MassiveMod_Tier4Key" chance="0.20" />
+		</cargo>
 		<cargo chance="0.05" name="foodHermit">
 				<item name="TunaCan" chance="0.11" />
 				<item name="SardinesCan" chance="0.11" />

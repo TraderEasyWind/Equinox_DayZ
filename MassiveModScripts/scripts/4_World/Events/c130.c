@@ -17,6 +17,11 @@ class MassiveMod_Land_Wreck_C130J extends CrashBase
 		}
 	}
 	
+	override string GetSoundSet()
+	{
+		return "C130_Close_SoundSet";
+	}
+	
 	override void EEOnCECreate()
 	{
 		if ( GetGame().IsServer() )

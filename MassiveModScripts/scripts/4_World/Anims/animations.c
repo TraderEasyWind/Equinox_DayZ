@@ -13,7 +13,8 @@ modded class ModItemRegisterCallbacks
 	{
 		super.RegisterOneHanded( pType, pBehavior );
 		pType.AddItemInHandsProfileIK("MassiveMod_TacticalRadio_Colorbase", "dz/anims/workspaces/player/player_main/player_main_1h.asi", pBehavior, 					"dz/anims/anm/player/ik/gear/PersonalRadio.anm");
-		pType.AddItemInHandsProfileIK("MassiveMod_AmmoBoxBase", "dz/anims/workspaces/player/player_main/player_main_1h.asi", pBehavior,							"dz/anims/anm/player/ik/gear/AmmoBox.anm"); 
+		pType.AddItemInHandsProfileIK("MassiveMod_AmmoBoxBase", "dz/anims/workspaces/player/player_main/player_main_1h.asi", pBehavior,							"dz/anims/anm/player/ik/gear/AmmoBox.anm");
+        pType.AddItemInHandsProfileIK("MassiveMod_ADVKit_Base",					"dz/anims/workspaces/player/player_main/player_main_1h.asi",						pBehavior,			"dz/anims/anm/player/ik/gear/cleaning_kit_wood.anm");		
 	}
 
 	override void RegisterTwoHanded(DayZPlayerType pType, DayzPlayerItemBehaviorCfg pBehavior)

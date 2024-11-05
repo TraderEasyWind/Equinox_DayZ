@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<randompresets>
+		<cargo chance="1.00" name="Rares">
+				<item name="MassiveMod_Tier1Key" chance="1.00" />
+				<item name="MassiveMod_Tier2Key" chance="1.00" />
+				<item name="MassiveMod_Tier3Key" chance="1.00" />
+				<item name="MassiveMod_Tier4Key" chance="1.00" />
+		</cargo>
+</randompresets>

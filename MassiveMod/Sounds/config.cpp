@@ -1,16 +1,16 @@
 class CfgPatches
 {
+	//This was given to me by inclement dab himself because I gave him the idea for the mod.
 	class CreatorZ_Sounds
 	{
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"DZ_Data"};
+		requiredAddons[] = {"DZ_Data","DZ_Sounds_Effects"};
 		author = "InclementDab";
 		name = "CreatorZ Sound FX";
 	};
 };
-
 class CfgSoundShaders
 {
     class CZ_SoundShader_Base
@@ -19,7 +19,48 @@ class CfgSoundShaders
 		range = 7.5;
         radius = 1.5;
     };
-	
+	class C130CrashDistantAttenuationCurve
+	{
+		points[]=
+		{
+			{0,1},
+			{2500,0.80000001},
+			{3700,0.5},
+			{4200,0.2},
+			{5000,0.1}
+		};
+	};
+	class C130_Base_SoundSet
+	{
+		volumeFactor=1;
+		frequencyRandomizer=1;
+		spatial=1;
+		doppler=0;
+		loop=0;
+		volumeCurve="C130CrashDistantAttenuationCurve";
+		distanceFilter="explosionDistanceFreqAttenuationFilter";
+		sound3DProcessingType="ThunderNear3DProcessingType";
+	};
+	class C130_Close_SoundSet: C130_Base_SoundSet
+	{
+		soundShaders[]=
+		{
+			"C130Crash_Distant_SoundShader"
+		};
+	};
+	class C130Crash_Distant_SoundShader
+	{
+		samples[]=
+		{
+			
+			{
+				"MassiveMod\Sounds\eventsounds\C130Crash_Distant_1",
+				1
+			},
+		};
+		volume=1;
+		range=5000;
+	};
 	class CZ_ShotgunShell_Move_SoundShader: CZ_SoundShader_Base
     {
 		volume = 1; // Too loud otherwise

@@ -75,13 +75,26 @@ class CfgVehicles
         absorbency = 1;
 		itemSize[] = {3,2};
 	};
-	class WeaponCleaningKit;
-	class MassiveMod_ADVKit_Base: WeaponCleaningKit
+	class MassiveMod_ADVKit_Base: Inventory_Base
 	{
 		scope=0;
 		hiddenSelections[]={"zbytek"};
+		model="\dz\gear\tools\cleaning_kit_wood.p3d";
 		hiddenSelectionsTextures[]={"MassiveMod\RepairKits\KitTextures\High-End_ADV_Kit_co.paa"};
-		repairKitType = ;
+        debug_ItemCategory=2;
+		animClass="Knife";
+		rotationFlags=17;
+		stackedUnit="percentage";
+		quantityBar=1;
+		varQuantityInit=200;
+		varQuantityMin=0;
+		varQuantityMax=200;
+		weight=780;
+		weightPerQuantityUnit=0;
+		itemSize[]={2,3};
+		fragility=0.0099999998;
+		repairKitType=1;
+		soundImpactType="wood";
 		class DamageSystem
 		{
 			class GlobalHealth

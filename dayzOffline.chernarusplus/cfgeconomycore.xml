@@ -37,6 +37,9 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<default name="save_events_startup" value="true"/>
 		<default name="save_types_startup" value="true"/>
 	</defaults>
+	<ce folder="CustomTypes/CustomLootTables">
+		<file name="CustomLoot.xml" type="randompresets" />
+	</ce>
 	<ce folder="CustomTypes/FlipTransport">
 		<file name="ft_types.xml" type="types" />
 	</ce>

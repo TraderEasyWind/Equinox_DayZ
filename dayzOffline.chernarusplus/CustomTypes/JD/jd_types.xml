@@ -236,12 +236,12 @@
 <usage name="Police"/>
 </type>
 <type name="JD_Mag_MP7_40Rnd">
-<nominal>8</nominal>
+<nominal>3</nominal>
 <lifetime>28800</lifetime>
 <restock>1800</restock>
-<min>4</min>
+<min>1</min>
 <quantmin>1</quantmin>
-<quantmax>40</quantmax>
+<quantmax>15</quantmax>
 <cost>100</cost>
 <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 <category name="weapons"/>
@@ -272,12 +272,12 @@
 <usage name="Military"/>
 </type>
 <type name="JD_Mag_P90_50Rnd">
-<nominal>8</nominal>
+<nominal>5</nominal>
 <lifetime>28800</lifetime>
 <restock>1800</restock>
-<min>5</min>
-<quantmin>-1</quantmin>
-<quantmax>-50</quantmax>
+<min>1</min>
+<quantmin>1</quantmin>
+<quantmax>20</quantmax>
 <cost>100</cost>
 <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 <category name="weapons"/>
@@ -288,8 +288,8 @@
 <lifetime>28800</lifetime>
 <restock>1800</restock>
 <min>8</min>
-<quantmin>-1</quantmin>
-<quantmax>-32</quantmax>
+<quantmin>1</quantmin>
+<quantmax>13</quantmax>
 <cost>100</cost>
 <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 <category name="weapons"/>
