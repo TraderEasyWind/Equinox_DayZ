@@ -3288,7 +3288,7 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-	<type name="Mass357M1911Mag">
+	<type name="Mass_Mag_Coonan_7Rnd">
         <nominal>15</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
