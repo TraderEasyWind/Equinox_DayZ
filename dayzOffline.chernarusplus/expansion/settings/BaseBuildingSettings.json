@@ -33,7 +33,8 @@
         "FishNetTrap",
         "RabbitSnareTrap",
         "SmallFishTrap",
-        "TripwireTrap"
+        "TripwireTrap",
+		"ZenNote"
     ],
     "CanCraftVanillaBasebuilding": 0,
     "CanCraftExpansionBasebuilding": 1,

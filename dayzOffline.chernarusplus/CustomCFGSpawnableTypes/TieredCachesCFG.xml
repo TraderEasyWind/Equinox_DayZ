@@ -361,7 +361,7 @@
 	    <cargo chance="1.00">
 				<item name="Mass_SLR106"  chance="0.142857142857" />
 				<item name="JD_MP7"  chance="0.142857142857" />
-				<item name="JD_Groza_762"  chance="0.142857142857" />
+				<item name="JD_Groza"  chance="0.142857142857" />
 				<item name="JD_P90"  chance="0.142857142857" />
 				<item name="Mass_RPK74"  chance="0.142857142857" />
 				<item name="Mass_AK9"  chance="0.142857142857" />

@@ -7,18 +7,6 @@ modded class Mass_RugerPrecision_Base: Scout_Base
 	
     ref TStringArray RandomOptics = 
 	{
-		//"SNAFU_Aimpoint_ACO",
-		//"SNAFU_Elcan",
-		//"SNAFU_Aimpoint_M5",
-		//"SNAFU_EOTech_EXPS3",
-		//"SNAFU_HuntingOptic",
-		//"SNAFU_Kahles",
-		//"SNAFU_Leupold_Mark8",
-		//"SNAFU_Nightforce",
-		//"SNAFU_Tango6T_Black",
-		//"SNAFU_Trijicon_Docter",
-		//"SNAFU_Walther",
-		//"SNAFU_Kobra",
 		"ACOGOptic",
 		"ACOGOptic_6x",
 		"MassScope",
@@ -31,15 +19,16 @@ modded class Mass_RugerPrecision_Base: Scout_Base
 	
 	void SpawnAttachments()
     {
-		GameInventory m_Inventory = GetInventory();
+        GameInventory m_Inventory = GetInventory();
         if (GetHierarchyParent().IsInherited(MassiveModCrate_Base))
-		{
-		    if (GetGame() &&  ( GetGame().IsServer() || !GetGame().IsMultiplayer() ))
+        {
+            if (GetGame() &&  (GetGame().IsServer() || !GetGame().IsMultiplayer() ))
             {
-				AddHealth("", "",9999);
-				m_Inventory.CreateAttachment("Mass_Mag_RugerPrecision_10Rnd");
-			    m_Inventory.CreateAttachment(RandomOptics.GetRandomElement()); 				
+                AddHealth("", "",9999);
+
+                Magazine mag = SpawnAttachedMagazine("Mass_Mag_RugerPrecision_10Rnd", WeaponWithAmmoFlags.MAX_CAPACITY_MAG | WeaponWithAmmoFlags.CHAMBER);
+                m_Inventory.CreateAttachment(RandomOptics.GetRandomElement());  				
             }
-		}
+        }
     }
 }

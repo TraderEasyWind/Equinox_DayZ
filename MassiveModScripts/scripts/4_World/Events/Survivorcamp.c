@@ -25,7 +25,6 @@ class MassiveMod_SurvivorCamp extends BuildingSuper
 	override void EEInit()
 	{
 		super.EEInit();
-		GetGame().GetCallQueue( CALL_CATEGORY_SYSTEM ).CallLater(this.ClutterCutter, 1000);
 		#ifndef SERVER
 		// object creation - create effects (light, particles, sound)
 		
@@ -72,17 +71,6 @@ class MassiveMod_SurvivorCamp extends BuildingSuper
 			m_UTSource.SetActive(true);
 		}	
 	}
-	
-	void ClutterCutter( Man player, vector position = "0 0 0", vector orientation = "0 0 0" )
-	{
-		if ( GetGame().IsServer() )
-		{
-			//remove grass
-			Object cc_object = GetGame().CreateObjectEx( OBJECT_CLUTTER_CUTTER , position, ECE_PLACE_ON_SURFACE );
-			cc_object.SetOrientation( orientation );
-			GetGame().GetCallQueue( CALL_CATEGORY_GAMEPLAY ).CallLater( GetGame().ObjectDelete, 1000, false, cc_object );
-		}
-	};
 
 	override void EEDelete(EntityAI parent)
 	{
