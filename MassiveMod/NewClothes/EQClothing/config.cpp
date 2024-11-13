@@ -496,5 +496,23 @@ class CfgVehicles
 			"MassiveMod\NewClothes\EQClothing\flag_white_co_bosh.paa",
 			"MassiveMod\NewClothes\EQClothing\flag_white_co_bosh.paa"
 		};
+	};
+	class Armband_Rok: Armband_ColorBase
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="Rok";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_rok.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_rok.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_rok.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_rok.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_rok.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_rok.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_rok.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_rok.paa",
+			"MassiveMod\NewClothes\EQClothing\flag_white_co_rok.paa"
+		};
 	};	
 };
