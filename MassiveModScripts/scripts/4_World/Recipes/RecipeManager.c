@@ -45,6 +45,9 @@ modded class PluginRecipesManager
         RegisterRecipe(new Craft762x54AmmoBox);
         RegisterRecipe(new Craft308AmmoBox);
         RegisterRecipe(new BuryBarerlStash);
-        RegisterRecipe(new DigUpBarerlStash);		
+        RegisterRecipe(new DigUpBarerlStash);
+		RegisterRecipe(new MassiveMod_ClothingScrapping);
+		RegisterRecipe(new MassiveMod_RepairClothing);
+		RegisterRecipe(new MassiveMod_SewingKit);	
 	}
 }

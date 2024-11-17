@@ -96,6 +96,7 @@ class MassiveMod_RifleScrapping extends RecipeBase
 		
 		//ingredient 2
 		InsertIngredient(1,"RifleCore");
+		InsertIngredient(1,"BoltActionRifle_Base");
 		
 		m_IngredientAddHealth[1] = -0;// 0 = do nothing
 		m_IngredientSetHealth[1] = -1; // -1 = do nothing
@@ -594,6 +595,7 @@ class MassiveMod_RepairRifle extends RecipeBase
 
         //ingredient 2
         InsertIngredient(1,"RifleCore");
+		InsertIngredient(1,"BoltActionRifle_Base");
 
         m_IngredientAddHealth[1] = -0;// 0 = do nothing
         m_IngredientSetHealth[1] = -1; // -1 = do nothing

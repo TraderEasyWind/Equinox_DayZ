@@ -107,11 +107,73 @@ class CfgVehicles
 			};
 		};
 	};
+	class MassiveMod_ADVKit_Sewing: MassiveMod_ADVKit_Base
+	{
+		scope=2;
+		model="\dz\gear\tools\sewing_kit.p3d";
+		displayName="Advanced Sewing Kit";
+		descriptionShort="Can be used to Repair Clothes from any damaged state, Even Ruined!";
+		hiddenSelections[]={"zbytek"};
+		hiddenSelectionsTextures[]={"MassiveMod\RepairKits\KitTextures\Advsewingkit_co.paa"};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=50;
+					healthLevels[]=
+					{
+						
+						{
+							1,
+							
+							{
+								"DZ\gear\tools\data\sewing_kit.rvmat"
+							}
+						},
+						
+						{
+							0.69999999,
+							
+							{
+								"DZ\gear\tools\data\sewing_kit.rvmat"
+							}
+						},
+						
+						{
+							0.5,
+							
+							{
+								"DZ\gear\tools\data\sewing_kit_damage.rvmat"
+							}
+						},
+						
+						{
+							0.30000001,
+							
+							{
+								"DZ\gear\tools\data\sewing_kit_damage.rvmat"
+							}
+						},
+						
+						{
+							0,
+							
+							{
+								"DZ\gear\tools\data\sewing_kit_destruct.rvmat"
+							}
+						}
+					};
+				};
+			};
+		};
+	};
 	class MassiveMod_ADVKit_Rifle: MassiveMod_ADVKit_Base
 	{
 		scope=2;
 		displayName="Advanced Rifle Repair-Kit";
-		descriptionShort="Can be used to Repair Rifles Weapons Completely from any damaged state, Even Ruined!";
+		descriptionShort="Can be used to Repair Weapons from any damaged state, Even Ruined!";
 		hiddenSelections[]={"zbytek"};
 		hiddenSelectionsTextures[]={"MassiveMod\RepairKits\KitTextures\Western_ADV_kit_co.paa"};
 	};
@@ -119,7 +181,7 @@ class CfgVehicles
 	{
 		scope=2;
 		displayName="Advanced Pistol Repair-Kit";
-		descriptionShort="Can be used to Repair Pistols Completely from any damaged state, Even Ruined!";
+		descriptionShort="Can be used to Repair Pistols from any damaged state, Even Ruined!";
 		hiddenSelections[]={"zbytek"};
 		hiddenSelectionsTextures[]={"MassiveMod\RepairKits\KitTextures\Pistol_ADV_Kit_co.paa"};
 	};
@@ -127,7 +189,7 @@ class CfgVehicles
 	{
 		scope=2;
 		displayName="Advanced Repair-Kit High-End";
-		descriptionShort="Can be used to Repair High-End Weapons Completely from any damaged state, Even Ruined!";
+		descriptionShort="Can be used to Repair High-End Weapons from any damaged state, Even Ruined!";
 		hiddenSelections[]={"zbytek"};
 		hiddenSelectionsTextures[]={"MassiveMod\RepairKits\KitTextures\High-End_ADV_Kit_co.paa"};
 	};

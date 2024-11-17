@@ -25,7 +25,12 @@ modded class MassM417_Base: RifleBoltLock_Base
                 AddHealth("", "",9999);
 
                 Magazine mag = SpawnAttachedMagazine("Mass_Mag_M417_20Rnd", WeaponWithAmmoFlags.MAX_CAPACITY_MAG | WeaponWithAmmoFlags.CHAMBER);
-                m_Inventory.CreateAttachment(RandomOptics.GetRandomElement());  				
+                m_Inventory.CreateAttachment(RandomOptics.GetRandomElement());
+                m_Inventory.CreateAttachment("MassM417Stock");
+				if (Math.RandomInt(1,5) == 1)
+                {
+					m_Inventory.CreateAttachment("MassM417Suppressor");	
+				};			
             }
         }
     }
