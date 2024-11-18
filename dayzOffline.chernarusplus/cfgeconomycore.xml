@@ -43,6 +43,9 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	<ce folder="CustomTypes/FlipTransport">
 		<file name="ft_types.xml" type="types" />
 	</ce>
+	<ce folder="CustomTypes/Uncuepa">
+		<file name="UnceapaTypes.xml" type="types" />
+	</ce>
 	<ce folder="CustomTypes/Sights_Mounts">
 		<file name="sights_types.xml" type="types" />
 	</ce>

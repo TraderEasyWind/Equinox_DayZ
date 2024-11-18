@@ -4,10 +4,16 @@
         <actions>
             <input name="UASchanaAutorunToggle" loc="Autorun Toggle" />
         </actions>
+		<actions>
+			<input name="UAVirtualCompassHold" loc="VIRTUALCOMPASS_HOLD_KEYBIND"/>
+		</actions>
     </inputs>
     <preset>
         <input name="UASchanaAutorunToggle">
             <btn name="kAdd" />
         </input>
+		<input name="UAVirtualCompassHold">
+			<btn name="kk"/>
+		</input>
     </preset>
 </modded_inputs>
