@@ -651,6 +651,7 @@
 		<cargo chance="0.10"> <item name="PeachesCan" /> </cargo>
 		<cargo chance="0.5"> <item name="HuntingKnife" /> </cargo>
 		<cargo chance="0.5"> <item name="Whetstone" /> </cargo>
+		<cargo chance="0.07"> <item name="ExpansionSatchel" /> </cargo>
         <cargo chance="0.30">
 			<item name="MassMRE4" chance="0.33" />
 			<item name="MassMRE9" chance="0.33" />
@@ -761,6 +762,7 @@
 		<cargo chance="0.10"> <item name="PeachesCan" /> </cargo>
 		<cargo chance="0.5"> <item name="HuntingKnife" /> </cargo>
 		<cargo chance="0.5"> <item name="Whetstone" /> </cargo>
+		<cargo chance="0.07"> <item name="ExpansionSatchel" /> </cargo>
         <cargo chance="0.30">
 			<item name="MassMRE4" chance="0.33" />
 			<item name="MassMRE9" chance="0.33" />

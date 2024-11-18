@@ -38,6 +38,8 @@ class CfgVehicles
 	class Rag;
 	class MassiveMod_Nylon_Rag: Rag
 	{
+		displayName="Military Textiles";
+		descriptionShort="Used on Sewing kits to create advanced sewing kits, which can be used to repair clothes that are even ruined.";
 		varQuantityInit = 12.0;
 		varQuantityMin = 0.0;
 		varQuantityMax = 12.0;
@@ -93,7 +95,6 @@ class CfgVehicles
 		weightPerQuantityUnit=0;
 		itemSize[]={2,3};
 		fragility=0.0099999998;
-		repairKitType=1;
 		soundImpactType="wood";
 		class DamageSystem
 		{
@@ -115,6 +116,7 @@ class CfgVehicles
 		descriptionShort="Can be used to Repair Clothes from any damaged state, Even Ruined!";
 		hiddenSelections[]={"zbytek"};
 		hiddenSelectionsTextures[]={"MassiveMod\RepairKits\KitTextures\Advsewingkit_co.paa"};
+		repairKitType=2;
 		class DamageSystem
 		{
 			class GlobalHealth
@@ -162,6 +164,69 @@ class CfgVehicles
 							
 							{
 								"DZ\gear\tools\data\sewing_kit_destruct.rvmat"
+							}
+						}
+					};
+				};
+			};
+		};
+	};
+	class MassiveMod_ADVKit_LeatherSewing: MassiveMod_ADVKit_Base
+	{
+		scope=2;
+		model="\dz\gear\tools\leather_sewing_kit.p3d";
+		displayName="Advanced Leather Sewing Kit";
+		descriptionShort="Can be used to Repair Clothes from any damaged state, Even Ruined!";
+		hiddenSelections[]={"zbytek"};
+		hiddenSelectionsTextures[]={"MassiveMod\RepairKits\KitTextures\leather_sewing_kit_Adv_co.paa"};
+        repairKitType=3;
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=100;
+					healthLevels[]=
+					{
+						
+						{
+							1,
+							
+							{
+								"DZ\gear\tools\data\leather_sewing_kit.rvmat"
+							}
+						},
+						
+						{
+							0.69999999,
+							
+							{
+								"DZ\gear\tools\data\leather_sewing_kit.rvmat"
+							}
+						},
+						
+						{
+							0.5,
+							
+							{
+								"DZ\gear\tools\data\leather_sewing_kit_damage.rvmat"
+							}
+						},
+						
+						{
+							0.30000001,
+							
+							{
+								"DZ\gear\tools\data\leather_sewing_kit_damage.rvmat"
+							}
+						},
+						
+						{
+							0,
+							
+							{
+								"DZ\gear\tools\data\leather_sewing_kit_destruct.rvmat"
 							}
 						}
 					};

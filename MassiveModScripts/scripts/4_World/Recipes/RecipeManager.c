@@ -48,6 +48,7 @@ modded class PluginRecipesManager
         RegisterRecipe(new DigUpBarerlStash);
 		RegisterRecipe(new MassiveMod_ClothingScrapping);
 		RegisterRecipe(new MassiveMod_RepairClothing);
-		RegisterRecipe(new MassiveMod_SewingKit);	
+		RegisterRecipe(new MassiveMod_SewingKit);
+        RegisterRecipe(new MassiveMod_LeatherSewingKit);		
 	}
 }
