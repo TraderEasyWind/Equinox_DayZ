@@ -480,11 +480,12 @@
 		</group>
 		<group name="Land_HouseBlock_1F_Corner" lootmax="15">
 				<usage name="Town" />
+				<usage name="Store" />
+				<usage name="Tenement"/>
 				<container name="lootFloor">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
-						<usage name="Store" />
 						<tag name="floor" />
 						<point pos="1.912137 -5.772652 -0.567444" range="0.558594" height="1.396484" />
 						<point pos="0.563250 -5.772652 -2.778766" range="0.624023" height="1.560057" />
@@ -507,8 +508,6 @@
 						<category name="clothes" />
 						<category name="food" />
 						<category name="books" />
-						<usage name="Tenement"/>
-						<usage name="Store" />
 						<tag name="shelves" />
 						<point pos="2.103464 -4.998650 0.934805" range="0.100000" height="0.250000" />
 						<point pos="7.460555 -5.300398 -2.295069" range="0.134375" height="0.335938" />

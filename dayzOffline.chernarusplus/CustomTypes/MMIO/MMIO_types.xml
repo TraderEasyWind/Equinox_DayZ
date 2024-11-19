@@ -883,7 +883,7 @@
         <category name="clothes"/>
         <usage name="Military"/>
     </type>
-	<type name="kivaarimag">
+	<type name="Mass_Mag_Kivaari_10Rnd">
         <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>21600</restock>
@@ -953,7 +953,7 @@
         <usage name="Town"/>
         <usage name="Village"/>
     </type>
-	<type name="Massm300mag">
+	<type name="Mass_Mag_M300_7Rnd">
         <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>21600</restock>
@@ -1751,7 +1751,7 @@
         <lifetime>21600</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
     </type>
-	<type name="MassSVTmag">
+	<type name="Mass_Mag_SVT_10Rnd">
         <nominal>10</nominal>
         <lifetime>7200</lifetime>
         <restock>14400</restock>
@@ -1991,7 +1991,7 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-	<type name="Mass9x39Palm">
+	<type name="Mass_Mag_9x39Palm_30Rnd">
         <nominal>4</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>

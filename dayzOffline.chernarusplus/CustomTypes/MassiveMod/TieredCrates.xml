@@ -105,7 +105,7 @@
 		<usage name="Military"/>
     </type>
 	<type name="MassiveMod_CrateTier4">
-       <nominal>5</nominal>
+       <nominal>3</nominal>
         <lifetime>604800</lifetime>
         <restock>0</restock>
         <min>3</min>
@@ -117,7 +117,7 @@
 		<tag name="floor"/>
     </type>
 	<type name="MassiveMod_CrateTier4_2">
-       <nominal>3</nominal>
+       <nominal>5</nominal>
         <lifetime>604800</lifetime>
         <restock>0</restock>
         <min>2</min>
