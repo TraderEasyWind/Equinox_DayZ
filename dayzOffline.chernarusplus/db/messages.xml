@@ -20,7 +20,7 @@
   
   <message>
     <repeat>30</repeat>
-    <text>#name restarts every 4 hours!</text>
+    <text>#name restarts every 6 hours!</text>
   </message>
  
   <message>
@@ -28,11 +28,6 @@
     <text>Tell your friends about #name, have them join!</text>
   </message>
  
-    <message>
-        <deadline>360</deadline>
-        <shutdown>1</shutdown>
-        <text>#name will shutdown in #tmin minutes.</text>
-    </message>
 </messages>
 <!--
 See https://community.bistudio.com/wiki/DayZ:Server_Messages for more information
