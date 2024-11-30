@@ -512,7 +512,7 @@
     <type name="AliceBag_Black">
         <nominal>3</nominal>
         <lifetime>28800</lifetime>
-        <restock>3600</restock>
+        <restock>86400</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -524,7 +524,7 @@
     <type name="AliceBag_Camo">
         <nominal>3</nominal>
         <lifetime>28800</lifetime>
-        <restock>3600</restock>
+        <restock>86400</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -536,7 +536,7 @@
     <type name="AliceBag_Green">
         <nominal>3</nominal>
         <lifetime>28800</lifetime>
-        <restock>3600</restock>
+        <restock>86400</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -3303,7 +3303,7 @@
     <type name="BearTrap">
         <nominal>10</nominal>
         <lifetime>604800</lifetime>
-        <restock>600</restock>
+        <restock>43200</restock>
         <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -10022,7 +10022,7 @@
     <type name="HuntingBag_Hannah">
         <nominal>1</nominal>
         <lifetime>2600</lifetime>
-        <restock>600</restock>
+        <restock>172800</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -12037,8 +12037,8 @@
     <type name="M79">
         <nominal>1</nominal>
         <lifetime>14400</lifetime>
-        <restock>21600</restock>
-        <min>0</min>
+        <restock>172800</restock>
+        <min>1</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -13171,7 +13171,7 @@
     <type name="MediumTent_Green">
         <nominal>8</nominal>
         <lifetime>3888000</lifetime>
-        <restock>43200</restock>
+        <restock>172800</restock>
         <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -13184,7 +13184,7 @@
     <type name="MediumTent_Orange">
         <nominal>8</nominal>
         <lifetime>3888000</lifetime>
-        <restock>43200</restock>
+        <restock>172800</restock>
         <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -14711,7 +14711,7 @@
     <type name="PartyTent">
         <nominal>10</nominal>
         <lifetime>3888000</lifetime>
-        <restock>43200</restock>
+        <restock>172800</restock>
         <min>6</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -14723,7 +14723,7 @@
     <type name="PartyTent_Blue">
         <nominal>10</nominal>
         <lifetime>3888000</lifetime>
-        <restock>43200</restock>
+        <restock>172800</restock>
         <min>6</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -14735,7 +14735,7 @@
     <type name="PartyTent_Brown">
         <nominal>10</nominal>
         <lifetime>3888000</lifetime>
-        <restock>43200</restock>
+        <restock>172800</restock>
         <min>6</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -14747,7 +14747,7 @@
     <type name="PartyTent_Lunapark">
         <nominal>10</nominal>
         <lifetime>3888000</lifetime>
-        <restock>43200</restock>
+        <restock>172800</restock>
         <min>6</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -15318,7 +15318,7 @@
     <type name="PlateCarrierVest">
         <nominal>1</nominal>
         <lifetime>14400</lifetime>
-        <restock>7200</restock>
+        <restock>86400</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -15333,7 +15333,7 @@
     <type name="PlateCarrierVest_Black">
         <nominal>1</nominal>
         <lifetime>14400</lifetime>
-        <restock>7200</restock>
+        <restock>86400</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -15348,7 +15348,7 @@
     <type name="PlateCarrierVest_Camo">
         <nominal>2</nominal>
         <lifetime>14400</lifetime>
-        <restock>7200</restock>
+        <restock>86400</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -15363,7 +15363,7 @@
     <type name="PlateCarrierVest_Green">
         <nominal>1</nominal>
         <lifetime>14400</lifetime>
-        <restock>7200</restock>
+        <restock>86400</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>

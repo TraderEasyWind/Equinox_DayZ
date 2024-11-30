@@ -61,19 +61,6 @@ class cfgVehicles
 			};
 		};
 	};
-	class ImprovisedSuppressor: ItemSuppressor
-	{
-		class DamageSystem
-		{
-			class GlobalHealth
-			{
-				class Health
-				{
-					hitpoints = 6;
-				};
-			};
-		};
-	};
 	class M4_Suppressor_Admin: M4_Suppressor
 	{
 		displayName = "Admin M4 Suppressor";
@@ -109,22 +96,6 @@ class cfgVehicles
 	class PistolSuppressor_Admin: PistolSuppressor
 	{
 		displayName = "Admin Pistol Suppressor";
-		descriptionShort = "Suppressor for Admins with much longer life";
-		noiseShootModifier = -6.9;
-		class DamageSystem
-		{
-			class GlobalHealth
-			{
-				class Health
-				{
-					hitpoints = 5000;
-				};
-			};
-		};
-	};
-	class ImprovisedSuppressor_Admin: ImprovisedSuppressor
-	{
-		displayName = "Admin Improvised Suppressor";
 		descriptionShort = "Suppressor for Admins with much longer life";
 		noiseShootModifier = -6.9;
 		class DamageSystem

@@ -763,7 +763,7 @@
 	<type name="MassScout556">
         <nominal>15</nominal>
         <lifetime>10800</lifetime>
-        <restock>1800</restock>
+        <restock>43200</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -1630,7 +1630,7 @@
 	<type name="MassSuppressor308">
         <nominal>3</nominal>
         <lifetime>7200</lifetime>
-        <restock>14400</restock>
+        <restock>43200</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -1994,7 +1994,7 @@
 	<type name="Mass_Mag_9x39Palm_30Rnd">
         <nominal>4</nominal>
         <lifetime>10800</lifetime>
-        <restock>1800</restock>
+        <restock>43200</restock>
         <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -2008,7 +2008,7 @@
 	<type name="MassRuckBagDesert">
         <nominal>2</nominal>
         <lifetime>21600</lifetime>
-        <restock>1800</restock>
+        <restock>43200</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -2380,7 +2380,7 @@
 	<type name="MassLargeSmersh">
         <nominal>1</nominal>
         <lifetime>21600</lifetime>
-        <restock>0</restock>
+        <restock>43200</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -2392,7 +2392,7 @@
 	<type name="MassLargeSmersh_Black">
         <nominal>1</nominal>
         <lifetime>21600</lifetime>
-        <restock>0</restock>
+        <restock>43200</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -2404,7 +2404,7 @@
 	<type name="MassLargeSmersh_Tan">
         <nominal>1</nominal>
         <lifetime>21600</lifetime>
-        <restock>0</restock>
+        <restock>43200</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -2804,7 +2804,7 @@
 	<type name="MassMuzzle762">
         <nominal>5</nominal>
         <lifetime>7200</lifetime>
-        <restock>14400</restock>
+        <restock>43200</restock>
         <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -2816,7 +2816,7 @@
 	<type name="MassMuzzle556">
         <nominal>5</nominal>
         <lifetime>7200</lifetime>
-        <restock>14400</restock>
+        <restock>43200</restock>
         <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -2832,7 +2832,7 @@
 	<type name="MassMuzzle338">
         <nominal>2</nominal>
         <lifetime>7200</lifetime>
-        <restock>14400</restock>
+        <restock>43200</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -2875,7 +2875,7 @@
 	<type name="MassM16">
         <nominal>5</nominal>
         <lifetime>10800</lifetime>
-        <restock>1800</restock>
+        <restock>43200</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -3602,7 +3602,7 @@
 	<type name="MassAR15DMR">
         <nominal>0</nominal>
         <lifetime>10800</lifetime>
-        <restock>1800</restock>
+        <restock>43200</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -3616,7 +3616,7 @@
 	<type name="MassAR15DMR_Desert">
         <nominal>0</nominal>
         <lifetime>10800</lifetime>
-        <restock>1800</restock>
+        <restock>43200</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>

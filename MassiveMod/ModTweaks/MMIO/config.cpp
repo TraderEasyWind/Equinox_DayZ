@@ -17,6 +17,7 @@ class cfgVehicles
 {
     class Clothing;
 	class GorkaHelmet;
+	class Container_Base;
     class MassRatnik: Clothing
 	{
 		repairableWithKits[]={8};
@@ -33,6 +34,11 @@ class cfgVehicles
 		repairCosts[]={50};
 	};
 	class MassMolleBelt: Clothing
+	{
+		repairableWithKits[]={5,2};
+		repairCosts[]={30,25};
+	};
+	class MassLargeSmersh: Container_Base
 	{
 		repairableWithKits[]={5,2};
 		repairCosts[]={30,25};

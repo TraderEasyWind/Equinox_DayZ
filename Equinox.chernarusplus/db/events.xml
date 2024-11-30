@@ -905,7 +905,7 @@
         <children/>
     </event>
     <event name="TrajectoryApple">
-        <nominal>70</nominal>
+        <nominal>140</nominal>
         <min>2</min>
         <max>4</max>
         <lifetime>180</lifetime>
@@ -992,7 +992,7 @@
         </children>
     </event>
     <event name="TrajectoryPear">
-        <nominal>70</nominal>
+        <nominal>140</nominal>
         <min>2</min>
         <max>4</max>
         <lifetime>180</lifetime>
@@ -1009,7 +1009,7 @@
         </children>
     </event>
     <event name="TrajectoryPlum">
-        <nominal>70</nominal>
+        <nominal>140</nominal>
         <min>2</min>
         <max>4</max>
         <lifetime>180</lifetime>

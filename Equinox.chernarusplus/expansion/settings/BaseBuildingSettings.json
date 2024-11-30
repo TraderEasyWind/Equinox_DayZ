@@ -57,7 +57,7 @@
     "CodelockAttachMode": 1,
     "DismantleFlagMode": 1,
     "FlagMenuMode": 1,
-    "EnableVirtualStorage": 0,
+    "EnableVirtualStorage": 1,
     "VirtualStorageExcludedContainers": [
         "ExpansionAirdropContainerBase"
     ]
