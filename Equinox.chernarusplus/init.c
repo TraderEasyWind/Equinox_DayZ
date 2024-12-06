@@ -48,6 +48,8 @@ class CustomMission: MissionServer
 		Class.CastTo( m_player, playerEnt );
 
 		GetGame().SelectPlayer( identity, m_player );
+		m_player.GetStatWater().Add(1400);
+        m_player.GetStatEnergy().Add(1500);
 
 		return m_player;
 	}
