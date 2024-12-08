@@ -10,7 +10,7 @@
     "PlayerData":
 	{
 		"disablePersonalLight": false,
-		"spawnGearPresetFiles": ["customload/olivecap.json", "customload/blackcap.json", "customload/beigecap.json", "customload/pinkcap.json", "customload/bluecap.json"],
+		"spawnGearPresetFiles": ["customload/olivebeanie.json", "customload/blackbeanie.json", "customload/beigebeanie.json", "customload/pinkbeanie.json", "customload/bluebeanie.json"],
 		"StaminaData":
 		{
 			"sprintStaminaModifierErc": 0.9,
