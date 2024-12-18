@@ -392,11 +392,10 @@ class MassiveModCrate_Base: Container_Base
     override void AfterStoreLoad()
     {
         super.AfterStoreLoad();
-
+        SetPristineHealthForItems();
         if (m_IsOpen)
         { 
             GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(DelayedDestroy, 600000, false);
-			SetPristineHealthForItems();
 
             Print("CrateDestroyTimerAfterLoad " + GetType() + " at " + GetPosition());
         }
