@@ -40,6 +40,9 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	<ce folder="CustomTypes/CustomLootTables">
 		<file name="CustomLoot.xml" type="randompresets" />
 	</ce>
+	<ce folder="CustomTypes/RA Basebuilding">
+		<file name="rag_basebuilding.xml" type="types" />
+	</ce>
 	<ce folder="CustomTypes/FlipTransport">
 		<file name="ft_types.xml" type="types" />
 	</ce>
