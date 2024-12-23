@@ -514,5 +514,41 @@ class CfgVehicles
 			"MassiveMod\NewClothes\EQClothing\flag_white_co_rok.paa",
 			"MassiveMod\NewClothes\EQClothing\flag_white_co_rok.paa"
 		};
-	};	
+	};
+	class Armband_End: Armband_ColorBase
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="end";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\Suparre_flag_white_co.paa",
+			"MassiveMod\NewClothes\EQClothing\Suparre_flag_white_co.paa",
+			"MassiveMod\NewClothes\EQClothing\Suparre_flag_white_co.paa",
+			"MassiveMod\NewClothes\EQClothing\Suparre_flag_white_co.paa",
+			"MassiveMod\NewClothes\EQClothing\Suparre_flag_white_co.paa",
+			"MassiveMod\NewClothes\EQClothing\Suparre_flag_white_co.paa",
+			"MassiveMod\NewClothes\EQClothing\Suparre_flag_white_co.paa",
+			"MassiveMod\NewClothes\EQClothing\Suparre_flag_white_co.paa",
+			"MassiveMod\NewClothes\EQClothing\Suparre_flag_white_co.paa"
+		};
+	};
+	class Armband_impnewB: Armband_ColorBase
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="newimpB";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\impnewb_flag_white_co.paa",
+			"MassiveMod\NewClothes\EQClothing\impnewb_flag_white_co.paa",
+			"MassiveMod\NewClothes\EQClothing\impnewb_flag_white_co.paa",
+			"MassiveMod\NewClothes\EQClothing\impnewb_flag_white_co.paa",
+			"MassiveMod\NewClothes\EQClothing\impnewb_flag_white_co.paa",
+			"MassiveMod\NewClothes\EQClothing\impnewb_flag_white_co.paa",
+			"MassiveMod\NewClothes\EQClothing\impnewb_flag_white_co.paa",
+			"MassiveMod\NewClothes\EQClothing\impnewb_flag_white_co.paa",
+			"MassiveMod\NewClothes\EQClothing\impnewb_flag_white_co.paa"
+		};
+	};
 };
