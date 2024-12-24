@@ -27,13 +27,13 @@ class CfgMagazines
 	class Magazine_Base;
 	class MassiveMod_AmmoBoxBase: Magazine_Base
 	{
-		scope=2;
+		scope=0;
 		model="\dz\gear\containers\300RoundBox.p3d";
 		weight=400;
 		itemSize[]={4,3};
 		canBeDigged=1;
-		repairableWithKits[]={8};
-		repairCosts[]={25};
+		repairableWithKits[]={3,8};
+		repairCosts[]={25,25};
 		class DamageSystem
 		{
 			class GlobalHealth
