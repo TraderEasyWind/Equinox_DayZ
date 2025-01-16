@@ -11,8 +11,7 @@ modded class Mosin9130
                 // Define an array of possible objects to spawn
                 TStringArray possibleObjects = 
                 {
-                    "MassSVT40",
-                    "M14"
+                    "MassSVT40"
                 };
 
                 // Randomly pick an object from the array
@@ -35,11 +34,6 @@ modded class Mosin9130
                 {
                     MassSVT40 svt40Entity = MassSVT40.Cast(entity); // Cast to MassSVT40
                     svt40Entity.SpawnAttachmentsOnUpgrade(); // Call SVT40's method
-                }
-                else if (entity.IsInherited(M14))
-                {
-                    M14 dmrEntity = M14.Cast(entity); // Cast to M14
-                    dmrEntity.SpawnAttachmentsOnUpgrade(); // Call M14's method
                 }
 				// Delete the original Mosin
 				Delete();
