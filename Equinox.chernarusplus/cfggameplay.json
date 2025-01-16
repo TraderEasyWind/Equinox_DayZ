@@ -60,23 +60,23 @@
 	{
 		"HologramData":
 		{
-			"disableIsCollidingBBoxCheck": true,
-			"disableIsCollidingPlayerCheck": true,
-			"disableIsClippingRoofCheck": true,
-			"disableIsBaseViableCheck": true,
-			"disableIsCollidingGPlotCheck": false,
-			"disableIsCollidingAngleCheck": true,
-			"disableIsPlacementPermittedCheck": false,
-			"disableHeightPlacementCheck": true,
-			"disableIsUnderwaterCheck": false,
-			"disableIsInTerrainCheck": true,
+			"disableIsCollidingBBoxCheck": 1,
+			"disableIsCollidingPlayerCheck": 1,
+			"disableIsClippingRoofCheck": 1,
+			"disableIsBaseViableCheck": 1,
+			"disableIsCollidingGPlotCheck": 1,
+			"disableIsCollidingAngleCheck": 1,
+			"disableIsPlacementPermittedCheck": 1,
+			"disableHeightPlacementCheck": 1,
+			"disableIsUnderwaterCheck": 1,
+			"disableIsInTerrainCheck": 1,
 			"disallowedTypesInUnderground": ["FenceKit","TerritoryFlagKit","WatchtowerKit"]
 		},
 		"ConstructionData":
 		{
-			"disablePerformRoofCheck": true,
-			"disableIsCollidingCheck": true,
-			"disableDistanceCheck": true
+			"disablePerformRoofCheck": 1,
+			"disableIsCollidingCheck": 1,
+			"disableDistanceCheck": 1
 		}
 	},
 	"UIData":

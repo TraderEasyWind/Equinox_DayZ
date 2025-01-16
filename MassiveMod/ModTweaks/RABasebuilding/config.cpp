@@ -12,61 +12,78 @@ class CfgPatches
 			"Rearmed_BaseBuilding",
 			"BaseBuilding_Wall",
 			"BaseBuilding_Floor",
-			"BaseBuilding_Foundation"
+			"BaseBuilding_Foundation",
+			"RearmedServer_Gear_Territory",
+			"BaseBuilding_DoorWall",
+			"BaseBuilding_Windows"
         };
+	};
+};
+class CfgNonAIVehicles
+{
+	class ProxyAttachment;
+	class ProxyCodeLock: ProxyAttachment
+	{
+		scope = 2;
+		inventorySlot[] = {"CodeLock"};
+		model = "RearmedScripts\CodeLock\CodeLock.p3d";
 	};
 };
 class CfgVehicles
 {
 	class BaseBuilding;
-	class BaseBuilding_FoundationBase;
-	class BaseBuilding_FrameFoundation: BaseBuilding_FoundationBase
+	class BaseBuilding_EmbrasureBase: BaseBuilding
 	{
-		class UpgradeSystem
-		{
-			class Hologram{};
-			class Frame
-			{
-				class Construct
-				{
-					item = "WoodenLog";
-					quantity = 4;
-				};
-				class Repair
-				{
-					item = "WoodenLog";
-					quantity = 2;
-				};
-			};
-		};
+		placementMode = 3;
 	};
-	class BaseBuilding_FloorBase: BaseBuilding
+	class BaseBuilding_ShutterBase: BaseBuilding
 	{
-		class UpgradeSystem
+		placementMode = 3;
+	};
+	class BaseBuilding_SingleDoorBase: BaseBuilding
+	{
+		placementMode = 3;	
+	};
+	class BaseBuilding_HologramSingleDoor: BaseBuilding_SingleDoorBase
+	{
+		//upgradeType = "BaseBuilding_WoodFrameSingleDoor";
+	};
+	class BaseBuilding_WoodSingleDoor;
+	class BaseBuilding_WoodFrameSingleDoor: BaseBuilding_WoodSingleDoor
+	{
+		//hiddenSelections[] = {"planks","camo"};
+		//model = "MassiveMod\ModTweaks\RABasebuilding\Data\TwigSingleDoor.p3d";
+		//upgradeType = "BaseBuilding_WoodSingleDoor";
+		//materialLevel = 1;
+	};
+	class Container_Base;
+	class TerritoryHQ: Container_Base
+	{
+		model = "MassiveMod\Buildings\ToolCupboard.p3d";
+		attachments[] -= {"TerritoryHQ_L1_Upgrade","TerritoryHQ_L2_Upgrade","TerritoryHQ_L3_Upgrade","TerritoryHQ_L4_Upgrade"};
+		itemsCargoSize[] = {10,5};
+		class GUIInventoryAttachmentsProps
 		{
-			class Hologram{};
-			class Frame
+			class Base
 			{
-				class Construct
-				{
-					item = "WoodenLog";
-					quantity = 2;
-				};
-				class Repair
-				{
-					item = "WoodenLog";
-					quantity = 1;
-				};
+				name = "";
+				description = "";
+				attachmentSlots[] = {"CodeLock"};
+				icon = "cat_bb_base";
+			};
+			class Upkeep_1
+			{
+				name = "Upkeep";
+				description = "Base will decay without Nails";
+				attachmentSlots[] = {"HQ_Nails"};
+				icon = "nails";
 			};
 		};
 	};
 	class BaseBuilding_WallBase;
 	class BaseBuilding_MetalWall: BaseBuilding_WallBase
 	{
-		hiddenSelectionsTextures[]=
-		{
-			"dz\gear\consumables\data\pile_of_planks_co.paa",
-			"MassiveMod\ModTweaks\RABasebuilding\Data\Metal_Wall_co.paa"
-		};
+		hiddenSelections[] = {"wood","metal"};
+		hiddenSelectionsTextures[] = {"dz\gear\consumables\data\pile_of_planks_co.paa","MassiveMod\ModTweaks\RABasebuilding\Data\Metal_Wall_co.paa"};
 	};
 };

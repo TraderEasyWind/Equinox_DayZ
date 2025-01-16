@@ -42,7 +42,7 @@ modded class BaseBuilding_WoodShutters
     }
 }
 class BaseBuilding_MetalEmbrasure: BaseBuilding_EmbrasureBase
-{
+{	
 	override float GetCostToUpkeep()
     {
         return 1.4;

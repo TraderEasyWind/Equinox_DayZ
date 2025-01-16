@@ -29,4 +29,17 @@ modded class M14_Base : RifleBoltLock_Base
             }
         }
     }
+	
+	void SpawnAttachmentsOnUpgrade()
+    {
+        GameInventory m_Inventory = GetInventory();
+        if (GetGame() &&  (GetGame().IsServer() || !GetGame().IsMultiplayer() ))
+        {
+            AddHealth("", "",9999);
+
+            Magazine mag = SpawnAttachedMagazine("Mag_M14_20Rnd", WeaponWithAmmoFlags.MAX_CAPACITY_MAG | WeaponWithAmmoFlags.CHAMBER);
+            m_Inventory.CreateAttachment(RandomOptics.GetRandomElement());        
+        }
+    }
 }
+class M14 : M14_Base{}; //Why did the devs not do this themselves....

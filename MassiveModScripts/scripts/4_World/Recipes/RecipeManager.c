@@ -2,6 +2,7 @@ modded class PluginRecipesManager
 {
 	override void RegisterRecipies()
 	{	super.RegisterRecipies();
+		RegisterRecipe(new CraftBaseHQ);
         RegisterRecipe(new MassiveMod_PistolScrapping);
         RegisterRecipe(new MassiveMod_RifleScrapping);
         RegisterRecipe(new MassiveMod_HighEndScrapping);

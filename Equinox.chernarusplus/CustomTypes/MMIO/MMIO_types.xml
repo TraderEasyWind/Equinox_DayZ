@@ -1657,6 +1657,7 @@
 		<value name="Tier3"/>
         <value name="Tier4"/>
     </type>
+	<!--
 	<type name="MassSVT40">
         <nominal>10</nominal>
         <lifetime>7200</lifetime>
@@ -1676,6 +1677,7 @@
 		<value name="Tier3"/>
         <value name="Tier4"/>
     </type>
+	-->
 	<type name="MassPPSH41">
         <nominal>7</nominal>
         <lifetime>7200</lifetime>

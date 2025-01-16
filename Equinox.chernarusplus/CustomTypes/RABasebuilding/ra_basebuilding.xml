@@ -3,6 +3,14 @@
 		<lifetime>14400</lifetime>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 	</type>
+	<type name="RA_Improvised_C4">
+		<lifetime>14400</lifetime>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+	</type>
+	<type name="RA_C4">
+		<lifetime>14400</lifetime>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+	</type>
 	<type name="TerritoryHQ">
 		<lifetime>3628800</lifetime>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />

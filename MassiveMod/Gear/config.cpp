@@ -10,6 +10,7 @@ class CfgPatches
 };
 class CfgVehicles
 {
+	//test
 	class Inventory_Base;
     class Battery9V: Inventory_Base
 	{

@@ -37,9 +37,9 @@
 		"ZenNote"
     ],
     "CanCraftVanillaBasebuilding": 0,
-    "CanCraftExpansionBasebuilding": 1,
+    "CanCraftExpansionBasebuilding": 0,
     "DestroyFlagOnDismantle": 1,
-    "DismantleOutsideTerritory": 1,
+    "DismantleOutsideTerritory": 0,
     "DismantleInsideTerritory": 0,
     "DismantleAnywhere": 0,
     "CodelockActionsAnywhere": 0,
@@ -56,9 +56,12 @@
     "ZonesAreNoBuildZones": 1,
     "CodelockAttachMode": 1,
     "DismantleFlagMode": 1,
-    "FlagMenuMode": 1,
+    "FlagMenuMode": 0,
     "EnableVirtualStorage": 1,
-    "VirtualStorageExcludedContainers": [
-        "ExpansionAirdropContainerBase"
+    "VirtualStorageExcludedContainers": 
+	[
+        "ExpansionAirdropContainerBase",
+		"MassiveModCrate_Base",
+		"TerritoryHQ"
     ]
 }

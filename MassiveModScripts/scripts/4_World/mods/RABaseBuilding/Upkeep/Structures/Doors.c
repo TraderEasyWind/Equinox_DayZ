@@ -59,35 +59,35 @@ modded class BaseBuilding_WoodSingleDoor
 {
 	override float GetCostToUpkeep()
     {
-        return 0.35;
+        return 0.70;
     }
 }
 modded class BaseBuilding_MetalSingleDoor
 {
 	override float GetCostToUpkeep()
     {
-        return 0.70;
+        return 1.4;
     }
 }
 modded class BaseBuilding_VaultSingleDoor
 {
 	override float GetCostToUpkeep()
     {
-        return 1.4;
+        return 2.8;
     }
 }
 modded class BaseBuilding_WoodGarageDoor
 {
 	override float GetCostToUpkeep()
     {
-        return 0.70;
+        return 1.4;
     }
 }
 modded class BaseBuilding_MetalGarageDoor
 {
 	override float GetCostToUpkeep()
     {
-        return 1.4;
+        return 2.8;
     }
 }
 #endif
