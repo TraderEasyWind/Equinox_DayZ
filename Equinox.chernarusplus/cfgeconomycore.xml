@@ -94,4 +94,7 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="TieredCachesCFG.xml" type="spawnabletypes" />
 		<file name="DatsunCfgSpawnabletypes.xml" type="spawnabletypes" />
 	</ce>
+	</ce folder="CustomTypes/DynamicHelis">
+		<file name="adh_types.xml" type="types" />
+	</ce>	
 </economycore>
