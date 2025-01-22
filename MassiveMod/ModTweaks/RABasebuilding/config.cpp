@@ -19,16 +19,6 @@ class CfgPatches
         };
 	};
 };
-class CfgNonAIVehicles
-{
-	class ProxyAttachment;
-	class ProxyCodeLock: ProxyAttachment
-	{
-		scope = 2;
-		inventorySlot[] = {"CodeLock"};
-		model = "RearmedScripts\CodeLock\CodeLock.p3d";
-	};
-};
 class CfgVehicles
 {
 	class BaseBuilding;
@@ -60,15 +50,25 @@ class CfgVehicles
 	class TerritoryHQ: Container_Base
 	{
 		model = "MassiveMod\Buildings\ToolCupboard.p3d";
-		attachments[] -= {"TerritoryHQ_L1_Upgrade","TerritoryHQ_L2_Upgrade","TerritoryHQ_L3_Upgrade","TerritoryHQ_L4_Upgrade"};
+		attachments[] = {"TerritoryHQ_L1_Upgrade","TerritoryHQ_L2_Upgrade","TerritoryHQ_L3_Upgrade","TerritoryHQ_L4_Upgrade"};
 		itemsCargoSize[] = {10,5};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=999999;
+				};
+			};
+		};
 		class GUIInventoryAttachmentsProps
 		{
 			class Base
 			{
 				name = "";
 				description = "";
-				attachmentSlots[] = {"CodeLock"};
+				attachmentSlots[] -= {"CodeLock"};
 				icon = "cat_bb_base";
 			};
 			class Upkeep_1

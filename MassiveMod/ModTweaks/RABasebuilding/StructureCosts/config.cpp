@@ -163,6 +163,7 @@ class CfgVehicles
 	};
 	class BaseBuilding_FloorBase: BaseBuilding
 	{
+		placementMode = 3;
 		class UpgradeSystem
 		{
 			class Hologram{};
@@ -1410,6 +1411,7 @@ class CfgVehicles
 	//Floors
 	class BaseBuilding_TriangleFloorBase: BaseBuilding
 	{
+		placementMode = 3;
 		class UpgradeSystem
 		{
 			class Hologram{};
