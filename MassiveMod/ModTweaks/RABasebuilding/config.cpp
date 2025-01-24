@@ -50,7 +50,7 @@ class CfgVehicles
 	class TerritoryHQ: Container_Base
 	{
 		model = "MassiveMod\Buildings\ToolCupboard.p3d";
-		attachments[] = {"TerritoryHQ_L1_Upgrade","TerritoryHQ_L2_Upgrade","TerritoryHQ_L3_Upgrade","TerritoryHQ_L4_Upgrade"};
+		attachments[] = {"HQ_Nails","TerritoryHQ_L1_Upgrade","TerritoryHQ_L2_Upgrade","TerritoryHQ_L3_Upgrade","TerritoryHQ_L4_Upgrade"};
 		itemsCargoSize[] = {10,5};
 		class DamageSystem
 		{
@@ -79,11 +79,5 @@ class CfgVehicles
 				icon = "nails";
 			};
 		};
-	};
-	class BaseBuilding_WallBase;
-	class BaseBuilding_MetalWall: BaseBuilding_WallBase
-	{
-		hiddenSelections[] = {"wood","metal"};
-		hiddenSelectionsTextures[] = {"dz\gear\consumables\data\pile_of_planks_co.paa","MassiveMod\ModTweaks\RABasebuilding\Data\Metal_Wall_co.paa"};
 	};
 };

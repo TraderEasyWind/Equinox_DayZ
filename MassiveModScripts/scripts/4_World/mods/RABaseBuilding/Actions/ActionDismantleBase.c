@@ -27,23 +27,19 @@ modded class ActionDismantleBase: ActionContinuousBase
 			return false;
 		}
 	
-		// Check permissions: Player must own the territory
-		if (!TerritoryHQ.HasPermissionsAtPosition(player, base_building.GetPosition())) 
-		{
-			return false;
-		}
+		// Remove the permissions check to allow dismantling in enemy territories
 	
 		// Check if the player is behind the item
 		if ((!IsPlayerBehindItem(player, base_building) || player.IsLeaning()) && base_building.MM_IsWall())
 		{
 			return false;
 		}
-
 	
 		// Set the interaction text
 		m_Text = string.Format("#STR_RA_REMOVE %1", base_building.GetDisplayName());
 		return true;
 	}
+
 	#endif
 	
 	private bool IsPlayerBehindItem(PlayerBase player, BaseBuilding base_building)
@@ -69,7 +65,7 @@ modded class ActionDismantleBase: ActionContinuousBase
 			float distance_to_item = vector.Distance(player_position, item_position);
 			
 			// Set a threshold distance (adjust this value as necessary)
-			float minimum_distance = 2.0; // For example, consider the player only "behind" if they're at least 5 units away
+			float minimum_distance = 1.5; // For example, consider the player only "behind" if they're at least 5 units away
 			
 			// If the player is too close, they're likely leaning around the wall, so return false
 			if (distance_to_item < minimum_distance)
