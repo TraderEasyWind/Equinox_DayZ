@@ -65,33 +65,39 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
         <file name="MMIO_types.xml" type="types" />
 	</ce>
 	<ce folder="CustomTypes/CJ187NVGs">
-			<file name="CJ187NVGstypes.xml" type="types" />
+        <file name="CJ187NVGstypes.xml" type="types" />
 	</ce>
 	<ce folder="CustomTypes/Expansion">
-			<file name="ExpansionBB.xml" type="types" />
+        <file name="ExpansionBB.xml" type="types" />
+		<file name="expansion_types.xml" type="types" />
 	</ce>
 	<ce folder="CustomTypes/ZensMods">
-			<file name="leftoverstypes.xml" type="types" />
+		<file name="leftoverstypes.xml" type="types" />
 	</ce>
-	<ce folder="CustomTypes/Notes">
+    <ce folder="CustomTypes/Notes">
 		<file name="Notestypes.xml" type="types" />
-	</ce>
+    </ce>
 	<ce folder="CustomTypes/MassiveMod">
-		<file name="JunkFoodCan.xml" type="types" />
+        <file name="JunkFoodCan.xml" type="types" />
 		<file name="StoreLoot.xml" type="types" />
 		<file name="EventTypes.xml" type="types" />
 		<file name="Basebuilding.xml" type="types" />
 		<file name="TieredCrates.xml" type="types" />
 		<file name="Datsun.xml" type="types" />
 		<file name="MMIOLegacy.xml" type="types" />
-   </ce>
+	</ce>
 	<ce folder="CustomEvents">
 		<file name="SurvivorCamp.xml" type="events" />
 		<file name="DatsunEvent.xml" type="events" />
 		<file name="Tier5Crate.xml" type="events" />
+		<file name="expansion_events.xml" type="events" />
 	</ce>
 	<ce folder="CustomCFGSpawnableTypes">
 		<file name="TieredCachesCFG.xml" type="spawnabletypes" />
 		<file name="DatsunCfgSpawnabletypes.xml" type="spawnabletypes" />
+		<file name="expansion_spawnabletypes.xml" type="spawnabletypes" />
 	</ce>
+	<ce folder="CustomTypes/DynamicHelis">
+		<file name="adh_types.xml" type="types" />
+	</ce>	
 </economycore>
