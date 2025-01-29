@@ -69,6 +69,7 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
    </ce>
    <ce folder="CustomTypes/Expansion">
         <file name="ExpansionBB.xml" type="types" />
+		<file name="expansion_types.xml" type="types" />
    </ce>
    <ce folder="CustomTypes/ZensMods">
 		<file name="leftoverstypes.xml" type="types" />
@@ -89,12 +90,14 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="SurvivorCamp.xml" type="events" />
 		<file name="DatsunEvent.xml" type="events" />
 		<file name="Tier5Crate.xml" type="events" />
+		<file name="expansion_events.xml" type="events" />
 	</ce>
 	<ce folder="CustomCFGSpawnableTypes">
 		<file name="TieredCachesCFG.xml" type="spawnabletypes" />
 		<file name="DatsunCfgSpawnabletypes.xml" type="spawnabletypes" />
+		<file name="expansion_spawnabletypes.xml" type="spawnabletypes" />
 	</ce>
-	</ce folder="CustomTypes/DynamicHelis">
+	<ce folder="CustomTypes/DynamicHelis">
 		<file name="adh_types.xml" type="types" />
 	</ce>	
 </economycore>
