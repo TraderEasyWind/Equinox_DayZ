@@ -1,0 +1,26 @@
+{
+    "ModUpdateVersion_Do_Not_Change": 4,
+    "Notifications": 1,
+    "Spawn_Count_Of_Helicopters": 2,
+    "Max_Count_Of_Helicopters": 4,
+    "Lifetime_Of_Crash_In_Seconds": 9000.0,
+    "Health_Of_Helicopter": 150.0,
+    "Rate_Of_Fire_Of_Missiles": 0.6000000238418579,
+    "Speed_Of_Helicopters": 39.0,
+    "Volume_Of_Helicopters": 1.0,
+    "Volume_Of_Missiles": 1.0,
+    "Minimum_Delay_In_Seconds_Until_Next_Event": 7200.0,
+    "Maximum_Delay_In_Seconds_Until_Next_Event": 12600.0,
+    "Explanation_Of_Missile_Launcher_Positions_List": "Set Only_Crash_When_Shot_Down to 1 to enable or 0 to disable ( Or true/false ). If enabled, helicopters will only crash when they are either shot down by a player or the missile launcher. The missile launcher will still shoot down a helicopter that has player damage disabled. The following list will be used if valid coordinates are added. You are also able to choose other methods like DayZ Editor or Init or whatever other method you want to add the missile launchers to the map.",
+    "Only_Crash_When_Shot_Down": 0,
+    "MISSILE_LAUNCHER_POSITIONS_LIST": [
+        "0 0 0"
+    ],
+    "Explanation_Of_Crash_Positions_List": "Set Use_Random_Generated_Crash_Sites to 1 to enable or 0 to disable ( Or true/false ). If enabled, helicopter crash sites will be randomly generated instead of using the following list of crash sites. The following list is of all the possible helicopter crash site positions.",
+    "Use_Random_Generated_Crash_Sites": 1,
+    "CRASH_POSITIONS_LIST": [
+        "4000 0 4000",
+        "5000 0 5000",
+        "6000 0 6000"
+    ]
+}
