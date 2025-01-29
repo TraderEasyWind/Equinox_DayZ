@@ -1978,7 +1978,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<usage name="Military"/>
     </type>
-	<type name="Mass338M24Mag">
+	<type name="Mass_Mag_M24_5Rnd">
         <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>43200</restock>
@@ -1994,7 +1994,7 @@
         <nominal>1</nominal>
         <lifetime>10800</lifetime>
         <restock>43200</restock>
-        <min></min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2362,5 +2362,32 @@
         <tag name="shelves"/>
         <usage name="Medic"/>
 		<usage name="Military"/>
+    </type>
+	<type name="Mass_AN94">
+        <lifetime>10800</lifetime>
+    </type>
+	<type name="Mass_HK416">
+        <lifetime>10800</lifetime>
+    </type>
+	<type name="Mass_RugerPrecision">
+        <lifetime>10800</lifetime>
+    </type>
+	<type name="Mass_SVU">
+        <lifetime>10800</lifetime>
+    </type>
+	<type name="Mass_PKM">
+        <lifetime>10800</lifetime>
+    </type>
+	<type name="MassM417">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>28800</restock>
+        <min>1</min>
+        <quantmin>30</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
     </type>
 </types>

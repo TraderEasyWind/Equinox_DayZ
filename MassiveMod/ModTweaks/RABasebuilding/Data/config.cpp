@@ -12,18 +12,162 @@ class CfgPatches
 			"BaseBuilding_Wall",
 			"MassiveMod_ModTweaks_RABasebuilding",
 			"BaseBuilding_Floor",
-			"BaseBuilding_DoorWall"
+			"BaseBuilding_DoorWall",
+			"BaseBuilding_DoubleDoorWall"
         };
 	};
 };//meow
 class CfgVehicles
 {
 	class BaseBuilding;
+	class BaseBuilding_DoubleDoorBase;
 	class BaseBuilding_WallBase;
 	class BaseBuilding_SingleDoorBase;
+	class BaseBuilding_VaultDoubleDoor: BaseBuilding_DoubleDoorBase
+	{
+		model = "MassiveMod\ModTweaks\RABasebuilding\Data\Doors\ArmoredDoubleDoor.p3d";
+		hiddenSelections[]={"camo"};
+		hiddenSelectionsTextures[]={"MassiveMod\ModTweaks\RABasebuilding\Data\Doors\ArmoredDoor_co.paa"};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints = 5000;
+					healthLevels[] = 
+					{
+						{
+							1.0,
+							{
+								"MassiveMod\ModTweaks\RABasebuilding\Data\Doors\ArmoredDoor.rvmat"
+							}
+						},
+						{
+							0.7,
+							{
+								"MassiveMod\ModTweaks\RABasebuilding\Data\Doors\ArmoredDoor.rvmat"
+							}
+						},
+						{
+							0.5,
+							{
+								"MassiveMod\ModTweaks\RABasebuilding\Data\Doors\ArmoredDoor_Dmg.rvmat"
+							}
+						},
+						{
+							0.3,
+							{
+								"MassiveMod\ModTweaks\RABasebuilding\Data\Doors\ArmoredDoor_BDmg.rvmat"
+							}
+						},
+						{
+							0.0,
+							{
+								"MassiveMod\ModTweaks\RABasebuilding\Data\Doors\ArmoredDoor_BDmg.rvmat"
+							}
+						}
+					};
+				};
+			};
+			class GlobalArmor
+			{
+				class Projectile
+				{
+					class Health
+					{
+						damage = 0.0;
+					};
+				};
+				class Melee
+				{
+					class Health
+					{
+						damage = 0.0;
+					};
+				};
+				class FragGrenade
+				{
+					class Health
+					{
+						damage = 0.0;
+					};
+				};
+			};
+		};
+	};
 	class BaseBuilding_VaultSingleDoor: BaseBuilding_SingleDoorBase
 	{
 		model = "MassiveMod\ModTweaks\RABasebuilding\Data\Doors\ArmoredDoor.p3d";
+		hiddenSelections[]={"camo"};
+		hiddenSelectionsTextures[]={"MassiveMod\ModTweaks\RABasebuilding\Data\Doors\ArmoredDoor_co.paa"};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints = 5000;
+					healthLevels[] = 
+					{
+						{
+							1.0,
+							{
+								"MassiveMod\ModTweaks\RABasebuilding\Data\Doors\ArmoredDoor.rvmat"
+							}
+						},
+						{
+							0.7,
+							{
+								"MassiveMod\ModTweaks\RABasebuilding\Data\Doors\ArmoredDoor.rvmat"
+							}
+						},
+						{
+							0.5,
+							{
+								"MassiveMod\ModTweaks\RABasebuilding\Data\Doors\ArmoredDoor_Dmg.rvmat"
+							}
+						},
+						{
+							0.3,
+							{
+								"MassiveMod\ModTweaks\RABasebuilding\Data\Doors\ArmoredDoor_BDmg.rvmat"
+							}
+						},
+						{
+							0.0,
+							{
+								"MassiveMod\ModTweaks\RABasebuilding\Data\Doors\ArmoredDoor_BDmg.rvmat"
+							}
+						}
+					};
+				};
+			};
+			class GlobalArmor
+			{
+				class Projectile
+				{
+					class Health
+					{
+						damage = 0.0;
+					};
+				};
+				class Melee
+				{
+					class Health
+					{
+						damage = 0.0;
+					};
+				};
+				class FragGrenade
+				{
+					class Health
+					{
+						damage = 0.0;
+					};
+				};
+			};
+		};
 	};
 	class BaseBuilding_TriangleFloorBase: BaseBuilding
 	{

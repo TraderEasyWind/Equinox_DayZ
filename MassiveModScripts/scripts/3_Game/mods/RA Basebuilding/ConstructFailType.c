@@ -1,0 +1,5 @@
+enum EQConstructFailType
+{
+	NONE,
+	NOHQ
+};

@@ -54,30 +54,30 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	</ce>
 	<ce folder="CustomTypes/MMG">
 		<file name="mmg_types.xml" type="types" />
-  </ce>
-  <ce folder="CustomTypes/Windstrides">
+	</ce>
+	<ce folder="CustomTypes/Windstrides">
         <file name="windstrides_types.xml" type="types" />
-  </ce>
-  <ce folder="CustomTypes/JD">
+	</ce>
+	<ce folder="CustomTypes/JD">
         <file name="jd_types.xml" type="types" />
-  </ce>
-  <ce folder="CustomTypes/MMIO">
+	</ce>
+	<ce folder="CustomTypes/MMIO">
         <file name="MMIO_types.xml" type="types" />
-   </ce>
-   <ce folder="CustomTypes/CJ187NVGs">
-        <file name="CJ187NVGstypes.xml" type="types" />
-   </ce>
-   <ce folder="CustomTypes/Expansion">
-        <file name="ExpansionBB.xml" type="types" />
-   </ce>
-   <ce folder="CustomTypes/ZensMods">
-		<file name="leftoverstypes.xml" type="types" />
-   </ce>
-    <ce folder="CustomTypes/Notes">
+	</ce>
+	<ce folder="CustomTypes/CJ187NVGs">
+			<file name="CJ187NVGstypes.xml" type="types" />
+	</ce>
+	<ce folder="CustomTypes/Expansion">
+			<file name="ExpansionBB.xml" type="types" />
+	</ce>
+	<ce folder="CustomTypes/ZensMods">
+			<file name="leftoverstypes.xml" type="types" />
+	</ce>
+	<ce folder="CustomTypes/Notes">
 		<file name="Notestypes.xml" type="types" />
-    </ce>
-   <ce folder="CustomTypes/MassiveMod">
-        <file name="JunkFoodCan.xml" type="types" />
+	</ce>
+	<ce folder="CustomTypes/MassiveMod">
+		<file name="JunkFoodCan.xml" type="types" />
 		<file name="StoreLoot.xml" type="types" />
 		<file name="EventTypes.xml" type="types" />
 		<file name="Basebuilding.xml" type="types" />
@@ -85,7 +85,7 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="Datsun.xml" type="types" />
 		<file name="MMIOLegacy.xml" type="types" />
    </ce>
-   <ce folder="CustomEvents">
+	<ce folder="CustomEvents">
 		<file name="SurvivorCamp.xml" type="events" />
 		<file name="DatsunEvent.xml" type="events" />
 		<file name="Tier5Crate.xml" type="events" />
@@ -94,7 +94,4 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="TieredCachesCFG.xml" type="spawnabletypes" />
 		<file name="DatsunCfgSpawnabletypes.xml" type="spawnabletypes" />
 	</ce>
-	</ce folder="CustomTypes/DynamicHelis">
-		<file name="adh_types.xml" type="types" />
-	</ce>	
 </economycore>
