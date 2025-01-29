@@ -1,52 +1,61 @@
-modded class Mass_RugerPrecision_Base
+modded class JD_BT_MP9_Base
 {
 	override void EEOnCECreate()
     {
         if (!GetParent())
         {
-            if (Math.RandomInt(1,100)<15)
+            if (Math.RandomInt(1,30)<5)
             {
                 TStringArray possibleObjects = 
                 {
-                    "Massm24"
+                    "JD_Groza_762",
+					"JD_MP7"
                 };
                 string objectToSpawn;
-				objectToSpawn = possibleObjects.GetRandomElement();
+				// New conditional check to split chances
+				if (Math.RandomFloat01() < 0.8)
+				{
+					objectToSpawn = "JD_MP7";
+				}
+				else
+				{
+					objectToSpawn = "JD_Groza_762";
+				}
                 EntityAI entity = EntityAI.Cast(GetGame().CreateObject(objectToSpawn, GetPosition(), false, true, true));
                 entity.SetOrientation(GetOrientation());
                 entity.EEOnCECreate();
                 Print("[WEWUSDEBUG] " + GetType() + " transformed into " + objectToSpawn);
-                if (entity.IsInherited(Massm24))
+                if (entity.IsInherited(JD_MP7))
                 {
-                    Massm24 Wewusm24 = Massm24.Cast(entity);
-                    Wewusm24.SpawnAttachmentsOnUpgrade();
+                    JD_MP7 WewusGunmp7 = JD_MP7.Cast(entity);
+                    WewusGunmp7.SpawnAttachmentsOnUpgrade();
+                }
+				if (entity.IsInherited(JD_Groza_762))
+                {
+                    JD_Groza_762 WewusGungroza762 = JD_Groza_762.Cast(entity);
+                    WewusGungroza762.SpawnAttachmentsOnUpgrade();
                 }
 				Delete();
             }
         }
     }
-	
 	void SpawnAttachmentsOnUpgrade()
     {
 		ref TStringArray RandomOptics = 
 		{
 			"ACOGOptic",
-			"ACOGOptic_6x",
+			"ReflexOptic",
 			"M68Optic",
 			"M4_T3NRDSOptic",
-			"ReflexOptic",
-			"StarlightOptic"
 		};
-		
 		
         GameInventory m_Inventory = GetInventory();
         if (GetGame() &&  (GetGame().IsServer() || !GetGame().IsMultiplayer() ))
         {
             AddHealth("", "",9999);
 
-            Magazine mag = SpawnAttachedMagazine("Mass_Mag_RugerPrecision_10Rnd", WeaponWithAmmoFlags.MAX_CAPACITY_MAG | WeaponWithAmmoFlags.CHAMBER);
-            m_Inventory.CreateAttachment(RandomOptics.GetRandomElement());  			
+            Magazine mag = SpawnAttachedMagazine("JD_BT_MP9_30Rnd_Mag", WeaponWithAmmoFlags.MAX_CAPACITY_MAG | WeaponWithAmmoFlags.CHAMBER);
+            m_Inventory.CreateAttachment(RandomOptics.GetRandomElement());			
         }
     }
 };
-class Mass_RugerPrecision: Mass_RugerPrecision_Base{};

@@ -1,37 +1,39 @@
-modded class CZ527_Base
+modded class Vikhr
 {
 	override void EEOnCECreate()
     {
         if (!GetParent())
         {
-            if (Math.RandomInt(1,10)<1)
+            if (Math.RandomInt(1,3)<1)
             {
                 TStringArray possibleObjects = 
                 {
-                    "Mosin9130",
-					"Massmini14",
-					"Repeater",
-					"Mass_MP40",
-					"MassMP153"
+                    "Mass_AK9",
+					"Mass_ASVAL",
+					"JD_Groza"
                 };
                 string objectToSpawn = possibleObjects[Math.RandomInt(0, possibleObjects.Count())];
                 EntityAI entity = EntityAI.Cast(GetGame().CreateObject(objectToSpawn, GetPosition(), false, true, true));
                 entity.SetOrientation(GetOrientation());
                 entity.EEOnCECreate();
                 Print("[WEWUSDEBUG] " + GetType() + " transformed into " + objectToSpawn);
-                if (entity.IsInherited(Massmini14))
+                if (entity.IsInherited(Mass_AK9))
                 {
-                    Massmini14 WewusGunmini14 = Massmini14.Cast(entity);
-                    WewusGunmini14.SpawnAttachmentsOnUpgrade();
+                    Mass_AK9 WewusGunak9 = Mass_AK9.Cast(entity);
+                    WewusGunak9.SpawnAttachmentsOnUpgrade();
                 }
-				if (entity.IsInherited(Mass_MP40))
+				if (entity.IsInherited(Mass_ASVAL))
                 {
-                    Mass_MP40 WewusGunmp40 = Mass_MP40.Cast(entity);
-                    WewusGunmp40.SpawnAttachmentsOnUpgrade();
+                    Mass_ASVAL WewusGunmassasval = Mass_ASVAL.Cast(entity);
+                    WewusGunmassasval.SpawnAttachmentsOnUpgrade();
+                }
+				if (entity.IsInherited(JD_Groza))
+                {
+                    JD_Groza WewusGungroza9 = JD_Groza.Cast(entity);
+                    WewusGungroza9.SpawnAttachmentsOnUpgrade();
                 }
 				Delete();
             }
         }
     }
 };
-class CZ527: CZ527_Base{};

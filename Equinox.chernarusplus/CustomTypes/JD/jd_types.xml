@@ -3,10 +3,10 @@
 
 <types>
 	<type name="JD_Groza">
-		<nominal>2</nominal>
+		<nominal>0</nominal>
 		<lifetime>28800</lifetime>
 		<restock>3600</restock>
-		<min>1</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -69,10 +69,10 @@
 		<usage name="Military"/>
 	</type>
 	<type name="JD_CZ_EVO3A1">
-		<nominal>10</nominal>
+		<nominal>0</nominal>
 		<lifetime>14600</lifetime>
 		<restock>14600</restock>
-		<min>8</min>
+		<min>0</min>
 		<quantmin>6</quantmin>
 		<quantmax>30</quantmax>
 		<cost>100</cost>
@@ -384,5 +384,11 @@
 		<usage name="Military"/>
 		<value name="Tier3"/>
 		<value name="Tier4"/>
+	</type>
+	<type name="JD_RPG">
+		<lifetime>10800</lifetime>
+	</type>
+	<type name="Ammo_JD_RPG_Rocket">
+		<lifetime>10800</lifetime>
 	</type>
 </types>

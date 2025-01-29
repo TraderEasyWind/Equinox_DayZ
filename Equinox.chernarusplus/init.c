@@ -7,11 +7,7 @@ void main()
 
 	//DATE RESET AFTER ECONOMY INIT-------------------------
 	int year, month, day, hour, minute;
-	// Spring 
-	//int reset_month = 4, reset_day = 15;
-	// Winter 
-	//int reset_month = 12, reset_day = 15;
-	int reset_month = 4, reset_day = 15;
+	int reset_month = 9, reset_day = 20;
 	GetGame().GetWorld().GetDate(year, month, day, hour, minute);
 
 	if ((month == reset_month) && (day < reset_day))
@@ -52,8 +48,6 @@ class CustomMission: MissionServer
 		Class.CastTo( m_player, playerEnt );
 
 		GetGame().SelectPlayer( identity, m_player );
-		m_player.GetStatWater().Add(1400);
-        m_player.GetStatEnergy().Add(1500);
 
 		return m_player;
 	}
