@@ -28,6 +28,7 @@ class CfgVehicles
 	class BaseBuilding_HologramDoorFrameSmall: BaseBuilding_DoorFrameBase
 	{
 		scope = 2;
+		placementMode = 3;
 		model = "MassiveMod\ModTweaks\RABasebuilding\Data\Doors\HologramDoorFrameSmall.p3d";
 		materialLevel = 0;
 		upgradeType = "BaseBuilding_FrameDoorFrameSmall";

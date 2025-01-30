@@ -11,7 +11,7 @@ void main()
 	//int reset_month = 4, reset_day = 15;
 	// Winter 
 	//int reset_month = 12, reset_day = 15;
-	int reset_month = 4, reset_day = 15;
+	int reset_month = 9, reset_day = 20;
 	GetGame().GetWorld().GetDate(year, month, day, hour, minute);
 
 	if ((month == reset_month) && (day < reset_day))
