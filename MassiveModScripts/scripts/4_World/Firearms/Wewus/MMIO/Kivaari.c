@@ -1,6 +1,6 @@
 modded class MassKivaari_Base
 {
-	void SpawnAttachmentsOnUpgrade()
+	override void SpawnAttachmentsOnUpgrade()
     {
 		ref TStringArray RandomOptics = 
 		{

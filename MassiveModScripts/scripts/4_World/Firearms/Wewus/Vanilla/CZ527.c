@@ -34,4 +34,4 @@ modded class CZ527_Base
         }
     }
 };
-class CZ527: CZ527_Base{};
+

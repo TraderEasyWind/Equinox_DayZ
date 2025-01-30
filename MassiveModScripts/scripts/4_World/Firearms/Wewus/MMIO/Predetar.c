@@ -1,6 +1,6 @@
 modded class MassAR15DMR_Base
 {
-	void SpawnAttachmentsOnUpgrade()
+	override void SpawnAttachmentsOnUpgrade()
     {
 		ref TStringArray RandomOptics = 
 		{

@@ -37,4 +37,3 @@ modded class Aug_Base
         }
     }
 };
-class AUG: Aug_Base{};

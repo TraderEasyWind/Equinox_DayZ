@@ -4,7 +4,7 @@ modded class Mp133Shotgun_Base
     {
         if (!GetParent())
         {
-            if (Math.RandomInt(1,20)<2)
+            if (Math.RandomInt(1,20)<1)
             {
                 TStringArray possibleObjects = 
                 {

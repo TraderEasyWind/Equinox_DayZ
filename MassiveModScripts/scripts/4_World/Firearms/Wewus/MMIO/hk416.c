@@ -32,7 +32,7 @@ modded class Mass_HK416_Base
         }
     }
 	
-	void SpawnAttachmentsOnUpgrade()
+	override void SpawnAttachmentsOnUpgrade()
     {
 		ref TStringArray RandomOptics = 
 		{
@@ -63,4 +63,4 @@ modded class Mass_HK416_Base
         }
     }
 }
-class Mass_HK416: Mass_HK416_Base{};
+class  Mass_HK416: M16A2_Base{};
