@@ -25,10 +25,9 @@ class CfgVehicles
 			};
 		};			
 	};	
-	class Expansion_Landrover_Base;
-	class Expansion_Landrover: Expansion_Landrover_Base
+	class Expansion_Landrover_Base: CarScript
 	{
-		attachments[] +={"Material_FPole_Flag"};
+		attachments[] += {"Material_FPole_Flag"};
 		class GUIInventoryAttachmentsProps
 		{
 			class Body
@@ -39,6 +38,19 @@ class CfgVehicles
 			};
 		};
 	};
+	class ExpansionUAZCargoRoofless
+	{
+		attachments[] += {"Material_FPole_Flag"};
+		class GUIInventoryAttachmentsProps
+		{
+			class Body
+			{
+				
+				attachmentSlots[] += {"Material_FPole_Flag"};
+			
+			};
+		};			
+	};	
 	class ExpansionTractor: CarScript
 	{
 		attachments[] +={"Material_FPole_Flag"};
