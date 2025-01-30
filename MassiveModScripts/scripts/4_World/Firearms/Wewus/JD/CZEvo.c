@@ -1,40 +1,46 @@
-modded class Aug_Base
+modded class JD_CZ_EVO3A1_Base
 {
 	override void EEOnCECreate()
     {
         if (!GetParent())
         {
-            if (Math.RandomInt(1,30)<5)
+            if (Math.RandomInt(1,40)<4)
             {
                 TStringArray possibleObjects = 
                 {
-                    "AUG"
+                    "UMP45",
                 };
                 string objectToSpawn;
-				objectToSpawn = possibleObjects.GetRandomElement();
                 EntityAI entity = EntityAI.Cast(GetGame().CreateObject(objectToSpawn, GetPosition(), false, true, true));
                 entity.SetOrientation(GetOrientation());
                 entity.EEOnCECreate();
                 Print("[WEWUSDEBUG] " + GetType() + " transformed into " + objectToSpawn);
-				if (entity.IsInherited(AUG))
+                if (entity.IsInherited(UMP45))
                 {
-                    AUG WewusGunaugax = AUG.Cast(entity);
-                    WewusGunaugax.SpawnAttachmentsOnUpgrade();
+                    UMP45 WewusGunmp7 = UMP45.Cast(entity);
+                    WewusGunmp7.SpawnAttachmentsOnUpgrade();
                 }
 				Delete();
             }
         }
     }
-	
 	void SpawnAttachmentsOnUpgrade()
     {
+		ref TStringArray RandomOptics = 
+		{
+			"ACOGOptic",
+			"ReflexOptic",
+			"M68Optic",
+			"M4_T3NRDSOptic",
+		};
+		
         GameInventory m_Inventory = GetInventory();
         if (GetGame() &&  (GetGame().IsServer() || !GetGame().IsMultiplayer() ))
         {
             AddHealth("", "",9999);
 
-            Magazine mag = SpawnAttachedMagazine("Mag_Aug_30Rnd", WeaponWithAmmoFlags.MAX_CAPACITY_MAG | WeaponWithAmmoFlags.CHAMBER);			
+            Magazine mag = SpawnAttachedMagazine("JD_CZ_Mag_EVO_35rnd", WeaponWithAmmoFlags.MAX_CAPACITY_MAG | WeaponWithAmmoFlags.CHAMBER);
+            m_Inventory.CreateAttachment(RandomOptics.GetRandomElement());			
         }
     }
 };
-class AUG: Aug_Base{};

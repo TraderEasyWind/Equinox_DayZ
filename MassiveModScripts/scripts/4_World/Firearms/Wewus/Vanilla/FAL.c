@@ -26,7 +26,7 @@ modded class FAL_Base
         }
     }
 	
-	override void SpawnAttachmentsOnUpgrade()
+	void SpawnAttachmentsOnUpgrade()
     {
 		ref TStringArray RandomOptics = 
 		{

@@ -26,7 +26,7 @@ class MassM24_Base: CZ527
         }
     }
 	
-	override void SpawnAttachmentsOnUpgrade()
+	void SpawnAttachmentsOnUpgrade()
     {
 		ref TStringArray RandomOptics = 
 		{
@@ -49,4 +49,4 @@ class MassM24_Base: CZ527
         }
     }
 };
-class MassM24: MassM24_Base{};
+class Massm24: MassM24_Base{};
