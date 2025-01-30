@@ -32,6 +32,7 @@ void main()
 			}
 		}
 	}
+	//GetCEApi().ExportProxyData("7500 0 7500", 7000);
 }
 
 class CustomMission: MissionServer
