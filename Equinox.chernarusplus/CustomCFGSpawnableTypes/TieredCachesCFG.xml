@@ -40,35 +40,21 @@
 		    <item name="DarkMotoHelmet_YellowScarred"  chance="0.25" />
 		</cargo>
 		<cargo chance="0.75">
-		    <item name="mmg_equipment_locker_green_kit"  chance="0.03" />
-		    <item name="mmg_equipment_locker_black_kit"  chance="0.03" />
-		    <item name="mmg_equipment_locker_grey_kit"  chance="0.03" />
-		    <item name="mmg_armored_cabinet_grey"  chance="0.03" />
-		    <item name="mmg_armored_cabinet_green"  chance="0.03" />
-		    <item name="mmg_armored_cabinet_rusty"  chance="0.03" />
-		    <item name="mmg_locker02_blue_kit"  chance="0.03" />
-		    <item name="mmg_locker02_green_kit"  chance="0.03" />
-		    <item name="mmg_locker02_tan_kit"  chance="0.03" />
-		    <item name="mmg_old_safe_grey"  chance="0.03" />
-		    <item name="mmg_gun_rack_kit_blue"  chance="0.03" />
-		    <item name="mmg_gun_rack_kit_green"  chance="0.03" />
-		    <item name="mmg_army_box_green"  chance="0.03" />
-		    <item name="mmg_army_box_medic"  chance="0.03" />
-		    <item name="mmg_army_box_medic_grey"  chance="0.03" />
-		    <item name="mmg_military_case_green"  chance="0.03" />
-		    <item name="mmg_palette_storage_kit"  chance="0.03" />
-		    <item name="mmg_fridge_kit_beige"  chance="0.03" />
-		    <item name="mmg_fridge_kit_blue"  chance="0.03" />
-		    <item name="mmg_toolwagon_kit"  chance="0.03" />
-		    <item name="mmg_gear_stand_kit"  chance="0.03" />
-		    <item name="mmg_planter_box_kit"  chance="0.03" />
-		    <item name="mmg_greenhouse_kit"  chance="0.03" />
-		    <item name="mmg_solo_locker_yellow_kit"  chance="0.03" />
-		    <item name="mmg_solo_locker_blue_kit"  chance="0.03" />
-		    <item name="mmg_solo_locker_red_kit"  chance="0.03" />
-		    <item name="mmg_solo_locker_purple_kit"  chance="0.03" />
-		    <item name="mmg_solo_locker_green_kit"  chance="0.03" />
-		    <item name="mmg_solo_locker_medic_kit"  chance="0.03" />
+		    <item name="mmg_equipment_locker_green_kit"  chance="0.0666666667" />
+		    <item name="mmg_equipment_locker_black_kit"  chance="0.0666666667" />
+		    <item name="mmg_equipment_locker_grey_kit"  chance="0.0666666667" />
+		    <item name="mmg_armored_cabinet_grey"  chance="0.0666666667" />
+		    <item name="mmg_armored_cabinet_green"  chance="0.0666666667" />
+		    <item name="mmg_armored_cabinet_rusty"  chance="0.0666666667" />
+		    <item name="mmg_gun_rack_kit_blue"  chance="0.0666666667" />
+		    <item name="mmg_gun_rack_kit_green"  chance="0.0666666667" />
+		    <item name="mmg_army_box_green"  chance="0.0666666667" />
+		    <item name="mmg_military_case_green"  chance="0.0666666667" />
+		    <item name="mmg_fridge_kit_beige"  chance="0.0666666667" />
+		    <item name="mmg_fridge_kit_blue"  chance="0.0666666667" />
+		    <item name="mmg_gear_stand_kit"  chance="0.0666666667" />
+		    <item name="mmg_planter_box_kit"  chance="0.0666666667" />
+		    <item name="mmg_greenhouse_kit"  chance="0.0666666667" />
 		</cargo>
 	    <cargo chance="0.40">
 	        <item name="PortableGasLamp"  chance="0.25" />
@@ -149,35 +135,21 @@
 			<item name="DarkMotoHelmet_YellowScarred"  chance="0.25" />
 		</cargo>
 		<cargo chance="0.75">
-			<item name="mmg_equipment_locker_green_kit"  chance="0.03" />
-			<item name="mmg_equipment_locker_black_kit"  chance="0.03" />
-			<item name="mmg_equipment_locker_grey_kit"  chance="0.03" />
-			<item name="mmg_armored_cabinet_grey"  chance="0.03" />
-			<item name="mmg_armored_cabinet_green"  chance="0.03" />
-			<item name="mmg_armored_cabinet_rusty"  chance="0.03" />
-			<item name="mmg_locker02_blue_kit"  chance="0.03" />
-			<item name="mmg_locker02_green_kit"  chance="0.03" />
-			<item name="mmg_locker02_tan_kit"  chance="0.03" />
-			<item name="mmg_old_safe_grey"  chance="0.03" />
-			<item name="mmg_gun_rack_kit_blue"  chance="0.03" />
-			<item name="mmg_gun_rack_kit_green"  chance="0.03" />
-			<item name="mmg_army_box_green"  chance="0.03" />
-			<item name="mmg_army_box_medic"  chance="0.03" />
-			<item name="mmg_army_box_medic_grey"  chance="0.03" />
-			<item name="mmg_military_case_green"  chance="0.03" />
-			<item name="mmg_palette_storage_kit"  chance="0.03" />
-			<item name="mmg_fridge_kit_beige"  chance="0.03" />
-			<item name="mmg_fridge_kit_blue"  chance="0.03" />
-			<item name="mmg_toolwagon_kit"  chance="0.03" />
-			<item name="mmg_gear_stand_kit"  chance="0.03" />
-			<item name="mmg_planter_box_kit"  chance="0.03" />
-			<item name="mmg_greenhouse_kit"  chance="0.03" />
-			<item name="mmg_solo_locker_yellow_kit"  chance="0.03" />
-			<item name="mmg_solo_locker_blue_kit"  chance="0.03" />
-			<item name="mmg_solo_locker_red_kit"  chance="0.03" />
-			<item name="mmg_solo_locker_purple_kit"  chance="0.03" />
-			<item name="mmg_solo_locker_green_kit"  chance="0.03" />
-			<item name="mmg_solo_locker_medic_kit"  chance="0.03" />
+      <item name="mmg_equipment_locker_green_kit"  chance="0.0666666667" />
+      <item name="mmg_equipment_locker_black_kit"  chance="0.0666666667" />
+      <item name="mmg_equipment_locker_grey_kit"  chance="0.0666666667" />
+      <item name="mmg_armored_cabinet_grey"  chance="0.0666666667" />
+      <item name="mmg_armored_cabinet_green"  chance="0.0666666667" />
+      <item name="mmg_armored_cabinet_rusty"  chance="0.0666666667" />
+      <item name="mmg_gun_rack_kit_blue"  chance="0.0666666667" />
+      <item name="mmg_gun_rack_kit_green"  chance="0.0666666667" />
+      <item name="mmg_army_box_green"  chance="0.0666666667" />
+      <item name="mmg_military_case_green"  chance="0.0666666667" />
+      <item name="mmg_fridge_kit_beige"  chance="0.0666666667" />
+      <item name="mmg_fridge_kit_blue"  chance="0.0666666667" />
+      <item name="mmg_gear_stand_kit"  chance="0.0666666667" />
+      <item name="mmg_planter_box_kit"  chance="0.0666666667" />
+      <item name="mmg_greenhouse_kit"  chance="0.0666666667" />
 		</cargo>
 		<cargo chance="0.40">
 			<item name="PortableGasLamp"  chance="0.25" />
@@ -218,15 +190,6 @@
 	    </cargo>
     </type>
 	<type name="MassiveMod_CrateTier2">
-	    <cargo chance="1.00">
-			<item name="MassSVT40"  chance="0.142857142857" />
-			<item name="MassPPSH41"  chance="0.142857142857" />
-			<item name="MassMP40"  chance="0.142857142857" />
-			<item name="MassMP153"  chance="0.142857142857" />
-			<item name="MassAR15DMR"  chance="0.142857142857" />
-			<item name="Massmini14"  chance="0.142857142857" />
-			<item name="JD_BT_MP9"  chance="0.142857142857" />
-		</cargo>
 		<cargo chance="0.10"> <item name="NailBox" /> </cargo>
 		<cargo chance="0.20"> <item name="TacticalBaconCan" /> </cargo>
 		<cargo chance="0.20"> <item name="MassiveMod_Tier3Key" /> </cargo>
@@ -250,7 +213,6 @@
 		<cargo chance="0.5"> <item name="Whetstone" /> </cargo>
 		<cargo chance="0.3"> <item name="Mosin_Compensator" /> </cargo>
 		<cargo chance="0.3"> <item name="MP5_Compensator" /> </cargo>
-		<cargo chance="0.10"> <item name="Shotgun_Suppressor" /> </cargo>
 		<cargo chance="0.10"> <item name="CJ_NVG_ANPVS14" /> </cargo>
 		<cargo chance="0.3"> <item name="Pot" /> </cargo>
 		<cargo chance="0.10"> <item name="Pliers" /> </cargo>
@@ -286,17 +248,26 @@
 			<item name="WoolGloves_Black"  chance="0.25" />
 			<item name="WoolGloves_Green"  chance="0.25" />
 		</cargo>
+    <cargo chance="1.00">
+      <item name="mmg_equipment_locker_green_kit"  chance="0.0625" />
+      <item name="mmg_equipment_locker_black_kit"  chance="0.0625" />
+      <item name="mmg_equipment_locker_grey_kit"  chance="0.0625" />
+      <item name="mmg_armored_cabinet_grey"  chance="0.0625" />
+      <item name="mmg_armored_cabinet_green"  chance="0.0625" />
+      <item name="mmg_armored_cabinet_rusty"  chance="0.0625" />
+      <item name="mmg_gun_rack_kit_blue"  chance="0.0625" />
+      <item name="mmg_gun_rack_kit_green"  chance="0.0625" />
+      <item name="mmg_army_box_green"  chance="0.0625" />
+      <item name="mmg_military_case_green"  chance="0.0625" />
+      <item name="mmg_fridge_kit_beige"  chance="0.0625" />
+      <item name="mmg_fridge_kit_blue"  chance="0.0625" />
+      <item name="mmg_gear_stand_kit"  chance="0.0625" />
+      <item name="mmg_planter_box_kit"  chance="0.0625" />
+      <item name="mmg_greenhouse_kit"  chance="0.0625" />
+      <item name="mmg_palette_storage_kit"  chance="0.0625" />
+      </cargo>
 	</type>
 	<type name="MassiveMod_CrateTier2_2">
-		<cargo chance="1.00">
-			<item name="MassSVT40"  chance="0.142857142857" />
-			<item name="MassPPSH41"  chance="0.142857142857" />
-			<item name="MassMP40"  chance="0.142857142857" />
-			<item name="MassMP153"  chance="0.142857142857" />
-			<item name="MassAR15DMR"  chance="0.142857142857" />
-			<item name="Massmini14"  chance="0.142857142857" />
-			<item name="JD_BT_MP9"  chance="0.142857142857" />
-		</cargo>
 		<cargo chance="0.10"> <item name="NailBox" /> </cargo>
 		<cargo chance="0.20"> <item name="TacticalBaconCan" /> </cargo>
 		<cargo chance="0.20"> <item name="MassiveMod_Tier3Key" /> </cargo>
@@ -344,7 +315,7 @@
 			<item name="Shemagh_White"  chance="0.20" />
 			<item name="Shemagh_Brown"  chance="0.20" />
 		</cargo>
-		<cargo chance="0.40">
+		<cargo chance="0.60">
 			<item name="PressVest_Blue"  chance="0.25" />
 			<item name="PressVest_LightBlue"  chance="0.25" />
 			<item name="PoliceVest"  chance="0.25" />
@@ -356,16 +327,41 @@
 			<item name="WoolGloves_Black"  chance="0.25" />
 			<item name="WoolGloves_Green"  chance="0.25" />
 		</cargo>
+    <cargo chance="1.00">
+      <item name="mmg_equipment_locker_green_kit"  chance="0.0625" />
+      <item name="mmg_equipment_locker_black_kit"  chance="0.0625" />
+      <item name="mmg_equipment_locker_grey_kit"  chance="0.0625" />
+      <item name="mmg_armored_cabinet_grey"  chance="0.0625" />
+      <item name="mmg_armored_cabinet_green"  chance="0.0625" />
+      <item name="mmg_armored_cabinet_rusty"  chance="0.0625" />
+      <item name="mmg_gun_rack_kit_blue"  chance="0.0625" />
+      <item name="mmg_gun_rack_kit_green"  chance="0.0625" />
+      <item name="mmg_army_box_green"  chance="0.0625" />
+      <item name="mmg_military_case_green"  chance="0.0625" />
+      <item name="mmg_fridge_kit_beige"  chance="0.0625" />
+      <item name="mmg_fridge_kit_blue"  chance="0.0625" />
+      <item name="mmg_gear_stand_kit"  chance="0.0625" />
+      <item name="mmg_planter_box_kit"  chance="0.0625" />
+      <item name="mmg_greenhouse_kit"  chance="0.0625" />
+      <item name="mmg_palette_storage_kit"  chance="0.0625" />
+      </cargo>
 	</type>
 	<type name="MassiveMod_CrateTier3">
 	    <cargo chance="1.00">
-			<item name="Mass_SLR106"  chance="0.142857142857" />
-			<item name="JD_MP7"  chance="0.142857142857" />
-			<item name="JD_Groza"  chance="0.142857142857" />
-			<item name="JD_P90"  chance="0.142857142857" />
-			<item name="Mass_RPK74"  chance="0.142857142857" />
-			<item name="Mass_AK9"  chance="0.142857142857" />
-			<item name="Mass_AN94"  chance="0.142857142857" />
+        <item name="Mass_SLR106"  chance="0.0714285714" />
+  			<item name="JD_MP7"  chance="0.0714285714" />
+  			<item name="JD_Groza"  chance="0.0714285714" />
+  			<item name="JD_P90"  chance="0.0714285714" />
+  			<item name="Mass_RPK74"  chance="0.0714285714" />
+  			<item name="Mass_AK9"  chance="0.0714285714" />
+  			<item name="Mass_AN94"  chance="0.0714285714" />
+        <item name="MassSVT40"  chance="0.0714285714" />
+        <item name="MassPPSH41"  chance="0.0714285714" />
+        <item name="MassMP40"  chance="0.0714285714" />
+        <item name="MassMP153"  chance="0.0714285714" />
+        <item name="MassAR15DMR"  chance="0.0714285714" />
+        <item name="Massmini14"  chance="0.0714285714" />
+        <item name="JD_BT_MP9"  chance="0.0714285714" />
 		</cargo>
 		<cargo chance="0.20"> <item name="MassiveMod_Tier4Key" /> </cargo>
 		<cargo chance="0.20"> <item name="WeaponCleaningKit" /> </cargo>
@@ -485,13 +481,20 @@
 	</type>
 	<type name="MassiveMod_CrateTier3_2">
 	    <cargo chance="1.00">
-			<item name="Mass_SLR106"  chance="0.142857142857" />
-			<item name="JD_MP7"  chance="0.142857142857" />
-			<item name="JD_Groza"  chance="0.142857142857" />
-			<item name="JD_P90"  chance="0.142857142857" />
-			<item name="Mass_RPK74"  chance="0.142857142857" />
-			<item name="Mass_AK9"  chance="0.142857142857" />
-			<item name="Mass_AN94"  chance="0.142857142857" />
+			<item name="Mass_SLR106"  chance="0.0714285714" />
+			<item name="JD_MP7"  chance="0.0714285714" />
+			<item name="JD_Groza"  chance="0.0714285714" />
+			<item name="JD_P90"  chance="0.0714285714" />
+			<item name="Mass_RPK74"  chance="0.0714285714" />
+			<item name="Mass_AK9"  chance="0.0714285714" />
+			<item name="Mass_AN94"  chance="0.0714285714" />
+      <item name="MassSVT40"  chance="0.0714285714" />
+      <item name="MassPPSH41"  chance="0.0714285714" />
+      <item name="MassMP40"  chance="0.0714285714" />
+      <item name="MassMP153"  chance="0.0714285714" />
+      <item name="MassAR15DMR"  chance="0.0714285714" />
+      <item name="Massmini14"  chance="0.0714285714" />
+      <item name="JD_BT_MP9"  chance="0.0714285714" />
 		</cargo>
 		<cargo chance="0.20"> <item name="MassiveMod_Tier4Key" /> </cargo>
 		<cargo chance="0.20"> <item name="WeaponCleaningKit" /> </cargo>

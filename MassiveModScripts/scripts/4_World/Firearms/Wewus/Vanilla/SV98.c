@@ -8,7 +8,7 @@ modded class SV98_Base
             {
                 TStringArray possibleObjects = 
                 {
-                    "Mass_M24"
+                    "Massm24"
                 };
                 string objectToSpawn;
 				objectToSpawn = possibleObjects.GetRandomElement();
@@ -16,9 +16,9 @@ modded class SV98_Base
                 entity.SetOrientation(GetOrientation());
                 entity.EEOnCECreate();
                 Print("[WEWUSDEBUG] " + GetType() + " transformed into " + objectToSpawn);
-                if (entity.IsInherited(Mass_M24))
+                if (entity.IsInherited(Massm24))
                 {
-                    Mass_M24 Wewusm24 = Mass_M24.Cast(entity);
+                    Massm24 Wewusm24 = Massm24.Cast(entity);
                     Wewusm24.SpawnAttachmentsOnUpgrade();
                 }
 				Delete();
