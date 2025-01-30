@@ -1999,17 +1999,19 @@
 	<!-- EXPANSION ITEM TYPES -->
 	<!-- VEHICLE PARTS -->
 	<type name="ExpansionHelicopterBattery">
-        <nominal>20</nominal>
+        <nominal>1</nominal>
         <lifetime>43200</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <usage name="Industrial"/>
+		<tag name="floor"/>
+		<category name="tools"/>
 		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
     </type>
 	<type name="ExpansionAircraftBattery">
         <nominal>0</nominal>
@@ -2020,35 +2022,41 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <usage name="Industrial"/>
-		<usage name="Military"/>
+		<tag name="floor"/>
+		<category name="tools"/>
+        <usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
     </type>
 	<type name="ExpansionIgniterPlug">
-        <nominal>20</nominal>
+        <nominal>1</nominal>
         <lifetime>43200</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <usage name="Industrial"/>
+		<tag name="floor"/>
+		<category name="tools"/>
 		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
     </type>
 	<type name="ExpansionHydraulicHoses">
-        <nominal>20</nominal>
+        <nominal>1</nominal>
         <lifetime>43200</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <usage name="Industrial"/>
+		<tag name="floor"/>
+		<category name="tools"/>
 		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
     </type>
 	<type name="ExpansionBusWheel">
         <nominal>5</nominal>
