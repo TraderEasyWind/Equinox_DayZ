@@ -1,4 +1,31 @@
-class BaseBuilding_FrameDoorFrameSmall: BaseBuilding_DoorFrameBase{};
+class BaseBuilding_FrameDoorFrameSmall: BaseBuilding_DoorFrameBase
+{
+	override float GetCostToUpkeep()
+    {
+        return 0.35;
+    }
+};
+class BaseBuilding_WoodDoorFrameSmall: BaseBuilding_DoorFrameBase
+{
+	override float GetCostToUpkeep()
+    {
+        return 0.70;
+    }
+};
+class BaseBuilding_MetalDoorFrameSmall: BaseBuilding_DoorFrameBase
+{
+	override float GetCostToUpkeep()
+    {
+        return 2.8;
+    }
+};
+class BaseBuilding_ConcreteDoorFrameSmall: BaseBuilding_DoorFrameBase
+{
+	override float GetCostToUpkeep()
+    {
+        return 0.70;
+    }
+};
 class BaseBuilding_HologramDoorFrameSmall: BaseBuilding_DoorFrameBase
 {
 	override float GetSmallRotationStep()

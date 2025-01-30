@@ -17,8 +17,8 @@
 			"sprintStaminaModifierCro": 0.9,
 			"staminaWeightLimitThreshold": 7000.0,
 			"staminaMax": 150.0,
-			"staminaKgToStaminaPercentPenalty": 1.5,
-			"staminaMinCap": 7.0,
+			"staminaKgToStaminaPercentPenalty": 1.75,
+			"staminaMinCap": 5.0,
 			"sprintSwimmingStaminaModifier": 1.0,
 			"sprintLadderStaminaModifier": 1.0,
 			"meleeStaminaModifier": 0.5,
@@ -35,8 +35,8 @@
 		{
 			"timeToStrafeJog": 0.1,
 			"rotationSpeedJog": 0.3,
-			"timeToSprint": 0.45,
-			"timeToStrafeSprint": 0.3,
+			"timeToSprint": 0.8,
+			"timeToStrafeSprint": 0.5,
 			"rotationSpeedSprint": 0.15,
 			"allowStaminaAffectInertia": true
 		},
@@ -73,18 +73,18 @@
 		},
 		"ConstructionData":
 		{
-			"disablePerformRoofCheck": true,
+			"disablePerformRoofCheck": false,
 			"disableIsCollidingCheck": false,
 			"disableDistanceCheck": false
 		}
 	},
 	"UIData":
 	{
-		"use3DMap": true,
+		"use3DMap": false,
 		"HitIndicationData":
 		{
 			"hitDirectionOverrideEnabled": false,
-			"hitDirectionBehaviour": 2,
+			"hitDirectionBehaviour": 1,
 			"hitDirectionStyle": 0,
 			"hitDirectionIndicatorColorStr": "0xffbb0a1e",
 			"hitDirectionMaxDuration": 2.0,

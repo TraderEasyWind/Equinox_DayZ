@@ -1,5 +1,17 @@
 <types>
-	<type name="TerritoryHQ_Kit">
+	<type name="BaseBuilding_FrameDoorFrameSmall">
+		<lifetime>3628800</lifetime>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+	</type>
+	<type name="BaseBuilding_WoodDoorFrameSmall">
+		<lifetime>3628800</lifetime>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+	</type>
+	<type name="BaseBuilding_MetalDoorFrameSmall">
+		<lifetime>3628800</lifetime>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+	</type>
+	<type name="BaseBuilding_ConcreteDoorFrameSmall">
 		<lifetime>14400</lifetime>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 	</type>

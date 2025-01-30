@@ -51,8 +51,8 @@ class CfgVehicles
 	{
 		scope = 2;
 		model = "MassiveMod\ModTweaks\RABasebuilding\Data\Doors\FrameDoorSmall.p3d";
-		upgradeType = "BaseBuilding_WoodDoorFrame";
-		attachments[] = {"CamoNet"};
+		upgradeType = "BaseBuilding_WoodDoorFrameSmall";
+		attachments[] = {};
 		hiddenSelections[] = {"wood"};
 		hiddenSelectionsTextures[] = {"dz\gear\consumables\data\pile_of_planks_co.paa"};
 		materialLevel = 1;
@@ -89,6 +89,276 @@ class CfgVehicles
 							class Health
 							{
 								damage = 0.5;
+							};
+						};
+						class FragGrenade
+						{
+							class Health
+							{
+								damage = 0.0;
+							};
+						};
+					};
+					componentNames[] = {"interior"};
+				};
+			};
+		};
+	};
+	class BaseBuilding_WoodDoorFrameSmall: BaseBuilding_DoorFrameBase
+	{
+		scope = 2;
+		model = "MassiveMod\ModTweaks\RABasebuilding\Data\Doors\WoodDoorFrameSmall.p3d";
+		upgradeType = "BaseBuilding_MetalDoorFrameSmall";
+		attachments[] = {};
+		hiddenSelections[] = {"planks","wood"};
+		hiddenSelectionsTextures[] = {"rearmedserver\basebuilding\materials\wood\data\DoorWall_planks_co.paa","dz\gear\consumables\data\pile_of_planks_co.paa"};
+		materialLevel = 2;
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints = 2500;
+					healthLevels[] = {{1.0,{"rearmedserver\basebuilding\materials\wood\data\DoorWall_planks.rvmat","RearmedServer\BaseBuilding\Materials\Wood\data\RA_pile_of_planks.rvmat"}},{0.7,{"rearmedserver\basebuilding\materials\wood\data\DoorWall_planks_damage.rvmat","RearmedServer\BaseBuilding\Materials\Wood\data\RA_pile_of_planks_damage.rvmat"}},{0.5,{"rearmedserver\basebuilding\materials\wood\data\DoorWall_planks_damage.rvmat","RearmedServer\BaseBuilding\Materials\Wood\data\RA_pile_of_planks_damage.rvmat"}},{0.3,{"rearmedserver\basebuilding\materials\wood\data\DoorWall_planks_destruct.rvmat","RearmedServer\BaseBuilding\Materials\Wood\data\RA_pile_of_planks_destruct.rvmat"}},{0.0,{"rearmedserver\basebuilding\materials\wood\data\DoorWall_planks_destruct.rvmat","RearmedServer\BaseBuilding\Materials\Wood\data\RA_pile_of_planks_destruct.rvmat"}}};
+				};
+			};
+			class DamageZones
+			{
+				class Exterior
+				{
+					class Health
+					{
+						hitpoints = 2500;
+						transferToGlobalCoef = 1;
+					};
+					class ArmorType
+					{
+						class Melee
+						{
+							class Health
+							{
+								damage = 0.0015;
+							};
+						};
+						class Projectile
+						{
+							class Health
+							{
+								damage = 0.0;
+							};
+						};
+						class FragGrenade
+						{
+							class Health
+							{
+								damage = 0.0;
+							};
+						};
+					};
+					componentNames[] = {"exterior"};
+				};
+				class Interior
+				{
+					class Health
+					{
+						hitpoints = 2500;
+						transferToGlobalCoef = 1;
+					};
+					class ArmorType
+					{
+						class Melee
+						{
+							class Health
+							{
+								damage = 0.5;
+							};
+						};
+						class Projectile
+						{
+							class Health
+							{
+								damage = 0.0;
+							};
+						};
+						class FragGrenade
+						{
+							class Health
+							{
+								damage = 0.0;
+							};
+						};
+					};
+					componentNames[] = {"interior"};
+				};
+			};
+		};
+	};
+	class BaseBuilding_MetalDoorFrameSmall: BaseBuilding_DoorFrameBase
+	{
+		scope = 2;
+		model = "MassiveMod\ModTweaks\RABasebuilding\Data\Doors\MetalDoorFrameSmall.p3d";
+		materialLevel = 3;
+		upgradeType = "BaseBuilding_ConcreteDoorFrameSmall";
+		attachments[] = {};
+		hiddenSelections[] = {"wood","metal","metalsmokestack"};
+		hiddenSelectionsTextures[] = {"dz\gear\consumables\data\pile_of_planks_co.paa","RearmedServer\BaseBuilding\Materials\Metal\data\Metal_DoorFrame_co.paa","dz\structures\industrial\smokestacks\data\smokestack_metal_floor_co.paa"};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints = 5000;
+					healthLevels[] = {{1.0,{"RearmedServer\BaseBuilding\Materials\Wood\data\RA_pile_of_planks.rvmat","RearmedServer\BaseBuilding\Materials\Metal\data\Metal_DoorFrame.rvmat","RearmedServer\BaseBuilding\Materials\Metal\data\FlatMetalPlate.rvmat"}},{0.7,{"RearmedServer\BaseBuilding\Materials\Wood\data\RA_generic_wood_damage.rvmat","RearmedServer\BaseBuilding\Materials\Metal\data\Metal_DoorFrame_damage.rvmat","RearmedServer\BaseBuilding\Materials\Metal\data\FlatMetalPlate_damage.rvmat"}},{0.5,{"RearmedServer\BaseBuilding\Materials\Wood\data\RA_generic_wood_damage.rvmat","RearmedServer\BaseBuilding\Materials\Metal\data\Metal_DoorFrame_damage.rvmat","RearmedServer\BaseBuilding\Materials\Metal\data\FlatMetalPlate_damage.rvmat"}},{0.3,{"RearmedServer\BaseBuilding\Materials\Wood\data\RA_generic_wood_destruct.rvmat","RearmedServer\BaseBuilding\Materials\Metal\data\Metal_DoorFrame_destruct.rvmat","RearmedServer\BaseBuilding\Materials\Metal\data\FlatMetalPlate_destruct.rvmat"}},{0.0,{"RearmedServer\BaseBuilding\Materials\Wood\data\RA_generic_wood_destruct.rvmat","RearmedServer\BaseBuilding\Materials\Metal\data\Metal_DoorFrame_destruct.rvmat","RearmedServer\BaseBuilding\Materials\Metal\data\FlatMetalPlate_destruct.rvmat"}}};
+				};
+			};
+			class DamageZones
+			{
+				class Exterior
+				{
+					class Health
+					{
+						hitpoints = 5000;
+						transferToGlobalCoef = 1;
+					};
+					class ArmorType
+					{
+						class Melee
+						{
+							class Health
+							{
+								damage = 0.0015;
+							};
+						};
+						class Projectile
+						{
+							class Health
+							{
+								damage = 0.0;
+							};
+						};
+						class FragGrenade
+						{
+							class Health
+							{
+								damage = 0.0;
+							};
+						};
+					};
+					componentNames[] = {"exterior"};
+				};
+				class Interior
+				{
+					class Health
+					{
+						hitpoints = 5000;
+						transferToGlobalCoef = 1;
+					};
+					class ArmorType
+					{
+						class Melee
+						{
+							class Health
+							{
+								damage = 0.5;
+							};
+						};
+						class Projectile
+						{
+							class Health
+							{
+								damage = 0.0;
+							};
+						};
+						class FragGrenade
+						{
+							class Health
+							{
+								damage = 0.0;
+							};
+						};
+					};
+					componentNames[] = {"interior"};
+				};
+			};
+		};
+	};
+	class BaseBuilding_ConcreteDoorFrameSmall: BaseBuilding_DoorFrameBase
+	{
+		scope = 2;
+		model = "MassiveMod\ModTweaks\RABasebuilding\Data\Doors\ConcreteDoorFrameSmall.p3d";
+		materialLevel = 4;
+		attachments[] = {};
+		hiddenSelections[] = {"bricks","cement"};
+		hiddenSelectionsTextures[] = {"rearmedserver\basebuilding\materials\concrete\municipaloffice2_facade1_grey_co.paa","dz\structures\data\concrete\concrete_bare_co.paa"};
+		hiddenSelectionsMaterials[] = {"rearmedserver\basebuilding\materials\concrete\municipaloffice2_facade1.rvmat","rearmedserver\basebuilding\materials\concrete\vanillaconcretebare.rvmat"};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints = 10000;
+					healthLevels[] = {{1.0,{"rearmedserver\basebuilding\materials\concrete\municipaloffice2_facade1.rvmat","rearmedserver\basebuilding\materials\concrete\vanillaconcretebare.rvmat"}},{0.7,{"rearmedserver\basebuilding\materials\concrete\municipaloffice2_facade1_damage.rvmat","rearmedserver\basebuilding\materials\concrete\vanillaconcretebare_damage.rvmat"}},{0.5,{"rearmedserver\basebuilding\materials\concrete\municipaloffice2_facade1_damage.rvmat","rearmedserver\basebuilding\materials\concrete\vanillaconcretebare_damage.rvmat"}},{0.3,{"rearmedserver\basebuilding\materials\concrete\municipaloffice2_facade1_destruct.rvmat","rearmedserver\basebuilding\materials\concrete\vanillaconcretebare_destruct.rvmat"}},{0.0,{"rearmedserver\basebuilding\materials\concrete\municipaloffice2_facade1_destruct.rvmat","rearmedserver\basebuilding\materials\concrete\vanillaconcretebare_destruct.rvmat"}}};
+				};
+			};
+			class DamageZones
+			{
+				class Exterior
+				{
+					class Health
+					{
+						hitpoints = 10000;
+						transferToGlobalCoef = 1;
+					};
+					class ArmorType
+					{
+						class Melee
+						{
+							class Health
+							{
+								damage = 0.0015;
+							};
+						};
+						class Projectile
+						{
+							class Health
+							{
+								damage = 0.0;
+							};
+						};
+						class FragGrenade
+						{
+							class Health
+							{
+								damage = 0.0;
+							};
+						};
+					};
+					componentNames[] = {"exterior"};
+				};
+				class Interior
+				{
+					class Health
+					{
+						hitpoints = 10000;
+						transferToGlobalCoef = 1;
+					};
+					class ArmorType
+					{
+						class Melee
+						{
+							class Health
+							{
+								damage = 0.5;
+							};
+						};
+						class Projectile
+						{
+							class Health
+							{
+								damage = 0.0;
 							};
 						};
 						class FragGrenade

@@ -22,6 +22,7 @@ class CfgPatches
 class CfgVehicles
 {
 	class BaseBuilding;
+	class BaseBuilding_SingleDoorBase;
 	class BaseBuilding_EmbrasureBase: BaseBuilding
 	{
 		placementMode = 3;
@@ -29,10 +30,6 @@ class CfgVehicles
 	class BaseBuilding_ShutterBase: BaseBuilding
 	{
 		placementMode = 3;
-	};
-	class BaseBuilding_SingleDoorBase: BaseBuilding
-	{
-		placementMode = 3;	
 	};
 	class BaseBuilding_HologramSingleDoor: BaseBuilding_SingleDoorBase
 	{
