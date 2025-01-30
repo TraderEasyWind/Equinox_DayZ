@@ -37,6 +37,7 @@
 		<usage name="Tenement"/>
 		<usage name="Store"/>
 		<usage name="Sniper"/>
+		<usage name="Aviation"/>
     </usageflags>
     <valueflags>
         <value name="Tier1"/>
@@ -44,5 +45,6 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
         <value name="Unique"/>
+		<value name="Aviation"/>
     </valueflags>
 </lists>
