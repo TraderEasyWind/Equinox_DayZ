@@ -1,0 +1,1 @@
+class BaseBuilding_FrameDoorFrameSmall: BaseBuilding_DoorFrameBase{};

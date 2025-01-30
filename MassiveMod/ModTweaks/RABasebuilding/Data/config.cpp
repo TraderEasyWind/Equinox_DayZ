@@ -13,7 +13,8 @@ class CfgPatches
 			"MassiveMod_ModTweaks_RABasebuilding",
 			"BaseBuilding_Floor",
 			"BaseBuilding_DoorWall",
-			"BaseBuilding_DoubleDoorWall"
+			"BaseBuilding_DoubleDoorWall",
+			"BaseBuilding_DoorFrame"
         };
 	};
 };//meow
@@ -23,6 +24,85 @@ class CfgVehicles
 	class BaseBuilding_DoubleDoorBase;
 	class BaseBuilding_WallBase;
 	class BaseBuilding_SingleDoorBase;
+	class BaseBuilding_DoorFrameBase;
+	class BaseBuilding_HologramDoorFrameSmall: BaseBuilding_DoorFrameBase
+	{
+		scope = 2;
+		model = "MassiveMod\ModTweaks\RABasebuilding\Data\Doors\HologramDoorFrameSmall.p3d";
+		materialLevel = 0;
+		upgradeType = "BaseBuilding_FrameDoorFrameSmall";
+		hiddenSelections[] = {"wood"};
+		hiddenSelectionsTextures[] = {"#(argb,8,8,3)color(0.756863,0.741176,0.733333,0.9,co)"};
+		hiddenSelectionsMaterials[] = {"rearmedserver\basebuilding\materials\basebuilding_neutral.rvmat"};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints = 100;
+					healthLevels[] = {{1.0,{""}},{0.7,{""}},{0.5,{""}},{0.3,{""}},{0.0,{""}}};
+				};
+			};
+		};
+	};
+	class BaseBuilding_FrameDoorFrameSmall: BaseBuilding_DoorFrameBase
+	{
+		scope = 2;
+		model = "MassiveMod\ModTweaks\RABasebuilding\Data\Doors\FrameDoorSmall.p3d";
+		upgradeType = "BaseBuilding_WoodDoorFrame";
+		attachments[] = {"CamoNet"};
+		hiddenSelections[] = {"wood"};
+		hiddenSelectionsTextures[] = {"dz\gear\consumables\data\pile_of_planks_co.paa"};
+		materialLevel = 1;
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints = 500;
+					healthLevels[] = {{1.0,{"RearmedServer\BaseBuilding\Materials\Wood\data\RA_pile_of_planks.rvmat"}},{0.7,{"RearmedServer\BaseBuilding\Materials\Wood\data\RA_pile_of_planks_damage.rvmat"}},{0.5,{"RearmedServer\BaseBuilding\Materials\Wood\data\RA_pile_of_planks_damage.rvmat"}},{0.3,{"RearmedServer\BaseBuilding\Materials\Wood\data\RA_pile_of_planks_destruct.rvmat"}},{0.0,{"RearmedServer\BaseBuilding\Materials\Wood\data\RA_pile_of_planks_destruct.rvmat"}}};
+				};
+			};
+			class DamageZones
+			{
+				class Interior
+				{
+					class Health
+					{
+						hitpoints = 500;
+						transferToGlobalCoef = 1;
+					};
+					class ArmorType
+					{
+						class Melee
+						{
+							class Health
+							{
+								damage = 1.0;
+							};
+						};
+						class Projectile
+						{
+							class Health
+							{
+								damage = 0.5;
+							};
+						};
+						class FragGrenade
+						{
+							class Health
+							{
+								damage = 0.0;
+							};
+						};
+					};
+					componentNames[] = {"interior"};
+				};
+			};
+		};
+	};
 	class BaseBuilding_VaultDoubleDoor: BaseBuilding_DoubleDoorBase
 	{
 		model = "MassiveMod\ModTweaks\RABasebuilding\Data\Doors\ArmoredDoubleDoor.p3d";
