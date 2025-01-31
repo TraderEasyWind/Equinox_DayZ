@@ -15,6 +15,8 @@ class CfgPatches
 			"MassGuns_Weapons_B52",
 			"MassGuns_Weapons_Type81",
 			"DZ_Weapons_Magazines",
+			"DZ_Weapons_Firearms_CZ527",
+			"DaysBefore_Weapons_AutomaticRifles_Groza"
 		};
 		magazines[]={};
 	};
@@ -23,6 +25,23 @@ class cfgWeapons
 {
 	class Rifle_Base;
 	class FAL;
+	class BoltActionRifle_ExternalMagazine_Base;
+	class JD_Groza_762_Base: Rifle_Base
+	{
+		chamberableFrom[]+=
+		{
+			"Ammo_762x39Old",
+			"Ammo_762x39AP"
+		};
+	};
+	class CZ527_Base: BoltActionRifle_ExternalMagazine_Base
+	{
+		chamberableFrom[]+=
+		{
+			"Ammo_762x39Old",
+			"Ammo_762x39AP"
+		};
+	};
 	class AKM_Base: Rifle_Base
 	{
 		chamberableFrom[]+=

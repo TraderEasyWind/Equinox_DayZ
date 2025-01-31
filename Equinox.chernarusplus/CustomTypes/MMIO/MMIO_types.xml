@@ -775,10 +775,10 @@
 		<value name="Tier4"/>
     </type>
 	<type name="MassAmmoBox_556x45_10Rnd">
-        <nominal>30</nominal>
+        <nominal>5</nominal>
         <lifetime>10800</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>3</min>
         <quantmin>10</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>

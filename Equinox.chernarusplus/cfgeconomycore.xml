@@ -85,6 +85,7 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="TieredCrates.xml" type="types" />
 		<file name="Datsun.xml" type="types" />
 		<file name="MMIOLegacy.xml" type="types" />
+		<file name="ammunition.xml" type="types" />
 	</ce>
 	<ce folder="CustomEvents">
 		<file name="SurvivorCamp.xml" type="events" />

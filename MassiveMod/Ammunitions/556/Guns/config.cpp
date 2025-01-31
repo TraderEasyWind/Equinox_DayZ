@@ -18,6 +18,7 @@ class CfgPatches
 			"DZ_Weapons_Firearms_Scout",
 			"MassGuns_Weapons_HK416",
 			"MassGuns_Weapons_M16",
+			"AnimatedWeapons_Weapons_MachineGuns_M249"
 		};
 		magazines[]={};
 	};
@@ -82,6 +83,14 @@ class cfgWeapons
 			"Ammo_556x45AP"
 		};
 	};
+	class JD_M249_Base: Rifle_Base
+	{
+		chamberableFrom[]+=
+		{
+			"Ammo_556x45Old",
+			"Ammo_556x45AP"
+		};
+	};
 	class AK101;
 	class M4A1;
 	class M16A2;
@@ -137,6 +146,22 @@ class cfgWeapons
 class CfgMagazines
 {
 	class Magazine_Base;
+	class Mass_Mag_Mini14_5rnd: Magazine_Base
+	{
+		ammoItems[]+=
+		{
+			"Ammo_556x45Old",
+			"Ammo_556x45AP"
+		};
+	};
+	class Mass_Mag_Mini14_10rnd: Magazine_Base
+	{
+		ammoItems[]+=
+		{
+			"Ammo_556x45Old",
+			"Ammo_556x45AP"
+		};
+	};
 	class Mag_FAMAS_25Rnd: Magazine_Base
 	{
 		ammoItems[]+=
@@ -234,6 +259,14 @@ class CfgMagazines
 		};
 	};
 	class Mag_M249_Box200Rnd: Magazine_Base
+	{
+		ammoItems[]+=
+		{
+			"Ammo_556x45Old",
+			"Ammo_556x45AP"
+		};
+	};
+	class JD_Mag_M249_Box200Rnd: Magazine_Base
 	{
 		ammoItems[]+=
 		{

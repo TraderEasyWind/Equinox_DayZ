@@ -143,8 +143,8 @@ class CfgMagazines
 	class Ammo_545x39AP: Ammunition_Base
 	{
 		scope=2;
-		displayName="5.45x39 AP Rounds";
-		descriptionShort="Test Description";
+		displayName="5.45x39AP Rounds";
+		descriptionShort="5.45x39 7N22 AP – A Russian armor-piercing variant of the 5.45x39mm cartridge, featuring a hardened steel penetrator core. Designed to defeat body armor, the 7N22 offers superior penetration compared to standard ball ammunition, making it highly effective against armored targets at medium range.";
 		model="\dz\weapons\ammunition\545x39_LooseRounds.p3d";
 		iconCartridge=2;
 		weight=4;
