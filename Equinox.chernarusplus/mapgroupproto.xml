@@ -4341,6 +4341,16 @@
 						<point pos="0.946747 -0.555740 0.208399" range="0.493164" height="1.224564" />
 				</container>
 		</group>
+		<group name="Land_Wreck_Uaz" lootmax="2">
+			<container name="lootFloor" lootmax="2">
+				<!--<point pos="-1.149370 -0.614851 -0.982110" range="0.4500" height="1.5000" />
+					<point pos="1.189020 -0.612741 -0.961702" range="0.4500" height="1.5000" /> -->
+			</container>
+				<dispatch>
+					<proxy type="ExpansionUAZWheel" pos="-1.149370 -0.614851 -0.982110" rpy="0.000000 -23.010000 0.000000" />
+					<proxy type="ExpansionUAZWheel" pos="1.189020 -0.612741 -0.961702" rpy="0.000000 3.600000 0.000000" />
+				</dispatch>
+		</group>
 		<group name="Land_Wreck_Ikarus" lootmax="4">
 				<usage name="Town" />
 				<usage name="Village" />
@@ -4362,6 +4372,14 @@
 						<point pos="1.246582 -0.550301 -0.758789" range="0.443750" height="0.990898" />
 						<point pos="4.148071 -0.501453 0.112670" range="0.306250" height="0.765625" />
 						<point pos="2.754394 -0.273159 -1.160401" range="0.193115" height="0.482788" />
+				</container>
+				<dispatch>
+						<proxy type="ExpansionBusWheel" pos="-3.095430 -1.139570 -1.044390" rpy="0.000000 0.000000 -0.000000" />
+						<proxy type="ExpansionBusWheelDouble" pos="2.280300 -1.136400 -1.070830" rpy="0.000000 0.600000 3.900000" />
+				</dispatch>
+				<container name="lootFloor" lootmax="4">
+						<point pos="-4.946541 -1.292613 1.876920" range="1" height="1" /> 
+						<point pos="1.568111 -0.979432 -2.366629" range="1" height="1" /> 
 				</container>
 		</group>
 		<group name="Land_Wreck_Volha_Grey" lootmax="4">
@@ -17726,6 +17744,10 @@
 						<point pos="-2.443094 -1.331482 -1.220517" range="0.753125" height="1.882813" flags="32" />
 						<point pos="-0.585749 -1.144867 -1.176118" range="0.375000" height="0.937500" flags="32" />
 				</container>
+				<dispatch>
+						<proxy type="ExpansionBusWheel" pos="-3.095430 -1.139570 -1.044390" rpy="0.000000 0.000000 -0.000000" />
+						<proxy type="ExpansionBusWheelDouble" pos="2.280300 -1.136400 -1.070830" rpy="0.000000 0.600000 3.900000" />
+				</dispatch>
 		</group>
 		<group name="Land_Wreck_Trailer_Closed_DE" lootmax="15">
 				<usage name="Farm" />

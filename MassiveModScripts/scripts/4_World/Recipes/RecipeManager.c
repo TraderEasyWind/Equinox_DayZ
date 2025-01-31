@@ -3,6 +3,10 @@ modded class PluginRecipesManager
 	override void RegisterRecipies()
 	{	super.RegisterRecipies();
 		RegisterRecipe(new CraftBaseHQ);
+		RegisterRecipe(new CraftExplosiveBundle);
+		RegisterRecipe(new CraftUnfinishedExplosives);
+		RegisterRecipe(new CraftUnwiredExplosives);
+		RegisterRecipe(new CraftwiredExplosives);
         RegisterRecipe(new MassiveMod_PistolScrapping);
         RegisterRecipe(new MassiveMod_RifleScrapping);
         RegisterRecipe(new MassiveMod_HighEndScrapping);

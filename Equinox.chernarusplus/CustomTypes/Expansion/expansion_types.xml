@@ -1616,7 +1616,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
+        <category name="lootdispatch"/>
         <tag name="floor"/>
         <usage name="Industrial"/>
     </type>
@@ -1629,21 +1629,22 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
+        <category name="lootdispatch"/>
         <tag name="floor"/>
         <usage name="Industrial"/>
     </type>
 	<type name="ExpansionUAZWheel">
-        <nominal>25</nominal>
+        <nominal>15</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>7</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="floor"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
+		<tag name="floor"/>
     </type>
 	<type name="ExpansionTractorFrontWheel">
         <nominal>15</nominal>
