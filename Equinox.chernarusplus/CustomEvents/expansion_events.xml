@@ -100,12 +100,6 @@
         <active>1</active>
         <children>
             <child lootmax="0" lootmin="0" max="5" min="1" type="Expansion_Landrover"/>
-			<child lootmax="0" lootmin="0" max="5" min="1" type="Expansion_Landrover_Yellow"/>
-            <child lootmax="0" lootmin="0" max="5" min="1" type="Expansion_Landrover_Red"/>
-            <child lootmax="0" lootmin="0" max="5" min="1" type="Expansion_Landrover_Green"/>
-			<child lootmax="0" lootmin="0" max="5" min="1" type="Expansion_Landrover_Grey"/>
-            <child lootmax="0" lootmin="0" max="5" min="1" type="Expansion_Landrover_Orange"/>
-            <child lootmax="0" lootmin="0" max="5" min="1" type="Expansion_Landrover_Blue"/>
         </children>
     </event>
 	<event name="VehicleExpansionHelicopter">

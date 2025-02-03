@@ -6679,7 +6679,7 @@
         <category name="containers"/>
     </type>
     <type name="DuctTape">
-        <nominal>90</nominal>
+        <nominal>70</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>40</min>
@@ -9571,7 +9571,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="Headtorch_Black">
-        <nominal>90</nominal>
+        <nominal>45</nominal>
         <lifetime>28800</lifetime>
         <restock>600</restock>
         <min>40</min>
@@ -9590,10 +9590,10 @@
         <value name="Tier4"/>
     </type>
     <type name="Headtorch_Grey">
-        <nominal>90</nominal>
+        <nominal>45</nominal>
         <lifetime>28800</lifetime>
         <restock>600</restock>
-        <min>40</min>
+        <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11553,10 +11553,10 @@
         <category name="containers"/>
     </type>
     <type name="LeatherSewingKit">
-        <nominal>80</nominal>
+        <nominal>65</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>60</min>
+        <min>30</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11774,7 +11774,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-	    <usage name="Sniper"/>
         <usage name="ContaminatedArea"/>
         <usage name="Military"/>
         <value name="Tier3"/>
@@ -11806,7 +11805,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-		<usage name="Sniper"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
@@ -12514,6 +12512,7 @@
         <usage name="Farm"/>
         <usage name="Village"/>
         <usage name="Hunting"/>
+		<usage name="Sniper"/>
         <value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
@@ -12529,6 +12528,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
+		<usage name="Sniper"/>
         <usage name="Hunting"/>
         <value name="Tier1"/>
         <value name="Tier2"/>
@@ -12796,6 +12796,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
+		<usage name="Sniper"/>
         <usage name="Police"/>
         <value name="Tier1"/>
         <value name="Tier2"/>
@@ -16474,7 +16475,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-		<usage name="Sniper"/>
         <usage name="ContaminatedArea"/>
         <usage name="Military"/>
         <value name="Tier3"/>
@@ -17301,7 +17301,7 @@
         <category name="lootdispatch"/>
     </type>
     <type name="SewingKit">
-        <nominal>50</nominal>
+        <nominal>65</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>30</min>
