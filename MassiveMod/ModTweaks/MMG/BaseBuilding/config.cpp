@@ -15,6 +15,7 @@ class CfgPatches
 };//meow
 class CfgVehicles
 {
+	class Container_Base;
 	class mmg_storage_openable_base: Container_Base
 	{
 		class DamageSystem

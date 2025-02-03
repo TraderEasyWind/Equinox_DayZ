@@ -12,6 +12,7 @@ class CfgVehicles
 {
 	class TentBase;
 	class Container_Base;
+	class Inventory_Base;
 	class WoodenCrate: Container_Base
 	{
 		class DamageSystem

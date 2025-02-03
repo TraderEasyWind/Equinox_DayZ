@@ -1,5 +1,10 @@
 class MassiveMod_BarrelStash_ColorBase: Barrel_ColorBase
 {
+    override float GetCostToUpkeep()
+	{
+		return 0.00001;
+	}
+	
     void MassiveMod_BarrelStash_ColorBase()
 	{
 		SetEventMask(EntityEvent.INIT);
