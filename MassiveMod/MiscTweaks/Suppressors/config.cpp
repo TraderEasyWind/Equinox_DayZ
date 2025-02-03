@@ -22,45 +22,9 @@ class CfgMods
 class cfgVehicles
 {
 	class ItemSuppressor;
-	class M4_Suppressor: ItemSuppressor
-	{
-		class DamageSystem
-		{
-			class GlobalHealth
-			{
-				class Health
-				{
-					hitpoints = 300;
-				};
-			};
-		};
-	};
-	class AK_Suppressor: ItemSuppressor
-	{
-		class DamageSystem
-		{
-			class GlobalHealth
-			{
-				class Health
-				{
-					hitpoints = 300;
-				};
-			};
-		};
-	};
-	class PistolSuppressor: ItemSuppressor
-	{
-		class DamageSystem
-		{
-			class GlobalHealth
-			{
-				class Health
-				{
-					hitpoints = 300;
-				};
-			};
-		};
-	};
+	class M4_Suppressor;
+	class AK_Suppressor;
+	class PistolSuppressor;
 	class M4_Suppressor_Admin: M4_Suppressor
 	{
 		displayName = "Admin M4 Suppressor";

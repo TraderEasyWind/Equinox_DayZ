@@ -25,10 +25,10 @@
         <usage name="Military"/>
     </type>
     <type name="M18SmokeGrenade_AirStrike">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -37,10 +37,10 @@
         <usage name="Military"/>
     </type>
     <type name="Ammo_40mm_Smoke_AirStrike">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>

@@ -15,7 +15,46 @@ class CfgPatches
 };//meow
 class CfgVehicles
 {
-	class mmg_storage_openable_base;
+	class mmg_storage_openable_base: Container_Base
+	{
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=1700;
+				};
+			};
+		};
+	};
+	class mmg_storage_placeable_base;
+	class mmg_storage_openable_noLock_base: Container_Base
+	{
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=1700;
+				};
+			};
+		};
+	};
+	class mmg_old_table_base: mmg_storage_placeable_base
+	{
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=1700;
+				};
+			};
+		};
+	};
 	class mmg_locker_base: mmg_storage_openable_base
 	{
 		attachments[]-=
@@ -33,6 +72,16 @@ class CfgVehicles
 					"Att_ExpansionCodeLock"
 				};
 				icon="cat_common_cargo";
+			};
+		};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=1700;
+				};
 			};
 		};
 	};
@@ -55,6 +104,16 @@ class CfgVehicles
 				icon="cat_common_cargo";
 			};
 		};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=1700;
+				};
+			};
+		};
 	};
 	class mmg_locker02_base: mmg_storage_openable_base
 	{
@@ -73,6 +132,16 @@ class CfgVehicles
 					"Att_ExpansionCodeLock"
 				};
 				icon="cat_common_cargo";
+			};
+		};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=1700;
+				};
 			};
 		};
 	};
@@ -95,6 +164,16 @@ class CfgVehicles
 				icon="cat_bb_attachments";
 			};
 		};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=1700;
+				};
+			};
+		};
 	};
 	class mmg_lockable_gun_rack_base: mmg_storage_openable_base
 	{
@@ -113,6 +192,16 @@ class CfgVehicles
 					"Att_ExpansionCodeLock"
 				};
 				icon="cat_common_cargo";
+			};
+		};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=1700;
+				};
 			};
 		};
 	};
