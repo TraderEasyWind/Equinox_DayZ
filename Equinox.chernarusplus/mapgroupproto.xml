@@ -4377,10 +4377,6 @@
 						<proxy type="ExpansionBusWheel" pos="-3.095430 -1.139570 -1.044390" rpy="0.000000 0.000000 -0.000000" />
 						<proxy type="ExpansionBusWheelDouble" pos="2.280300 -1.136400 -1.070830" rpy="0.000000 0.600000 3.900000" />
 				</dispatch>
-				<container name="lootFloor" lootmax="4">
-						<point pos="-4.946541 -1.292613 1.876920" range="1" height="1" /> 
-						<point pos="1.568111 -0.979432 -2.366629" range="1" height="1" /> 
-				</container>
 		</group>
 		<group name="Land_Wreck_Volha_Grey" lootmax="4">
 				<usage name="Village" />
@@ -17589,6 +17585,25 @@
 						<point pos="0.304932 0.795363 0.032227" range="0.251953" height="0.252773" />
 				</container>
 		</group>
+		<group name="StaticObj_Wreck_BRDM" lootmax="5">
+				<usage name="Military" />
+				<container name="lootFloor" lootmax="2">
+						<category name="containers" />
+						<category name="weapons" />
+						<tag name="floor" />
+						<tag name="shelves" />
+						<tag name="ground" />
+						<point pos="3.653809 -0.576966 0.805175" range="1.199951" height="2.000000" flags="32" />
+						<point pos="0.614991 -0.540920 2.402832" range="0.981934" height="2.000000" flags="32" />
+						<point pos="-0.840088 0.868790 0.040039" range="0.134375" height="0.335938" />
+						<point pos="-2.597900 0.116872 -0.510743" range="0.168750" height="0.421875" />
+						<point pos="-0.741699 -0.552717 -2.021484" range="0.777832" height="1.944580" flags="32" />
+				</container>
+				<dispatch>
+					<proxy type="ExpansionVodnikWheel" pos="-1.393555 -0.266235 0.938476" rpy="0.000000 -18.000000 0.000000" />
+					<proxy type="ExpansionVodnikWheel" pos="1.306640 -0.238220 1.168457" rpy="0.000000 0.000000 0.000000" />
+				</dispatch>
+		</group>
 		<group name="StaticObj_Wreck_BRDM_DE" lootmax="15">
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="3">
@@ -17603,6 +17618,10 @@
 						<point pos="-2.597900 0.116872 -0.510743" range="0.168750" height="0.421875" />
 						<point pos="-0.741699 -0.552717 -2.021484" range="0.777832" height="1.944580" flags="32" />
 				</container>
+				<dispatch>
+					<proxy type="ExpansionVodnikWheel" pos="-1.393555 -0.266235 0.938476" rpy="0.000000 -18.000000 0.000000" />
+					<proxy type="ExpansionVodnikWheel" pos="1.306640 -0.238220 1.168457" rpy="0.000000 0.000000 0.000000" />
+				</dispatch>
 		</group>
 		<group name="StaticObj_Wreck_Ural_DE" lootmax="15">
 				<usage name="Military" />
@@ -17737,7 +17756,7 @@
 						<tag name="shelves" />
 						<tag name="ground" />
 						<point pos="1.804276 0.604767 1.835809" range="0.271875" height="0.679688" />
-						<point pos="1.436911 0.532959 0.324395" range="0.512500" height="1.281250" />
+						<point pos="1.436911 0.532959 0.324395" range="0.512500" height="1.281250" /> 
 						<point pos="-2.597006 0.352722 1.248932" range="0.443750" height="1.109375" />
 						<point pos="0.958455 -0.962830 3.507855" range="0.821875" height="2.000000" flags="32" />
 						<point pos="-2.038018 -1.150330 3.176956" range="0.692139" height="1.730347" flags="32" />

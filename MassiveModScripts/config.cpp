@@ -8,7 +8,8 @@ class CfgPatches
 		requiredAddons[]=
 		{
 			"DZ_Data",
-			"DZ_Scripts"
+			"DZ_Scripts",
+			"RA_BaseBuilding_Scripts"
 		};
 	};
 };
