@@ -1,5 +1,6 @@
 modded class TerritoryHQ
 {
+	
     override void SetActions()
 	{
 		super.SetActions();

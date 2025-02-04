@@ -17,12 +17,12 @@ modded class PluginRecipesManager
         RegisterRecipe(new MassiveMod_RepairRifle);
         RegisterRecipe(new MassiveMod_RepairPistol);
 		RegisterRecipe(new MassiveMod_AdminRepair);
-        RegisterRecipe(new StackCrates);	
-        RegisterRecipe(new StackCrates2);		
-        RegisterRecipe(new StackCrates3);	
-        RegisterRecipe(new DeStackCrates3);
-        RegisterRecipe(new DeStackCrates2);
-        RegisterRecipe(new DeStackCrates1);	
+     // RegisterRecipe(new StackCrates);	
+     // RegisterRecipe(new StackCrates2);		
+     // RegisterRecipe(new StackCrates3);	
+     // RegisterRecipe(new DeStackCrates3);
+     // RegisterRecipe(new DeStackCrates2);
+     // RegisterRecipe(new DeStackCrates1);	
         RegisterRecipe(new UnpackBDUPackage);
         RegisterRecipe(new UnpackGorkaAutumnPackage);
         RegisterRecipe(new UnpackGorkaFlatPackage);

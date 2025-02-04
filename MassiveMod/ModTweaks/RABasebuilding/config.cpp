@@ -19,8 +19,19 @@ class CfgPatches
         };
 	};
 };
+class CfgSlots
+{
+	class Slot_HQ_SheetMetal
+	{
+		name="HQ_SheetMetal";
+		displayName="#STR_CfgNails0";
+		ghostIcon="set:dayz_inventory image:plates";
+		stackMax=500;
+	};
+};
 class CfgVehicles
 {
+	class Inventory_Base;
 	class BaseBuilding;
 	class BaseBuilding_SingleDoorBase;
 	class BaseBuilding_EmbrasureBase: BaseBuilding
@@ -44,10 +55,22 @@ class CfgVehicles
 		//materialLevel = 1;
 	};
 	class Container_Base;
+	class Nail: Inventory_Base
+	{
+		//upkeepValue = 1;
+	};
+	class MetalPlate: Inventory_Base
+	{
+		//upkeepValue = 10;
+		//inventorySlot[]+=
+		//{
+		//	"HQ_SheetMetal"
+		//};
+	};
 	class TerritoryHQ: Container_Base
 	{
 		model = "MassiveMod\Buildings\ToolCupboard.p3d";
-		attachments[] = {"HQ_Nails","TerritoryHQ_L1_Upgrade","TerritoryHQ_L2_Upgrade","TerritoryHQ_L3_Upgrade","TerritoryHQ_L4_Upgrade"};
+		attachments[] = {"HQ_Nails","TerritoryHQ_L2_Upgrade","TerritoryHQ_L3_Upgrade","TerritoryHQ_L4_Upgrade"};
 		itemsCargoSize[] = {10,5};
 		class DamageSystem
 		{
@@ -72,7 +95,7 @@ class CfgVehicles
 			{
 				name = "Upkeep";
 				description = "Base will decay without Nails";
-				attachmentSlots[] = {"HQ_Nails"};
+				attachmentSlots[] = {"HQ_Nails","HQ_SheetMetal"};
 				icon = "nails";
 			};
 		};
