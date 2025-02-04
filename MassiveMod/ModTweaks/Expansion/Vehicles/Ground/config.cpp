@@ -225,9 +225,117 @@ class CfgVehicles
 		};
 	};
 	class ExpansionBoatScript;
+	class SimulationModule;
+	class Axles;
+	class Front;
+	class Rear;
+	class Truck_01_WheelDouble;
+	class ExpansionWheelBase;
+	class ExpansionVodnikWheel: Truck_01_WheelDouble
+	{
+		weight = 75000;
+	};
+	class Vehicle_ExpansionVodnikWheel: ExpansionWheelBase
+	{
+		weight = 75000;
+	};
 	class ExpansionVodnik: ExpansionBoatScript
 	{
-		attachments[] +={"Material_FPole_Flag"};
+		attachments[] = {"TruckBattery","Reflector_1_1","Reflector_2_1","CarRadiator","SparkPlug","vodnikwheel_1_1","vodnikwheel_1_2","vodnikwheel_2_1","vodnikwheel_2_2","vodnikdriverdoor","vodnikcodriverdoor","CamoNet","KeyChain","Material_FPole_Flag"};
+		class SimulationModule: SimulationModule
+		{
+			class Steering
+			{
+				maxSteeringAngle=30;
+				increaseSpeed[]={0,40,30,20,100,10};
+				decreaseSpeed[]={0,80,60,40,90,20};
+				centeringSpeed[]={0,0,15,25,60,40,100,60};
+			};
+			class Throttle
+			{
+				reactionTime=1;
+				defaultThrust=0.85000002;
+				gentleThrust=0.69999999;
+				turboCoef=4;
+				gentleCoef=0.75;
+			};
+			class Brake
+			{
+				pressureBySpeed[]={0,0.85000002,10,0.75,20,0.64999998,50,0.44999999,80,0.60000002,100,0.75};
+				gentleCoef=0.69999999;
+				minPressure=0.2;
+				reactionTime=0.15000001;
+				driverless=0.1;
+			};
+			class Aerodynamics
+			{
+				frontalArea=3.05;
+				dragCoefficient=0.57999998;
+			};
+			drive="DRIVE_AWD";
+			class Engine
+			{
+				torqueCurve[]={625,0,1200,200,1400,313,2800,384,3600,316,5120,0};
+				inertia=0.2;
+				frictionTorque=70;
+				rollingFriction=0.69999999;
+				viscousFriction=1;
+				rpmIdle=625;
+				rpmMin=800;
+				rpmClutch=1600;
+				rpmRedline=3700;
+			};
+			class Clutch
+			{
+				maxTorqueTransfer=490;
+				uncoupleTime=0.2;
+				coupleTime=0.1;
+			};
+		    class CentralDifferential
+			{
+				ratio=2.1210001;
+				type="DIFFERENTIAL_LOCKED";
+			};
+			class Axles: Axles
+			{
+				class Front: Front
+				{
+					maxBrakeTorque=2350;
+					maxHandbrakeTorque=5000;
+					class Differential
+					{
+						ratio=2.73;
+						type="DIFFERENTIAL_LOCKED";
+					};
+					class Suspension
+					{
+						stiffness=50000;
+						compression=3300;
+						damping=4100;
+						travelMaxUp=0.25;
+						travelMaxDown=0.25;
+					};
+				};
+				class Rear: Rear
+				{
+					maxBrakeTorque=2000;
+					maxHandbrakeTorque=5000;
+					class Differential
+					{
+						ratio=2.73;
+						type="DIFFERENTIAL_LOCKED";
+					};
+					class Suspension
+					{
+						stiffness=37500;
+						compression=3000;
+						damping=3600;
+						travelMaxUp=0.25;
+						travelMaxDown=0.25;
+					};
+				};
+			};
+		};		
 		class GUIInventoryAttachmentsProps
 		{
 			class Body
@@ -241,6 +349,73 @@ class CfgVehicles
 	class ExpansionBus: CarScript
 	{
 		attachments[] +={"Material_FPole_Flag"};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints = 1600;
+					healthLevels[] = {{1.0,{}},{0.7,{}},{0.5,{}},{0.3,{}},{0.0,{}}};
+				};
+			};
+			class DamageZones
+			{
+				class Chassis
+				{
+					class Health
+					{
+						hitpoints = 1600;
+						transferToGlobalCoef = 0;
+						healthLevels[] = {{1.0,{}},{0.7,{}},{0.5,{}},{0.3,{}},{0.0,{}}};
+					};
+					memoryPoints[] = {"dmgZone_chassis"};
+					componentNames[] = {"dmgZone_chassis"};
+					transferToZonesNames[] = {"Engine"};
+					transferToZonesThreshold[] = {0.4};
+					transferToZonesCoefs[] = {0.3};
+					fatalInjuryCoef = -1;
+					inventorySlots[] = {};
+				};
+				class Radiator
+				{
+					class Health
+					{
+						hitpoints = 700;
+						transferToGlobalCoef = 0;
+					};
+					memoryPoints[] = {};
+					componentNames[] = {};
+					fatalInjuryCoef = -1;
+					inventorySlots[] = {"CarRadiator"};
+				};
+				class Engine
+				{
+					class Health
+					{
+						hitpoints = 1000;
+						transferToGlobalCoef = 1;
+						healthLevels[] = {{1.0,{}},{0.7,{}},{0.5,{}},{0.3,{}},{0.0,{}}};
+					};
+					memoryPoints[] = {"dmgZone_engine"};
+					componentNames[] = {"dmgZone_engine"};
+					fatalInjuryCoef = 0.001;
+					inventorySlots[] = {"TruckBattery","SparkPlug"};
+					inventorySlotsCoefs[] = {0.2,0.1,0.2};
+				};
+				class FuelTank
+				{
+					class Health
+					{
+						hitpoints = 1300;
+						transferToGlobalCoef = 0;
+						healthLevels[] = {{1.0,{}},{0.7,{}},{0.5,{}},{0.3,{}},{0.0,{}}};
+					};
+					fatalInjuryCoef = -1;
+					inventorySlots[] = {};
+				};
+			};
+		};
 		class GUIInventoryAttachmentsProps
 		{
 			class Body
