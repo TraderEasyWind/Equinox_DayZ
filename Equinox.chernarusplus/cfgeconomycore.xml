@@ -67,9 +67,10 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	<ce folder="CustomTypes/CJ187NVGs">
         <file name="CJ187NVGstypes.xml" type="types" />
 	</ce>
-	<ce folder="CustomTypes/Expansion">
-        <file name="ExpansionBB.xml" type="types" />
-		<file name="expansion_types.xml" type="types" />
+	<ce folder="CustomTypes/UAZ">
+        <file name="UAZTypes.xml" type="types" />
+		<file name="UAZEvent.xml" type="events" />
+		<file name="UAZCfgSpawnabletypes.xml" type="spawnabletypes" />
 	</ce>
 	<ce folder="CustomTypes/ZensMods">
 		<file name="leftoverstypes.xml" type="types" />
@@ -78,25 +79,19 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="Notestypes.xml" type="types" />
     </ce>
 	<ce folder="CustomTypes/MassiveMod">
-        <file name="JunkFoodCan.xml" type="types" />
-		<file name="StoreLoot.xml" type="types" />
+        <file name="JunkFoodCan_Types.xml" type="types" />
+		<file name="StoreLoot_Types.xml" type="types" />
 		<file name="EventTypes.xml" type="types" />
-		<file name="Basebuilding.xml" type="types" />
-		<file name="TieredCrates.xml" type="types" />
-		<file name="Datsun.xml" type="types" />
-		<file name="MMIOLegacy.xml" type="types" />
-		<file name="ammunition.xml" type="types" />
-	</ce>
-	<ce folder="CustomEvents">
-		<file name="SurvivorCamp.xml" type="events" />
-		<file name="DatsunEvent.xml" type="events" />
-		<file name="Tier5Crate.xml" type="events" />
-		<file name="expansion_events.xml" type="events" />
-	</ce>
-	<ce folder="CustomCFGSpawnableTypes">
-		<file name="TieredCachesCFG.xml" type="spawnabletypes" />
-		<file name="DatsunCfgSpawnabletypes.xml" type="spawnabletypes" />
-		<file name="expansion_spawnabletypes.xml" type="spawnabletypes" />
+		<file name="Basebuilding_Types.xml" type="types" />
+		<file name="TieredCrates_Types.xml" type="types" />
+		<file name="Datsun_Types.xml" type="types" />
+		<file name="MMIOLegacy_Types.xml" type="types" />
+		<file name="ammunition_Types.xml" type="types" />
+		<file name="Datsun_CfgSpawnabletypes.xml" type="spawnabletypes" />
+		<file name="Datsun_Event.xml" type="events" />
+		<file name="SurvivorCamp_Event.xml" type="events" />
+		<file name="Tier5Crate_Event.xml" type="events" />
+		<file name="TieredCaches_CfgSpawnabletypes.xml" type="spawnabletypes" />
 	</ce>
 	<ce folder="CustomTypes/DynamicHelis">
 		<file name="adh_types.xml" type="types" />

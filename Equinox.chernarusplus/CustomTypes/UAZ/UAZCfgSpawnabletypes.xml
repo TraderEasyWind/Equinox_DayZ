@@ -1,0 +1,190 @@
+<spawnabletypes>
+	<type name="TF_UAZ3151_Green">
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Wheel" chance="0.80" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Wheel" chance="0.40" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Wheel" chance="0.30" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Wheel" chance="0.80" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Doors_Hood_Green" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Doors_Trunk_Green" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Doors_Driver_Green" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Doors_CoDriver_Green" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Doors_Cargo1_Green" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Doors_Cargo2_Green" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TF_UAZ3151_ChDKZ">
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Wheel" chance="0.80" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Wheel" chance="0.40" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Wheel" chance="0.30" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Wheel" chance="0.80" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Doors_Hood_ChDKZ" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Doors_Trunk_ChDKZ" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Doors_Driver_ChDKZ" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Doors_CoDriver_ChDKZ" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Doors_Cargo1_ChDKZ" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Doors_Cargo2_ChDKZ" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TF_UAZ3151_CDF">
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Wheel" chance="0.80" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Wheel" chance="0.40" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Wheel" chance="0.30" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Wheel" chance="0.80" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Doors_Hood_CDF" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Doors_Trunk_CDF" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Doors_Driver_CDF" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Doors_CoDriver_CDF" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Doors_Cargo1_CDF" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Doors_Cargo2_CDF" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TF_UAZ3151_AFRF">
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Wheel" chance="0.80" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Wheel" chance="0.40" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Wheel" chance="0.30" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Wheel" chance="0.80" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Doors_Hood_AFRF" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Doors_Trunk_AFRF" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Doors_Driver_AFRF" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Doors_CoDriver_AFRF" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Doors_Cargo1_AFRF" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Doors_Cargo2_AFRF" chance="1.00" />
+		</attachments>
+	</type>
+</spawnabletypes>

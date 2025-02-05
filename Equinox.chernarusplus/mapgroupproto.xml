@@ -4347,8 +4347,8 @@
 					<point pos="1.189020 -0.612741 -0.961702" range="0.4500" height="1.5000" /> -->
 			</container>
 				<dispatch>
-					<proxy type="ExpansionUAZWheel" pos="-1.149370 -0.614851 -0.982110" rpy="0.000000 -23.010000 0.000000" />
-					<proxy type="ExpansionUAZWheel" pos="1.189020 -0.612741 -0.961702" rpy="0.000000 3.600000 0.000000" />
+					<proxy type="TF_UAZ3151_Wheel" pos="-1.149370 -0.614851 -0.982110" rpy="0.000000 -23.010000 0.000000" />
+					<proxy type="TF_UAZ3151_Wheel" pos="1.189020 -0.612741 -0.961702" rpy="0.000000 3.600000 0.000000" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_Ikarus" lootmax="4">
