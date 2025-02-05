@@ -1,0 +1,171 @@
+<!-- DON'T FORGET TO SET UP NOMINAL AND MIN VALUES TO SOMETHING YOU NEED-->
+<!-- I ALSO RECOMMEND YOU TO DISABLE SPAWN OF VANILLA SCOPES EXCEPT PU, KOBRA, PSO and 1PN51 IN YOUR TYPES AND CFGSPAWNABLETYPES-->
+<!-- THIS FILE IS NOT FOR COMPLETE REPLACEMENT OF YOUR TYPES, YOU NEED TO ADD THIS IN YOUR FILE THEN ADJUST IT IF NEEDED-->
+
+<!-- Advanced Weapon Scopes Mod Start -->
+<types>
+    <type name="AD_ACOG">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>	
+        <value name="Tier3"/>				
+    </type>				
+    <type name="AD_SpecterDR">
+        <nominal>3</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>	
+        <value name="Tier3"/>				
+    </type>			
+    <type name="AD_ACOG_RMR">
+        <nominal>2</nominal>
+        <lifetime>10800</lifetime>
+        <restock>1800</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>	
+        <value name="Tier4"/>			
+    </type>	
+    <type name="AD_DHF5">
+        <nominal>3</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>	
+        <value name="Tier3"/>				
+    </type>			
+    <type name="AD_NFATACR">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>3600</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>	
+        <value name="Tier4"/>
+    </type>			
+    <type name="AD_NFATACR_1_8">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>3600</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>	
+        <value name="Tier4"/>
+    </type>		
+    <type name="AD_OKP7">
+        <nominal>7</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>5</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>	
+        <value name="Tier3"/>		
+        <value name="Tier4"/>				
+    </type>							
+    <type name="AD_RMR">
+        <nominal>10</nominal>
+        <lifetime>10800</lifetime>
+        <restock>1800</restock>
+        <min>7</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>		
+        <usage name="Police"/>
+        <usage name="Military"/>		
+        <value name="Tier1"/>	
+        <value name="Tier2"/>		
+        <value name="Tier3"/>			
+    </type>			
+    <type name="AD_RMR_LM">
+        <nominal>10</nominal>
+        <lifetime>10800</lifetime>
+        <restock>1800</restock>
+        <min>5</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>		
+        <usage name="Military"/>		
+        <value name="Tier2"/>		
+        <value name="Tier3"/>			
+    </type>				
+    <type name="AD_RMR_TM">
+        <nominal>10</nominal>
+        <lifetime>10800</lifetime>
+        <restock>1800</restock>
+        <min>5</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>		
+        <usage name="Military"/>		
+        <value name="Tier2"/>		
+        <value name="Tier3"/>			
+    </type>					
+    <type name="AD_G33">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>	
+        <value name="Tier3"/>		
+        <value name="Tier4"/>				
+    </type>		
+    <type name="AD_LeupoldMk4">
+        <nominal>3</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>	
+        <value name="Tier3"/>				
+    </type>
+</types>
+<!-- Advanced Weapon Scopes Mod End -->

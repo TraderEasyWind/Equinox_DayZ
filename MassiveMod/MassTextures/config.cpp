@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class MassiveMod_MassTextures
+	class MassTextures
 	{
 		units[]=
 		{""};
