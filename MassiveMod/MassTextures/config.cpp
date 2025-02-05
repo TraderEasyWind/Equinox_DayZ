@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class MassTextures
+	class Mass_Textures
 	{
 		units[]=
 		{""};
