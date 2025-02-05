@@ -95,5 +95,23 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	</ce>
 	<ce folder="CustomTypes/DynamicHelis">
 		<file name="adh_types.xml" type="types" />
+	</ce>
+	<ce folder="CustomTypes/KAMAZ">
+		<file name="Kamaz_Types.xml" type="types" />
+		<file name="Kamaz_Event.xml" type="events" />
+		<file name="Kamaz_CfgSpawnableTypes.xml" type="spawnabletypes" />
+	</ce>
+	<ce folder="CustomTypes/RedFalconHelis">
+		<file name="RFHeli_Types.xml" type="types" />
+		<file name="RFHeli_Event.xml" type="events" />
+		<file name="RFHeli_CfgSpawnableTypes.xml" type="spawnabletypes" />
 	</ce>	
+	<ce folder="CustomTypes/IRPLandRover">
+		<file name="LandRover_Types.xml" type="types" />
+		<file name="LandRover_Events.xml" type="events" />
+		<file name="LandRover_CfgSpawnableTypes.xml" type="spawnabletypes" />
+	</ce>	
+	<ce folder="CustomTypes/A2Ghillies">
+		<file name="A2Ghillies_Types.xml" type="types" />
+	</ce>
 </economycore>
