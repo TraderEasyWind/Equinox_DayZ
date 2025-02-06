@@ -17,7 +17,7 @@
             <child lootmax="0" lootmin="0" max="3" min="1" type="TF_UAZ3151_ChDKZ"/>
             <child lootmax="0" lootmin="0" max="3" min="1" type="TF_UAZ3151_CDF"/>
 			<child lootmax="0" lootmin="0" max="3" min="1" type="TF_UAZ3151_AFRF"/>
-			<child lootmax="0" lootmin="0" max="3" min="1" type="HatchbackTrunk_chernarusarmy"/>
+			<child lootmax="0" lootmin="0" max="3" min="1" type="OffroadHatchback_chernarusarmy"/>
         </children>
     </event>
 </events>
