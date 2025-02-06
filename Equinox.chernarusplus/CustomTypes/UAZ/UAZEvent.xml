@@ -13,10 +13,11 @@
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="7" min="1" type="TF_UAZ3151_Green"/>
-            <child lootmax="0" lootmin="0" max="7" min="1" type="TF_UAZ3151_ChDKZ"/>
-            <child lootmax="0" lootmin="0" max="7" min="1" type="TF_UAZ3151_CDF"/>
-			<child lootmax="0" lootmin="0" max="7" min="1" type="TF_UAZ3151_AFRF"/>
+            <child lootmax="0" lootmin="0" max="3" min="1" type="TF_UAZ3151_Green"/>
+            <child lootmax="0" lootmin="0" max="3" min="1" type="TF_UAZ3151_ChDKZ"/>
+            <child lootmax="0" lootmin="0" max="3" min="1" type="TF_UAZ3151_CDF"/>
+			<child lootmax="0" lootmin="0" max="3" min="1" type="TF_UAZ3151_AFRF"/>
+			<child lootmax="0" lootmin="0" max="3" min="1" type="HatchbackTrunk_chernarusarmy"/>
         </children>
     </event>
 </events>

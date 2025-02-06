@@ -1087,7 +1087,7 @@
         <saferadius>500</saferadius>
         <distanceradius>500</distanceradius>
         <cleanupradius>200</cleanupradius>
-        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <flags deletable="0" init_random="1" remove_damaged="1"/>
         <position>fixed</position>
         <limit>mixed</limit>
         <active>1</active>
@@ -1095,6 +1095,7 @@
             <child lootmax="0" lootmin="0" max="5" min="3" type="Hatchback_02"/>
             <child lootmax="0" lootmin="0" max="5" min="3" type="Hatchback_02_Black"/>
             <child lootmax="0" lootmin="0" max="5" min="3" type="Hatchback_02_Blue"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="Hatchback_02_stripes1"/>
         </children>
     </event>
     <event name="VehicleOffroad02">

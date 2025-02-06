@@ -1,0 +1,1782 @@
+<types>
+    <type name="OffroadHatchback_Firefighter">
+        <nominal>0</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="HatchbackDoors_Driver_Firefighter">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="HatchbackDoors_CoDriver_Firefighter">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="HatchbackHood_Firefighter">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="HatchbackTrunk_Firefighter">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="OffroadHatchback_Cab">
+        <nominal>0</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="HatchbackDoors_Driver_Cab">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="HatchbackDoors_CoDriver_Cab">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="HatchbackHood_Cab">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="HatchbackTrunk_Cab">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="OffroadHatchback_PoliceRus">
+        <nominal>0</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="HatchbackDoors_Driver_PoliceRus">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="HatchbackDoors_CoDriver_PoliceRus">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="HatchbackHood_PoliceRus">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="HatchbackTrunk_PoliceRus">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="OffroadHatchback_lvparamedic">
+        <nominal>0</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="HatchbackDoors_Driver_lvparamedic">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="HatchbackDoors_CoDriver_lvparamedic">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="HatchbackHood_lvparamedic">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="HatchbackTrunk_lvparamedic">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="OffroadHatchback_wineblue">
+        <nominal>0</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="HatchbackDoors_Driver_wineblue">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="HatchbackDoors_CoDriver_wineblue">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="HatchbackHood_wineblue">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="HatchbackTrunk_wineblue">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="OffroadHatchback_wineblue_rust">
+        <nominal>0</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="HatchbackDoors_Driver_wineblue_rust">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="HatchbackDoors_CoDriver_wineblue_rust">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="HatchbackHood_wineblue_rust">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="HatchbackTrunk_wineblue_rust">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="OffroadHatchback_chernarusarmy">
+        <nominal>0</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="HatchbackDoors_Driver_chernarusarmy">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="HatchbackDoors_CoDriver_chernarusarmy">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="HatchbackHood_chernarusarmy">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="HatchbackTrunk_chernarusarmy">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="OffroadHatchback_chernarusarmy_rust">
+        <nominal>0</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="HatchbackDoors_Driver_chernarusarmy_rust">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="HatchbackDoors_CoDriver_chernarusarmy_rust">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="HatchbackHood_chernarusarmy_rust">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="HatchbackTrunk_chernarusarmy_rust">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="OffroadHatchback_5000ca">
+        <nominal>0</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="HatchbackDoors_Driver_5000ca">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="HatchbackDoors_CoDriver_5000ca">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="HatchbackHood_5000ca">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="HatchbackTrunk_5000ca">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="OffroadHatchback_5000ca_rust">
+        <nominal>0</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="HatchbackDoors_Driver_5000ca_rust">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="HatchbackDoors_CoDriver_5000ca_rust">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="HatchbackHood_5000ca_rust">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="HatchbackTrunk_5000ca_rust">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>   
+    <type name="Hatchback_02_Cab">
+        <nominal>0</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Hatchback_02_Door_1_1_Cab">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Door_2_1_Cab">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Door_1_2_Cab">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Door_2_2_Cab">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Hood_Cab">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Trunk_Cab">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Cab_rust">
+        <nominal>0</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Hatchback_02_Door_1_1_Cab_rust">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Door_2_1_Cab_rust">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Door_1_2_Cab_rust">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Door_2_2_Cab_rust">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Hood_Cab_rust">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Trunk_Cab_rust">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_cat">
+        <nominal>0</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Hatchback_02_Door_1_1_cat">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Door_2_1_cat">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Door_1_2_cat">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Door_2_2_cat">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Hood_cat">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Hood_cat2">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Trunk_cat">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Pizzapresto">
+        <nominal>0</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Hatchback_02_Door_1_1_Pizzapresto">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Door_2_1_Pizzapresto">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Door_1_2_Pizzapresto">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Door_2_2_Pizzapresto">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Hood_Pizzapresto">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Trunk_Pizzapresto">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_rustbeige">
+        <nominal>0</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Hatchback_02_Door_1_1_rustbeige">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Door_2_1_rustbeige">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Door_1_2_rustbeige">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Door_2_2_rustbeige">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Hood_rustbeige">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Trunk_rustbeige">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_stripes1">
+        <nominal>0</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Hatchback_02_Door_1_1_stripes1">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Door_2_1_stripes1">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Door_1_2_stripes1">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Door_2_2_stripes1">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Hood_stripes1">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Trunk_stripes1">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_stripes1_rust">
+        <nominal>0</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Hatchback_02_Door_1_1_stripes1_rust">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Door_2_1_stripes1_rust">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Door_1_2_stripes1_rust">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Door_2_2_stripes1_rust">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Hood_stripes1_rust">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Trunk_stripes1_rust">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_mtconstruction">
+        <nominal>0</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Hatchback_02_Door_1_1_mtconstruction">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Door_2_1_mtconstruction">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Door_1_2_mtconstruction">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Door_2_2_mtconstruction">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Hood_mtconstruction">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Trunk_mtconstruction">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_mtconstruction_rust">
+        <nominal>0</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Hatchback_02_Door_1_1_mtconstruction_rust">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Door_2_1_mtconstruction_rust">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Door_1_2_mtconstruction_rust">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Door_2_2_mtconstruction_rust">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Hood_mtconstruction_rust">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Hatchback_02_Trunk_mtconstruction_rust">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Sedan_02_Medic01">
+        <nominal>0</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Sedan_02_Door_1_1_Medic01">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Sedan_02_Door_2_1_Medic01">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Sedan_02_Door_1_2_Medic01">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Sedan_02_Door_2_2_Medic01">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Sedan_02_Hood_Medic01">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Sedan_02_Trunk_Medic01">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Sedan_02_sk_policja">
+        <nominal>0</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Sedan_02_Door_1_1_sk_policja">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Sedan_02_Door_2_1_sk_policja">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Sedan_02_Door_1_2_sk_policja">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Sedan_02_Door_2_2_sk_policja">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Sedan_02_Hood_sk_policja">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Sedan_02_Trunk_sk_policja">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Sedan_02_peacebird">
+        <nominal>0</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Sedan_02_Door_1_1_peacebird">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Sedan_02_Door_2_1_peacebird">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Sedan_02_Door_1_2_peacebird">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Sedan_02_Door_2_2_peacebird">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Sedan_02_Hood_peacebird">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Sedan_02_Trunk_peacebird">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Sedan_02_Hood_chdkz">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Sedan_02_Door_1_2_chdkz">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Sedan_02_Hood_graffiti1">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Sedan_02_Hood_graffiti2">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Sedan_02_Door_1_1_graffiti1">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Sedan_02_Trunk_graffiti1">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Sedan_02_Trunk_graffiti2">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+</types>

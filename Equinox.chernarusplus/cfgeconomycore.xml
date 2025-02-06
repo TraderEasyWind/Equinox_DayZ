@@ -79,6 +79,8 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="Notestypes.xml" type="types" />
     </ce>
 	<ce folder="CustomTypes/MassiveMod">
+		<file name="TieredCaches_CfgSpawnabletypes.xml" type="spawnabletypes" />
+		<file name="Datsun_CfgSpawnabletypes.xml" type="spawnabletypes" />
         <file name="JunkFoodCan_Types.xml" type="types" />
 		<file name="StoreLoot_Types.xml" type="types" />
 		<file name="EventTypes.xml" type="types" />
@@ -87,11 +89,9 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="Datsun_Types.xml" type="types" />
 		<file name="MMIOLegacy_Types.xml" type="types" />
 		<file name="ammunition_Types.xml" type="types" />
-		<file name="Datsun_CfgSpawnabletypes.xml" type="spawnabletypes" />
 		<file name="Datsun_Event.xml" type="events" />
 		<file name="SurvivorCamp_Event.xml" type="events" />
 		<file name="Tier5Crate_Event.xml" type="events" />
-		<file name="TieredCaches_CfgSpawnabletypes.xml" type="spawnabletypes" />
 	</ce>
 	<ce folder="CustomTypes/DynamicHelis">
 		<file name="adh_types.xml" type="types" />
@@ -117,5 +117,10 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	<ce folder="CustomTypes/AWS">
 		<file name="AWS_Types.xml" type="types" />
 		<file name="Mounts&SightsPatch_Types.xml" type="types" />
+	</ce>
+	<ce folder="CustomTypes/MoreCars">
+		<file name="MoreCars_Types.xml" type="types" />
+		<file name="MoreCars_CfgSpawnableTypes.xml" type="spawnabletypes" />
+		<file name="MoreCars_Events.xml" type="events" />
 	</ce>
 </economycore>
