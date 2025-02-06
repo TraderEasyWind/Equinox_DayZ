@@ -330,7 +330,9 @@
 		<cargo chance="0.30"> <item name="TunaCan" /> </cargo>
 		<cargo chance="0.5"> <item name="HuntingKnife" /> </cargo>
 		<cargo chance="0.5"> <item name="Whetstone" /> </cargo>
-		<cargo chance="0.5"> <item name="PistolSuppressor" /> </cargo>
+		<cargo chance="0.05"> <item name="Mag_STANAG_60Rnd" /> </cargo>
+		<cargo chance="0.05"> <item name="Mag_AKM_Drum75Rnd" /> </cargo>
+		<cargo chance="0.05"> <item name="Mag_STANAGCoupled_30Rnd" /> </cargo>
 		<cargo chance="0.30">
 			<item name="MassMuzzleComp556"  chance="0.25" />
 			<item name="MassMuzzle762"  chance="0.25" />
@@ -476,6 +478,12 @@
 		<cargo chance="0.5"> <item name="HuntingKnife" /> </cargo>
 		<cargo chance="0.5"> <item name="Whetstone" /> </cargo>
 		<cargo chance="0.15"> <item name="RA_Improvised_C4" /> </cargo>
+		<cargo chance="0.10"> <item name="Mag_STANAG_60Rnd" /> </cargo>
+		<cargo chance="0.10"> <item name="Mag_AKM_Drum75Rnd" /> </cargo>
+		<cargo chance="0.10"> <item name="Mag_STANAGCoupled_30Rnd" /> </cargo>
+		<cargo chance="0.05"> <item name="Mag_CMAG_10Rnd_Black" /> </cargo>
+		<cargo chance="0.05"> <item name="JD_Mag_M249_Box200Rnd" /> </cargo>
+		<cargo chance="0.05"> <item name="Mass_Mag_PKM_100Rnd" /> </cargo>
         <cargo chance="0.30">
 			<item name="MassMRE4" chance="0.33" />
 			<item name="MassMRE9" chance="0.33" />
@@ -608,6 +616,12 @@
 		<cargo chance="1.00"> <item name="RA_C4" /> </cargo>
 		<cargo chance="1.00"> <item name="Ammo_JD_RPG_Rocket" /> </cargo>
 		<cargo chance="0.50"> <item name="Ammo_JD_RPG_Rocket" /> </cargo>
+		<cargo chance="0.20"> <item name="Mag_STANAG_60Rnd" /> </cargo>
+		<cargo chance="0.20"> <item name="Mag_AKM_Drum75Rnd" /> </cargo>
+		<cargo chance="0.20"> <item name="Mag_STANAGCoupled_30Rnd" /> </cargo>
+		<cargo chance="0.10"> <item name="Mag_CMAG_10Rnd_Black" /> </cargo>
+		<cargo chance="0.10"> <item name="JD_Mag_M249_Box200Rnd" /> </cargo>
+		<cargo chance="0.10"> <item name="Mass_Mag_PKM_100Rnd" /> </cargo>
         <cargo chance="0.30">
 			<item name="MassMRE4" chance="0.33" />
 			<item name="MassMRE9" chance="0.33" />
