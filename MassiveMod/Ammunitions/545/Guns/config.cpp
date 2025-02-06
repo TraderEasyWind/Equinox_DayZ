@@ -108,8 +108,8 @@ class CfgMagazines
 		ammo="Bullet_545x39";
 		ammoItems[]=
 		{
-			"Ammo_745x39",
-			"Ammo_745x39Tracer",
+			"Ammo_545x39",
+			"Ammo_545x39Tracer",
 			"Ammo_545x39AP"
 		};
 		tracersEvery=0;

@@ -1,0 +1,1 @@
+class Mag_RPK74_Drum100Rnd: Mag_AKM_Drum75Rnd{};
