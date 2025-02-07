@@ -17539,6 +17539,27 @@
 						<point pos="1.861666 -1.098483 0.032419" range="1.030762" height="2.000000" />
 				</container>
 		</group>
+		<group name="Land_Wreck_V3S" lootmax="5">
+				<usage name="Military" />
+				<container name="lootFloor" lootmax="3">
+						<category name="containers" />
+						<category name="clothes" />
+						<tag name="floor" />
+						<tag name="shelves" />
+						<tag name="ground" />
+						<point pos="1.604060 -0.483903 0.563805" range="0.500488" height="1.251198" />
+						<point pos="-0.337247 -1.619137 1.562045" range="0.890625" height="2.000000" flags="32" />
+						<point pos="1.718524 -1.563533 -2.276538" range="1.199951" height="2.000000" flags="32" />
+						<point pos="0.742664 -0.475484 -0.114332" range="0.203125" height="0.507702" />
+						<point pos="2.959975 -0.337308 0.144236" range="0.306250" height="0.765461" />
+						<point pos="-1.596639 -1.601072 -2.043298" range="1.199951" height="2.000000" flags="32" />
+				</container>
+				<dispatch>
+					<proxy type="Zil130Wheel" pos="-2.972656 -1.431122 -0.860840" rpy="0.000000 -2.140000 0.000000" />
+					<proxy type="Zil130Wheel" pos="1.626953 -1.281128 0.769043" rpy="0.000000 -0.862069 0.967709" />
+					<proxy type="Zil130Wheel" pos="0.626953 -1.292144 0.879394" rpy="-0.100000 -0.309028 0.951004" />
+				</dispatch>
+		</group>
 		<group name="Land_Wreck_V3S_DE" lootmax="15">
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="3">
@@ -17554,6 +17575,11 @@
 						<point pos="2.959975 -0.337308 0.144236" range="0.306250" height="0.765461" />
 						<point pos="-1.596639 -1.601072 -2.043298" range="1.199951" height="2.000000" flags="32" />
 				</container>
+				<dispatch>
+					<proxy type="Zil130Wheel" pos="-2.972656 -1.431122 -0.860840" rpy="0.000000 -2.140000 0.000000" />
+					<proxy type="Zil130Wheel" pos="1.626953 -1.281128 0.769043" rpy="0.000000 -0.862069 0.967709" />
+					<proxy type="Zil130Wheel" pos="0.626953 -1.292144 0.879394" rpy="-0.100000 -0.309028 0.951004" />
+				</dispatch>
 		</group>
 		<group name="StaticObj_Wreck_BMP1_DE" lootmax="15">
 				<usage name="Military" />
@@ -17600,8 +17626,8 @@
 						<point pos="-0.741699 -0.552717 -2.021484" range="0.777832" height="1.944580" flags="32" />
 				</container>
 				<dispatch>
-					<proxy type="ExpansionVodnikWheel" pos="-1.393555 -0.266235 0.938476" rpy="0.000000 -18.000000 0.000000" />
-					<proxy type="ExpansionVodnikWheel" pos="1.306640 -0.238220 1.168457" rpy="0.000000 0.000000 0.000000" />
+					<proxy type="KamazWheel" pos="-1.393555 -0.266235 0.938476" rpy="0.000000 -18.000000 0.000000" />
+					<proxy type="KamazWheel" pos="1.306640 -0.238220 1.168457" rpy="0.000000 0.000000 0.000000" />
 				</dispatch>
 		</group>
 		<group name="StaticObj_Wreck_BRDM_DE" lootmax="15">

@@ -78,6 +78,10 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
         <file name="VAZ2126_Types.xml" type="types" />
 		<file name="VAZ2126_CfgSpawnableTypes.xml" type="spawnabletypes" />
 	</ce>
+	<ce folder="CustomTypes/Zil130">
+        <file name="Zil130_Types.xml" type="types" />
+		<file name="Zil130_CfgSpawnableTypes.xml" type="spawnabletypes" />
+	</ce>
 	<ce folder="CustomTypes/ZensMods">
 		<file name="leftoverstypes.xml" type="types" />
 	</ce>

@@ -5,7 +5,7 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"H4_Zil131","MDZ_Kamaz_data","CivilianVaz_2126","TF_UAZ5131","nd_datsun","nm_Flagextension"};
+		requiredAddons[] = {"MDZ_Kamaz_data","CivilianVaz_2126","TF_UAZ5131","nd_datsun","nm_Flagextension"};
 	};
 };
 class CfgVehicles
@@ -208,82 +208,9 @@ class CfgVehicles
 			
 			};
 		};		
-	};
-	class H4_Zil131_Green: CarScript
-	{
-		attachments[] += {"Material_FPole_Flag"};
-		class GUIInventoryAttachmentsProps
-		{
-			class Body
-			{
-				
-				attachmentSlots[] += {"Material_FPole_Flag"};
-			
-			};
-		};	
-		class SimulationModule: SimulationModule
-		{
-			class Steering
-			{
-				maxSteeringAngle = 35;
-				increaseSpeed[] = {0,40,30,20,100,5};
-				decreaseSpeed[] = {0,80,60,40,90,20};
-				centeringSpeed[] = {0,0,15,25,60,40,100,60};
-			};
-			class Throttle
-			{
-				reactionTime = 1.0;
-				defaultThrust = 0.85;
-				gentleThrust = 0.7;
-				turboCoef = 4.0;
-				gentleCoef = 0.75;
-			};
-			class Brake
-			{
-				pressureBySpeed[] = {0,0.5,10,0.46,30,0.43,40,0.4,60,0.5,80,0.6};
-				reactionTime = 0.3;
-				driverless = 0.1;
-			};
-			class Aerodynamics
-			{
-				frontalArea = 5.75;
-				dragCoefficient = 0.8;
-			};
-			drive = "DRIVE_642";
-			class Engine
-			{
-				torqueCurve[] = {650,0,750,40,1400,80,3400,114,5400,95,8000,0};
-				inertia = 0.11;
-				frictionTorque = 100;
-				rollingFriction = 0.5;
-				viscousFriction = 0.5;
-				rpmIdle = 800;
-				rpmMin = 900;
-				rpmClutch = 1400;
-				rpmRedline = 6000;
-			};
-			class Clutch
-			{
-				maxTorqueTransfer = 240;
-				uncoupleTime = 0.3;
-				coupleTime = 0.45;
-			};
-			class Gearbox
-			{
-				type = "GEARBOX_MANUAL";
-				reverse = 3.167;
-				ratios[] = {3.455,2.118,1.444,1.129,0.912};
-			};
-			class CentralDifferential
-			{
-				ratio = 2.15;
-				type = "DIFFERENTIAL_LOCKED";
-			};
-		};	
 	};	
 };
 
-//	class H4_Zil131_FuelTank_Green: H4_Zil131_Green
 //  class Kamaz: Kamaz_base	
 //	class KamazCovered: Kamaz
 //	class KamazFuel: Kamaz_base

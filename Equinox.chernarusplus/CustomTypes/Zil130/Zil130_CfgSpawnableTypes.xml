@@ -1,0 +1,96 @@
+<spawnabletypes>
+	<type name="Gerph_Zil130">
+		<attachments chance="1.00">
+			<item name="Zil130Wheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Zil130Wheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Zil130Wheel" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Zil130Wheel" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Zil130Wheel" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Zil130Wheel" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Zil130Wheel" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Zil130Wheel" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TruckBattery" chance="0.25" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.10" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.10" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Zil130Doors_Driver" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Zil130Doors_CoDriver" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Zil130_Hood" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Zil130_Tailgate" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Gerph_Zil130_Green">
+		<attachments chance="1.00">
+			<item name="Zil130Wheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Zil130Wheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Zil130Wheel" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Zil130Wheel" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Zil130Wheel" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Zil130Wheel" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Zil130Wheel" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Zil130Wheel" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TruckBattery" chance="0.25" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.10" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.10" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Zil130Doors_Driver_Green" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Zil130Doors_CoDriver_Green" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Zil130_Hood_Green" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Zil130_Tailgate" chance="1.00" />
+		</attachments>
+	</type>
+</spawnabletypes>
