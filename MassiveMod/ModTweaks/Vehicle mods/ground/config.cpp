@@ -5,7 +5,7 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"H4_Zil131","MDZ_Kamaz_data"};
+		requiredAddons[] = {"H4_Zil131","MDZ_Kamaz_data","CivilianVaz_2126","TF_UAZ5131","nd_datsun","nm_Flagextension"};
 	};
 };
 class CfgVehicles
@@ -31,7 +31,7 @@ class CfgVehicles
 	class Doors;
 	class CarWheel;
 	class Offroad_02: Carscript
-	{
+	{			
 		class SimulationModule: SimulationModule
 		{
 			class Gearbox
@@ -42,6 +42,16 @@ class CfgVehicles
 	};
 	class Truck_01_Base: CarScript
 	{
+		attachments[] += {"Material_FPole_Flag"};
+		class GUIInventoryAttachmentsProps
+		{
+			class Body
+			{
+				
+				attachmentSlots[] += {"Material_FPole_Flag"};
+			
+			};
+		};			
 		class SimulationModule: SimulationModule
 		{
 			drive = "DRIVE_642";
@@ -79,73 +89,138 @@ class CfgVehicles
 			};
 		};
 	};
-	class Kamaz_base: CarScript
+	class nd_datsun_base;
+	class nd_datsun : nd_datsun_base
 	{
-		class SimulationModule
+		attachments[] += {"Material_FPole_Flag"};
+		class GUIInventoryAttachmentsProps
 		{
-			drive = "DRIVE_642";
-			class Steering
+			class Body
 			{
-				maxSteeringAngle = 35;
-				increaseSpeed[] = {0,50,10,40,30,30,60,15,100,7,120,4};
-				decreaseSpeed[] = {0,90,60,60,120,40};
-				centeringSpeed[] = {0,0,15,30,60,60,100,80};
+				
+				attachmentSlots[] += {"Material_FPole_Flag"};
+			
 			};
-			class Throttle
+		};
+	};
+	class CivilianVaz_2126: CarScript
+	{
+		attachments[] += {"Material_FPole_Flag"};
+		class GUIInventoryAttachmentsProps
+		{
+			class Body
 			{
-				reactionTime = 0.3;
-				defaultThrust = 0.7;
-				gentleThrust = 0.5;
-				turboCoef = 1.5;
-				gentleCoef = 0.6;
+				
+				attachmentSlots[] += {"Material_FPole_Flag"};
+			
 			};
-			class Brake
+		};
+	};
+	class Slot_TF_UAZ3151_Wheel_Spare_1
+	{
+		name = "TF_UAZ3151_Wheel_spare_1";
+		displayName = "$STR_WheelUAZ3151";
+		selection = "wheel_spare_1";
+		ghostIcon = "wheel";
+	};
+	class TF_UAZ3151_Green: CarScript
+	{
+		attachments[] += {"Material_FPole_Flag"};
+		class GUIInventoryAttachmentsProps
+		{
+			class Body
 			{
-				pressureBySpeed[] = {0,0.5,10,0.46,30,0.43,40,0.35,60,0.4,80,0.5};
-				gentleCoef = 0.6;
-				minPressure = 0.2;
-				reactionTime = 0.35;
-				driverless = 0.1;
+				
+				attachmentSlots[] += {"Material_FPole_Flag"};
+			
 			};
-			class Aerodynamics
+			class Chassis
 			{
-				frontalArea = 5.975;
-				dragCoefficient = 0.9;
+				
+				attachmentSlots[] += {"TF_UAZ3151_Wheel_spare_1"};
+			
 			};
-			class Engine
+		};
+	};
+	class CrSk_Land_Rover_Defender_110_base;
+	class CrSk_Land_Rover_Defender_110: CrSk_Land_Rover_Defender_110_base
+	{
+		attachments[] += {"Material_FPole_Flag"};
+		class GUIInventoryAttachmentsProps
+		{
+			class Body
 			{
-				torqueCurve[] = {525,0,1000,330,1600,340,2400,300,4500,100,6000,0};
-				inertia = 1.2;
-				frictionTorque = 200;
-				rollingFriction = 4;
-				viscousFriction = 2.5;
-				rpmIdle = 800;
-				rpmMin = 850;
-				rpmClutch = 1500;
-				rpmRedline = 5000;
-				rpmMax = 5000;
+				
+				attachmentSlots[] += {"Material_FPole_Flag"};
+			
 			};
-			class Clutch
+		};
+	};
+	class Kamaz_base;
+	class Kamaz: Kamaz_base
+	{
+		attachments[] += {"Material_FPole_Flag"};
+		class GUIInventoryAttachmentsProps
+		{
+			class Body
 			{
-				maxTorqueTransfer = 480;
-				uncoupleTime = 0.2;
-				coupleTime = 0.5;
+				
+				attachmentSlots[] += {"Material_FPole_Flag"};
+			
 			};
-			class Gearbox
+		};		
+	};
+	class KamazFuel: Kamaz_base
+	{
+		attachments[] += {"Material_FPole_Flag"};
+		class GUIInventoryAttachmentsProps
+		{
+			class Body
 			{
-				type = "GEARBOX_MANUAL";
-				reverse = 6.28;
-				ratios[] = {6.19,3.13,1.75,1.0};
+				
+				attachmentSlots[] += {"Material_FPole_Flag"};
+			
 			};
-			class CentralDifferential
+		};		
+	};
+	class KamazCovered: Kamaz_base
+	{
+		attachments[] += {"Material_FPole_Flag"};
+		class GUIInventoryAttachmentsProps
+		{
+			class Body
 			{
-				ratio = 0.75;
-				type = "DIFFERENTIAL_LOCKED";
+				
+				attachmentSlots[] += {"Material_FPole_Flag"};
+			
 			};
-		};	
+		};		
+	};
+	class KamazCargo: Kamaz_base
+	{
+		attachments[] += {"Material_FPole_Flag"};
+		class GUIInventoryAttachmentsProps
+		{
+			class Body
+			{
+				
+				attachmentSlots[] += {"Material_FPole_Flag"};
+			
+			};
+		};		
 	};
 	class H4_Zil131_Green: CarScript
 	{
+		attachments[] += {"Material_FPole_Flag"};
+		class GUIInventoryAttachmentsProps
+		{
+			class Body
+			{
+				
+				attachmentSlots[] += {"Material_FPole_Flag"};
+			
+			};
+		};	
 		class SimulationModule: SimulationModule
 		{
 			class Steering
