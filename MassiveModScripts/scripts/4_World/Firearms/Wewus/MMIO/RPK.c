@@ -8,7 +8,7 @@ modded class Mass_RPK74_Base
             {
                 TStringArray possibleObjects = 
                 {
-                    "Mass_PKM"
+                    "MassiveMod_PKM"
                 };
                 string objectToSpawn;
 				objectToSpawn = possibleObjects.GetRandomElement();
@@ -16,9 +16,9 @@ modded class Mass_RPK74_Base
                 entity.SetOrientation(GetOrientation());
                 entity.EEOnCECreate();
                 Print("[WEWUSDEBUG] " + GetType() + " transformed into " + objectToSpawn);
-                if (entity.IsInherited(Mass_PKM))
+                if (entity.IsInherited(MassiveMod_PKM))
                 {
-                    Mass_PKM Wewuspkm = Mass_PKM.Cast(entity);
+                    MassiveMod_PKM Wewuspkm = MassiveMod_PKM.Cast(entity);
                     Wewuspkm.SpawnAttachmentsOnUpgrade();
                 }
 				Delete();

@@ -1,30 +1,30 @@
 modded class MassSVT40_Base
 {
-	override void EEOnCECreate()
-    {
-        if (!GetParent())
-        {
-            if (Math.RandomInt(1,50)<4)
-            {
-                TStringArray possibleObjects = 
-                {
-                    "SVD"
-                };
-                string objectToSpawn;
-				objectToSpawn = possibleObjects.GetRandomElement();
-                EntityAI entity = EntityAI.Cast(GetGame().CreateObject(objectToSpawn, GetPosition(), false, true, true));
-                entity.SetOrientation(GetOrientation());
-                entity.EEOnCECreate();
-                Print("[WEWUSDEBUG] " + GetType() + " transformed into " + objectToSpawn);
-                if (entity.IsInherited(SVD))
-                {
-                    SVD WewusGunsvd = SVD.Cast(entity);
-                    WewusGunsvd.SpawnAttachmentsOnUpgrade();
-                }
-				Delete();
-            }
-        }
-    }
+	//override void EEOnCECreate()
+    //{
+    //    if (!GetParent())
+    //    {
+    //        if (Math.RandomInt(1,50)<4)
+    //        {
+    //            TStringArray possibleObjects = 
+    //            {
+    //                "SVD"
+    //            };
+    //            string objectToSpawn;
+	//			objectToSpawn = possibleObjects.GetRandomElement();
+    //            EntityAI entity = EntityAI.Cast(GetGame().CreateObject(objectToSpawn, GetPosition(), false, true, true));
+    //            entity.SetOrientation(GetOrientation());
+    //            entity.EEOnCECreate();
+    //            Print("[WEWUSDEBUG] " + GetType() + " transformed into " + objectToSpawn);
+    //            if (entity.IsInherited(SVD))
+    //            {
+    //                SVD WewusGunsvd = SVD.Cast(entity);
+    //                WewusGunsvd.SpawnAttachmentsOnUpgrade();
+    //            }
+	//			Delete();
+    //        }
+    //    }
+    //}
 
 	void SpawnAttachmentsOnUpgrade()
     {

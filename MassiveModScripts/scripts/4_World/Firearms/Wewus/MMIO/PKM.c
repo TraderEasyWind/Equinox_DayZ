@@ -1,4 +1,4 @@
-modded class Mass_PKM_Base
+modded class MassiveMod_PKM
 {
 	void SpawnAttachmentsOnUpgrade()
     {
@@ -20,4 +20,3 @@ modded class Mass_PKM_Base
         }
     }
 };
-class Mass_PKM: Mass_PKM_Base{};

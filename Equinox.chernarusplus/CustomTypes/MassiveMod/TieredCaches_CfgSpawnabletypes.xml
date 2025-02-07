@@ -555,7 +555,7 @@
 	<type name="MassiveMod_CrateTier5">
 		<cargo chance="1.00">
 			<item name="JD_M249"  chance="0.25" />
-			<item name="Mass_PKM"  chance="0.25" />
+			<item name="MassiveMod_PKM"  chance="0.25" />
 			<item name="JD_RPG"  chance="0.15" />
 			<item name="MassKivaari"  chance="0.15" />
 			<item name="MassM300"  chance="0.10" />

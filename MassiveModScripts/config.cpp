@@ -9,7 +9,8 @@ class CfgPatches
 		{
 			"DZ_Data",
 			"DZ_Scripts",
-			"RA_BaseBuilding_Scripts"
+			"RA_BaseBuilding_Scripts",
+			"Mass_Guns"
 		};
 	};
 };

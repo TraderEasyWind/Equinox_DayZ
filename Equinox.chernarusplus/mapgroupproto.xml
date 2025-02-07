@@ -4347,8 +4347,8 @@
 					<point pos="1.189020 -0.612741 -0.961702" range="0.4500" height="1.5000" /> -->
 			</container>
 				<dispatch>
-					<proxy type="TF_UAZ3151_Wheel" pos="-1.149370 -0.614851 -0.982110" rpy="0.000000 -23.010000 0.000000" />
-					<proxy type="TF_UAZ3151_Wheel" pos="1.189020 -0.612741 -0.961702" rpy="0.000000 3.600000 0.000000" />
+					<proxy type="MassiveMod_UAZ_Wheel" pos="-1.149370 -0.614851 -0.982110" rpy="0.000000 -23.010000 0.000000" />
+					<proxy type="MassiveMod_UAZ_Wheel" pos="1.189020 -0.612741 -0.961702" rpy="0.000000 3.600000 0.000000" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_Ikarus" lootmax="4">
@@ -17737,6 +17737,10 @@
 						<point pos="0.982690 -0.848969 -1.428895" range="0.891068" height="0.232727" flags="32" />
 						<point pos="-0.705573 -0.841156 0.946659" range="0.474225" height="1.185562" flags="32" />
 				</container>
+				<dispatch>
+					<proxy type="MassiveMod_UAZ_Wheel" pos="-1.149370 -0.614851 -0.982110" rpy="0.000000 -23.010000 0.000000" />
+					<proxy type="MassiveMod_UAZ_Wheel" pos="1.189020 -0.612741 -0.961702" rpy="0.000000 3.600000 0.000000" />
+				</dispatch>
 		</group>
 		<group name="StaticObj_Wreck_T72_Chassis_DE" lootmax="15">
 				<usage name="Military" />

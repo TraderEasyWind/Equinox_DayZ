@@ -1,0 +1,22 @@
+<types>
+	<type name="MassiveMod_ADVKit_Sewing">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="1" deloot="0"/>
+    </type>
+	<type name="MassiveMod_ADVKit_LeatherSewing">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="1" deloot="0"/>
+    </type>
+	<type name="MassiveMod_ADVKit_Rifle">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="1" deloot="0"/>
+    </type>
+	<type name="MassiveMod_ADVKit_Pistol">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="1" deloot="0"/>
+    </type>
+	<type name="MassiveMod_ADVKit_High">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="1" deloot="0"/>
+    </type>
+</types>

@@ -2463,7 +2463,7 @@
 	<type name="Mass_SVU">
         <lifetime>10800</lifetime>
     </type>
-	<type name="Mass_PKM">
+	<type name="MassiveMod_PKM">
         <lifetime>10800</lifetime>
     </type>
 	<type name="Mass_AK9">

@@ -14,12 +14,18 @@ class CfgPatches
 			"BaseBuilding_Floor",
 			"BaseBuilding_DoorWall",
 			"BaseBuilding_DoubleDoorWall",
-			"BaseBuilding_DoorFrame"
+			"BaseBuilding_DoorFrame",
+			"Gear_CodeLock"
         };
 	};
 };//meow
 class CfgVehicles
 {
+	class Inventory_Base;
+	class RA_CodeLock: Inventory_Base
+	{
+		model = "MassiveMod\ModTweaks\RABasebuilding\Data\Codelock.p3d";
+	};
 	class BaseBuilding;
 	class BaseBuilding_DoubleDoorBase;
 	class BaseBuilding_WallBase;
