@@ -1,0 +1,166 @@
+<spawnabletypes>
+	<type name="H4_UAZ452A_Green">
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Wheel" chance="0.80" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Wheel" chance="0.40" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Wheel" chance="0.30" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Wheel" chance="0.80" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="H4_UAZ452A_Doors_Driver_Green" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="H4_UAZ452A_Doors_CoDriver_Green" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="H4_UAZ452A_Doors_Cargo1_Green" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="H4_UAZ452A_Doors_Trunk1_Green" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="H4_UAZ452A_Doors_Trunk2_Green" chance="1.00" />
+        </attachments>
+	</type>
+	<type name="H4_UAZ452A_Police">
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Wheel" chance="0.80" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Wheel" chance="0.40" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Wheel" chance="0.30" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Wheel" chance="0.80" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="H4_UAZ452A_Doors_Driver_Police" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="H4_UAZ452A_Doors_CoDriver_Police" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="H4_UAZ452A_Doors_Cargo1_Police" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="H4_UAZ452A_Doors_Trunk1_Police" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="H4_UAZ452A_Doors_Trunk2_Police" chance="1.00" />
+        </attachments>
+	</type>
+	<type name="H4_UAZ452A_Medical">
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Wheel" chance="0.80" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Wheel" chance="0.40" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Wheel" chance="0.30" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Wheel" chance="0.80" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="H4_UAZ452A_Doors_Driver_Medical" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="H4_UAZ452A_Doors_CoDriver_Medical" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="H4_UAZ452A_Doors_Cargo1_Medical" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="H4_UAZ452A_Doors_Trunk1_Medical" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="H4_UAZ452A_Doors_Trunk2_Medical" chance="1.00" />
+        </attachments>
+	</type>
+	<type name="H4_UAZ452A_Blue">
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Wheel" chance="0.80" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Wheel" chance="0.40" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Wheel" chance="0.30" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TF_UAZ3151_Wheel" chance="0.80" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="H4_UAZ452A_Doors_Driver_Blue" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="H4_UAZ452A_Doors_CoDriver_Blue" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="H4_UAZ452A_Doors_Cargo1_Blue" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="H4_UAZ452A_Doors_Trunk1_Blue" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="H4_UAZ452A_Doors_Trunk2_Blue" chance="1.00" />
+        </attachments>
+	</type>
+</spawnabletypes>

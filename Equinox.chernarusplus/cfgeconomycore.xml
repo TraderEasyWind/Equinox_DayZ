@@ -68,9 +68,15 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
         <file name="CJ187NVGstypes.xml" type="types" />
 	</ce>
 	<ce folder="CustomTypes/UAZ">
-        <file name="UAZTypes.xml" type="types" />
-		<file name="UAZEvent.xml" type="events" />
-		<file name="UAZCfgSpawnabletypes.xml" type="spawnabletypes" />
+        <file name="UAZ3151_Types.xml" type="types" />
+		<file name="UAZ452A_Types.xml" type="types" />
+		<file name="UAZ_Events.xml" type="events" />
+		<file name="UAZ3151_CfgSpawnableTypes.xml" type="spawnabletypes" />
+		<file name="UAZ452A_CfgSpawnableTypes.xml" type="spawnabletypes" />
+	</ce>
+	<ce folder="CustomTypes/VAZ2126">
+        <file name="VAZ2126_Types.xml" type="types" />
+		<file name="VAZ2126_CfgSpawnableTypes.xml" type="spawnabletypes" />
 	</ce>
 	<ce folder="CustomTypes/ZensMods">
 		<file name="leftoverstypes.xml" type="types" />
