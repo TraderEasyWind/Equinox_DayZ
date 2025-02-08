@@ -26,10 +26,10 @@ class CfgVehicles
 		{
 			"Zil130Wheel_1_1",
 			"Zil130Wheel_2_1",
-			"Truck_01_Wheel_1_2",
-			"Truck_01_Wheel_1_3",
-			"Truck_01_Wheel_2_2",
-			"Truck_01_Wheel_2_3"
+			"Truck_01_Wheel_1_1",
+			"Truck_01_Wheel_2_1",
+			"Truck_01_Wheel_Spare_1",
+			"Truck_01_Wheel_Spare_2"
 		};
 	};
 	class MassiveMod_Med_TruckWheel_Double: Truck_01_WheelDouble

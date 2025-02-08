@@ -8,6 +8,23 @@ class CfgPatches
 		requiredAddons[] = {"Gerph_Zil130","nm_Flagextension"};
 	};
 };
+class CfgSlots
+{
+	class Slot_Zil130Wheel_1_2
+	{
+		name="Zil130Wheel_1_2";
+		displayName="#STR_CfgWheel0";
+		selection="wheel_1_2";
+		ghostIcon="set:dayz_inventory image:doublewheel";
+	};
+	class Slot_Zil130Wheel_2_2
+	{
+		name="Zil130Wheel_2_2";
+		displayName="#STR_CfgWheel0";
+		selection="wheel_2_2";
+		ghostIcon="set:dayz_inventory image:doublewheel";
+	};
+};
 class CfgVehicles
 {
 	class CarScript;
