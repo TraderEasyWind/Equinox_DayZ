@@ -20,7 +20,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>			
     	<!--Аттачменты / Attachments  -->
-    <type name="TF_UAZ3151_Wheel">
+    <type name="MassiveMod_UAZ_Wheel">
         <nominal>15</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
