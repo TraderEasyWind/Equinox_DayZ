@@ -88,7 +88,7 @@ class CfgVehicles
 			"Truck_01_Wheel_Spare_2"
 		};
 	};
-	class MassiveMod_Med_TruckWheel_Double: Truck_01_WheelDouble_Ruined
+	class MassiveMod_Med_TruckWheel_Double: Truck_01_WheelDouble
 	{
 		displayName="Tandem Truck Wheel";
 		descriptionShort="Two truck wheels in tandem, meant for the rear axle of most medium duty vehicles.";
