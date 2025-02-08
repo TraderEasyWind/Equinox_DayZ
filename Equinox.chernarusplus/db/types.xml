@@ -14515,6 +14515,7 @@
         <category name="lootdispatch"/>
         <usage name="Military"/>
     </type>
+<!--
     <type name="Offroad_02_Wheel">
         <nominal>40</nominal>
         <lifetime>28800</lifetime>
@@ -14531,6 +14532,7 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
+-->
     <type name="OrientalMachete">
         <nominal>3</nominal>
         <lifetime>14400</lifetime>

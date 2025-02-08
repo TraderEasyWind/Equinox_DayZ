@@ -3285,19 +3285,19 @@
 	</type>
 	<type name="Offroad_02">
 		<attachments chance="1.00">
-			<item name="Offroad_02_Wheel" chance="0.80" />
+			<item name="MassiveMod_Offroad_02_Wheel" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Offroad_02_Wheel" chance="0.80" />
+			<item name="MassiveMod_Offroad_02_Wheel" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Offroad_02_Wheel" chance="0.80" />
+			<item name="MassiveMod_Offroad_02_Wheel" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Offroad_02_Wheel" chance="0.80" />
+			<item name="MassiveMod_Offroad_02_Wheel" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Offroad_02_Wheel" chance="0.40" />
+			<item name="MassiveMod_Offroad_02_Wheel" chance="0.40" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Offroad_02_Trunk" chance="0.50" />

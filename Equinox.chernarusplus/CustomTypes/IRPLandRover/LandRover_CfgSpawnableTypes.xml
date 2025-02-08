@@ -1,16 +1,19 @@
 <spawnabletypes>
 	<type name="CrSk_Land_Rover_Defender_110">
 		<attachments chance="1.00">
-			<item name="Defender110_koleso" chance="0.60" />
+			<item name="MassiveMod_Offroad_02_Wheel" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Defender110_koleso" chance="0.60" />
+			<item name="MassiveMod_Offroad_02_Wheel" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Defender110_koleso" chance="0.40" />
+			<item name="MassiveMod_Offroad_02_Wheel" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Defender110_koleso" chance="0.40" />
+			<item name="MassiveMod_Offroad_02_Wheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MassiveMod_Offroad_02_Wheel" chance="0.40" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Defender110_dver_1_1" chance="1.00" />
@@ -48,16 +51,16 @@
 	</type>
 	<type name="CrSk_Land_Rover_Defender_110_Red">
 		<attachments chance="1.00">
-			<item name="Defender110_koleso" chance="0.60" />
+			<item name="MassiveMod_Offroad_02_Wheel" chance="0.60" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Defender110_koleso" chance="0.60" />
+			<item name="MassiveMod_Offroad_02_Wheel" chance="0.60" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Defender110_koleso" chance="0.40" />
+			<item name="MassiveMod_Offroad_02_Wheel" chance="0.40" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Defender110_koleso" chance="0.40" />
+			<item name="MassiveMod_Offroad_02_Wheel" chance="0.40" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Defender110_dver_1_1_Red" chance="1.00" />
@@ -95,16 +98,16 @@
 	</type>
 	<type name="CrSk_Land_Rover_Defender_110_Green">
 		<attachments chance="1.00">
-			<item name="Defender110_koleso" chance="0.60" />
+			<item name="MassiveMod_Offroad_02_Wheel" chance="0.60" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Defender110_koleso" chance="0.60" />
+			<item name="MassiveMod_Offroad_02_Wheel" chance="0.60" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Defender110_koleso" chance="0.40" />
+			<item name="MassiveMod_Offroad_02_Wheel" chance="0.40" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Defender110_koleso" chance="0.40" />
+			<item name="MassiveMod_Offroad_02_Wheel" chance="0.40" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Defender110_dver_1_1_Green" chance="1.00" />
@@ -142,16 +145,16 @@
 	</type>
 	<type name="CrSk_Land_Rover_Defender_110_UN">
 		<attachments chance="1.00">
-			<item name="Defender110_koleso" chance="0.60" />
+			<item name="MassiveMod_Offroad_02_Wheel" chance="0.60" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Defender110_koleso" chance="0.60" />
+			<item name="MassiveMod_Offroad_02_Wheel" chance="0.60" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Defender110_koleso" chance="0.40" />
+			<item name="MassiveMod_Offroad_02_Wheel" chance="0.40" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Defender110_koleso" chance="0.40" />
+			<item name="MassiveMod_Offroad_02_Wheel" chance="0.40" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Defender110_dver_1_1_UN" chance="0.40" />

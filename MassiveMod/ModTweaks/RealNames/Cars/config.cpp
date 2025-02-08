@@ -31,13 +31,15 @@ class cfgVehicles
 	};
 	class HatchbackWheel: CarWheel
 	{
-		displayName="$STR_real_HatchbackWheel0";
-		descriptionShort="$STR_real_hatchbackwheel1";
+		//displayName="$STR_real_HatchbackWheel0";
+		//descriptionShort="$STR_real_hatchbackwheel1";
+		displayName="Eastern Offroad Wheel";
+		descriptionShort="Durable steel wheel and tire that fit a variety of compact, utilitarian pickups and SUV's. The rugged tread allows for greater traction delivery on all surfaces.";
 	};
 	class HatchbackWheel_Ruined: CarWheel
 	{
-		displayName="$STR_real_HatchbackWheel0";
-		descriptionShort="$STR_real_HatchbackWheel1";
+		displayName="Eastern Offroad Wheel";
+		descriptionShort="Durable steel wheel and tire that fit a variety of compact, utilitarian pickups and SUV's. The rugged tread allows for greater traction delivery on all surfaces.";
 	};
 	class HatchbackDoors_Driver: CarDoor
 	{
