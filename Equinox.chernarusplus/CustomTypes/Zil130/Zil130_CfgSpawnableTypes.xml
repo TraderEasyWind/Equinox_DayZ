@@ -1,28 +1,28 @@
 <spawnabletypes>
 	<type name="Gerph_Zil130">
 		<attachments chance="1.00">
-			<item name="Zil130Wheel" chance="0.60" />
+			<item name="MassiveMod_Med_TruckWheel" chance="0.60" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Zil130Wheel" chance="0.60" />
+			<item name="MassiveMod_Med_TruckWheel" chance="0.60" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Zil130Wheel" chance="0.40" />
+			<item name="MassiveMod_Med_TruckWheel" chance="0.40" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Zil130Wheel" chance="0.40" />
+			<item name="MassiveMod_Med_TruckWheel" chance="0.40" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Zil130Wheel" chance="0.40" />
+			<item name="MassiveMod_Med_TruckWheel" chance="0.40" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Zil130Wheel" chance="0.40" />
+			<item name="MassiveMod_Med_TruckWheel" chance="0.40" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Zil130Wheel" chance="0.40" />
+			<item name="MassiveMod_Med_TruckWheel" chance="0.40" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Zil130Wheel" chance="0.40" />
+			<item name="MassiveMod_Med_TruckWheel" chance="0.40" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="TruckBattery" chance="0.25" />
@@ -48,28 +48,28 @@
 	</type>
 	<type name="Gerph_Zil130_Green">
 		<attachments chance="1.00">
-			<item name="Zil130Wheel" chance="0.60" />
+			<item name="MassiveMod_Med_TruckWheel" chance="0.60" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Zil130Wheel" chance="0.60" />
+			<item name="MassiveMod_Med_TruckWheel" chance="0.60" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Zil130Wheel" chance="0.40" />
+			<item name="MassiveMod_Med_TruckWheel" chance="0.40" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Zil130Wheel" chance="0.40" />
+			<item name="MassiveMod_Med_TruckWheel" chance="0.40" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Zil130Wheel" chance="0.40" />
+			<item name="MassiveMod_Med_TruckWheel" chance="0.40" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Zil130Wheel" chance="0.40" />
+			<item name="MassiveMod_Med_TruckWheel" chance="0.40" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Zil130Wheel" chance="0.40" />
+			<item name="MassiveMod_Med_TruckWheel" chance="0.40" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Zil130Wheel" chance="0.40" />
+			<item name="MassiveMod_Med_TruckWheel" chance="0.40" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="TruckBattery" chance="0.25" />

@@ -16892,8 +16892,8 @@
 						<point pos="1.395357 0.000000 2.010839" range="0.849365" height="2.000000" flags="32" />
 				</container>
 				<dispatch>
-						<proxy type="Truck_01_Wheel" pos="-2.18 0.46 0.98" rpy="0.0 0.0 0.0" />
-						<proxy type="Truck_01_WheelDouble" pos="2.48 0.43 -0.86" rpy="0.0 0.0 0.0" />
+						<proxy type="MassiveMod_Med_TruckWheel" pos="-2.18 0.46 0.98" rpy="0.0 0.0 0.0" />
+						<proxy type="MassiveMod_Med_TruckWheel_Double" pos="2.48 0.43 -0.86" rpy="0.0 0.0 0.0" />
 						<proxy type="Truck_01_Door_2_1_GreenRust" pos="-1.55 1.11 0.97" rpy="0.0 190.0 0.0" />
 						<proxy type="Truck_01_Hood_GreenRust" pos="-1.85 1.70 -0.1" rpy="0.0 180.0 0.0" />
 				</dispatch>
@@ -16919,8 +16919,8 @@
 						<point pos="1.395357 0.000000 2.010839" range="0.849365" height="2.000000" flags="32" />
 				</container>
 				<dispatch>
-						<proxy type="Truck_01_Wheel" pos="-2.18 0.46 0.98" rpy="0.0 0.0 0.0" />
-						<proxy type="Truck_01_WheelDouble" pos="2.48 0.43 -0.86" rpy="0.0 0.0 0.0" />
+						<proxy type="MassiveMod_Med_TruckWheel" pos="-2.18 0.46 0.98" rpy="0.0 0.0 0.0" />
+						<proxy type="MassiveMod_Med_TruckWheel_Double" pos="2.48 0.43 -0.86" rpy="0.0 0.0 0.0" />
 						<proxy type="Truck_01_Door_2_1_BlueRust" pos="-1.55 1.11 0.97" rpy="0.0 190.0 0.0" />
 						<proxy type="Truck_01_Hood_BlueRust" pos="-1.85 1.70 -0.1" rpy="0.0 180.0 0.0" />
 				</dispatch>
@@ -16946,8 +16946,8 @@
 						<point pos="1.395357 0.000000 2.010839" range="0.849365" height="2.000000" flags="32" />
 				</container>
 				<dispatch>
-						<proxy type="Truck_01_Wheel" pos="-2.18 0.46 0.98" rpy="0.0 0.0 0.0" />
-						<proxy type="Truck_01_WheelDouble" pos="2.48 0.43 -0.86" rpy="0.0 0.0 0.0" />
+						<proxy type="MassiveMod_Med_TruckWheel" pos="-2.18 0.46 0.98" rpy="0.0 0.0 0.0" />
+						<proxy type="MassiveMod_Med_TruckWheel_Double" pos="2.48 0.43 -0.86" rpy="0.0 0.0 0.0" />
 						<proxy type="Truck_01_Door_2_1_OrangeRust" pos="-1.55 1.11 0.97" rpy="0.0 190.0 0.0" />
 						<proxy type="Truck_01_Hood_OrangeRust" pos="-1.85 1.70 -0.1" rpy="0.0 180.0 0.0" />
 				</dispatch>
@@ -16971,8 +16971,8 @@
 						<point pos="-1.549180 0.000000 1.682494" range="0.816895" height="0.144592" flags="32" />
 				</container>
 				<dispatch>
-						<proxy type="Truck_01_Wheel" pos="-2.18 0.46 -0.98" rpy="0.0 180.0 0.0" />
-						<proxy type="Truck_01_WheelDouble" pos="1.42 0.43 0.96" rpy="0.0 0.0 0.0" />
+						<proxy type="MassiveMod_Med_TruckWheel" pos="-2.18 0.46 -0.98" rpy="0.0 180.0 0.0" />
+						<proxy type="MassiveMod_Med_TruckWheel_Double" pos="1.42 0.43 0.96" rpy="0.0 0.0 0.0" />
 						<proxy type="Truck_01_Door_1_1_GreenRust" pos="-1.55 1.02 -1.10" rpy="0.0 160.0 0.0" />
 				</dispatch>
 		</group>
@@ -16995,8 +16995,8 @@
 						<point pos="-1.549180 0.000000 1.682494" range="0.816895" height="0.144592" flags="32" />
 				</container>
 				<dispatch>
-						<proxy type="Truck_01_Wheel" pos="-2.18 0.46 -0.98" rpy="0.0 180.0 0.0" />
-						<proxy type="Truck_01_WheelDouble" pos="1.42 0.43 0.96" rpy="0.0 0.0 0.0" />
+						<proxy type="MassiveMod_Med_TruckWheel" pos="-2.18 0.46 -0.98" rpy="0.0 180.0 0.0" />
+						<proxy type="MassiveMod_Med_TruckWheel_Double" pos="1.42 0.43 0.96" rpy="0.0 0.0 0.0" />
 						<proxy type="Truck_01_Door_1_1_BlueRust" pos="-1.55 1.02 -1.10" rpy="0.0 160.0 0.0" />
 				</dispatch>
 		</group>
@@ -17019,8 +17019,8 @@
 						<point pos="-1.549180 0.000000 1.682494" range="0.816895" height="0.144592" flags="32" />
 				</container>
 				<dispatch>
-						<proxy type="Truck_01_Wheel" pos="-2.18 0.46 -0.98" rpy="0.0 180.0 0.0" />
-						<proxy type="Truck_01_WheelDouble" pos="1.42 0.43 0.96" rpy="0.0 0.0 0.0" />
+						<proxy type="MassiveMod_Med_TruckWheel" pos="-2.18 0.46 -0.98" rpy="0.0 180.0 0.0" />
+						<proxy type="MassiveMod_Med_TruckWheel_Double" pos="1.42 0.43 0.96" rpy="0.0 0.0 0.0" />
 						<proxy type="Truck_01_Door_1_1_OrangeRust" pos="-1.55 1.02 -1.10" rpy="0.0 160.0 0.0" />
 				</dispatch>
 		</group>
@@ -17051,8 +17051,8 @@
 						<point pos="0.887351 1.052353 -0.238587" range="0.134375" height="0.335938" />
 				</container>
 				<dispatch dechance="0.000000">
-						<proxy type="Truck_01_Wheel" pos="-2.180125 0.459991 0.979816" rpy="0.000000 5.263660 0.000000" dechance="0.000000" />
-						<proxy type="Truck_01_WheelDouble" pos="2.480012 0.429993 -0.860163" rpy="0.000000 5.263660 0.000000" dechance="0.000000" />
+						<proxy type="MassiveMod_Med_TruckWheel" pos="-2.180125 0.459991 0.979816" rpy="0.000000 5.263660 0.000000" dechance="0.000000" />
+						<proxy type="MassiveMod_Med_TruckWheel_Double" pos="2.480012 0.429993 -0.860163" rpy="0.000000 5.263660 0.000000" dechance="0.000000" />
 				</dispatch>
 		</group>
 		<group name="Land_wreck_truck01_aban2_firetruck">
@@ -17078,8 +17078,8 @@
 						<point pos="3.312476 1.045105 -0.330585" range="0.237500" height="0.593750" />
 				</container>
 				<dispatch dechance="0.000000">
-						<proxy type="Truck_01_Wheel" pos="-2.179965 0.459991 -0.980243" rpy="0.000000 185.275574 0.000000" dechance="0.000000" />
-						<proxy type="Truck_01_WheelDouble" pos="1.420045 0.429993 0.959693" rpy="0.000000 185.724426 0.000000" dechance="0.000000" />
+						<proxy type="MassiveMod_Med_TruckWheel" pos="-2.179965 0.459991 -0.980243" rpy="0.000000 185.275574 0.000000" dechance="0.000000" />
+						<proxy type="MassiveMod_Med_TruckWheel_Double" pos="1.420045 0.429993 0.959693" rpy="0.000000 185.724426 0.000000" dechance="0.000000" />
 				</dispatch>
 		</group>
 		<group name="Land_wreck_truck01_aban1_firetruck_DE">
@@ -17109,8 +17109,8 @@
 						<point pos="0.887351 1.052353 -0.238587" range="0.134375" height="0.335938" />
 				</container>
 				<dispatch dechance="0.000000">
-						<proxy type="Truck_01_Wheel" pos="-2.180125 0.459991 0.979816" rpy="0.000000 5.263660 0.000000" dechance="0.000000" />
-						<proxy type="Truck_01_WheelDouble" pos="2.480012 0.429993 -0.860163" rpy="0.000000 5.263660 0.000000" dechance="0.000000" />
+						<proxy type="MassiveMod_Med_TruckWheel" pos="-2.180125 0.459991 0.979816" rpy="0.000000 5.263660 0.000000" dechance="0.000000" />
+						<proxy type="MassiveMod_Med_TruckWheel_Double" pos="2.480012 0.429993 -0.860163" rpy="0.000000 5.263660 0.000000" dechance="0.000000" />
 				</dispatch>
 		</group>
 		<group name="Land_wreck_truck01_aban2_firetruck_DE">
@@ -17136,8 +17136,8 @@
 						<point pos="3.312476 1.045105 -0.330585" range="0.237500" height="0.593750" />
 				</container>
 				<dispatch dechance="0.000000">
-						<proxy type="Truck_01_Wheel" pos="-2.179965 0.459991 -0.980243" rpy="0.000000 185.275574 0.000000" dechance="0.000000" />
-						<proxy type="Truck_01_WheelDouble" pos="1.420045 0.429993 0.959693" rpy="0.000000 185.724426 0.000000" dechance="0.000000" />
+						<proxy type="MassiveMod_Med_TruckWheel" pos="-2.179965 0.459991 -0.980243" rpy="0.000000 185.275574 0.000000" dechance="0.000000" />
+						<proxy type="MassiveMod_Med_TruckWheel_Double" pos="1.420045 0.429993 0.959693" rpy="0.000000 185.724426 0.000000" dechance="0.000000" />
 				</dispatch>
 		</group>
 		<!-- SEASONAL EVENT-->
@@ -17681,8 +17681,8 @@
 						<point pos="1.779244 0.104156 2.437904" range="0.959375" height="2.000000" flags="32" />
 						</container>
 						<dispatch>
-								<proxy type="Truck_01_Wheel" pos="-2.18 0.46 -0.98" rpy="0.0 180.0 0.0" />
-								<proxy type="Truck_01_WheelDouble" pos="1.42 0.43 0.96" rpy="0.0 0.0 0.0" />
+								<proxy type="MassiveMod_Med_TruckWheel" pos="-2.18 0.46 -0.98" rpy="0.0 180.0 0.0" />
+								<proxy type="MassiveMod_Med_TruckWheel_Double" pos="1.42 0.43 0.96" rpy="0.0 0.0 0.0" />
 								<proxy type="Truck_01_Door_1_1_GreenRust" pos="-1.55 1.02 -1.10" rpy="0.0 160.0 0.0" />
 						</dispatch>
 		</group>
@@ -17701,8 +17701,8 @@
 						<point pos="1.779244 0.104156 2.437904" range="0.959375" height="2.000000" flags="32" />
 						</container>
 						<dispatch>
-								<proxy type="Truck_01_Wheel" pos="-2.18 0.46 -0.98" rpy="0.0 180.0 0.0" />
-								<proxy type="Truck_01_WheelDouble" pos="1.42 0.43 0.96" rpy="0.0 0.0 0.0" />
+								<proxy type="MassiveMod_Med_TruckWheel" pos="-2.18 0.46 -0.98" rpy="0.0 180.0 0.0" />
+								<proxy type="MassiveMod_Med_TruckWheel_Double" pos="1.42 0.43 0.96" rpy="0.0 0.0 0.0" />
 								<proxy type="Truck_01_Door_1_1_GreenRust" pos="-1.55 1.02 -1.10" rpy="0.0 160.0 0.0" />
 						</dispatch>
 		</group>
@@ -17846,8 +17846,8 @@
 							<point pos="0.722845 1.138458 -0.120233" range="0.670942" height="1.677856" />
 						</container>
 						<dispatch>
-								<proxy type="Truck_01_Wheel" pos="-2.18 0.46 0.98" rpy="0.0 0.0 0.0" />
-								<proxy type="Truck_01_WheelDouble" pos="2.48 0.43 -0.86" rpy="0.0 0.0 0.0" />
+								<proxy type="MassiveMod_Med_TruckWheel" pos="-2.18 0.46 0.98" rpy="0.0 0.0 0.0" />
+								<proxy type="MassiveMod_Med_TruckWheel_Double" pos="2.48 0.43 -0.86" rpy="0.0 0.0 0.0" />
 								<proxy type="Truck_01_Door_2_1_BlueRust" pos="-1.55 1.11 0.97" rpy="0.0 190.0 0.0" />
 								<proxy type="Truck_01_Hood_BlueRust" pos="-1.85 1.70 -0.1" rpy="0.0 180.0 0.0" />
 						</dispatch>
@@ -17869,8 +17869,8 @@
 							<point pos="0.722845 1.138458 -0.120233" range="0.670942" height="1.677856" />
 						</container>
 						<dispatch>
-								<proxy type="Truck_01_Wheel" pos="-2.18 0.46 0.98" rpy="0.0 0.0 0.0" />
-								<proxy type="Truck_01_WheelDouble" pos="2.48 0.43 -0.86" rpy="0.0 0.0 0.0" />
+								<proxy type="MassiveMod_Med_TruckWheel" pos="-2.18 0.46 0.98" rpy="0.0 0.0 0.0" />
+								<proxy type="MassiveMod_Med_TruckWheel_Double" pos="2.48 0.43 -0.86" rpy="0.0 0.0 0.0" />
 								<proxy type="Truck_01_Door_2_1_OrangeRust" pos="-1.55 1.11 0.97" rpy="0.0 190.0 0.0" />
 								<proxy type="Truck_01_Hood_OrangeRust" pos="-1.85 1.70 -0.1" rpy="0.0 180.0 0.0" />
 						</dispatch>
@@ -17892,8 +17892,8 @@
 							<point pos="0.722845 1.138458 -0.120233" range="0.670942" height="1.677856" />
 						</container>
 						<dispatch>
-								<proxy type="Truck_01_Wheel" pos="-2.18 0.46 -0.98" rpy="0.0 180.0 0.0" />
-								<proxy type="Truck_01_WheelDouble" pos="1.42 0.43 0.96" rpy="0.0 0.0 0.0" />
+								<proxy type="MassiveMod_Med_TruckWheel" pos="-2.18 0.46 -0.98" rpy="0.0 180.0 0.0" />
+								<proxy type="MassiveMod_Med_TruckWheel_Double" pos="1.42 0.43 0.96" rpy="0.0 0.0 0.0" />
 								<proxy type="Truck_01_Door_1_1_BlueRust" pos="-1.55 1.02 -1.10" rpy="0.0 160.0 0.0" />
 						</dispatch>
 		</group>
@@ -17914,8 +17914,8 @@
 							<point pos="0.722845 1.138458 -0.120233" range="0.670942" height="1.677856" />
 						</container>
 						<dispatch>
-								<proxy type="Truck_01_Wheel" pos="-2.18 0.46 -0.98" rpy="0.0 180.0 0.0" />
-								<proxy type="Truck_01_WheelDouble" pos="1.42 0.43 0.96" rpy="0.0 0.0 0.0" />
+								<proxy type="MassiveMod_Med_TruckWheel" pos="-2.18 0.46 -0.98" rpy="0.0 180.0 0.0" />
+								<proxy type="MassiveMod_Med_TruckWheel_Double" pos="1.42 0.43 0.96" rpy="0.0 0.0 0.0" />
 								<proxy type="Truck_01_Door_1_1_OrangeRust" pos="-1.55 1.02 -1.10" rpy="0.0 160.0 0.0" />
 						</dispatch>
 		</group>

@@ -13,7 +13,41 @@ class CfgPatches
         };
 	};
 };
-
+class CfgVehicles
+{
+	class Truck_01_Wheel;
+	class Truck_01_WheelDouble;
+	class MassiveMod_Med_TruckWheel: Truck_01_Wheel
+	{
+		scope=2;
+		displayName="Truck Wheel";
+		descriptionShort="This medium duty wheel fits all trucks with a curb weight of up to 8000 kg";
+		inventorySlot[]=
+		{
+			"Zil130Wheel_1_1",
+			"Zil130Wheel_2_1",
+			"Truck_01_Wheel_1_2",
+			"Truck_01_Wheel_1_3",
+			"Truck_01_Wheel_2_2",
+			"Truck_01_Wheel_2_3"
+		};
+	};
+	class MassiveMod_Med_TruckWheel_Double: Truck_01_WheelDouble
+	{
+		displayName="Tandem Truck Wheel";
+		descriptionShort="Two truck wheels in tandem, meant for the rear axle of most medium duty vehicles.";
+		model="\DZ\vehicles\wheeled\Truck_01\proxy\Truck_01_WheelDouble.p3d";
+		inventorySlot[]=
+		{
+			"Truck_01_Wheel_1_2",
+			"Truck_01_Wheel_1_3",
+			"Truck_01_Wheel_2_2",
+			"Truck_01_Wheel_2_3",
+			"Zil130Wheel_1_2",
+			"Zil130Wheel_2_2"
+		};
+	};
+};
 class CarScript;
 class SimulationModule;
 class Offroad_02: Carscript
