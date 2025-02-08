@@ -1178,7 +1178,7 @@
         <usage name="Military"/>
     </type>
     <type name="Defender_Vest_Classic">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -1192,7 +1192,7 @@
         <value name="Tier4"/>
     </type>
     <type name="Defender_Vest_Black">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -1206,7 +1206,7 @@
         <value name="Tier4"/>
     </type>
     <type name="Defender_Vest_Green">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>0</min>

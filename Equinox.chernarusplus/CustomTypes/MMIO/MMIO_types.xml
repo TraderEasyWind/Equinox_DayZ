@@ -2473,10 +2473,10 @@
         <lifetime>10800</lifetime>
     </type>
 	<type name="MassM417">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>28800</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>

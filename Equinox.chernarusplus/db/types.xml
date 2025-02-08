@@ -7121,10 +7121,10 @@
         <category name="tools"/>
     </type>
     <type name="FieldShovel">
-        <nominal>35</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>28</min>
+        <min>7</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
