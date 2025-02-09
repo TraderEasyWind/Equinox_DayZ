@@ -3364,9 +3364,9 @@
         <category name="food"/>
     </type>
     <type name="BearTrap">
-        <nominal>10</nominal>
+        <nominal>8</nominal>
         <lifetime>604800</lifetime>
-        <restock>43200</restock>
+        <restock>14400</restock>
         <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -10779,7 +10779,7 @@
     <type name="LandMineTrap">
         <nominal>4</nominal>
         <lifetime>604800</lifetime>
-        <restock>64800</restock>
+        <restock>28800</restock>
         <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
