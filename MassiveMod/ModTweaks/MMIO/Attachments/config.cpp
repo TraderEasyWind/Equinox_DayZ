@@ -13,10 +13,3 @@ class CfgPatches
         };
 	};
 };//meow
-class CfgVehicles
-{
-	class M4_OEBttstck;
-	class MassAR15AdjBttstck: M4_OEBttstck
-	{
-	};
-};
