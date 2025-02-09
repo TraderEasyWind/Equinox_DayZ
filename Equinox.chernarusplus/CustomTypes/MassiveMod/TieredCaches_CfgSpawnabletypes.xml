@@ -363,6 +363,13 @@
 			<item name="MassiveMod_UrbanPackage" chance="0.05" />
 			<item name="MassiveMod_InvertGorkaWoodlandPackage" chance="0.05" />
 			<item name="MassiveMod_InvertGorkaWinterPackage" chance="0.05" />
+			<item name="MassiveMod_IrishDPMPackage" chance="0.05" />
+			<item name="MassiveMod_SwedenM90Package" chance="0.05" />
+			<item name="MassiveMod_ThailandUrbanPackage" chance="0.05" />
+			<item name="MassiveMod_FinnishM05Package" chance="0.05" />
+			<item name="MassiveMod_BritishDPM95Package" chance="0.05" />
+			<item name="MassiveMod_RussianMVDRastrPackage" chance="0.05" />
+			<item name="MassiveMod_NorthKStripePackage" chance="0.05" />
 		</cargo>
 		<cargo chance="0.40">
 			<item name="Massbag"  chance="0.142857142857" />
@@ -489,17 +496,27 @@
 			<item name="MassMRE9" chance="0.33" />
 			<item name="MassMRE10" chance="0.33" />
 		</cargo>
-        <cargo chance="0.40">
-			<item name="MassiveMod_BDUPackage" chance="0.0666666666667" />
-			<item name="MassiveMod_GorkaAutumnPackage" chance="0.0666666666667" />
-			<item name="MassiveMod_GorkaFlatPackage" chance="0.0666666666667" />
-			<item name="MassiveMod_GorkaSummerPackage" chance="0.0666666666667" />
-			<item name="MassiveMod_USMCDesertPackage" chance="0.0666666666667" />
-			<item name="MassiveMod_USMCWoodlandPackage" chance="0.0666666666667" />
-		    <item name="Mass_CamonetGhillie_Marpat" chance="0.0666666666667" />
-			<item name="Mass_CamonetGhillie_Nato" chance="0.0666666666667" />
-			<item name="Mass_CamonetGhillie_East" chance="0.0666666666667" />
-			<item name="MassGDShirt" chance="0.0666666666667" />
+		<cargo chance="0.40">
+			<item name="MassiveMod_BDUPackage" chance="0.05" />
+			<item name="MassiveMod_WinterBDUPackage" chance="0.05" />
+			<item name="MassiveMod_GorkaAutumnPackage" chance="0.05" />
+			<item name="MassiveMod_GorkaFlatPackage" chance="0.05" />
+			<item name="MassiveMod_GorkaSummerPackage" chance="0.05" />
+			<item name="MassiveMod_GorkaPautRevPackage" chance="0.05" />
+			<item name="MassiveMod_USMCDesertPackage" chance="0.05" />
+			<item name="MassiveMod_USMCWoodlandPackage" chance="0.05" />
+			<item name="MassiveMod_TTSKOPackage" chance="0.05" />
+			<item name="MassiveMod_TropicamPackage" chance="0.05" />
+			<item name="MassiveMod_UrbanPackage" chance="0.05" />
+			<item name="MassiveMod_InvertGorkaWoodlandPackage" chance="0.05" />
+			<item name="MassiveMod_InvertGorkaWinterPackage" chance="0.05" />
+			<item name="MassiveMod_IrishDPMPackage" chance="0.05" />
+			<item name="MassiveMod_SwedenM90Package" chance="0.05" />
+			<item name="MassiveMod_ThailandUrbanPackage" chance="0.05" />
+			<item name="MassiveMod_FinnishM05Package" chance="0.05" />
+			<item name="MassiveMod_BritishDPM95Package" chance="0.05" />
+			<item name="MassiveMod_RussianMVDRastrPackage" chance="0.05" />
+			<item name="MassiveMod_NorthKStripePackage" chance="0.05" />
 		</cargo>
         <cargo chance="0.30">
 			<item name="MassRuckBagGorka" chance="0.20" />
@@ -627,17 +644,27 @@
 			<item name="MassMRE9" chance="0.33" />
 			<item name="MassMRE10" chance="0.33" />
 		</cargo>
-        <cargo chance="0.50">
-			<item name="MassiveMod_BDUPackage" chance="0.0666666666667" />
-			<item name="MassiveMod_GorkaAutumnPackage" chance="0.0666666666667" />
-			<item name="MassiveMod_GorkaFlatPackage" chance="0.0666666666667" />
-			<item name="MassiveMod_GorkaSummerPackage" chance="0.0666666666667" />
-			<item name="MassiveMod_USMCDesertPackage" chance="0.0666666666667" />
-			<item name="MassiveMod_USMCWoodlandPackage" chance="0.0666666666667" />
-		    <item name="Mass_CamonetGhillie_Marpat" chance="0.0666666666667" />
-			<item name="Mass_CamonetGhillie_Nato" chance="0.0666666666667" />
-			<item name="Mass_CamonetGhillie_East" chance="0.0666666666667" />
-			<item name="MassGDShirt" chance="0.0666666666667" />
+		<cargo chance="0.50">
+			<item name="MassiveMod_BDUPackage" chance="0.05" />
+			<item name="MassiveMod_WinterBDUPackage" chance="0.05" />
+			<item name="MassiveMod_GorkaAutumnPackage" chance="0.05" />
+			<item name="MassiveMod_GorkaFlatPackage" chance="0.05" />
+			<item name="MassiveMod_GorkaSummerPackage" chance="0.05" />
+			<item name="MassiveMod_GorkaPautRevPackage" chance="0.05" />
+			<item name="MassiveMod_USMCDesertPackage" chance="0.05" />
+			<item name="MassiveMod_USMCWoodlandPackage" chance="0.05" />
+			<item name="MassiveMod_TTSKOPackage" chance="0.05" />
+			<item name="MassiveMod_TropicamPackage" chance="0.05" />
+			<item name="MassiveMod_UrbanPackage" chance="0.05" />
+			<item name="MassiveMod_InvertGorkaWoodlandPackage" chance="0.05" />
+			<item name="MassiveMod_InvertGorkaWinterPackage" chance="0.05" />
+			<item name="MassiveMod_IrishDPMPackage" chance="0.05" />
+			<item name="MassiveMod_SwedenM90Package" chance="0.05" />
+			<item name="MassiveMod_ThailandUrbanPackage" chance="0.05" />
+			<item name="MassiveMod_FinnishM05Package" chance="0.05" />
+			<item name="MassiveMod_BritishDPM95Package" chance="0.05" />
+			<item name="MassiveMod_RussianMVDRastrPackage" chance="0.05" />
+			<item name="MassiveMod_NorthKStripePackage" chance="0.05" />
 		</cargo>
 		<cargo chance="0.50">
 			<item name="CJ_NVG_GPNVG18_Black" chance="0.25" />

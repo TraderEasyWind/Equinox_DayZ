@@ -113,4 +113,46 @@ class CfgVehicles
 		displayName="Inverted Gorka Winter Package";
 		descriptionShort=="A Package Containing a Full Set of Inverted Gorka Winter Clothing";
 	};
+	class MassiveMod_IrishDPMPackage: MassiveMod_PackageBase
+	{
+		scope=2;
+		displayName="Irish DPM Camo Package";
+		descriptionShort=="A Package Containing a Full Set of Irish DPM Mercenary Camo";
+	};
+	class MassiveMod_SwedenM90Package: MassiveMod_PackageBase
+	{
+		scope=2;
+		displayName="Sweden M90 Camo Package";
+		descriptionShort=="A Package Containing a Full Set of Sweden M90 Mercenary Camo";
+	};
+	class MassiveMod_ThailandUrbanPackage: MassiveMod_PackageBase
+	{
+		scope=2;
+		displayName="ThaiLand Urban Camo Package";
+		descriptionShort=="A Package Containing a Full Set of Thailand Urban Mercenary Camo";
+	};
+	class MassiveMod_FinnishM05Package: MassiveMod_PackageBase
+	{
+		scope=2;
+		displayName="Finnish M05 Camo Package";
+		descriptionShort=="A Package Containing a Full Set of Fnnish M05 Mercenary Camo";
+	};
+	class MassiveMod_BritishDPM95Package: MassiveMod_PackageBase
+	{
+		scope=2;
+		displayName="British DPM95 Camo Package";
+		descriptionShort=="A Package Containing a Full Set of British DPM95 Mercenary Camo";
+	};
+	class MassiveMod_RussianMVDRastrPackage: MassiveMod_PackageBase
+	{
+		scope=2;
+		displayName="MVD Special Operator Rastr Camo Package";
+		descriptionShort=="A Package Containing a Full Set of Russian Special Operator Camo";
+	};
+	class MassiveMod_NorthKStripePackage: MassiveMod_PackageBase
+	{
+		scope=2;
+		displayName="North Korean Tiger Camo Package";
+		descriptionShort=="A Package Containing a Full Set of North Koren Tiger Strip Mercenary Camo";
+	};	
 };

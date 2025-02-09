@@ -22,7 +22,14 @@ modded class PluginRecipesManager
      // RegisterRecipe(new StackCrates3);	
      // RegisterRecipe(new DeStackCrates3);
      // RegisterRecipe(new DeStackCrates2);
-     // RegisterRecipe(new DeStackCrates1);	
+     // RegisterRecipe(new DeStackCrates1);
+		RegisterRecipe(new UnpackIrishDMPCamo);
+		RegisterRecipe(new UnpackSwedenM90Camo);	
+		RegisterRecipe(new UnpackThailandUrbanCamo);	
+		RegisterRecipe(new UnpackFinnishM05Camo);	
+		RegisterRecipe(new UnpackBritishDPM95Camo);	
+		RegisterRecipe(new UnpackMVDRastrCamo);	
+		RegisterRecipe(new UnpackNorthKoreanTigerCamo);			
         RegisterRecipe(new UnpackBDUPackage);
         RegisterRecipe(new UnpackGorkaAutumnPackage);
         RegisterRecipe(new UnpackGorkaFlatPackage);
