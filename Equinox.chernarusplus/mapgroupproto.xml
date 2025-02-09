@@ -17555,9 +17555,9 @@
 						<point pos="-1.596639 -1.601072 -2.043298" range="1.199951" height="2.000000" flags="32" />
 				</container>
 				<dispatch>
-					<proxy type="Zil130Wheel" pos="-2.972656 -1.431122 -0.860840" rpy="0.000000 -2.140000 0.000000" />
-					<proxy type="Zil130Wheel" pos="1.626953 -1.281128 0.769043" rpy="0.000000 -0.862069 0.967709" />
-					<proxy type="Zil130Wheel" pos="0.626953 -1.292144 0.879394" rpy="-0.100000 -0.309028 0.951004" />
+					<proxy type="MassiveMod_Med_TruckWheel" pos="-2.972656 -1.431122 -0.860840" rpy="0.000000 -2.140000 0.000000" />
+					<proxy type="MassiveMod_Med_TruckWheel" pos="1.626953 -1.281128 0.769043" rpy="0.000000 -0.862069 0.967709" />
+					<proxy type="MassiveMod_Med_TruckWheel" pos="0.626953 -1.292144 0.879394" rpy="-0.100000 -0.309028 0.951004" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_V3S_DE" lootmax="15">
@@ -17576,9 +17576,9 @@
 						<point pos="-1.596639 -1.601072 -2.043298" range="1.199951" height="2.000000" flags="32" />
 				</container>
 				<dispatch>
-					<proxy type="Zil130Wheel" pos="-2.972656 -1.431122 -0.860840" rpy="0.000000 -2.140000 0.000000" />
-					<proxy type="Zil130Wheel" pos="1.626953 -1.281128 0.769043" rpy="0.000000 -0.862069 0.967709" />
-					<proxy type="Zil130Wheel" pos="0.626953 -1.292144 0.879394" rpy="-0.100000 -0.309028 0.951004" />
+					<proxy type="MassiveMod_Med_TruckWheel" pos="-2.972656 -1.431122 -0.860840" rpy="0.000000 -2.140000 0.000000" />
+					<proxy type="MassiveMod_Med_TruckWheel" pos="1.626953 -1.281128 0.769043" rpy="0.000000 -0.862069 0.967709" />
+					<proxy type="MassiveMod_Med_TruckWheel" pos="0.626953 -1.292144 0.879394" rpy="-0.100000 -0.309028 0.951004" />
 				</dispatch>
 		</group>
 		<group name="StaticObj_Wreck_BMP1_DE" lootmax="15">
@@ -17645,8 +17645,8 @@
 						<point pos="-0.741699 -0.552717 -2.021484" range="0.777832" height="1.944580" flags="32" />
 				</container>
 				<dispatch>
-					<proxy type="ExpansionVodnikWheel" pos="-1.393555 -0.266235 0.938476" rpy="0.000000 -18.000000 0.000000" />
-					<proxy type="ExpansionVodnikWheel" pos="1.306640 -0.238220 1.168457" rpy="0.000000 0.000000 0.000000" />
+					<proxy type="KamazWheel" pos="-1.393555 -0.266235 0.938476" rpy="0.000000 -18.000000 0.000000" />
+					<proxy type="KamazWheel" pos="1.306640 -0.238220 1.168457" rpy="0.000000 0.000000 0.000000" />
 				</dispatch>
 		</group>
 		<group name="StaticObj_Wreck_Ural_DE" lootmax="15">
