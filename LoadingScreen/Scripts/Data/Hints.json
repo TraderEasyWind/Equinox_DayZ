@@ -1,37 +1,121 @@
 [
 	{
-		"m_Headline": "Making History",
+		"m_Headline": "Orienteering Class",
 		"m_ImagePath": "",
-		"m_Description": "Add your contribution to the history of Equinox, post your stories and odd happenings to the journal."
+		"m_Description": "Lost? Hold K to view your compass."
 	},
 	{
-		"m_Headline": "Getting on the Map",
+		"m_Headline": "Get Down!",
 		"m_ImagePath": "",
-		"m_Description": "Looking to make your group official? Contact a member of staff and get the ball rolling today."
+		"m_Description": "You flinch as bullets pass nearby. making it difficult to react and return fire. Find cover!"
 	},
 	{
-		"m_Headline": "Oops!",
+		"m_Headline": "Be Prepared",
 		"m_ImagePath": "",
-		"m_Description": "Watch out for landmines."
+		"m_Description": "You must manually open your backpack, and items inside are unable to be placed on your hotbar."
 	},
 	{
-		"m_Headline": "Lore",
+		"m_Headline": "Be Mindful",
 		"m_ImagePath": "",
-		"m_Description": "Equinox is a living world, make your mark on it. Start your story in the journal."
+		"m_Description": "Stop, catch your breath, and check your magazines. Don't run out of ammo at an important moment!"
 	},
 	{
-		"m_Headline": "Moo!",
+		"m_Headline": "Stop, Look, Listen",
 		"m_ImagePath": "",
-		"m_Description": "Cows are not friendly."
+		"m_Description": "Movement equals visibility, be still and survey your surroundings."
 	},
 	{
-		"m_Headline": "Fishing!",
+		"m_Headline": "Swervin' The Coupe",
 		"m_ImagePath": "",
-		"m_Description": "Fishing is a great source of protein, pesky cans leave behind litter that can leave a trail for other survivors to follow!"
+		"m_Description": "Vehicles will crash and burn, taking you with them. Drive responsibly!"
 	},
 	{
-		"m_Headline": "Hands up!",
+		"m_Headline": "Pair Down",
 		"m_ImagePath": "",
-		"m_Description": "F5 allows you to surrender but be very aware your inventory is now accessible to the survivor you a surrender to, will you comply with your captor?"
-	}
-]
+		"m_Description": "Large backpacks drastically increase your silhoutte, making you easily noticeable over great distances."
+	},
+	{
+		"m_Headline": "Reel Big Fish",
+		"m_ImagePath": "",
+		"m_Description": "Hungry? Fashion yourself a fishing rod, dig some worms and haul in a few lunkers."
+	},
+	{
+		"m_Headline": "Scavenger",
+		"m_ImagePath": "",
+		"m_Description": "Supermarkets and general stores contain many nutritious items. Don't forget your coupons!"
+	},
+	{
+		"m_Headline": "Telecommunications",
+		"m_ImagePath": "",
+		"m_Description": "Turn your radio on! Radios transmit over longer distances and are an easy way to meet fellow survivors."
+	},
+	{
+		"m_Headline": "Don't Be a Litterbug",
+		"m_ImagePath": "",
+		"m_Description": "Consuming many items leaves trash, dropping it on the ground may allow others to follow your tracks."
+	},
+	{
+		"m_Headline": "Dress For The Occasion",
+		"m_ImagePath": "",
+		"m_Description": "Don't want to get shot? Don't look threatening. A PMC with a rifle in hand is far more likely to be shot than an average survivor."
+	},
+	{
+		"m_Headline": "Wiggle and Wave",
+		"m_ImagePath": "",
+		"m_Description": "Survivors who announce their presence are far more likely to survive a random encounter; speak up! Sketchy behavior gets you shot."
+	},
+	{
+		"m_Headline": "Karma",
+		"m_ImagePath": "",
+		"m_Description": "Other survivors will treat you how you deserve to be treated. The deeds you do always come back around."
+	},
+	{
+		"m_Headline": "Beach Trip!",
+		"m_ImagePath": "",
+		"m_Description": "The coast is beautiful this time of year."
+	},
+	{
+		"m_Headline": "You there!",
+		"m_ImagePath": "",
+		"m_Description": "Have you been to Berezino lately?"
+	},
+	{
+		"m_Headline": "Looking for more?",
+		"m_ImagePath": "",
+		"m_Description": "Join our discord! Discord.gg/EquinoxDayZ"
+	},
+	{
+		"m_Headline": "Get Involved!",
+		"m_ImagePath": "",
+		"m_Description": "Join our discord and add to the lore of Equinox. Discord.gg/EquinoxDayZ"
+	},
+	{
+		"m_Headline": "Journalist",
+		"m_ImagePath": "",
+		"m_Description": "When was the last time you posted in the Equinox journal? Update your story today."
+	},
+	{
+		"m_Headline": "Weekly Prizes",
+		"m_ImagePath": "",
+		"m_Description": "The best journal posts, screenshots, and videos are picked weekly. Winners get fabulous rewards!"
+	},
+	{
+		"m_Headline": "Holes",
+		"m_ImagePath": "",
+		"m_Description": "A variety of objects can be buried and dug up later, including barrels! Don't rule out making stashes."
+	},
+	{
+		"m_Headline": "Scrapper",
+		"m_ImagePath": "",
+		"m_Description": "Firearms can be broken down into weapon scrap with a screwdriver. Combine scrap with a weapon cleaning kit for something truly special."
+	},
+	{
+		"m_Headline": "Sewing Savant",
+		"m_ImagePath": "",
+		"m_Description": "Tired of your favorite clothes being ruined? Craft an advance sewing or leather kit with textiles you cut from military clothing."
+	},
+	{
+		"m_Headline": "The World on Your Shoulders",
+		"m_ImagePath": "",
+		"m_Description": "Barrels can be used as backpacks. Craft yourself an improvised pipe harness and harness your inner loot goblin."
+	},
