@@ -17,6 +17,7 @@ class cfgVehicles
 {
 	class M4_OEBttstck;
 	class AK_PlasticHndgrd;
+	class Inventory_Base;
 	class MassAR15AdjBttstck: M4_OEBttstck
 	{
 		repairableWithKits[]={8};
