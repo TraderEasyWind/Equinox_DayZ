@@ -66,7 +66,7 @@
         <usage name="Office"/>
     </type>
 	<type name="Pen_Pink">
-        <nominal>3</nominal>
+        <nominal>30</nominal>
         <lifetime>28800</lifetime>
         <restock>86400</restock>
         <min>1</min>
