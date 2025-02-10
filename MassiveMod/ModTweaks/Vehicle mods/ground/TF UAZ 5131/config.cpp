@@ -35,13 +35,13 @@ class CfgVehicles
 	class TF_UAZ5131;
 	class TF_UAZ3151_Green: CarScript
 	{
-		attachments[] += {"Material_FPole_Flag"};
+		attachments[] = {"CarBattery","CarRadiator","Reflector_1_1","Reflector_2_1","SparkPlug","TF_UAZ3151_Wheel_1_1","TF_UAZ3151_Wheel_1_2","TF_UAZ3151_Wheel_2_1","TF_UAZ3151_Wheel_2_2","TF_UAZ3151_Doors_Driver","TF_UAZ3151_doors_cargo1","TF_UAZ3151_doors_cargo2","TF_UAZ3151_Doors_CoDriver","TF_UAZ3151_doors_Hood","TF_UAZ3151_doors_Trunk","Material_FPole_Flag"};
 		class GUIInventoryAttachmentsProps
 		{
 			class Body
 			{
 				
-				attachmentSlots[] += {"Material_FPole_Flag"};
+				attachmentSlots[] = {"Reflector_1_1","Reflector_2_1","TF_UAZ3151_Doors_Driver","TF_UAZ3151_Doors_CoDriver","TF_UAZ3151_doors_cargo1","TF_UAZ3151_doors_cargo2","TF_UAZ3151_doors_Hood","TF_UAZ3151_doors_Trunk","Material_FPole_Flag"};
 			
 			};
 		};
