@@ -44,12 +44,6 @@ class CfgVehicles
 				attachmentSlots[] += {"Material_FPole_Flag"};
 			
 			};
-			class Chassis
-			{
-				
-				attachmentSlots[] += {"TF_UAZ3151_Wheel_spare_1"};
-			
-			};
 		};
 	};
  // class TF_UAZ3151_Wheel;
