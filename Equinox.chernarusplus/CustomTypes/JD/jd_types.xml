@@ -3,9 +3,9 @@
 
 <types>
 	<type name="JD_Groza">
-		<nominal>2</nominal>
+		<nominal>3</nominal>
 		<lifetime>28800</lifetime>
-		<restock>3600</restock>
+		<restock>28800</restock>
 		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -13,6 +13,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<usage name="Military"/>
+		<value name="Tier4"/>
 		<usage name="ContaminatedArea"/>
 	</type>
 	<type name="JD_Groza_762">
@@ -43,9 +44,9 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="JD_Model1887">
-		<nominal>10</nominal>
+		<nominal>6</nominal>
 		<lifetime>14600</lifetime>
-		<restock>14600</restock>
+		<restock>3600</restock>
 		<min>8</min>
 		<quantmin>1</quantmin>
 		<quantmax>40</quantmax>
@@ -59,7 +60,7 @@
 	<type name="JD_SerbuSuperShorty">
 		<nominal>10</nominal>
 		<lifetime>14600</lifetime>
-		<restock>14600</restock>
+		<restock>7200</restock>
 		<min>8</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-40</quantmax>
@@ -67,11 +68,12 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<usage name="Military"/>
+		<usage name="Police"/>
 	</type>
 	<type name="JD_CZ_EVO3A1">
-		<nominal>10</nominal>
+		<nominal>6</nominal>
 		<lifetime>14600</lifetime>
-		<restock>14600</restock>
+		<restock>7200</restock>
 		<min>8</min>
 		<quantmin>6</quantmin>
 		<quantmax>30</quantmax>
@@ -117,9 +119,9 @@
 		<usage name="Military"/>
 	</type>
 		<type name="JD_MP7">
-		<nominal>3</nominal>
+		<nominal>4</nominal>
 		<lifetime>28800</lifetime>
-		<restock>3600</restock>
+		<restock>7200</restock>
 		<min>1</min>
 		<quantmin>1</quantmin>
 		<quantmax>1</quantmax>
@@ -130,7 +132,7 @@
 		<usage name="ContaminatedArea"/>
 	</type>
 	<type name="JD_BT_MP9">
-		<nominal>3</nominal>
+		<nominal>4</nominal>
 		<lifetime>28800</lifetime>
 		<restock>3600</restock>
 		<min>1</min>
@@ -140,11 +142,12 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<usage name="Military"/>
+		<usage name="Police"/>
 		<usage name="ContaminatedArea"/>
 	</type>
 	<type name="JD_P90">
 		<nominal>2</nominal>
-		<lifetime>28800</lifetime>
+		<lifetime>14400</lifetime>
 		<restock>0</restock>
 		<min>1</min>
 		<quantmin>1</quantmin>
@@ -158,9 +161,9 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="JD_Tec9">
-		<nominal>10</nominal>
+		<nominal>5</nominal>
 		<lifetime>28800</lifetime>
-		<restock>14600</restock>
+		<restock>7200</restock>
 		<min>8</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -185,7 +188,7 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="JD_MP7Suppressor">
-		<nominal>3</nominal>
+		<nominal>2</nominal>
 		<lifetime>28800</lifetime>
 		<restock>14600</restock>
 		<min>1</min>
@@ -200,7 +203,7 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="JD_MP9_Suppressor">
-		<nominal>3</nominal>
+		<nominal>2</nominal>
 		<lifetime>28800</lifetime>
 		<restock>14600</restock>
 		<min>1</min>
