@@ -15,10 +15,11 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>	
-        <value name="Tier3"/>				
+        <value name="Tier3"/>
+        <value name="Tier4"/>			
     </type>				
     <type name="AD_SpecterDR">
-        <nominal>3</nominal>
+        <nominal>4</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>2</min>
@@ -28,7 +29,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>	
-        <value name="Tier3"/>				
+        <value name="Tier3"/>	
+       	<value name="Tier4"/>				
     </type>			
     <type name="AD_ACOG_RMR">
         <nominal>2</nominal>
@@ -54,7 +56,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>	
-        <value name="Tier3"/>				
+        <value name="Tier3"/>	
+        <value name="Tier4"/>		
     </type>			
     <type name="AD_NFATACR">
         <nominal>2</nominal>
@@ -110,7 +113,8 @@
         <usage name="Military"/>		
         <value name="Tier1"/>	
         <value name="Tier2"/>		
-        <value name="Tier3"/>			
+        <value name="Tier3"/>	
+        <value name="Tier4"/>		
     </type>			
     <type name="AD_RMR_LM">
         <nominal>10</nominal>
@@ -124,7 +128,8 @@
         <category name="weapons"/>		
         <usage name="Military"/>		
         <value name="Tier2"/>		
-        <value name="Tier3"/>			
+        <value name="Tier3"/>	
+        <value name="Tier4"/>		
     </type>				
     <type name="AD_RMR_TM">
         <nominal>10</nominal>
@@ -138,10 +143,11 @@
         <category name="weapons"/>		
         <usage name="Military"/>		
         <value name="Tier2"/>		
-        <value name="Tier3"/>			
+        <value name="Tier3"/>
+        <value name="Tier4"/>		
     </type>					
     <type name="AD_G33">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -155,7 +161,7 @@
         <value name="Tier4"/>				
     </type>		
     <type name="AD_LeupoldMk4">
-        <nominal>3</nominal>
+        <nominal>4</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>2</min>
@@ -165,7 +171,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>	
-        <value name="Tier3"/>				
+        <value name="Tier3"/>	
+        <value name="Tier4"/>		
     </type>
 </types>
 <!-- Advanced Weapon Scopes Mod End -->
