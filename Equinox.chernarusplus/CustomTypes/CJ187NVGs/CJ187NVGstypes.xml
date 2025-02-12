@@ -71,7 +71,7 @@
     </type>
     <type name="CJ_NVG_GPNVG18_Black">
         <nominal>1</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
