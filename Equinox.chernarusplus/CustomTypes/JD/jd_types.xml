@@ -3,7 +3,7 @@
 
 <types>
 	<type name="JD_Groza">
-		<nominal>3</nominal>
+		<nominal>2</nominal>
 		<lifetime>28800</lifetime>
 		<restock>28800</restock>
 		<min>1</min>
@@ -44,7 +44,7 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="JD_Model1887">
-		<nominal>6</nominal>
+		<nominal>10</nominal>
 		<lifetime>14600</lifetime>
 		<restock>3600</restock>
 		<min>8</min>
@@ -54,6 +54,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<usage name="Hunting"/>
+		<value name="Tier2"/>
 		<value name="Tier3"/>
 		<value name="Tier4"/>
 	</type>
@@ -81,6 +82,9 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<usage name="Police"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="JD_CZ_EVO3A1_FDE">
 		<nominal>0</nominal>
@@ -121,7 +125,7 @@
 		<type name="JD_MP7">
 		<nominal>4</nominal>
 		<lifetime>28800</lifetime>
-		<restock>7200</restock>
+		<restock>14400</restock>
 		<min>1</min>
 		<quantmin>1</quantmin>
 		<quantmax>1</quantmax>
@@ -129,12 +133,12 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<usage name="Military"/>
-		<usage name="ContaminatedArea"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="JD_BT_MP9">
-		<nominal>4</nominal>
+		<nominal>6</nominal>
 		<lifetime>28800</lifetime>
-		<restock>3600</restock>
+		<restock>7200</restock>
 		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -143,12 +147,15 @@
 		<category name="weapons"/>
 		<usage name="Military"/>
 		<usage name="Police"/>
-		<usage name="ContaminatedArea"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+		
 	</type>
 	<type name="JD_P90">
-		<nominal>2</nominal>
+		<nominal>4</nominal>
 		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<restock>14400</restock>
 		<min>1</min>
 		<quantmin>1</quantmin>
 		<quantmax>1</quantmax>
@@ -237,7 +244,7 @@
 		<restock>14600</restock>
 		<min>0</min>
 		<quantmin>1</quantmin>
-		<quantmax>100</quantmax>
+		<quantmax>50</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -245,7 +252,7 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="JD_CZ_Mag_EVO_35rnd">
-		<nominal>4</nominal>
+		<nominal>6</nominal>
 		<lifetime>28800</lifetime>
 		<restock>1800</restock>
 		<min>1</min>
@@ -257,9 +264,9 @@
 		<usage name="Police"/>
 	</type>
 	<type name="JD_Mag_MP7_40Rnd">
-		<nominal>3</nominal>
+		<nominal>4</nominal>
 		<lifetime>28800</lifetime>
-		<restock>1800</restock>
+		<restock>7200</restock>
 		<min>1</min>
 		<quantmin>1</quantmin>
 		<quantmax>15</quantmax>
@@ -274,15 +281,15 @@
 	<type name="JD_BT_MP9_30Rnd_Mag">
 		<nominal>5</nominal>
 		<lifetime>28800</lifetime>
-		<restock>1800</restock>
+		<restock>3600</restock>
 		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-30</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
+		<usage name="Police"/>
 		<usage name="Military"/>
-		<usage name="ContaminatedArea"/>
 		<value name="Tier3"/>
 		<value name="Tier4"/>
 	</type>
@@ -296,15 +303,15 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
+		<usage name="Police"/>
 		<usage name="Military"/>
-		<usage name="ContaminatedArea"/>
 		<value name="Tier3"/>
 		<value name="Tier4"/>
 	</type>
 	<type name="JD_Mag_P90_50Rnd">
-		<nominal>2</nominal>
+		<nominal>4</nominal>
 		<lifetime>28800</lifetime>
-		<restock>1800</restock>
+		<restock>7200</restock>
 		<min>1</min>
 		<quantmin>1</quantmin>
 		<quantmax>20</quantmax>
@@ -317,15 +324,16 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="JD_Mag_Tec9_32rnd">
-		<nominal>6</nominal>
+		<nominal>8</nominal>
 		<lifetime>28800</lifetime>
-		<restock>1800</restock>
+		<restock>3600</restock>
 		<min>2</min>
 		<quantmin>1</quantmin>
 		<quantmax>13</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
+		<usage name="Police"/>
 		<usage name="Military"/>
 	</type>
 	<!--JD's Weapons -->
