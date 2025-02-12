@@ -9731,6 +9731,7 @@
 						<category name="containers" />
 						<category name="clothes" />
 						<category name="food" />
+						<category name="weapons" />
 						<tag name="ground" />
 						<tag name="floor" />
 						<tag name="shelves" />
