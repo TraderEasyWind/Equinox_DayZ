@@ -104,7 +104,9 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="SurvivorCamp_Event.xml" type="events" />
 		<file name="Tier5Crate_Event.xml" type="events" />
 		<file name="ClothingPack_Types.xml" type="types" />
-		<file name="Clothing.xml" type="types" />
+		<file name="AdditionalClothing_Types.xml" type="types" />
+		<!--<file name="Tier4Guns_Types.xml" type="types" /> -->
+		<!--<file name="Tier4Guns_CfgSpawnableTypes.xml" type="spawnabletypes" /> -->
 	</ce>
 	<ce folder="CustomTypes/DynamicHelis">
 		<file name="adh_types.xml" type="types" />

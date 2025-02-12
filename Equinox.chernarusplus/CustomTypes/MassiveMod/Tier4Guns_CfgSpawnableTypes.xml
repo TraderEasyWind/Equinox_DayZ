@@ -1,0 +1,144 @@
+<spawnabletypes>
+    <type name="MassiveMod_M16A2_T4">
+		<damage min="0.3" max="0.7" />
+		<attachments chance="0.30">
+			<item name="Mag_STANAG_30Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="M9A1_Bayonet" chance="1.00" />
+		</attachments>
+    </type>
+	<type name="MassiveMod_AKS74U_T4">
+		<attachments chance="1.00">
+			<item name="AK_PlasticHndgrd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_AK74_30Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="AK_Bayonet" chance="1.00" />
+		</attachments>
+    </type>
+	<type name="MassiveMod_AK101_T4">
+		<damage min="0.3" max="0.7" />
+		<attachments chance="1.00">
+			<item name="AK_PlasticBttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="AK_RailHndgrd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Akol_AKMount_NoAttachment" chance="60.0" />
+			<item name="Akol_AKMount_Pilad" chance="3.33" />
+			<item name="Akol_AKMount_Specter6x" chance="3.33" />
+			<item name="Akol_AKMount_Exps" chance="3.33" />
+			<item name="Akol_AKMount_Magnifier" chance="3.33" />
+			<item name="Akol_AKMount_MRDSMount" chance="3.33" />
+			<item name="Akol_AKMount_RailHuntingOptic" chance="3.33" />
+			<item name="Akol_AKMount_ReflexOptic" chance="3.33" />
+			<item name="Akol_AKMount_M4_T3NRDSOptic" chance="3.33" />
+			<item name="Akol_AKMount_M4_T3NRDSOptic" chance="3.33" />
+			<item name="Akol_AKMount_M68Optic" chance="3.33" />
+			<item name="Akol_AKMount_ACOGOptic" chance="3.33" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_AK101_30Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="AK_Bayonet" chance="1.00" />
+		</attachments>
+    </type>
+	<type name="MassiveMod_AKM_T4">
+		<damage min="0.3" max="0.7" />
+		<attachments chance="1.00">
+			<item name="AK_WoodBttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="AK_RailHndgrd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Akol_AKMount_NoAttachment" chance="60.0" />
+			<item name="Akol_AKMount_Pilad" chance="3.33" />
+			<item name="Akol_AKMount_Specter6x" chance="3.33" />
+			<item name="Akol_AKMount_Exps" chance="3.33" />
+			<item name="Akol_AKMount_Magnifier" chance="3.33" />
+			<item name="Akol_AKMount_MRDSMount" chance="3.33" />
+			<item name="Akol_AKMount_RailHuntingOptic" chance="3.33" />
+			<item name="Akol_AKMount_ReflexOptic" chance="3.33" />
+			<item name="Akol_AKMount_M4_T3NRDSOptic" chance="3.33" />
+			<item name="Akol_AKMount_M4_T3NRDSOptic" chance="3.33" />
+			<item name="Akol_AKMount_M68Optic" chance="3.33" />
+			<item name="Akol_AKMount_ACOGOptic" chance="3.33" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_AKM_30Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="AK_Bayonet" chance="1.00" />
+		</attachments>
+    </type>
+	<type name="MassiveMod_SKS_T4">
+		<damage min="0.3" max="0.7" />
+		<attachments chance="1.00">
+			<item name="Akol_MosinMount_NoAttachment" chance="60.0" />
+			<item name="Akol_MosinMount_Pilad" chance="3.33" />
+			<item name="Akol_MosinMount_Specter6x" chance="3.33" />
+			<item name="Akol_MosinMount_Exps" chance="3.33" />
+			<item name="Akol_MosinMount_Magnifier" chance="3.33" />
+			<item name="Akol_MosinMount_MRDSMount" chance="3.33" />
+			<item name="Akol_MosinMount_RailHuntingOptic" chance="3.33" />
+			<item name="Akol_MosinMount_ReflexOptic" chance="3.33" />
+			<item name="Akol_MosinMount_M4_T3NRDSOptic" chance="3.33" />
+			<item name="Akol_MosinMount_M4_T3NRDSOptic" chance="3.33" />
+			<item name="Akol_MosinMount_M68Optic" chance="3.33" />
+			<item name="Akol_MosinMount_ACOGOptic" chance="3.33" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="SKS_Bayonet" chance="1.00" />
+		</attachments>
+    </type>
+	<type name="MassiveMod_UMP45_T4">
+		<damage min="0.3" max="0.7" />
+		<attachments chance="0.20">
+			<item name="Mag_UMP_25Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="BUISOptic" chance="0.15" />
+			<item name="M68Optic" chance="0.15" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.30" />
+		</attachments>
+		<attachments chance="0.05">
+			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="TLRLight" chance="1.00" />
+		</attachments>
+    </type>
+	<type name="MassiveMod_MP5K_T4">
+		<damage min="0.3" max="0.7" />
+		<attachments chance="1.00">
+			<item name="MP5_RailHndgrd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MP5k_StockBttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_MP5_30Rnd" chance="1.0" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="BUISOptic" chance="0.30" />
+			<item name="M68Optic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.10" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="MP5_Compensator" chance="1.00" />
+		</attachments>
+		<attachments chance="0.05">
+			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+    </type>
+</spawnabletypes>
