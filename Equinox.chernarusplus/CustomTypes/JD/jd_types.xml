@@ -34,7 +34,7 @@
 		<nominal>0</nominal>
 		<lifetime>28800</lifetime>
 		<restock>0</restock>
-		<min>8</min>
+		<min>0</min>
 		<quantmin>0</quantmin>
 		<quantmax>0</quantmax>
 		<cost>100</cost>
@@ -47,7 +47,7 @@
 		<nominal>10</nominal>
 		<lifetime>14600</lifetime>
 		<restock>3600</restock>
-		<min>8</min>
+		<min>4</min>
 		<quantmin>1</quantmin>
 		<quantmax>40</quantmax>
 		<cost>100</cost>
@@ -59,10 +59,10 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="JD_SerbuSuperShorty">
-		<nominal>10</nominal>
+		<nominal>5</nominal>
 		<lifetime>14600</lifetime>
 		<restock>7200</restock>
-		<min>8</min>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-40</quantmax>
 		<cost>100</cost>
@@ -75,7 +75,7 @@
 		<nominal>6</nominal>
 		<lifetime>14600</lifetime>
 		<restock>7200</restock>
-		<min>8</min>
+		<min>2</min>
 		<quantmin>6</quantmin>
 		<quantmax>30</quantmax>
 		<cost>100</cost>
@@ -171,7 +171,7 @@
 		<nominal>5</nominal>
 		<lifetime>28800</lifetime>
 		<restock>7200</restock>
-		<min>8</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -183,7 +183,7 @@
 		<nominal>8</nominal>
 		<lifetime>28800</lifetime>
 		<restock>14600</restock>
-		<min>8</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>

@@ -41,10 +41,10 @@
         <usage name="Military"/>
     </type>
     <type name="Massbrownhuntingbp">
-        <nominal>15</nominal>
+        <nominal>5</nominal>
         <lifetime>21600</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
