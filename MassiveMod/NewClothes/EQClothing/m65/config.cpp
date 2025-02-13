@@ -27,49 +27,49 @@ class CfgVehicles
 		descriptionShort= "Model designed for military use, this classic piece of clothing is both durable and comfortable to wear. Offered here in a unique Irish DPM Camo. Not to mention warm";		
 		scope = 2;                            
 		visibilityModifier = 0.7;             
-		hiddenSelectionsTextures[] = {"MassiveMod\NewClothes\EQClothing\m65\data\m65_camo3_nobase.paa","MassiveMod\NewClothes\EQClothing\m65\data\m65_camo3_nobase.paa","MassiveMod\NewClothes\EQClothing\m65\data\m65_camo3_nobase.paa"};
+		hiddenSelectionsTextures[] = {"MassiveMod\NewClothes\EQClothing\m65\data\m65_camo3_base.paa","MassiveMod\NewClothes\EQClothing\m65\data\m65_camo3_base.paa","MassiveMod\NewClothes\EQClothing\m65\data\m65_camo3_base.paa"};
 	};                                                                          
 	class M65Jacket_Camo5: M65Jacket_ColorBase
 	{
 		descriptionShort= "Model designed for military use, this classic piece of clothing is both durable and comfortable to wear. Offered here in a unique Sweden M90 Camo. Not to mention warm";
 		scope = 2;                            
 		visibilityModifier = 0.7;             
-		hiddenSelectionsTextures[] = {"MassiveMod\NewClothes\EQClothing\m65\data\m65_camo5_nobase.paa","MassiveMod\NewClothes\EQClothing\m65\data\m65_camo5_nobase.paa","MassiveMod\NewClothes\EQClothing\m65\data\m65_camo5_nobase.paa"};
+		hiddenSelectionsTextures[] = {"MassiveMod\NewClothes\EQClothing\m65\data\m65_camo5_base.paa","MassiveMod\NewClothes\EQClothing\m65\data\m65_camo5_base.paa","MassiveMod\NewClothes\EQClothing\m65\data\m65_camo5_base.paa"};
 	};
 	class M65Jacket_Camo7: M65Jacket_ColorBase
 	{
 		descriptionShort= "Model designed for military use, this classic piece of clothing is both durable and comfortable to wear. Offered here in a unique Thailand Urban Camo. Not to mention warm";
 		scope = 2;
 		visibilityModifier = 0.7;
-		hiddenSelectionsTextures[] = {"MassiveMod\NewClothes\EQClothing\m65\data\m65_camo7_nobase.paa","MassiveMod\NewClothes\EQClothing\m65\data\m65_camo7_nobase.paa","MassiveMod\NewClothes\EQClothing\m65\data\m65_camo7_nobase.paa"};
+		hiddenSelectionsTextures[] = {"MassiveMod\NewClothes\EQClothing\m65\data\m65_camo7_base.paa","MassiveMod\NewClothes\EQClothing\m65\data\m65_camo7_base.paa","MassiveMod\NewClothes\EQClothing\m65\data\m65_camo7_base.paa"};
 	};
 	class M65Jacket_Camo10: M65Jacket_ColorBase
 	{
 		descriptionShort= "Model designed for military use, this classic piece of clothing is both durable and comfortable to wear. Offered here in a unique Finnish M05 Camo. Not to mention warm";
 		scope = 2;
 		visibilityModifier = 0.7;
-		hiddenSelectionsTextures[] = {"MassiveMod\NewClothes\EQClothing\m65\data\m65_camo10_nobase.paa","MassiveMod\NewClothes\EQClothing\m65\data\m65_camo10_nobase.paa","MassiveMod\NewClothes\EQClothing\m65\data\m65_camo10_nobase.paa"};
+		hiddenSelectionsTextures[] = {"MassiveMod\NewClothes\EQClothing\m65\data\m65_camo10_base.paa","MassiveMod\NewClothes\EQClothing\m65\data\m65_camo10_base.paa","MassiveMod\NewClothes\EQClothing\m65\data\m65_camo10_base.paa"};
 	};
 	class M65Jacket_Camo13: M65Jacket_ColorBase
 	{
 		descriptionShort= "Model designed for military use, this classic piece of clothing is both durable and comfortable to wear. Offered here in a unique British DPM95 Camo. Not to mention warm";
 		scope = 2;
 		visibilityModifier = 0.7;
-		hiddenSelectionsTextures[] = {"MassiveMod\NewClothes\EQClothing\m65\data\m65_camo13_nobase.paa","MassiveMod\NewClothes\EQClothing\m65\data\m65_camo13_nobase.paa","MassiveMod\NewClothes\EQClothing\m65\data\m65_camo13_nobase.paa"};
+		hiddenSelectionsTextures[] = {"MassiveMod\NewClothes\EQClothing\m65\data\m65_camo13_base.paa","MassiveMod\NewClothes\EQClothing\m65\data\m65_camo13_base.paa","MassiveMod\NewClothes\EQClothing\m65\data\m65_camo13_base.paa"};
 	};
 	class M65Jacket_Camo14: M65Jacket_ColorBase
 	{
 		descriptionShort= "Model designed for military use, this classic piece of clothing is both durable and comfortable to wear. Offered here in a unique Russian MVD Special Operator Rastr Camo. Not to mention warm";
 		scope = 2;
 		visibilityModifier = 0.7;
-		hiddenSelectionsTextures[] = {"MassiveMod\NewClothes\EQClothing\m65\data\m65_camo14_nobase.paa","MassiveMod\NewClothes\EQClothing\m65\data\m65_camo14_nobase.paa","MassiveMod\NewClothes\EQClothing\m65\data\m65_camo14_nobase.paa"};
+		hiddenSelectionsTextures[] = {"MassiveMod\NewClothes\EQClothing\m65\data\m65_camo14_base.paa","MassiveMod\NewClothes\EQClothing\m65\data\m65_camo14_base.paa","MassiveMod\NewClothes\EQClothing\m65\data\m65_camo14_base.paa"};
 	};
 	class M65Jacket_Camo16: M65Jacket_ColorBase
 	{
 		descriptionShort= "Model designed for military use, this classic piece of clothing is both durable and comfortable to wear. Offered here in a unique North Korean Tiger Stripe Camo. Not to mention warm";
 		scope = 2;
 		visibilityModifier = 0.7;
-		hiddenSelectionsTextures[] = {"MassiveMod\NewClothes\EQClothing\m65\data\m65_camo16_nobase.paa","MassiveMod\NewClothes\EQClothing\m65\data\m65_camo16_nobase.paa","MassiveMod\NewClothes\EQClothing\m65\data\m65_camo16_nobase.paa"};
+		hiddenSelectionsTextures[] = {"MassiveMod\NewClothes\EQClothing\m65\data\m65_camo16_base.paa","MassiveMod\NewClothes\EQClothing\m65\data\m65_camo16_base.paa","MassiveMod\NewClothes\EQClothing\m65\data\m65_camo16_base.paa"};
 	};
 
 };
