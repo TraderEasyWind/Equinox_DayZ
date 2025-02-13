@@ -127,26 +127,30 @@
         <value name="Tier4"/>
     </type>
     <type name="AK101_Black">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
-        <restock>7200</restock>
+        <restock>14400</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
+		<usage name="Military"/>
+        <value name="Tier4"/>
     </type>
     <type name="AK101_Green">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>7200</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
+		<usage name="Military"/>
+        <value name="Tier4"/>
     </type>
     <type name="AK74">
         <nominal>10</nominal>
@@ -164,26 +168,30 @@
         <value name="Tier4"/>
     </type>
     <type name="AK74_Black">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
-        <restock>7200</restock>
+        <restock>14400</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
+		<usage name="Military"/>
+        <value name="Tier4"/>
     </type>
     <type name="AK74_Green">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
-        <restock>7200</restock>
+        <restock>14400</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
+		<usage name="Military"/>
+        <value name="Tier4"/>
     </type>
     <type name="AK74_Hndgrd">
         <nominal>5</nominal>
@@ -211,7 +219,7 @@
     </type>
     <type name="AKM">
         <nominal>7</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>28800</lifetime>
         <restock>14400</restock>
         <min>2</min>
         <quantmin>30</quantmin>
@@ -219,13 +227,12 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="ContaminatedArea"/>
         <usage name="Military"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
     <type name="AKS74U">
-        <nominal>14</nominal>
+        <nominal>12</nominal>
         <lifetime>28800</lifetime>
         <restock>7200</restock>
         <min>2</min>
@@ -238,18 +245,19 @@
         <value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="AKS74U_Black">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
-        <restock>7200</restock>
+        <restock>14400</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
+		<usage name="Military"/>
+        <value name="Tier4"/>
     </type>
     <type name="AKS74U_Bttstck">
         <nominal>5</nominal>
@@ -264,15 +272,17 @@
         <usage name="Military"/>
     </type>
     <type name="AKS74U_Green">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
-        <restock>600</restock>
+        <restock>14400</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
+		<usage name="Military"/>
+        <value name="Tier4"/>
     </type>
     <type name="AK_Bayonet">
         <nominal>10</nominal>
@@ -314,15 +324,17 @@
         <category name="weapons"/>
     </type>
     <type name="AK_FoldingBttstck_Green">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
+		<usage name="Military"/>
+        <value name="Tier4"/>
     </type>
     <type name="AK_PlasticBttstck">
         <nominal>5</nominal>
@@ -350,15 +362,17 @@
         <category name="weapons"/>
     </type>
     <type name="AK_PlasticBttstck_Green">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
+		<usage name="Military"/>
+        <value name="Tier4"/>
     </type>
     <type name="AK_PlasticHndgrd">
         <nominal>5</nominal>
@@ -401,15 +415,17 @@
         <category name="weapons"/>
     </type>
     <type name="AK_RailHndgrd_Green">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
+		<usage name="Military"/>
+        <value name="Tier4"/>
     </type>
     <type name="AK_Suppressor">
         <nominal>1</nominal>
@@ -422,7 +438,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="shelves"/>
-        <usage name="ContaminatedArea"/>
         <usage name="Military"/>
         <value name="Tier4"/>
     </type>
@@ -450,17 +465,16 @@
         <category name="weapons"/>
     </type>
     <type name="AK_WoodBttstck_Camo">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
 		<usage name="Military"/>
-		<value name="Tier3"/>
         <value name="Tier4"/>
     </type>
     <type name="AK_WoodHndgrd">
@@ -487,17 +501,16 @@
         <category name="weapons"/>
     </type>
     <type name="AK_WoodHndgrd_Camo">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
 		<usage name="Military"/>
-		<value name="Tier3"/>
         <value name="Tier4"/>
     </type>
     <type name="ASVAL">
@@ -1789,7 +1802,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
         <tag name="shelves"/>
-        <usage name="ContaminatedArea"/>
 		<usage name="Medic"/>
     </type>
     <type name="AntiPestsSpray">
@@ -10752,7 +10764,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="shelves"/>
-        <usage name="ContaminatedArea"/>
 		<usage name="Military"/>
 		<value name="Tier3"/>
 		<value name="Tier4"/>
@@ -11830,7 +11841,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="ContaminatedArea"/>
         <usage name="Military"/>
         <value name="Tier4"/>
     </type>
@@ -11844,7 +11854,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="ContaminatedArea"/>
         <usage name="Military"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
@@ -11938,40 +11947,43 @@
         <usage name="Military"/>
     </type>
     <type name="M4A1">
-        <nominal>3</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
-        <restock>28800</restock>
+        <restock>14400</restock>
         <min>1</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="ContaminatedArea"/>
         <usage name="Military"/>
-        <value name="Tier4"/>
+        <value name="Tier3"/>
     </type>
     <type name="M4A1_Black">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
-        <restock>7200</restock>
+        <restock>43200</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
+		<usage name="Military"/>
+        <value name="Tier4"/>
     </type>
     <type name="M4A1_Green">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
-        <restock>7200</restock>
+        <restock>43200</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
+		<usage name="Military"/>
+        <value name="Tier4"/>
     </type>
     <type name="M4_CQBBttstck">
         <nominal>5</nominal>
@@ -12077,15 +12089,17 @@
         <category name="weapons"/>
     </type>
     <type name="M4_RISHndgrd_Green">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>3600</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
+		<usage name="Military"/>
+        <value name="Tier4"/>
     </type>
     <type name="M4_Suppressor">
         <nominal>1</nominal>
@@ -12098,7 +12112,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="shelves"/>
-        <usage name="ContaminatedArea"/>
         <usage name="Military"/>
         <value name="Tier3"/>
 		<value name="Tier4"/>
@@ -12563,7 +12576,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="ContaminatedArea"/>
 		<usage name="Military"/>
 		<value name="Tier3"/>
         <value name="Tier4"/>
@@ -13771,7 +13783,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Town"/>
         <usage name="Sniper"/>
@@ -16497,7 +16509,7 @@
         <value name="Tier4"/>
     </type>
     <type name="SKS">
-        <nominal>22</nominal>
+        <nominal>18</nominal>
         <lifetime>28800</lifetime>
         <restock>7200</restock>
         <min>10</min>
@@ -16506,11 +16518,36 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="ContaminatedArea"/>
         <usage name="Military"/>
         <value name="Tier1"/>
         <value name="Tier2"/>
 		<value name="Tier3"/>
+		<value name="Tier4"/>
+    </type>
+	<type name="SKS_Black">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>7200</restock>
+        <min>10</min>
+        <quantmin>0</quantmin>
+        <quantmax>75</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+		<value name="Tier4"/>
+    </type>
+		<type name="SKS_Green">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>7200</restock>
+        <min>10</min>
+        <quantmin>0</quantmin>
+        <quantmax>75</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
 		<value name="Tier4"/>
     </type>
     <type name="SKS_Bayonet">
@@ -16555,7 +16592,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="ContaminatedArea"/>
         <usage name="Military"/>
         <value name="Tier4"/>
     </type>
@@ -18365,7 +18401,6 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <tag name="floor"/>
-        <usage name="ContaminatedArea"/>
 		<usage name="Military"/>
 		<value name="Tier3"/>
 		<value name="Tier4"/>
