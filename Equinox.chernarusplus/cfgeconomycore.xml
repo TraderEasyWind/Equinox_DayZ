@@ -91,6 +91,7 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	<ce folder="CustomTypes/MassiveMod">
 		<file name="TieredCaches_CfgSpawnabletypes.xml" type="spawnabletypes" />
 		<file name="Datsun_CfgSpawnabletypes.xml" type="spawnabletypes" />
+		<file name="Tier4Guns_CfgSpawnableTypes.xml" type="spawnabletypes" />
         <file name="JunkFoodCan_Types.xml" type="types" />
 		<file name="StoreLoot_Types.xml" type="types" />
 		<file name="EventTypes.xml" type="types" />

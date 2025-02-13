@@ -2538,7 +2538,7 @@
 		</attachments>
 		<attachments chance="0.30">
 			<item name="Mag_AK74_45Rnd" chance="0.15" />
-			<item name="Mag_AK74_30Rnd" chance="1.00" />
+			<item name="Mag_AK74_30Rnd" chance="0.85" />
 		</attachments>
 	</type>
 	<type name="AKS74U">
@@ -2547,6 +2547,15 @@
 		</attachments>
 		<attachments chance="0.30">
 			<item name="Mag_AK74_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="AKS74U_Black">
+		<attachments chance="1.00">
+			<item name="AKS74U_Bttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="0.60">
+			<item name="Mag_AK74_30Rnd" chance="0.60" />
+			<item name="Mag_AK74_45Rnd" chance="0.40" />
 		</attachments>
 	</type>
 	<type name="AK101">
