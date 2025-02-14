@@ -57,7 +57,9 @@ class cfgWeapons
 	{
 		magazines[]+=
 		{
-			"Mag_RPK74_Drum100Rnd"
+			"Mag_RPK74_Drum100Rnd",
+			"Mag_AK74_30Rnd",
+			"Mag_AK74_45Rnd"
 		};
 		chamberableFrom[]+=
 		{

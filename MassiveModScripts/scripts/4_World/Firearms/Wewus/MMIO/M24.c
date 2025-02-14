@@ -26,6 +26,28 @@ class MassM24_Base: CZ527
         }
     }
 	
+	void OnWewusTransform()
+    {
+        
+        if (Math.RandomInt(1,3)<1)
+        {
+            TStringArray possibleObjects = 
+            {
+                "MassKivaari"
+            };
+            string objectToSpawn;	objectToSpawn = possibleObjects.GetRandomElement();
+            EntityAI entity = EntityAI.Cast(GetGame().CreateObject(objectToSpawn, GetPosition(), false, true, true));
+            entity.SetOrientation(GetOrientation());
+            Print("[WEWUSDEBUG] " + GetType() + " transformed into " + objectToSpawn);
+            if (entity.IsInherited(MassKivaari))
+            {
+                MassKivaari Wewuskivaari = MassKivaari.Cast(entity);
+                Wewuskivaari.SpawnAttachmentsOnUpgrade();
+            }	Delete();
+        }
+        
+    }
+	
 	void SpawnAttachmentsOnUpgrade()
     {
 		ref TStringArray RandomOptics = 
@@ -49,4 +71,4 @@ class MassM24_Base: CZ527
         }
     }
 };
-class Massm24: MassM24_Base{};
+class MassM24: MassM24_Base{};

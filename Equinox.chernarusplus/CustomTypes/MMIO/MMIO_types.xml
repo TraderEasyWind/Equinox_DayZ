@@ -2383,73 +2383,78 @@
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>
 	<type name="Mass_IFAK_TAN">
-        <nominal>6</nominal>
+        <nominal>2</nominal>
         <lifetime>21600</lifetime>
-        <restock>0</restock>
-        <min>2</min>
+        <restock>21600</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
         <tag name="shelves"/>
-        <usage name="Medic"/>
+		<value name="Tier3"/>
+        <value name="Tier4"/>
 		<usage name="Military"/>
     </type>
 	<type name="Mass_IFAK_ODG">
-        <nominal>6</nominal>
+        <nominal>2</nominal>
         <lifetime>21600</lifetime>
-        <restock>0</restock>
-        <min>2</min>
+        <restock>21600</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
         <tag name="shelves"/>
-        <usage name="Medic"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
 		<usage name="Military"/>
     </type>
 	<type name="Mass_IFAK_BLACK">
-        <nominal>6</nominal>
+        <nominal>2</nominal>
         <lifetime>21600</lifetime>
-        <restock>0</restock>
-        <min>2</min>
+        <restock>21600</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
         <tag name="shelves"/>
-        <usage name="Medic"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
 		<usage name="Military"/>
     </type>
 	<type name="Mass_IFAK_BDU">
-        <nominal>6</nominal>
+        <nominal>2</nominal>
         <lifetime>21600</lifetime>
-        <restock>0</restock>
-        <min>2</min>
+        <restock>21600</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
         <tag name="shelves"/>
-        <usage name="Medic"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
 		<usage name="Military"/>
     </type>
 	<type name="Mass_IFAK_PartizanM">
-        <nominal>6</nominal>
+        <nominal>2</nominal>
         <lifetime>21600</lifetime>
-        <restock>0</restock>
-        <min>2</min>
+        <restock>21600</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
         <tag name="shelves"/>
-        <usage name="Medic"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
 		<usage name="Military"/>
     </type>
 	<type name="Mass_AN94">
@@ -2471,6 +2476,9 @@
         <lifetime>10800</lifetime>
     </type>
 	<type name="Mass_ASVAL">
+        <lifetime>10800</lifetime>
+    </type>
+	<type name="Mass_SLR106">
         <lifetime>10800</lifetime>
     </type>
 	<type name="MassM417">

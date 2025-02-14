@@ -245,6 +245,7 @@
         <value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
+		<value name="Tier4"/>
     </type>
     <type name="AKS74U_Black">
         <nominal>1</nominal>
@@ -11957,12 +11958,12 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="M4A1_Black">
         <nominal>1</nominal>
         <lifetime>28800</lifetime>
-        <restock>43200</restock>
+        <restock>86400</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -11975,7 +11976,7 @@
     <type name="M4A1_Green">
         <nominal>1</nominal>
         <lifetime>28800</lifetime>
-        <restock>43200</restock>
+        <restock>172800</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -15384,10 +15385,10 @@
         <category name="tools"/>
     </type>
     <type name="Plastic_Explosive">
-        <nominal>3</nominal>
+        <nominal>4</nominal>
         <lifetime>432000</lifetime>
-        <restock>86400</restock>
-        <min>1</min>
+        <restock>28800</restock>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -15395,7 +15396,7 @@
         <category name="explosives"/>
         <usage name="Military"/>
 		<value name="Tier4"/>
-        <value name="Unique"/>
+        <value name="Tier3"/>
     </type>
     <type name="PlateCarrierHolster">
         <nominal>10</nominal>
