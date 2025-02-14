@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<types>
+<!--Enhanced Flags start-->
+<!--DO NOT SPAWN THESE ITEMS VIA TYPES, TRADER OR ADMINTOOLS, THEY WILL BE BUGGY OTHERWISE-->
+    <type name="nm_CarflagDummy">
+        <lifetime>5184000</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+    </type>
+    <type name="nm_StickflagDummy">
+        <lifetime>5184000</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+    </type>
+    <type name="nm_SlingbagDummy">
+        <lifetime>5184000</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
+    </type>
+    <type name="nm_ImproBagDummy">
+        <lifetime>5184000</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
+    </type>
+    <type name="nm_BandanaDummy">
+        <lifetime>5184000</lifetime>
+		<flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
+    </type>
+    <type name="nm_BandanaRCDummy">
+        <lifetime>5184000</lifetime>
+		<flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
+    </type>
+    <type name="nm_Flag_deployed">
+        <lifetime>5184000</lifetime>
+        <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
+    </type>
+    <type name="nm_LongWoodenStick_deployed">
+        <lifetime>5184000</lifetime>
+        <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
+    </type>
+    <type name="nm_DoubleArmbandDummy">
+        <lifetime>5184000</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+    </type>
+    <type name="nm_DoubleArmbandRCDummy">
+        <lifetime>5184000</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+    </type>
+<!--Enhanced Flags end-->
+</types>

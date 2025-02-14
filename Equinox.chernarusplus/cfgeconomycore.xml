@@ -137,4 +137,7 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="MoreCars_CfgSpawnableTypes.xml" type="spawnabletypes" />
 		<file name="MoreCars_Events.xml" type="events" />
 	</ce>
+	<ce folder="CustomTypes/EnhancedFlags">
+		<file name="Enhanced_flags_Types.xml" type="types" />
+	</ce>
 </economycore>
