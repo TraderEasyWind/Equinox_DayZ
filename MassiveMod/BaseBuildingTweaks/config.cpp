@@ -32,3 +32,11 @@ class CfgMods
 		};
 	};
 };
+class CfgVehicles
+{
+	class Inventory_Base;
+	class WoodenPlank: Inventory_Base
+	{
+		itemSize[] = {2,7};
+	};
+};

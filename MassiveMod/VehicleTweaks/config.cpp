@@ -118,118 +118,119 @@ class CfgVehicles
 			"Zil130Wheel_2_2"
 		};
 	};
-};
-class CarScript;
-class SimulationModule;
-class Offroad_02: Carscript
-{			
-	class SimulationModule: SimulationModule
-	{
-		class Gearbox
+	class CarScript;
+	class SimulationModule;
+	class Offroad_02: Carscript
+	{			
+		class SimulationModule: SimulationModule
 		{
-			type = "GEARBOX_MANUAL";
+			class Gearbox
+			{
+				type = "GEARBOX_MANUAL";
+			};
 		};
 	};
-};
-class Truck_01_Base: CarScript
-{
-	attachments[] += {"Material_FPole_Flag"};
-	class GUIInventoryAttachmentsProps
+	class Truck_01_Base: CarScript
 	{
-		class Body
+		attachments[] += {"Material_FPole_Flag"};
+		class GUIInventoryAttachmentsProps
 		{
+			class Body
+			{
+				
+				attachmentSlots[] += {"Material_FPole_Flag"};
 			
-			attachmentSlots[] += {"Material_FPole_Flag"};
-		
-		};
-	};			
-	class SimulationModule: SimulationModule
-	{
-		drive = "DRIVE_642";
-		class Engine
-		{	
-			torqueCurve[] = {650,300,800,450,1250,600,2000,550,3500,500,4500,300};
-			inertia = 0.85;
-			frictionTorque = 90;
-			rollingFriction = 2.5;
-			viscousFriction = 1;
-			rpmIdle = 750;
-			rpmMin = 900;
-			rpmClutch = 1000;
-			rpmRedline = 4000;
-		};
-		class Clutch
+			};
+		};			
+		class SimulationModule: SimulationModule
 		{
-			maxTorqueTransfer = 520;
-			uncoupleTime = 0.2;
-			coupleTime = 0.8;
+			drive = "DRIVE_642";
+			class Engine
+			{	
+				torqueCurve[] = {650,300,800,450,1250,600,2000,550,3500,500,4500,300};
+				inertia = 0.85;
+				frictionTorque = 90;
+				rollingFriction = 2.5;
+				viscousFriction = 1;
+				rpmIdle = 750;
+				rpmMin = 900;
+				rpmClutch = 1000;
+				rpmRedline = 4000;
+			};
+			class Clutch
+			{
+				maxTorqueTransfer = 520;
+				uncoupleTime = 0.2;
+				coupleTime = 0.8;
+			};
+			class Gearbox
+			{
+				type = "GEARBOX_MANUAL";
+				reverse = 5.485;
+				ratios[] = {7.44,4.20,2.37,1.42,1,0.79};
+				// ratios[] = {4.69,2.8300002,1.8999999,1.37,0.9778};	
+				// ratios[] = {9.00,6.00,4.20,3.10,2.30,1.60,1.00,0.75};
+				// ratios[] = {6.19,3.13,2.1,1.67,1.28,1,0.84,0.67};
+			};
+			class CentralDifferential
+			{
+				ratio = 0.75;
+				type = "DIFFERENTIAL_LOCKED";
+			};
 		};
-		class Gearbox
-		{
-			type = "GEARBOX_MANUAL";
-			reverse = 5.485;
-			ratios[] = {7.44,4.20,2.37,1.42,1,0.79};
-			// ratios[] = {4.69,2.8300002,1.8999999,1.37,0.9778};	
-			// ratios[] = {9.00,6.00,4.20,3.10,2.30,1.60,1.00,0.75};
-			// ratios[] = {6.19,3.13,2.1,1.67,1.28,1,0.84,0.67};
-		};
-		class CentralDifferential
-		{
-			ratio = 0.75;
-			type = "DIFFERENTIAL_LOCKED";
-		};
-	};
-};//meow
-//class CfgVehicles
-//{
-//	class Inventory_Base;
-//	class SparkPlug: Inventory_Base
-//	{
-//		inventorySlot[]+=
-//		{
-//			"SparkPlug2",
-//			"SparkPlug3",
-//			"SparkPlug4",
-//			"SparkPlug5",
-//			"SparkPlug6"
-//		};
-//	};
-//	class CarScript;
-//	class OffroadHatchback: CarScript
-//	{
-//		scope=2;
-//		attachmentSlots[]+=
-//		{
-//			"SparkPlug2",
-//			"SparkPlug3",
-//			"SparkPlug4"
-//		};
-//		class DamageSystem
-//		{
-//			class DamageZones
-//			{
-//				class Engine
-//				{
-//					inventorySlots[]+=
-//					{
-//						"SparkPlug2",
-//					    "SparkPlug3",
-//					    "SparkPlug4"
-//					};
-//				};
-//			};
-//		};
-//		class GUIInventoryAttachmentsProps
-//		{
-//			class Engine
-//			{
-//				attachmentSlots[]+=
-//				{
-//					"SparkPlug2",
-//					"SparkPlug3",
-//					"SparkPlug4"
-//				};
-//			};
-//		};
-//	};
-//};
+	};//meow
+	//class CfgVehicles
+	//{
+	//	class Inventory_Base;
+	//	class SparkPlug: Inventory_Base
+	//	{
+	//		inventorySlot[]+=
+	//		{
+	//			"SparkPlug2",
+	//			"SparkPlug3",
+	//			"SparkPlug4",
+	//			"SparkPlug5",
+	//			"SparkPlug6"
+	//		};
+	//	};
+	//	class CarScript;
+	//	class OffroadHatchback: CarScript
+	//	{
+	//		scope=2;
+	//		attachmentSlots[]+=
+	//		{
+	//			"SparkPlug2",
+	//			"SparkPlug3",
+	//			"SparkPlug4"
+	//		};
+	//		class DamageSystem
+	//		{
+	//			class DamageZones
+	//			{
+	//				class Engine
+	//				{
+	//					inventorySlots[]+=
+	//					{
+	//						"SparkPlug2",
+	//					    "SparkPlug3",
+	//					    "SparkPlug4"
+	//					};
+	//				};
+	//			};
+	//		};
+	//		class GUIInventoryAttachmentsProps
+	//		{
+	//			class Engine
+	//			{
+	//				attachmentSlots[]+=
+	//				{
+	//					"SparkPlug2",
+	//					"SparkPlug3",
+	//					"SparkPlug4"
+	//				};
+	//			};
+	//		};
+	//	};
+	//};
+};
+	

@@ -1,5 +1,14 @@
 [
     {
-        "ImagePath": "LoadingScreen/GUI/LoadingScreens/loading1.paa"
+        "ImagePath": "LoadingScreen/GUI/LoadingScreens/Loading1.paa"
+    },
+	{
+        "ImagePath": "LoadingScreen/GUI/LoadingScreens/Loading2.paa"
+    },
+	{
+        "ImagePath": "LoadingScreen/GUI/LoadingScreens/Loading3.paa"
+    },
+	{
+        "ImagePath": "LoadingScreen/GUI/LoadingScreens/Loading4.paa"
     }
 ]
