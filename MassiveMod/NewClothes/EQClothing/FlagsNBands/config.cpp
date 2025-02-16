@@ -187,6 +187,24 @@ class CfgVehicles
 			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\impnewb_flag_white_co.paa"
 		};
 	};
+	class Armband_imperiumR: Armband_ColorBase
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="newimpR";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Imperium_red.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Imperium_red.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Imperium_red.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Imperium_red.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Imperium_red.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Imperium_red.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Imperium_red.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Imperium_red.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Imperium_red.paa"
+		};
+	};
 	class Armband_druzhina: Armband_ColorBase
 	{
 		scope=2;
