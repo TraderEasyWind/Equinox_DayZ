@@ -1,5 +1,95 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
+	<type name="SurvivorF_Eva">
+        <lifetime>10800</lifetime>
+	</type>
+	<type name="SurvivorF_Frida">
+        <lifetime>10800</lifetime>
+	</type>
+	<type name="SurvivorF_Gabi">
+        <lifetime>10800</lifetime>
+	</type>
+	<type name="SurvivorF_Helga">
+        <lifetime>10800</lifetime>
+	</type>
+	<type name="SurvivorF_Irena">
+        <lifetime>10800</lifetime>
+	</type>
+	<type name="SurvivorF_Judy">
+        <lifetime>10800</lifetime>
+	</type>
+	<type name="SurvivorF_Keiko">
+        <lifetime>10800</lifetime>
+	</type>
+	<type name="SurvivorF_Linda">
+        <lifetime>10800</lifetime>
+	</type>
+	<type name="SurvivorF_Maria">
+        <lifetime>10800</lifetime>
+	</type>
+	<type name="SurvivorF_Naomi">
+        <lifetime>10800</lifetime>
+	</type>
+	<type name="SurvivorF_Baty">
+        <lifetime>10800</lifetime>
+	</type>
+	<type name="SurvivorM_Mirek">
+        <lifetime>10800</lifetime>
+	</type>
+	<type name="SurvivorM_Boris">
+        <lifetime>10800</lifetime>
+	</type>
+	<type name="SurvivorM_Cyril">
+        <lifetime>10800</lifetime>
+	</type>
+	<type name="SurvivorM_Denis">
+        <lifetime>10800</lifetime>
+	</type>
+	<type name="SurvivorM_Elias">
+        <lifetime>10800</lifetime>
+	</type>
+	<type name="SurvivorM_Francis">
+        <lifetime>10800</lifetime>
+	</type>
+	<type name="SurvivorM_Guo">
+        <lifetime>10800</lifetime>
+	</type>
+	<type name="SurvivorM_Hassan">
+        <lifetime>10800</lifetime>
+	</type>
+	<type name="SurvivorM_Indar">
+        <lifetime>10800</lifetime>
+	</type>
+	<type name="SurvivorM_Jose">
+        <lifetime>10800</lifetime>
+	</type>
+	<type name="SurvivorM_Kaito">
+        <lifetime>10800</lifetime>
+	</type>
+	<type name="SurvivorM_Manua">
+        <lifetime>10800</lifetime>
+	</type>
+	<type name="SurvivorM_Niki">
+        <lifetime>10800</lifetime>
+	</type>
+	<type name="SurvivorM_Oliver">
+        <lifetime>10800</lifetime>
+	</type>
+	<type name="SurvivorM_Peter">
+        <lifetime>10800</lifetime>
+	</type>
+	<type name="SurvivorM_Quinn">
+        <lifetime>10800</lifetime>
+	</type>
+	<type name="SurvivorM_Rolf">
+        <lifetime>10800</lifetime>
+	</type>
+	<type name="SurvivorM_Seth">
+        <lifetime>10800</lifetime>
+	</type>
+	<type name="SurvivorM_Taiki">
+        <lifetime>10800</lifetime>
+	</type>
 	<type name="Shemag_Brown">
         <nominal>20</nominal>
         <lifetime>7200</lifetime>
@@ -7993,15 +8083,16 @@
         <value name="Tier4"/>
     </type>
     <type name="GPSReceiver">
-        <nominal>10</nominal>
+        <nominal>20</nominal>
         <lifetime>7200</lifetime>
         <restock>3600</restock>
-        <min>3</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
+		<usage name="Military"/>
         <usage name="Hunting"/>
     </type>
     <type name="GardenLime">

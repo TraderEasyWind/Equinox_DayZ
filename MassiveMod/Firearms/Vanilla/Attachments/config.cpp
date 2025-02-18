@@ -8,13 +8,29 @@ class CfgPatches
 		requiredAddons[] =
         {
             "DZ_Data",
-			"MassBuildings",
+			"DZ_Weapons_Muzzles",
 			"DZ_Scripts"
         };
 	};
 };//meow
 class cfgVehicles
 {
+	class ItemSuppressor;
+	class M4_Suppressor: ItemSuppressor
+	{
+		repairableWithKits[]={0};
+		repairCosts[]={0};
+	};
+	class AK_Suppressor: ItemSuppressor
+	{
+		repairableWithKits[]={0};
+		repairCosts[]={0};
+	};
+	class PistolSuppressor: ItemSuppressor
+	{
+		repairableWithKits[]={0};
+		repairCosts[]={0};
+	};
 	class Inventory_Base;
 	class M4_OEBttstck: Inventory_Base
 	{

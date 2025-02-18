@@ -34,7 +34,9 @@ class CfgVehicles
 	class BaseBuilding_HologramDoorFrameSmall: BaseBuilding_DoorFrameBase
 	{
 		scope = 2;
-		placementMode = 3;
+		placementMode = 1;
+		displayName = "Small Door Frame";
+		displayIcon = "set:BaseBuilding_Icons image:DoorFrame";
 		model = "MassiveMod\ModTweaks\RABasebuilding\Data\Doors\HologramDoorFrameSmall.p3d";
 		materialLevel = 0;
 		upgradeType = "BaseBuilding_FrameDoorFrameSmall";
@@ -56,6 +58,8 @@ class CfgVehicles
 	class BaseBuilding_FrameDoorFrameSmall: BaseBuilding_DoorFrameBase
 	{
 		scope = 2;
+		displayName = "Small Door Frame";
+		displayIcon = "set:BaseBuilding_Icons image:DoorFrame";
 		model = "MassiveMod\ModTweaks\RABasebuilding\Data\Doors\FrameDoorSmall.p3d";
 		upgradeType = "BaseBuilding_WoodDoorFrameSmall";
 		attachments[] = {};

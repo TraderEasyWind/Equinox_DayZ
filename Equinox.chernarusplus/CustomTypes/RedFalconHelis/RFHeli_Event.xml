@@ -2,14 +2,14 @@
 <events>
     <event name="VehicleHelicopter">
         <nominal>3</nominal>
-        <min>3</min>
+        <min>2</min>
         <max>4</max>
-        <lifetime>300</lifetime>
-        <restock>0</restock>
+        <lifetime>3888000</lifetime>
+        <restock>86400</restock>
         <saferadius>500</saferadius>
         <distanceradius>500</distanceradius>
         <cleanupradius>200</cleanupradius>
-        <flags deletable="0" init_random="1" remove_damaged="1"/>
+        <flags deletable="1" init_random="1" remove_damaged="1"/>
         <position>fixed</position>
         <limit>mixed</limit>
         <active>1</active>
