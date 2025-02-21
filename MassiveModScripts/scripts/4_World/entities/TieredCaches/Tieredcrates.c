@@ -392,7 +392,7 @@ class MassiveModCrate_Base: Container_Base
     override void AfterStoreLoad()
     {
         super.AfterStoreLoad();
-        SetPristineHealthForItems();
+        //SetPristineHealthForItems(); only uncomment when server is gay
         if (m_IsOpen)
         { 
             GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(DelayedDestroy, 600000, false);

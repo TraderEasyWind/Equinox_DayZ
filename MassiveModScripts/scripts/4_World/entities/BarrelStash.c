@@ -51,3 +51,7 @@ class MassiveMod_BarrelStash_ColorBase: Barrel_ColorBase
 	}
 	
 };
+class MassiveMod_BarrelStash_Green: MassiveMod_BarrelStash_ColorBase{};
+class MassiveMod_BarrelStash_Blue: MassiveMod_BarrelStash_ColorBase{};
+class MassiveMod_BarrelStash_Red: MassiveMod_BarrelStash_ColorBase{};
+class MassiveMod_BarrelStash_Yellow: MassiveMod_BarrelStash_ColorBase{};

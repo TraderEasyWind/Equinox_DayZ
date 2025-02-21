@@ -14,3 +14,11 @@ modded class DeployableContainer_Base
 		return 0;
 	}
 }
+
+modded class MassiveMod_BarrelStash_ColorBase
+{
+    override float GetCostToUpkeep()
+	{
+		return 0;
+	}
+}

@@ -8085,7 +8085,7 @@
     <type name="GPSReceiver">
         <nominal>20</nominal>
         <lifetime>7200</lifetime>
-        <restock>3600</restock>
+        <restock>1800</restock>
         <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
