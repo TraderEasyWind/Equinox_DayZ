@@ -8,7 +8,7 @@
 		<saferadius>500</saferadius>
 		<distanceradius>500</distanceradius>
 		<cleanupradius>200</cleanupradius>a
-		<flags deletable="0" init_random="0" remove_damaged="1"/>
+		<flags deletable="0" init_random="0" remove_damaged="0"/>
 		<position>fixed</position>
 		<limit>mixed</limit>
 		<active>1</active>
