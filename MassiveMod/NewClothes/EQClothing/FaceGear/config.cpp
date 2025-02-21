@@ -70,5 +70,55 @@ class CfgVehicles
 		scope = 2;
 		color = "camo16";
 		hiddenSelectionsTextures[] = {"MassiveMod\NewClothes\EQClothing\FaceGear\data\camo16_1.paa","MassiveMod\NewClothes\EQClothing\FaceGear\data\camo16_1.paa","MassiveMod\NewClothes\EQClothing\FaceGear\data\camo16_1.paa"};
+	};
+	class BalaclavaMask_ColorBase;
+    class Balaclava1Hole_Camo3: BalaclavaMask_ColorBase
+	{
+		descriptionShort= "Ski mask, designed to expose only part of the face. Very useful in cold weather. Offered here in a unique North Korean Tiger Stripe Camo. Still useful in cold weather.";
+		scope = 2;
+		color = "camo3";
+		hiddenSelectionsTextures[] = {"MassiveMod\NewClothes\EQClothing\FaceGear\data\balaclava_1hole_camo3.paa","MassiveMod\NewClothes\EQClothing\FaceGear\data\balaclava_1hole_camo3.paa","MassiveMod\NewClothes\EQClothing\FaceGear\data\balaclava_1hole_camo3.paa"};
+	};
+    class Balaclava1Hole_Camo5: BalaclavaMask_ColorBase
+	{
+		descriptionShort= "Ski mask, designed to expose only part of the face. Very useful in cold weather. Offered here in a unique North Korean Tiger Stripe Camo. Still useful in cold weather.";
+		scope = 2;
+		color = "camo5";
+		hiddenSelectionsTextures[] = {"MassiveMod\NewClothes\EQClothing\FaceGear\data\balaclava_1hole_camo5.paa","MassiveMod\NewClothes\EQClothing\FaceGear\data\balaclava_1hole_camo5.paa","MassiveMod\NewClothes\EQClothing\FaceGear\data\balaclava_1hole_camo5.paa"};
+	};
+    class Balaclava1Hole_Camo7: BalaclavaMask_ColorBase
+	{
+		descriptionShort= "Ski mask, designed to expose only part of the face. Very useful in cold weather. Offered here in a unique North Korean Tiger Stripe Camo. Still useful in cold weather.";
+		scope = 2;
+		color = "camo7";
+		hiddenSelectionsTextures[] = {"MassiveMod\NewClothes\EQClothing\FaceGear\data\balaclava_1hole_camo7.paa","MassiveMod\NewClothes\EQClothing\FaceGear\data\balaclava_1hole_camo7.paa","MassiveMod\NewClothes\EQClothing\FaceGear\data\balaclava_1hole_camo7.paa"};
 	};	
+    class Balaclava1Hole_Camo10: BalaclavaMask_ColorBase
+	{
+		descriptionShort= "Ski mask, designed to expose only part of the face. Very useful in cold weather. Offered here in a unique North Korean Tiger Stripe Camo. Still useful in cold weather.";
+		scope = 2;
+		color = "camo10";
+		hiddenSelectionsTextures[] = {"MassiveMod\NewClothes\EQClothing\FaceGear\data\balaclava_1hole_camo10.paa","MassiveMod\NewClothes\EQClothing\FaceGear\data\balaclava_1hole_camo10.paa","MassiveMod\NewClothes\EQClothing\FaceGear\data\balaclava_1hole_camo10.paa"};
+	};	
+    class Balaclava1Hole_Camo13: BalaclavaMask_ColorBase
+	{
+		descriptionShort= "Ski mask, designed to expose only part of the face. Very useful in cold weather. Offered here in a unique North Korean Tiger Stripe Camo. Still useful in cold weather.";
+		scope = 2;
+		color = "camo13";
+		hiddenSelectionsTextures[] = {"MassiveMod\NewClothes\EQClothing\FaceGear\data\balaclava_1hole_camo13.paa","MassiveMod\NewClothes\EQClothing\FaceGear\data\balaclava_1hole_camo13.paa","MassiveMod\NewClothes\EQClothing\FaceGear\data\balaclava_1hole_camo13.paa"};
+	};	
+    class Balaclava1Hole_Camo14: BalaclavaMask_ColorBase
+	{
+		descriptionShort= "Ski mask, designed to expose only part of the face. Very useful in cold weather. Offered here in a unique North Korean Tiger Stripe Camo. Still useful in cold weather.";
+		scope = 2;
+		color = "camo14";
+		hiddenSelectionsTextures[] = {"MassiveMod\NewClothes\EQClothing\FaceGear\data\balaclava_1hole_camo14.paa","MassiveMod\NewClothes\EQClothing\FaceGear\data\balaclava_1hole_camo14.paa","MassiveMod\NewClothes\EQClothing\FaceGear\data\balaclava_1hole_camo14.paa"};
+	};
+    class Balaclava1Hole_Camo16: BalaclavaMask_ColorBase
+	{
+		descriptionShort= "Ski mask, designed to expose only part of the face. Very useful in cold weather. Offered here in a unique North Korean Tiger Stripe Camo. Still useful in cold weather.";
+		scope = 2;
+		color = "camo16";
+		hiddenSelectionsTextures[] = {"MassiveMod\NewClothes\EQClothing\FaceGear\data\balaclava_1hole_camo16.paa","MassiveMod\NewClothes\EQClothing\FaceGear\data\balaclava_1hole_camo16.paa","MassiveMod\NewClothes\EQClothing\FaceGear\data\balaclava_1hole_camo16.paa"};
+	};
 };

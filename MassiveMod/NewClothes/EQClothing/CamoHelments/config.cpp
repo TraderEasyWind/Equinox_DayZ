@@ -113,4 +113,17 @@ class CfgVehicles
 			female = "\DZ\characters\headgear\pasgt_f.p3d";
 		};
 	};
+	class BallisticHelmet_mal:BallisticHelmet_ColorBase
+	{
+		descriptionShort="Combat helmet with shock absorption system. Special Mal pattern helmet Council member of the Imperium. Used specifically to protect the head during combat situations.";
+		scope = 2;
+		visibilityModifier = 0.7;
+		model = "\DZ\characters\headgear\pasgt_g.p3d";
+		hiddenSelectionsTextures[] = {"MassiveMod\NewClothes\EQClothing\CamoHelments\data\camohelmet_mal.paa","MassiveMod\NewClothes\EQClothing\CamoHelments\data\camohelmet_mal.paa","MassiveMod\NewClothes\EQClothing\CamoHelments\data\camohelmet_mal.paa"};
+		class ClothingTypes
+		{
+			male = "\DZ\characters\headgear\pasgt_m.p3d";
+			female = "\DZ\characters\headgear\pasgt_f.p3d";
+		};
+	};
 };
