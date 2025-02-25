@@ -8,13 +8,27 @@ class CfgPatches
 		requiredAddons[] =
         {
             "DZ_Data",
-			"DZ_Scripts"
+			"DZ_Scripts",
+			"DZ_Weapons_Firearms"
         };
 	};
 };//meow
 class CfgVehicles
 {
 	class Container_Base;
+	class PlateCarrierPouches: Container_Base
+	{
+		inventorySlot[]+={"VestHolster"};
+		class InventorySlotsOffsets
+		{
+			class VestHolster
+			{
+				// Left/Right,Forward/Back,Up/Down?
+				position[] = {0,-0.025,-0.06};
+				orientation[] = {0,0,0};
+			};
+		};
+	};
 	class FirstAidKit: Container_Base
 	{
 		inventorySlot[]+={"Belt_Left","VestHolster"};
@@ -22,13 +36,14 @@ class CfgVehicles
 		{
 			class Belt_Left
 			{
-				position[] = {0.02,0.15,0};
-				orientation[] = {130,0,0};
+				position[] = {-0.05,0,0};
+				orientation[] = {180,0,180};
 			};
 			class VestHolster
 			{
-				position[] = {0.02,0.15,0};
-				orientation[] = {130,0,0};
+				// Left/Right,Forward/Back,Up/Down?
+				position[] = {0,0.04,0};
+				orientation[] = {180,90,0};
 			};
 		};
 	};

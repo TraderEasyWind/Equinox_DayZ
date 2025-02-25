@@ -15,11 +15,10 @@ modded class BaseBuilding
 modded class RA_Blueprint
 {
 	protected bool m_Open;
-	
+	#ifndef SERVER
 	//@ Client only
 	protected ref BuildingRadialMenu m_BuildingRadialMenu;
 	protected ref BaseBuildingHologram m_BaseBuildingHologram;
-	
 	static const ref array<string> BASE_BUILDING_ITEMS = 
 	{
 		"BaseBuilding_HologramFoundation",
@@ -53,5 +52,6 @@ modded class RA_Blueprint
 		"BaseBuilding_HologramTriangleLadderHatch"
 		"BaseBuilding_HologramHatchLadder"
 	};
+	#endif
 };
 

@@ -11,7 +11,7 @@ class CfgPatches
 			"DZ_Scripts",
 			"Rearmed_BaseBuilding",
 			"DZ_Weapons_Explosives",
-			"RA_BreachingCharge_Improvised"
+			"RA_Explosive_Improvised_C4"
         };
 	};
 };
