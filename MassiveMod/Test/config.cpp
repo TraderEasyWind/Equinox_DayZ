@@ -15,7 +15,21 @@ class CfgPatches
 };//meow
 class CfgVehicles
 {
+	class Clothing;
 	class Container_Base;
+	class PlateCarrierHolster: Clothing
+	{
+		inventorySlot[]+={"VestPouch"};
+		class InventorySlotsOffsets
+		{
+			class VestPouch
+			{
+				// Left/Right,Forward/Back,Up/Down?
+				position[] = {0.02,0.01,0.06};
+				orientation[] = {0,0,0};
+			};
+		};
+	};
 	class PlateCarrierPouches: Container_Base
 	{
 		inventorySlot[]+={"VestHolster"};
@@ -24,7 +38,7 @@ class CfgVehicles
 			class VestHolster
 			{
 				// Left/Right,Forward/Back,Up/Down?
-				position[] = {0,-0.025,-0.06};
+				position[] = {0,-0.015,-0.06};
 				orientation[] = {0,0,0};
 			};
 		};
