@@ -466,7 +466,7 @@ class MassiveMod_RepairPistol extends RecipeBase
 		
 		//INGREDIENTS
 		//ingredient 1
-		InsertIngredient(0,"MassiveMod_ADVKit_Pistol");//you can insert multiple ingredients this way
+		InsertIngredient(0,"MassiveMod_ADVKit_Pistol",DayZPlayerConstants.CMD_ACTIONFB_CLEANING_WEAPON);//you can insert multiple ingredients this way
 
 		m_IngredientAddHealth[0] = -0;// 0 = do nothing
 		m_IngredientSetHealth[0] = -1; // -1 = do nothing
@@ -494,6 +494,11 @@ class MassiveMod_RepairPistol extends RecipeBase
         ItemBase Meow = ingredients[1];    // 0 for the first item  - 1 for the second one
         Meow.AddHealth("", "",50);
     }
+	
+	override bool IsRepeatable()
+	{
+		return true;
+	}
 };
 class MassiveMod_RepairHighEnd extends RecipeBase
 {	
@@ -521,7 +526,7 @@ class MassiveMod_RepairHighEnd extends RecipeBase
 		
 		//INGREDIENTS
 		//ingredient 1
-		InsertIngredient(0,"MassiveMod_ADVKit_High");//you can insert multiple ingredients this way
+		InsertIngredient(0,"MassiveMod_ADVKit_High",DayZPlayerConstants.CMD_ACTIONFB_CLEANING_WEAPON);//you can insert multiple ingredients this way
 
 		m_IngredientAddHealth[0] = -0;// 0 = do nothing
 		m_IngredientSetHealth[0] = -1; // -1 = do nothing
@@ -558,6 +563,11 @@ class MassiveMod_RepairHighEnd extends RecipeBase
         ItemBase Meow = ingredients[1];    // 0 for the first item  - 1 for the second one
         Meow.AddHealth("", "",50);
     }
+	
+	override bool IsRepeatable()
+	{
+		return true;
+	}
 };
 class MassiveMod_RepairRifle extends RecipeBase
 {
@@ -585,7 +595,7 @@ class MassiveMod_RepairRifle extends RecipeBase
 
         //INGREDIENTS
         //ingredient 1
-        InsertIngredient(0,"MassiveMod_ADVKit_Rifle");//you can insert multiple ingredients this way
+        InsertIngredient(0,"MassiveMod_ADVKit_Rifle",DayZPlayerConstants.CMD_ACTIONFB_CLEANING_WEAPON);//you can insert multiple ingredients this way
 
         m_IngredientAddHealth[0] = -0;// 0 = do nothing
         m_IngredientSetHealth[0] = -1; // -1 = do nothing
@@ -650,6 +660,11 @@ class MassiveMod_RepairRifle extends RecipeBase
         ItemBase Meow = ingredients[1];    // 0 for the first item  - 1 for the second one
         Meow.AddHealth("", "",50);
     }
+	
+	override bool IsRepeatable()
+	{
+		return true;
+	}
 };
 //class MassiveMod_RepairRifle extends RecipeBase
 //{	

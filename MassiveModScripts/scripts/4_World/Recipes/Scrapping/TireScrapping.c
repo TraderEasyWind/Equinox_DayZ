@@ -28,7 +28,7 @@ class MassiveMod_RepairTire extends RecipeBase
         m_MinQuantityIngredient[1] = -1;
         m_MaxQuantityIngredient[1] = -1;
         
-        InsertIngredient(0, "MassiveMod_ADVKit_TireRepair");
+        InsertIngredient(0, "MassiveMod_ADVKit_TireRepair", DayZPlayerConstants.CMD_ACTIONFB_PATCHING_TIRE);
         m_IngredientAddHealth[0] = -0;
         m_IngredientSetHealth[0] = -1;
         m_IngredientAddQuantity[0] = 0;
@@ -209,6 +209,11 @@ class MassiveMod_RepairTire extends RecipeBase
 				return 20;
 		}
 		return 0;
+	}
+	
+	override bool IsRepeatable()
+	{
+		return true;
 	}
 };
 class MassiveMod_TireScrapping extends RecipeBase

@@ -127,8 +127,8 @@ class MassiveMod_RepairClothing extends RecipeBase
 
         //INGREDIENTS
         //ingredient 1
-        InsertIngredient(0,"MassiveMod_ADVKit_Sewing");//you can insert multiple ingredients this way
-		InsertIngredient(0,"MassiveMod_ADVKit_LeatherSewing");//you can insert multiple ingredients this way
+        InsertIngredient(0,"MassiveMod_ADVKit_Sewing", DayZPlayerConstants.CMD_ACTIONFB_PATCHING_SEWING);//you can insert multiple ingredients this way);//you can insert multiple ingredients this way
+		InsertIngredient(0,"MassiveMod_ADVKit_LeatherSewing", DayZPlayerConstants.CMD_ACTIONFB_PATCHING_LEATHER_SEWING_KIT);//you can insert multiple ingredients this way
 
         m_IngredientAddHealth[0] = -0;// 0 = do nothing
         m_IngredientSetHealth[0] = -1; // -1 = do nothing
@@ -162,6 +162,11 @@ class MassiveMod_RepairClothing extends RecipeBase
         ItemBase Meow = ingredients[1];    // 0 for the first item  - 1 for the second one
         Meow.AddHealth("", "",50);
     }
+	
+	override bool IsRepeatable()
+	{
+		return true;
+	}
 };
 class MassiveMod_SewingKit extends RecipeBase
 {	
