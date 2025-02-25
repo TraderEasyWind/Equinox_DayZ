@@ -1,8 +1,7 @@
 <spawnabletypes>
     <type name="MassiveMod_CrateTier1_2">
 		<cargo chance="0.50"> <item name="RA_CodeLock" /> </cargo>
-	    <cargo chance="0.5"> <item name="MassiveMod_Tier2Key" /> </cargo>
-		<cargo chance="0.6"> <item name="MassiveMod_Tier1Key" /> </cargo>
+	    <cargo chance="0.20"> <item name="MassiveMod_Tier2Key" /> </cargo>
 		<cargo chance="0.10"> <item name="SledgeHammer" /> </cargo>
         <cargo chance="0.5"> <item name="Shovel" /> </cargo>
 		<cargo chance="0.5"> <item name="RA_ClawHammer_Yellow" /> </cargo>
@@ -98,8 +97,7 @@
     </type>
 	<type name="MassiveMod_CrateTier1">
 		<cargo chance="0.50"> <item name="RA_CodeLock" /> </cargo>
-		<cargo chance="0.50"> <item name="MassiveMod_Tier2Key" /> </cargo>
-		<cargo chance="0.60"> <item name="MassiveMod_Tier1Key" /> </cargo>
+		<cargo chance="0.20"> <item name="MassiveMod_Tier2Key" /> </cargo>
 		<cargo chance="0.10"> <item name="SledgeHammer" /> </cargo>
 		<cargo chance="0.5"> <item name="Shovel" /> </cargo>
 		<cargo chance="0.5"> <item name="RA_ClawHammer_Yellow" /> </cargo>
@@ -225,8 +223,7 @@
 		<cargo chance="0.3"> <item name="MassiveMod_ADVKit_Sewing" /> </cargo>
 		<cargo chance="0.3"> <item name="MassiveMod_ADVKit_LeatherSewing" /> </cargo>
 		<cargo chance="0.20"> <item name="TacticalBaconCan" /> </cargo>
-		<cargo chance="0.6"> <item name="MassiveMod_Tier2Key" /> </cargo>
-		<cargo chance="0.5"> <item name="MassiveMod_Tier3Key" /> </cargo>
+		<cargo chance="0.20"> <item name="MassiveMod_Tier3Key" /> </cargo>
 		<cargo chance="0.20"> <item name="WeaponCleaningKit" /> </cargo>
 		<cargo chance="0.20"> <item name="AmmoBox_308Win_20Rnd" /> </cargo>
 		<cargo chance="0.20"> <item name="AmmoBox_HK_46x30_40rnd" /> </cargo>
@@ -301,9 +298,7 @@
 			<item name="Mass_AK9"  chance="0.142857142857" />
 			<item name="Mass_AN94"  chance="0.142857142857" />
 		</cargo>
-		<cargo chance="0.3"> <item name="MassiveMod_Tier4Key" /> </cargo>
-		<cargo chance="0.4"> <item name="MassiveMod_Tier3Key" /> </cargo>
-		<cargo chance="0.5"> <item name="MassiveMod_Tier2Key" /> </cargo>
+		<cargo chance="0.20"> <item name="MassiveMod_Tier4Key" /> </cargo>
 		<cargo chance="0.60"> <item name="WeaponCleaningKit" /> </cargo>
 		<cargo chance="0.4"> <item name="MassiveMod_ADVKit_Sewing" /> </cargo>
 		<cargo chance="0.4"> <item name="MassiveMod_ADVKit_LeatherSewing" /> </cargo>
@@ -450,9 +445,6 @@
 			<item name="M14"  chance="0.11" />
 		</cargo>
 		<cargo chance="0.15"> <item name="MassiveMod_Tier5Key" /> </cargo>
-		<cargo chance="0.3"> <item name="MassiveMod_Tier4Key" /> </cargo>
-		<cargo chance="0.4"> <item name="MassiveMod_Tier3Key" /> </cargo>
-		<cargo chance="0.5"> <item name="MassiveMod_Tier2Key" /> </cargo>
 		<cargo chance="0.4"> <item name="MassiveMod_ADVKit_Sewing" /> </cargo>
 		<cargo chance="0.4"> <item name="MassiveMod_ADVKit_LeatherSewing" /> </cargo>
 		<cargo chance="0.4"> <item name="MassiveMod_ADVKit_Rifle" /> </cargo>
@@ -589,7 +581,6 @@
 			<item name="Mass_ACR"  chance="0.1111111111111111" />
 			<item name="M14"  chance="0.1111111111111111" />
 		</cargo>
-		<cargo chance="0.10"> <item name="MassiveMod_Tier5Key" /> </cargo>
 		<cargo chance="0.3"> <item name="MassiveMod_Tier4Key" /> </cargo>
 		<cargo chance="0.4"> <item name="MassiveMod_Tier3Key" /> </cargo>
 		<cargo chance="0.5"> <item name="MassiveMod_Tier2Key" /> </cargo>

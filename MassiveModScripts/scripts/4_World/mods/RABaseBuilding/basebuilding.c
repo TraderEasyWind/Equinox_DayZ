@@ -36,6 +36,7 @@ modded class RA_Blueprint
 		"BaseBuilding_HologramDoubleDoor",
 		"BaseBuilding_HologramGarageDoor",
 		"BaseBuilding_HologramWindow",
+		"BaseBuilding_HologramWindowBoards",
 		"BaseBuilding_HologramEmbrasure",
 		"BaseBuilding_HologramShutters",
 		"BaseBuilding_HologramStairs",

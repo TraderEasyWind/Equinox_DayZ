@@ -17,6 +17,20 @@ modded class BaseBuilding_WallBase
 		return true;
 	}
 };
+modded class BaseBuilding_CompoundWallBase
+{
+	override bool MM_IsWall()
+	{
+		return true;
+	}
+};
+modded class BaseBuilding_CompoundGateBase
+{
+	override bool MM_IsWall()
+	{
+		return true;
+	}
+};
 modded class BaseBuilding_SingleDoorBase
 {
 	override bool MM_IsWall()

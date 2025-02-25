@@ -1,4 +1,20 @@
-modded class SewingKit extends ItemBase
+modded class SewingKit
+{
+	override void InitItemVariables()
+	{
+		super.InitItemVariables();
+		can_this_be_combined = true;
+	}
+}
+modded class MassiveMod_ADVKit_TireRepair
+{
+	override void InitItemVariables()
+	{
+		super.InitItemVariables();
+		can_this_be_combined = true;
+	}
+}
+modded class LeatherSewingKit
 {
 	override void InitItemVariables()
 	{
@@ -7,7 +23,7 @@ modded class SewingKit extends ItemBase
 	}
 }
 
-modded class LeatherSewingKit extends ItemBase
+modded class WeaponCleaningKit
 {
 	override void InitItemVariables()
 	{
@@ -16,7 +32,7 @@ modded class LeatherSewingKit extends ItemBase
 	}
 }
 
-modded class WeaponCleaningKit extends ItemBase
+modded class Whetstone
 {
 	override void InitItemVariables()
 	{
@@ -25,7 +41,7 @@ modded class WeaponCleaningKit extends ItemBase
 	}
 }
 
-modded class Whetstone extends ItemBase
+modded class DuctTape
 {
 	override void InitItemVariables()
 	{
@@ -34,7 +50,7 @@ modded class Whetstone extends ItemBase
 	}
 }
 
-modded class DuctTape extends ItemBase
+modded class TireRepairKit
 {
 	override void InitItemVariables()
 	{
@@ -43,7 +59,7 @@ modded class DuctTape extends ItemBase
 	}
 }
 
-modded class TireRepairKit extends ItemBase
+modded class ElectronicRepairKit
 {
 	override void InitItemVariables()
 	{
@@ -52,7 +68,7 @@ modded class TireRepairKit extends ItemBase
 	}
 }
 
-modded class ElectronicRepairKit extends ItemBase
+modded class EpoxyPutty
 {
 	override void InitItemVariables()
 	{
@@ -61,7 +77,7 @@ modded class ElectronicRepairKit extends ItemBase
 	}
 }
 
-modded class EpoxyPutty extends ItemBase
+modded class BandageDressing
 {
 	override void InitItemVariables()
 	{
@@ -70,16 +86,7 @@ modded class EpoxyPutty extends ItemBase
 	}
 }
 
-modded class BandageDressing extends ItemBase
-{
-	override void InitItemVariables()
-	{
-		super.InitItemVariables();
-		can_this_be_combined = true;
-	}
-}
-
-modded class GardenLime extends ItemBase
+modded class GardenLime
 {
 	override void InitItemVariables()
 	{

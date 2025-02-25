@@ -44,3 +44,44 @@ class BaseBuilding_HologramDoorFrameSmall: BaseBuilding_DoorFrameBase
 	}
 	
 };
+class BaseBuilding_HologramWindowBoards: BaseBuilding_EmbrasureBase
+{
+	override float GetSmallRotationStep()
+	{
+		return 1.25;
+	}
+	
+	override float GetLargeRotationStep()
+	{
+		return 180.0;
+	}
+	
+	override bool CanPermanentlyDismantle()
+	{
+		return false;
+	}
+	
+};
+class BaseBuilding_WindowBoards: BaseBuilding_EmbrasureBase
+{
+	override float GetCostToUpkeep()
+    {
+        return 0.70;
+    }
+	
+	override float GetSmallRotationStep()
+	{
+		return 1.25;
+	}
+	
+	override float GetLargeRotationStep()
+	{
+		return 180.0;
+	}
+	
+	override bool CanPermanentlyDismantle()
+	{
+		return false;
+	}
+	
+};

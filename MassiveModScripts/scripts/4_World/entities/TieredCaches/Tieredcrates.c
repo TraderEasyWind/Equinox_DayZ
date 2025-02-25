@@ -314,9 +314,12 @@ class MassiveModCrate_Base: Container_Base
 
 
     void HideInventory()
-    {
-        GetInventory().LockInventory(HIDE_INV_FROM_SCRIPT);
-    }
+	{
+		if (GetInventory())
+		{
+			GetInventory().LockInventory(HIDE_INV_FROM_SCRIPT);
+		}
+	}
 
     void DelayedDestroy()
     {

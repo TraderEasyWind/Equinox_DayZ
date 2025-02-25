@@ -31,6 +31,110 @@ class CfgVehicles
 	class BaseBuilding_WallBase;
 	class BaseBuilding_SingleDoorBase;
 	class BaseBuilding_DoorFrameBase;
+	class BaseBuilding_EmbrasureBase;
+	class BaseBuilding_HologramWindowBoards: BaseBuilding_EmbrasureBase
+	{
+		scope = 2;
+		displayName = "Window Boards";
+		displayIcon = "set:BaseBuilding_Icons image:Embrasure";
+		model = "MassiveMod\ModTweaks\RABasebuilding\Data\WindowBoards.p3d";
+		upgradeType = "BaseBuilding_WindowBoards";
+		hiddenSelections[] = {"wood"};
+		hiddenSelectionsTextures[] = {"#(argb,8,8,3)color(0.756863,0.741176,0.733333,0.9,co)"};
+		hiddenSelectionsMaterials[] = {"rearmedserver\basebuilding\materials\basebuilding_neutral.rvmat"};
+		materialLevel = 0;
+		class UpgradeSystem
+		{
+			class Hologram{};
+			class Wood
+			{
+				class Construct
+				{
+					item = "WoodenPlank";
+					quantity = 10;
+				};
+				class Repair
+				{
+					item = "WoodenPlank";
+					quantity = 5;
+				};
+			};
+		};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints = 100;
+					healthLevels[] = {{1.0,{""}},{0.7,{""}},{0.5,{""}},{0.3,{""}},{0.0,{""}}};
+				};
+			};
+		};
+	};
+	class BaseBuilding_WindowBoards: BaseBuilding_EmbrasureBase
+	{
+		scope = 2;
+		displayName = "Window Boards";
+		displayIcon = "set:BaseBuilding_Icons image:Embrasure";
+		descriptionShort = "A collection of boards used to create a fighting position from your windows.";
+		model = "MassiveMod\ModTweaks\RABasebuilding\Data\WindowBoards.p3d";
+		hiddenSelections[] = {"wood"};
+		hiddenSelectionsTextures[] = {"DZ\gear\consumables\data\pile_of_planks_co.paa"};
+		materialLevel = 2;
+		class UpgradeSystem
+		{
+			class Hologram{};
+			class Wood
+			{
+				class Construct
+				{
+					item = "WoodenPlank";
+					quantity = 10;
+				};
+				class Repair
+				{
+					item = "WoodenPlank";
+					quantity = 5;
+				};
+			};
+		};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints = 1125;
+					healthLevels[] = {{1.0,{"DZ\gear\consumables\data\pile_of_planks.rvmat"}},{0.7,{"DZ\gear\consumables\data\pile_of_planks.rvmat"}},{0.5,{"DZ\gear\consumables\data\pile_of_planks_damage.rvmat"}},{0.3,{"DZ\gear\consumables\data\pile_of_planks_damage.rvmat"}},{0.0,{"DZ\gear\consumables\data\pile_of_planks_destruct.rvmat"}}};
+				};
+			};
+			class GlobalArmor
+			{
+				class Projectile
+				{
+					class Health
+					{
+						damage = 0.0;
+					};
+				};
+				class Melee
+				{
+					class Health
+					{
+						damage = 0.0;
+					};
+				};
+				class FragGrenade
+				{
+					class Health
+					{
+						damage = 0.0;
+					};
+				};
+			};
+		};
+	};
 	class BaseBuilding_HologramDoorFrameSmall: BaseBuilding_DoorFrameBase
 	{
 		scope = 2;

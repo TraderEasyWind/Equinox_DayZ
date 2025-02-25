@@ -54,7 +54,34 @@ class CfgVehicles
 			"MassiveMod\RepairKits\ScrapTextures\NylonRag.paa"
 		};
 	};
-	class TraderPlus_Money_Ruble1_Coin;
+	class MassiveMod_TireScrap: Inventory_Base
+	{
+		scope=2;
+		displayName="Tire Treads";
+		descriptionShort="I need some epoxy putty to act as an adhesive before I can make an advanced repair kit out of this.";
+		weight = 10;
+        overrideDrawArea = "5.0";
+        //rotationFlags = 16;
+        lootCategory = "Materials";
+        lootTag[] = {"Civilian","Work"};
+        quantityBar = 0;
+        canBeSplit = 1;
+        varQuantityInit = 1;
+        varQuantityMin = 0;
+        varQuantityMax = 10;
+        varQuantityDestroyOnMin = 1;
+        destroyOnEmpty = 1;
+        isMeleeWeapon = 0;
+        absorbency = 1;
+		itemSize[] = {3,2};
+		model="MassiveMod\RepairKits\TireScrap.p3d";
+	};
+	class MassiveMod_PreparedTireScrap: MassiveMod_TireScrap
+	{
+		scope=2;
+		displayName="Prepared Tire Treads";
+		descriptionShort="Used on Tire Repair kits to create advanced versions, which can be used to repair tires that are even ruined.";
+	};
 	class MassiveMod_GunScrap: Inventory_Base
 	{
 		scope=2;
@@ -104,6 +131,78 @@ class CfgVehicles
 				{
 					hitpoints = 100;
 					healthLevels[] = {{1.0,{"DZ\gear\tools\data\cleaning_kit_wood.rvmat"}},{0.7,{"DZ\gear\tools\data\cleaning_kit_wood.rvmat"}},{0.5,{"DZ\gear\tools\data\cleaning_kit_wood_damage.rvmat"}},{0.3,{"DZ\gear\tools\data\cleaning_kit_wood_damage.rvmat"}},{0.0,{"DZ\gear\tools\data\cleaning_kit_wood_destruct.rvmat"}}};
+				};
+			};
+		};
+	};
+	class MassiveMod_ADVKit_TireRepair: MassiveMod_ADVKit_Base
+	{
+		scope=2;
+		displayName="Advanced Tire Repair Kit";
+		descriptionShort="Can be used to Repair Tires from any damaged state, Even Ruined!";
+		model="\dz\vehicles\parts\Tire_Repair_Kit.p3d";
+		hiddenSelectionsTextures[]={"MassiveMod\RepairKits\KitTextures\tire_repair_kit.paa"};
+		weight=800;
+		weightPerQuantityUnit=2;
+		itemSize[]={2,3};
+		quantityBar=1;
+		varQuantityInit=200;
+		varQuantityMin=0;
+		varQuantityMax=200;
+		repairKitType=6;
+		varQuantityDestroyOnMin = 1;
+		hiddenSelections[]={"zbytek"};
+		hiddenSelectionsMaterials[]={"MassiveMod\RepairKits\KitTextures\tire_repair_kit.rvmat"};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=100;
+					healthLevels[]=
+					{
+						
+						{
+							1,
+							
+							{
+								"MassiveMod\RepairKits\KitTextures\tire_repair_kit.rvmat"
+							}
+						},
+						
+						{
+							0.75,
+							
+							{
+								"MassiveMod\RepairKits\KitTextures\tire_repair_kit.rvmat"
+							}
+						},
+						
+						{
+							0.5,
+							
+							{
+								"MassiveMod\RepairKits\KitTextures\tire_repair_kit_damage.rvmat"
+							}
+						},
+						
+						{
+							0.25,
+							
+							{
+								"MassiveMod\RepairKits\KitTextures\tire_repair_kit_damage.rvmat"
+							}
+						},
+						
+						{
+							0,
+							
+							{
+								"MassiveMod\RepairKits\KitTextures\tire_repair_kit_destruct.rvmat"
+							}
+						}
+					};
 				};
 			};
 		};

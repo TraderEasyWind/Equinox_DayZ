@@ -1,4 +1,5 @@
 class MassiveMod_ADVKit_Base: Inventory_Base{};
+class MassiveMod_ADVKit_TireRepair: MassiveMod_ADVKit_Base{};
 class MassiveMod_ADVKit_Sewing: MassiveMod_ADVKit_Base{};
 class MassiveMod_ADVKit_LeatherSewing: MassiveMod_ADVKit_Base{};
 class MassiveMod_ADVKit_Rifle: MassiveMod_ADVKit_Base{};
