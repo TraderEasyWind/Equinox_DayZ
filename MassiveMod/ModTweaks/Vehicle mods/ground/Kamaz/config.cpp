@@ -33,6 +33,34 @@ class CfgVehicles
 	class CarWheel;
 	class CfgSlots;
 	class Kamaz_base;
+	class KamazWheel: CarWheel
+	{
+		inventorySlot[]+=
+		{
+			"ZenTireRack1",
+			"ZenTireRack2",
+			"ZenTireRack3",
+			"ZenTireRack4",
+			"ZenTireRack5",
+			"ZenTireRack6",
+			"ZenTireRack7",
+			"ZenTireRack8"
+		};
+	};
+	class KamazWheel_Ruined: KamazWheel
+	{
+		inventorySlot[]+=
+		{
+			"ZenTireRack1",
+			"ZenTireRack2",
+			"ZenTireRack3",
+			"ZenTireRack4",
+			"ZenTireRack5",
+			"ZenTireRack6",
+			"ZenTireRack7",
+			"ZenTireRack8"
+		};
+	};
 	class Kamaz: Kamaz_base
 	{
 		attachments[] += {"Material_FPole_Flag"};

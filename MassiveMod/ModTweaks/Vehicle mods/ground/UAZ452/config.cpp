@@ -37,15 +37,53 @@ class CfgVehicles
 	class H4_UAZ452A_Wheel_Destroyed;
 	class MassiveMod_UAZ_Wheel: H4_UAZ452A_Wheel
 	{
-	  displayName = "UAZ Wheel";
-	  descriptionShort = "This all terrain wheel fits across all vehicles in the UAZ production line.";
-	  inventorySlot[] = {"H4_UAZ452A_Wheel_1_1","H4_UAZ452A_Wheel_1_2","H4_UAZ452A_Wheel_2_1","H4_UAZ452A_Wheel_2_2","H4_UAZ452A_Wheel_spare_1","TF_UAZ3151_Wheel_1_1","TF_UAZ3151_Wheel_1_2","TF_UAZ3151_Wheel_2_1","TF_UAZ3151_Wheel_2_2"};
+		displayName = "UAZ Wheel";
+		descriptionShort = "This all terrain wheel fits across all vehicles in the UAZ production line.";
+		inventorySlot[] = 
+		{
+			"ZenTireRack1",
+			"ZenTireRack2",
+			"ZenTireRack3",
+			"ZenTireRack4",
+			"ZenTireRack5",
+			"ZenTireRack6",
+			"ZenTireRack7",
+			"ZenTireRack8",
+			"H4_UAZ452A_Wheel_1_1",
+			"H4_UAZ452A_Wheel_1_2",
+			"H4_UAZ452A_Wheel_2_1",
+			"H4_UAZ452A_Wheel_2_2",
+			"H4_UAZ452A_Wheel_spare_1",
+			"TF_UAZ3151_Wheel_1_1",
+			"TF_UAZ3151_Wheel_1_2",
+			"TF_UAZ3151_Wheel_2_1",
+			"TF_UAZ3151_Wheel_2_2"
+		};
 	};
 	class MassiveMod_UAZ_Wheel_Ruined: H4_UAZ452A_Wheel_Destroyed
 	{
-	  displayName = "UAZ Wheel";
-	  descriptionShort = "This all terrain wheel fits across all vehicles in the UAZ production line.";
-	  inventorySlot[] = {"H4_UAZ452A_Wheel_1_1","H4_UAZ452A_Wheel_1_2","H4_UAZ452A_Wheel_2_1","H4_UAZ452A_Wheel_2_2","H4_UAZ452A_Wheel_spare_1","TF_UAZ3151_Wheel_1_1","TF_UAZ3151_Wheel_1_2","TF_UAZ3151_Wheel_2_1","TF_UAZ3151_Wheel_2_2"};
+		displayName = "UAZ Wheel";
+		descriptionShort = "This all terrain wheel fits across all vehicles in the UAZ production line.";
+		inventorySlot[] = 
+		{
+			"ZenTireRack1",
+			"ZenTireRack2",
+			"ZenTireRack3",
+			"ZenTireRack4",
+			"ZenTireRack5",
+			"ZenTireRack6",
+			"ZenTireRack7",
+			"ZenTireRack8",
+			"H4_UAZ452A_Wheel_1_1",
+			"H4_UAZ452A_Wheel_1_2",
+			"H4_UAZ452A_Wheel_2_1",
+			"H4_UAZ452A_Wheel_2_2",
+			"H4_UAZ452A_Wheel_spare_1",
+			"TF_UAZ3151_Wheel_1_1",
+			"TF_UAZ3151_Wheel_1_2",
+			"TF_UAZ3151_Wheel_2_1",
+			"TF_UAZ3151_Wheel_2_2"
+		};
 	};
 	class H4_UAZ452A_Medical: CarScript
 	{

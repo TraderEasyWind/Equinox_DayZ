@@ -7,6 +7,7 @@ modded class ActionConstructor
 		actions.Insert(ActionUnlockCrate);
         actions.Insert(ActionDestroyPart);
 		actions.Insert(ActionEnterHatch);
+	//	actions.Insert(ActionAdminRepairVehicle);
 		
 	}
 }

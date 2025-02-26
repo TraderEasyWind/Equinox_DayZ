@@ -28,6 +28,14 @@ class CfgVehicles
 		descriptionShort="Rugged steel wheel and tire that fit to a variety of NATO 4WD vehicles. The increased ground clearance will assist in overlanding.";
 		inventorySlot[]=
 		{
+			"ZenTireRack1",
+			"ZenTireRack2",
+			"ZenTireRack3",
+			"ZenTireRack4",
+			"ZenTireRack5",
+			"ZenTireRack6",
+			"ZenTireRack7",
+			"ZenTireRack8",
 			"Offroad_02_Wheel_1_1",
 			"Offroad_02_Wheel_1_2",
 			"Offroad_02_Wheel_2_1",
@@ -46,6 +54,14 @@ class CfgVehicles
 		descriptionShort="Rugged steel wheel and tire that fit to a variety of NATO 4WD vehicles. The increased ground clearance will assist in overlanding.";
 		inventorySlot[]=
 		{
+			"ZenTireRack1",
+			"ZenTireRack2",
+			"ZenTireRack3",
+			"ZenTireRack4",
+			"ZenTireRack5",
+			"ZenTireRack6",
+			"ZenTireRack7",
+			"ZenTireRack8",
 			"Offroad_02_Wheel_1_1",
 			"Offroad_02_Wheel_1_2",
 			"Offroad_02_Wheel_2_1",
@@ -65,6 +81,14 @@ class CfgVehicles
 		descriptionShort="This medium duty wheel fits all trucks with a curb weight of up to 8000 kg";
 		inventorySlot[]=
 		{
+			"ZenTireRack1",
+			"ZenTireRack2",
+			"ZenTireRack3",
+			"ZenTireRack4",
+			"ZenTireRack5",
+			"ZenTireRack6",
+			"ZenTireRack7",
+			"ZenTireRack8",
 			"Zil130Wheel_1_1",
 			"Zil130Wheel_2_1",
 			"Truck_01_Wheel_1_1",
@@ -80,6 +104,14 @@ class CfgVehicles
 		descriptionShort="This medium duty wheel fits all trucks with a curb weight of up to 8000 kg";
 		inventorySlot[]=
 		{
+			"ZenTireRack1",
+			"ZenTireRack2",
+			"ZenTireRack3",
+			"ZenTireRack4",
+			"ZenTireRack5",
+			"ZenTireRack6",
+			"ZenTireRack7",
+			"ZenTireRack8",
 			"Zil130Wheel_1_1",
 			"Zil130Wheel_2_1",
 			"Truck_01_Wheel_1_1",
@@ -95,6 +127,14 @@ class CfgVehicles
 		model="\DZ\vehicles\wheeled\Truck_01\proxy\Truck_01_WheelDouble.p3d";
 		inventorySlot[]=
 		{
+			"ZenTireRack1",
+			"ZenTireRack2",
+			"ZenTireRack3",
+			"ZenTireRack4",
+			"ZenTireRack5",
+			"ZenTireRack6",
+			"ZenTireRack7",
+			"ZenTireRack8",
 			"Truck_01_Wheel_1_2",
 			"Truck_01_Wheel_1_3",
 			"Truck_01_Wheel_2_2",
@@ -110,6 +150,14 @@ class CfgVehicles
 		model="\DZ\vehicles\wheeled\Truck_01\proxy\Truck_01_WheelDouble.p3d";
 		inventorySlot[]=
 		{
+			"ZenTireRack1",
+			"ZenTireRack2",
+			"ZenTireRack3",
+			"ZenTireRack4",
+			"ZenTireRack5",
+			"ZenTireRack6",
+			"ZenTireRack7",
+			"ZenTireRack8",
 			"Truck_01_Wheel_1_2",
 			"Truck_01_Wheel_1_3",
 			"Truck_01_Wheel_2_2",

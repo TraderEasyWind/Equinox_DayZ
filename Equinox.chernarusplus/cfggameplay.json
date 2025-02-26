@@ -34,9 +34,9 @@
 		"MovementData":
 		{
 			"timeToStrafeJog": 0.1,
-			"rotationSpeedJog": 0.3,
-			"timeToSprint": 0.8,
-			"timeToStrafeSprint": 0.5,
+			"rotationSpeedJog": 0.2,
+			"timeToSprint": 0.6,
+			"timeToStrafeSprint": 0.4,
 			"rotationSpeedSprint": 0.15,
 			"allowStaminaAffectInertia": true
 		},

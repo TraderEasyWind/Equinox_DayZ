@@ -1,5 +1,7 @@
 modded class BaseBuilding
 {
+	static const float BUILD_HEIGHT_LIMIT = 1500.9;
+	
 	override bool EvaluatePlacementCondition(PlacementMode placement_mode, vector mat[4])
 	{
 		// Always allow placement, bypassing all checks
@@ -91,7 +93,7 @@ modded class BaseBuilding_TriangleFoundationBase
 
 modded class BaseBuilding_SingleDoorBase
 {
-	static const float MAX_Y_HEIGHT = 500.9;
+	static const float MAX_Y_HEIGHT = 1500.9;
 	static const float MIN_Y_HEIGHT = 0;
 	
 	override float GetSmallRotationStep()
