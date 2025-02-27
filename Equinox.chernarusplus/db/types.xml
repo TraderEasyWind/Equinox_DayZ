@@ -219,7 +219,7 @@
     <type name="AK101_Black">
         <nominal>1</nominal>
         <lifetime>28800</lifetime>
-        <restock>14400</restock>
+        <restock>28800</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -232,7 +232,7 @@
     <type name="AK101_Green">
         <nominal>1</nominal>
         <lifetime>28800</lifetime>
-        <restock>7200</restock>
+        <restock>28800</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -260,7 +260,7 @@
     <type name="AK74_Black">
         <nominal>1</nominal>
         <lifetime>28800</lifetime>
-        <restock>14400</restock>
+        <restock>28800</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -273,7 +273,7 @@
     <type name="AK74_Green">
         <nominal>1</nominal>
         <lifetime>28800</lifetime>
-        <restock>14400</restock>
+        <restock>28800</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -340,7 +340,7 @@
     <type name="AKS74U_Black">
         <nominal>1</nominal>
         <lifetime>28800</lifetime>
-        <restock>14400</restock>
+        <restock>28800</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -365,7 +365,7 @@
     <type name="AKS74U_Green">
         <nominal>1</nominal>
         <lifetime>28800</lifetime>
-        <restock>14400</restock>
+        <restock>28800</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -521,7 +521,7 @@
     <type name="AK_Suppressor">
         <nominal>1</nominal>
         <lifetime>9800</lifetime>
-        <restock>7200</restock>
+        <restock>14400</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -605,7 +605,7 @@
         <value name="Tier4"/>
     </type>
     <type name="ASVAL">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>28800</restock>
         <min>1</min>
@@ -2661,10 +2661,10 @@
         <category name="tools"/>
     </type>
     <type name="BakedBeansCan">
-        <nominal>10</nominal>
+        <nominal>8</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4024,10 +4024,10 @@
         <value name="Tier2"/>
     </type>
     <type name="BoxCerealCrunchin">
-        <nominal>23</nominal>
+        <nominal>20</nominal>
         <lifetime>28800</lifetime>
-        <restock>600</restock>
-        <min>18</min>
+        <restock>1800</restock>
+        <min>8</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -4199,10 +4199,10 @@
         <usage name="Village"/>
     </type>
     <type name="BrisketSpread">
-        <nominal>18</nominal>
+        <nominal>16</nominal>
         <lifetime>9000</lifetime>
-        <restock>600</restock>
-        <min>10</min>
+        <restock>1800</restock>
+        <min>6</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5063,7 +5063,7 @@
     <type name="Chips">
         <nominal>20</nominal>
         <lifetime>7200</lifetime>
-        <restock>600</restock>
+        <restock>1800</restock>
         <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -6013,8 +6013,8 @@
 	    <type name="CrabCan">
         <nominal>15</nominal>
         <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>12</min>
+        <restock>1800</restock>
+        <min>8</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -6042,8 +6042,8 @@
     <type name="Crackers">
         <nominal>23</nominal>
         <lifetime>7200</lifetime>
-        <restock>600</restock>
-        <min>18</min>
+        <restock>1800</restock>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -10457,7 +10457,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
     </type>
     <type name="IodineTincture">
@@ -11898,8 +11898,8 @@
     <type name="Lunchmeat">
         <nominal>20</nominal>
         <lifetime>14400</lifetime>
-        <restock>600</restock>
-        <min>15</min>
+        <restock>1800</restock>
+        <min>8</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12583,7 +12583,7 @@
         <usage name="Military"/>
     </type>
     <type name="Mag_AKM_Palm30Rnd">
-        <nominal>4</nominal>
+        <nominal>6</nominal>
         <lifetime>28800</lifetime>
         <restock>3600</restock>
         <min>1</min>
@@ -12613,9 +12613,9 @@
         <value name="Tier4"/>
     </type>
     <type name="Mag_CMAG_10Rnd">
-        <nominal>16</nominal>
+        <nominal>14</nominal>
         <lifetime>28800</lifetime>
-        <restock>1200</restock>
+        <restock>3600</restock>
         <min>5</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
@@ -12631,7 +12631,7 @@
     <type name="Mag_CMAG_20Rnd">
         <nominal>10</nominal>
         <lifetime>28800</lifetime>
-        <restock>1200</restock>
+        <restock>3600</restock>
         <min>3</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
@@ -12692,7 +12692,7 @@
         <value name="Tier4"/>
     </type>
     <type name="Mag_CZ550_10Rnd">
-        <nominal>8</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>3600</restock>
         <min>2</min>
@@ -12751,7 +12751,7 @@
         <usage name="Town"/>
     </type>
     <type name="Mag_FAL_20Rnd">
-        <nominal>7</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -12777,7 +12777,7 @@
         <usage name="Military"/>
     </type>
     <type name="Mag_FNX45_15Rnd">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>28800</lifetime>
         <restock>1200</restock>
         <min>2</min>
@@ -12823,7 +12823,7 @@
         <value name="Tier4"/>
     </type>
     <type name="Mag_M14_10Rnd">
-        <nominal>7</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>7200</restock>
         <min>2</min>
@@ -13142,7 +13142,7 @@
         <value name="Tier4"/>
     </type>
     <type name="Magnum">
-        <nominal>14</nominal>
+        <nominal>16</nominal>
         <lifetime>28800</lifetime>
         <restock>3600</restock>
         <min>4</min>
@@ -13271,8 +13271,8 @@
     <type name="Marmalade">
         <nominal>20</nominal>
         <lifetime>14400</lifetime>
-        <restock>600</restock>
-        <min>15</min>
+        <restock>1800</restock>
+        <min>8</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -14893,8 +14893,8 @@
     <type name="Pajka">
         <nominal>23</nominal>
         <lifetime>14600</lifetime>
-        <restock>600</restock>
-        <min>18</min>
+        <restock>1800</restock>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -15052,8 +15052,8 @@
     <type name="Pate">
         <nominal>23</nominal>
         <lifetime>146000</lifetime>
-        <restock>600</restock>
-        <min>18</min>
+        <restock>1800</restock>
+        <min>12</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -15080,8 +15080,8 @@
     <type name="PeachesCan">
         <nominal>15</nominal>
         <lifetime>14400</lifetime>
-        <restock>600</restock>
-        <min>12</min>
+        <restock>1800</restock>
+        <min>8</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -15383,7 +15383,7 @@
     <type name="PistolSuppressor">
         <nominal>5</nominal>
         <lifetime>14400</lifetime>
-        <restock>7200</restock>
+        <restock>14400</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -15776,8 +15776,8 @@
     <type name="PorkCan">
         <nominal>15</nominal>
         <lifetime>14400</lifetime>
-        <restock>600</restock>
-        <min>12</min>
+        <restock>1800</restock>
+        <min>8</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -15846,8 +15846,8 @@
     <type name="Potato">
         <nominal>15</nominal>
         <lifetime>14400</lifetime>
-        <restock>7200</restock>
-        <min>0</min>
+        <restock>1800</restock>
+        <min>6</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -15874,8 +15874,8 @@
     <type name="PowderedMilk">
         <nominal>15</nominal>
         <lifetime>28800</lifetime>
-        <restock>600</restock>
-        <min>12</min>
+        <restock>1800</restock>
+        <min>8</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -16517,8 +16517,8 @@
     <type name="Rice">
         <nominal>20</nominal>
         <lifetime>28800</lifetime>
-        <restock>600</restock>
-        <min>15</min>
+        <restock>1800</restock>
+        <min>8</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -16823,8 +16823,8 @@
     <type name="SardinesCan">
         <nominal>20</nominal>
         <lifetime>14400</lifetime>
-        <restock>600</restock>
-        <min>15</min>
+        <restock>1800</restock>
+        <min>8</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -18246,7 +18246,7 @@
     <type name="SodaCan_Cola">
         <nominal>20</nominal>
         <lifetime>14400</lifetime>
-        <restock>600</restock>
+        <restock>1800</restock>
         <min>16</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -18260,7 +18260,7 @@
     <type name="SodaCan_Fronta">
         <nominal>20</nominal>
         <lifetime>14400</lifetime>
-        <restock>600</restock>
+        <restock>1800</restock>
         <min>16</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -18274,7 +18274,7 @@
     <type name="SodaCan_Kvass">
         <nominal>20</nominal>
         <lifetime>14400</lifetime>
-        <restock>600</restock>
+        <restock>1800</restock>
         <min>16</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -18288,7 +18288,7 @@
     <type name="SodaCan_Pipsi">
         <nominal>20</nominal>
         <lifetime>14400</lifetime>
-        <restock>600</restock>
+        <restock>1800</restock>
         <min>16</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -18302,7 +18302,7 @@
     <type name="SodaCan_Spite">
         <nominal>20</nominal>
         <lifetime>14400</lifetime>
-        <restock>600</restock>
+        <restock>1800</restock>
         <min>16</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -18316,8 +18316,8 @@
     <type name="SpaghettiCan">
         <nominal>15</nominal>
         <lifetime>14400</lifetime>
-        <restock>600</restock>
-        <min>12</min>
+        <restock>1800</restock>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -19137,7 +19137,7 @@
     <type name="TacticalBaconCan">
         <nominal>10</nominal>
         <lifetime>28800</lifetime>
-        <restock>600</restock>
+        <restock>1800</restock>
         <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -19451,7 +19451,7 @@
     <type name="Tomato">
         <nominal>20</nominal>
         <lifetime>14400</lifetime>
-        <restock>600</restock>
+        <restock>1800</restock>
         <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -20014,8 +20014,8 @@
     <type name="TunaCan">
         <nominal>20</nominal>
         <lifetime>14400</lifetime>
-        <restock>600</restock>
-        <min>15</min>
+        <restock>1800</restock>
+        <min>12</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -20178,10 +20178,10 @@
         <value name="Tier4"/>
     </type>
     <type name="UnknownFoodCan">
-        <nominal>43</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>37</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -21287,7 +21287,7 @@
     <type name="Zagorky">
         <nominal>15</nominal>
         <lifetime>14400</lifetime>
-        <restock>600</restock>
+        <restock>1800</restock>
         <min>12</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -21307,7 +21307,7 @@
     <type name="ZagorkyChocolate">
         <nominal>15</nominal>
         <lifetime>14400</lifetime>
-        <restock>600</restock>
+        <restock>1800</restock>
         <min>12</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -21320,7 +21320,7 @@
     <type name="ZagorkyPeanuts">
         <nominal>15</nominal>
         <lifetime>14400</lifetime>
-        <restock>600</restock>
+        <restock>1800</restock>
         <min>12</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -23016,7 +23016,7 @@
     <type name="Zucchini">
         <nominal>20</nominal>
         <lifetime>14400</lifetime>
-        <restock>600</restock>
+        <restock>1800</restock>
         <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
