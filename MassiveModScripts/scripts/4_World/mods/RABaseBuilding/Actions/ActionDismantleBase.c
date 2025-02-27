@@ -11,14 +11,15 @@ modded class ActionDismantleBaseCB: ActionContinuousBaseCB
 }
 modded class ActionDismantleBase: ActionContinuousBase
 {	
-	override void OnFinishProgressServer(ActionData action_data)
-	{
-		super.OnFinishProgressServer(action_data);
-		if (action_data.m_MainItem) 
-		{
-			action_data.m_MainItem.DecreaseHealth(UADamageApplied.DISMANTLE, false);
-		}
-	}	
+	//override void OnFinishProgressServer(ActionData action_data)
+	//{
+	//	super.OnFinishProgressServer(action_data);
+	//	if (action_data.m_MainItem) 
+	//	{
+	//		action_data.m_MainItem.DecreaseHealth(UADamageApplied.DISMANTLE, false);
+	//	}
+	//}	
+	
 	#ifndef SERVER
 	override bool ActionCondition(PlayerBase player, ActionTarget target, ItemBase item)
 	{
@@ -39,8 +40,22 @@ modded class ActionDismantleBase: ActionContinuousBase
 		m_Text = string.Format("#STR_RA_REMOVE %1", base_building.GetDisplayName());
 		return true;
 	}
-
 	#endif
+	override void OnFinishProgressServer(ActionData action_data)
+	{
+		BaseBuilding base_building = BaseBuilding.Cast(action_data.m_Target.GetObject());
+		PlayerBase player = PlayerBase.Cast(action_data.m_Player);
+		if (!base_building)
+		{
+			return; // Early exit if the target is not a BaseBuilding
+		}
+		if ((!IsPlayerBehindItem(player, base_building) || player.IsLeaning()) && base_building.MM_IsWall())
+		{
+			return; // Exit if the player is behind and not leaning, and it's a wall.
+		}
+		// If all checks pass, set the health to 0
+		base_building.SetHealth01("GlobalHealth", "Health", 0);
+	}
 	
 	private bool IsPlayerBehindItem(PlayerBase player, BaseBuilding base_building)
 	{

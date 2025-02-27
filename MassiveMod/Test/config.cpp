@@ -43,15 +43,32 @@ class CfgVehicles
 			};
 		};
 	};
+	class MassTacticalBag: Container_Base
+	{
+		inventorySlot[]+={"VestPouch"};
+		class InventorySlotsOffsets
+		{
+			class VestPouch
+			{
+				position[] = {0,0.01,0.07};
+				orientation[] = {0,0,0};
+			};
+		};
+	};
 	class FirstAidKit: Container_Base
 	{
-		inventorySlot[]+={"Belt_Left","VestHolster"};
+		inventorySlot[]+={"Belt_Left","VestHolster","VestPouch"};
 		class InventorySlotsOffsets
 		{
 			class Belt_Left
 			{
 				position[] = {-0.05,0,0};
 				orientation[] = {180,0,180};
+			};
+			class VestPouch
+			{
+				position[] = {0,0.05,0.07};
+				orientation[] = {180,90,0};
 			};
 			class VestHolster
 			{
