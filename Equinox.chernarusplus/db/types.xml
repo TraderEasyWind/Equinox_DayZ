@@ -14314,10 +14314,10 @@
         <usage name="Firefighter"/>
     </type>
     <type name="NVGHeadstrap">
-        <nominal>30</nominal>
+        <nominal>25</nominal>
         <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>15</min>
+        <restock>1800</restock>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -20356,8 +20356,8 @@
     <type name="WeaponCleaningKit">
         <nominal>60</nominal>
         <lifetime>28800</lifetime>
-        <restock>600</restock>
-        <min>50</min>
+        <restock>1800</restock>
+        <min>30</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>

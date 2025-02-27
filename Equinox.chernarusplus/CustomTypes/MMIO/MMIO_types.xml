@@ -1784,6 +1784,7 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
+	<!--
 	<type name="MassHeli_MRE9">
         <nominal>7</nominal>
         <lifetime>7200</lifetime>
@@ -1817,48 +1818,58 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<usage name="Military"/>
     </type>
+	-->
 	<type name="MassMRE4">
-        <nominal>3</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>2</min>
+        <restock>3600</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
         <tag name="shelves"/>
+		<usage name="Military"/>
         <usage name="Hunting"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
 	<type name="MassMRE9">
-        <nominal>3</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>2</min>
+        <restock>3600</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
         <tag name="shelves"/>
+		<usage name="Military"/>
         <usage name="Hunting"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
 	<type name="MassMRE10">
-        <nominal>3</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>2</min>
+        <restock>3600</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
         <tag name="shelves"/>
+		<usage name="Military"/>
         <usage name="Hunting"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
