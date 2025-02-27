@@ -164,8 +164,8 @@ modded class ActionSalvageWreck: ActionContinuousBase
 
 		//ref TStringArray z_TruckPartsArray = {"TruckBattery", "CarRadiator", "SparkPlug", "HeadlightH7"};
 		//ref TStringArray z_CarPartsArray = {"CarBattery","CarRadiator", "SparkPlug", "HeadlightH7"};
-		int z_moreThan = (Math.RandomInt(0, 7)); //change the '4' to a higher number and the chance to find an item is lower
-		//orginal value was 3 so it is not a double the chance to not find anything 
+		int z_moreThan = (Math.RandomInt(0, 6)); //change the '4' to a higher number and the chance to find an item is lower
+		//orginal value was 3 so it is now a double the chance to not find anything 11/18 nothing found 61% to not find anything
 		
 		
 		array<Object> NearByWrecks = new array<Object>;
