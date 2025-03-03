@@ -2807,13 +2807,13 @@
 		</attachments>
 	</type>
 	<type name="M4_Suppressor">
-		<damage min="0.0" max="0.32" />
+		<damage min="0.0" max="0.0" />
 	</type>
 	<type name="PistolSuppressor">
-		<damage min="0.40" max="0.75" />
+		<damage min="0.40" max="0.0" />
 	</type>
 	<type name="AK_Suppressor">
-		<damage min="0.0" max="0.32" />
+		<damage min="0.0" max="0.0" />
 	</type>
 	<type name="NBCBootsGray">
 		<damage min="0.0" max="0.35" />

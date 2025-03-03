@@ -57,10 +57,10 @@
         <value name="Tier2"/>
     </type>
 	<type name="MM_EmptyFoodCan_Unknown">
-        <nominal>100</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>7200</restock>
-        <min>50</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>0</cost>

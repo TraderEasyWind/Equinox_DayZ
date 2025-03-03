@@ -28,10 +28,8 @@ modded class ActionDismantleBase: ActionContinuousBase
 			return false;
 		}
 	
-		// Remove the permissions check to allow dismantling in enemy territories
-	
-		// Check if the player is behind the item
-		if ((!IsPlayerBehindItem(player, base_building) || player.IsLeaning()) && base_building.MM_IsWall())
+		// Enforce territory permissions for all structures
+		if (!TerritoryHQ.HasPermissionsAtPosition(player, base_building.GetPosition())) 
 		{
 			return false;
 		}
@@ -49,50 +47,54 @@ modded class ActionDismantleBase: ActionContinuousBase
 		{
 			return; // Early exit if the target is not a BaseBuilding
 		}
-		if ((!IsPlayerBehindItem(player, base_building) || player.IsLeaning()) && base_building.MM_IsWall())
+		
+		// Enforce territory permissions for all structures
+		if (!TerritoryHQ.HasPermissionsAtPosition(player, base_building.GetPosition())) 
 		{
-			return; // Exit if the player is behind and not leaning, and it's a wall.
+			return;
 		}
+		
 		// If all checks pass, set the health to 0
 		base_building.SetHealth01("GlobalHealth", "Health", 0);
 	}
+
 	
-	private bool IsPlayerBehindItem(PlayerBase player, BaseBuilding base_building)
-	{
-		vector player_position = player.GetPosition();
-		vector item_position = base_building.GetPosition();
-		
-		// Calculate the direction the item is facing
-		vector item_direction = base_building.GetDirection(); // Assumes GetDirection() gives the forward vector
-		item_direction.Normalize();
-		
-		// Calculate the vector from the item to the player
-		vector to_player = player_position - item_position;
-		to_player.Normalize();
-		
-		// Check if the angle between the item's direction and the vector to the player is greater than 90 degrees
-		float dot_product = vector.Dot(item_direction, to_player);
-		
-		// If the dot product is negative, the player is behind the item
-		if (dot_product < 0)
-		{
-			// Calculate the distance from the player to the item
-			float distance_to_item = vector.Distance(player_position, item_position);
-			
-			// Set a threshold distance (adjust this value as necessary)
-			float minimum_distance = 1.5; // For example, consider the player only "behind" if they're at least 5 units away
-			
-			// If the player is too close, they're likely leaning around the wall, so return false
-			if (distance_to_item < minimum_distance)
-			{
-				return false;
-			}
-			
-			return true;
-		}
-		
-		return false;
-	}
+	//private bool IsPlayerBehindItem(PlayerBase player, BaseBuilding base_building)
+	//{
+	//	vector player_position = player.GetPosition();
+	//	vector item_position = base_building.GetPosition();
+	//	
+	//	// Calculate the direction the item is facing
+	//	vector item_direction = base_building.GetDirection(); // Assumes GetDirection() gives the forward vector
+	//	item_direction.Normalize();
+	//	
+	//	// Calculate the vector from the item to the player
+	//	vector to_player = player_position - item_position;
+	//	to_player.Normalize();
+	//	
+	//	// Check if the angle between the item's direction and the vector to the player is greater than 90 degrees
+	//	float dot_product = vector.Dot(item_direction, to_player);
+	//	
+	//	// If the dot product is negative, the player is behind the item
+	//	if (dot_product < 0)
+	//	{
+	//		// Calculate the distance from the player to the item
+	//		float distance_to_item = vector.Distance(player_position, item_position);
+	//		
+	//		// Set a threshold distance (adjust this value as necessary)
+	//		float minimum_distance = 1.5; // For example, consider the player only "behind" if they're at least 5 units away
+	//		
+	//		// If the player is too close, they're likely leaning around the wall, so return false
+	//		if (distance_to_item < minimum_distance)
+	//		{
+	//			return false;
+	//		}
+	//		
+	//		return true;
+	//	}
+	//	
+	//	return false;
+	//}
 
 
 
