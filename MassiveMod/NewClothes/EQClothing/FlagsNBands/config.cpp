@@ -241,6 +241,42 @@ class CfgVehicles
 			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\end_flag_3.paa"
 		};
 	};
+	class Armband_Northern_Republic: Armband_ColorBase
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="North Rep";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_Northern_Republic.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_Northern_Republic.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_Northern_Republic.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_Northern_Republic.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_Northern_Republic.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_Northern_Republic.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_Northern_Republic.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_Northern_Republic.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_Northern_Republic.paa"
+		};
+	};
+	class Armband_ZenComm: Armband_ColorBase
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="ZenComm";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\armband_ZenComm.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\armband_ZenComm.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\armband_ZenComm.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\armband_ZenComm.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\armband_ZenComm.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\armband_ZenComm.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\armband_ZenComm.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\armband_ZenComm.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\armband_ZenComm.paa"
+		};
+	};
 	class flag_base;
 	class flag_108: flag_base
 	{
@@ -438,6 +474,42 @@ class CfgVehicles
 			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\end_flag_3.paa",
 			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\end_flag_3.paa",
 			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\end_flag_3.paa"
+		};
+	};
+	class flag_Northern_Republic: flag_base
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="North Rep";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_Northern_Republic.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_Northern_Republic.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_Northern_Republic.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_Northern_Republic.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_Northern_Republic.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_Northern_Republic.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_Northern_Republic.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_Northern_Republic.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_Northern_Republic.paa"
+		};
+	};
+	class flag_ZenComm: flag_base
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="ZenComm";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_ZenComm.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_ZenComm.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_ZenComm.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_ZenComm.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_ZenComm.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_ZenComm.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_ZenComm.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_ZenComm.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_ZenComm.paa"
 		};
 	};
 };
