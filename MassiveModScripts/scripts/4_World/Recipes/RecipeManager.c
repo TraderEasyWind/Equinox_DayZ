@@ -2,6 +2,7 @@ modded class PluginRecipesManager
 {
 	override void RegisterRecipies()
 	{	super.RegisterRecipies();
+		RegisterRecipe(new MassiveMod_RepairFilterBottle);
 		RegisterRecipe(new MassiveMod_RepairTire);
 		RegisterRecipe(new MassiveMod_TireScrapPrep);
 		RegisterRecipe(new MassiveMod_TireRepairKit);
