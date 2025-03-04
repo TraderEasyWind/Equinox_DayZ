@@ -14,6 +14,46 @@ modded class MassiveMod_ADVKit_TireRepair
 		can_this_be_combined = true;
 	}
 }
+modded class MassiveMod_ADVKit_Sewing
+{
+	override void InitItemVariables()
+	{
+		super.InitItemVariables();
+		can_this_be_combined = true;
+	}
+}
+modded class MassiveMod_ADVKit_LeatherSewing
+{
+	override void InitItemVariables()
+	{
+		super.InitItemVariables();
+		can_this_be_combined = true;
+	}
+}
+modded class MassiveMod_ADVKit_Rifle
+{
+	override void InitItemVariables()
+	{
+		super.InitItemVariables();
+		can_this_be_combined = true;
+	}
+}
+modded class MassiveMod_ADVKit_Pistol
+{
+	override void InitItemVariables()
+	{
+		super.InitItemVariables();
+		can_this_be_combined = true;
+	}
+}
+modded class MassiveMod_ADVKit_High
+{
+	override void InitItemVariables()
+	{
+		super.InitItemVariables();
+		can_this_be_combined = true;
+	}
+}
 modded class LeatherSewingKit
 {
 	override void InitItemVariables()
