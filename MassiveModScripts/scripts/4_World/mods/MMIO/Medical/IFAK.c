@@ -8,6 +8,11 @@ modded class Mass_IFAK_ColorBase
 		AddAction(ActionMMIOIFAKSelf);
 	};
 	
+	override bool CanBeDisinfected()
+	{
+		return true;
+	}
+	
 	override float GetInfectionChance(int system = 0, Param param = null)
 	{
 		if(m_Cleanness == 1)
