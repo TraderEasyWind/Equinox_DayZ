@@ -1279,12 +1279,12 @@
         <value name="Tier4"/>
     </type>
     <type name="Ammo_545x39">
-        <nominal>15</nominal>
+        <nominal>30</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>6</min>
-        <quantmin>10</quantmin>
-        <quantmax>25</quantmax>
+        <min>10</min>
+        <quantmin>3</quantmin>
+        <quantmax>5</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
@@ -1313,12 +1313,12 @@
         <value name="Tier4"/>
     </type>
     <type name="Ammo_556x45">
-        <nominal>14</nominal>
+        <nominal>45</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
-        <min>6</min>
-        <quantmin>10</quantmin>
-        <quantmax>40</quantmax>
+        <min>10</min>
+        <quantmin>2</quantmin>
+        <quantmax>10</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
@@ -1330,12 +1330,12 @@
         <value name="Tier4"/>
     </type>
     <type name="Ammo_556x45Tracer">
-        <nominal>4</nominal>
+        <nominal>15</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>2</min>
-        <quantmin>10</quantmin>
-        <quantmax>30</quantmax>
+        <min>5</min>
+        <quantmin>3</quantmin>
+        <quantmax>4</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
@@ -1351,8 +1351,8 @@
         <lifetime>14400</lifetime>
         <restock>1800</restock>
         <min>20</min>
-        <quantmin>10</quantmin>
-        <quantmax>30</quantmax>
+        <quantmin>3</quantmin>
+        <quantmax>5</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
@@ -1367,12 +1367,12 @@
         <value name="Tier4"/>
     </type>
     <type name="Ammo_762x39Tracer">
-        <nominal>8</nominal>
+        <nominal>10</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
         <min>3</min>
-        <quantmin>10</quantmin>
-        <quantmax>25</quantmax>
+        <quantmin>3</quantmin>
+        <quantmax>6</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
