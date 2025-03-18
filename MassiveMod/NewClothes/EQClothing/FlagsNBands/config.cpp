@@ -277,6 +277,24 @@ class CfgVehicles
 			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\armband_ZenComm.paa"
 		};
 	};
+	class Armband_Eclipse: Armband_ColorBase
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="Eclipse";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Eclipse_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Eclipse_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Eclipse_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Eclipse_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Eclipse_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Eclipse_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Eclipse_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Eclipse_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Eclipse_flag.paa"
+		};
+	};
 	class flag_base;
 	class flag_108: flag_base
 	{
@@ -510,6 +528,24 @@ class CfgVehicles
 			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_ZenComm.paa",
 			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_ZenComm.paa",
 			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_ZenComm.paa"
+		};
+	};
+	class flag_Eclipse: flag_base
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="Eclipse";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Eclipse_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Eclipse_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Eclipse_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Eclipse_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Eclipse_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Eclipse_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Eclipse_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Eclipse_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Eclipse_flag.paa"
 		};
 	};
 };
