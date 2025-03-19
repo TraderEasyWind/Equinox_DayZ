@@ -90,8 +90,8 @@ class CfgVehicles
 	class MassiveMod_Tier5Key: MassiveMod_KeyBase
 	{
 		scope=2;
-		displayName = "Tier 5 Cache Key";
-		descriptionShort = "A Black Skeleton Key, Used for Unlocking Tier 5 Caches";
+		displayName = "Arsenal Key";
+		descriptionShort = "A Black Skeleton Key, Used for Unlocking Arsenal Caches.";
 		hiddenSelectionsMaterials[]={"MassiveMod\Caches\Keys\Tier1\Key.rvmat"};
 		hiddenSelectionsTextures[]={"MassiveMod\Caches\Keys\Tier5\Tier5Key_Co.paa"};
 	};
@@ -262,8 +262,8 @@ class CfgVehicles
 	class MassiveMod_CrateTier5: MassiveModCrate_Base
 	{
 		scope = 2;
-		displayName = "Tier 5 Cache";
-		descriptionShort = "A Large Military Cache Containing Valuable Goodies, Weapons, Clothing. Equipment to help you further survive in the apocalypse. To Open this Item you'll need to FIND some sort of Key.";
+		displayName = "Arsenal Crate";
+		descriptionShort = "A Large Military Arsenal Crate Containing Extremely Valuable Equipment  To Open this Item you'll need to FIND some sort of Key.";
 		model = "MassiveMod\Caches\Tier5\Tier5Crate.p3d";
 		attachments[]={"Vest","Back","Case","ClothingPackage","Slot_Melee"};
 		itemsCargoSize[] = {10,40};
