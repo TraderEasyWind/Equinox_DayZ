@@ -8,7 +8,29 @@ modded class BaseBuilding
 		return true;
 	}
 }
-modded class BaseBuilding_FloorBase: BaseBuilding
+modded class BaseBuilding_StairsBase
+{
+	override float GetSmallRotationStep()
+	{
+		return 1.25;
+	}
+	
+	override float GetLargeRotationStep()
+	{
+		return 180.0;
+	}
+	
+	override bool CanPermanentlyDismantle()
+	{
+		return false;
+	}
+	
+	override vector GetFreePlacementOffset()
+	{
+		return Vector(0, 0, 0);
+	}
+}
+modded class BaseBuilding_FloorBase
 {
 	override float GetSmallRotationStep()
 	{
