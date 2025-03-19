@@ -12,4 +12,13 @@ class CfgVehicles
 {
 	class Inventory_Base;
 	class AmmoBox;
+	class Container_Base;
+	class WoodenCrate: Container_Base
+	{
+		itemIsOpenable=1;
+	};
+	class SeaChest: Container_Base
+	{
+		itemIsOpenable=1;
+	};
 };

@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<spawnabletypes>
+	<!-- HELICOPTERS -->
+	<type name="EXT_UH60M">
+		<attachments chance="1.00">
+			<item name="ExpansionHelicopterBattery" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionIgniterPlug" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionHydraulicHoses" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="EXT_UH60M_Door_1_1" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="EXT_UH60M_Door_1_2" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="EXT_UH60M_Door_2_1" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="EXT_UH60M_Door_2_2" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="EXT_Mi8">
+		<attachments chance="1.00">
+			<item name="ExpansionHelicopterBattery" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionIgniterPlug" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionHydraulicHoses" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="EXT_Mi8Door" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="EXT_Mi8FrontWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="EXT_Mi8FrontWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="EXT_Mi8BackWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="EXT_Mi8BackWheel" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="ExpansionMh6">
+		<attachments chance="1.00">
+			<item name="ExpansionHelicopterBattery" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionIgniterPlug" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionHydraulicHoses" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_1_1" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_1_2" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_2_1" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_2_2" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="ExpansionMh6_Blueline">
+		<attachments chance="1.00">
+			<item name="ExpansionHelicopterBattery" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionIgniterPlug" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionHydraulicHoses" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_1_1_Blueline" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_1_2_Blueline" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_2_1_Blueline" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_2_2_Blueline" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="ExpansionMh6_Digital">
+		<attachments chance="1.00">
+			<item name="ExpansionHelicopterBattery" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionIgniterPlug" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionHydraulicHoses" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_1_1_Digital" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_1_2_Digital" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_2_1_Digital" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_2_2_Digital" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="ExpansionMh6_Elliptical">
+		<attachments chance="1.00">
+			<item name="ExpansionHelicopterBattery" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionIgniterPlug" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionHydraulicHoses" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_1_1_Elliptical" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_1_2_Elliptical" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_2_1_Elliptical" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_2_2_Elliptical" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="ExpansionMh6_Furious">
+		<attachments chance="1.00">
+			<item name="ExpansionHelicopterBattery" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionIgniterPlug" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionHydraulicHoses" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_1_1_Furious" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_1_2_Furious" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_2_1_Furious" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_2_2_Furious" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="ExpansionMh6_GrayWatcher">
+		<attachments chance="1.00">
+			<item name="ExpansionHelicopterBattery" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionIgniterPlug" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionHydraulicHoses" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_1_1_GrayWatcher" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_1_2_GrayWatcher" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_2_1_GrayWatcher" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_2_2_GrayWatcher" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="ExpansionMh6_Jeans">
+		<attachments chance="1.00">
+			<item name="ExpansionHelicopterBattery" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionIgniterPlug" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionHydraulicHoses" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_1_1_Jeans" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_1_2_Jeans" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_2_1_Jeans" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_2_2_Jeans" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="ExpansionMh6_Resistance">
+		<attachments chance="1.00">
+			<item name="ExpansionHelicopterBattery" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionIgniterPlug" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionHydraulicHoses" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_1_1_Resistance" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_1_2_Resistance" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_2_1_Resistance" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_2_2_Resistance" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="ExpansionMh6_Shadow">
+		<attachments chance="1.00">
+			<item name="ExpansionHelicopterBattery" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionIgniterPlug" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionHydraulicHoses" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_1_1_Shadow" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_1_2_Shadow" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_2_1_Shadow" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_2_2_Shadow" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="ExpansionMh6_Sheriff">
+		<attachments chance="1.00">
+			<item name="ExpansionHelicopterBattery" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionIgniterPlug" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionHydraulicHoses" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_1_1_Sheriff" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_1_2_Sheriff" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_2_1_Sheriff" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_2_2_Sheriff" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="ExpansionMh6_Speedy">
+		<attachments chance="1.00">
+			<item name="ExpansionHelicopterBattery" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionIgniterPlug" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionHydraulicHoses" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_1_1_Speedy" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_1_2_Speedy" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_2_1_Speedy" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_2_2_Speedy" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="ExpansionMh6_Sunset">
+		<attachments chance="1.00">
+			<item name="ExpansionHelicopterBattery" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionIgniterPlug" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionHydraulicHoses" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_1_1_Sunset" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_1_2_Sunset" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_2_1_Sunset" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_2_2_Sunset" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="ExpansionMh6_Vrana">
+		<attachments chance="1.00">
+			<item name="ExpansionHelicopterBattery" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionIgniterPlug" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionHydraulicHoses" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_1_1_Vrana" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_1_2_Vrana" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_2_1_Vrana" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_2_2_Vrana" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="ExpansionMh6_Wasp">
+		<attachments chance="1.00">
+			<item name="ExpansionHelicopterBattery" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionIgniterPlug" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionHydraulicHoses" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_1_1_Wasp" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_1_2_Wasp" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_2_1_Wasp" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_2_2_Wasp" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="ExpansionMh6_Wave">
+		<attachments chance="1.00">
+			<item name="ExpansionHelicopterBattery" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionIgniterPlug" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionHydraulicHoses" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_1_1_Wave" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_1_2_Wave" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_2_1_Wave" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_2_2_Wave" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="ExpansionMerlin">
+		<attachments chance="1.00">
+			<item name="ExpansionHelicopterBattery" chance="1.0" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionIgniterPlug" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionHydraulicHoses" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionMerlinFrontWheel" chance="1.0" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionMerlinFrontWheel" chance="1.0" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionMerlinBackWheel" chance="1.0" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionMerlinBackWheel" chance="1.0" />
+        </attachments>
+	</type>
+	<type name="ExpansionUh1h">
+		<attachments chance="1.00">
+			<item name="ExpansionHelicopterBattery" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionIgniterPlug" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionHydraulicHoses" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.30" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUh1hDoor_1_1" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUh1hDoor_1_2" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUh1hDoor_2_1" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUh1hDoor_2_2" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="ExpansionUh1h_Civilian">
+		<attachments chance="1.00">
+			<item name="ExpansionHelicopterBattery" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionIgniterPlug" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionHydraulicHoses" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.30" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUh1hDoor_1_1_Civilian" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUh1hDoor_1_2_Civilian" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUh1hDoor_2_1_Civilian" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUh1hDoor_2_2_Civilian" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="ExpansionUh1h_Medical">
+		<attachments chance="1.00">
+			<item name="ExpansionHelicopterBattery" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionIgniterPlug" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionHydraulicHoses" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUh1hDoor_1_1_Medical" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUh1hDoor_1_2_Medical" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUh1hDoor_2_1_Medical" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUh1hDoor_2_2_Medical" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="ExpansionUh1h_Uber">
+		<attachments chance="1.00">
+			<item name="ExpansionHelicopterBattery" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionIgniterPlug" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionHydraulicHoses" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUh1hDoor_1_1_Uber" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUh1hDoor_1_2_Uber" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUh1hDoor_2_1_Uber" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUh1hDoor_2_2_Uber" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="ExpansionUh1h_Resistance">
+		<attachments chance="1.00">
+			<item name="ExpansionHelicopterBattery" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionIgniterPlug" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionHydraulicHoses" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUh1hDoor_1_1_Resistance" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUh1hDoor_1_2_Resistance" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUh1hDoor_2_1_Resistance" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUh1hDoor_2_2_Resistance" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="ExpansionBus">
+		<attachments chance="1.00">
+			<item name="TruckBattery" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="GlowPlug" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionBusWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionBusWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionBusWheelDouble" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionBusWheelDouble" chance="0.80" />
+		</attachments>
+	</type>
+	<type name="ExpansionBus_Weeb">
+		<attachments chance="1.00">
+			<item name="TruckBattery" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="GlowPlug" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionBusWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionBusWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionBusWheelDouble" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionBusWheelDouble" chance="0.80" />
+		</attachments>
+	</type>
+	<type name="ExpansionBus_Red">
+		<attachments chance="1.00">
+			<item name="TruckBattery" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="GlowPlug" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionBusWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionBusWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionBusWheelDouble" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionBusWheelDouble" chance="0.80" />
+		</attachments>
+	</type>
+	<type name="ExpansionTractor">
+		<attachments chance="1.00">
+			<item name="ExpansionTractorFrontWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionTractorFrontWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionTractorBackWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionTractorBackWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionTractorDoorsDriver" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionTractorDoorsCodriver" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.60" />
+		</attachments>
+	</type>
+</spawnabletypes>

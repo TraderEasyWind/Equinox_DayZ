@@ -5,6 +5,6 @@ modded class ActionConstructor
 		super.RegisterActions(actions);
 		
         // ... other actions ...
-        actions.Insert(ActionUpdateTerritory);
+        //actions.Insert(ActionUpdateTerritory);
 	}
 }
