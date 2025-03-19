@@ -9,6 +9,111 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="0" deloot="0"/>
     </type>
+	<type name="MassiveMod_ConstructionSuppliesCache">
+       <nominal>10</nominal>
+        <lifetime>604800</lifetime>
+        <restock>0</restock>
+        <min>5</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>0</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="containers"/>
+		<tag name="floor"/>
+		<usage name="Industrial"/>
+    </type>
+	<type name="MassiveMod_ConstructionSuppliesKey">
+       <nominal>4</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>0</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="tools"/>
+		<tag name="shelves"/>
+		<usage name="Industrial"/>
+    </type>
+	<type name="MassiveMod_MedicalSuppliesCache">
+       <nominal>5</nominal>
+        <lifetime>604800</lifetime>
+        <restock>0</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>0</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="containers"/>
+		<tag name="floor"/>
+		<usage name="Medic"/>
+    </type>
+	<type name="MassiveMod_MedicalSuppliesKey">
+       <nominal>3</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>0</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="tools"/>
+		<tag name="shelves"/>
+		<usage name="Medic"/>
+    </type>
+	<type name="MassiveMod_AmmunitionsSupplyCache">
+       <nominal>9</nominal>
+        <lifetime>604800</lifetime>
+        <restock>0</restock>
+        <min>4</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>0</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="containers"/>
+		<tag name="floor"/>
+		<usage name="Military"/>
+    </type>
+	<type name="MassiveMod_MunitionsSuppliesKey">
+       <nominal>2</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>0</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="tools"/>
+		<tag name="shelves"/>
+		<usage name="Military"/>
+    </type>
+	<type name="MassiveMod_WeaponSuppliesCache">
+       <nominal>5</nominal>
+        <lifetime>604800</lifetime>
+        <restock>0</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>0</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="tools"/>
+		<tag name="shelves"/>
+		<value name="Tier4"/>
+    </type>
+	<type name="MassiveMod_WeaponSuppliesKey">
+       <nominal>2</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>0</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="tools"/>
+		<tag name="shelves"/>
+		<value name="Tier4"/>
+    </type>
+	<!--
 	<type name="MassiveMod_CrateTier1">
        <nominal>9</nominal>
         <lifetime>604800</lifetime>
@@ -94,4 +199,5 @@
 		<usage name="Military"/>
 		<tag name="floor"/>
     </type>
+	-->
 </types>

@@ -413,3 +413,7 @@ class MassiveMod_CrateTier2 : MassiveModCrate_Base{};
 class MassiveMod_CrateTier3 : MassiveModCrate_Base{};
 class MassiveMod_CrateTier4 : MassiveModCrate_Base{};
 class MassiveMod_CrateTier5 : MassiveModCrate_Base{};
+class MassiveMod_ConstructionSuppliesCache: MassiveModCrate_Base{};
+class MassiveMod_MedicalSuppliesCache: MassiveModCrate_Base{};
+class MassiveMod_AmmunitionsSupplyCache: MassiveModCrate_Base{};
+class MassiveMod_WeaponSuppliesCache: MassiveModCrate_Base{};

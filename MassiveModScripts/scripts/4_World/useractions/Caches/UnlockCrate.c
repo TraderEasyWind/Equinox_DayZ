@@ -15,55 +15,62 @@ class ActionUnlockCrate: ActionSingleUseBase
 
 	override string GetText()
 	{
-		return "Unlock Crate";
+		return "Unlock Cache";
 	}
 
 	override bool ActionCondition( PlayerBase player, ActionTarget target, ItemBase item )
 	{
-		
 		if ( !target ) return false;
 		if ( !IsInReach(player, target, 10) ) return false;
-		MassiveModCrate_Base target_TB;
+
 		MassiveMod_CrateTier1 Tier1;
 		MassiveMod_CrateTier2 Tier2;
 		MassiveMod_CrateTier3 Tier3;
 		MassiveMod_CrateTier4 Tier4;
 		MassiveMod_CrateTier5 Tier5;
-		
+		MassiveMod_ConstructionSuppliesCache ConstructionCache;
+		MassiveMod_MedicalSuppliesCache MedicalCache;
+		MassiveMod_AmmunitionsSupplyCache AmmunitionCache;
+		MassiveMod_WeaponSuppliesCache WeaponCache;
 
-		if (Class.CastTo(Tier1,  target.GetObject() ) && !Tier1.IsInventoryVisible() && item.IsInherited(MassiveMod_Tier1Key))
+		if (Class.CastTo(Tier1, target.GetObject()) && !Tier1.IsInventoryVisible() && item.IsInherited(MassiveMod_Tier1Key))
 		{
 			return true;
 		}
-		if (Class.CastTo(Tier2,  target.GetObject() ) && !Tier2.IsInventoryVisible() && item.IsInherited(MassiveMod_Tier2Key))
+		if (Class.CastTo(Tier2, target.GetObject()) && !Tier2.IsInventoryVisible() && item.IsInherited(MassiveMod_Tier2Key))
 		{
 			return true;
 		}
-		if (Class.CastTo(Tier3,  target.GetObject() ) && !Tier3.IsInventoryVisible() && item.IsInherited(MassiveMod_Tier3Key))
+		if (Class.CastTo(Tier3, target.GetObject()) && !Tier3.IsInventoryVisible() && item.IsInherited(MassiveMod_Tier3Key))
 		{
 			return true;
 		}
-		if (Class.CastTo(Tier4,  target.GetObject() ) && !Tier4.IsInventoryVisible() && item.IsInherited(MassiveMod_Tier4Key))
+		if (Class.CastTo(Tier4, target.GetObject()) && !Tier4.IsInventoryVisible() && item.IsInherited(MassiveMod_Tier4Key))
 		{
 			return true;
 		}
-		if (Class.CastTo(Tier5,  target.GetObject() ) && !Tier5.IsInventoryVisible() && item.IsInherited(MassiveMod_Tier5Key))
+		if (Class.CastTo(Tier5, target.GetObject()) && !Tier5.IsInventoryVisible() && item.IsInherited(MassiveMod_Tier5Key))
 		{
 			return true;
 		}
+		if (Class.CastTo(ConstructionCache, target.GetObject()) && !ConstructionCache.IsInventoryVisible() && item.IsInherited(MassiveMod_ConstructionSuppliesKey))
+		{
+			return true;
+		}
+		if (Class.CastTo(MedicalCache, target.GetObject()) && !MedicalCache.IsInventoryVisible() && item.IsInherited(MassiveMod_MedicalSuppliesKey))
+		{
+			return true;
+		}
+		if (Class.CastTo(AmmunitionCache, target.GetObject()) && !AmmunitionCache.IsInventoryVisible() && item.IsInherited(MassiveMod_MunitionsSuppliesKey))
+		{
+			return true;
+		}
+		if (Class.CastTo(WeaponCache, target.GetObject()) && !WeaponCache.IsInventoryVisible() && item.IsInherited(MassiveMod_WeaponSuppliesKey))
+		{
+			return true;
+		}
+
 		return false;
-		
-		
-		
-		/*if ( Class.CastTo(target_TB,  target.GetObject() ) &&  item )
-		{		
-			if (!target_TB.IsInventoryVisible())
-			{
-				return true;
-			}
-		}
-		if ( item.IsInherited(Grenade_Base) )
-		return false;*/
 	}
 	
 	override void OnExecuteClient( ActionData action_data )

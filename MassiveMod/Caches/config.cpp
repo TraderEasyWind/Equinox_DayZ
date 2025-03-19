@@ -31,6 +31,22 @@ class CfgVehicles
 		hiddenSelectionsMaterials[]={"MassiveMod\Caches\Keys\Tier1\Key.rvmat"};
 		hiddenSelectionsTextures[]={"MassiveMod\Caches\Keys\Tier1\Tier1Key_Co.paa"};
 	};
+	class MassiveMod_ConstructionSuppliesKey: MassiveMod_KeyBase
+	{
+		scope=2;
+		displayName = "Construction Cache Key";
+		descriptionShort = "A Green Skeleton Key, Used for Unlocking Stashed Construction Supply Caches in Construction and Industrial locations";
+		hiddenSelectionsMaterials[]={"MassiveMod\Caches\Keys\Tier1\Key.rvmat"};
+		hiddenSelectionsTextures[]={"MassiveMod\Caches\Keys\Tier1\Tier1Key_Co.paa"};
+	};
+	class MassiveMod_MedicalSuppliesKey: MassiveMod_KeyBase
+	{
+		scope=2;
+		displayName = "Medical Cache Key";
+		descriptionShort = "A Blue Skeleton Key, Used for Unlocking Stashed Medical Supply Caches in Medical Locations";
+		hiddenSelectionsMaterials[]={"MassiveMod\Caches\Keys\Tier1\Key.rvmat"};
+		hiddenSelectionsTextures[]={"MassiveMod\Caches\Keys\Tier2\Tier2Key_co.paa"};
+	};
 	class MassiveMod_Tier2Key: MassiveMod_KeyBase
 	{
 		scope=2;
@@ -39,6 +55,14 @@ class CfgVehicles
 		hiddenSelectionsMaterials[]={"MassiveMod\Caches\Keys\Tier1\Key.rvmat"};
 		hiddenSelectionsTextures[]={"MassiveMod\Caches\Keys\Tier2\Tier2Key_co.paa"};
 	};
+	class MassiveMod_MunitionsSuppliesKey: MassiveMod_KeyBase
+	{
+		scope=2;
+		displayName = "Ammunitions Cache Key";
+		descriptionShort = "A Red Skeleton Key, Used for Unlocking Stashed Ammunition Supply Caches in Military Locations";
+		hiddenSelectionsMaterials[]={"MassiveMod\Caches\Keys\Tier1\Key.rvmat"};
+		hiddenSelectionsTextures[]={"MassiveMod\Caches\Keys\Tier3\Tier3Key_co.paa"};
+	};
 	class MassiveMod_Tier3Key: MassiveMod_KeyBase
 	{
 		scope=2;
@@ -46,6 +70,14 @@ class CfgVehicles
 		descriptionShort = "A Red Skeleton Key, Used for Unlocking Tier 3 Caches found in Tier 3 zones.";
 		hiddenSelectionsMaterials[]={"MassiveMod\Caches\Keys\Tier1\Key.rvmat"};
 		hiddenSelectionsTextures[]={"MassiveMod\Caches\Keys\Tier3\Tier3Key_co.paa"};
+	};
+	class MassiveMod_WeaponSuppliesKey: MassiveMod_KeyBase
+	{
+		scope=2;
+		displayName = "Weapons Cache Key";
+		descriptionShort = "A Gold Skeleton Key, Used for Unlocking Weapon Supply Caches in Military Locations.";
+		hiddenSelectionsMaterials[]={"MassiveMod\Caches\Keys\Tier1\Key.rvmat"};
+		hiddenSelectionsTextures[]={"MassiveMod\Caches\Keys\Tier4\Tier4Key_Co.paa"};
 	};
 	class MassiveMod_Tier4Key: MassiveMod_KeyBase
 	{
@@ -139,6 +171,15 @@ class CfgVehicles
 		attachments[]={"Vest","Case","ClothingPackage"};
 		itemsCargoSize[] = {10,30};
 	};
+	class MassiveMod_ConstructionSuppliesCache: MassiveModCrate_Base
+	{
+		scope = 2;
+		displayName = "Construction Supplies Cache";
+		descriptionShort = "A wooden Cache Containing Construction Supplies. To Open this Item you'll need to FIND some sort of Key.";
+		model = "MassiveMod\Caches\Tier2\ConstructionCrate.p3d";
+		attachments[]={};
+		itemsCargoSize[] = {10,30};
+	};
 	class MassiveMod_CrateTier1_2: MassiveMod_CrateTier1{};
 	class MassiveMod_CrateTier1_3: MassiveMod_CrateTier1{};
 	class MassiveMod_CrateTier1_4: MassiveMod_CrateTier1{};
@@ -148,6 +189,15 @@ class CfgVehicles
 		displayName = "Tier 2 Cache";
 		descriptionShort = "A Large wooden Cache Containing Valuable Goodies, Weapons, Clothing. Equipment to help you further survive in the apocalypse. To Open this Item you'll need to FIND some sort of Key.";
 		model = "MassiveMod\Caches\Tier2\Tier2Crate.p3d";
+		attachments[]={"Vest","Case"};
+		itemsCargoSize[] = {10,30};
+	};
+	class MassiveMod_MedicalSuppliesCache: MassiveModCrate_Base
+	{
+		scope = 2;
+		displayName = "Medical Supplies Cache";
+		descriptionShort = "A Large Wooden Cache Containing Medical Equipment. To Open this Item you'll need to FIND some sort of Key.";
+		model = "MassiveMod\Caches\Tier3\MedicalCrate.p3d";
 		attachments[]={"Vest","Case"};
 		itemsCargoSize[] = {10,30};
 	};
@@ -165,6 +215,17 @@ class CfgVehicles
 		attachments[]={"Vest","Headgear","Case","ClothingPackage"};
 		itemsCargoSize[] = {10,30};
 	};
+	class MassiveMod_AmmunitionsSupplyCache: MassiveModCrate_Base
+	{
+		scope = 2;
+		displayName = "Munitions Supply Cache";
+		descriptionShort = "A Military Cache Containing Various Types of Ammunition. To Open this Item you'll need to FIND some sort of Key.";
+		model = "MassiveMod\Caches\Tier3\MedicalCrate.p3d";
+		hiddenSelections[]={"zbytek"};
+		hiddenSelectionsTextures[]={"MassiveMod\Caches\Tier3\AmmunitionCrate.paa"};
+		attachments[]={"Vest","Headgear","Case","ClothingPackage"};
+		itemsCargoSize[] = {10,30};
+	};
 	class MassiveMod_CrateTier3_2: MassiveMod_CrateTier3{};
 	class MassiveMod_CrateTier3_3: MassiveMod_CrateTier3{};
 	class MassiveMod_CrateTier3_4: MassiveMod_CrateTier3{};
@@ -177,6 +238,15 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Tier 4 Cache";
 		descriptionShort = "A Large Military Cache Containing Valuable Goodies, Weapons, Clothing. Equipment to help you further survive in the apocalypse. To Open this Item you'll need to FIND some sort of Key.";
+		model = "MassiveMod\Caches\Tier4\Tier4Crate.p3d";
+		attachments[]={"Vest","Back","Case","ClothingPackage"};
+		itemsCargoSize[] = {10,30};
+	};
+	class MassiveMod_WeaponSuppliesCache: MassiveModCrate_Base
+	{
+		scope = 2;
+		displayName = "Weapons Supply Cache";
+		descriptionShort = "A Large Military Cache Containing Weapons. To Open this Item you'll need to FIND some sort of Key.";
 		model = "MassiveMod\Caches\Tier4\Tier4Crate.p3d";
 		attachments[]={"Vest","Back","Case","ClothingPackage"};
 		itemsCargoSize[] = {10,30};
