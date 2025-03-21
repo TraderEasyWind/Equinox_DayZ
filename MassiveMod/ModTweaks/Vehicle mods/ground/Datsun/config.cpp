@@ -13,7 +13,7 @@ class CfgVehicles
 	class CarScript;
 	class nd_datsun_base: CarScript
 	{
-		attachments[] += {"CarBattery",
+		attachments[] = {"CarBattery",
 			"Reflector_1_1",
 			"Reflector_2_1",
 			"CarRadiator",
@@ -82,6 +82,19 @@ class CfgVehicles
 				};
 			};
 		};;
+	};
+	class nd_datsun: nd_datsun_base
+	{
+		attachments[] += {"Material_FPole_Flag"};
+		class GUIInventoryAttachmentsProps
+		{
+			class Body
+			{
+				
+				attachmentSlots[] += {"Material_FPole_Flag"};
+			
+			};
+		};			
 	};
 //	class nd_datsun : nd_datsun_base
 //	{
