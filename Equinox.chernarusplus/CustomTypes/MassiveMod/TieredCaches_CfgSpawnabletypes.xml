@@ -1110,6 +1110,69 @@
 		<cargo chance="0.15"> <item name="Mass_IFAK_PartizanM" /> </cargo>
 		<cargo chance="0.33"> <item name="Splint" /> </cargo>
 		<cargo chance="0.33"> <item name="Splint" /> </cargo>
-	</type>	
+	</type>
+	<type name="MassiveMod_ConstructionSuppliesCache">
+			<!-- Variety Tools and Resources -->
+			<cargo chance="1.00">
+				<item name="mmg_equipment_locker_green_kit"  chance="0.11" />
+				<item name="mmg_equipment_locker_black_kit"  chance="0.11" />
+				<item name="mmg_equipment_locker_grey_kit"  chance="0.11" />
+				<item name="mmg_armored_cabinet_grey"  chance="0.11" />
+				<item name="mmg_armored_cabinet_green"  chance="0.11" />
+				<item name="mmg_armored_cabinet_rusty"  chance="0.11" />
+				<item name="mmg_locker02_blue_kit"  chance="0.11" />
+				<item name="mmg_locker02_green_kit"  chance="0.11" />
+				<item name="mmg_locker02_tan_kit"  chance="0.11" />
+			</cargo>
+			<cargo chance="1.00">
+				<item name="mmg_gun_rack_kit_blue"  chance="0.11" />
+				<item name="mmg_gun_rack_kit_green"  chance="0.11" />
+				<item name="mmg_army_box_green"  chance="0.11" />
+				<item name="mmg_army_box_medic"  chance="0.11" />
+				<item name="mmg_army_box_medic_grey"  chance="0.11" />
+				<item name="mmg_military_case_green"  chance="0.11" />
+				<item name="mmg_palette_storage_kit"  chance="0.11" />
+				<item name="mmg_fridge_kit_beige"  chance="0.11" />
+				<item name="mmg_fridge_kit_blue"  chance="0.11" />
+			</cargo>
+			<cargo chance="0.50"> <item name="NailBox" /> </cargo>
+			<cargo chance="0.50"> <item name="NailBox" /> </cargo>
+			<cargo chance="0.50"> <item name="NailBox" /> </cargo>
+			<cargo chance="0.33"> <item name="NailBox" /> </cargo>
+			<cargo chance="0.33"> <item name="NailBox" /> </cargo>
+			<cargo chance="0.33"> <item name="NailBox" /> </cargo>
+			<cargo chance="0.33"> <item name="NailBox" /> </cargo>
+			<cargo chance="0.33"> <item name="NailBox" /> </cargo>
+			<cargo chance="0.33"> <item name="NailBox" /> </cargo>
+			<cargo chance="0.33"> <item name="NailBox" /> </cargo>
+			<cargo chance="0.50"> <item name="Whetstone" /> </cargo>
+			<cargo chance="0.50"> <item name="Whetstone" /> </cargo>
+			<cargo chance="0.50"> <item name="Whetstone" /> </cargo>
+			<cargo chance="0.33"> <item name="Whetstone" /> </cargo>
+			<cargo chance="0.33"> <item name="Whetstone" /> </cargo>
+			<cargo chance="0.33"> <item name="Whetstone" /> </cargo>
+			<cargo chance="0.33"> <item name="Whetstone" /> </cargo>
+			<cargo chance="0.33"> <item name="Whetstone" /> </cargo>
+			<cargo chance="0.33"> <item name="Whetstone" /> </cargo>
+			<cargo chance="0.33"> <item name="Whetstone" /> </cargo>
+			<cargo chance="0.50"> <item name="Hacksaw" /> </cargo>
+			<cargo chance="0.50"> <item name="Hacksaw" /> </cargo>
+			<cargo chance="0.50"> <item name="Hacksaw" /> </cargo>
+			<cargo chance="0.50"> <item name="HandSaw" /> </cargo>
+			<cargo chance="0.50"> <item name="HandSaw" /> </cargo>
+			<cargo chance="0.50"> <item name="HandSaw" /> </cargo>
+			<cargo chance="0.50"> <item name="Hatchet" /> </cargo>
+			<cargo chance="0.50"> <item name="Hatchet" /> </cargo>
+			<cargo chance="0.50"> <item name="Hatchet" /> </cargo>
+			<cargo chance="1.00"> <item name="MetalPlate" /> </cargo>
+			<cargo chance="0.33"> <item name="RA_Cinderblock" /> </cargo>
+			<cargo chance="0.50"> <item name="RA_ClawHammer_Yellow" /> </cargo>
+			<cargo chance="0.50"> <item name="RA_ClawHammer_Yellow" /> </cargo>
+			<cargo chance="0.50"> <item name="RA_ClawHammer_Yellow" /> </cargo>
+			<cargo chance="0.50"> <item name="RA_CodeLock" /> </cargo>
+			<cargo chance="0.50"> <item name="RA_CodeLock" /> </cargo>
+			<cargo chance="0.50"> <item name="RA_CodeLock" /> </cargo>
+			<cargo chance="0.50"> <item name="RA_CodeLock" /> </cargo>
+		</type>	
 </spawnabletypes>
 
