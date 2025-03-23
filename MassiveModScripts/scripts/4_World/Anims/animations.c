@@ -21,6 +21,7 @@ modded class ModItemRegisterCallbacks
 	{
 	    super.RegisterTwoHanded( pType, pBehavior );
 	    pType.AddItemInHandsProfileIK("MassiveMod_SledgeHammer", "dz/anims/workspaces/player/player_main/weapons/player_main_2h_sledgehammer.asi", pBehavior, 		"dz/anims/anm/player/ik/two_handed/sledge_hammer.anm");
+		pType.AddItemInHandsProfileIK("MassiveMod_AmmoCanBase", "dz/anims/workspaces/player/player_main/player_main_2h.asi",						pBehavior,				"dz/anims/anm/player/ik/two_handed/BatteryCar.anm"); 
 	}
 	
 }

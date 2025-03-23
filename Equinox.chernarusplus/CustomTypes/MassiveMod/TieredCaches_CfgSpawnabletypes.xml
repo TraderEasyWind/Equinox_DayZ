@@ -1,4 +1,5 @@
 <spawnabletypes>
+<!--
     <type name="MassiveMod_CrateTier1_2">
 		<cargo chance="0.50"> <item name="RA_CodeLock" /> </cargo>
 	    <cargo chance="0.20"> <item name="MassiveMod_Tier2Key" /> </cargo>
@@ -703,5 +704,233 @@
 			<item name="MassCatEars"  chance="0.375" />
 			<item name="MassGDShirt"  chance="0.250" />
 		</cargo>
+	</type>
+-->
+	<type name="MassiveMod_AmmunitionsSupplyCache">
+	    <cargo chance="1.0">
+			<item name="MassiveMod_AmmoCan556x45"  chance="16.6" />
+			<item name="MassiveMod_AmmoCan308Win"  chance="16.6" />
+			<item name="MassiveMod_AmmoCan762x39"  chance="16.6" />
+			<item name="MassiveMod_AmmoCan545x39"  chance="16.6" />
+			<item name="MassiveMod_AmmoCan762x54"  chance="16.6" />
+			<item name="MassiveMod_AmmoCan9x39"  chance="16.6" />
+		</cargo>
+	<!-- Variety Ammunition and Explosives -->
+		<cargo chance="0.33"> <item name="AmmoBox_00buck_10rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_12gaSlug_10Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_22_50Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_308WinTracer_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_308Win_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_357_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_380_35rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_45ACP_25rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_545x39Tracer_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_545x39_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_556x45Tracer_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_556x45_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_762x39Tracer_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_762x39_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_762x54Tracer_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_762x54_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_9x19_25rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_9x39AP_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_9x39_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_556x45AP_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_545x39AP_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_762x39AP_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_408Chey" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_338Mass" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_FN57x28_40rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_HK_46x30_40rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="M67Grenade" /> </cargo>
+		<cargo chance="0.33"> <item name="RGD5Grenade" /> </cargo>
+		<cargo chance="0.33"> <item name="LandMineTrap" /> </cargo>
+		<cargo chance="0.33"> <item name="Ammo_40mm_Explosive" /> </cargo>
+		<cargo chance="0.33"> <item name="Plastic_Explosive" /> </cargo>
+		<cargo chance="0.33"> <item name="ClaymoreMine" /> </cargo>
+		<cargo chance="0.33"> <item name="RemoteDetonator" /> </cargo>
+	<!--Duplicated-->
+		<cargo chance="0.33"> <item name="AmmoBox_00buck_10rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_12gaSlug_10Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_22_50Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_308WinTracer_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_308Win_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_357_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_380_35rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_45ACP_25rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_545x39Tracer_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_545x39_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_556x45Tracer_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_556x45_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_762x39Tracer_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_762x39_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_762x54Tracer_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_762x54_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_9x19_25rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_9x39AP_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_9x39_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_556x45AP_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_545x39AP_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_762x39AP_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_408Chey" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_338Mass" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_FN57x28_40rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="AmmoBox_HK_46x30_40rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="M67Grenade" /> </cargo>
+		<cargo chance="0.33"> <item name="RGD5Grenade" /> </cargo>
+		<cargo chance="0.33"> <item name="LandMineTrap" /> </cargo>
+		<cargo chance="0.33"> <item name="Ammo_40mm_Explosive" /> </cargo>
+		<cargo chance="0.33"> <item name="Plastic_Explosive" /> </cargo>
+		<cargo chance="0.33"> <item name="ClaymoreMine" /> </cargo>
+		<cargo chance="0.33"> <item name="RemoteDetonator" /> </cargo>
+	<!-- -->
+		<cargo chance="0.33"> <item name="Mag_SV98_10rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_1911_7Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_AK101_30Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_AKM_30Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_AKM_Palm30Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_Aug_30Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_CMAG_10Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_CMAG_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_CMAG_30Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_CZ527_5rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_CZ550_10Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_CZ61_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_CZ75_15Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_Deagle_9rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_FAMAS_25Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_FNX45_15Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_Glock_15Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_IJ70_8Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_M14_10Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_M14_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_MKII_10Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_MP5_15Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_MP5_30Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_P1_8Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_PP19_64Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_Ruger1022_15Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_Ruger1022_30Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_SSG82_5rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_STANAG_30Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_Saiga_5Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_Saiga_8Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_Saiga_Drum20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_Scout_5Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_UMP_25Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_VAL_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_VSS_10Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_Vikhr_30Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mass_Mag_RugerPrecision_10Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mass_Mag_PPSh_71RndDrum" /> </cargo>
+		<cargo chance="0.33"> <item name="Mass_Mag_PPSh_30Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mass_Mag_SVT_10Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mass_Mag_Mini14_5rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mass_Mag_Mini14_10rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mass_Mag_9x39Palm_30Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mass_Mag_MP40_30Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mass_Mag_Coonan_7Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="JD_Mag_Groza_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="JD_CZ_Mag_EVO_35rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="JD_Mag_MP7_40Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="JD_BT_MP9_30Rnd_Mag" /> </cargo>
+		<cargo chance="0.33"> <item name="JD_BT_MP9_15Rnd_Mag" /> </cargo>
+		<cargo chance="0.33"> <item name="JD_Mag_P90_50Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="JD_Mag_Tec9_32rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_FAL_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_SVD_10Rnd" /> </cargo>
+		<cargo chance="0.15"> <item name="Mass_Mag_Kivaari_10Rnd" /> </cargo>
+		<cargo chance="0.15"> <item name="Mass_Mag_M98B_7Rnd" /> </cargo>
+		<cargo chance="0.15"> <item name="Mass_Mag_M24_5Rnd" /> </cargo>
+		<cargo chance="0.15"> <item name="Mass_Mag_M300_7Rnd" /> </cargo>
+		<cargo chance="0.15"> <item name="Mass_Mag_PKM_100Rnd" /> </cargo>
+		<cargo chance="0.15"> <item name="JD_Mag_M249_Box200Rnd" /> </cargo>
+	<!--Duplicated-->
+	<cargo chance="0.33"> <item name="Mag_SV98_10rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_1911_7Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_AK101_30Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_AKM_30Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_AKM_Palm30Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_Aug_30Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_CMAG_10Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_CMAG_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_CMAG_30Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_CZ527_5rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_CZ550_10Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_CZ61_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_CZ75_15Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_Deagle_9rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_FAMAS_25Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_FNX45_15Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_Glock_15Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_IJ70_8Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_M14_10Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_M14_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_MKII_10Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_MP5_15Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_MP5_30Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_P1_8Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_PP19_64Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_Ruger1022_15Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_Ruger1022_30Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_SSG82_5rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_STANAG_30Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_Saiga_5Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_Saiga_8Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_Saiga_Drum20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_Scout_5Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_UMP_25Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_VAL_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_VSS_10Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_Vikhr_30Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mass_Mag_RugerPrecision_10Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mass_Mag_PPSh_71RndDrum" /> </cargo>
+		<cargo chance="0.33"> <item name="Mass_Mag_PPSh_30Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mass_Mag_SVT_10Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mass_Mag_Mini14_5rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mass_Mag_Mini14_10rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mass_Mag_9x39Palm_30Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mass_Mag_MP40_30Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mass_Mag_Coonan_7Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="JD_Mag_Groza_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="JD_CZ_Mag_EVO_35rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="JD_Mag_MP7_40Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="JD_BT_MP9_30Rnd_Mag" /> </cargo>
+		<cargo chance="0.33"> <item name="JD_BT_MP9_15Rnd_Mag" /> </cargo>
+		<cargo chance="0.33"> <item name="JD_Mag_P90_50Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="JD_Mag_Tec9_32rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_FAL_20Rnd" /> </cargo>
+		<cargo chance="0.33"> <item name="Mag_SVD_10Rnd" /> </cargo>
+		<cargo chance="0.15"> <item name="Mass_Mag_Kivaari_10Rnd" /> </cargo>
+		<cargo chance="0.15"> <item name="Mass_Mag_M98B_7Rnd" /> </cargo>
+		<cargo chance="0.15"> <item name="Mass_Mag_M24_5Rnd" /> </cargo>
+		<cargo chance="0.15"> <item name="Mass_Mag_M300_7Rnd" /> </cargo>
+		<cargo chance="0.15"> <item name="Mass_Mag_PKM_100Rnd" /> </cargo>
+		<cargo chance="0.15"> <item name="JD_Mag_M249_Box200Rnd" /> </cargo>
+	<!--
+		<cargo chance="0.40">
+			<item name="MassiveMod_BDUPackage" chance="0.05" />
+			<item name="MassiveMod_WinterBDUPackage" chance="0.05" />
+			<item name="MassiveMod_GorkaAutumnPackage" chance="0.05" />
+			<item name="MassiveMod_GorkaFlatPackage" chance="0.05" />
+			<item name="MassiveMod_GorkaSummerPackage" chance="0.05" />
+			<item name="MassiveMod_GorkaPautRevPackage" chance="0.05" />
+			<item name="MassiveMod_USMCDesertPackage" chance="0.05" />
+			<item name="MassiveMod_USMCWoodlandPackage" chance="0.05" />
+			<item name="MassiveMod_TTSKOPackage" chance="0.05" />
+			<item name="MassiveMod_TropicamPackage" chance="0.05" />
+			<item name="MassiveMod_UrbanPackage" chance="0.05" />
+			<item name="MassiveMod_InvertGorkaWoodlandPackage" chance="0.05" />
+			<item name="MassiveMod_InvertGorkaWinterPackage" chance="0.05" />
+			<item name="MassiveMod_IrishDPMPackage" chance="0.05" />
+			<item name="MassiveMod_SwedenM90Package" chance="0.05" />
+			<item name="MassiveMod_ThailandUrbanPackage" chance="0.05" />
+			<item name="MassiveMod_FinnishM05Package" chance="0.05" />
+			<item name="MassiveMod_BritishDPM95Package" chance="0.05" />
+			<item name="MassiveMod_RussianMVDRastrPackage" chance="0.05" />
+			<item name="MassiveMod_NorthKStripePackage" chance="0.05" />
+		</cargo>
+	</type>
+	-->
 	</type>
 </spawnabletypes>
