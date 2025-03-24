@@ -846,7 +846,7 @@
 		<cargo chance="0.15"> <item name="Mass_Mag_PKM_100Rnd" /> </cargo>
 		<cargo chance="0.15"> <item name="JD_Mag_M249_Box200Rnd" /> </cargo>
 	<!--Duplicated-->
-	<cargo chance="0.33"> <item name="Mag_SV98_10rnd" /> </cargo>
+	    <cargo chance="0.33"> <item name="Mag_SV98_10rnd" /> </cargo>
 		<cargo chance="0.33"> <item name="Mag_1911_7Rnd" /> </cargo>
 		<cargo chance="0.33"> <item name="Mag_AK101_30Rnd" /> </cargo>
 		<cargo chance="0.33"> <item name="Mag_AKM_30Rnd" /> </cargo>
@@ -933,4 +933,183 @@
 	</type>
 	-->
 	</type>
+	<type name="MassiveMod_MedicalSuppliesCache">
+	<!-- Medical Supplies -->
+		<cargo chance="0.33"> <item name="BandageDressing" /> </cargo>
+		<cargo chance="0.33"> <item name="BandageDressing" /> </cargo>
+		<cargo chance="0.33"> <item name="BandageDressing" /> </cargo>
+		<cargo chance="0.33"> <item name="SalineBagIV" /> </cargo>
+		<cargo chance="0.33"> <item name="SalineBagIV" /> </cargo>
+		<cargo chance="0.33"> <item name="BloodBagEmpty" /> </cargo>
+		<cargo chance="0.33"> <item name="BloodBagEmpty" /> </cargo>
+		<cargo chance="0.33"> <item name="Morphine" /> </cargo>
+		<cargo chance="0.33"> <item name="Morphine" /> </cargo>
+		<cargo chance="0.33"> <item name="Morphine" /> </cargo>
+		<cargo chance="0.33"> <item name="Epinephrine" /> </cargo>
+		<cargo chance="0.33"> <item name="Epinephrine" /> </cargo>
+		<cargo chance="0.33"> <item name="Epinephrine" /> </cargo>
+		<cargo chance="0.33"> <item name="BloodTestKit" /> </cargo>
+		<cargo chance="0.33"> <item name="BloodTestKit" /> </cargo>
+		<cargo chance="0.33"> <item name="BloodTestKit" /> </cargo>
+		<cargo chance="0.33"> <item name="BloodTestKit" /> </cargo>
+		<cargo chance="0.33"> <item name="TetracyclineAntibiotics" /> </cargo>
+		<cargo chance="0.33"> <item name="TetracyclineAntibiotics" /> </cargo>
+		<cargo chance="0.33"> <item name="Thermometer" /> </cargo>
+		<cargo chance="0.33"> <item name="AntiChemInjector" /> </cargo>
+		<cargo chance="0.33"> <item name="AntiChemInjector" /> </cargo>
+		<cargo chance="0.33"> <item name="AntiChemInjector" /> </cargo>
+		<cargo chance="0.33"> <item name="CharcoalTablets" /> </cargo>
+		<cargo chance="0.33"> <item name="CharcoalTablets" /> </cargo>
+		<cargo chance="0.33"> <item name="CharcoalTablets" /> </cargo>
+		<cargo chance="0.33"> <item name="IodineTincture" /> </cargo>
+		<cargo chance="0.33"> <item name="IodineTincture" /> </cargo>
+		<cargo chance="0.33"> <item name="DisinfectantAlcohol" /> </cargo>
+		<cargo chance="0.33"> <item name="DisinfectantAlcohol" /> </cargo>
+		<cargo chance="0.33"> <item name="PainkillerTablets" /> </cargo>
+		<cargo chance="0.33"> <item name="PainkillerTablets" /> </cargo>
+		<cargo chance="0.33"> <item name="PurificationTablets" /> </cargo>
+		<cargo chance="0.33"> <item name="PurificationTablets" /> </cargo>
+		<cargo chance="0.33"> <item name="StartKitIV" /> </cargo>
+		<cargo chance="0.33"> <item name="StartKitIV" /> </cargo>
+		<cargo chance="0.15"> <item name="Mass_IFAK_TAN" /> </cargo>
+		<cargo chance="0.15"> <item name="Mass_IFAK_ODG" /> </cargo>
+		<cargo chance="0.15"> <item name="Mass_IFAK_BLACK" /> </cargo>
+		<cargo chance="0.15"> <item name="Mass_IFAK_BDU" /> </cargo>
+		<cargo chance="0.15"> <item name="Mass_IFAK_PartizanM" /> </cargo>
+		<cargo chance="0.33"> <item name="Splint" /> </cargo>
+		<cargo chance="0.33"> <item name="Splint" /> </cargo>
+	<!-- Duplicated -->
+	    <cargo chance="0.33"> <item name="BandageDressing" /> </cargo>
+		<cargo chance="0.33"> <item name="BandageDressing" /> </cargo>
+		<cargo chance="0.33"> <item name="BandageDressing" /> </cargo>
+		<cargo chance="0.33"> <item name="SalineBagIV" /> </cargo>
+		<cargo chance="0.33"> <item name="SalineBagIV" /> </cargo>
+		<cargo chance="0.33"> <item name="BloodBagEmpty" /> </cargo>
+		<cargo chance="0.33"> <item name="BloodBagEmpty" /> </cargo>
+		<cargo chance="0.33"> <item name="Morphine" /> </cargo>
+		<cargo chance="0.33"> <item name="Morphine" /> </cargo>
+		<cargo chance="0.33"> <item name="Morphine" /> </cargo>
+		<cargo chance="0.33"> <item name="Epinephrine" /> </cargo>
+		<cargo chance="0.33"> <item name="Epinephrine" /> </cargo>
+		<cargo chance="0.33"> <item name="Epinephrine" /> </cargo>
+		<cargo chance="0.33"> <item name="BloodTestKit" /> </cargo>
+		<cargo chance="0.33"> <item name="BloodTestKit" /> </cargo>
+		<cargo chance="0.33"> <item name="BloodTestKit" /> </cargo>
+		<cargo chance="0.33"> <item name="BloodTestKit" /> </cargo>
+		<cargo chance="0.33"> <item name="TetracyclineAntibiotics" /> </cargo>
+		<cargo chance="0.33"> <item name="TetracyclineAntibiotics" /> </cargo>
+		<cargo chance="0.33"> <item name="Thermometer" /> </cargo>
+		<cargo chance="0.33"> <item name="AntiChemInjector" /> </cargo>
+		<cargo chance="0.33"> <item name="AntiChemInjector" /> </cargo>
+		<cargo chance="0.33"> <item name="AntiChemInjector" /> </cargo>
+		<cargo chance="0.33"> <item name="CharcoalTablets" /> </cargo>
+		<cargo chance="0.33"> <item name="CharcoalTablets" /> </cargo>
+		<cargo chance="0.33"> <item name="CharcoalTablets" /> </cargo>
+		<cargo chance="0.33"> <item name="IodineTincture" /> </cargo>
+		<cargo chance="0.33"> <item name="IodineTincture" /> </cargo>
+		<cargo chance="0.33"> <item name="DisinfectantAlcohol" /> </cargo>
+		<cargo chance="0.33"> <item name="DisinfectantAlcohol" /> </cargo>
+		<cargo chance="0.33"> <item name="PainkillerTablets" /> </cargo>
+		<cargo chance="0.33"> <item name="PainkillerTablets" /> </cargo>
+		<cargo chance="0.33"> <item name="PurificationTablets" /> </cargo>
+		<cargo chance="0.33"> <item name="PurificationTablets" /> </cargo>
+		<cargo chance="0.33"> <item name="StartKitIV" /> </cargo>
+		<cargo chance="0.33"> <item name="StartKitIV" /> </cargo>
+		<cargo chance="0.15"> <item name="Mass_IFAK_TAN" /> </cargo>
+		<cargo chance="0.15"> <item name="Mass_IFAK_ODG" /> </cargo>
+		<cargo chance="0.15"> <item name="Mass_IFAK_BLACK" /> </cargo>
+		<cargo chance="0.15"> <item name="Mass_IFAK_BDU" /> </cargo>
+		<cargo chance="0.15"> <item name="Mass_IFAK_PartizanM" /> </cargo>
+		<cargo chance="0.33"> <item name="Splint" /> </cargo>
+		<cargo chance="0.33"> <item name="Splint" /> </cargo>
+	<!-- Duplicated -->
+	    <cargo chance="0.33"> <item name="BandageDressing" /> </cargo>
+		<cargo chance="0.33"> <item name="BandageDressing" /> </cargo>
+		<cargo chance="0.33"> <item name="BandageDressing" /> </cargo>
+		<cargo chance="0.33"> <item name="SalineBagIV" /> </cargo>
+		<cargo chance="0.33"> <item name="SalineBagIV" /> </cargo>
+		<cargo chance="0.33"> <item name="BloodBagEmpty" /> </cargo>
+		<cargo chance="0.33"> <item name="BloodBagEmpty" /> </cargo>
+		<cargo chance="0.33"> <item name="Morphine" /> </cargo>
+		<cargo chance="0.33"> <item name="Morphine" /> </cargo>
+		<cargo chance="0.33"> <item name="Morphine" /> </cargo>
+		<cargo chance="0.33"> <item name="Epinephrine" /> </cargo>
+		<cargo chance="0.33"> <item name="Epinephrine" /> </cargo>
+		<cargo chance="0.33"> <item name="Epinephrine" /> </cargo>
+		<cargo chance="0.33"> <item name="BloodTestKit" /> </cargo>
+		<cargo chance="0.33"> <item name="BloodTestKit" /> </cargo>
+		<cargo chance="0.33"> <item name="BloodTestKit" /> </cargo>
+		<cargo chance="0.33"> <item name="BloodTestKit" /> </cargo>
+		<cargo chance="0.33"> <item name="TetracyclineAntibiotics" /> </cargo>
+		<cargo chance="0.33"> <item name="TetracyclineAntibiotics" /> </cargo>
+		<cargo chance="0.33"> <item name="Thermometer" /> </cargo>
+		<cargo chance="0.33"> <item name="AntiChemInjector" /> </cargo>
+		<cargo chance="0.33"> <item name="AntiChemInjector" /> </cargo>
+		<cargo chance="0.33"> <item name="AntiChemInjector" /> </cargo>
+		<cargo chance="0.33"> <item name="CharcoalTablets" /> </cargo>
+		<cargo chance="0.33"> <item name="CharcoalTablets" /> </cargo>
+		<cargo chance="0.33"> <item name="CharcoalTablets" /> </cargo>
+		<cargo chance="0.33"> <item name="IodineTincture" /> </cargo>
+		<cargo chance="0.33"> <item name="IodineTincture" /> </cargo>
+		<cargo chance="0.33"> <item name="DisinfectantAlcohol" /> </cargo>
+		<cargo chance="0.33"> <item name="DisinfectantAlcohol" /> </cargo>
+		<cargo chance="0.33"> <item name="PainkillerTablets" /> </cargo>
+		<cargo chance="0.33"> <item name="PainkillerTablets" /> </cargo>
+		<cargo chance="0.33"> <item name="PurificationTablets" /> </cargo>
+		<cargo chance="0.33"> <item name="PurificationTablets" /> </cargo>
+		<cargo chance="0.33"> <item name="StartKitIV" /> </cargo>
+		<cargo chance="0.33"> <item name="StartKitIV" /> </cargo>
+		<cargo chance="0.15"> <item name="Mass_IFAK_TAN" /> </cargo>
+		<cargo chance="0.15"> <item name="Mass_IFAK_ODG" /> </cargo>
+		<cargo chance="0.15"> <item name="Mass_IFAK_BLACK" /> </cargo>
+		<cargo chance="0.15"> <item name="Mass_IFAK_BDU" /> </cargo>
+		<cargo chance="0.15"> <item name="Mass_IFAK_PartizanM" /> </cargo>
+		<cargo chance="0.33"> <item name="Splint" /> </cargo>
+		<cargo chance="0.33"> <item name="Splint" /> </cargo>
+	<!-- Duplicated -->
+	    <cargo chance="0.33"> <item name="BandageDressing" /> </cargo>
+		<cargo chance="0.33"> <item name="BandageDressing" /> </cargo>
+		<cargo chance="0.33"> <item name="BandageDressing" /> </cargo>
+		<cargo chance="0.33"> <item name="SalineBagIV" /> </cargo>
+		<cargo chance="0.33"> <item name="SalineBagIV" /> </cargo>
+		<cargo chance="0.33"> <item name="BloodBagEmpty" /> </cargo>
+		<cargo chance="0.33"> <item name="BloodBagEmpty" /> </cargo>
+		<cargo chance="0.33"> <item name="Morphine" /> </cargo>
+		<cargo chance="0.33"> <item name="Morphine" /> </cargo>
+		<cargo chance="0.33"> <item name="Morphine" /> </cargo>
+		<cargo chance="0.33"> <item name="Epinephrine" /> </cargo>
+		<cargo chance="0.33"> <item name="Epinephrine" /> </cargo>
+		<cargo chance="0.33"> <item name="Epinephrine" /> </cargo>
+		<cargo chance="0.33"> <item name="BloodTestKit" /> </cargo>
+		<cargo chance="0.33"> <item name="BloodTestKit" /> </cargo>
+		<cargo chance="0.33"> <item name="BloodTestKit" /> </cargo>
+		<cargo chance="0.33"> <item name="BloodTestKit" /> </cargo>
+		<cargo chance="0.33"> <item name="TetracyclineAntibiotics" /> </cargo>
+		<cargo chance="0.33"> <item name="TetracyclineAntibiotics" /> </cargo>
+		<cargo chance="0.33"> <item name="Thermometer" /> </cargo>
+		<cargo chance="0.33"> <item name="AntiChemInjector" /> </cargo>
+		<cargo chance="0.33"> <item name="AntiChemInjector" /> </cargo>
+		<cargo chance="0.33"> <item name="AntiChemInjector" /> </cargo>
+		<cargo chance="0.33"> <item name="CharcoalTablets" /> </cargo>
+		<cargo chance="0.33"> <item name="CharcoalTablets" /> </cargo>
+		<cargo chance="0.33"> <item name="CharcoalTablets" /> </cargo>
+		<cargo chance="0.33"> <item name="IodineTincture" /> </cargo>
+		<cargo chance="0.33"> <item name="IodineTincture" /> </cargo>
+		<cargo chance="0.33"> <item name="DisinfectantAlcohol" /> </cargo>
+		<cargo chance="0.33"> <item name="DisinfectantAlcohol" /> </cargo>
+		<cargo chance="0.33"> <item name="PainkillerTablets" /> </cargo>
+		<cargo chance="0.33"> <item name="PainkillerTablets" /> </cargo>
+		<cargo chance="0.33"> <item name="PurificationTablets" /> </cargo>
+		<cargo chance="0.33"> <item name="PurificationTablets" /> </cargo>
+		<cargo chance="0.33"> <item name="StartKitIV" /> </cargo>
+		<cargo chance="0.33"> <item name="StartKitIV" /> </cargo>
+		<cargo chance="0.15"> <item name="Mass_IFAK_TAN" /> </cargo>
+		<cargo chance="0.15"> <item name="Mass_IFAK_ODG" /> </cargo>
+		<cargo chance="0.15"> <item name="Mass_IFAK_BLACK" /> </cargo>
+		<cargo chance="0.15"> <item name="Mass_IFAK_BDU" /> </cargo>
+		<cargo chance="0.15"> <item name="Mass_IFAK_PartizanM" /> </cargo>
+		<cargo chance="0.33"> <item name="Splint" /> </cargo>
+		<cargo chance="0.33"> <item name="Splint" /> </cargo>
+	</type>	
 </spawnabletypes>
+
