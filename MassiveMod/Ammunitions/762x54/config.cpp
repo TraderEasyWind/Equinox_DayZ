@@ -27,6 +27,18 @@ class CfgPatches
 class CfgVehicles
 {
 	class Box_Base;
+	class AmmoBox_762x54_20Rnd;
+	class MM_AmmoBox_762x54_20Rnd: AmmoBox_762x54_20Rnd
+	{
+		hiddenSelections[]=
+		{
+			"zbytek"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\Ammunitions\762x54\Data\762_54R_AmmoBox.paa"
+		};
+	};
 	class AmmoBox_762x54OLD_20Rnd: Box_Base
 	{
 		scope=2;

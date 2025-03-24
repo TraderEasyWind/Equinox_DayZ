@@ -1173,6 +1173,44 @@
 			<cargo chance="0.50"> <item name="RA_CodeLock" /> </cargo>
 			<cargo chance="0.50"> <item name="RA_CodeLock" /> </cargo>
 			<cargo chance="0.50"> <item name="RA_CodeLock" /> </cargo>
-		</type>	
+		<!--Duplicated-->
+			<cargo chance="0.50"> <item name="NailBox" /> </cargo>
+			<cargo chance="0.50"> <item name="NailBox" /> </cargo>
+			<cargo chance="0.50"> <item name="NailBox" /> </cargo>
+			<cargo chance="0.33"> <item name="NailBox" /> </cargo>
+			<cargo chance="0.33"> <item name="NailBox" /> </cargo>
+			<cargo chance="0.33"> <item name="NailBox" /> </cargo>
+			<cargo chance="0.33"> <item name="NailBox" /> </cargo>
+			<cargo chance="0.33"> <item name="NailBox" /> </cargo>
+			<cargo chance="0.33"> <item name="NailBox" /> </cargo>
+			<cargo chance="0.33"> <item name="NailBox" /> </cargo>
+			<cargo chance="0.50"> <item name="Whetstone" /> </cargo>
+			<cargo chance="0.50"> <item name="Whetstone" /> </cargo>
+			<cargo chance="0.50"> <item name="Whetstone" /> </cargo>
+			<cargo chance="0.33"> <item name="Whetstone" /> </cargo>
+			<cargo chance="0.33"> <item name="Whetstone" /> </cargo>
+			<cargo chance="0.33"> <item name="Whetstone" /> </cargo>
+			<cargo chance="0.33"> <item name="Whetstone" /> </cargo>
+			<cargo chance="0.33"> <item name="Whetstone" /> </cargo>
+			<cargo chance="0.33"> <item name="Whetstone" /> </cargo>
+			<cargo chance="0.33"> <item name="Whetstone" /> </cargo>
+			<cargo chance="0.50"> <item name="Hacksaw" /> </cargo>
+			<cargo chance="0.50"> <item name="Hacksaw" /> </cargo>
+			<cargo chance="0.50"> <item name="Hacksaw" /> </cargo>
+			<cargo chance="0.50"> <item name="HandSaw" /> </cargo>
+			<cargo chance="0.50"> <item name="HandSaw" /> </cargo>
+			<cargo chance="0.50"> <item name="HandSaw" /> </cargo>
+			<cargo chance="0.50"> <item name="Hatchet" /> </cargo>
+			<cargo chance="0.50"> <item name="Hatchet" /> </cargo>
+			<cargo chance="0.50"> <item name="Hatchet" /> </cargo>
+			<cargo chance="0.33"> <item name="RA_Cinderblock" /> </cargo>
+			<cargo chance="0.50"> <item name="RA_ClawHammer_Yellow" /> </cargo>
+			<cargo chance="0.50"> <item name="RA_ClawHammer_Yellow" /> </cargo>
+			<cargo chance="0.50"> <item name="RA_ClawHammer_Yellow" /> </cargo>
+			<cargo chance="0.50"> <item name="RA_CodeLock" /> </cargo>
+			<cargo chance="0.50"> <item name="RA_CodeLock" /> </cargo>
+			<cargo chance="0.50"> <item name="RA_CodeLock" /> </cargo>
+			<cargo chance="0.50"> <item name="RA_CodeLock" /> </cargo>
+	</type>	
 </spawnabletypes>
 

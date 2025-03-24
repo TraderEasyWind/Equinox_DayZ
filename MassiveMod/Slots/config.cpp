@@ -34,6 +34,12 @@ class CfgMods
 };
 class CfgSlots
 {
+	class Slot_MMCanOpener
+	{
+		name = "MMCanOpener";
+		displayName = "Can Opener";
+		ghostIcon = "";
+	};
 	class Slot_MMAmmo
 	{
 		name = "MMAmmo";

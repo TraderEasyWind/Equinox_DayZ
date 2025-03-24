@@ -4,17 +4,81 @@ modded class MetalPlate
     {
         super.EEOnCECreate();
         
-        if (GetGame().IsServer())
+        if (GetGame().IsServer() && GetHierarchyParent() && GetHierarchyParent().IsInherited(MassiveModCrate_Base))
         {
-            GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(this.CheckAndSetQuantity, 1000);
+            SetQuantityMax();
         }
     }
-    
-    void CheckAndSetQuantity()
+}
+modded class DisinfectantAlcohol
+{
+	override void EEOnCECreate()
     {
-        if (GetHierarchyParent() && GetHierarchyParent().IsInherited(MassiveModCrate_Base))
+        super.EEOnCECreate();
+        
+        if (GetGame().IsServer() && GetHierarchyParent() && GetHierarchyParent().IsInherited(MassiveModCrate_Base))
         {
-            SetQuantity(10);
+            SetQuantityMax();
+        }
+    }
+}
+modded class IodineTincture
+{
+	override void EEOnCECreate()
+    {
+        super.EEOnCECreate();
+        
+        if (GetGame().IsServer() && GetHierarchyParent() && GetHierarchyParent().IsInherited(MassiveModCrate_Base))
+        {
+            SetQuantityMax();
+        }
+    }
+}
+modded class PainkillerTablets
+{
+	override void EEOnCECreate()
+    {
+        super.EEOnCECreate();
+        
+        if (GetGame().IsServer() && GetHierarchyParent() && GetHierarchyParent().IsInherited(MassiveModCrate_Base))
+        {
+            SetQuantityMax();
+        }
+    }
+}
+modded class PurificationTablets
+{
+	override void EEOnCECreate()
+    {
+        super.EEOnCECreate();
+        
+        if (GetGame().IsServer() && GetHierarchyParent() && GetHierarchyParent().IsInherited(MassiveModCrate_Base))
+        {
+            SetQuantityMax();
+        }
+    }
+}
+modded class CharcoalTablets
+{
+	override void EEOnCECreate()
+    {
+        super.EEOnCECreate();
+        
+        if (GetGame().IsServer() && GetHierarchyParent() && GetHierarchyParent().IsInherited(MassiveModCrate_Base))
+        {
+            SetQuantityMax();
+        }
+    }
+}
+modded class TetracyclineAntibiotics
+{
+	override void EEOnCECreate()
+    {
+        super.EEOnCECreate();
+        
+        if (GetGame().IsServer() && GetHierarchyParent() && GetHierarchyParent().IsInherited(MassiveModCrate_Base))
+        {
+            SetQuantityMax();
         }
     }
 }

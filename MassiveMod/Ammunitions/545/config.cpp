@@ -30,6 +30,17 @@ class CfgVehicles
 	class AmmoBox_Heli545x39_20Rnd: AmmoBox_545x39_20Rnd
 	{
 	};
+	class MM_AmmoBox_545x39_20Rnd: AmmoBox_545x39_20Rnd
+	{
+		hiddenSelections[]=
+		{
+			"zbytek"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\Ammunitions\545\Data\545x39_AmmoBox.paa"
+		};
+	};
 	class AmmoBox_545x39Old_20Rnd: AmmoBox_545x39_20Rnd
 	{
 		hiddenSelections[]=
