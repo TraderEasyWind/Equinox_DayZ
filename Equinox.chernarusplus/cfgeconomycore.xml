@@ -52,6 +52,9 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	<ce folder="CustomTypes/Sights_Mounts">
 		<file name="sights_types.xml" type="types" />
 	</ce>
+	<ce folder="CustomTypes/MMG">
+		<file name="mmg_types.xml" type="types" />
+	</ce>
 	<ce folder="CustomTypes/Windstrides">
         <file name="windstrides_types.xml" type="types" />
 	</ce>

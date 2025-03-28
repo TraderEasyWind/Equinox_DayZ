@@ -52,21 +52,14 @@ class CfgMods
 //		ghostIcon = "set:dayz_inventory image:shoulderleft";
 //	};
 //};
-class CfgWeapons
-{
-    class RifleCore;
-    class Rifle_Base : RifleCore
-    {
-        inventorySlot[] += 
-        {
-			"Shoulder1",
-            "Shoulder2",
-			"Shoulder3",
-			"Shoulder4",
-			"Shoulder5",
-			"Shoulder6",
-			"Shoulder7",
-			"Shoulder8"
-        };
-    };
-};
+//class CfgWeapons
+//{
+//    class RifleCore;
+//    class Rifle_Base : RifleCore
+//    {
+//        inventorySlot[] -= 
+//        {
+//            "Melee"
+//        };
+//    };
+//};

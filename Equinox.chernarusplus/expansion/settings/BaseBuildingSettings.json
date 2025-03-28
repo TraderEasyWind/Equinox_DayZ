@@ -57,10 +57,9 @@
     "DismantleFlagMode": 1,
     "FlagMenuMode": 1,
     "PreventItemAccessThroughObstructingItems": 1,
-    "EnableVirtualStorage": 1,
+    "EnableVirtualStorage": 0,
     "VirtualStorageExcludedContainers": [
         "ExpansionAirdropContainerBase",
-		"MassiveModCrate_Base",
-		"TerritoryHQ"
+		"MassiveModCrate_Base"
     ]
 }
