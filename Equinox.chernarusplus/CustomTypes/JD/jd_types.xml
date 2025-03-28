@@ -44,7 +44,7 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="JD_Model1887">
-		<nominal>10</nominal>
+		<nominal>15</nominal>
 		<lifetime>14600</lifetime>
 		<restock>3600</restock>
 		<min>4</min>
@@ -59,7 +59,7 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="JD_SerbuSuperShorty">
-		<nominal>5</nominal>
+		<nominal>8</nominal>
 		<lifetime>14600</lifetime>
 		<restock>7200</restock>
 		<min>1</min>
@@ -122,9 +122,9 @@
 		<usage name="Military"/>
 	</type>
 		<type name="JD_MP7">
-		<nominal>4</nominal>
+		<nominal>2</nominal>
 		<lifetime>28800</lifetime>
-		<restock>14400</restock>
+		<restock>28800</restock>
 		<min>1</min>
 		<quantmin>1</quantmin>
 		<quantmax>1</quantmax>
@@ -135,7 +135,7 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="JD_BT_MP9">
-		<nominal>6</nominal>
+		<nominal>10</nominal>
 		<lifetime>28800</lifetime>
 		<restock>7200</restock>
 		<min>1</min>
@@ -167,10 +167,10 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="JD_Tec9">
-		<nominal>5</nominal>
+		<nominal>10</nominal>
 		<lifetime>28800</lifetime>
 		<restock>7200</restock>
-		<min>1</min>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -240,7 +240,7 @@
 	<type name="JD_Mag_M249_Box200Rnd">
 		<nominal>1</nominal>
 		<lifetime>28800</lifetime>
-		<restock>14600</restock>
+		<restock>28600</restock>
 		<min>0</min>
 		<quantmin>1</quantmin>
 		<quantmax>50</quantmax>
@@ -251,10 +251,10 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="JD_CZ_Mag_EVO_35rnd">
-		<nominal>6</nominal>
+		<nominal>8</nominal>
 		<lifetime>28800</lifetime>
 		<restock>1800</restock>
-		<min>1</min>
+		<min>2</min>
 		<quantmin>1</quantmin>
 		<quantmax>35</quantmax>
 		<cost>100</cost>
@@ -278,7 +278,7 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="JD_BT_MP9_30Rnd_Mag">
-		<nominal>5</nominal>
+		<nominal>15</nominal>
 		<lifetime>28800</lifetime>
 		<restock>3600</restock>
 		<min>2</min>
@@ -308,7 +308,7 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="JD_Mag_P90_50Rnd">
-		<nominal>4</nominal>
+		<nominal>8</nominal>
 		<lifetime>28800</lifetime>
 		<restock>7200</restock>
 		<min>1</min>
@@ -323,7 +323,7 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="JD_Mag_Tec9_32rnd">
-		<nominal>8</nominal>
+		<nominal>14</nominal>
 		<lifetime>28800</lifetime>
 		<restock>3600</restock>
 		<min>2</min>
