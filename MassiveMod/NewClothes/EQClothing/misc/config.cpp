@@ -17,7 +17,9 @@ class CfgPatches
 			"DZ_Characters_Headgear",
 			"DZ_Data",
 			"Windstrideclothing",
-			"Wool_GreatCoat"
+			"Wool_GreatCoat",
+			"MMIO_Clothes_Headgear",
+			"MMIO_Clothing"
 		};
 	};
 };
@@ -346,4 +348,38 @@ class CfgVehicles
 			"MassiveMod\NewClothes\EQClothing\misc\data\black_greatcoat.paa"
 		};
 	};
+	class Wool_Pimp: Wool_GreatCoat_ColorBase
+	{
+		descriptionShort= "Black greatcoat";
+		scope=2;
+		visibilityModifier=0.89999998;
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\misc\data\Pimp_greatcoat.paa",
+			"MassiveMod\NewClothes\EQClothing\misc\data\Pimp_greatcoat.paa",
+			"MassiveMod\NewClothes\EQClothing\misc\data\Pimp_greatcoat.paa"
+		};
+	};
+	class MassCatEars;
+	class MassCatEars_Beige: MassCatEars
+	{
+		scope = 2;
+		displayName = "Cat Ears Beige";
+		descriptionShort = "NIPHORIA STOP ASKING FOR CAT EARS! In Beige by Striker";
+		hiddenSelectionsTextures[] = {"MassiveMod\NewClothes\EQClothing\misc\data\catears_co_beige.paa","MassiveMod\NewClothes\EQClothing\misc\data\catears_co_beige.paa","MassiveMod\NewClothes\EQClothing\misc\data\catears_co_beige.paa"};
+	};
+	class MassCatEars_Black: MassCatEars
+	{
+		scope = 2;
+		displayName = "Cat Ears Black";
+		descriptionShort = "NIPHORIA STOP ASKING FOR CAT EARS! In Black by Striker";
+		hiddenSelectionsTextures[] = {"MassiveMod\NewClothes\EQClothing\misc\data\catears_co_black.paa","MassiveMod\NewClothes\EQClothing\misc\data\catears_co_black.paa","MassiveMod\NewClothes\EQClothing\misc\data\catears_co_black.paa"};
+	};
+	class MassCatEars_Femboy: MassCatEars
+	{
+		scope = 2;
+		displayName = "Cat Ears Femboy";
+		descriptionShort = "NIPHORIA STOP ASKING FOR CAT EARS! In Femboy style by Striker";
+		hiddenSelectionsTextures[] = {"MassiveMod\NewClothes\EQClothing\misc\data\catears_co_femboyUWU.paa","MassiveMod\NewClothes\EQClothing\misc\data\catears_co_femboyUWU.paa","MassiveMod\NewClothes\EQClothing\misc\data\catears_co_femboyUWU.paa"};
+	};	
 };
