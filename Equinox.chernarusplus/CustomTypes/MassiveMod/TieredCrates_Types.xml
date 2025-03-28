@@ -1,4 +1,4 @@
-<types>
+<types><!--
     <type name="MassiveMod_CrateTier5">
         <nominal>0</nominal>
         <lifetime>0</lifetime>
@@ -9,6 +9,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="0" deloot="0"/>
     </type>
+	-->
 	<type name="MassiveMod_ConstructionSuppliesCache">
        <nominal>5</nominal>
         <lifetime>604800</lifetime>

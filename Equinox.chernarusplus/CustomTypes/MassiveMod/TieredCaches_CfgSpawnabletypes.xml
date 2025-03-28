@@ -749,6 +749,7 @@
 		<cargo chance="0.33"> <item name="Plastic_Explosive" /> </cargo>
 		<cargo chance="0.33"> <item name="ClaymoreMine" /> </cargo>
 		<cargo chance="0.33"> <item name="RemoteDetonator" /> </cargo>
+		<cargo chance="0.15"> <item name="RA_C4" /> </cargo>
 	<!--Duplicated-->
 		<cargo chance="0.33"> <item name="AmmoBox_00buck_10rnd" /> </cargo>
 		<cargo chance="0.33"> <item name="AmmoBox_12gaSlug_10Rnd" /> </cargo>
@@ -1117,15 +1118,8 @@
 				<item name="MassiveMod_EquipmentLocker"  chance="1.00" />
 			</cargo>
 			<cargo chance="1.00">
-				<item name="mmg_gun_rack_kit_blue"  chance="0.11" />
-				<item name="mmg_gun_rack_kit_green"  chance="0.11" />
-				<item name="mmg_army_box_green"  chance="0.11" />
-				<item name="mmg_army_box_medic"  chance="0.11" />
-				<item name="mmg_army_box_medic_grey"  chance="0.11" />
-				<item name="mmg_military_case_green"  chance="0.11" />
-				<item name="mmg_palette_storage_kit"  chance="0.11" />
-				<item name="mmg_fridge_kit_beige"  chance="0.11" />
-				<item name="mmg_fridge_kit_blue"  chance="0.11" />
+				<cargo chance="0.50"> <item name="Plastic_Explosive" /> </cargo>
+				<cargo chance="0.50"> <item name="RemoteDetonator" /> </cargo>
 			</cargo>
 			<cargo chance="0.50"> <item name="NailBox" /> </cargo>
 			<cargo chance="0.50"> <item name="NailBox" /> </cargo>
@@ -1264,6 +1258,7 @@
 			<cargo chance="0.33"> <item name="WeaponCleaningKit" /> </cargo>
 			<cargo chance="0.33"> <item name="WeaponCleaningKit" /> </cargo>
 			<cargo chance="0.33"> <item name="WeaponCleaningKit" /> </cargo>
+			<cargo chance="0.25"> <item name="RA_C4" /> </cargo>
 	</type>
 </spawnabletypes>
 

@@ -2,6 +2,8 @@ modded class PluginRecipesManager
 {
 	override void RegisterRecipies()
 	{	super.RegisterRecipies();
+		RegisterRecipe(new CraftLargeWoodenBox);
+		RegisterRecipe(new CraftGunWall);
 		RegisterRecipe(new MassiveMod_RepairFilterBottle);
 		RegisterRecipe(new MassiveMod_OpenAmmoCan);
 		RegisterRecipe(new MassiveMod_RepairTire);
