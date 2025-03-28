@@ -334,4 +334,16 @@ class CfgVehicles
 			"MassiveMod\NewClothes\EQClothing\misc\data\wool_akatsuki.paa"
 		};
 	};
+	class Wool_Black: Wool_GreatCoat_ColorBase
+	{
+		descriptionShort= "Black greatcoat";
+		scope=2;
+		visibilityModifier=0.89999998;
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\misc\data\black_greatcoat.paa",
+			"MassiveMod\NewClothes\EQClothing\misc\data\black_greatcoat.paa",
+			"MassiveMod\NewClothes\EQClothing\misc\data\black_greatcoat.paa"
+		};
+	};
 };
