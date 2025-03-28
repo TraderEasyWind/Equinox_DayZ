@@ -1,287 +1,231 @@
-modded class SeaChest
+class MassiveMod_EquipmentLocker: DeployableContainer_Base
 {
-	protected bool m_IsOpened;
-	protected bool m_IsOpenedLocal;
-	private bool m_IsOpenable;
-	
-	void SeaChest()
+	void MassiveMod_LargeWoodenCrate()
 	{
-		RegisterNetSyncVariableBool("m_IsSoundSynchRemote");
-		RegisterNetSyncVariableBool("m_IsOpened");
-		if(ConfigIsExisting("itemIsOpenable"))
-			m_IsOpenable = ConfigGetBool("itemIsOpenable");
-		else
-			m_IsOpenable = false;
+		m_HalfExtents = Vector(0.15,0.25,0.4);
 	}
-	
-	override void EEInit()
+    override bool CanPutIntoHands( EntityAI parent )
+    {
+        if ( !IsEmpty() )
+        {
+            return false; 
+        }
+		if ( !Expansion_HasEntityStorage() )
+        {
+            return true;
+        }
+        return false;
+    }
+    override bool CanPutInCargo( EntityAI parent )
+    {
+        if ( !IsEmpty() )
+        {
+            return false;
+        }
+		if ( !Expansion_HasEntityStorage() )
+        {
+           return true;
+        }
+        return false;
+    }
+	bool CanPutInInventory (EntityAI parent)
+    {
+        return CanPutIntoHands(parent);
+    }
+    override bool CanReceiveItemIntoCargo(EntityAI item)
 	{
-		super.EEInit();		
-        if(IsOpen())
-            GetInventory().UnlockInventory(HIDE_INV_FROM_SCRIPT);
-		else
-			GetInventory().LockInventory(HIDE_INV_FROM_SCRIPT);		
-	}
-	
-	bool IsOpenable()
-	{
-		return m_IsOpenable;
-	}
-	
-	void Open()
-	{
-		super.Open();
-		m_IsOpened = true;
-		SoundSynchRemote();
-		SetSynchDirty();
-		GetGame().GetCallQueue( CALL_CATEGORY_GAMEPLAY ).CallLater( Close, 600000, false );
-		GetInventory().UnlockInventory(HIDE_INV_FROM_SCRIPT);
-		if (GetGame().IsServer() && Expansion_CanUseVirtualStorage(true))
-			Expansion_RestoreContents();
-		
-	}
-
-	void Close()
-	{
-		m_IsOpened = false;
-		SoundSynchRemote();
-		SetSynchDirty();
-		GetInventory().LockInventory(HIDE_INV_FROM_SCRIPT);
-		if (GetGame().IsServer() && Expansion_CanUseVirtualStorage())
-			Expansion_StoreContents();
-	}
-	
-	
-	override bool IsOpen()
-	{
-		return m_IsOpened;
-	}
-	
-	override void OnVariablesSynchronized()
-	{
-		super.OnVariablesSynchronized();
-		
-		if ( m_IsOpened != m_IsOpenedLocal )
-		{		
-			if ( IsOpen() && IsSoundSynchRemote() && !IsBeingPlaced() )
-			{
-				SoundOpenPlay();
-			}
-			
-			if ( !IsOpen() && IsSoundSynchRemote() && !IsBeingPlaced() )
-			{
-				SoundClosePlay();
-			}	
-			m_IsOpenedLocal = m_IsOpened;
-		}
-		
-	}
-	
-	override void OnStoreSave( ParamsWriteContext ctx )
-	{   
-		super.OnStoreSave( ctx );		
-		ctx.Write( m_IsOpened );
-	}
-	
-	override bool OnStoreLoad( ParamsReadContext ctx, int version )
-	{
-		if ( !super.OnStoreLoad( ctx, version ) )
-			return false;
-		
-		if (!ctx.Read( m_IsOpened ) )
-			return false;
-		
-		if ( !m_IsOpenable )
-			return true;
-
-		if ( m_IsOpened )
-			Open();
-		else
-			Close();
-		
-		return true;
-	}
-	
-	override void AfterStoreLoad()
-	{	
-		super.AfterStoreLoad();
-
-		if ( IsOpenable() )
+        EntityAI parent = GetHierarchyParent();
+		if( parent && parent.IsPlayer() )
 		{
-			GetGame().GetCallQueue( CALL_CATEGORY_GAMEPLAY ).CallLater( Close, 5000, false );
+            PlayerBase player = PlayerBase.Cast(parent);
+			if (player && player.GetItemInHands() == this)
+			{
+				return false;
+			}
 		}
-	}
-	
-	void SoundOpenPlay()
-	{
-	}
-	
-	void SoundClosePlay()
-	{
-	}
-	
-	override bool IsNonExpansionOpenable()
-	{
-		return true;
-	}
-	
-	override void SetActions()
-	{
-		super.SetActions();
-        AddAction(ActionMMGCloseAndOpen);
-	}
+		return super.CanReceiveItemIntoCargo(item);
+	};
 };
-modded class WoodenCrate
+class MassiveMod_LargeWoodenCrate: DeployableContainer_Base
 {
-	protected bool m_IsOpened;
-	protected bool m_IsOpenedLocal;
-	private bool m_IsOpenable;
-	
-	void WoodenCrate()
+	void MassiveMod_LargeWoodenCrate()
 	{
-		RegisterNetSyncVariableBool("m_IsSoundSynchRemote");
-		RegisterNetSyncVariableBool("m_IsOpened");
-		if(ConfigIsExisting("itemIsOpenable"))
-			m_IsOpenable = ConfigGetBool("itemIsOpenable");
-		else
-			m_IsOpenable = false;
+		m_HalfExtents = Vector(0.15,0.25,0.4);
 	}
-	
-	override void EEInit()
+    override bool CanPutIntoHands( EntityAI parent )
+    {
+        if ( !IsEmpty() )
+        {
+            return false; 
+        }
+		if ( !Expansion_HasEntityStorage() )
+        {
+            return true;
+        }
+        return false;
+    }
+    override bool CanPutInCargo( EntityAI parent )
+    {
+        if ( !IsEmpty() )
+        {
+            return false;
+        }
+		if ( !Expansion_HasEntityStorage() )
+        {
+           return true;
+        }
+        return false;
+    }
+	bool CanPutInInventory (EntityAI parent)
+    {
+        return CanPutIntoHands(parent);
+    }
+    override bool CanReceiveItemIntoCargo(EntityAI item)
 	{
-		super.EEInit();		
-        if(IsOpen())
-            GetInventory().UnlockInventory(HIDE_INV_FROM_SCRIPT);
-		else
-			GetInventory().LockInventory(HIDE_INV_FROM_SCRIPT);		
-	}
-	
-	void Open()
-	{
-		super.Open();
-		m_IsOpened = true;
-		SoundSynchRemote();
-		SetSynchDirty();
-		GetInventory().UnlockInventory(HIDE_INV_FROM_SCRIPT);
-		GetGame().GetCallQueue( CALL_CATEGORY_GAMEPLAY ).CallLater( Close, 600000, false );
-		if (GetGame().IsServer() && Expansion_CanUseVirtualStorage(true))
-			Expansion_RestoreContents();
-	}
-
-	void Close()
-	{
-		m_IsOpened = false;
-		SoundSynchRemote();
-		SetSynchDirty();
-		GetInventory().LockInventory(HIDE_INV_FROM_SCRIPT);
-		if (GetGame().IsServer() && Expansion_CanUseVirtualStorage())
-			Expansion_StoreContents();
-	}
-	
-	bool IsOpenable()
-	{
-		return m_IsOpenable;
-	}
-	
-	override bool IsOpen()
-	{
-		return m_IsOpened;
-	}
-	
-	override void OnVariablesSynchronized()
-	{
-		super.OnVariablesSynchronized();
-		
-		if ( m_IsOpened != m_IsOpenedLocal )
-		{		
-			if ( IsOpen() && IsSoundSynchRemote() && !IsBeingPlaced() )
-			{
-				SoundOpenPlay();
-			}
-			
-			if ( !IsOpen() && IsSoundSynchRemote() && !IsBeingPlaced() )
-			{
-				SoundClosePlay();
-			}	
-			m_IsOpenedLocal = m_IsOpened;
-		}
-		
-	}
-	
-	override void OnStoreSave( ParamsWriteContext ctx )
-	{   
-		super.OnStoreSave( ctx );		
-		ctx.Write( m_IsOpened );
-	}
-	
-	override bool OnStoreLoad( ParamsReadContext ctx, int version )
-	{
-		if ( !super.OnStoreLoad( ctx, version ) )
-			return false;
-		
-		if (!ctx.Read( m_IsOpened ) )
-			return false;
-		
-		if ( !m_IsOpenable )
-			return true;
-
-		if ( m_IsOpened )
-			Open();
-		else
-			Close();
-		
-		return true;
-	}
-	
-	override void AfterStoreLoad()
-	{	
-		super.AfterStoreLoad();
-
-		if ( IsOpenable() )
+        EntityAI parent = GetHierarchyParent();
+		if( parent && parent.IsPlayer() )
 		{
-			GetGame().GetCallQueue( CALL_CATEGORY_GAMEPLAY ).CallLater( Close, 5000, false );
+            PlayerBase player = PlayerBase.Cast(parent);
+			if (player && player.GetItemInHands() == this)
+			{
+				return false;
+			}
 		}
-	}
-	
-	void SoundOpenPlay()
-	{
-	}
-	
-	void SoundClosePlay()
-	{
-	}
-	
-	override bool IsNonExpansionOpenable()
-	{
-		return true;
-	}
-	
-	override void SetActions()
-	{
-		super.SetActions();
-        AddAction(ActionMMGCloseAndOpen);
-	}
+		return super.CanReceiveItemIntoCargo(item);
+	};
 };
-modded class Barrel_ColorBase
+class MassiveMod_GunWall: DeployableContainer_Base
+{
+	void MassiveMod_GunWall()
+	{
+		m_HalfExtents = Vector(0.15,0.25,0.4);
+	}
+    override bool CanPutIntoHands( EntityAI parent )
+    {
+        if ( !IsEmpty() )
+        {
+            return false; 
+        }
+		if ( !Expansion_HasEntityStorage() )
+        {
+            return true;
+        }
+        return false;
+    }
+    override bool CanPutInCargo( EntityAI parent )
+    {
+        if ( !IsEmpty() )
+        {
+            return false;
+        }
+		if ( !Expansion_HasEntityStorage() )
+        {
+           return true;
+        }
+        return false;
+    }
+	bool CanPutInInventory (EntityAI parent)
+    {
+        return CanPutIntoHands(parent);
+    }
+    override bool CanReceiveItemIntoCargo(EntityAI item)
+	{
+        EntityAI parent = GetHierarchyParent();
+		if( parent && parent.IsPlayer() )
+		{
+            PlayerBase player = PlayerBase.Cast(parent);
+			if (player && player.GetItemInHands() == this)
+			{
+				return false;
+			}
+		}
+		return super.CanReceiveItemIntoCargo(item);
+	};
+};
+modded class Container_Base
 {
 	override void Open()
 	{
 		super.Open();
-		GetGame().GetCallQueue( CALL_CATEGORY_GAMEPLAY ).CallLater( Close, 600000, false );
-		if (GetGame().IsServer() && Expansion_CanUseVirtualStorage(true))
-			Expansion_RestoreContents();
 	}
+	
+	void DelayedClose()
+    {
+        if (IsOpen() && !IsEmpty())
+        {
+            Close();
+        }
+		else Print("[MASSDEBUG] DelayedClose Stopped Item is Empty");
+    }
+	
+	void ScheduleDelayedClose(int delay)
+    {
+        GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(DelayedClose, delay, false);
+    }
 
 	override void Close()
 	{
-		if (GetGame().IsServer() && Expansion_CanUseVirtualStorage())
-			Expansion_StoreContents();
 
 		super.Close();
 	}
-
-	override bool IsNonExpansionOpenable()
+	
+	override void AfterStoreLoad()
+    {    
+        super.AfterStoreLoad();
+		if (IsOpen() && !IsEmpty())
+		{
+			GetGame().GetCallQueue( CALL_CATEGORY_SYSTEM ).CallLater( Close, 5000, false );
+		}
+		else Print("[MASSDEBUG] AfterStoreLoad DelayedClose Stopped Item is Empty");
+    }
+}
+modded class ExpansionActionRestoreContents
+{
+	void ExpansionActionRestoreContents()
 	{
+		m_Text = "#Open";
+	}
+
+	override bool ActionCondition( PlayerBase player, ActionTarget target, ItemBase item )
+	{
+		Container_Base container;
+		if (!Class.CastTo(container, target.GetParentOrObject()))
+			return false;
+
+		//! Disallow restore contents action on openable containers if closed (useful for debugging if automatic restore on open failed)
+		if ((container.ExpansionIsOpenable() || container.IsNonExpansionOpenable()) && !container.IsOpen())
+			return false;
+
+		if (!container.Expansion_HasEntityStorage() || !container.Expansion_IsEmptyIgnoringLockedSlots())
+			return false;
+
 		return true;
 	}
+	
+	override void OnStartServer( ActionData action_data )
+	{
+		Container_Base container;
+
+		if (!Class.CastTo(container, action_data.m_Target.GetParentOrObject()))
+			return;
+
+		if (container.Expansion_RestoreContents(action_data.m_Player))
+		{
+			// Restoration was successful, call DelayedClose on the container itself
+			container.ScheduleDelayedClose(300000); // Schedule the delayed close
+
+		}
+		else
+		{
+			ExpansionNotification("STR_EXPANSION_ERROR_TITLE", "Could not restore contents from virtual storage").Error(action_data.m_Player.GetIdentity());
+		}
+	}
 }
+
+modded class ExpansionActionStoreContents
+{
+    void ExpansionActionStoreContents()
+    {
+        m_Text = "#Close";
+    }
+};
