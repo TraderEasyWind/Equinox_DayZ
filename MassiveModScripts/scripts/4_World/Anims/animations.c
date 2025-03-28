@@ -7,6 +7,9 @@ modded class ModItemRegisterCallbacks
 		pType.AddItemInHandsProfileIK("MassiveMod_WoodenCrateX2", "dz/anims/workspaces/player/player_main/player_main_heavy.asi", pBehavior, 		"dz/anims/anm/player/ik/heavy/wooden_crate.anm");
         pType.AddItemInHandsProfileIK("MassiveMod_WoodenCrateX4", "dz/anims/workspaces/player/player_main/player_main_heavy.asi", pBehavior, 		"dz/anims/anm/player/ik/heavy/wooden_crate.anm");
 		pType.AddItemInHandsProfileIK("MassiveModCrate_Base", "dz/anims/workspaces/player/player_main/player_main_heavy.asi", pBehavior, 		"dz/anims/anm/player/ik/heavy/wooden_crate.anm");
+		pType.AddItemInHandsProfileIK("MassiveMod_LargeWoodenCrate", "dz/anims/workspaces/player/player_main/player_main_heavy.asi", pBehavior, 		"dz/anims/anm/player/ik/heavy/wooden_crate.anm");
+		pType.AddItemInHandsProfileIK("MassiveMod_GunWall", "dz/anims/workspaces/player/player_main/player_main_heavy.asi", pBehavior, 		"dz/anims/anm/player/ik/heavy/wooden_crate.anm");
+		pType.AddItemInHandsProfileIK("MassiveMod_EquipmentLocker", "dz/anims/workspaces/player/player_main/player_main_heavy.asi", pBehavior, 		"dz/anims/anm/player/ik/heavy/wooden_crate.anm");
 	}
 	
 	override void RegisterOneHanded(DayZPlayerType pType, DayzPlayerItemBehaviorCfg pBehavior)
