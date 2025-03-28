@@ -275,3 +275,79 @@ class CfgVehicles
 		itemIsOpenable=1;
 	};
 };
+class CfgNonAIVehicles
+{
+	class ProxyAttachment;
+	class ProxyShoulder1: ProxyAttachment
+	{
+		scope=2;
+		inventorySlot[]+=
+		{
+			"Shoulder1"
+		};
+		model="MassiveMod\Gear\Containers\Data\Proxy\Weapon0.p3d";
+	};
+	class ProxyShoulder2: ProxyAttachment
+	{
+		scope=2;
+		inventorySlot[]+=
+		{
+			"Shoulder2"
+		};
+		model="MassiveMod\Gear\Containers\Data\Proxy\Weapon1.p3d";
+	};
+	class ProxyShoulder3: ProxyAttachment
+	{
+		scope=2;
+		inventorySlot[]+=
+		{
+			"Shoulder3"
+		};
+		model="MassiveMod\Gear\Containers\Data\Proxy\Weapon2.p3d";
+	};
+	class ProxyShoulder4: ProxyAttachment
+	{
+		scope=2;
+		inventorySlot[]+=
+		{
+			"Shoulder4"
+		};
+		model="MassiveMod\Gear\Containers\Data\Proxy\Weapon3.p3d";
+	};
+	class ProxyShoulder5: ProxyAttachment
+	{
+		scope=2;
+		inventorySlot[]+=
+		{
+			"Shoulder5"
+		};
+		model="MassiveMod\Gear\Containers\Data\Proxy\Weapon4.p3d";
+	};
+	class ProxyShoulder6: ProxyAttachment
+	{
+		scope=2;
+		inventorySlot[]+=
+		{
+			"Shoulder6"
+		};
+		model="MassiveMod\Gear\Containers\Data\Proxy\Weapon5.p3d";
+	};
+	class ProxyShoulder7: ProxyAttachment
+	{
+		scope=2;
+		inventorySlot[]+=
+		{
+			"Shoulder7"
+		};
+		model="MassiveMod\Gear\Containers\Data\Proxy\Weapon6.p3d";
+	};
+	class ProxyShoulder8: ProxyAttachment
+	{
+		scope=2;
+		inventorySlot[]+=
+		{
+			"Shoulder8"
+		};
+		model="MassiveMod\Gear\Containers\Data\Proxy\Weapon7.p3d";
+	};
+};
