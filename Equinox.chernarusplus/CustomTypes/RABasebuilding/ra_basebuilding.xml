@@ -1,15 +1,16 @@
 <types>
 	<type name="RA_Cinderblock">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>1</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Industrial"/>
+		<usage name="Unique"/>
     </type
 	<type name="RA_ClawHammer_Yellow">
         <nominal>20</nominal>
@@ -36,18 +37,6 @@
         <category name="tools"/>
         <usage name="Industrial"/>
     </type>
-	<type name="RA_CodeLock">
-        <nominal>50</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>30</min>
-        <quantmin>1</quantmin>
-        <quantmax>100</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <usage name="Industrial"/>
-    </type
 	<type name="BaseBuilding_WindowBoards">
 		<lifetime>3628800</lifetime>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
