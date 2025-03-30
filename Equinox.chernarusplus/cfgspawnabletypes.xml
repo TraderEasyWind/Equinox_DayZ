@@ -1192,7 +1192,7 @@
 	<type name="ZmbM_NBC_Grey">
 		<cargo preset="ContaminatedCargo" />
 		<cargo chance="0.00002">
-			<item name="MassiveMod_AmmunitionsSupplyCache" chance="0.50" />
+			<item name="MassiveMod_WeaponSuppliesKey" chance="0.50" />
 			<item name="MassiveMod_MunitionsSuppliesKey" chance="0.50" />
 		</cargo>
 		<cargo chance="0.03">
@@ -1208,7 +1208,7 @@
 	<!--ARMY-->
 	<type name="ZmbM_PatrolNormal_Autumn">
 		<cargo chance="0.00002">
-			<item name="MassiveMod_AmmunitionsSupplyCache" chance="0.50" />
+			<item name="MassiveMod_WeaponSuppliesKey" chance="0.50" />
 			<item name="MassiveMod_MunitionsSuppliesKey" chance="0.50" />
 		</cargo>
 		<cargo preset="foodArmy" />
@@ -1221,7 +1221,7 @@
 	</type>
 	<type name="ZmbM_PatrolNormal_Flat">
 		<cargo chance="0.00002">
-			<item name="MassiveMod_AmmunitionsSupplyCache" chance="0.50" />
+			<item name="MassiveMod_WeaponSuppliesKey" chance="0.50" />
 			<item name="MassiveMod_MunitionsSuppliesKey" chance="0.50" />
 		</cargo>
 		<cargo preset="foodArmy" />
@@ -1234,7 +1234,7 @@
 	</type>
 	<type name="ZmbM_PatrolNormal_PautRev">
 		<cargo chance="0.00002">
-			<item name="MassiveMod_AmmunitionsSupplyCache" chance="0.50" />
+			<item name="MassiveMod_WeaponSuppliesKey" chance="0.50" />
 			<item name="MassiveMod_MunitionsSuppliesKey" chance="0.50" />
 		</cargo>
 		<cargo preset="foodArmy" />
@@ -1247,7 +1247,7 @@
 	</type>
 	<type name="ZmbM_PatrolNormal_Summer">
 		<cargo chance="0.00002">
-			<item name="MassiveMod_AmmunitionsSupplyCache" chance="0.50" />
+			<item name="MassiveMod_WeaponSuppliesKey" chance="0.50" />
 			<item name="MassiveMod_MunitionsSuppliesKey" chance="0.50" />
 		</cargo>
 		<cargo preset="foodArmy" />
@@ -1260,7 +1260,7 @@
 	</type>
 	<type name="ZmbM_SoldierNormal">
 		<cargo chance="0.00002">
-			<item name="MassiveMod_AmmunitionsSupplyCache" chance="0.50" />
+			<item name="MassiveMod_WeaponSuppliesKey" chance="0.50" />
 			<item name="MassiveMod_MunitionsSuppliesKey" chance="0.50" />
 		</cargo>
 		<cargo preset="foodArmy" />
@@ -1273,7 +1273,7 @@
 	</type>
 	<type name="ZmbM_usSoldier_Officer_Desert">
 		<cargo chance="0.00002">
-			<item name="MassiveMod_AmmunitionsSupplyCache" chance="0.50" />
+			<item name="MassiveMod_WeaponSuppliesKey" chance="0.50" />
 			<item name="MassiveMod_MunitionsSuppliesKey" chance="0.50" />
 		</cargo>
 		<cargo preset="foodArmy" />		
@@ -1283,7 +1283,7 @@
 	</type>
 	<type name="ZmbM_usSoldier_Heavy_Woodland">
 		<cargo chance="0.00002">
-			<item name="MassiveMod_AmmunitionsSupplyCache" chance="0.50" />
+			<item name="MassiveMod_WeaponSuppliesKey" chance="0.50" />
 			<item name="MassiveMod_MunitionsSuppliesKey" chance="0.50" />
 		</cargo>
 		<cargo preset="foodArmy" />	
