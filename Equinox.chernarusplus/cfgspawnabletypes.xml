@@ -1191,6 +1191,10 @@
 	<!--NBC-->
 	<type name="ZmbM_NBC_Grey">
 		<cargo preset="ContaminatedCargo" />
+		<cargo chance="0.00002">
+			<item name="MassiveMod_AmmunitionsSupplyCache" chance="0.50" />
+			<item name="MassiveMod_MunitionsSuppliesKey" chance="0.50" />
+		</cargo>
 		<cargo chance="0.03">
 			<item name="AntiChemInjector" chance="1.0" />
 		</cargo>
@@ -1203,6 +1207,10 @@
 	</type>
 	<!--ARMY-->
 	<type name="ZmbM_PatrolNormal_Autumn">
+		<cargo chance="0.00002">
+			<item name="MassiveMod_AmmunitionsSupplyCache" chance="0.50" />
+			<item name="MassiveMod_MunitionsSuppliesKey" chance="0.50" />
+		</cargo>
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />
 		<cargo preset="Rares" />
@@ -1212,6 +1220,10 @@
 		<attachments preset="vestsArmy" />
 	</type>
 	<type name="ZmbM_PatrolNormal_Flat">
+		<cargo chance="0.00002">
+			<item name="MassiveMod_AmmunitionsSupplyCache" chance="0.50" />
+			<item name="MassiveMod_MunitionsSuppliesKey" chance="0.50" />
+		</cargo>
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />
 		<cargo preset="Rares" />
@@ -1221,6 +1233,10 @@
 		<attachments preset="vestsArmy" />
 	</type>
 	<type name="ZmbM_PatrolNormal_PautRev">
+		<cargo chance="0.00002">
+			<item name="MassiveMod_AmmunitionsSupplyCache" chance="0.50" />
+			<item name="MassiveMod_MunitionsSuppliesKey" chance="0.50" />
+		</cargo>
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />
 		<cargo preset="Rares" />
@@ -1230,6 +1246,10 @@
 		<attachments preset="vestsArmy" />
 	</type>
 	<type name="ZmbM_PatrolNormal_Summer">
+		<cargo chance="0.00002">
+			<item name="MassiveMod_AmmunitionsSupplyCache" chance="0.50" />
+			<item name="MassiveMod_MunitionsSuppliesKey" chance="0.50" />
+		</cargo>
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />
 		<cargo preset="Rares" />
@@ -1239,6 +1259,10 @@
 		<attachments preset="vestsArmy" />
 	</type>
 	<type name="ZmbM_SoldierNormal">
+		<cargo chance="0.00002">
+			<item name="MassiveMod_AmmunitionsSupplyCache" chance="0.50" />
+			<item name="MassiveMod_MunitionsSuppliesKey" chance="0.50" />
+		</cargo>
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />
 		<cargo preset="Rares" />
@@ -1248,18 +1272,25 @@
 		<attachments preset="vestsArmy" />
 	</type>
 	<type name="ZmbM_usSoldier_Officer_Desert">
+		<cargo chance="0.00002">
+			<item name="MassiveMod_AmmunitionsSupplyCache" chance="0.50" />
+			<item name="MassiveMod_MunitionsSuppliesKey" chance="0.50" />
+		</cargo>
 		<cargo preset="foodArmy" />		
 		<cargo preset="Rares" />
 		<attachments preset="headtorches" />
 		<attachments preset="OfficerHatArmy" />
 	</type>
 	<type name="ZmbM_usSoldier_Heavy_Woodland">
+		<cargo chance="0.00002">
+			<item name="MassiveMod_AmmunitionsSupplyCache" chance="0.50" />
+			<item name="MassiveMod_MunitionsSuppliesKey" chance="0.50" />
+		</cargo>
 		<cargo preset="foodArmy" />	
         <cargo preset="Rares" />		
 		<attachments preset="HeavyArmorArmy" />
 		<attachments preset="HeavyHelmetArmy" />
 	</type>
-	
 	<!--City-->
 	<type name="ZmbF_Clerk_Normal_Blue">
 		<cargo preset="foodCity" />
@@ -1768,6 +1799,9 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbF_MechanicNormal_Beige">
+		<cargo chance="0.00002">
+			<item name="MassiveMod_ConstructionSuppliesKey" chance="1.00" />
+		</cargo>
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<attachments preset="glassesVillage" />
@@ -1775,6 +1809,9 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbF_MechanicNormal_Green">
+		<cargo chance="0.00002">
+			<item name="MassiveMod_ConstructionSuppliesKey" chance="1.00" />
+		</cargo>
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<cargo preset="Rares" />
@@ -1783,6 +1820,9 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbF_MechanicNormal_Grey">
+		<cargo chance="0.00002">
+			<item name="MassiveMod_ConstructionSuppliesKey" chance="1.00" />
+		</cargo>
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<cargo preset="Rares" />
@@ -1791,6 +1831,9 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbF_MechanicNormal_Orange">
+		<cargo chance="0.00002">
+			<item name="MassiveMod_ConstructionSuppliesKey" chance="1.00" />
+		</cargo>
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<cargo preset="Rares" />
@@ -1799,6 +1842,9 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_ConstrWorkerNormal_Beige">
+		<cargo chance="0.00002">
+			<item name="MassiveMod_ConstructionSuppliesKey" chance="1.00" />
+		</cargo>
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<cargo preset="Rares" />
@@ -1807,6 +1853,9 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_ConstrWorkerNormal_Black">
+		<cargo chance="0.00002">
+			<item name="MassiveMod_ConstructionSuppliesKey" chance="1.00" />
+		</cargo>
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<cargo preset="Rares" />
@@ -1815,6 +1864,9 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_ConstrWorkerNormal_Green">
+		<cargo chance="0.00002">
+			<item name="MassiveMod_ConstructionSuppliesKey" chance="1.00" />
+		</cargo>
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<cargo preset="Rares" />
@@ -1823,6 +1875,9 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_ConstrWorkerNormal_Grey">
+		<cargo chance="0.00002">
+			<item name="MassiveMod_ConstructionSuppliesKey" chance="1.00" />
+		</cargo>
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<cargo preset="Rares" />
@@ -1831,6 +1886,9 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_HandymanNormal_Beige">
+		<cargo chance="0.00002">
+			<item name="MassiveMod_ConstructionSuppliesKey" chance="1.00" />
+		</cargo>
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<cargo preset="Rares" />
@@ -1839,6 +1897,9 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_HandymanNormal_Blue">
+		<cargo chance="0.00002">
+			<item name="MassiveMod_ConstructionSuppliesKey" chance="1.00" />
+		</cargo>
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<cargo preset="Rares" />
@@ -1847,6 +1908,9 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_HandymanNormal_Green">
+		<cargo chance="0.00002">
+			<item name="MassiveMod_ConstructionSuppliesKey" chance="1.00" />
+		</cargo>
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<cargo preset="Rares" />
@@ -1855,6 +1919,9 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_HandymanNormal_Grey">
+		<cargo chance="0.00002">
+			<item name="MassiveMod_ConstructionSuppliesKey" chance="1.00" />
+		</cargo>
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<cargo preset="Rares" />
@@ -1863,6 +1930,9 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_HandymanNormal_White">
+		<cargo chance="0.00002">
+			<item name="MassiveMod_ConstructionSuppliesKey" chance="1.00" />
+		</cargo>
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<cargo preset="Rares" />
@@ -1871,6 +1941,9 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_HeavyIndustryWorker">
+		<cargo chance="0.00002">
+			<item name="MassiveMod_ConstructionSuppliesKey" chance="1.00" />
+		</cargo>
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<cargo preset="Rares" />
@@ -1879,6 +1952,9 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_MechanicSkinny_Blue">
+		<cargo chance="0.00002">
+			<item name="MassiveMod_ConstructionSuppliesKey" chance="1.00" />
+		</cargo>
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<cargo preset="Rares" />
@@ -1887,6 +1963,9 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_MechanicSkinny_Green">
+		<cargo chance="0.00002">
+			<item name="MassiveMod_ConstructionSuppliesKey" chance="1.00" />
+		</cargo>
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<cargo preset="Rares" />
@@ -1895,6 +1974,9 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_MechanicSkinny_Grey">
+		<cargo chance="0.00002">
+			<item name="MassiveMod_ConstructionSuppliesKey" chance="1.00" />
+		</cargo>
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<cargo preset="Rares" />
@@ -1903,6 +1985,9 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_MechanicSkinny_Red">
+		<cargo chance="0.00002">
+			<item name="MassiveMod_ConstructionSuppliesKey" chance="1.00" />
+		</cargo>
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<cargo preset="Rares" />
@@ -1950,23 +2035,38 @@
 	</type>
 	<!-- Medic -->
 	<type name="ZmbF_DoctorSkinny">
+		<cargo chance="0.00002">
+			<item name="MassiveMod_MedicalSuppliesKey" chance="1.00" />
+		</cargo>
 		<cargo preset="toolsMedic" />
 		<cargo preset="Rares" />
 		<attachments preset="hatsMedic" />
 	</type>
 	<type name="ZmbF_NurseFat">
+		<cargo chance="0.00002">
+			<item name="MassiveMod_MedicalSuppliesKey" chance="1.00" />
+		</cargo>
 	<cargo preset="Rares" />
 		<cargo preset="toolsMedic" />
 	</type>
 	<type name="ZmbF_ParamedicNormal_Blue">
+		<cargo chance="0.00002">
+			<item name="MassiveMod_MedicalSuppliesKey" chance="1.00" />
+		</cargo>
 		<cargo preset="toolsMedic" />
 		<cargo preset="Rares" />
 	</type>
 	<type name="ZmbF_ParamedicNormal_Green">
+		<cargo chance="0.00002">
+			<item name="MassiveMod_MedicalSuppliesKey" chance="1.00" />
+		</cargo>
 		<cargo preset="toolsMedic" />
 		<cargo preset="Rares" />
 	</type>
 	<type name="ZmbF_ParamedicNormal_Red">
+		<cargo chance="0.00002">
+			<item name="MassiveMod_MedicalSuppliesKey" chance="1.00" />
+		</cargo>
 		<cargo preset="toolsMedic" />
 		<cargo preset="Rares" />
 	</type>
@@ -1975,27 +2075,45 @@
 		<cargo preset="Rares" />
 	</type>
 	<type name="ZmbM_DoctorFat">
+		<cargo chance="0.00002">
+			<item name="MassiveMod_MedicalSuppliesKey" chance="1.00" />
+		</cargo>
 		<cargo preset="toolsMedic" />
 		<attachments preset="hatsMedic" />
 		<cargo preset="Rares" />
 	</type>
 	<type name="ZmbM_ParamedicNormal_Black">
+		<cargo chance="0.00002">
+			<item name="MassiveMod_MedicalSuppliesKey" chance="1.00" />
+		</cargo>
 		<cargo preset="toolsMedic" />
 		<cargo preset="Rares" />
 	</type>
 	<type name="ZmbM_ParamedicNormal_Blue">
+		<cargo chance="0.00002">
+			<item name="MassiveMod_MedicalSuppliesKey" chance="1.00" />
+		</cargo>
 		<cargo preset="toolsMedic" />
 		<cargo preset="Rares" />
 	</type>
 	<type name="ZmbM_ParamedicNormal_Green">
+		<cargo chance="0.00002">
+			<item name="MassiveMod_MedicalSuppliesKey" chance="1.00" />
+		</cargo>
 		<cargo preset="toolsMedic" />
 		<cargo preset="Rares" />
 	</type>
 	<type name="ZmbM_ParamedicNormal_Red">
+		<cargo chance="0.00002">
+			<item name="MassiveMod_MedicalSuppliesKey" chance="1.00" />
+		</cargo>
 		<cargo preset="toolsMedic" />
 		<cargo preset="Rares" />
 	</type>
 	<type name="ZmbM_PatientSkinny">
+		<cargo chance="0.00002">
+			<item name="MassiveMod_MedicalSuppliesKey" chance="1.00" />
+		</cargo>
 		<cargo preset="toolsMedic" />
 		<cargo preset="Rares" />
 	</type>

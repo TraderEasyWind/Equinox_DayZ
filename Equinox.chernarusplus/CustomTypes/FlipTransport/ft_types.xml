@@ -1,4 +1,5 @@
-<type name="HydraulicJack">
+<types>
+	<type name="HydraulicJack">
 	<nominal>30</nominal>
 	<lifetime>28800</lifetime>
 	<restock>0</restock>
@@ -9,9 +10,8 @@
 	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 	<category name="vehiclesparts"/>
 	<tag name="floor"/>
-</type>
-
-<type name="TrafficCone">
+	</type>
+	<type name="TrafficCone">
 	<nominal>15</nominal>
 	<lifetime>28800</lifetime>
 	<restock>0</restock>
@@ -22,4 +22,5 @@
 	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 	<category name="vehiclesparts"/>
 	<tag name="floor"/>
-</type>
+	</type>
+</types>

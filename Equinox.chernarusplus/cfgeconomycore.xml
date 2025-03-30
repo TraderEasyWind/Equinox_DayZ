@@ -125,10 +125,6 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	<ce folder="CustomTypes/A2Ghillies">
 		<file name="A2Ghillies_Types.xml" type="types" />
 	</ce>
-	<ce folder="CustomTypes/AWS">
-		<file name="AWS_Types.xml" type="types" />
-		<file name="Mounts&SightsPatch_Types.xml" type="types" />
-	</ce>
 	<ce folder="CustomTypes/MoreCars">
 		<file name="MoreCars_Types.xml" type="types" />
 		<file name="MoreCars_CfgSpawnableTypes.xml" type="spawnabletypes" />
@@ -136,5 +132,9 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	</ce>
 	<ce folder="CustomTypes/EnhancedFlags">
 		<file name="Enhanced_flags_Types.xml" type="types" />
+	</ce>
+	<ce folder="CustomTypes/AWS">
+		<file name="AWS_Types.xml" type="types" />
+		<file name="MountsSightsPatch_Types.xml" type="types" />
 	</ce>
 </economycore>

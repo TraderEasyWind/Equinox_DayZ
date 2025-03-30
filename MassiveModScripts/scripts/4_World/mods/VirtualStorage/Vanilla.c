@@ -168,16 +168,6 @@ modded class Container_Base
 
 		super.Close();
 	}
-	
-	override void AfterStoreLoad()
-    {    
-        super.AfterStoreLoad();
-		if (IsOpen() && !IsEmpty())
-		{
-			GetGame().GetCallQueue( CALL_CATEGORY_SYSTEM ).CallLater( Close, 5000, false );
-		}
-		else Print("[MASSDEBUG] AfterStoreLoad DelayedClose Stopped Item is Empty");
-    }
 }
 modded class ExpansionActionRestoreContents
 {

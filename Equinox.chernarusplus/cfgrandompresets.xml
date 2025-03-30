@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <randompresets>
         <cargo chance="0.0005" name="Rares">
-				<item name="MassiveMod_Tier5Key" chance="1.00" />
+				<!-- <item name="MassiveMod_Tier5Key" chance="1.00" /> -->
 		</cargo>
 		<cargo chance="0.05" name="foodHermit">
 				<item name="TunaCan" chance="0.11" />
@@ -104,7 +104,7 @@
 				<item name="VitaminBottle" chance="0.05" />
 				<item name="TetracyclineAntibiotics" chance="0.1" />
 				<item name="Thermometer" chance="0.05" />
-				<item name="MassiveMod_MedicalSuppliesKey" chance="0.000667" />
+			<!--<item name="MassiveMod_MedicalSuppliesKey" chance="0.000667" /> -->
 		</cargo>
 		<cargo chance="0.25" name="toolsPolice">
 				<item name="Battery9V" chance="0.1" />
@@ -139,7 +139,7 @@
 				<item name="Battery9V" chance="0.2" />
 				<item name="Flashlight" chance="0.2" />
 				<item name="Nail" chance="0.2" />
-				<item name="MassiveMod_ConstructionSuppliesKey" chance="0.01" />
+		<!--	<item name="MassiveMod_ConstructionSuppliesKey" chance="0.01" /> -->
 		</cargo>
 		<cargo chance="0.05" name="ammoCivil">
 				<item name="Ammo_380" chance="0.22" />
@@ -172,8 +172,8 @@
 				<item name="AmmoBox_556x45_20Rnd" chance="0.05" />
 				<item name="Ammo_545x39" chance="0.2" />
 				<item name="AmmoBox_545x39_20Rnd" chance="0.05" />
-				<item name="MassiveMod_MunitionsSuppliesKey" chance="0.002" />
-				<item name="MassiveMod_WeaponSuppliesKey" chance="0.002" />
+		<!--	<item name="MassiveMod_MunitionsSuppliesKey" chance="0.002" />
+				<item name="MassiveMod_WeaponSuppliesKey" chance="0.002" /> -->
 		</cargo>
 		<cargo chance="0.1" name="mixVillage">
 				<item name="DuctTape" chance="0.07" />
