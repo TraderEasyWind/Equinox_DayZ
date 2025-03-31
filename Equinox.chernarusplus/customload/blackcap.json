@@ -91,13 +91,12 @@
             },
             "simpleChildrenUseDefaultAttributes": false,
             "simpleChildrenTypes": [
-                "Compass",
-                "ChernarusMap",
-                "PersonalRadio",
-                "Battery9V",
-                "Roadflare",
-                "BandageDressing",
-                "TunaCan"
+				"Compass",
+				"ChernarusMap",
+				"Flashlight",
+				"Battery9V",
+				"BandageDressing",
+				"TunaCan"
             ],
             "complexChildrenTypes": []
         }

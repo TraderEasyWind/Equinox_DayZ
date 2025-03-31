@@ -93,11 +93,10 @@
       "simpleChildrenTypes": [
         "Compass",
         "ChernarusMap",
-        "PersonalRadio",
-        "Battery9V",
-        "Roadflare",
-        "BandageDressing",
-		"TunaCan"
+        "Flashlight",
+		"Battery9V",
+		"BandageDressing",
+        "TunaCan"
       ],
       "complexChildrenTypes": []
     }
