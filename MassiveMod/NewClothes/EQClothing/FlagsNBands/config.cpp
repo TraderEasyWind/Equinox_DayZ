@@ -230,15 +230,15 @@ class CfgVehicles
 		color="end";
 		hiddenSelectionsTextures[]=
 		{
-			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\end_flag_3.paa",
-			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\end_flag_3.paa",
-			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\end_flag_3.paa",
-			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\end_flag_3.paa",
-			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\end_flag_3.paa",
-			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\end_flag_3.paa",
-			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\end_flag_3.paa",
-			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\end_flag_3.paa",
-			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\end_flag_3.paa"
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_END2.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_END2.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_END2.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_END2.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_END2.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_END2.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_END2.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_END2.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_END2.paa"
 		};
 	};
 	class Armband_Northern_Republic: Armband_ColorBase
@@ -329,6 +329,24 @@ class CfgVehicles
 			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Jackals_armband.paa",
 			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Jackals_armband.paa",
 			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Jackals_armband.paa"
+		};
+	};
+	class Armband_KJ: Armband_ColorBase
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="Pickle";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_KJ.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_KJ.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_KJ.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_KJ.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_KJ.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_KJ.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_KJ.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_KJ.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_KJ.paa"
 		};
 	};
 	class flag_base;
@@ -501,15 +519,15 @@ class CfgVehicles
 		color="end";
 		hiddenSelectionsTextures[]=
 		{
-			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\end_flag_3.paa",
-			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\end_flag_3.paa",
-			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\end_flag_3.paa",
-			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\end_flag_3.paa",
-			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\end_flag_3.paa",
-			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\end_flag_3.paa",
-			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\end_flag_3.paa",
-			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\end_flag_3.paa",
-			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\end_flag_3.paa"
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_END2.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_END2.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_END2.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_END2.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_END2.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_END2.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_END2.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_END2.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_END2.paa"
 		};
 	};
 	class flag_Northern_Republic: flag_base
@@ -600,6 +618,24 @@ class CfgVehicles
 			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Jackals_flags.paa",
 			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Jackals_flags.paa",
 			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Jackals_flags.paa"
+		};
+	};
+	class flag_KJ: flag_base
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="pickle";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_KJ.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_KJ.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_KJ.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_KJ.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_KJ.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_KJ.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_KJ.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_KJ.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_KJ.paa"
 		};
 	};
 };
