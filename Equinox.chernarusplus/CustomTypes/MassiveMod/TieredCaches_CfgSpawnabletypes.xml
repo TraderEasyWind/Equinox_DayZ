@@ -1115,7 +1115,8 @@
 	<type name="MassiveMod_ConstructionSuppliesCache">
 			<!-- Variety Tools and Resources -->
 			<cargo chance="1.00">
-				<item name="MassiveMod_EquipmentLocker"  chance="1.00" />
+				<item name="MassiveMod_EquipmentLocker"  chance="0.50" />
+				<item name="ExpansionGunrack"  chance="0.50" />
 			</cargo>
 			<cargo chance="1.00">
 				<cargo chance="0.50"> <item name="Plastic_Explosive" /> </cargo>

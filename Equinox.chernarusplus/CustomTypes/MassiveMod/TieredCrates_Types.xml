@@ -24,14 +24,14 @@
 		<usage name="Industrial"/>
     </type>
 	<type name="MassiveMod_ConstructionSuppliesKey">
-       <nominal>0</nominal>
+       <nominal>1</nominal>
         <lifetime>21600</lifetime>
-        <restock>86400</restock>
+        <restock>345600</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>0</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
 		<tag name="shelves"/>
 		<usage name="Industrial"/>
@@ -40,24 +40,24 @@
        <nominal>1</nominal>
         <lifetime>604800</lifetime>
         <restock>86400</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>0</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="containers"/>
 		<tag name="floor"/>
 		<usage name="Medic"/>
     </type>
 	<type name="MassiveMod_MedicalSuppliesKey">
-       <nominal>0</nominal>
+       <nominal>1</nominal>
         <lifetime>21600</lifetime>
-        <restock>7200</restock>
+        <restock>345600</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>0</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
 		<tag name="shelves"/>
 		<usage name="Medic"/>
@@ -70,15 +70,15 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>0</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="containers"/>
 		<tag name="floor"/>
 		<usage name="Military"/>
     </type>
 	<type name="MassiveMod_MunitionsSuppliesKey">
-       <nominal>0</nominal>
+       <nominal>1</nominal>
         <lifetime>21600</lifetime>
-        <restock>7200</restock>
+        <restock>345600</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -102,9 +102,9 @@
 		<value name="Tier4"/>
     </type>
 	<type name="MassiveMod_WeaponSuppliesKey">
-       <nominal>0</nominal>
+       <nominal>1</nominal>
         <lifetime>21600</lifetime>
-        <restock>7200</restock>
+        <restock>345600</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
