@@ -6,7 +6,6 @@ modded class TentBase
 	}
 }
 
-//barrel, seachest, wood crate, etc
 modded class DeployableContainer_Base
 {
     override float GetCostToUpkeep()

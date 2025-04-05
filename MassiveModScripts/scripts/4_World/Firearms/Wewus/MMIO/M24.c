@@ -1,4 +1,4 @@
-class MassM24_Base: CZ527
+modded class MassM24_Base
 {
 	override void EEOnCECreate()
     {
