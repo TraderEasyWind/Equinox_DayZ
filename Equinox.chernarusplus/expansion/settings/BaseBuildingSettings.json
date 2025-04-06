@@ -64,6 +64,12 @@
 		"TerritoryHQ",
 		"Mass_PistolCase",
 		"Mass_THICCWeaponCase",
-		"Mass_WeaponCase"
+		"Mass_WeaponCase",
+		"FirstAidKit",
+		"SmallProtectorCase",
+		"Pot",
+		"FryingPan",
+		"MassTacticalBag",
+		"MassLargeSmersh"
     ]
 }

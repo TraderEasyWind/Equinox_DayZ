@@ -4,6 +4,21 @@ class MassiveMod_EquipmentLocker: DeployableContainer_Base
 	{
 		m_HalfExtents = Vector(0.15,0.25,0.4);
 	}
+	
+	override bool CanReceiveAttachment( EntityAI attachment, int slotId )
+	{
+		EntityAI parent = GetHierarchyParent();
+		if( parent && parent.IsPlayer() )
+		{
+            PlayerBase player = PlayerBase.Cast(parent);
+			if (player && player.GetItemInHands() == this)
+			{
+				return false;
+			}
+		}
+		return super.CanReceiveAttachment(attachment, slotId);
+	};
+	
     override bool CanPutIntoHands( EntityAI parent )
     {
         if ( !IsEmpty() )
@@ -100,6 +115,19 @@ class MassiveMod_GunWall: DeployableContainer_Base
 	{
 		m_HalfExtents = Vector(0.15,0.25,0.4);
 	}
+	override bool CanReceiveAttachment( EntityAI attachment, int slotId )
+	{
+		EntityAI parent = GetHierarchyParent();
+		if( parent && parent.IsPlayer() )
+		{
+            PlayerBase player = PlayerBase.Cast(parent);
+			if (player && player.GetItemInHands() == this)
+			{
+				return false;
+			}
+		}
+		return super.CanReceiveAttachment(attachment, slotId);
+	};
     override bool CanPutIntoHands( EntityAI parent )
     {
         if ( !IsEmpty() )
@@ -144,87 +172,283 @@ class MassiveMod_GunWall: DeployableContainer_Base
 };
 modded class Barrel_ColorBase
 {
+	//override void Open()
+    //{
+    //    super.Open();
+    //}
+	//
+    //void DelayedClose()
+    //{
+    //    if (GetGame().IsServer())
+    //    {
+	//		EntityAI parent = this.GetHierarchyParent();
+	//		if (parent)
+	//		{
+	//			Print("[MASSDEBUG] DelayedClose Stopped: Container is inside (" + parent.GetType() + ") — auto-close canceled.");
+	//			return; 
+	//		}
+    //        if (IsOpen() && !IsEmpty())
+    //        {
+    //            if (IsPlayerNear())
+    //            {
+    //                Print("[MASSDEBUG] DelayedClose Interrupted: Player Nearby.");
+    //                ScheduleDelayedClose(600000);
+    //                return;
+    //            }
+    //            Close();
+    //        }
+    //        else
+    //        {
+    //            Print("[MASSDEBUG] DelayedClose Stopped: Item is Closed or Empty");
+    //        }
+    //    }
+    //}
+	//
+    //void ScheduleDelayedClose(int delay)
+    //{
+    //    if (GetGame().IsServer())
+    //    {
+	//		EntityAI parent = this.GetHierarchyParent();
+	//		if (parent)
+	//		{
+	//			Print("[MASSDEBUG] ScheduleDelayedClose Stopped: Container is inside (" + parent.GetType() + ") — auto-close canceled.");
+	//			return; 
+	//		}
+    //        GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).Remove(DelayedClose);
+    //        GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(DelayedClose, delay, false);
+    //    }
+    //}
+    //override void Close()
+    //{
+    //    super.Close();
+    //    if (GetGame().IsServer())
+    //    {
+    //        GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).Remove(DelayedClose); 
+    //    }
+    //}
+    //bool IsPlayerNear()
+    //{
+    //    if (GetGame().IsServer())
+    //    {
+    //        array<Man> players = new array<Man>();
+    //        GetGame().GetPlayers(players);
+    //        foreach (Man player : players)
+    //        {
+    //            PlayerBase pb = PlayerBase.Cast(player);
+    //            if (!pb) continue;
+	//
+    //            float distance = vector.Distance(pb.GetPosition(), this.GetPosition());
+    //            if (distance < 2.5)
+    //            {
+    //                return true; 
+    //            }
+    //        }
+    //        return false; 
+    //    }
+    //    return false; 
+    //}
+    //override bool OnStoreLoad(ParamsReadContext ctx, int version)
+    //{
+    //    if (!super.OnStoreLoad(ctx, version))
+    //        return false;
+    //    if (GetGame().IsServer())
+    //    {
+	//		EntityAI parent = this.GetHierarchyParent();
+	//		if (parent)
+	//		{
+	//			Print("[MASSDEBUG] OnStoreLoad Stopped: Container is inside (" + parent.GetType() + ") — auto-close canceled.");
+	//			return true;
+	//		}
+    //        if (IsOpen() && !IsEmpty())
+    //        {
+    //             ScheduleDelayedClose(5000);
+    //             Print("[MASSDEBUG] Auto-close timer scheduled on load.");
+    //        }
+    //    }
+    //    return true;
+    //}
 	override void Open()
-	{
-		super.Open();
-	}
-	
-	override void Close()
-	{
-		super.Close();
-	}
-	
-	void DelayedClose()
-	{
-		if (!GetInventory().IsAttachment())
-        {
-			if (IsOpen() && !IsEmpty())
-			{
-				// Check if the object is in the player's inventory.
-				if (!GetInventory().IsInCargo())  // Add this check
-				{
-					Close();
-				}
-				else
-				{
-					Print("[MASSDEBUG] DelayedClose Stopped: Object is in Inventory.");
-				}
-			}
-            Print("[MASSDEBUG] DelayedClose Stopped: Item is Empty");
-        }
-		else
-		{
-			Print("[MASSDEBUG] DelayedClose Stopped: Object is an Attachment.");
-		}
-	}
-	
-	override void ScheduleDelayedClose(int delay)
     {
+        super.Open();
+    }
+
+    void DelayedClose()
+    {
+        #ifdef SERVER
+		EntityAI parent = this.GetHierarchyParent();
+		if (parent)
+		{
+			Print("[MASSDEBUG] DelayedClose Stopped: Container is inside (" + parent.GetType() + ") — auto-close canceled.");
+			return; 
+		}
+        if (IsOpen() && !IsEmpty())
+        {
+            if (IsPlayerNear())
+            {
+                Print("[MASSDEBUG] DelayedClose Interrupted: Player Nearby.");
+                ScheduleDelayedClose(600000);
+                return;
+            }
+            Close();
+        }
+        else
+        {
+            Print("[MASSDEBUG] DelayedClose Stopped: Item is Closed or Empty");
+        }
+		#endif
+    }
+
+    void ScheduleDelayedClose(int delay)
+    {
+		#ifdef SERVER   
+		EntityAI parent = this.GetHierarchyParent();
+		if (parent)
+		{
+			Print("[MASSDEBUG] ScheduleDelayedClose Stopped: Container is inside (" + parent.GetType() + ") — auto-close canceled.");
+			return; 
+		}
+        GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).Remove(DelayedClose);
         GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(DelayedClose, delay, false);
+        #endif
+    }
+	
+    override void Close()
+    {
+        super.Close();
+        #ifdef SERVER
+        GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).Remove(DelayedClose); 
+		#endif
+    }
+    bool IsPlayerNear()
+    {
+		#ifdef SERVER
+        array<Man> players = new array<Man>();
+        GetGame().GetPlayers(players);
+        foreach (Man player : players)
+        {
+            PlayerBase pb = PlayerBase.Cast(player);
+            if (!pb) continue;
+
+            float distance = vector.Distance(pb.GetPosition(), this.GetPosition());
+            if (distance < 2.5)
+            {
+                return true; 
+            }
+        }
+        return false; 
+		#endif
+    }
+    override bool OnStoreLoad(ParamsReadContext ctx, int version)
+    {
+        if (!super.OnStoreLoad(ctx, version))
+            return false;
+		
+		EntityAI parent = this.GetHierarchyParent();
+		if (parent)
+		{
+			Print("[MASSDEBUG] OnStoreLoad Stopped: Container is inside (" + parent.GetType() + ") — auto-close canceled.");
+			return true;
+		}
+        if (IsOpen() && !IsEmpty())
+        {
+             ScheduleDelayedClose(5000);
+             Print("[MASSDEBUG] Auto-close timer scheduled on load.");
+        }
+        return true;
     }
 };
 modded class Container_Base
 {
-	override void Open()
-	{
-		super.Open();
-	}
-	
-	void DelayedClose()
-	{
-		if (!GetInventory().IsAttachment())
-        {
-			if (IsOpen() && !IsEmpty())
-			{
-				// Check if the object is in the player's inventory.
-				if (!GetInventory().IsInCargo())  // Add this check
-				{
-					Close();
-				}
-				else
-				{
-					Print("[MASSDEBUG] DelayedClose Stopped: Object is in Inventory.");
-				}
-			}
-            Print("[MASSDEBUG] DelayedClose Stopped: Item is Empty");
-        }
-		else
-		{
-			Print("[MASSDEBUG] DelayedClose Stopped: Object is an Attachment.");
-		}
-	}
-	
-	void ScheduleDelayedClose(int delay)
+    override void Open()
     {
-        GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(DelayedClose, delay, false);
+        super.Open();
     }
 
-	override void Close()
-	{
+    void DelayedClose()
+    {
+        #ifdef SERVER
+		EntityAI parent = this.GetHierarchyParent();
+		if (parent)
+		{
+			Print("[MASSDEBUG] DelayedClose Stopped: Container is inside (" + parent.GetType() + ") — auto-close canceled.");
+			return; 
+		}
+        if (IsOpen() && !IsEmpty())
+        {
+            if (IsPlayerNear())
+            {
+                Print("[MASSDEBUG] DelayedClose Interrupted: Player Nearby.");
+                ScheduleDelayedClose(600000);
+                return;
+            }
+            Close();
+        }
+        else
+        {
+            Print("[MASSDEBUG] DelayedClose Stopped: Item is Closed or Empty");
+        }
+		#endif
+    }
 
-		super.Close();
-	}
-}
+    void ScheduleDelayedClose(int delay)
+    {
+		#ifdef SERVER   
+		EntityAI parent = this.GetHierarchyParent();
+		if (parent)
+		{
+			Print("[MASSDEBUG] ScheduleDelayedClose Stopped: Container is inside (" + parent.GetType() + ") — auto-close canceled.");
+			return; 
+		}
+        GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).Remove(DelayedClose);
+        GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(DelayedClose, delay, false);
+        #endif
+    }
+	
+    override void Close()
+    {
+        super.Close();
+        #ifdef SERVER
+        GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).Remove(DelayedClose); 
+		#endif
+    }
+    bool IsPlayerNear()
+    {
+		#ifdef SERVER
+        array<Man> players = new array<Man>();
+        GetGame().GetPlayers(players);
+        foreach (Man player : players)
+        {
+            PlayerBase pb = PlayerBase.Cast(player);
+            if (!pb) continue;
+
+            float distance = vector.Distance(pb.GetPosition(), this.GetPosition());
+            if (distance < 2.5)
+            {
+                return true; 
+            }
+        }
+        return false; 
+		#endif
+    }
+    override bool OnStoreLoad(ParamsReadContext ctx, int version)
+    {
+        if (!super.OnStoreLoad(ctx, version))
+            return false;
+		
+		EntityAI parent = this.GetHierarchyParent();
+		if (parent)
+		{
+			Print("[MASSDEBUG] OnStoreLoad Stopped: Container is inside (" + parent.GetType() + ") — auto-close canceled.");
+			return true;
+		}
+        if (IsOpen() && !IsEmpty())
+        {
+             ScheduleDelayedClose(5000);
+             Print("[MASSDEBUG] Auto-close timer scheduled on load.");
+        }
+        return true;
+    }
+};
 modded class ExpansionActionRestoreContents
 {
 	void ExpansionActionRestoreContents()
