@@ -195,21 +195,21 @@ class CfgVehicles
 						{
 							class Health
 							{
-								damage = 1.0;
+								damage = 0;
 							};
 						};
 						class Projectile
 						{
 							class Health
 							{
-								damage = 0.5;
+								damage = 0;
 							};
 						};
 						class FragGrenade
 						{
 							class Health
 							{
-								damage = 0.0;
+								damage = 0;
 							};
 						};
 					};
@@ -252,7 +252,7 @@ class CfgVehicles
 						{
 							class Health
 							{
-								damage = 0.0015;
+								damage = 0;
 							};
 						};
 						class Projectile
@@ -285,21 +285,21 @@ class CfgVehicles
 						{
 							class Health
 							{
-								damage = 0.5;
+								damage = 0;
 							};
 						};
 						class Projectile
 						{
 							class Health
 							{
-								damage = 0.0;
+								damage = 0;
 							};
 						};
 						class FragGrenade
 						{
 							class Health
 							{
-								damage = 0.0;
+								damage = 0;
 							};
 						};
 					};
@@ -342,21 +342,21 @@ class CfgVehicles
 						{
 							class Health
 							{
-								damage = 0.0015;
+								damage = 0;
 							};
 						};
 						class Projectile
 						{
 							class Health
 							{
-								damage = 0.0;
+								damage = 0;
 							};
 						};
 						class FragGrenade
 						{
 							class Health
 							{
-								damage = 0.0;
+								damage = 0;
 							};
 						};
 					};
@@ -375,21 +375,21 @@ class CfgVehicles
 						{
 							class Health
 							{
-								damage = 0.5;
+								damage = 0;
 							};
 						};
 						class Projectile
 						{
 							class Health
 							{
-								damage = 0.0;
+								damage = 0;
 							};
 						};
 						class FragGrenade
 						{
 							class Health
 							{
-								damage = 0.0;
+								damage = 0;
 							};
 						};
 					};
@@ -432,21 +432,21 @@ class CfgVehicles
 						{
 							class Health
 							{
-								damage = 0.0015;
+								damage = 0;
 							};
 						};
 						class Projectile
 						{
 							class Health
 							{
-								damage = 0.0;
+								damage = 0;
 							};
 						};
 						class FragGrenade
 						{
 							class Health
 							{
-								damage = 0.0;
+								damage = 0;
 							};
 						};
 					};
@@ -465,21 +465,21 @@ class CfgVehicles
 						{
 							class Health
 							{
-								damage = 0.5;
+								damage = 0;
 							};
 						};
 						class Projectile
 						{
 							class Health
 							{
-								damage = 0.0;
+								damage = 0;
 							};
 						};
 						class FragGrenade
 						{
 							class Health
 							{
-								damage = 0.0;
+								damage = 0;
 							};
 						};
 					};

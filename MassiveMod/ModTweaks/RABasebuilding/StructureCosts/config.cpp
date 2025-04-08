@@ -1457,7 +1457,7 @@ class CfgVehicles
 				class Construct
 				{
 					item = "RA_Cinderblock";
-					quantity = 2;
+					quantity = 1;
 				};
 				class Repair
 				{

@@ -1,9 +1,21 @@
 modded class TerritoryHQ
 {
 	
-    override void SetActions()
-	{
-		super.SetActions();
-		AddAction(ActionUpdateTerritory);
-	}
+  
+	override static bool IsWithinTerritoryRange(Man player, vector position)
+    {
+        array<TerritoryHQ> obfv_overlapped_hqs = {};
+        foreach (TerritoryHQ obfv_hq: All_HQs) {
+            if (obfv_hq.IsHologram()) {
+                continue;
+            }
+
+            // player is in the zone
+            if (vector.Distance(position, obfv_hq.GetPosition()) <= obfm_GetRABBTConfig().obfm_GetMinHQDistance()) {
+                return true;
+            }
+        }
+
+        return false;
+    }
 }

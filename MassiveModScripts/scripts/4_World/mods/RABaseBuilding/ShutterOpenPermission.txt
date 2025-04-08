@@ -1,0 +1,36 @@
+modded class ActionToggleOpen
+{
+    override bool ActionCondition(PlayerBase player, ActionTarget target, ItemBase item)
+    {
+        Object targetObject = target.GetObject();
+        BaseBuilding_OpenableBase door = BaseBuilding_OpenableBase.Cast(targetObject);
+
+
+
+        if (!TerritoryHQ.HasPermissionsAtPosition(player, door.GetPosition()))
+        {
+            return false; // Player does not have permission to open the shutter
+        }
+		return super.ActionCondition(player, target, item);
+    }
+
+    override void OnStartServer(ActionData action_data)
+	{
+		Object targetObject = action_data.m_Target.GetObject();
+		BaseBuilding_OpenableBase door = BaseBuilding_OpenableBase.Cast(targetObject);
+	
+		BaseBuilding_ShutterBase shutter = BaseBuilding_ShutterBase.Cast(door);
+		PlayerBase player = PlayerBase.Cast(action_data.m_Player);
+		if (player && !TerritoryHQ.HasPermissionsAtPosition(player, shutter.GetPosition()))
+		{
+			return; // Player does not have permission to open the shutter (server-side)
+		}
+		
+	
+		if (door) // Ensure 'door' is still valid after potential casting failures
+		{
+			door.SetOpened(!door.IsOpen());
+		}
+		super.OnStartServer(action_data);
+	}
+}

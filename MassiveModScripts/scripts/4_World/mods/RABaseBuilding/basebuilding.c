@@ -53,5 +53,7 @@ modded class RA_Blueprint
 		"BaseBuilding_HologramHatchLadder"
 	};
 	#endif
+	
+	
 };
 
