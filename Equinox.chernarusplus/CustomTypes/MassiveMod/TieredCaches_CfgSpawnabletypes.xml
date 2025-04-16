@@ -1200,6 +1200,22 @@
 			<cargo chance="0.50"> <item name="RA_CodeLock" /> </cargo>
 	</type>	
 	<type name="MassiveMod_WeaponSuppliesCache">
+		<cargo chance="0.33">
+			<item name="JD_M249"  chance="0.33" />
+			<item name="MassiveMod_PKM"  chance="0.33" />
+			<item name="JD_RPG"  chance="0.33" />
+		</cargo>
+		<cargo chance="1.00">
+			<item name="SVD"  chance="0.11" />
+			<item name="FAL"  chance="0.11" />
+			<item name="MassM417"  chance="0.11" />
+			<item name="Mass_RugerPrecision"  chance="0.11" />
+			<item name="MassM24"  chance="0.11" />
+			<item name="Mass_SVU"  chance="0.11" />
+			<item name="Mass_M98B"  chance="0.11" />
+			<item name="Mass_M98BShort"  chance="0.11" />
+			<item name="M14"  chance="0.11" />
+		</cargo>
 		<cargo chance="1.00">
 			<item name="MassSVT40"  chance="0.14" />
 			<item name="MassPPSH41"  chance="0.14" />
@@ -1218,22 +1234,6 @@
 			<item name="Mass_RPK74"  chance="0.12" />
 			<item name="Mass_AK9"  chance="0.12" />
 			<item name="Mass_AN94"  chance="0.12" />
-		</cargo>
-		<cargo chance="1.00">
-			<item name="SVD"  chance="0.11" />
-			<item name="FAL"  chance="0.11" />
-			<item name="MassM417"  chance="0.11" />
-			<item name="Mass_RugerPrecision"  chance="0.11" />
-			<item name="MassM24"  chance="0.11" />
-			<item name="Mass_SVU"  chance="0.11" />
-			<item name="Mass_M98B"  chance="0.11" />
-			<item name="Mass_M98BShort"  chance="0.11" />
-			<item name="M14"  chance="0.11" />
-		</cargo>
-		<cargo chance="0.33">
-			<item name="JD_M249"  chance="0.33" />
-			<item name="MassiveMod_PKM"  chance="0.33" />
-			<item name="JD_RPG"  chance="0.33" />
 		</cargo>
 			<cargo chance="0.33"> <item name="AD_ACOG_RMR" /> </cargo>
 			<cargo chance="0.33"> <item name="AD_SpecterDR" /> </cargo>
