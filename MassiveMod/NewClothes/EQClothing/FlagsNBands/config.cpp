@@ -349,6 +349,24 @@ class CfgVehicles
 			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_KJ.paa"
 		};
 	};
+	class Armband_BPirate: Armband_ColorBase
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="BPirate";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_BPirate.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_BPirate.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_BPirate.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_BPirate.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_BPirate.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_BPirate.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_BPirate.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_BPirate.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_BPirate.paa"
+		};
+	};
 	class flag_base;
 	class flag_cmf: flag_base
 	{
@@ -636,6 +654,24 @@ class CfgVehicles
 			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_KJ.paa",
 			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_KJ.paa",
 			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_KJ.paa"
+		};
+	};
+		class flag_BPirate: flag_base
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="BPirate";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_BPirate.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_BPirate.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_BPirate.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_BPirate.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_BPirate.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_BPirate.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_BPirate.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_BPirate.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_BPirate.paa"
 		};
 	};
 };
