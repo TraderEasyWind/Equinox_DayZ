@@ -381,5 +381,12 @@ class CfgVehicles
 		displayName = "Cat Ears Femboy";
 		descriptionShort = "NIPHORIA STOP ASKING FOR CAT EARS! In Femboy style by Striker";
 		hiddenSelectionsTextures[] = {"MassiveMod\NewClothes\EQClothing\misc\data\catears_co_femboyUWU.paa","MassiveMod\NewClothes\EQClothing\misc\data\catears_co_femboyUWU.paa","MassiveMod\NewClothes\EQClothing\misc\data\catears_co_femboyUWU.paa"};
+	};
+	class MassCatEars_ImpRed: MassCatEars
+	{
+		scope = 2;
+		displayName = "Cat Ears Imperium Red UwU";
+		descriptionShort = "NIPHORIA STOP ASKING FOR CAT EARS! In Imperium Red style by Striker";
+		hiddenSelectionsTextures[] = {"MassiveMod\NewClothes\EQClothing\misc\data\catears_co_impRed.paa","MassiveMod\NewClothes\EQClothing\misc\data\catears_co_impRed.paa","MassiveMod\NewClothes\EQClothing\misc\data\catears_co_impRed.paa"};
 	};	
 };
