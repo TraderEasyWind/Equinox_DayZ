@@ -367,6 +367,24 @@ class CfgVehicles
 			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_BPirate.paa"
 		};
 	};
+	class Armband_RoughRiders: Armband_ColorBase
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="RoughRiders";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Rough_Riders_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Rough_Riders_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Rough_Riders_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Rough_Riders_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Rough_Riders_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Rough_Riders_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Rough_Riders_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Rough_Riders_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Rough_Riders_flag.paa"
+		};
+	};
 	class flag_base;
 	class flag_cmf: flag_base
 	{
@@ -656,7 +674,7 @@ class CfgVehicles
 			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_KJ.paa"
 		};
 	};
-		class flag_BPirate: flag_base
+	class flag_BPirate: flag_base
 	{
 		scope=2;
 		visibilityModifier=0.94999999;
@@ -672,6 +690,24 @@ class CfgVehicles
 			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_BPirate.paa",
 			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_BPirate.paa",
 			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\flag_BPirate.paa"
+		};
+	};
+	class flag_RoughRiders: flag_base
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="RoughRiders";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Rough_Riders_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Rough_Riders_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Rough_Riders_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Rough_Riders_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Rough_Riders_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Rough_Riders_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Rough_Riders_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Rough_Riders_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Rough_Riders_flag.paa"
 		};
 	};
 };
