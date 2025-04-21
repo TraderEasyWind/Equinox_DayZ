@@ -285,7 +285,7 @@
     </type>
 	<!--Headgear-->
 	<type name="Uncuepa_Beanie_BlackRed">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -303,7 +303,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_Beanie_BlueStripes">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -321,7 +321,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_Beanie_Brown">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -339,7 +339,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_Beanie_DarkBrown">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -357,7 +357,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_Beanie_GreyStripes">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -375,7 +375,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_Beanie_White">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -393,7 +393,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_Beanie_Yellow">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -411,7 +411,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_ushanka_red">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -429,7 +429,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_ushanka_greenlight">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -447,7 +447,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_ushanka_blackfurw">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -465,7 +465,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_ushanka_beige">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -483,7 +483,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_ushanka_flt">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -501,7 +501,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_ushanka_white">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -519,7 +519,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_ushanka_whiteblackfur">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -537,7 +537,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_ushanka_woodland">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -555,7 +555,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_BaseballCap_livonia">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -573,7 +573,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_BaseballCap_Clementine">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -591,7 +591,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_BaseballCap_greywhite">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -609,7 +609,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_BaseballCap_bluewhite">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -627,7 +627,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_BaseballCap_redwhite">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -645,7 +645,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_BaseballCap_blackwhite">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -663,7 +663,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_BaseballCap_blackblue">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -681,7 +681,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_CowboyHat_blackbrown">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -699,7 +699,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_CowboyHat_white">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -717,7 +717,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_CowboyHat_grey">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -735,7 +735,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_CowboyHat_blue">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -771,7 +771,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_BoonieHat_BlackGreen">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -789,7 +789,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_BoonieHat_BlackTan">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -807,7 +807,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_BoonieHat_Fishmaster">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -889,7 +889,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_Headband_White">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -924,7 +924,7 @@
     </type>
 	<!--Masks-->
     <type name="Uncuepa_Bandana_Black">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -942,7 +942,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_NioshFaceMask_black">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -960,7 +960,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_NioshFaceMask_green">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -1011,7 +1011,7 @@
     </type>
 	<!--Tops-->
 	<type name="Uncuepa_Shirt_checkHero">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -1029,7 +1029,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_Shirt_Hawaiian1">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -1047,7 +1047,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_Shirt_Hawaiian2">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -1065,7 +1065,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_Shirt_PlainRed">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -1083,7 +1083,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_Shirt_PlainBlue">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -1101,7 +1101,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_Shirt_PlainWhite">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -1119,7 +1119,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_HikingJacket_greenalt">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -1137,7 +1137,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_HikingJacket_whitegreen">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -1155,7 +1155,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_HikingJacket_whiteblue">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -1173,7 +1173,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_HikingJacket_whiteblack">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -1191,7 +1191,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_HikingJacket_blackyellow">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -1209,7 +1209,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_HikingJacket_blackpink">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -1227,7 +1227,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_HikingJacket_blackblue">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -1245,7 +1245,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_HikingJacket_orangegrey">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -1263,7 +1263,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_RidersJacket_BlackRed">
-        <nominal>3</nominal>
+        <nominal>6</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>1</min>
@@ -1281,7 +1281,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_RidersJacket_BlackWhite">
-        <nominal>3</nominal>
+        <nominal>6</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>1</min>
@@ -1299,7 +1299,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_RidersJacket_Brown">
-        <nominal>3</nominal>
+        <nominal>6</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>1</min>
@@ -1317,7 +1317,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_RidersJacket_Grey">
-        <nominal>3</nominal>
+        <nominal>6</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>1</min>
@@ -1335,7 +1335,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_RidersJacket_maroon">
-        <nominal>3</nominal>
+        <nominal>6</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>1</min>
@@ -1353,7 +1353,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_RidersJacket_blueblack">
-        <nominal>3</nominal>
+        <nominal>6</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>1</min>
@@ -1381,7 +1381,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
 		<usage name="Tenement"/>
-		
         <value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
@@ -1489,7 +1488,7 @@
 		<usage name="Firefighter"/>
     </type>
 	<type name="Uncuepa_Sweater_browngrey">
-        <nominal>3</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>1</min>
@@ -1508,7 +1507,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_Sweater_greyblue">
-        <nominal>3</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>1</min>
@@ -1527,7 +1526,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_Sweater_grey2tone">
-        <nominal>3</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>1</min>
@@ -1546,7 +1545,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_Sweater_green2tone">
-        <nominal>3</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>1</min>
@@ -1565,7 +1564,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_Sweater_bluestriped">
-        <nominal>3</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>1</min>
@@ -1584,7 +1583,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_Sweater_festive">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>1</min>
@@ -1603,7 +1602,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_QuiltedJacket_WedgeWhite">
-        <nominal>3</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>1</min>
@@ -1622,7 +1621,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_QuiltedJacket_WedgeOrange">
-        <nominal>3</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>1</min>
@@ -1641,7 +1640,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_QuiltedJacket_WedgeGreen">
-        <nominal>3</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>1</min>
@@ -1660,7 +1659,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_QuiltedJacket_WedgeBlue">
-        <nominal>3</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>1</min>
@@ -1679,7 +1678,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_QuiltedJacket_BlueOrange">
-        <nominal>3</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>1</min>
@@ -1698,7 +1697,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_BomberJacket_greyblack">
-        <nominal>3</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>1</min>
@@ -1717,7 +1716,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_BomberJacket_red">
-        <nominal>3</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>1</min>
@@ -1736,7 +1735,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_MiniDress_Cherry">
-        <nominal>3</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>1</min>
@@ -1755,7 +1754,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_MiniDress_Purple">
-        <nominal>3</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>1</min>
@@ -1774,7 +1773,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_MiniDress_Green">
-        <nominal>3</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>1</min>
@@ -1793,7 +1792,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_MiniDress_Lilac">
-        <nominal>3</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>1</min>
@@ -1812,7 +1811,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_MiniDress_Floral">
-        <nominal>3</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>1</min>
@@ -1831,7 +1830,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_MiniDress_Floraldark">
-        <nominal>3</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>1</min>
@@ -1850,7 +1849,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_MiniDress_FloralPurple">
-        <nominal>3</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>1</min>
@@ -1869,7 +1868,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_MiniDress_White">
-        <nominal>3</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>1</min>
@@ -1888,7 +1887,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_TacticalShirt_Flecktarn">
-        <nominal>3</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>1</min>
@@ -1905,7 +1904,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_Blouse_black">
-        <nominal>3</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>1</min>
@@ -1924,7 +1923,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_TelnyashkaShirt_Red">
-        <nominal>3</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>1</min>
@@ -1943,7 +1942,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_TelnyashkaShirt_Blue">
-        <nominal>3</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>1</min>
@@ -1962,7 +1961,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_TelnyashkaShirt_Brown">
-        <nominal>3</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>1</min>
@@ -1981,7 +1980,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_TelnyashkaShirt_Green">
-        <nominal>3</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>1</min>
@@ -2000,7 +1999,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_DenimJacket_Brown">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>1</min>
@@ -2019,7 +2018,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_DenimJacket_Grey">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>1</min>
@@ -2038,7 +2037,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_Breeches_Blend">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>1</min>
@@ -2057,7 +2056,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_Jeans_Wounded">
-        <nominal>3</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>1</min>
@@ -2076,7 +2075,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_Jeans_Acidwash">
-        <nominal>3</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>1</min>
@@ -2288,7 +2287,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_ChestHolster_black">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
         <min>3</min>
@@ -2305,7 +2304,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="Uncuepa_PoliceVest_Black">
-        <nominal>3</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
         <min>1</min>
