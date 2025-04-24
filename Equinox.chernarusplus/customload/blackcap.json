@@ -91,9 +91,10 @@
             },
             "simpleChildrenUseDefaultAttributes": false,
             "simpleChildrenTypes": [
+				"PersonalRadio",
 				"Compass",
 				"ChernarusMap",
-				"Flashlight",
+				"Chemlight_Blue",
 				"Battery9V",
 				"BandageDressing",
 				"TunaCan"
