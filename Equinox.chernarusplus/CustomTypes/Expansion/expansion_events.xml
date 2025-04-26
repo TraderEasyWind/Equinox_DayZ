@@ -20,7 +20,7 @@
         </children>
     </event>
 	<event name="VehicleHelicopter">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <min>1</min>
         <max>5</max>
         <lifetime>300</lifetime>
