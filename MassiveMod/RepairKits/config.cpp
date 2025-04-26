@@ -153,6 +153,10 @@ class CfgVehicles
 		varQuantityDestroyOnMin = 1;
 		hiddenSelections[]={"zbytek"};
 		hiddenSelectionsMaterials[]={"MassiveMod\RepairKits\KitTextures\tire_repair_kit.rvmat"};
+		inventorySlot[]+=
+		{
+			"ZenTireRepair"
+		};
 		class DamageSystem
 		{
 			class GlobalHealth

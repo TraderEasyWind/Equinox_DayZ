@@ -43,6 +43,7 @@ class MassiveMod_EquipmentLocker: DeployableContainer_Base
         }
         return false;
     }
+	
 	bool CanPutInInventory (EntityAI parent)
     {
         return CanPutIntoHands(parent);
@@ -172,6 +173,26 @@ class MassiveMod_GunWall: DeployableContainer_Base
 };
 modded class Barrel_ColorBase
 {
+	override bool CanPutInCargo(EntityAI parent)
+	{
+		if (!super.CanPutInCargo(parent))
+			return false;
+		
+		if (parent && parent.IsKindOf("Barrel_ColorBase"))
+			return false;
+		
+		if ( !IsEmpty() )
+        {
+            return false;
+        }
+		if ( !Expansion_HasEntityStorage() )
+        {
+           return true;
+        }
+        return false;
+
+		return true;
+	}
 	//override void Open()
     //{
     //    super.Open();

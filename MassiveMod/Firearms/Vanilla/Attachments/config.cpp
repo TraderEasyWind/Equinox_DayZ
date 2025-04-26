@@ -9,7 +9,8 @@ class CfgPatches
         {
             "DZ_Data",
 			"DZ_Weapons_Muzzles",
-			"DZ_Scripts"
+			"DZ_Scripts",
+			"DZ_Weapons_Magazines"
         };
 	};
 };//meow
@@ -155,6 +156,15 @@ class cfgVehicles
 	class SKS_Bayonet: Inventory_Base
 	{
 		repairableWithKits[]={8};
+		repairCosts[]={25};
+	};
+};
+class CfgMagazines
+{
+	class Magazine_Base;
+	class Mag_CMAG_40Rnd: Magazine_Base
+	{
+		repairableWithKits[]={1};
 		repairCosts[]={25};
 	};
 };

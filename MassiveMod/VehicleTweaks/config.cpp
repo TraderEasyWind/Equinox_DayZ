@@ -22,6 +22,20 @@ class CfgVehicles
 	class Offroad_02_Wheel_Ruined;
 	class Truck_01_Wheel_Ruined;
 	class Truck_01_WheelDouble_Ruined;
+	class Sedan_02_Wheel: CarWheel
+	{
+		inventorySlot[]+=
+		{
+			"ZenTireRack1",
+			"ZenTireRack2",
+			"ZenTireRack3",
+			"ZenTireRack4",
+			"ZenTireRack5",
+			"ZenTireRack6",
+			"ZenTireRack7",
+			"ZenTireRack8"
+		};
+	};
 	class MassiveMod_Offroad_02_Wheel: Offroad_02_Wheel
 	{
 		displayName="Western Offroad Wheel";
