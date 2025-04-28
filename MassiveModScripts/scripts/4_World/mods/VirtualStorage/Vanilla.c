@@ -66,7 +66,7 @@ class MassiveMod_LargeWoodenCrate: DeployableContainer_Base
 {
 	void MassiveMod_LargeWoodenCrate()
 	{
-		m_HalfExtents = Vector(0.15,0.25,0.4);
+		m_HalfExtents = Vector(0.2,0.5,0.4);
 	}
     override bool CanPutIntoHands( EntityAI parent )
     {

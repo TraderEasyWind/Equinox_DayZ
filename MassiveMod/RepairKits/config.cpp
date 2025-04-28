@@ -337,6 +337,17 @@ class CfgVehicles
 			};
 		};
 	};
+	class MassiveMod_ADVKit_New: MassiveMod_ADVKit_Base
+	{
+		scope=2;
+		displayName="Advanced Firearm Repair Repair-Kit";
+		descriptionShort="Can be used to Firearm Weapons from any damaged state, Even Ruined!";
+		hiddenSelections[]={"zbytek"};
+		hiddenSelectionsTextures[]={"MassiveMod\RepairKits\KitTextures\Western_ADV_kit_co.paa"};
+		varQuantityInit=100;
+		varQuantityMin=0;
+		varQuantityMax=100;
+	};
 	class MassiveMod_ADVKit_Rifle: MassiveMod_ADVKit_Base
 	{
 		scope=2;

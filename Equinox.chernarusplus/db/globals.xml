@@ -3,7 +3,7 @@
     <var name="AnimalMaxCount" type="0" value="200"/>
     <var name="CleanupAvoidance" type="0" value="100"/>
     <var name="CleanupLifetimeDeadAnimal" type="0" value="3600"/>
-    <var name="CleanupLifetimeDeadInfected" type="0" value="3600"/>
+    <var name="CleanupLifetimeDeadInfected" type="0" value="900"/>
     <var name="CleanupLifetimeDeadPlayer" type="0" value="10800"/>
     <var name="CleanupLifetimeDefault" type="0" value="45"/>
     <var name="CleanupLifetimeLimit" type="0" value="50"/>

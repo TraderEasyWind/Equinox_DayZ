@@ -4,6 +4,9 @@ modded class PluginRecipesManager
 	{	super.RegisterRecipies();
 		RegisterRecipe(new CraftLargeWoodenBox);
 		RegisterRecipe(new CraftGunWall);
+		RegisterRecipe(new MassiveMod_WeaponScrapping);
+		RegisterRecipe(new MassiveMod_WeaponRepair);
+		RegisterRecipe(new MassiveMod_WeaponRepairKit);
 		RegisterRecipe(new MassiveMod_RepairFilterBottle);
 		RegisterRecipe(new MassiveMod_OpenAmmoCan);
 		RegisterRecipe(new MassiveMod_RepairTire);
@@ -15,6 +18,7 @@ modded class PluginRecipesManager
 		RegisterRecipe(new CraftUnfinishedExplosives);
 		RegisterRecipe(new CraftUnwiredExplosives);
 		RegisterRecipe(new CraftwiredExplosives);
+		/*
         RegisterRecipe(new MassiveMod_PistolScrapping);
         RegisterRecipe(new MassiveMod_RifleScrapping);
         RegisterRecipe(new MassiveMod_HighEndScrapping);
@@ -24,6 +28,7 @@ modded class PluginRecipesManager
         RegisterRecipe(new MassiveMod_RepairHighEnd);
         RegisterRecipe(new MassiveMod_RepairRifle);
         RegisterRecipe(new MassiveMod_RepairPistol);
+		*/
 		RegisterRecipe(new MassiveMod_AdminRepair);
      // RegisterRecipe(new StackCrates);	
      // RegisterRecipe(new StackCrates2);		
