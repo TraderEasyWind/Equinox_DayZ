@@ -239,6 +239,7 @@ class MassiveMod_WeaponRepair extends RecipeBase
 		InsertIngredient(1, "Rifle_Base"); // General Weapon Category
 		InsertIngredient(1, "Pistol_Base");
 		InsertIngredient(1, "BoltActionRifle_Base");
+		InsertIngredient(1, "ItemSuppressor");
 
 		m_IngredientAddHealth[1] = -0;
 		m_IngredientSetHealth[1] = -1;
@@ -254,14 +255,16 @@ class MassiveMod_WeaponRepair extends RecipeBase
 
 		if (!repairKit || !gun)
 		{
-			player.MessageStatus("Null ingredients");
 			return false; // Null check
 		}
-
-		if (!gun.IsKindOf("Rifle_Base") && !gun.IsKindOf("Pistol_Base") && !gun.IsKindOf("BoltActionRifle_Base"))
+		
+		if (gun.IsKindOf("ItemSuppressor"))
 		{
-			player.MessageStatus("Not a repairable weapon type");
-			return false; // Not a repairable weapon type
+			int healthLevel = gun.GetHealthLevel();
+			if (healthLevel == GameConstants.STATE_RUINED || healthLevel == GameConstants.STATE_PRISTINE || healthLevel == GameConstants.STATE_WORN)
+			{
+				return false; // Cannot repair suppressors in these states
+			}
 		}
 
 		int quantityToSubtract = GetRequiredQuantity(gun); // Get quantity needed based on weapon type
@@ -269,7 +272,6 @@ class MassiveMod_WeaponRepair extends RecipeBase
 		//Check if repair kit has enough quantity!
 		if (repairKit.GetQuantity() < quantityToSubtract)
 		{
-			player.MessageStatus("Not enough kit");
 			return false;
 		}
 		return true;
@@ -282,7 +284,6 @@ class MassiveMod_WeaponRepair extends RecipeBase
 
 		if (!repairKit || !gun)
 		{
-			player.MessageStatus("Null ingredients");
 			return; // Null check
 		}
 
@@ -345,10 +346,10 @@ class MassiveMod_WeaponRepair extends RecipeBase
 			case gun.IsKindOf("Pistol_Base"): return 10; // Corresponds to 1 scrap
 			case gun.IsKindOf("BoltActionRifle_Base"): return 50; // Corresponds to 5 scrap
 			case gun.IsKindOf("Rifle_Base"): return 30; // Corresponds to 3 scrap
-			case gun.IsKindOf("M4_Suppressor"): return 75; // Corresponds to 3 scrap
-			case gun.IsKindOf("AK_Suppressor"): return 75; // Corresponds to 3 scrap
-			case gun.IsKindOf("Pistol_Suppressor"): return 50; // Corresponds to 3 scrap
-			case gun.IsKindOf("MassM417Suppressor"): return 100; // Corresponds to 3 scrap
+			case gun.IsKindOf("M4_Suppressor"): return 100; 
+			case gun.IsKindOf("AK_Suppressor"): return 100; 
+			case gun.IsKindOf("Pistol_Suppressor"): return 50; 
+			case gun.IsKindOf("MassM417Suppressor"): return 100; 
 
 			default: return 20; // Default quantity if weapon type isn't matched
 		}
