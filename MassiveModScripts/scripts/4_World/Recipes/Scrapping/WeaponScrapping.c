@@ -257,15 +257,6 @@ class MassiveMod_WeaponRepair extends RecipeBase
 		{
 			return false; // Null check
 		}
-		
-		if (gun.IsKindOf("ItemSuppressor"))
-		{
-			int healthLevel = gun.GetHealthLevel();
-			if (healthLevel == GameConstants.STATE_RUINED || healthLevel == GameConstants.STATE_PRISTINE || healthLevel == GameConstants.STATE_WORN)
-			{
-				return false; // Cannot repair suppressors in these states
-			}
-		}
 
 		int quantityToSubtract = GetRequiredQuantity(gun); // Get quantity needed based on weapon type
 
@@ -361,13 +352,229 @@ class MassiveMod_WeaponRepair extends RecipeBase
 		return true; // Allow repairing multiple times if quantity allows
 	}
 };
-/*
-class RepairWheelLambda extends ReplaceItemWithNewLambdaBase
-{
-    override void CopyOldPropertiesToNew(notnull EntityAI old_item, EntityAI new_item)
+class MassiveMod_RepairPistol extends RecipeBase
+{	
+	override void Init()
+	{
+		m_Name = "Repair Pistol";
+		m_IsInstaRecipe = false;//should this recipe be performed instantly without animation
+		m_AnimationLength = 1;//animation length in relative time units
+		m_Specialty = -0.01;// value > 0 for roughness, value < 0 for precision
+		
+		
+		//conditions
+		m_MinDamageIngredient[0] = -1;//-1 = disable check
+		m_MaxDamageIngredient[0] = 3;//-1 = disable check
+		
+		m_MinQuantityIngredient[0] = 25;//-1 = disable check
+		m_MaxQuantityIngredient[0] = -1;//-1 = disable check
+		
+		m_MinDamageIngredient[1] = -1;//-1 = disable check
+		m_MaxDamageIngredient[1] = -1;//-1 = disable check
+		
+		m_MinQuantityIngredient[1] = -1;//-1 = disable check
+		m_MaxQuantityIngredient[1] = -1;//-1 = disable check
+		//----------------------------------------------------------------------------------------------------------------------
+		
+		//INGREDIENTS
+		//ingredient 1
+		InsertIngredient(0,"MassiveMod_ADVKit_Pistol",DayZPlayerConstants.CMD_ACTIONFB_CLEANING_WEAPON);//you can insert multiple ingredients this way
+
+		m_IngredientAddHealth[0] = -0;// 0 = do nothing
+		m_IngredientSetHealth[0] = -1; // -1 = do nothing
+		m_IngredientAddQuantity[0] = -25;// 0 = do nothing
+		m_IngredientDestroy[0] = false;//true = destroy, false = do nothing
+		m_IngredientUseSoftSkills[0] = false;// set 'true' to allow modification of the values by softskills on this ingredient
+		
+		//ingredient 2
+		InsertIngredient(1,"Pistol_Base");
+		
+		m_IngredientAddHealth[1] = -0;// 0 = do nothing
+		m_IngredientSetHealth[1] = -1; // -1 = do nothing
+		m_IngredientAddQuantity[1] = 0;// 0 = do nothing
+		m_IngredientDestroy[1] = false;// false = do nothing
+		m_IngredientUseSoftSkills[1] = true;// set 'true' to allow modification of the values by softskills on this ingredient
+	}
+
+	override bool CanDo(ItemBase ingredients[], PlayerBase player)//final check for recipe's validity
     {
-        super.CopyOldPropertiesToNew(old_item, new_item);
-        new_item.SetHealth("", "", 50); // Set repaired wheel health to 50
+        return true;
     }
+	
+	override void Do(ItemBase ingredients[], PlayerBase player,array<ItemBase> results, float specialty_weight)//gets called upon recipe's completion
+    {
+        ItemBase Meow = ingredients[1];    // 0 for the first item  - 1 for the second one
+        Meow.AddHealth("", "",50);
+    }
+	
+	override bool IsRepeatable()
+	{
+		return true;
+	}
 };
-*/
+class MassiveMod_RepairHighEnd extends RecipeBase
+{	
+	override void Init()
+	{
+		m_Name = "Repair High-End Weapon";
+		m_IsInstaRecipe = false;//should this recipe be performed instantly without animation
+		m_AnimationLength = 1;//animation length in relative time units
+		m_Specialty = -0.01;// value > 0 for roughness, value < 0 for precision
+		
+		
+		//conditions
+		m_MinDamageIngredient[0] = -1;//-1 = disable check
+		m_MaxDamageIngredient[0] = 3;//-1 = disable check
+		
+		m_MinQuantityIngredient[0] = 50;//-1 = disable check
+		m_MaxQuantityIngredient[0] = -1;//-1 = disable check
+		
+		m_MinDamageIngredient[1] = -1;//-1 = disable check
+		m_MaxDamageIngredient[1] = -1;//-1 = disable check
+		
+		m_MinQuantityIngredient[1] = -1;//-1 = disable check
+		m_MaxQuantityIngredient[1] = -1;//-1 = disable check
+		//----------------------------------------------------------------------------------------------------------------------
+		
+		//INGREDIENTS
+		//ingredient 1
+		InsertIngredient(0,"MassiveMod_ADVKit_High",DayZPlayerConstants.CMD_ACTIONFB_CLEANING_WEAPON);//you can insert multiple ingredients this way
+
+		m_IngredientAddHealth[0] = -0;// 0 = do nothing
+		m_IngredientSetHealth[0] = -1; // -1 = do nothing
+		m_IngredientAddQuantity[0] = -50;// 0 = do nothing
+		m_IngredientDestroy[0] = false;//true = destroy, false = do nothing
+		m_IngredientUseSoftSkills[0] = false;// set 'true' to allow modification of the values by softskills on this ingredient
+		
+		//ingredient 2
+		InsertIngredient(1,"MassKivaari");
+		InsertIngredient(1,"MassM300");
+		InsertIngredient(1,"Massm24");
+		InsertIngredient(1,"MassM110");
+		InsertIngredient(1,"FAL");
+		InsertIngredient(1,"SVD");
+		InsertIngredient(1,"M1A");
+		InsertIngredient(1,"AWMreal");
+		InsertIngredient(1,"JD_M249");
+		InsertIngredient(1,"M14");
+		
+		m_IngredientAddHealth[1] = -0;// 0 = do nothing
+		m_IngredientSetHealth[1] = -1; // -1 = do nothing
+		m_IngredientAddQuantity[1] = 0;// 0 = do nothing
+		m_IngredientDestroy[1] = false;// false = do nothing
+		m_IngredientUseSoftSkills[1] = true;// set 'true' to allow modification of the values by softskills on this ingredient
+	}
+
+	override bool CanDo(ItemBase ingredients[], PlayerBase player)//final check for recipe's validity
+    {
+        return true;
+    }
+	
+	override void Do(ItemBase ingredients[], PlayerBase player,array<ItemBase> results, float specialty_weight)//gets called upon recipe's completion
+    {
+        ItemBase Meow = ingredients[1];    // 0 for the first item  - 1 for the second one
+        Meow.AddHealth("", "",50);
+    }
+	
+	override bool IsRepeatable()
+	{
+		return true;
+	}
+};
+class MassiveMod_RepairRifle extends RecipeBase
+{
+    override void Init()
+    {
+        m_Name = "Repair Rifle";
+        m_IsInstaRecipe = false;//should this recipe be performed instantly without animation
+        m_AnimationLength = 1;//animation length in relative time units
+        m_Specialty = -0.01;// value > 0 for roughness, value < 0 for precision
+
+
+        //conditions
+        m_MinDamageIngredient[0] = -1;//-1 = disable check
+        m_MaxDamageIngredient[0] = 3;//-1 = disable check
+
+        m_MinQuantityIngredient[0] = 25;//-1 = disable check
+        m_MaxQuantityIngredient[0] = -1;//-1 = disable check
+
+        m_MinDamageIngredient[1] = -1;//-1 = disable check
+        m_MaxDamageIngredient[1] = -1;//-1 = disable check
+
+        m_MinQuantityIngredient[1] = -1;//-1 = disable check
+        m_MaxQuantityIngredient[1] = -1;//-1 = disable check
+        //----------------------------------------------------------------------------------------------------------------------
+
+        //INGREDIENTS
+        //ingredient 1
+        InsertIngredient(0,"MassiveMod_ADVKit_Rifle",DayZPlayerConstants.CMD_ACTIONFB_CLEANING_WEAPON);//you can insert multiple ingredients this way
+
+        m_IngredientAddHealth[0] = -0;// 0 = do nothing
+        m_IngredientSetHealth[0] = -1; // -1 = do nothing
+        m_IngredientAddQuantity[0] = -25;// 0 = do nothing
+        m_IngredientDestroy[0] = false;//true = destroy, false = do nothing
+        m_IngredientUseSoftSkills[0] = false;// set 'true' to allow modification of the values by softskills on this ingredient
+
+        //ingredient 2
+        InsertIngredient(1,"RifleCore");
+		InsertIngredient(1,"BoltActionRifle_Base");
+
+        m_IngredientAddHealth[1] = -0;// 0 = do nothing
+        m_IngredientSetHealth[1] = -1; // -1 = do nothing
+        m_IngredientAddQuantity[1] = 0;// 0 = do nothing
+        m_IngredientDestroy[1] = false;// false = do nothing
+        m_IngredientUseSoftSkills[1] = true;// set 'true' to allow modification of the values by softskills on this ingredient
+    }
+
+    override bool CanDo(ItemBase ingredients[], PlayerBase player)//final check for recipe's validity
+    {
+        Rifle_Base PawsomeWeapon = Rifle_Base.Cast(ingredients[1]);    // 0 for the first item  - 1 for the second one
+                if (!PawsomeWeapon)  
+				{
+                      return false;
+                }
+
+        string scrapableweapon = PawsomeWeapon.GetType();
+
+        switch (scrapableweapon)
+        {
+            case "MassKivaari":
+            case "Massm300":
+            case "m300BL":
+            case "Massm300_camo":
+            case "Massm24":
+            case "MassM110":
+            case "FAL":
+            case "MassiveMod_Golden_Fal":
+            case "SVD":
+            case "MassiveMod_SVD_wood":
+            case "MassiveMod_SVD_Gold":
+            case "M1A":
+            case "M1A_Tan":
+            case "M1A_Green":
+            case "AWMreal":
+            case "AWMreal_Black":
+            case "M14":
+            case "JD_M249":
+            case "Mass_PKM":
+            case "Mass_M98B":
+            case "Mass_M98BShort":
+                return false; // Exclude these items
+            default:
+                return true; // Allow all other items
+            }
+			return true;
+        }
+
+
+    override void Do(ItemBase ingredients[], PlayerBase player,array<ItemBase> results, float specialty_weight)//gets called upon recipe's completion
+    {
+        ItemBase Meow = ingredients[1];    // 0 for the first item  - 1 for the second one
+        Meow.AddHealth("", "",50);
+    }
+	
+	override bool IsRepeatable()
+	{
+		return true;
+	}
+};

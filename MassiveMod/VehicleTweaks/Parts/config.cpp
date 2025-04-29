@@ -20,6 +20,20 @@ class CfgVehicles
 {
 	class Bottle_Base;
 	class Inventory_Base;
+	class SparkPlug;
+	class CarBattery;
+	class CarRadiator: Inventory_Base
+	{
+		repairableWithKits[]={8};
+		repairCosts[]={25};
+	};
+	class MassiveMod_CarRadiator: CarRadiator
+	{
+		repairableWithKits[]={8};
+		repairCosts[]={25};
+	};
+	class MassiveMod_SparkPlug: SparkPlug{};
+	class MassiveMod_CarBattery: CarBattery{};
 	class CanisterGasoline: Bottle_Base
 	{
 		inventorySlot[]+=

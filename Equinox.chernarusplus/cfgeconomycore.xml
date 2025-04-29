@@ -103,6 +103,7 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="Tier5Crate_Event.xml" type="events" />
 		<file name="ClothingPack_Types.xml" type="types" />
 		<file name="AdditionalClothing_Types.xml" type="types" />
+		<file name="VehicleParts.xml" type="types" />
 	</ce>
 	<ce folder="CustomTypes/DynamicHelis">
 		<file name="adh_types.xml" type="types" />

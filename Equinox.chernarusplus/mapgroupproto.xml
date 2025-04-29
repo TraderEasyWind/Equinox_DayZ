@@ -17178,6 +17178,9 @@
                         <proxy type="HatchbackWheel" pos="1.071 -0.736000 -0.852" rpy="90.0 0.0 0.0" />
                         <proxy type="HatchbackDoors_Driver_BlueRust" pos="-0.273 -0.182000 -1.374" rpy="0.0 240.0 0.0" />
                         <proxy type="HatchbackTrunk_BlueRust" pos="1.726 0.304000 -0.05" rpy="20.0 180.0 0.0" />
+						<proxy type="MassiveMod_CarRadiator" pos="-1.782227 -0.647735 -0.022949" rpy="-0.000000 1.799999 -0.000000" />
+						<proxy type="MassiveMod_CarBattery" pos="-0.969727 -0.246032 0.562012" rpy="0.000000 -90.000038 0.000000" />
+						<proxy type="MassiveMod_SparkPlug" pos="-1.282227 -0.148712 0.187012" rpy="0.000000 0.000000 -0.000000" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb01_aban1_green" lootmax="2">
@@ -17205,6 +17208,9 @@
                         <proxy type="HatchbackWheel" pos="1.071 -0.736000 -0.852" rpy="90.0 0.0 0.0" />
                         <proxy type="HatchbackDoors_Driver_GreenRust" pos="-0.273 -0.182000 -1.374" rpy="0.0 240.0 0.0" />
                         <proxy type="HatchbackTrunk_GreenRust" pos="1.726 0.304000 -0.05" rpy="20.0 180.0 0.0" />
+						<proxy type="MassiveMod_CarRadiator" pos="-1.782227 -0.647735 -0.022949" rpy="-0.000000 1.799999 -0.000000" />
+						<proxy type="MassiveMod_CarBattery" pos="-0.969727 -0.246032 0.562012" rpy="0.000000 -90.000038 0.000000" />
+						<proxy type="MassiveMod_SparkPlug" pos="-1.282227 -0.148712 0.187012" rpy="0.000000 0.000000 -0.000000" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb01_aban1_white" lootmax="2">
@@ -17230,7 +17236,10 @@
 				<dispatch>
                         <proxy type="HatchbackWheel" pos="1.071 -0.736000 -0.852" rpy="90.0 0.0 0.0" />
                         <proxy type="HatchbackDoors_Driver_WhiteRust" pos="-0.273 -0.182000 -1.374" rpy="0.0 240.0 0.0" />
-                        <proxy type="HatchbackTrunk_WhiteRust" pos="1.726 0.304000 -0.05" rpy="20.0 180.0 0.0" />
+                        <proxy type="HatchbackTrunk_WhiteRust" pos="1.726 0.304000 -0.05" rpy="20.0 180.0 0.0" />\
+						<proxy type="MassiveMod_CarRadiator" pos="-1.782227 -0.647735 -0.022949" rpy="-0.000000 1.799999 -0.000000" />
+						<proxy type="MassiveMod_CarBattery" pos="-0.969727 -0.246032 0.562012" rpy="0.000000 -90.000038 0.000000" />
+						<proxy type="MassiveMod_SparkPlug" pos="-1.282227 -0.148712 0.187012" rpy="0.000000 0.000000 -0.000000" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb01_aban2_blue" lootmax="2">
@@ -17257,6 +17266,9 @@
 						<proxy type="HatchbackWheel" pos="0.999 -0.508 0.896" rpy="90.0 180.0 0.0" />
 						<proxy type="HatchbackDoors_CoDriver_BlueRust" pos="-0.35 -0.01 1.340" rpy="0.0 -240.0 0.0" />
 						<proxy type="HatchbackHood_BlueRust" pos="-1.451 0.095 0.05" rpy="1.0 180.0 0.0" />
+						<proxy type="MassiveMod_CarRadiator" pos="-1.823242 -0.503296 0.097657" rpy="0.000000 0.000000 -0.000000" />
+						<proxy type="MassiveMod_CarBattery" pos="-1.033203 -0.026764 0.646485" rpy="0.000000 -90.000000 -0.000000" />
+						<proxy type="MassiveMod_SparkPlug" pos="-1.323242 0.032989 0.291016" rpy="0.000000 0.000000 -0.000000" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb01_aban2_green" lootmax="2">
@@ -17284,6 +17296,9 @@
 						<proxy type="HatchbackWheel" pos="0.999 -0.508 0.896" rpy="90.0 180.0 0.0" />
 						<proxy type="HatchbackDoors_CoDriver_GreenRust" pos="-0.35 -0.01 1.340" rpy="0.0 -240.0 0.0" />
 						<proxy type="HatchbackHood_GreenRust" pos="-1.451 0.095 0.05" rpy="1.0 180.0 0.0" />
+						<proxy type="MassiveMod_CarRadiator" pos="-1.823242 -0.503296 0.097657" rpy="0.000000 0.000000 -0.000000" />
+						<proxy type="MassiveMod_CarBattery" pos="-1.033203 -0.026764 0.646485" rpy="0.000000 -90.000000 -0.000000" />
+						<proxy type="MassiveMod_SparkPlug" pos="-1.323242 0.032989 0.291016" rpy="0.000000 0.000000 -0.000000" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb01_aban2_white" lootmax="2">
@@ -17310,6 +17325,9 @@
 						<proxy type="HatchbackWheel" pos="0.999 -0.508 0.896" rpy="90.0 180.0 0.0" />
 						<proxy type="HatchbackDoors_CoDriver_WhiteRust" pos="-0.35 -0.01 1.340" rpy="0.0 -240.0 0.0" />
 						<proxy type="HatchbackHood_WhiteRust" pos="-1.451 0.095 0.05" rpy="1.0 180.0 0.0" />
+						<proxy type="MassiveMod_CarRadiator" pos="-1.823242 -0.503296 0.097657" rpy="0.000000 0.000000 -0.000000" />
+						<proxy type="MassiveMod_CarBattery" pos="-1.033203 -0.026764 0.646485" rpy="0.000000 -90.000000 -0.000000" />
+						<proxy type="MassiveMod_SparkPlug" pos="-1.323242 0.032989 0.291016" rpy="0.000000 0.000000 -0.000000" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb02_aban1_red" lootmax="2">
@@ -17337,6 +17355,9 @@
 						<proxy type="Hatchback_02_Door_1_1_RedRust" pos="-0.271 -0.093 -1.024" rpy="0.0 200.0 0.0" />
 						<proxy type="Hatchback_02_Door_2_2_RedRust" pos="0.683 0.025 0.909" rpy="0.0 150.0 0.0" />
 						<proxy type="Hatchback_02_Trunk_RedRust" pos="1.284 0.712 -0.10" rpy="0.0 180.0 0.0" />
+						<proxy type="MassiveMod_CarRadiator" pos="-1.824219 -0.444488 -0.061523" rpy="0.000000 0.000000 0.000000" />
+						<proxy type="MassiveMod_CarBattery" pos="-1.723633 -0.173462 -0.611328" rpy="0.000000 180.000000 -0.000000" />
+						<proxy type="MassiveMod_SparkPlug" pos="-1.381836 0.057526 0.094239" rpy="0.000000 -28.292299 -7.410001" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb02_aban1_black" lootmax="2">
@@ -17364,6 +17385,9 @@
 						<proxy type="Hatchback_02_Door_1_1_BlackRust" pos="-0.271 -0.093 -1.024" rpy="0.0 200.0 0.0" />
 						<proxy type="Hatchback_02_Door_2_2_BlackRust" pos="0.683 0.025 0.909" rpy="0.0 150.0 0.0" />
 						<proxy type="Hatchback_02_Trunk_BlackRust" pos="1.284 0.712 -0.10" rpy="0.0 180.0 0.0" />
+						<proxy type="MassiveMod_CarRadiator" pos="-1.824219 -0.444488 -0.061523" rpy="0.000000 0.000000 0.000000" />
+						<proxy type="MassiveMod_CarBattery" pos="-1.723633 -0.173462 -0.611328" rpy="0.000000 180.000000 -0.000000" />
+						<proxy type="MassiveMod_SparkPlug" pos="-1.381836 0.057526 0.094239" rpy="0.000000 -28.292299 -7.410001" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb02_aban1_blue" lootmax="2">
@@ -17391,6 +17415,9 @@
 						<proxy type="Hatchback_02_Door_1_1_BlueRust" pos="-0.271 -0.093 -1.024" rpy="0.0 200.0 0.0" />
 						<proxy type="Hatchback_02_Door_2_2_BlueRust" pos="0.683 0.025 0.909" rpy="0.0 150.0 0.0" />
 						<proxy type="Hatchback_02_Trunk_BlueRust" pos="1.284 0.712 -0.10" rpy="0.0 180.0 0.0" />
+						<proxy type="MassiveMod_CarRadiator" pos="-1.824219 -0.444488 -0.061523" rpy="0.000000 0.000000 0.000000" />
+						<proxy type="MassiveMod_CarBattery" pos="-1.723633 -0.173462 -0.611328" rpy="0.000000 180.000000 -0.000000" />
+						<proxy type="MassiveMod_SparkPlug" pos="-1.381836 0.057526 0.094239" rpy="0.000000 -28.292299 -7.410001" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb02_aban2_red" lootmax="2">
@@ -17420,6 +17447,9 @@
 						<proxy type="Hatchback_02_Door_1_2_RedRust" pos="1.002 0.078 -0.987" rpy="0.0 210.0 0.0" />
 						<proxy type="Hatchback_02_Door_2_1_RedRust" pos="-0.057 -0.060 1.132" rpy="0.0 140.0 0.0" />
 						<proxy type="Hatchback_02_Hood_RedRust" pos="-0.433 0.269 0.02" rpy="0.0 180.0 0.0" />
+						<proxy type="MassiveMod_SparkPlug" pos="-1.115234 0.118286 0.239746" rpy="0.000000 0.000000 -20.299999" />
+						<proxy type="MassiveMod_CarRadiator" pos="-1.565430 -0.363739 0.039551" rpy="0.000000 0.000000 0.000000" />
+						<proxy type="MassiveMod_CarBattery" pos="-1.445313 -0.030731 -0.480469" rpy="0.000000 179.999802 -0.000000" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb02_aban2_black" lootmax="2">
@@ -17449,6 +17479,9 @@
 						<proxy type="Hatchback_02_Door_1_2_BlackRust" pos="1.002 0.078 -0.987" rpy="0.0 210.0 0.0" />
 						<proxy type="Hatchback_02_Door_2_1_BlackRust" pos="-0.057 -0.060 1.132" rpy="0.0 140.0 0.0" />
 						<proxy type="Hatchback_02_Hood_BlackRust" pos="-0.433 0.269 0.02" rpy="0.0 180.0 0.0" />
+						<proxy type="MassiveMod_SparkPlug" pos="-1.115234 0.118286 0.239746" rpy="0.000000 0.000000 -20.299999" />
+						<proxy type="MassiveMod_CarRadiator" pos="-1.565430 -0.363739 0.039551" rpy="0.000000 0.000000 0.000000" />
+						<proxy type="MassiveMod_CarBattery" pos="-1.445313 -0.030731 -0.480469" rpy="0.000000 179.999802 -0.000000" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb02_aban2_blue" lootmax="2">
@@ -17478,6 +17511,9 @@
 						<proxy type="Hatchback_02_Door_1_2_BlueRust" pos="1.002 0.078 -0.987" rpy="0.0 210.0 0.0" />
 						<proxy type="Hatchback_02_Door_2_1_BlueRust" pos="-0.057 -0.060 1.132" rpy="0.0 140.0 0.0" />
 						<proxy type="Hatchback_02_Hood_BlueRust" pos="-0.433 0.269 0.02" rpy="0.0 180.0 0.0" />
+						<proxy type="MassiveMod_SparkPlug" pos="-1.115234 0.118286 0.239746" rpy="0.000000 0.000000 -20.299999" />
+						<proxy type="MassiveMod_CarRadiator" pos="-1.565430 -0.363739 0.039551" rpy="0.000000 0.000000 0.000000" />
+						<proxy type="MassiveMod_CarBattery" pos="-1.445313 -0.030731 -0.480469" rpy="0.000000 179.999802 -0.000000" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_sed01_aban1_white" lootmax="2">
@@ -19207,6 +19243,9 @@
                         <proxy type="HatchbackWheel" pos="1.071 -0.736000 -0.852" rpy="90.0 0.0 0.0" />
                         <proxy type="HatchbackDoors_Driver_BlueRust" pos="-0.273 -0.182000 -1.374" rpy="0.0 240.0 0.0" />
                         <proxy type="HatchbackTrunk_BlueRust" pos="1.726 0.304000 -0.05" rpy="20.0 180.0 0.0" />
+						<proxy type="MassiveMod_CarRadiator" pos="-1.782227 -0.647735 -0.022949" rpy="-0.000000 1.799999 -0.000000" />
+						<proxy type="MassiveMod_CarBattery" pos="-0.969727 -0.246032 0.562012" rpy="0.000000 -90.000038 0.000000" />
+						<proxy type="MassiveMod_SparkPlug" pos="-1.282227 -0.148712 0.187012" rpy="0.000000 0.000000 -0.000000" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb01_aban1_green_DE" lootmax="2">
@@ -19234,6 +19273,9 @@
                         <proxy type="HatchbackWheel" pos="1.071 -0.736000 -0.852" rpy="90.0 0.0 0.0" />
                         <proxy type="HatchbackDoors_Driver_GreenRust" pos="-0.273 -0.182000 -1.374" rpy="0.0 240.0 0.0" />
                         <proxy type="HatchbackTrunk_GreenRust" pos="1.726 0.304000 -0.05" rpy="20.0 180.0 0.0" />
+						<proxy type="MassiveMod_CarRadiator" pos="-1.782227 -0.647735 -0.022949" rpy="-0.000000 1.799999 -0.000000" />
+						<proxy type="MassiveMod_CarBattery" pos="-0.969727 -0.246032 0.562012" rpy="0.000000 -90.000038 0.000000" />
+						<proxy type="MassiveMod_SparkPlug" pos="-1.282227 -0.148712 0.187012" rpy="0.000000 0.000000 -0.000000" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb01_aban1_white_DE" lootmax="2">
@@ -19260,6 +19302,9 @@
                         <proxy type="HatchbackWheel" pos="1.071 -0.736000 -0.852" rpy="90.0 0.0 0.0" />
                         <proxy type="HatchbackDoors_Driver_WhiteRust" pos="-0.273 -0.182000 -1.374" rpy="0.0 240.0 0.0" />
                         <proxy type="HatchbackTrunk_WhiteRust" pos="1.726 0.304000 -0.05" rpy="20.0 180.0 0.0" />
+						<proxy type="MassiveMod_CarRadiator" pos="-1.782227 -0.647735 -0.022949" rpy="-0.000000 1.799999 -0.000000" />
+						<proxy type="MassiveMod_CarBattery" pos="-0.969727 -0.246032 0.562012" rpy="0.000000 -90.000038 0.000000" />
+						<proxy type="MassiveMod_SparkPlug" pos="-1.282227 -0.148712 0.187012" rpy="0.000000 0.000000 -0.000000" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb01_aban2_blue_DE" lootmax="2">
@@ -19286,6 +19331,9 @@
 						<proxy type="HatchbackWheel" pos="0.999 -0.508 0.896" rpy="90.0 180.0 0.0" />
 						<proxy type="HatchbackDoors_CoDriver_BlueRust" pos="-0.35 -0.01 1.340" rpy="0.0 -240.0 0.0" />
 						<proxy type="HatchbackHood_BlueRust" pos="-1.451 0.095 0.05" rpy="1.0 180.0 0.0" />
+						<proxy type="MassiveMod_CarRadiator" pos="-1.823242 -0.503296 0.097657" rpy="0.000000 0.000000 -0.000000" />
+						<proxy type="MassiveMod_CarBattery" pos="-1.033203 -0.026764 0.646485" rpy="0.000000 -90.000000 -0.000000" />
+						<proxy type="MassiveMod_SparkPlug" pos="-1.323242 0.032989 0.291016" rpy="0.000000 0.000000 -0.000000" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb01_aban2_green_DE" lootmax="2">
@@ -19313,6 +19361,9 @@
 						<proxy type="HatchbackWheel" pos="0.999 -0.508 0.896" rpy="90.0 180.0 0.0" />
 						<proxy type="HatchbackDoors_CoDriver_GreenRust" pos="-0.35 -0.01 1.340" rpy="0.0 -240.0 0.0" />
 						<proxy type="HatchbackHood_GreenRust" pos="-1.451 0.095 0.05" rpy="1.0 180.0 0.0" />
+						<proxy type="MassiveMod_CarRadiator" pos="-1.823242 -0.503296 0.097657" rpy="0.000000 0.000000 -0.000000" />
+						<proxy type="MassiveMod_CarBattery" pos="-1.033203 -0.026764 0.646485" rpy="0.000000 -90.000000 -0.000000" />
+						<proxy type="MassiveMod_SparkPlug" pos="-1.323242 0.032989 0.291016" rpy="0.000000 0.000000 -0.000000" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb01_aban2_white_DE" lootmax="2">
@@ -19339,6 +19390,9 @@
 						<proxy type="HatchbackWheel" pos="0.999 -0.508 0.896" rpy="90.0 180.0 0.0" />
 						<proxy type="HatchbackDoors_CoDriver_WhiteRust" pos="-0.35 -0.01 1.340" rpy="0.0 -240.0 0.0" />
 						<proxy type="HatchbackHood_WhiteRust" pos="-1.451 0.095 0.05" rpy="1.0 180.0 0.0" />
+						<proxy type="MassiveMod_CarRadiator" pos="-1.823242 -0.503296 0.097657" rpy="0.000000 0.000000 -0.000000" />
+						<proxy type="MassiveMod_CarBattery" pos="-1.033203 -0.026764 0.646485" rpy="0.000000 -90.000000 -0.000000" />
+						<proxy type="MassiveMod_SparkPlug" pos="-1.323242 0.032989 0.291016" rpy="0.000000 0.000000 -0.000000" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb02_aban1_red_DE" lootmax="2">
@@ -19366,6 +19420,9 @@
 						<proxy type="Hatchback_02_Door_1_1_RedRust" pos="-0.271 -0.093 -1.024" rpy="0.0 200.0 0.0" />
 						<proxy type="Hatchback_02_Door_2_2_RedRust" pos="0.683 0.025 0.909" rpy="0.0 150.0 0.0" />
 						<proxy type="Hatchback_02_Trunk_RedRust" pos="1.284 0.712 -0.10" rpy="0.0 180.0 0.0" />
+						<proxy type="MassiveMod_CarRadiator" pos="-1.824219 -0.444488 -0.061523" rpy="0.000000 0.000000 0.000000" />
+						<proxy type="MassiveMod_CarBattery" pos="-1.723633 -0.173462 -0.611328" rpy="0.000000 180.000000 -0.000000" />
+						<proxy type="MassiveMod_SparkPlug" pos="-1.381836 0.057526 0.094239" rpy="0.000000 -28.292299 -7.410001" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb02_aban1_black_DE" lootmax="2">
@@ -19393,6 +19450,9 @@
 						<proxy type="Hatchback_02_Door_1_1_BlackRust" pos="-0.271 -0.093 -1.024" rpy="0.0 200.0 0.0" />
 						<proxy type="Hatchback_02_Door_2_2_BlackRust" pos="0.683 0.025 0.909" rpy="0.0 150.0 0.0" />
 						<proxy type="Hatchback_02_Trunk_BlackRust" pos="1.284 0.712 -0.10" rpy="0.0 180.0 0.0" />
+						<proxy type="MassiveMod_CarRadiator" pos="-1.824219 -0.444488 -0.061523" rpy="0.000000 0.000000 0.000000" />
+						<proxy type="MassiveMod_CarBattery" pos="-1.723633 -0.173462 -0.611328" rpy="0.000000 180.000000 -0.000000" />
+						<proxy type="MassiveMod_SparkPlug" pos="-1.381836 0.057526 0.094239" rpy="0.000000 -28.292299 -7.410001" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb02_aban1_blue_DE" lootmax="2">
@@ -19420,6 +19480,9 @@
 						<proxy type="Hatchback_02_Door_1_1_BlueRust" pos="-0.271 -0.093 -1.024" rpy="0.0 200.0 0.0" />
 						<proxy type="Hatchback_02_Door_2_2_BlueRust" pos="0.683 0.025 0.909" rpy="0.0 150.0 0.0" />
 						<proxy type="Hatchback_02_Trunk_BlueRust" pos="1.284 0.712 -0.10" rpy="0.0 180.0 0.0" />
+						<proxy type="MassiveMod_CarRadiator" pos="-1.824219 -0.444488 -0.061523" rpy="0.000000 0.000000 0.000000" />
+						<proxy type="MassiveMod_CarBattery" pos="-1.723633 -0.173462 -0.611328" rpy="0.000000 180.000000 -0.000000" />
+						<proxy type="MassiveMod_SparkPlug" pos="-1.381836 0.057526 0.094239" rpy="0.000000 -28.292299 -7.410001" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb02_aban2_red_DE" lootmax="2">
@@ -19449,6 +19512,9 @@
 						<proxy type="Hatchback_02_Door_1_2_RedRust" pos="1.002 0.078 -0.987" rpy="0.0 210.0 0.0" />
 						<proxy type="Hatchback_02_Door_2_1_RedRust" pos="-0.057 -0.060 1.132" rpy="0.0 140.0 0.0" />
 						<proxy type="Hatchback_02_Hood_RedRust" pos="-0.433 0.269 0.02" rpy="0.0 180.0 0.0" />
+						<proxy type="MassiveMod_SparkPlug" pos="-1.115234 0.118286 0.239746" rpy="0.000000 0.000000 -20.299999" />
+						<proxy type="MassiveMod_CarRadiator" pos="-1.565430 -0.363739 0.039551" rpy="0.000000 0.000000 0.000000" />
+						<proxy type="MassiveMod_CarBattery" pos="-1.445313 -0.030731 -0.480469" rpy="0.000000 179.999802 -0.000000" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb02_aban2_black_DE" lootmax="2">
@@ -19478,6 +19544,9 @@
 						<proxy type="Hatchback_02_Door_1_2_BlackRust" pos="1.002 0.078 -0.987" rpy="0.0 210.0 0.0" />
 						<proxy type="Hatchback_02_Door_2_1_BlackRust" pos="-0.057 -0.060 1.132" rpy="0.0 140.0 0.0" />
 						<proxy type="Hatchback_02_Hood_BlackRust" pos="-0.433 0.269 0.02" rpy="0.0 180.0 0.0" />
+						<proxy type="MassiveMod_SparkPlug" pos="-1.115234 0.118286 0.239746" rpy="0.000000 0.000000 -20.299999" />
+						<proxy type="MassiveMod_CarRadiator" pos="-1.565430 -0.363739 0.039551" rpy="0.000000 0.000000 0.000000" />
+						<proxy type="MassiveMod_CarBattery" pos="-1.445313 -0.030731 -0.480469" rpy="0.000000 179.999802 -0.000000" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb01_aban1_police_DE" lootmax="4">
@@ -19497,6 +19566,11 @@
 						<point pos="-2.347648 -1.273956 0.213771" range="0.650000" height="1.625000" flags="32" />
 						<point pos="1.553578 -0.305939 -0.257805" range="0.203125" height="0.507813" />
 				</container>
+				<dispatch>
+						<proxy type="MassiveMod_SparkPlug" pos="-1.115234 0.118286 0.239746" rpy="0.000000 0.000000 -20.299999" />
+						<proxy type="MassiveMod_CarRadiator" pos="-1.565430 -0.363739 0.039551" rpy="0.000000 0.000000 0.000000" />
+						<proxy type="MassiveMod_CarBattery" pos="-1.445313 -0.030731 -0.480469" rpy="0.000000 179.999802 -0.000000" />
+				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb01_aban2_police_DE" lootmax="4">
 				<usage name="Police" />
@@ -19514,6 +19588,11 @@
 						<point pos="2.244192 -0.895828 -0.003533" range="0.615625" height="1.539063" flags="32" />
 						<point pos="-0.129650 -0.169647 -0.330082" range="0.234375" height="0.585937" />
 				</container>
+				<dispatch>
+						<proxy type="MassiveMod_CarRadiator" pos="-1.823242 -0.503296 0.097657" rpy="0.000000 0.000000 -0.000000" />
+						<proxy type="MassiveMod_CarBattery" pos="-1.033203 -0.026764 0.646485" rpy="0.000000 -90.000000 -0.000000" />
+						<proxy type="MassiveMod_SparkPlug" pos="-1.323242 0.032989 0.291016" rpy="0.000000 0.000000 -0.000000" />
+				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb02_aban2_blue_DE" lootmax="2">
 				<usage name="Village" />
@@ -19542,6 +19621,9 @@
 						<proxy type="Hatchback_02_Door_1_2_BlueRust" pos="1.002 0.078 -0.987" rpy="0.0 210.0 0.0" />
 						<proxy type="Hatchback_02_Door_2_1_BlueRust" pos="-0.057 -0.060 1.132" rpy="0.0 140.0 0.0" />
 						<proxy type="Hatchback_02_Hood_BlueRust" pos="-0.433 0.269 0.02" rpy="0.0 180.0 0.0" />
+						<proxy type="MassiveMod_SparkPlug" pos="-1.115234 0.118286 0.239746" rpy="0.000000 0.000000 -20.299999" />
+						<proxy type="MassiveMod_CarRadiator" pos="-1.565430 -0.363739 0.039551" rpy="0.000000 0.000000 0.000000" />
+						<proxy type="MassiveMod_CarBattery" pos="-1.445313 -0.030731 -0.480469" rpy="0.000000 179.999802 -0.000000" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_sed01_aban1_white_DE" lootmax="2">

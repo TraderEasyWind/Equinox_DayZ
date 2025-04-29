@@ -18,24 +18,26 @@ modded class PluginRecipesManager
 		RegisterRecipe(new CraftUnfinishedExplosives);
 		RegisterRecipe(new CraftUnwiredExplosives);
 		RegisterRecipe(new CraftwiredExplosives);
-		/*
+        RegisterRecipe(new MassiveMod_RepairHighEnd);
+        RegisterRecipe(new MassiveMod_RepairRifle);
+        RegisterRecipe(new MassiveMod_RepairPistol);
+		RegisterRecipe(new MassiveMod_AdminRepair);
+		RegisterRecipe(new MassiveMod_CraftArmbandFlag);
+		RegisterRecipe(new MassiveMod_CraftArmbandRaincoat);
+	/*
         RegisterRecipe(new MassiveMod_PistolScrapping);
         RegisterRecipe(new MassiveMod_RifleScrapping);
         RegisterRecipe(new MassiveMod_HighEndScrapping);
         RegisterRecipe(new MassiveMod_HighEndRepairKit);
 		RegisterRecipe(new MassiveMod_RifleRepairKit);
 		RegisterRecipe(new MassiveMod_PistolRepairKit);
-        RegisterRecipe(new MassiveMod_RepairHighEnd);
-        RegisterRecipe(new MassiveMod_RepairRifle);
-        RegisterRecipe(new MassiveMod_RepairPistol);
-		*/
-		RegisterRecipe(new MassiveMod_AdminRepair);
-     // RegisterRecipe(new StackCrates);	
-     // RegisterRecipe(new StackCrates2);		
-     // RegisterRecipe(new StackCrates3);	
-     // RegisterRecipe(new DeStackCrates3);
-     // RegisterRecipe(new DeStackCrates2);
-     // RegisterRecipe(new DeStackCrates1);
+		RegisterRecipe(new StackCrates);	
+		RegisterRecipe(new StackCrates2);		
+		RegisterRecipe(new StackCrates3);	
+		RegisterRecipe(new DeStackCrates3);
+		RegisterRecipe(new DeStackCrates2);
+		RegisterRecipe(new DeStackCrates1);
+	*/
 		RegisterRecipe(new UnpackIrishDMPCamo);
 		RegisterRecipe(new UnpackSwedenM90Camo);	
 		RegisterRecipe(new UnpackThailandUrbanCamo);	
