@@ -7,10 +7,10 @@
 	</type>
 	<!-- Colored pens -->
 	<type name="Pen_Black">
-        <nominal>30</nominal>
+        <nominal>50</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>30</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -22,10 +22,10 @@
 		<usage name="School"/>
     </type>
     <type name="Pen_Blue">
-        <nominal>30</nominal>
+        <nominal>50</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>30</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -37,10 +37,10 @@
 		<usage name="School"/>
     </type>
     <type name="Pen_Green">
-        <nominal>30</nominal>
+        <nominal>50</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>30</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -52,10 +52,10 @@
 		<usage name="School"/>
     </type>
     <type name="Pen_Red">
-        <nominal>30</nominal>
+        <nominal>50</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>30</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -66,10 +66,10 @@
         <usage name="Office"/>
     </type>
 	<type name="Pen_Pink">
-        <nominal>30</nominal>
+        <nominal>50</nominal>
         <lifetime>28800</lifetime>
         <restock>86400</restock>
-        <min>1</min>
+        <min>30</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -81,10 +81,10 @@
 		<usage name="School"/>
     </type>
 	<type name="Pen_Purple">
-        <nominal>30</nominal>
+        <nominal>50</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>30</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -95,10 +95,10 @@
 		<usage name="School"/>
     </type>
 	<type name="Pen_Orange">
-        <nominal>30</nominal>
+        <nominal>50</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>30</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>

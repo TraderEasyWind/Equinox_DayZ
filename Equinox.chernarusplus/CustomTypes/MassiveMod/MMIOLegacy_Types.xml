@@ -118,7 +118,7 @@
         <usage name="Tenement"/>
     </type>
 	<type name="MassiveMod_CoyoteBPUrban">
-        <nominal>1</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>1200</restock>
         <min>1</min>
@@ -132,7 +132,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="MassiveMod_brownhuntingbp">
-        <nominal>1</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>1200</restock>
         <min>1</min>
@@ -148,7 +148,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="MassiveMod_blackhuntingbp">
-        <nominal>1</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>1200</restock>
         <min>1</min>
@@ -164,7 +164,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="MassiveMod_WinterHuntingbp">
-        <nominal>1</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>1200</restock>
         <min>1</min>
@@ -193,7 +193,19 @@
         <usage name="Tenement"/>
     </type>
 	<type name="MassiveMod_GDShirt">
-        <nominal>3</nominal>
+        <nominal>10</nominal>
+        <lifetime>14400</lifetime>
+        <restock>600</restock>
+        <min>6</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="clothes"/>
+        <usage name="School"/>
+    </type>
+    <type name="MassiveMod_GokuShirt">
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -204,23 +216,11 @@
         <category name="clothes"/>
         <usage name="School"/>
     </type>
-    <type name="MassiveMod_GokuShirt">
-        <nominal>2</nominal>
-        <lifetime>14400</lifetime>
-        <restock>600</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <usage name="School"/>
-    </type>
 	<type name="MassiveMod_BlackJacket">
-        <nominal>10</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>3</min>
+        <min>6</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -231,10 +231,10 @@
         <usage name="Tenement"/>
     </type>
 	<type name="MassiveMod_BeigeJacket">
-        <nominal>10</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>3</min>
+        <min>6</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -272,10 +272,10 @@
 		<usage name="Town"/>
     </type>
 	<type name="MassiveMod_ParamedicJacket_LivBlack">
-        <nominal>2</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -284,10 +284,10 @@
         <usage name="Medic"/>
     </type>
 	<type name="MassiveMod_ParamedicPants_LivBlack">
-        <nominal>2</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -335,10 +335,10 @@
         <usage name="Tenement"/>
     </type>
 	<type name="MassiveMod_SM90WPants">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -348,10 +348,10 @@
         <usage name="Tenement"/>
     </type>
 	<type name="MassiveMod_SM90WTop">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -361,10 +361,10 @@
         <usage name="Tenement"/>
     </type>
 	<type name="MassiveMod_SM90Pants">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -374,10 +374,10 @@
         <usage name="Tenement"/>
     </type>
 	<type name="MassiveMod_SM90Top">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -387,10 +387,10 @@
         <usage name="Tenement"/>
     </type>
 	<type name="MassiveMod_TropicamPants">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -400,10 +400,10 @@
         <usage name="Tenement"/>
     </type>
 	<type name="MassiveMod_TropicamTop">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -413,10 +413,10 @@
         <usage name="Tenement"/>
     </type>
 	<type name="MassiveMod_woodlandcargopants">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -426,10 +426,10 @@
         <usage name="Tenement"/>
     </type>
 	<type name="MassiveMod_woodlandcamosweater">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -439,10 +439,10 @@
         <usage name="Tenement"/>
     </type>
 	<type name="MassiveMod_Urbancamocargopants">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -452,10 +452,10 @@
         <usage name="Tenement"/>
     </type>
 	<type name="MassiveMod_urbancamom65">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -491,10 +491,10 @@
         <usage name="Tenement"/>
     </type>
 	<type name="MassiveMod_orelpantsgreen">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -503,10 +503,10 @@
         <usage name="Police"/>
     </type>
 	<type name="MassiveMod_OrelTopgreen">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -515,10 +515,10 @@
         <usage name="Police"/>
     </type>
 	<type name="MassiveMod_woodlandcamovest">
-        <nominal>2</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>1200</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -527,10 +527,10 @@
         <usage name="Military"/>
     </type>
 	<type name="MassiveMod_PressVestBlack">
-        <nominal>2</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>1</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
