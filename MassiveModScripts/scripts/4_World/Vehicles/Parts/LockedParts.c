@@ -199,7 +199,7 @@ class MassiveMod_UnlockVehiclePart extends RecipeBase
 
 		InsertIngredient(1, "Wrench");
 		m_MinDamageIngredient[1] = -1;
-		m_MaxDamageIngredient[1] = 3;
+		m_MaxDamageIngredient[1] = 10;
 		m_MinQuantityIngredient[1] = -1;
 		m_MaxQuantityIngredient[1] = -1;
 		m_IngredientAddHealth[1] = -5;
