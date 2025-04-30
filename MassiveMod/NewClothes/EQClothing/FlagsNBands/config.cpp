@@ -385,6 +385,132 @@ class CfgVehicles
 			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Rough_Riders_flag.paa"
 		};
 	};
+	class Armband_NRPS: Armband_ColorBase
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="Purple Sage";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\NRPS_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\NRPS_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\NRPS_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\NRPS_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\NRPS_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\NRPS_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\NRPS_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\NRPS_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\NRPS_flag.paa"
+		};
+	};
+	class Armband_Renegades: Armband_ColorBase
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="Renegades";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Renegades_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Renegades_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Renegades_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Renegades_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Renegades_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Renegades_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Renegades_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Renegades_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Renegades_flag.paa"
+		};
+	};
+	class Armband_SCCollective: Armband_ColorBase
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="Collective";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\SCCollective_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\SCCollective_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\SCCollective_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\SCCollective_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\SCCollective_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\SCCollective_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\SCCollective_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\SCCollective_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\SCCollective_flag.paa"
+		};
+	};
+	class Armband_Afirma: Armband_ColorBase
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="Afirma";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\afirma_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\afirma_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\afirma_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\afirma_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\afirma_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\afirma_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\afirma_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\afirma_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\afirma_flag.paa"
+		};
+	};
+	class Armband_GOK2: Armband_ColorBase
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="GOK New";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\GoK2_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\GoK2_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\GoK2_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\GoK2_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\GoK2_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\GoK2_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\GoK2_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\GoK2_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\GoK2_flag.paa"
+		};
+	};
+	class Armband_JusticeLeague: Armband_ColorBase
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="Justice League";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\JusticeLeague_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\JusticeLeague_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\JusticeLeague_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\JusticeLeague_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\JusticeLeague_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\JusticeLeague_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\JusticeLeague_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\JusticeLeague_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\JusticeLeague_flag.paa"
+		};
+	};
+	class Armband_Mogilevka: Armband_ColorBase
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="Mogilevka";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Mogilevka_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Mogilevka_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Mogilevka_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Mogilevka_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Mogilevka_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Mogilevka_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Mogilevka_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Mogilevka_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Mogilevka_flag.paa"
+		};
+	};
 	class flag_base;
 	class flag_cmf: flag_base
 	{
@@ -708,6 +834,132 @@ class CfgVehicles
 			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Rough_Riders_flag.paa",
 			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Rough_Riders_flag.paa",
 			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Rough_Riders_flag.paa"
+		};
+	};
+	class flag_NRPS: flag_base
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="Purple Sage";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\NRPS_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\NRPS_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\NRPS_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\NRPS_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\NRPS_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\NRPS_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\NRPS_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\NRPS_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\NRPS_flag.paa"
+		};
+	};
+	class flag_Renegades: flag_base
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="Renegades";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Renegades_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Renegades_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Renegades_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Renegades_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Renegades_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Renegades_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Renegades_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Renegades_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Renegades_flag.paa"
+		};
+	};
+	class flag_SCCollective: flag_base
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="Collective";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\SCCollective_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\SCCollective_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\SCCollective_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\SCCollective_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\SCCollective_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\SCCollective_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\SCCollective_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\SCCollective_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\SCCollective_flag.paa"
+		};
+	};
+	class flag_Afirma: flag_base
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="Afirma";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\afirma_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\afirma_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\afirma_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\afirma_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\afirma_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\afirma_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\afirma_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\afirma_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\afirma_flag.paa"
+		};
+	};
+	class flag_GOK2: flag_base
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="GOK New";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\GoK2_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\GoK2_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\GoK2_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\GoK2_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\GoK2_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\GoK2_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\GoK2_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\GoK2_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\GoK2_flag.paa"
+		};
+	};
+	class flag_JusticeLeague: flag_base
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="Justice League";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\JusticeLeague_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\JusticeLeague_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\JusticeLeague_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\JusticeLeague_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\JusticeLeague_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\JusticeLeague_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\JusticeLeague_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\JusticeLeague_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\JusticeLeague_flag.paa"
+		};
+	};
+	class flag_Mogilevka: flag_base
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="Mogilevka";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Mogilevka_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Mogilevka_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Mogilevka_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Mogilevka_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Mogilevka_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Mogilevka_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Mogilevka_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Mogilevka_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Mogilevka_flag.paa"
 		};
 	};
 };
