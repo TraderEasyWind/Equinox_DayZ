@@ -1,10 +1,10 @@
 {
     "ModUpdateVersion_Do_Not_Change": 4,
     "Explanation_Of_Item_List": "A list of all possible loot to spawn and the min/max health of the item and the min/max item count for each category. It is possible to spawn duplicates of the same items. Any item can be added to any category, items do not have to match the category type except for the enemy entity list. The spawned loot uses the cfgspawnabletypes.xml to determine attachments/cargo on spawn. Setting minimum to 0 has a chance to spawn nothing from that category or set both min/max to 0 to disable.",
-    "Minimum_Health_Of_Weapons_To_Spawn": 0.25,
+    "Minimum_Health_Of_Weapons_To_Spawn": 0.50,
     "Maximum_Health_Of_Weapons_To_Spawn": 1.0,
     "Minimum_Amount_Of_Weapons_To_Spawn": 0,
-    "Maximum_Amount_Of_Weapons_To_Spawn": 2,
+    "Maximum_Amount_Of_Weapons_To_Spawn": 3,
     "WEAPON_LIST": [
         "SV98",
         "M14",
@@ -46,7 +46,7 @@
 
 
     ],
-    "Minimum_Health_Of_Clothing_To_Spawn": 0.25,
+    "Minimum_Health_Of_Clothing_To_Spawn": 0.50,
     "Maximum_Health_Of_Clothing_To_Spawn": 1.0,
     "Minimum_Amount_Of_Clothing_To_Spawn": 0,
     "Maximum_Amount_Of_Clothing_To_Spawn": 2,
@@ -65,14 +65,17 @@
         "OMKPants_Navy",
         "OMKJacket_Navy",
         "MilitaryBoots_Black",
-        "MilitaryBelt"
-       ,"MassLightRatnik"
-       ,"MassLightRatnik_Desert"
-		 ,"MassLightRatnik_Black"
-		 ,"MassLightRatnik_Olive"
+        "MilitaryBelt",
+        "MassLightRatnik",
+        "MassLightRatnik_Desert",
+		  "MassLightRatnik_Black",
+		  "MassLightRatnik_Olive",
+		  "Defender_Vest_Classic",
+        "Defender_Vest_Black",
+        "Defender_Vest_Green"
 
     ],
-    "Minimum_Health_Of_Magazines_To_Spawn": 0.25,
+    "Minimum_Health_Of_Magazines_To_Spawn": 0.50,
     "Maximum_Health_Of_Magazines_To_Spawn": 1.0,
     "Minimum_Amount_Of_Magazines_To_Spawn": 0,
     "Maximum_Amount_Of_Magazines_To_Spawn": 3,
@@ -115,32 +118,35 @@
        ,"Mass_SPAS12"Mass_Mag_Coonan_7Rnd"
        ,"Mass_Mag_M24_5Rnd"
     ],
-    "Minimum_Health_Of_Ammo_To_Spawn": 0.25,
+    "Minimum_Health_Of_Ammo_To_Spawn": 0.50,
     "Maximum_Health_Of_Ammo_To_Spawn": 1.0,
     "Minimum_Amount_Of_Ammo_To_Spawn": 1,
     "Maximum_Amount_Of_Ammo_To_Spawn": 4,
     "AMMO_LIST": [
-        "Ammo_762x54",
-        "Ammo_762x54Tracer",
-        "Ammo_308Win",
-        "Ammo_308WinTracer",
-        "Ammo_545x39",
-        "Ammo_545x39Tracer",
-        "Ammo_556x45",
-        "Ammo_556x45Tracer",
-        "Ammo_762x39",
-        "Ammo_762x39Tracer",
-        "Ammo_9x39",
-        "Ammo_9x39AP",
         "Ammo_40mm_Explosive",
         "Ammo_40mm_ChemGas",
 		  "AmmoBox_FN57x28_40rnd",
-		  "AmmoBox_HK_46x30_40rnd"
-		 ,"Ammo_408Chey"
-       ,"AmmoBox_338Mass"
-       ,"AmmoBox_408Chey"
+		  "AmmoBox_HK_46x30_40rnd",
+		  "Ammo_408Chey",
+        "AmmoBox_338Mass",
+        "AmmoBox_408Chey",
+        "AmmoBox_308WinTracer_20Rnd",
+		  "AmmoBox_308Win_20Rnd",
+		  "AmmoBox_357_20Rnd",
+		  "AmmoBox_545x39Tracer_20Rnd",
+		  "AmmoBox_545x39_20Rnd",
+		  "AmmoBox_556x45Tracer_20Rnd",
+		  "AmmoBox_556x45_20Rnd",
+		  "AmmoBox_762x39Tracer_20Rnd",
+		  "AmmoBox_762x39_20Rnd",
+		  "AmmoBox_762x54Tracer_20Rnd",
+		  "AmmoBox_9x39AP_20Rnd",
+		  "AmmoBox_9x39_20Rnd",
+		  "AmmoBox_556x45AP_20Rnd",
+        "AmmoBox_545x39AP_20Rnd",
+        "AmmoBox_762x39AP_20Rnd"
     ],
-    "Minimum_Health_Of_Medicine_To_Spawn": 0.25,
+    "Minimum_Health_Of_Medicine_To_Spawn": 0.50,
     "Maximum_Health_Of_Medicine_To_Spawn": 1.0,
     "Minimum_Amount_Of_Medicine_To_Spawn": 1,
     "Maximum_Amount_Of_Medicine_To_Spawn": 3,
@@ -166,7 +172,7 @@
        ,"Mass_IFAK_BLACK
        ,"Mass_IFAK_PartizanM"
     ],
-    "Minimum_Health_Of_Food_To_Spawn": 0.25,
+    "Minimum_Health_Of_Food_To_Spawn": 0.50,
     "Maximum_Health_Of_Food_To_Spawn": 1.0,
     "Minimum_Amount_Of_Food_To_Spawn": 1,
     "Maximum_Amount_Of_Food_To_Spawn": 3,
@@ -179,10 +185,10 @@
         "BrisketSpread",
         "Crackers"
     ],
-    "Minimum_Health_Of_Rare_Items_To_Spawn": 0.25,
+    "Minimum_Health_Of_Rare_Items_To_Spawn": 0.50,
     "Maximum_Health_Of_Rare_Items_To_Spawn": 1.0,
-    "Minimum_Amount_Of_Rare_Items_To_Spawn": 0,
-    "Maximum_Amount_Of_Rare_Items_To_Spawn": 1,
+    "Minimum_Amount_Of_Rare_Items_To_Spawn": 1,
+    "Maximum_Amount_Of_Rare_Items_To_Spawn": 3,
     "RARE_ITEM_LIST": [
         "NVGHeadstrap",
         "Headtorch_Grey",
