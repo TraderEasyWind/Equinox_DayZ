@@ -10948,7 +10948,7 @@
         <category name="food"/>
     </type>
     <type name="LandMineTrap">
-        <nominal>4</nominal>
+        <nominal>10</nominal>
         <lifetime>604800</lifetime>
         <restock>28800</restock>
         <min>2</min>
