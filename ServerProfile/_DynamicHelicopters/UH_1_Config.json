@@ -20,7 +20,31 @@
         "VSS",
         "ASVAL",
         "Vikhr",
-        "M79"
+        "M79",
+        "JD_Groza",
+		  "JD_Groza_762",
+		  "JD_M249",
+		  "JD_CZ_EVO3A1",
+		  "JD_CZ_EVO3A1_Grey",
+		  "JD_MP7",
+		  "JD_P90"
+       ,"MassB52"
+        "MassM110
+       ,"MassType81"
+       ,"MassM16"
+       ,"MassPKA"
+       ,"Massm24"
+       ,"MassAR15DMR"
+       ,"Mass_AN94"
+       ,"Mass_HK416"
+       ,"Mass_RugerPrecision"
+       ,"Mass_SVU"
+       ,"Mass_AK9"
+       ,"Mass_ASVAL"
+       ,"Mass_SLR106"
+       ,"MassM417"
+
+
     ],
     "Minimum_Health_Of_Clothing_To_Spawn": 0.25,
     "Maximum_Health_Of_Clothing_To_Spawn": 1.0,
@@ -42,6 +66,11 @@
         "OMKJacket_Navy",
         "MilitaryBoots_Black",
         "MilitaryBelt"
+       ,"MassLightRatnik"
+       ,"MassLightRatnik_Desert"
+		 ,"MassLightRatnik_Black"
+		 ,"MassLightRatnik_Olive"
+
     ],
     "Minimum_Health_Of_Magazines_To_Spawn": 0.25,
     "Maximum_Health_Of_Magazines_To_Spawn": 1.0,
@@ -69,7 +98,22 @@
         "Mag_SVD_10Rnd",
         "Mag_VSS_10Rnd",
         "Mag_VAL_20Rnd",
-        "Mag_Vikhr_30Rnd"
+        "Mag_Vikhr_30Rnd",
+		  "JD_Mag_Groza_20Rnd",
+		  "JD_Mag_M249_Box200Rnd",
+		  "JD_CZ_Mag_EVO_35rnd",
+		  "JD_Mag_MP7_40Rnd",
+		  "JD_Mag_P90_50Rnd",
+		  "Mass_Mag_Kivaari_10Rnd"
+       ,"Mass_Mag_RugerPrecision_10Rnd"
+       ,"Mass_Mag_PKM_100Rnd"
+       ,"Mass_Mag_M98B_7Rnd"
+       ,"Mass_Mag_M300_7Rnd",
+       ,"Mass_Mag_M417_20Rnd"
+       ,"Mass_Mag_9x39Palm_30Rnd"
+       ,"Mag_CMAG_10Rnd_Black"
+       ,"Mass_SPAS12"Mass_Mag_Coonan_7Rnd"
+       ,"Mass_Mag_M24_5Rnd"
     ],
     "Minimum_Health_Of_Ammo_To_Spawn": 0.25,
     "Maximum_Health_Of_Ammo_To_Spawn": 1.0,
@@ -89,7 +133,12 @@
         "Ammo_9x39",
         "Ammo_9x39AP",
         "Ammo_40mm_Explosive",
-        "Ammo_40mm_ChemGas"
+        "Ammo_40mm_ChemGas",
+		  "AmmoBox_FN57x28_40rnd",
+		  "AmmoBox_HK_46x30_40rnd"
+		 ,"Ammo_408Chey"
+       ,"AmmoBox_338Mass"
+       ,"AmmoBox_408Chey"
     ],
     "Minimum_Health_Of_Medicine_To_Spawn": 0.25,
     "Maximum_Health_Of_Medicine_To_Spawn": 1.0,
@@ -113,6 +162,9 @@
         "StartKitIV",
         "BloodBagEmpty",
         "BloodTestKit"
+       ,"Mass_IFAK_TAN"
+       ,"Mass_IFAK_BLACK
+       ,"Mass_IFAK_PartizanM"
     ],
     "Minimum_Health_Of_Food_To_Spawn": 0.25,
     "Maximum_Health_Of_Food_To_Spawn": 1.0,
@@ -132,14 +184,47 @@
     "Minimum_Amount_Of_Rare_Items_To_Spawn": 0,
     "Maximum_Amount_Of_Rare_Items_To_Spawn": 1,
     "RARE_ITEM_LIST": [
-        "NVGoggles",
         "NVGHeadstrap",
         "Headtorch_Grey",
         "Headtorch_Black",
         "UniversalLight",
         "M4_Suppressor",
         "AK_Suppressor",
-        "PistolSuppressor"
+        "PistolSuppressor",
+		  "JD_MP7Suppressor",
+		  "JD_Groza_Optic",
+		  "CJ_NVG_ANPVS7",
+		  "CJ_NVG_ANPVS23",
+		  "CJ_NVG_GPNVG18_Black",
+		  "Plastic_Explosive",
+        "RemoteDetonator",
+        "LandMineTrap"
+       ,"MassBinocs"
+       ,"Mass_THICCWeaponCase"
+		 ,"Mass_WeaponCase"
+		 ,"Mass_JunkBox"
+		 ,"Akol_AKMount_NoAttachment"
+		 ,"Akol_MRDSMount"
+		 ,"Akol_UniversalRail_NoAttachment"
+		 ,"Akol_Pilad"
+		 ,"Akol_Exps"
+		 ,"Akol_Specter6x"
+		 ,"Akol_RailHuntingOptic"
+		 ,"Akol_Magnifier"
+		 ,"AD_ACOG"
+		 ,"AD_SpecterDR"
+		 ,"AD_ACOG_RMR"
+		 ,"AD_DHF5"
+		 ,"AD_NFATACR"
+		 ,"AD_NFATACR_1_8"
+		 ,"AD_OKP7"
+		 ,"AD_RMR"
+		 ,"AD_RMR_LM"
+		 ,"AD_RMR_TM"
+		 ,"AD_G33"
+		 ,"AD_LeupoldMk4"
+       ,"MassM417Suppressor"
+       ,"MassM417Stock"
     ],
     "Explanation_Of_Entity_List": "A list of all possible enemies to spawn at crash site and the min/max ammount to spawn. Can be any zombie, animal type or Expansion AI (If you have Expansion AI mod installed). Set minimum to 0 for a chance to not spawn or set both min/max to 0 to disable.",
     "Minimum_Amount_Of_Enemies_To_Spawn": 5,
