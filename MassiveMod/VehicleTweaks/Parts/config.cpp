@@ -22,6 +22,14 @@ class CfgVehicles
 	class Inventory_Base;
 	class SparkPlug;
 	class CarBattery;
+	class TruckBattery;
+	class MassiveMod_TruckBattery: TruckBattery
+	{
+		attachments[]-=
+		{
+			"MetalWire"
+		};
+	};
 	class CarRadiator: Inventory_Base
 	{
 		repairableWithKits[]={8};
@@ -33,7 +41,13 @@ class CfgVehicles
 		repairCosts[]={25};
 	};
 	class MassiveMod_SparkPlug: SparkPlug{};
-	class MassiveMod_CarBattery: CarBattery{};
+	class MassiveMod_CarBattery: CarBattery
+	{
+		attachments[]-=
+		{
+			"MetalWire"
+		};
+	};
 	class CanisterGasoline: Bottle_Base
 	{
 		inventorySlot[]+=

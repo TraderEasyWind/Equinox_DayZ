@@ -17545,6 +17545,9 @@
 						<proxy type="CivSedanDoors_CoDriver_WhiteRust" pos="-0.463 -0.186 1.273" rpy="-5.0 140.0 0.0" />
 						<proxy type="CivSedanDoors_BackLeft_WhiteRust" pos="0.510 -0.087 -0.953" rpy="0.0 210.0 0.0" />
 						<proxy type="CivSedanHood_WhiteRust" pos="-1.590 0.300 0.15" rpy="-90.0 8.0 95.0" />
+						<proxy type="MassiveMod_SparkPlug" pos="-1.666016 0.151886 0.297852" rpy="0.000000 0.000000 -0.000000" />
+						<proxy type="MassiveMod_CarRadiator" pos="-2.112305 -0.321808 0.208984" rpy="0.000000 1.800000 -0.000000" />
+						<proxy type="MassiveMod_CarBattery" pos="-1.324219 -0.000733 0.665039" rpy="0.000000 -89.999916 0.000000" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_sed01_aban1_black" lootmax="2">
@@ -17576,6 +17579,9 @@
 						<proxy type="CivSedanDoors_CoDriver_BlackRust" pos="-0.463 -0.186 1.273" rpy="-5.0 140.0 0.0" />
 						<proxy type="CivSedanDoors_BackLeft_BlackRust" pos="0.510 -0.087 -0.953" rpy="0.0 210.0 0.0" />
 						<proxy type="CivSedanHood_BlackRust" pos="-1.590 0.300 0.15" rpy="-90.0 8.0 95.0" />
+						<proxy type="MassiveMod_SparkPlug" pos="-1.666016 0.151886 0.297852" rpy="0.000000 0.000000 -0.000000" />
+						<proxy type="MassiveMod_CarRadiator" pos="-2.112305 -0.321808 0.208984" rpy="0.000000 1.800000 -0.000000" />
+						<proxy type="MassiveMod_CarBattery" pos="-1.324219 -0.000733 0.665039" rpy="0.000000 -89.999916 0.000000" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_sed01_aban1_wine" lootmax="2">
@@ -17607,6 +17613,9 @@
 						<proxy type="CivSedanDoors_CoDriver_WineRust" pos="-0.463 -0.186 1.273" rpy="-5.0 140.0 0.0" />
 						<proxy type="CivSedanDoors_BackLeft_WineRust" pos="0.510 -0.087 -0.953" rpy="0.0 210.0 0.0" />
 						<proxy type="CivSedanHood_WineRust" pos="-1.590 0.300 0.15" rpy="-90.0 8.0 95.0" />
+						<proxy type="MassiveMod_SparkPlug" pos="-1.666016 0.151886 0.297852" rpy="0.000000 0.000000 -0.000000" />
+						<proxy type="MassiveMod_CarRadiator" pos="-2.112305 -0.321808 0.208984" rpy="0.000000 1.800000 -0.000000" />
+						<proxy type="MassiveMod_CarBattery" pos="-1.324219 -0.000733 0.665039" rpy="0.000000 -89.999916 0.000000" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_sed01_aban1_police" lootmax="6">
@@ -17630,6 +17639,15 @@
 						<point pos="-0.263768 -0.773254 1.501408" range="0.798518" height="0.218628" flags="32" />
 						<point pos="-0.635617 -0.751007 -1.229529" range="0.766590" height="0.288788" flags="32" />
 				</container>
+				<dispatch>
+						<proxy type="CivSedanWheel" pos="-1.659 -0.406 -0.652" rpy="90.0 0.0 0.0" />
+						<proxy type="CivSedanDoors_CoDriver_WineRust" pos="-0.463 -0.186 1.273" rpy="-5.0 140.0 0.0" />
+						<proxy type="CivSedanDoors_BackLeft_WineRust" pos="0.510 -0.087 -0.953" rpy="0.0 210.0 0.0" />
+						<proxy type="CivSedanHood_WineRust" pos="-1.590 0.300 0.15" rpy="-90.0 8.0 95.0" />
+						<proxy type="MassiveMod_SparkPlug" pos="-1.666016 0.151886 0.297852" rpy="0.000000 0.000000 -0.000000" />
+						<proxy type="MassiveMod_CarRadiator" pos="-2.112305 -0.321808 0.208984" rpy="0.000000 1.800000 -0.000000" />
+						<proxy type="MassiveMod_CarBattery" pos="-1.324219 -0.000733 0.665039" rpy="0.000000 -89.999916 0.000000" />
+				</dispatch>
 		</group>
 		<group name="Land_Wreck_sed01_aban2_white" lootmax="2">
 				<usage name="Village" />
@@ -18135,6 +18153,7 @@
 						<proxy type="MassiveMod_Med_TruckWheel_Double" pos="2.48 0.43 -0.86" rpy="0.0 0.0 0.0" />
 						<proxy type="Truck_01_Door_2_1_GreenRust" pos="-1.55 1.11 0.97" rpy="0.0 190.0 0.0" />
 						<proxy type="Truck_01_Hood_GreenRust" pos="-1.85 1.70 -0.1" rpy="0.0 180.0 0.0" />
+						<proxy type="MassiveMod_TruckBattery" pos="-0.264649 0.574341 -0.638183" rpy="0.0 93.903519 0.0" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_truck01_aban1_blue" >
@@ -18162,6 +18181,7 @@
 						<proxy type="MassiveMod_Med_TruckWheel_Double" pos="2.48 0.43 -0.86" rpy="0.0 0.0 0.0" />
 						<proxy type="Truck_01_Door_2_1_BlueRust" pos="-1.55 1.11 0.97" rpy="0.0 190.0 0.0" />
 						<proxy type="Truck_01_Hood_BlueRust" pos="-1.85 1.70 -0.1" rpy="0.0 180.0 0.0" />
+						<proxy type="MassiveMod_TruckBattery" pos="-0.264649 0.574341 -0.638183" rpy="0.0 93.903519 0.0" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_truck01_aban1_orange">
@@ -18189,6 +18209,7 @@
 						<proxy type="MassiveMod_Med_TruckWheel_Double" pos="2.48 0.43 -0.86" rpy="0.0 0.0 0.0" />
 						<proxy type="Truck_01_Door_2_1_OrangeRust" pos="-1.55 1.11 0.97" rpy="0.0 190.0 0.0" />
 						<proxy type="Truck_01_Hood_OrangeRust" pos="-1.85 1.70 -0.1" rpy="0.0 180.0 0.0" />
+						<proxy type="MassiveMod_TruckBattery" pos="-0.264649 0.574341 -0.638183" rpy="0.0 93.903519 0.0" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_truck01_aban2_green" >
@@ -18213,6 +18234,7 @@
 						<proxy type="MassiveMod_Med_TruckWheel" pos="-2.18 0.46 -0.98" rpy="0.0 180.0 0.0" />
 						<proxy type="MassiveMod_Med_TruckWheel_Double" pos="1.42 0.43 0.96" rpy="0.0 0.0 0.0" />
 						<proxy type="Truck_01_Door_1_1_GreenRust" pos="-1.55 1.02 -1.10" rpy="0.0 160.0 0.0" />
+						<proxy type="MassiveMod_TruckBattery" pos="-0.271484 0.620544 -0.622558" rpy="0.0 89.719505 0.0"/>
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_truck01_aban2_blue" >
@@ -18237,6 +18259,7 @@
 						<proxy type="MassiveMod_Med_TruckWheel" pos="-2.18 0.46 -0.98" rpy="0.0 180.0 0.0" />
 						<proxy type="MassiveMod_Med_TruckWheel_Double" pos="1.42 0.43 0.96" rpy="0.0 0.0 0.0" />
 						<proxy type="Truck_01_Door_1_1_BlueRust" pos="-1.55 1.02 -1.10" rpy="0.0 160.0 0.0" />
+						<proxy type="MassiveMod_TruckBattery" pos="-0.271484 0.620544 -0.622558" rpy="0.0 89.719505 0.0"/>
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_truck01_aban2_orange">
@@ -18261,6 +18284,7 @@
 						<proxy type="MassiveMod_Med_TruckWheel" pos="-2.18 0.46 -0.98" rpy="0.0 180.0 0.0" />
 						<proxy type="MassiveMod_Med_TruckWheel_Double" pos="1.42 0.43 0.96" rpy="0.0 0.0 0.0" />
 						<proxy type="Truck_01_Door_1_1_OrangeRust" pos="-1.55 1.02 -1.10" rpy="0.0 160.0 0.0" />
+						<proxy type="MassiveMod_TruckBattery" pos="-0.271484 0.620544 -0.622558" rpy="0.0 89.719505 0.0"/>
 				</dispatch>
 		</group>
 		<group name="Land_wreck_truck01_aban1_firetruck">
@@ -18292,6 +18316,7 @@
 				<dispatch dechance="0.000000">
 						<proxy type="MassiveMod_Med_TruckWheel" pos="-2.180125 0.459991 0.979816" rpy="0.000000 5.263660 0.000000" dechance="0.000000" />
 						<proxy type="MassiveMod_Med_TruckWheel_Double" pos="2.480012 0.429993 -0.860163" rpy="0.000000 5.263660 0.000000" dechance="0.000000" />
+						<proxy type="MassiveMod_TruckBattery" pos="-0.264649 0.574341 -0.638183" rpy="0.0 93.903519 0.0" />
 				</dispatch>
 		</group>
 		<group name="Land_wreck_truck01_aban2_firetruck">
@@ -18319,6 +18344,7 @@
 				<dispatch dechance="0.000000">
 						<proxy type="MassiveMod_Med_TruckWheel" pos="-2.179965 0.459991 -0.980243" rpy="0.000000 185.275574 0.000000" dechance="0.000000" />
 						<proxy type="MassiveMod_Med_TruckWheel_Double" pos="1.420045 0.429993 0.959693" rpy="0.000000 185.724426 0.000000" dechance="0.000000" />
+						<proxy type="MassiveMod_TruckBattery" pos="-0.271484 0.620544 -0.622558" rpy="0.0 89.719505 0.0"/>
 				</dispatch>
 		</group>
 		<group name="Land_wreck_truck01_aban1_firetruck_DE">
@@ -18350,6 +18376,7 @@
 				<dispatch dechance="0.000000">
 						<proxy type="MassiveMod_Med_TruckWheel" pos="-2.180125 0.459991 0.979816" rpy="0.000000 5.263660 0.000000" dechance="0.000000" />
 						<proxy type="MassiveMod_Med_TruckWheel_Double" pos="2.480012 0.429993 -0.860163" rpy="0.000000 5.263660 0.000000" dechance="0.000000" />
+						<proxy type="MassiveMod_TruckBattery" pos="-0.264649 0.574341 -0.638183" rpy="0.0 93.903519 0.0" />
 				</dispatch>
 		</group>
 		<group name="Land_wreck_truck01_aban2_firetruck_DE">
@@ -18377,6 +18404,7 @@
 				<dispatch dechance="0.000000">
 						<proxy type="MassiveMod_Med_TruckWheel" pos="-2.179965 0.459991 -0.980243" rpy="0.000000 185.275574 0.000000" dechance="0.000000" />
 						<proxy type="MassiveMod_Med_TruckWheel_Double" pos="1.420045 0.429993 0.959693" rpy="0.000000 185.724426 0.000000" dechance="0.000000" />
+						<proxy type="MassiveMod_TruckBattery" pos="-0.271484 0.620544 -0.622558" rpy="0.0 89.719505 0.0"/>
 				</dispatch>
 		</group>
 		<!-- SEASONAL EVENT-->
@@ -18923,6 +18951,7 @@
 								<proxy type="MassiveMod_Med_TruckWheel" pos="-2.18 0.46 -0.98" rpy="0.0 180.0 0.0" />
 								<proxy type="MassiveMod_Med_TruckWheel_Double" pos="1.42 0.43 0.96" rpy="0.0 0.0 0.0" />
 								<proxy type="Truck_01_Door_1_1_GreenRust" pos="-1.55 1.02 -1.10" rpy="0.0 160.0 0.0" />
+								<proxy type="MassiveMod_TruckBattery" pos="-0.271484 0.620544 -0.622558" rpy="0.0 89.719505 0.0"/>
 						</dispatch>
 		</group>
 		<group name="Land_wreck_truck01_aban1_green_DE" lootmax="15">
@@ -18943,6 +18972,7 @@
 								<proxy type="MassiveMod_Med_TruckWheel" pos="-2.18 0.46 -0.98" rpy="0.0 180.0 0.0" />
 								<proxy type="MassiveMod_Med_TruckWheel_Double" pos="1.42 0.43 0.96" rpy="0.0 0.0 0.0" />
 								<proxy type="Truck_01_Door_1_1_GreenRust" pos="-1.55 1.02 -1.10" rpy="0.0 160.0 0.0" />
+								<proxy type="MassiveMod_TruckBattery" pos="-0.264649 0.574341 -0.638183" rpy="0.0 93.903519 0.0" />
 						</dispatch>
 		</group>
 		<group name="StaticObj_Wreck_HMMWV_DE" lootmax="15">
@@ -19089,6 +19119,7 @@
 								<proxy type="MassiveMod_Med_TruckWheel_Double" pos="2.48 0.43 -0.86" rpy="0.0 0.0 0.0" />
 								<proxy type="Truck_01_Door_2_1_BlueRust" pos="-1.55 1.11 0.97" rpy="0.0 190.0 0.0" />
 								<proxy type="Truck_01_Hood_BlueRust" pos="-1.85 1.70 -0.1" rpy="0.0 180.0 0.0" />
+								<proxy type="MassiveMod_TruckBattery" pos="-0.264649 0.574341 -0.638183" rpy="0.0 93.903519 0.0" />
 						</dispatch>
 		</group>
 		<group name="Land_Wreck_truck01_aban1_orange_DE" lootmax="3">
@@ -19112,6 +19143,7 @@
 								<proxy type="MassiveMod_Med_TruckWheel_Double" pos="2.48 0.43 -0.86" rpy="0.0 0.0 0.0" />
 								<proxy type="Truck_01_Door_2_1_OrangeRust" pos="-1.55 1.11 0.97" rpy="0.0 190.0 0.0" />
 								<proxy type="Truck_01_Hood_OrangeRust" pos="-1.85 1.70 -0.1" rpy="0.0 180.0 0.0" />
+								<proxy type="MassiveMod_TruckBattery" pos="-0.264649 0.574341 -0.638183" rpy="0.0 93.903519 0.0" />
 						</dispatch>
 		</group>
 		<group name="Land_Wreck_truck01_aban2_blue_DE" lootmax="3">
@@ -19134,6 +19166,7 @@
 								<proxy type="MassiveMod_Med_TruckWheel" pos="-2.18 0.46 -0.98" rpy="0.0 180.0 0.0" />
 								<proxy type="MassiveMod_Med_TruckWheel_Double" pos="1.42 0.43 0.96" rpy="0.0 0.0 0.0" />
 								<proxy type="Truck_01_Door_1_1_BlueRust" pos="-1.55 1.02 -1.10" rpy="0.0 160.0 0.0" />
+								<proxy type="MassiveMod_TruckBattery" pos="-0.271484 0.620544 -0.622558" rpy="0.0 89.719505 0.0"/>
 						</dispatch>
 		</group>
 		<group name="Land_Wreck_truck01_aban2_orange_DE" lootmax="3">
@@ -19156,6 +19189,7 @@
 								<proxy type="MassiveMod_Med_TruckWheel" pos="-2.18 0.46 -0.98" rpy="0.0 180.0 0.0" />
 								<proxy type="MassiveMod_Med_TruckWheel_Double" pos="1.42 0.43 0.96" rpy="0.0 0.0 0.0" />
 								<proxy type="Truck_01_Door_1_1_OrangeRust" pos="-1.55 1.02 -1.10" rpy="0.0 160.0 0.0" />
+								<proxy type="MassiveMod_TruckBattery" pos="-0.271484 0.620544 -0.622558" rpy="0.0 89.719505 0.0"/>
 						</dispatch>
 		</group>
 		<group name="Land_Wreck_offroad02_aban1_DE" lootmax="3">
@@ -19655,6 +19689,9 @@
 						<proxy type="CivSedanDoors_CoDriver_WhiteRust" pos="-0.463 -0.186 1.273" rpy="-5.0 140.0 0.0" />
 						<proxy type="CivSedanDoors_BackLeft_WhiteRust" pos="0.510 -0.087 -0.953" rpy="0.0 210.0 0.0" />
 						<proxy type="CivSedanHood_WhiteRust" pos="-1.590 0.300 0.15" rpy="-90.0 8.0 95.0" />
+						<proxy type="MassiveMod_SparkPlug" pos="-1.666016 0.151886 0.297852" rpy="0.000000 0.000000 -0.000000" />
+						<proxy type="MassiveMod_CarRadiator" pos="-2.112305 -0.321808 0.208984" rpy="0.000000 1.800000 -0.000000" />
+						<proxy type="MassiveMod_CarBattery" pos="-1.324219 -0.000733 0.665039" rpy="0.000000 -89.999916 0.000000" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_sed01_aban1_black_DE" lootmax="2">
@@ -19686,6 +19723,9 @@
 						<proxy type="CivSedanDoors_CoDriver_BlackRust" pos="-0.463 -0.186 1.273" rpy="-5.0 140.0 0.0" />
 						<proxy type="CivSedanDoors_BackLeft_BlackRust" pos="0.510 -0.087 -0.953" rpy="0.0 210.0 0.0" />
 						<proxy type="CivSedanHood_BlackRust" pos="-1.590 0.300 0.15" rpy="-90.0 8.0 95.0" />
+						<proxy type="MassiveMod_SparkPlug" pos="-1.666016 0.151886 0.297852" rpy="0.000000 0.000000 -0.000000" />
+						<proxy type="MassiveMod_CarRadiator" pos="-2.112305 -0.321808 0.208984" rpy="0.000000 1.800000 -0.000000" />
+						<proxy type="MassiveMod_CarBattery" pos="-1.324219 -0.000733 0.665039" rpy="0.000000 -89.999916 0.000000" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_sed01_aban1_wine_DE" lootmax="2">
@@ -19717,6 +19757,9 @@
 						<proxy type="CivSedanDoors_CoDriver_WineRust" pos="-0.463 -0.186 1.273" rpy="-5.0 140.0 0.0" />
 						<proxy type="CivSedanDoors_BackLeft_WineRust" pos="0.510 -0.087 -0.953" rpy="0.0 210.0 0.0" />
 						<proxy type="CivSedanHood_WineRust" pos="-1.590 0.300 0.15" rpy="-90.0 8.0 95.0" />
+						<proxy type="MassiveMod_SparkPlug" pos="-1.666016 0.151886 0.297852" rpy="0.000000 0.000000 -0.000000" />
+						<proxy type="MassiveMod_CarRadiator" pos="-2.112305 -0.321808 0.208984" rpy="0.000000 1.800000 -0.000000" />
+						<proxy type="MassiveMod_CarBattery" pos="-1.324219 -0.000733 0.665039" rpy="0.000000 -89.999916 0.000000" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_sed01_aban1_police_DE" lootmax="4">
@@ -19768,6 +19811,9 @@
 						<proxy type="CivSedanDoors_Driver_WhiteRust" pos="-0.506 -0.181 -1.033" rpy="0.0 220.0 0.0" />
 						<proxy type="CivSedanDoors_BackRight_WhiteRust" pos="0.550 -0.114 1.083" rpy="0.0 160.0 0.0" />
 						<proxy type="CivSedanTrunk_WhiteRust" pos="2.213 0.203 0.07" rpy="-90.0 0.5 87.0" />
+						<proxy type="MassiveMod_SparkPlug" pos="-1.666016 0.151886 0.297852" rpy="0.000000 0.000000 -0.000000" />
+						<proxy type="MassiveMod_CarRadiator" pos="-2.112305 -0.321808 0.208984" rpy="0.000000 1.800000 -0.000000" />
+						<proxy type="MassiveMod_CarBattery" pos="-1.324219 -0.000733 0.665039" rpy="0.000000 -89.999916 0.000000" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_sed01_aban2_wine_DE" lootmax="2">
@@ -19797,6 +19843,9 @@
 						<proxy type="CivSedanDoors_Driver_WineRust" pos="-0.506 -0.181 -1.033" rpy="0.0 220.0 0.0" />
 						<proxy type="CivSedanDoors_BackRight_WineRust" pos="0.550 -0.114 1.083" rpy="0.0 160.0 0.0" />
 						<proxy type="CivSedanTrunk_WineRust" pos="2.213 0.203 0.07" rpy="-90.0 0.5 87.0" />
+						<proxy type="MassiveMod_CarBattery" pos="-1.246094 -0.014588 0.579590" rpy="0.000000 -90.000000 -0.000000" />
+						<proxy type="MassiveMod_CarRadiator" pos="-2.080078 -0.438080 0.126953" rpy="0.000000 0.000000 -0.000000" />
+						<proxy type="MassiveMod_SparkPlug" pos="-1.644531 0.093109 0.212891" rpy="0.000000 0.000000 -0.000000" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_sed01_aban2_black_DE" lootmax="2">
@@ -19826,6 +19875,9 @@
 						<proxy type="CivSedanDoors_Driver_BlackRust" pos="-0.506 -0.181 -1.033" rpy="0.0 220.0 0.0" />
 						<proxy type="CivSedanDoors_BackRight_BlackRust" pos="0.550 -0.114 1.083" rpy="0.0 160.0 0.0" />
 						<proxy type="CivSedanTrunk_BlackRust" pos="2.213 0.203 0.07" rpy="-90.0 0.5 87.0" />
+						<proxy type="MassiveMod_CarBattery" pos="-1.246094 -0.014588 0.579590" rpy="0.000000 -90.000000 -0.000000" />
+						<proxy type="MassiveMod_CarRadiator" pos="-2.080078 -0.438080 0.126953" rpy="0.000000 0.000000 -0.000000" />
+						<proxy type="MassiveMod_SparkPlug" pos="-1.644531 0.093109 0.212891" rpy="0.000000 0.000000 -0.000000" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_sed01_aban2_police_DE" lootmax="4">
@@ -19849,6 +19901,15 @@
 						<point pos="-0.085474 -0.756362 -1.172147" range="0.770024" height="0.212694" flags="32" />
 						<point pos="-0.297665 -0.749509 1.398775" range="0.775349" height="0.229155" flags="32" />
 				</container>
+				<dispatch>
+						<proxy type="CivSedanWheel" pos="-1.659 -0.416 0.796" rpy="90.0 180.0 0.0" />
+						<proxy type="CivSedanDoors_Driver_BlackRust" pos="-0.506 -0.181 -1.033" rpy="0.0 220.0 0.0" />
+						<proxy type="CivSedanDoors_BackRight_BlackRust" pos="0.550 -0.114 1.083" rpy="0.0 160.0 0.0" />
+						<proxy type="CivSedanTrunk_BlackRust" pos="2.213 0.203 0.07" rpy="-90.0 0.5 87.0" />
+						<proxy type="MassiveMod_CarBattery" pos="-1.246094 -0.014588 0.579590" rpy="0.000000 -90.000000 -0.000000" />
+						<proxy type="MassiveMod_CarRadiator" pos="-2.080078 -0.438080 0.126953" rpy="0.000000 0.000000 -0.000000" />
+						<proxy type="MassiveMod_SparkPlug" pos="-1.644531 0.093109 0.212891" rpy="0.000000 0.000000 -0.000000" />
+				</dispatch>
 		</group>
 		<group name="Land_Wreck_sed02_aban1_yellow_DE" lootmax="2">
 				<usage name="Village" />
@@ -19961,6 +20022,9 @@
 						<proxy type="Sedan_02_Door_1_1_YellowRust" pos="-0.556 0.125 -0.860" rpy="0.0 190.0 0.0" />
 						<proxy type="Sedan_02_Door_2_2_YellowRust" pos="0.156 0.168 1.150" rpy="-2.0 310.0 0.0" />
 						<proxy type="Sedan_02_Hood_YellowRust" pos="-1.608 0.395 -0.174" rpy="0.0 180.0 90.0" />
+						<proxy type="MassiveMod_CarRadiator" pos="-2.141602 -0.319580 0.066894" rpy="0.000000 0.000000 -0.000000" />
+						<proxy type="MassiveMod_CarBattery" pos="1.659180 -0.180237 -0.512696" rpy="0.000000 180.000000 -0.000000" />
+						<proxy type="MassiveMod_SparkPlug" pos="1.665039 0.018066 0.147461" rpy="0.000000 0.000000 -0.000000" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_sed02_aban2_grey_DE" lootmax="2">
@@ -19990,6 +20054,9 @@
 						<proxy type="Sedan_02_Door_1_1_GreyRust" pos="-0.556 0.125 -0.860" rpy="0.0 190.0 0.0" />
 						<proxy type="Sedan_02_Door_2_2_GreyRust" pos="0.156 0.168 1.150" rpy="-2.0 310.0 0.0" />
 						<proxy type="Sedan_02_Hood_GreyRust" pos="-1.608 0.395 -0.174" rpy="0.0 180.0 90.0" />
+						<proxy type="MassiveMod_CarRadiator" pos="-2.141602 -0.319580 0.066894" rpy="0.000000 0.000000 -0.000000" />
+						<proxy type="MassiveMod_CarBattery" pos="1.659180 -0.180237 -0.512696" rpy="0.000000 180.000000 -0.000000" />
+						<proxy type="MassiveMod_SparkPlug" pos="1.665039 0.018066 0.147461" rpy="0.000000 0.000000 -0.000000" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_sed02_aban2_red_DE" lootmax="2">
@@ -20019,6 +20086,9 @@
 						<proxy type="Sedan_02_Door_1_1_RedRust" pos="-0.556 0.125 -0.860" rpy="0.0 190.0 0.0" />
 						<proxy type="Sedan_02_Door_2_2_RedRust" pos="0.156 0.168 1.150" rpy="-2.0 310.0 0.0" />
 						<proxy type="Sedan_02_Hood_RedRust" pos="-1.608 0.395 -0.174" rpy="0.0 180.0 90.0" />
+						<proxy type="MassiveMod_CarRadiator" pos="-2.141602 -0.319580 0.066894" rpy="0.000000 0.000000 -0.000000" />
+						<proxy type="MassiveMod_CarBattery" pos="1.659180 -0.180237 -0.512696" rpy="0.000000 180.000000 -0.000000" />
+						<proxy type="MassiveMod_SparkPlug" pos="1.665039 0.018066 0.147461" rpy="0.000000 0.000000 -0.000000" />
 				</dispatch>
 		</group>
 		<group name="StaticObj_Misc_SupplyBox1_DE" lootmax="8">

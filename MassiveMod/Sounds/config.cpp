@@ -13,6 +13,7 @@ class CfgPatches
 };
 class CfgSoundShaders
 {
+	class baseCharacter_SoundShader;
     class CZ_SoundShader_Base
     {
         volume = 3;
@@ -134,8 +135,19 @@ class CfgSoundShaders
             {"DZ\sounds\Characters\movement\attachment\Backpack\military\sprintErc_8", 1}
         };
     };
+	class UnlockVehiclePart_loop_Soundshader: baseCharacter_SoundShader
+	{
+		samples[]=
+		{
+			
+			{
+				"MassiveMod\Sounds\othersounds\UnlockVehiclePart_loop",
+				1
+			}
+		};
+		volume=0.3;
+	};
 };
-
 class CfgSoundSets
 {
     class CZ_SoundSet_Base
@@ -147,7 +159,14 @@ class CfgSoundSets
 		loop = 0;
         distanceFilter = "defaultDistanceFilter";
     };
-
+	class baseCharacter_SoundSet;
+	class UnlockVehiclePart_loop_SoundSet: baseCharacter_SoundSet
+	{
+		soundShaders[]=
+		{
+			"UnlockVehiclePart_loop_Soundshader"
+		};
+	};
 	class CZ_ShotgunShell_Move_Smoll: CZ_SoundSet_Base
     {
         soundShaders[] = {"CZ_ShotgunShell_Move_SoundShader"};
@@ -167,4 +186,21 @@ class CfgSoundSets
     {
         soundShaders[] = {"CZ_Item_Move_Regular_SoundShader"};
     };
+};
+class CfgSoundTables
+{
+	class CfgActionsSoundTables
+	{
+		class Craft_LookupTable
+		{
+			class UnlockVehiclePart_loop
+			{
+				category="UnlockVehiclePart";
+				soundSets[]=
+				{
+					"UnlockVehiclePart_loop_SoundSet"
+				};
+			};
+		};
+	};
 };

@@ -2,6 +2,7 @@ modded class PluginRecipesManager
 {
 	override void RegisterRecipies()
 	{	super.RegisterRecipies();
+		RegisterRecipe(new MassiveMod_UnlockVehiclePart);
 		RegisterRecipe(new CraftLargeWoodenBox);
 		RegisterRecipe(new CraftGunWall);
 		RegisterRecipe(new MassiveMod_WeaponScrapping);
