@@ -1,0 +1,68 @@
+{
+    "FileUpdateEnable": "1",
+    "TabletRange": 15,
+    "DropCodeLock": 0,
+    "DestroyCodeLock": 0,
+    "HackableEntitys": [
+        {
+            "Type": "Fence",
+            "HackingTime": 60.0,
+            "TabletDamage": 20.0,
+            "BatteryDamage": 50.0
+        },
+        {
+            "Type": "MediumTent",
+            "HackingTime": 15.0,
+            "TabletDamage": 20.0,
+            "BatteryDamage": 50.0
+        },
+        {
+            "Type": "PartyTent",
+            "HackingTime": 30.0,
+            "TabletDamage": 20.0,
+            "BatteryDamage": 50.0
+        },
+        {
+            "Type": "LargeTent",
+            "HackingTime": 45.0,
+            "TabletDamage": 20.0,
+            "BatteryDamage": 50.0
+        },
+        {
+            "Type": "CarTent",
+            "HackingTime": 60.0,
+            "TabletDamage": 20.0,
+            "BatteryDamage": 50.0
+        },
+        {
+            "Type": "A6_MilitaryStorageCrate",
+            "HackingTime": 15.0,
+            "TabletDamage": 20.0,
+            "BatteryDamage": 50.0
+        },
+        {
+            "Type": "A6_MilitaryLocker",
+            "HackingTime": 30.0,
+            "TabletDamage": 20.0,
+            "BatteryDamage": 50.0
+        },
+        {
+            "Type": "A6_Rifle_Safe",
+            "HackingTime": 45.0,
+            "TabletDamage": 20.0,
+            "BatteryDamage": 50.0
+        },
+        {
+            "Type": "A6_Safe_Big",
+            "HackingTime": 60.0,
+            "TabletDamage": 20.0,
+            "BatteryDamage": 50.0
+        },
+        {
+            "Type": "A6_Vault",
+            "HackingTime": 120.0,
+            "TabletDamage": 20.0,
+            "BatteryDamage": 100.0
+        }
+    ]
+}
