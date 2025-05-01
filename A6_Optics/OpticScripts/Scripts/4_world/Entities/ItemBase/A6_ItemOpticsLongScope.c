@@ -1,0 +1,15 @@
+class A6_ItemOpticsLongScope extends A6_ItemOptics {}
+class A6_SchmidtBenderPMII_Optic : A6_ItemOpticsLongScope {}
+class A6_SchmidtBenderPMII_Tan_Optic : A6_SchmidtBenderPMII_Optic {}
+class A6_LeupoldOptic : A6_ItemOpticsLongScope {}
+class A6_LeupoldOptic_RMROptic_Black_MRDMount : A6_LeupoldOptic {}
+class A6_LeupoldOptic_RMROptic_Tan_MRDMount : A6_LeupoldOptic_RMROptic_Black_MRDMount {}
+class A6_LeupoldOptic_SigSauerRomeo2_Optic_MRDMount : A6_LeupoldOptic {}
+class A6_LeupoldOptic_SigSauerRomeo2_Optic_Tan_MRDMount : A6_LeupoldOptic_SigSauerRomeo2_Optic_MRDMount {}
+class A6_LeupoldOptic_SigSauerRomeo0_Optic : A6_LeupoldOptic {}
+class A6_NFATACRF1_Optic : A6_ItemOpticsLongScope {}
+class A6_MatchProOptic : A6_ItemOpticsLongScope {}
+class A6_NXSOptic : A6_ItemOpticsLongScope {}
+class A6_HensoldtFF_Optic : A6_ItemOpticsLongScope {}
+class A6_VortexOptic : A6_ItemOpticsLongScope {}
+class A6_VortexOptic_Tan : A6_VortexOptic {}

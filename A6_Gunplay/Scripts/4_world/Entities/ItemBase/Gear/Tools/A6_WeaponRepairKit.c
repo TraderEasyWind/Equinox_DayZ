@@ -1,0 +1,1 @@
+class A6_WeaponRepairKit: Inventory_Base {};

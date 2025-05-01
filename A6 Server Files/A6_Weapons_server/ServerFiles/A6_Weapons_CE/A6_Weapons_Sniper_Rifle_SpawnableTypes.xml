@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<spawnabletypes>
+      <type name="A6_R700">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_R700_5Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_M24">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_M24_5Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_SVD">
+            <attachments chance="0.65">
+                  <item name="A6_Mag_SVD_10Rnd" chance="0.8" />
+                  <item name="A6_Mag_SVD_20Rnd" chance="0.2" />
+            </attachments>
+      </type>
+      <type name="A6_SVD_Tiger">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_SVD_10Rnd" chance="0.8" />
+                  <item name="A6_Mag_SVD_20Rnd" chance="0.2" />
+            </attachments>
+      </type>
+      <type name="A6_SV98">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_SV98_10Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_Delta5">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_Delta5_10Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_Delta5_Camo1">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_Delta5_10Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_Delta5_Camo2">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_Delta5_10Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_Delta5_Camo3">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_Delta5_10Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_Delta5_Camo4">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_Delta5_10Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_Delta5_Camo5">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_Delta5_10Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_Delta5_Camo6">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_Delta5_10Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_Delta5_Camo7">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_Delta5_10Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_Delta5_Camo8">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_Delta5_10Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_Delta5_Camo9">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_Delta5_10Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_Delta5_Camo10">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_Delta5_10Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_DVL10">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_DVL10_5Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_TheFix">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="0.25">
+                  <item name="A6_Jumbo_Shrimp_Suppressor" chance="0.80" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_TheFix_10Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_TheFix_Green">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="0.25">
+                  <item name="A6_Jumbo_Shrimp_Suppressor" chance="0.80" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_TheFix_10Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_M24A3">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_AWM">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_AWM_5Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_AWM_Tan">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_AWM_5Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_T5000">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_T5000_5Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_AX">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_AX_7Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_AX_Black">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_AX_7Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_SRSA2">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_SRSA2_8Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_MK18_Mjolnir_Tan">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="1.0">
+                  <item name="A6_PRS_Buttstock" chance="1.0" />
+            </attachments>
+            <attachments chance="0.5">
+                  <item name="A6_M4A1_PistolGrip_Ergo" chance="1.0" />
+            </attachments>
+            <attachments chance="1.0">
+                  <item name="A6_AX_Muzzle" chance="0.95" />
+                  <item name="A6_AI_338_Suppressor" chance="0.05" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_MK18_Mjolnir_10Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_MK18_Mjolnir_Tan">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="1.0">
+                  <item name="A6_PRS_Buttstock" chance="1.0" />
+            </attachments>
+            <attachments chance="0.5">
+                  <item name="A6_M4A1_PistolGrip_Ergo" chance="1.0" />
+            </attachments>
+            <attachments chance="1.0">
+                  <item name="A6_AX_Muzzle" chance="0.95" />
+                  <item name="A6_AI_338_Suppressor" chance="0.05" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_MK18_Mjolnir_10Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_MK18_Mjolnir_Black">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="1.0">
+                  <item name="A6_PRS_Buttstock" chance="1.0" />
+            </attachments>
+            <attachments chance="0.5">
+                  <item name="A6_M4A1_PistolGrip_Ergo" chance="1.0" />
+            </attachments>
+            <attachments chance="1.0">
+                  <item name="A6_AX_Muzzle" chance="0.95" />
+                  <item name="A6_AI_338_Suppressor" chance="0.05" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_MK18_Mjolnir_10Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_MK18_Mjolnir_Green">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="1.0">
+                  <item name="A6_PRS_Buttstock" chance="1.0" />
+            </attachments>
+            <attachments chance="0.5">
+                  <item name="A6_M4A1_PistolGrip_Ergo" chance="1.0" />
+            </attachments>
+            <attachments chance="1.0">
+                  <item name="A6_AX_Muzzle" chance="0.95" />
+                  <item name="A6_AI_338_Suppressor" chance="0.05" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_MK18_Mjolnir_10Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_MK18_Mjolnir_F6">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="1.0">
+                  <item name="A6_PRS_Buttstock" chance="1.0" />
+            </attachments>
+            <attachments chance="0.5">
+                  <item name="A6_M4A1_PistolGrip_Ergo" chance="1.0" />
+            </attachments>
+            <attachments chance="1.0">
+                  <item name="A6_AX_Muzzle" chance="0.95" />
+                  <item name="A6_AI_338_Suppressor" chance="0.05" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_MK18_Mjolnir_10Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_VSSK">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_VSSK_5Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_AR50A1">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_M300">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_M200_7Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_M200">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="0.5">
+                  <item name="A6_CheyTac_Muzzle" chance="0.95" />
+                  <item name="A6_Windtalker_Suppressor" chance="0.05" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_M200_7Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_M200_Tan">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="0.5">
+                  <item name="A6_CheyTac_Muzzle" chance="0.95" />
+                  <item name="A6_Windtalker_Suppressor_Tan" chance="0.05" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_M200_7Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_AX50">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_AX50_5Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_AX50_Black">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_AX50_5Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_GM6Lynx">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_GM6Lynx_5Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_AS50">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_AX50_5Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_AS50_Green">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_AX50_5Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_AS50_White">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_AX50_5Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_AS50_Purple">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_AX50_5Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_AS50_Camo">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_AX50_5Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_M82">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="0.1">
+                  <item name="A6_QDL_Suppressor" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_M82_10Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_M82_Black">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="0.1">
+                  <item name="A6_QDL_Suppressor" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_M82_10Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_M82_Tan">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="0.1">
+                  <item name="A6_QDL_Suppressor" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_M82_10Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_M82_Snow">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="0.1">
+                  <item name="A6_QDL_Suppressor" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_M82_10Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_Alligator_Snipex">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_Alligator_Snipex_5Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_Alligator_Snipex_Black">
+            <attachments chance="0.5">
+                  <item name="HuntingOptic" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_Alligator_Snipex_5Rnd" chance="1.0" />
+            </attachments>
+      </type>
+</spawnabletypes>    

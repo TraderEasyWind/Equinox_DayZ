@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<spawnabletypes>
+      <type name="A6_MP5k">
+            <attachments chance="1.00">
+                  <item name="A6_MP5k_Forearm" chance="0.80" />
+                  <item name="A6_MP5k_Forearm_Proto" chance="0.60" />
+                  <item name="A6_MP5k_Forearm_SP" chance="0.20" />
+            </attachments>
+            <attachments chance="0.5">
+                  <item name="A6_Optic_Mount_MP5" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_MP5_15Rnd" chance="0.50" />
+                  <item name="A6_Mag_MP5_30Rnd" chance="0.50" />
+                  <item name="A6_Mag_MP5_Waffle_30Rnd" chance="0.30" />
+                  <item name="A6_Mag_MP5_100Rnd" chance="0.05" />
+            </attachments>
+      </type>
+      <type name="A6_MP5">
+            <attachments chance="0.80">
+                  <item name="A6_MP5_Buttstock" chance="0.80" />
+                  <item name="A6_MP5_Buttstock_Folding" chance="0.60" />
+                  <item name="A6_MP5_Buttstock_Wood" chance="0.30" />
+                  <item name="A6_MP5_Buttstock_Retractable" chance="0.20" />
+            </attachments>
+            <attachments chance="1.00">
+                  <item name="A6_MP5_Forearm" chance="0.80" />
+                  <item name="A6_MP5_Forearm_Slimline" chance="0.60" />
+                  <item name="A6_MP5_Forearm_Vented" chance="0.40" />
+                  <item name="A6_MP5_Forearm_Wood" chance="0.30" />
+                  <item name="A6_MP5_Forearm_RIS" chance="0.20" />
+            </attachments>
+            <attachments chance="0.5">
+                  <item name="A6_Optic_Mount_MP5" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_MP5_15Rnd" chance="0.50" />
+                  <item name="A6_Mag_MP5_30Rnd" chance="0.50" />
+                  <item name="A6_Mag_MP5_Waffle_30Rnd" chance="0.30" />
+                  <item name="A6_Mag_MP5_100Rnd" chance="0.05" />
+            </attachments>
+      </type>
+      <type name="A6_MP5SD">
+            <attachments chance="0.80">
+                  <item name="A6_MP5_Buttstock" chance="0.80" />
+                  <item name="A6_MP5_Buttstock_Folding" chance="0.60" />
+                  <item name="A6_MP5_Buttstock_Wood" chance="0.30" />
+                  <item name="A6_MP5_Buttstock_Retractable" chance="0.20" />
+            </attachments>
+            <attachments chance="0.5">
+                  <item name="A6_Optic_Mount_MP5" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_MP5_15Rnd" chance="0.50" />
+                  <item name="A6_Mag_MP5_30Rnd" chance="0.50" />
+                  <item name="A6_Mag_MP5_Waffle_30Rnd" chance="0.30" />
+                  <item name="A6_Mag_MP5_100Rnd" chance="0.05" />
+            </attachments>
+      </type>
+      <type name="A6_PP19">
+            <attachments chance="1.00">
+                  <item name="A6_AKS74U_Buttstock" chance="1.0" />
+            </attachments>
+            <attachments chance="1.0">
+                  <item name="A6_AK_PP19_PistolGrip" chance="1.0" />
+            </attachments>
+            <attachments chance="1.00">
+                  <item name="A6_PP19_Muzzle" chance="1.0" />
+            </attachments>
+            <attachments chance="1.00">
+                  <item name="A6_AK_Handguard_Plastic" chance="0.80" />
+                  <item name="A6_AK_Handguard_AKM" chance="0.80" />
+                  <item name="A6_AK_Handguard_Zentico" chance="0.35" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_PP19_30Rnd" chance="0.50" />
+            </attachments>
+      </type>
+      <type name="A6_AugPara">
+            <attachments chance="0.65">
+                  <item name="A6_Mag_AugPara_32Rnd" chance="0.50" />
+            </attachments>
+      </type>
+      <type name="A6_AugPara_Black">
+            <attachments chance="0.65">
+                  <item name="A6_Mag_AugPara_32Rnd" chance="0.50" />
+            </attachments>
+      </type>
+      <type name="A6_Vector">
+            <attachments chance="1.00">
+                  <item name="A6_Vector_Buttstock" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_Vector_33Rnd" chance="0.90" />
+                  <item name="A6_Mag_Vector_50Rnd" chance="0.10" />
+            </attachments>
+      </type>
+      <type name="A6_Vector_Black">
+            <attachments chance="1.00">
+                  <item name="A6_Vector_Buttstock" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_Vector_33Rnd" chance="0.90" />
+                  <item name="A6_Mag_Vector_50Rnd" chance="0.10" />
+            </attachments>
+      </type>
+      <type name="A6_Vector_Tan">
+            <attachments chance="1.00">
+                  <item name="A6_Vector_Buttstock_Tan" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_Vector_33Rnd" chance="0.90" />
+                  <item name="A6_Mag_Vector_50Rnd" chance="0.10" />
+            </attachments>
+      </type>
+      <type name="A6_Vector_Green">
+            <attachments chance="1.00">
+                  <item name="A6_Vector_Buttstock_Green" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_Vector_33Rnd" chance="0.90" />
+                  <item name="A6_Mag_Vector_50Rnd" chance="0.10" />
+            </attachments>
+      </type>
+      <type name="A6_Vector_White">
+            <attachments chance="1.00">
+                  <item name="A6_Vector_Buttstock_White" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_Vector_33Rnd" chance="0.90" />
+                  <item name="A6_Mag_Vector_50Rnd" chance="0.10" />
+            </attachments>
+      </type>
+      <type name="A6_Scorpion_Evo">
+            <attachments chance="1.00">
+                  <item name="A6_Scorpion_Evo_Buttstock" chance="0.8" />
+                  <item name="A6_Scorpion_Evo_Tactical_Buttstock" chance="0.2" />
+            </attachments>
+            <attachments chance="0.3">
+                  <item name="A6_Scorpion_Evo_PistolGrip" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_Scorpion_Evo_30Rnd" chance="0.60" />
+                  <item name="A6_Mag_Scorpion_Evo_40Rnd" chance="0.40" />
+            </attachments>
+      </type>
+      <type name="A6_Scorpion_Evo_Green">
+            <attachments chance="1.00">
+                  <item name="A6_Scorpion_Evo_Buttstock_Green" chance="0.8" />
+                  <item name="A6_Scorpion_Evo_Tactical_Buttstock_Green" chance="0.2" />
+            </attachments>
+            <attachments chance="0.3">
+                  <item name="A6_Scorpion_Evo_PistolGrip" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_Scorpion_Evo_30Rnd" chance="0.60" />
+                  <item name="A6_Mag_Scorpion_Evo_40Rnd" chance="0.40" />
+            </attachments>
+      </type>
+      <type name="A6_Scorpion_Evo_Tan">
+            <attachments chance="1.00">
+                  <item name="A6_Scorpion_Evo_Buttstock_Tan" chance="0.8" />
+                  <item name="A6_Scorpion_Evo_Tactical_Buttstock_Tan" chance="0.2" />
+            </attachments>
+            <attachments chance="0.3">
+                  <item name="A6_Scorpion_Evo_PistolGrip" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_Scorpion_Evo_30Rnd" chance="0.60" />
+                  <item name="A6_Mag_Scorpion_Evo_40Rnd" chance="0.40" />
+            </attachments>
+      </type>
+      <type name="A6_Scorpion_Evo_Grey">
+            <attachments chance="1.00">
+                  <item name="A6_Scorpion_Evo_Buttstock_Grey" chance="0.8" />
+                  <item name="A6_Scorpion_Evo_Tactical_Buttstock_Grey" chance="0.2" />
+            </attachments>
+            <attachments chance="0.3">
+                  <item name="A6_Scorpion_Evo_PistolGrip" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_Scorpion_Evo_30Rnd" chance="0.60" />
+                  <item name="A6_Mag_Scorpion_Evo_40Rnd" chance="0.40" />
+            </attachments>
+      </type>
+      <type name="A6_Scorpion_Evo_White">
+            <attachments chance="1.00">
+                  <item name="A6_Scorpion_Evo_Buttstock_White" chance="0.8" />
+                  <item name="A6_Scorpion_Evo_Tactical_Buttstock_White" chance="0.2" />
+            </attachments>
+            <attachments chance="0.3">
+                  <item name="A6_Scorpion_Evo_PistolGrip" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_Scorpion_Evo_30Rnd" chance="0.60" />
+                  <item name="A6_Mag_Scorpion_Evo_40Rnd" chance="0.40" />
+            </attachments>
+      </type>
+      <type name="A6_UMP45">
+            <attachments chance="0.8">
+                  <item name="A6_UMP45_Buttstock" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_UMP45_25Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_UMP45_Winter">
+            <attachments chance="0.8">
+                  <item name="A6_UMP45_Buttstock_Winter" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_UMP45_25Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_AKS74U">
+            <attachments chance="1.00">
+                  <item name="A6_AKS74U_Buttstock" chance="1.0" />
+            </attachments>
+            <attachments chance="0.50">
+                  <item name="A6_AK_PistolGripWood" chance="0.5" />
+                  <item name="A6_AK_Bakelite_PistolGrip" chance="0.5" />
+            </attachments>
+            <attachments chance="1.00">
+                  <item name="A6_AKS74u_Muzzle" chance="1.0" />
+            </attachments>
+            <attachments chance="1.00">
+                  <item name="A6_AK_Handguard_AKM" chance="0.70" />
+                  <item name="A6_AK_Handguard_Wood_Zentico" chance="0.30" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_AK74_30Rnd" chance="0.50" />
+                  <item name="A6_Mag_AK74_Orange_30Rnd" chance="0.50" />
+                  <item name="A6_Mag_AK74_45Rnd" chance="0.25" />
+                  <item name="A6_Mag_AK74_Orange_45Rnd" chance="0.25" />
+            </attachments>
+      </type>
+      <type name="A6_AKS74UN">
+            <attachments chance="1.00">
+                  <item name="A6_AKS74U_Buttstock" chance="1.0" />
+            </attachments>
+            <attachments chance="0.50">
+                  <item name="A6_AK_PistolGripWood" chance="0.5" />
+                  <item name="A6_AK_Bakelite_PistolGrip" chance="0.5" />
+            </attachments>
+            <attachments chance="1.00">
+                  <item name="A6_AKS74u_Muzzle" chance="1.0" />
+            </attachments>
+            <attachments chance="1.00">
+                  <item name="A6_AK_Handguard_AKM" chance="0.70" />
+                  <item name="A6_AK_Handguard_Wood_Zentico" chance="0.30" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_AK74_30Rnd" chance="0.50" />
+                  <item name="A6_Mag_AK74_Orange_30Rnd" chance="0.50" />
+                  <item name="A6_Mag_AK74_45Rnd" chance="0.25" />
+                  <item name="A6_Mag_AK74_Orange_45Rnd" chance="0.25" />
+            </attachments>
+      </type>
+      <type name="A6_9A91">
+            <attachments chance="0.3">
+                  <item name="A6_9A91_Suppressor" chance="0.7" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_9A91_20Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_P90">
+            <attachments chance="0.65">
+                  <item name="A6_Mag_P90_50Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_MP7A2">
+            <attachments chance="0.65">
+                  <item name="A6_Mag_MP7A2_20Rnd" chance="0.5" />
+                  <item name="A6_Mag_MP7A2_40Rnd" chance="0.5" />
+            </attachments>
+      </type>
+      <type name="A6_HoneyBadger">
+            <attachments chance="0.3">
+                  <item name="A6_HoneyBadger_Suppressor" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_300BLK_PMAG_20Rnd" chance="0.5" />
+                  <item name="A6_Mag_300BLK_PMAG_30Rnd" chance="0.5" />
+            </attachments>
+      </type>
+</spawnabletypes>    

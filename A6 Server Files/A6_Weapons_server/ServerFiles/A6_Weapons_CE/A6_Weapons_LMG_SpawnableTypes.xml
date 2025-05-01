@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<spawnabletypes>
+      <type name="A6_RPK">
+            <attachments chance="1.00">
+                  <item name="A6_RPK_Buttstock" chance="1.0" />
+            </attachments>
+            <attachments chance="0.50">
+                  <item name="A6_AK_PistolGripWood" chance="1.0" />
+            </attachments>
+            <attachments chance="1.00">
+                  <item name="A6_RPK_Muzzle" chance="1.00" />
+            </attachments>
+            <attachments chance="1.00">
+                  <item name="A6_AK_Handguard_RPK" chance="0.80" />
+                  <item name="A6_AK_Handguard_AKM" chance="0.20" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_RPK_75Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_M249">
+            <attachments chance="0.65">
+                  <item name="A6_Mag_M249_200Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_FNEvolys">
+            <attachments chance="0.65">
+                  <item name="A6_Mag_FNEvolys_100Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_M60E4">
+            <attachments chance="0.65">
+                  <item name="A6_Mag_M60E4_100Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_PKM">
+            <attachments chance="0.65">
+                  <item name="A6_Mag_PKM_100Rnd" chance="1.0" />
+            </attachments>
+      </type>
+</spawnabletypes>    

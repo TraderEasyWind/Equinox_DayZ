@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<spawnabletypes>
+      <type name="A6_OPSKS">
+            <attachments chance="1.00">
+                  <item name="A6_M4OE_Buttstock" chance="0.80" />
+                  <item name="A6_Carbine_Buttstock" chance="0.40" />
+            </attachments>
+            <attachments chance="0.5">
+                  <item name="A6_SKS_Muzzle" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_OPSKS_20Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_OPSKS_Black">
+            <attachments chance="1.00">
+                  <item name="A6_M4OE_Buttstock" chance="0.80" />
+                  <item name="A6_Carbine_Buttstock" chance="0.40" />
+            </attachments>
+            <attachments chance="0.5">
+                  <item name="A6_SKS_Muzzle" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_OPSKS_20Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_MK12">
+            <attachments chance="0.5">
+                  <item name="A6_M4A1_AEMB_Muzzle" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_Stanag_30Rnd" chance="0.50" />
+                  <item name="A6_Mag_Stanag_20Rnd" chance="0.60" />
+                  <item name="A6_Mag_556_PMAG_30Rnd" chance="0.30" />
+                  <item name="A6_Mag_556_PMAG_20Rnd" chance="0.40" />
+            </attachments>
+      </type>
+      <type name="A6_MK14">
+            <attachments chance="0.65">
+                  <item name="A6_Mag_M14_10Rnd" chance="0.80" />
+                  <item name="A6_Mag_M14_20Rnd" chance="0.40" />
+            </attachments>
+      </type>
+      <type name="A6_M110">
+            <attachments chance="1.00">
+                  <item name="A6_M110_Buttstock" chance="1.00" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_308_Stanag_20Rnd" chance="0.80" />
+                  <item name="A6_Mag_308_PMAG_20Rnd" chance="0.40" />
+            </attachments>
+      </type>
+      <type name="A6_AR10">
+            <attachments chance="1.00">
+                  <item name="A6_Carbine_Buttstock" chance="0.75" />
+                  <item name="A6_BCM_Buttstock" chance="0.5" />
+                  <item name="A6_B5Bravo_Buttstock_Black" chance="0.4" />
+                  <item name="A6_MOESLK_Buttstock" chance="0.3" />
+            </attachments>
+            <attachments chance="0.4">
+                  <item name="A6_M4A1_PistolGrip_MOE" chance="0.5" />
+                  <item name="A6_M4A1_PistolGrip_Hogue" chance="0.5" />
+            </attachments>
+            <attachments chance="1.00">
+                  <item name="A6_M4A1_Handguard_DD125_MLOK_Black" chance="0.50" />
+                  <item name="A6_M4A1_Handguard_DDFSP_MLOK_Black" chance="0.50" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_308_Stanag_20Rnd" chance="0.80" />
+                  <item name="A6_Mag_308_PMAG_20Rnd" chance="0.40" />
+            </attachments>
+      </type>
+      <type name="A6_AR10_Forest">
+            <attachments chance="1.00">
+                  <item name="A6_Carbine_Buttstock_Green" chance="0.75" />
+                  <item name="A6_BCM_Buttstock_Green" chance="0.5" />
+                  <item name="A6_B5Bravo_Buttstock_Green" chance="0.4" />
+                  <item name="A6_MOESLK_Buttstock_Green" chance="0.3" />
+            </attachments>
+            <attachments chance="0.4">
+                  <item name="A6_M4A1_PistolGrip_MOE_Green" chance="0.5" />
+                  <item name="A6_M4A1_PistolGrip_Hogue_Forest" chance="0.5" />
+            </attachments>
+            <attachments chance="1.00">
+                  <item name="A6_M4A1_Handguard_DD125_MLOK_Green" chance="0.50" />
+                  <item name="A6_M4A1_Handguard_DDFSP_MLOK_Green" chance="0.50" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_308_Stanag_20Rnd" chance="0.80" />
+                  <item name="A6_Mag_308_PMAG_20Rnd" chance="0.40" />
+            </attachments>
+      </type>
+      <type name="A6_AR10_Desert">
+            <attachments chance="1.00">
+                  <item name="A6_Carbine_Buttstock_Tan" chance="0.75" />
+                  <item name="A6_BCM_Buttstock_Tan" chance="0.5" />
+                  <item name="A6_B5Bravo_Buttstock_Tan" chance="0.4" />
+                  <item name="A6_MOESLK_Buttstock_Tan" chance="0.3" />
+            </attachments>
+            <attachments chance="0.4">
+                  <item name="A6_M4A1_PistolGrip_MOE_Tan" chance="0.5" />
+                  <item name="A6_M4A1_PistolGrip_Hogue_Desert" chance="0.5" />
+            </attachments>
+            <attachments chance="1.00">
+                  <item name="A6_M4A1_Handguard_DD125_MLOK_Tan" chance="0.50" />
+                  <item name="A6_M4A1_Handguard_DDFSP_MLOK_Tan" chance="0.50" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_308_Stanag_20Rnd" chance="0.80" />
+                  <item name="A6_Mag_308_PMAG_20Rnd" chance="0.40" />
+            </attachments>
+      </type>
+      <type name="A6_SCAR20S">
+            <attachments chance="1.00">
+                  <item name="A6_SCAR_16S17S_Buttstock_Black" chance="0.6" />
+                  <item name="A6_SCAR_SSR_Buttstock_Black" chance="0.4" />
+            </attachments>
+            <attachments chance="1.00">
+                  <item name="A6_SureFire762_Muzzle" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_SCARH_20Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_SCAR20S_Tan">
+            <attachments chance="1.00">
+                  <item name="A6_SCAR_16S17S_Buttstock_Tan" chance="0.6" />
+                  <item name="A6_SCAR_SSR_Buttstock_Tan" chance="0.4" />
+            </attachments>
+            <attachments chance="1.00">
+                  <item name="A6_SureFire762_Muzzle" chance="1.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_SCARH_Tan_20Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_HKG28">
+            <attachments chance="1.00">
+                  <item name="A6_HKG28_Buttstock_Tan" chance="1.0" />
+            </attachments>
+            <attachments chance="1.00">
+                  <item name="A6_HKG28_Prolonged_Flash_Hider" chance="1.0" />
+            </attachments>
+            <attachments chance="1.00">
+                  <item name="A6_HKG28_Handguard_Extended_Quad_Rail" chance="1.0" />
+            </attachments>
+            <attachments chance="1.00">
+                  <item name="A6_HK_PistolGrip_BG_Tan" chance="0.50" />
+                  <item name="A6_HK_PistolGrip_BGB_Tan" chance="0.50" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_HKG28_20Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_RSASS">
+            <attachments chance="1.00">
+                  <item name="A6_DS150_Buttstock_Tan" chance="1.0" />
+            </attachments>
+            <attachments chance="0.5">
+                  <item name="A6_TBA_30CB_Muzzle" chance="0.9" />
+                  <item name="A6_TBA_Ultra5_Suppressor" chance="0.1" />
+            </attachments>
+            <attachments chance="0.4">
+                  <item name="A6_M4A1_PistolGrip_MOE_Tan" chance="0.0" />
+            </attachments>
+            <attachments chance="0.65">
+                  <item name="A6_Mag_308_Stanag_20Rnd" chance="0.80" />
+                  <item name="A6_Mag_308_PMAG_20Rnd" chance="0.40" />
+            </attachments>
+      </type>
+</spawnabletypes>    

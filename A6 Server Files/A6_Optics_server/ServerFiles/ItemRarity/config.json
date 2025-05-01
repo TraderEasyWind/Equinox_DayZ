@@ -1,0 +1,113 @@
+{
+    "rarityLevels": {
+        "#STR_MYTHIC": [
+            221.0,
+            183.0,
+            0.0
+        ],
+        "#STR_LEGENDARY": [
+            250.0,
+            145.0,
+            15.0
+        ],
+        "#STR_EXOTIC": [
+            255.0,
+            7.0,
+            120.0
+        ],
+        "#STR_EPIC": [
+            175.0,
+            22.0,
+            213.0
+        ],
+        "#STR_RARE": [
+            28.0,
+            156.0,
+            228.0
+        ],
+        "#STR_UNCOMMON": [
+            125.0,
+            190.0,
+            130.0
+        ],
+        "#STR_ARTIFACT": [
+            255.0,
+            0.0,
+            0.0
+        ]
+    },
+    "items": {
+        "A6_MRDMount": "#STR_UNCOMMON",
+        "A6_DocterOptic": "#STR_UNCOMMON",
+        "A6_RMROptic_Black": "#STR_UNCOMMON",
+        "A6_RMROptic_Tan": "#STR_UNCOMMON",
+        "A6_SigSauerRomeo2_Optic": "#STR_UNCOMMON",
+        "A6_SigSauerRomeo2_Optic_Tan": "#STR_UNCOMMON",
+        "A6_RMROptic_Black_MRDMount": "#STR_UNCOMMON",
+        "A6_RMROptic_Tan_MRDMount": "#STR_UNCOMMON",
+        "A6_SigSauerRomeo2_Optic_MRDMount": "#STR_UNCOMMON",
+        "A6_SigSauerRomeo2_Optic_Tan_MRDMount": "#STR_UNCOMMON",
+        "A6_DocterOptic_MRDMount": "#STR_UNCOMMON",
+        "A6_AimpointCompM4Optic": "#STR_RARE",
+        "A6_CollimatorOptic": "#STR_RARE",
+        "A6_EoTechOptic": "#STR_RARE",
+        "A6_EoTechOptic_Tan": "#STR_RARE",
+        "A6_EoTechHWS512_Optic": "#STR_RARE",
+        "A6_MRS_Optic": "#STR_RARE",
+        "A6_SigSauerRomeo5Optic": "#STR_RARE",
+        "A6_SigSauerRomeoXLOptic": "#STR_RARE",
+        "A6_SigSauerRomeo0_Optic": "#STR_RARE",
+        "A6_RAZOR_AMG_Optic": "#STR_RARE",
+        "A6_HensoldtFF_Optic": "#STR_RARE",
+        "A6_AcogOptic_Black": "#STR_RARE",
+        "A6_AcogOptic_Tan": "#STR_RARE",
+        "A6_Spitfire_Optic": "#STR_RARE",
+        "A6_BarskaOptic": "#STR_RARE",
+        "A6_BarskaOptic_Tan": "#STR_RARE",
+        "A6_XTRI_Optic": "#STR_RARE",
+        "A6_ElcanSpecterOptic": "#STR_EPIC",
+        "A6_ElcanSpecterOptic_Tan": "#STR_EPIC",
+        "A6_HAMR_Optic": "#STR_EPIC",
+        "A6_SigSauerBravo4Optic": "#STR_EPIC",
+        "A6_MatchProOptic": "#STR_EPIC",
+        "A6_LeupoldMark6Optic": "#STR_EPIC",
+        "A6_VortexRazorOptic": "#STR_EPIC",
+        "A6_VortexRazorOptic_Tan": "#STR_EPIC",
+        "A6_VuduOptic": "#STR_EPIC",
+        "A6_VortexRazorGenIIOptic": "#STR_EPIC",
+        "A6_SigSauerTango6T_Optic": "#STR_EPIC",
+        "A6_SigSauerTango6T_Tan_Optic": "#STR_EPIC",
+        "A6_NXSOptic": "#STR_EPIC",
+        "A6_VortexOptic": "#STR_EPIC",
+        "A6_VortexOptic_Tan": "#STR_EPIC",
+        "A6_AcogOptic_Black_RMROptic_Black": "#STR_EPIC",
+        "A6_AcogOptic_Black_RMROptic_Tan": "#STR_EPIC",
+        "A6_AcogOptic_Tan_RMROptic_Tan": "#STR_EPIC",
+        "A6_AcogOptic_Tan_RMROptic_Black": "#STR_EPIC",
+        "A6_AcogOptic_Black_SigSauerRomeo2_Optic": "#STR_EPIC",
+        "A6_AcogOptic_Black_SigSauerRomeo2_Optic_Tan": "#STR_EPIC",
+        "A6_AcogOptic_Tan_SigSauerRomeo2_Optic_Tan": "#STR_EPIC",
+        "A6_AcogOptic_Tan_SigSauerRomeo2_Optic": "#STR_EPIC",
+        "A6_AcogOptic_Black_DocterOptic": "#STR_EPIC",
+        "A6_AcogOptic_Tan_DocterOptic": "#STR_EPIC",
+        "A6_SigSauerBravo4Optic_DocterOptic_MRDMount": "#STR_EPIC",
+        "A6_SigSauerBravo4Optic_SigSauerRomeoXLOptic": "#STR_EPIC",
+        "A6_SigSauerBravo4Optic_RMROptic_Black_MRDMount": "#STR_EPIC",
+        "A6_SigSauerBravo4Optic_RMROptic_Tan_MRDMount": "#STR_EPIC",
+        "A6_SigSauerBravo4Optic_SigSauerRomeo2_Optic_MRDMount": "#STR_EPIC",
+        "A6_SigSauerBravo4Optic_SigSauerRomeo2_Optic_Tan_MRDMount": "#STR_EPIC",
+        "A6_SigSauerBravo4Optic_SigSauerRomeo0_Optic": "#STR_EPIC",
+        "A6_LeupoldOptic": "#STR_LEGENDARY",
+        "A6_SchmidtBenderPMII_Optic": "#STR_LEGENDARY",
+        "A6_SchmidtBenderPMII_Tan_Optic": "#STR_LEGENDARY",
+        "A6_LeupoldOptic_DocterOptic_MRDMount": "#STR_LEGENDARY",
+        "A6_LeupoldOptic_SigSauerRomeoXLOptic": "#STR_LEGENDARY",
+        "A6_LeupoldOptic_RMROptic_Black_MRDMount": "#STR_LEGENDARY",
+        "A6_LeupoldOptic_RMROptic_Tan_MRDMount": "#STR_LEGENDARY",
+        "A6_LeupoldOptic_SigSauerRomeo2_Optic_MRDMount": "#STR_LEGENDARY",
+        "A6_LeupoldOptic_SigSauerRomeo2_Optic_Tan_MRDMount": "#STR_LEGENDARY",
+        "A6_LeupoldOptic_SigSauerRomeo0_Optic": "#STR_LEGENDARY",
+        "A6_NFATACRF1_Optic": "#STR_EXOTIC"
+    },
+    "colorSlots": 1
+}

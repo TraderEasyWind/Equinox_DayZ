@@ -1,0 +1,105 @@
+FileUpdateEnable = "1"; 					// 1 = this file will automatically update when new parameters are updated. 0 = will not update
+
+DisableFireGeoDmgWeapon = 0; 				// 1 = Disables Fire Geometry Damage for Firearms by Firearms. 0 = Fire Geometry works normal.
+
+DisableFireGeoDmgMagazine = 0; 				// 1 = Disables Fire Geometry Damage for Magazines by Firearms. 0 = Fire Geometry works normal.
+
+enableAimSpeedModifier = 1; 				// 1 = enable ADS Speeds 0 = disable ADS Speeds, and reports "Disabled" for ADS Stat in UI Screens
+
+GlobalRecoilMultiplier = 1.0; 				// This will globally affect all starting Recoil stats for weapons only, percentage based, 0.8 = 20% LESS, 1.2 = 20% MORE
+
+GlobalSwayMultiplier = 1.0; 				// This will globally affect all starting Sway stats for weapons only, percentage based, 0.8 = 20% LESS, 1.2 = 20% MORE
+
+GlobalAimSpeedMultiplier = 1.0; 			// This will globally affect all starting ADS stats for weapons only, percentage based, 0.8 = 20% LESS, 1.2 = 20% MORE
+
+BipodRecoilMultiplier = 0.2; 				// only for A-6 Weapons, percentage based, 0.2 = 80% LESS RECOIL
+
+BipodSwayModifier = 0.99; 					// only for A-6 Weapons, value based, 0.99 = 99% SWAY ELIMINATION
+
+DisableHiCalRecoil = 0; 					// only for A-6 Weapons, 1 = will revert all high caliber weapons custom recoil scripts back to vanilla
+
+HipFireMode = 1;							// 0 = Default Crosshair Hip Fire, 1 = Hip Fire comes from the barrel of the weapon, 2 = only for A-6 Weapons, Hip Fire comes from the barrel of the weapon ONLY if laser is attached
+
+enableZoomingSounds = 1; 					// 1 = enable sound effects on zoom changes of optic  0 = no sounds
+
+enableZeroingSounds = 1; 					// 1 = enable sound effects on zeroing changes of optic  0 = no sounds
+
+enableAimingSounds = 1; 					// 1 = enable sound effects when you aim your weapon  0 = no sounds
+
+enableInspectScreenStats = 1; 				// 1 = enable weapon stats at the inspect screen  0 = stats will not be displayed 
+
+enableToolTipStats = 1; 					// 1 = enable weapon stats at the Tool Tips  0 = stats will not be displayed 
+
+enableExpansionMarketWeaponStats = 1; 		// 1 = enable weapon stats for Expansion Market  0 = stats will not be displayed 
+
+SwitchBulletShockToInfectedProtect = 1; 	// 1 = Switch Bullet Shock Protection for Armor to Infected Protect values, 0 = Bullet Shock Protection display instead
+
+WeaponRepairKitText = "Repair"; 			// Text for when repairing a weapon
+
+KitCanRepairSupressors = 1; 				// 1 = Weapon Repair Kit can Repair Suppressors, 0 = Cannot Repair Suppressors
+
+WeaponRepairKitTime = 10; 					// Time to complete Repair
+
+WeaponRepairKitAddHealth = 100; 			// How much health to add to weapon
+
+WeaponRepairKitHealthUse = 100; 			// How much points to take away from Weapon Repair Kit
+
+StatBackground_Alpha = 140; 				// The background opacity for Stat Displays
+
+StatBackground_R = 0; 						// The background color for Stat Displays for the Red Value
+
+StatBackground_G = 0; 						// The background color for Stat Displays for the Green Value
+
+StatBackground_B = 0; 						// The background color for Stat Displays for the Blue Value
+
+StatTextBackground_Alpha = 240; 			// The background opacity for Individual Stat Boxes
+
+StatTextBackground_R = 0; 					// The background color for Individual Stat Boxes for the Red Value
+
+StatTextBackground_G = 0; 					// The background color for Individual Stat Boxes for the Green Value
+
+StatTextBackground_B = 0; 					// The background color for Individual Stat Boxes for the Blue Value
+
+StatTitle_Alpha = 255; 						// The opacity for the Text of the Titled Stat
+
+StatTitle_R = 175;  						// The color for the Text of the Titled Stat for the Red Value
+
+StatTitle_G = 148;  						// The color for the Text of the Titled Stat for the Green Value
+
+StatTitle_B = 66;  							// The color for the Text of the Titled Stat for the Blue Value
+
+StatValue_Alpha = 255;  					// The opacity for the value of the Stat
+
+StatValue_R = 255; 							// The color for the value of the Stat for the Red Value
+
+StatValue_G = 255; 							// The color for the value of the Stat for the Green Value
+
+StatValue_B = 255; 							// The color for the value of the Stat for the Blue Value
+
+StatValueBenefit_Alpha = 255; 				// The opacity for the value of the Stat if its Beneficial, Only for Attachments
+
+StatValueBenefit_R = 50; 					// The color for the Red Value for the value of the Stat if its Beneficial, Only for Attachments
+
+StatValueBenefit_G = 200; 					// The color for the Green Value for the value of the Stat if its Beneficial, Only for Attachments
+
+StatValueBenefit_B = 100; 					// The color for the Blue Value for the value of the Stat if its Beneficial, Only for Attachments
+
+StatValueNonBenefit_Alpha = 255; 			// The opacity for the value of the Stat if its NON-Beneficial, Only for Attachments
+
+StatValueNonBenefit_R = 225; 				// The color for the Red Value for the value of the Stat if its NON-Beneficial, Only for Attachments
+
+StatValueNonBenefit_G = 45; 				// The color for the Green Value for the value of the Stat if its NON-Beneficial, Only for Attachments
+
+StatValueNonBenefit_B = 45; 				// The color for the Blue Value for the value of the Stat if its NON-Beneficial, Only for Attachments
+
+StatRecoilBenefitValueForWeapons = 35; 		// The recoil value at which the weapons is Beneficial, Only for Weapons
+
+StatSwayBenefitValueForWeapons = 35; 		// The Sway value at which the weapons is Beneficial, Only for Weapons
+
+StatADSBenefitValueForWeapons = 0.3; 		// The ADS Time at which the weapons is Beneficial, Only for Weapons
+
+StatRecoilNonBenefitValueForWeapons = 70; 	// The recoil value at which the weapons is NON-Beneficial, Only for Weapons
+
+StatSwayNonBenefitValueForWeapons = 70; 	// The sway value at which the weapons is NON-Beneficial, Only for Weapons
+
+StatADSNonBenefitValueForWeapons = 0.5; 	// The ADS Time at which the weapons is NON-Beneficial, Only for Weapons

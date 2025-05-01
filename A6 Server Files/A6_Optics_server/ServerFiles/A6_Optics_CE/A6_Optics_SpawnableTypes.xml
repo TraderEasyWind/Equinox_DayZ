@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<spawnabletypes>
+      <type name="A6_SigSauerRomeo0_Optic">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_SigSauerRomeo2_Optic">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_SigSauerRomeo2_Optic_Tan">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_SigSauerRomeo2_Optic_MRDMount">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_SigSauerRomeo2_Optic_Tan_MRDMount">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_RMROptic_Black">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_RMROptic_Tan">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_RMROptic_Black_MRDMount">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_RMROptic_Tan_MRDMount">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_DocterOptic">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_DocterOptic_MRDMount">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_SigSauerRomeoXLOptic">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_CollimatorOptic">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_MRS_Optic">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_SigSauerRomeo5Optic">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_EoTechHWS512_Optic">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_EoTechOptic">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_EoTechOptic_Tan">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_AimpointCompM4Optic">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_RAZOR_AMG_Optic">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_HAMR_Optic">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_AcogOptic_Black_RMROptic_Black">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_AcogOptic_Black_RMROptic_Tan">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_AcogOptic_Tan_RMROptic_Tan">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_AcogOptic_Tan_RMROptic_Black">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_AcogOptic_Black_SigSauerRomeo2_Optic">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_AcogOptic_Black_SigSauerRomeo2_Optic_Tan">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_AcogOptic_Tan_SigSauerRomeo2_Optic_Tan">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_AcogOptic_Tan_SigSauerRomeo2_Optic">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_AcogOptic_Black_DocterOptic">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_AcogOptic_Tan_DocterOptic">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_Spitfire_Optic">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_SigSauerBravo4Optic_DocterOptic_MRDMount">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_SigSauerBravo4Optic_SigSauerRomeoXLOptic">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_SigSauerBravo4Optic_RMROptic_Black_MRDMount">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_SigSauerBravo4Optic_RMROptic_Tan_MRDMount">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_SigSauerBravo4Optic_SigSauerRomeo2_Optic_MRDMount">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_SigSauerBravo4Optic_SigSauerRomeo2_Optic_Tan_MRDMount">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_SigSauerBravo4Optic_SigSauerRomeo0_Optic">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_BarskaOptic">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_BarskaOptic_Tan">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_LeupoldOptic_DocterOptic_MRDMount">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_LeupoldOptic_SigSauerRomeoXLOptic">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_LeupoldOptic_RMROptic_Black_MRDMount">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_LeupoldOptic_RMROptic_Tan_MRDMount">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_LeupoldOptic_SigSauerRomeo2_Optic_MRDMount">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_LeupoldOptic_SigSauerRomeo2_Optic_Tan_MRDMount">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_LeupoldOptic_SigSauerRomeo0_Optic">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+</spawnabletypes>    

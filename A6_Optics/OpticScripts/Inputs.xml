@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<modded_inputs>
+    <inputs>
+        <actions>
+            <input name="UAToggleReticle" loc="Toggle Reticle" />
+        </actions>
+        <sorting name="a6_optics" loc="A-6 Optics">
+            <input name="UAToggleReticle"/>
+        </sorting>
+    </inputs>
+    <preset>
+        <input name="UAToggleReticle">
+            <btn name="kLShift">
+                <btn name="kR"/>
+            </btn>
+        </input>
+    </preset>
+</modded_inputs>

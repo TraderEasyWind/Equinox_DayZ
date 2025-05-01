@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<economycore>
+<!-- Copy the A6_Weapons_CE folder into your mpmissions folder -->
+<!-- Add the following into your cfgeconomycore.xml file of your server builds. -->
+<!-- DO NOT REPLACE YOUR cfgeconomycore.xml file WITH THIS FILE!!! Only copy the snippet below! -->
+
+
+
+	<!-- A-6 Weapons -->
+	<ce folder="A6_Weapons_CE">
+		<!-- Types -->
+		<file name="A6_Weapons_Ammo_Types.xml" type="types" />
+		<file name="A6_Weapons_Assault_Rifle_Types.xml" type="types" />
+		<file name="A6_Weapons_Bayonet_Types.xml" type="types" />
+		<file name="A6_Weapons_Buttstock_Types.xml" type="types" />
+		<file name="A6_Weapons_Flashlight_Types.xml" type="types" />
+		<file name="A6_Weapons_Handguard_Attachment_Types.xml" type="types" />
+		<file name="A6_Weapons_Handguard_Types.xml" type="types" />
+		<file name="A6_Weapons_LMG_Types.xml" type="types" />
+		<file name="A6_Weapons_Magazines_Types.xml" type="types" />
+		<file name="A6_Weapons_Muzzle_Types.xml" type="types" />
+		<file name="A6_Weapons_OpticMount_Types.xml" type="types" />
+		<file name="A6_Weapons_Pistol_Types.xml" type="types" />
+		<file name="A6_Weapons_PistolGrip_Types.xml" type="types" />
+		<file name="A6_Weapons_Rifle_Types.xml" type="types" />
+		<file name="A6_Weapons_Shotgun_Types.xml" type="types" />
+		<file name="A6_Weapons_SMG_Types.xml" type="types" />
+		<file name="A6_Weapons_Sniper_Rifle_Types.xml" type="types" />
+		<!-- Spawnable Types -->
+		<file name="A6_Weapons_Assault_Rifle_SpawnableTypes.xml" type="spawnabletypes" />
+		<file name="A6_Weapons_Flashlight_SpawnableTypes.xml" type="spawnabletypes" />
+		<file name="A6_Weapons_LMG_SpawnableTypes.xml" type="spawnabletypes" />
+		<file name="A6_Weapons_Pistol_SpawnableTypes.xml" type="spawnabletypes" />
+		<file name="A6_Weapons_Rifle_SpawnableTypes.xml" type="spawnabletypes" />
+		<file name="A6_Weapons_Shotgun_SpawnableTypes.xml" type="spawnabletypes" />
+		<file name="A6_Weapons_SMG_SpawnableTypes.xml" type="spawnabletypes" />
+		<file name="A6_Weapons_Sniper_Rifle_SpawnableTypes.xml" type="spawnabletypes" />	 
+	</ce>
+
+
+
+
+</economycore>

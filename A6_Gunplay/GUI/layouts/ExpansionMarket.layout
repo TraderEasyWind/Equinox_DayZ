@@ -1,0 +1,402 @@
+ImageWidgetClass StatsDisplay {
+ clipchildren 1
+ ignorepointer 0
+ color 0 0 0 0.549
+ size 394 40
+ halign center_ref
+ valign bottom_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ scaled 1
+ mode blend
+ "clamp mode" border
+ "stretch mode" invalid
+ {
+  ImageWidgetClass ItemStatsDisplay {
+   visible 1
+   clipchildren 0
+   ignorepointer 0
+   keepsafezone 0
+   color 0 0 0 0
+   size 394 40
+   halign center_ref
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   scaled 1
+   image0 ""
+   mode blend
+   {
+    ImageWidgetClass recoil {
+     visible 1
+     inheritalpha 0
+     ignorepointer 1
+     ignoregloballv 0
+     color 0 0 0 0.9412
+     position 5 4
+     size 190 15
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     scaled 1
+     mode blend
+     {
+      TextWidgetClass recoil_text {
+       inheritalpha 0
+       ignorepointer 1
+       color 0.6863 0.5804 0.2588 1
+       position 2 0
+       size 110 15
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       scaled 1
+       text "Max Capacity:"
+       font "gui/fonts/etelkatextpro14"
+       "text color" 0.6235 0.5059 0.1569 1
+       "exact text" 0
+       "text valign" center
+      }
+      TextWidgetClass recoil_perc {
+       ignorepointer 1
+       position 111 0
+       size 78 15
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "50"
+       font "gui/fonts/etelkatextpro14"
+       "text halign" right
+       "text valign" center
+      }
+     }
+    }
+    ImageWidgetClass sway {
+     visible 1
+     disabled 0
+     ignorepointer 1
+     color 0 0 0 0.9412
+     position 200 4
+     size 190 15
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     mode blend
+     {
+      TextWidgetClass sway_text {
+       ignorepointer 1
+       color 0.6863 0.5804 0.2588 1
+       position 2 0
+       size 60 15
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "Accepts:"
+       font "gui/fonts/etelkatextpro14"
+       "text valign" center
+      }
+      TextWidgetClass sway_perc {
+       ignorepointer 1
+       position 62 0
+       size 125 15
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "5.56x45"
+       font "gui/fonts/etelkatextpro14"
+       "text halign" right
+       "text valign" center
+      }
+     }
+    }
+    ImageWidgetClass ads_speed {
+     visible 1
+     ignorepointer 1
+     color 0 0 0 0.9412
+     position 5 21
+     size 190 15
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     mode blend
+     {
+      TextWidgetClass ads_speed_text {
+       ignorepointer 1
+       color 0.6863 0.5804 0.2588 1
+       position 2 0
+       size 110 15
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       scaled 1
+       text "Shck Dmg:"
+       font "gui/fonts/etelkatextpro14"
+       "text valign" center
+      }
+      TextWidgetClass ads_speed_sec {
+       ignorepointer 1
+       position 111 0
+       size 78 15
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "0.36 secs"
+       font "gui/fonts/etelkatextpro14"
+       "text halign" right
+       "text valign" center
+      }
+     }
+    }
+    ImageWidgetClass round {
+     visible 1
+     inheritalpha 0
+     ignorepointer 1
+     color 0 0 0 0.9412
+     position 200 21
+     size 190 15
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     mode blend
+     {
+      TextWidgetClass round_widget_text {
+       inheritalpha 0
+       ignorepointer 1
+       color 0.6863 0.5804 0.2588 1
+       position 2 0
+       size 110 15
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "Barrel Velocity:"
+       font "gui/fonts/etelkatextpro14"
+       "text color" 0.6235 0.5059 0.1569 1
+       "text valign" center
+      }
+      TextWidgetClass round_widget_value {
+       ignorepointer 1
+       position 111 0
+       size 78 15
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "115%"
+       font "gui/fonts/etelkatextpro14"
+       "size to text h" 0
+       "size to text v" 0
+       "text halign" right
+       "text valign" center
+      }
+     }
+    }
+   }
+  }
+  ImageWidgetClass ArmorStatsDisplay {
+   visible 1
+   clipchildren 0
+   ignorepointer 0
+   keepsafezone 0
+   color 0 0 0 0
+   size 394 40
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   scaled 1
+   image0 ""
+   mode blend
+   {
+    ImageWidgetClass bulletp {
+     visible 1
+     inheritalpha 0
+     ignorepointer 1
+     ignoregloballv 0
+     color 0 0 0 0.9412
+     position 5 4
+     size 190 15
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     scaled 1
+     mode blend
+     {
+      TextWidgetClass bulletp_text {
+       inheritalpha 0
+       ignorepointer 1
+       color 0.6863 0.5804 0.2588 1
+       position 2 0
+       size 145 15
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       scaled 1
+       text "Bullet HP Protect:"
+       font "gui/fonts/etelkatextpro14"
+       "text color" 0.6235 0.5059 0.1569 1
+       "exact text" 0
+       "text valign" center
+      }
+      TextWidgetClass bulletp_value {
+       ignorepointer 1
+       position 145 0
+       size 45 15
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "50%"
+       font "gui/fonts/etelkatextpro14"
+       "text halign" right
+       "text valign" center
+      }
+     }
+    }
+    ImageWidgetClass meleep {
+     visible 1
+     disabled 0
+     ignorepointer 1
+     color 0 0 0 0.9412
+     position 200 4
+     size 190 15
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     mode blend
+     {
+      TextWidgetClass meleep_text {
+       ignorepointer 1
+       color 0.6863 0.5804 0.2588 1
+       position 2 0
+       size 145 15
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "Melee HP Protect:"
+       font "gui/fonts/etelkatextpro14"
+       "text valign" center
+      }
+      TextWidgetClass meleep_value {
+       ignorepointer 1
+       position 145 0
+       size 45 15
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "50%"
+       font "gui/fonts/etelkatextpro14"
+       "text halign" right
+       "text valign" center
+      }
+     }
+    }
+    ImageWidgetClass infectedp {
+     visible 1
+     ignorepointer 1
+     color 0 0 0 0.9412
+     position 5 21
+     size 190 15
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     mode blend
+     {
+      TextWidgetClass infectedp_text {
+       ignorepointer 1
+       color 0.6863 0.5804 0.2588 1
+       position 2 0
+       size 145 15
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       scaled 1
+       text "Bullet SHK Protect:"
+       font "gui/fonts/etelkatextpro14"
+       "text valign" center
+      }
+      TextWidgetClass infectedp_value {
+       ignorepointer 1
+       position 145 0
+       size 45 15
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "100%"
+       font "gui/fonts/etelkatextpro14"
+       "text halign" right
+       "text valign" center
+      }
+     }
+    }
+    ImageWidgetClass explosivep {
+     visible 1
+     inheritalpha 0
+     ignorepointer 1
+     color 0 0 0 0.9412
+     position 200 21
+     size 190 15
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     mode blend
+     {
+      TextWidgetClass explosivep_text {
+       inheritalpha 0
+       ignorepointer 1
+       color 0.6863 0.5804 0.2588 1
+       position 2 0
+       size 145 15
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "Explsve HP Protect:"
+       font "gui/fonts/etelkatextpro14"
+       "text color" 0.6235 0.5059 0.1569 1
+       "text valign" center
+      }
+      TextWidgetClass explosivep_value {
+       ignorepointer 1
+       position 145 0
+       size 45 15
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "100%"
+       font "gui/fonts/etelkatextpro14"
+       "size to text h" 0
+       "size to text v" 0
+       "text halign" right
+       "text valign" center
+      }
+     }
+    }
+   }
+  }
+ }
+}

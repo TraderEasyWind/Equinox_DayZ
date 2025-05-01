@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<spawnabletypes>
+      <type name="A6_Foxtrot_PistolLight">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_Foxtrot_Tan_PistolLight">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_Klesh_Light">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_SureFire_M951V_Light">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_ANPEQ15">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_ANPEQ15_Tan">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_PERST">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_NcSTAR">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_DBAL_I2">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_LS321G_Vanilla">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_LS321G_Black">
+            <attachments chance="0.5">
+                  <item name="Battery9V" chance="1.0" />
+            </attachments>
+      </type>
+</spawnabletypes>    

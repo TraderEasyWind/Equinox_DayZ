@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<spawnabletypes>
+      <type name="A6_MP153">
+            <attachments chance="0.80">
+                  <item name="A6_Mossberg_Buttstock_Wood" chance="0.80" />
+                  <item name="A6_Mossberg_Buttstock_Plastic" chance="0.70" />
+                  <item name="A6_Mossberg_Buttstock_Handle_Plastic" chance="0.40" />
+                  <item name="A6_Mossberg_Buttstock_Pistolgrip" chance="0.30" />
+                  <item name="A6_Mossberg_Buttstock_Plastic_2" chance="0.20" />
+            </attachments>
+            <attachments chance="0.35">
+                  <item name="A6_Mossberg_OpticMount" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_KSG">
+      </type>
+      <type name="A6_Mossberg_590">
+            <attachments chance="0.80">
+                  <item name="A6_Mossberg_Buttstock_Wood" chance="0.80" />
+                  <item name="A6_Mossberg_Buttstock_Plastic" chance="0.70" />
+                  <item name="A6_Mossberg_Buttstock_Handle_Plastic" chance="0.40" />
+                  <item name="A6_Mossberg_Buttstock_Pistolgrip" chance="0.30" />
+                  <item name="A6_Mossberg_Buttstock_Plastic_2" chance="0.20" />
+            </attachments>
+            <attachments chance="0.35">
+                  <item name="A6_Mossberg_OpticMount" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_Spas12">
+            <attachments chance="0.5">
+                  <item name="A6_Spas12_Buttstock" chance="1.00" />
+            </attachments>
+      </type>
+      <type name="A6_Spas12_Winter">
+            <attachments chance="0.5">
+                  <item name="A6_Spas12_Buttstock_Winter" chance="1.00" />
+            </attachments>
+      </type>
+      <type name="A6_Benelli">
+      </type>
+      <type name="A6_AA12">
+            <attachments chance="0.5">
+                  <item name="A6_Mag_AA12_24Rnd" chance="1.00" />
+            </attachments>
+      </type>
+</spawnabletypes>    

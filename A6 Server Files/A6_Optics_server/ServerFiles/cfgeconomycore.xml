@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<economycore>
+<!-- Copy the A6_Optics_CE folder into your mpmissions folder -->
+<!-- Add the following into your cfgeconomycore.xml file of your server builds. -->
+<!-- DO NOT REPLACE YOUR cfgeconomycore.xml file WITH THIS FILE!!! Only copy the snippet below! -->
+
+
+
+	<!-- A-6 Optics -->
+	<ce folder="A6_Optics_CE">
+		<!-- Types -->
+		<file name="A6_Optics_types.xml" type="types" />
+		<!-- Spawnable Types -->
+		<file name="A6_Optics_SpawnableTypes.xml" type="spawnabletypes" />
+	</ce>
+
+
+
+
+</economycore>

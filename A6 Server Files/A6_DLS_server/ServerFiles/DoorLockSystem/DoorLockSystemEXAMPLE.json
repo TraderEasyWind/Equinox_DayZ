@@ -1,0 +1,27 @@
+{
+    "DebugBuild": 0, // for single player use only. Every door opened during DebugBuild will automatically input into "LockedDoorLocations" below.
+    "ADMLogging": 1, // Unlocks and Teleports are logged in ADM file in profiles.
+    "ServerAutomaticRelock": 1, // enabler for timer below
+    "AutomaticRelockTime": 60, // Value is in Minutes. Every 60 minutes all LockedDoorLocations will be relocked. If a player is inside of one, it will be skipped.
+    "TeleportLoggedOutPlayers": 1, // When a player logs into the server, there will be a radius check, if they are in/near a locked door location they will be teleported.
+    "TeleportLoggedOutRadiusCheck": 10, // here is that radius check in meters. The player's teleported selection is based on SafePositions in cfgEffectArea.json.
+    "DisableLockPicksForLockedDoors": 1, // LockedDoorLocations cannot be locked picked with the lockpick
+    "LockPickMessage": "You can't pick this lock, it's too advanced.", // message that the player will receive if they try to lockpick a building with a door LockedDoorLocations, leave blank for no message
+    "DisableDamageForLockedDoors": 1, // LockedDoorLocations cannot be damaged to be opened
+    "InfiniteUseColorKeycards": 1, // Enabled Infinite Use for DLS_KeyCard_InfiniteUse script class, which is all the colored lab cards in the mod
+    "LockedDoorLocations": [
+        {
+            "building_x": 1688.0740966796876, // Don't Touch
+            "building_y": 14212.7763671875, // Don't Touch
+            "building_z": 455.49609375, // Don't Touch
+            "door_index": 16, // Don't Touch
+            "LocationName": "Tisy Underground Room", // This will appear in the ADM logs when a player unlocks the door. Its just an identifier.
+            "BuildingClassName": "Land_Tisy_HQ", // Don't Touch
+            "KeyClassName": "DLS_KeyCard_Labs_Black", // Key or Keycard needed to open. When DebugBuild is enabled, the item in your hand during the open door action, will auto input here.
+            "WrongKeyMessage": "Didn't work, seems I need a Black Keycard for this...", // message that the player will receive if the wrong card is used, leave blank for no message
+            "WrongKeySound": "Access_Denied", // sound that the player will hear if the wrong card is used, see the sounds folder for how to make sounds, leave blank for no sound
+            "UnlockSound": "Alarm_Military", // sound that the player will hear if the door is unlocked, see the sounds folder for how to make sounds, leave blank for no sound
+            "TeleportLoggedOutPlayers": 1 // Override for Global TeleportLoggedOutPlayers above, change to 0 if you don't want certain doors teleporting you out.
+        }
+    ]
+}

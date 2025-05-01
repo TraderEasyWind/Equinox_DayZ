@@ -1,0 +1,638 @@
+PanelWidgetClass StatsDisplay {
+ position 0 0
+ size 628 145
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ {
+  ImageWidgetClass ItemStatsDisplay {
+   visible 0
+   ignorepointer 1
+   color 0 0 0 0.3922
+   position 0 0
+   size 265 108
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   image0 ""
+   mode blend
+   {
+    ImageWidgetClass recoil {
+     visible 1
+     inheritalpha 0
+     ignorepointer 1
+     color 0.1137 0.1137 0.1137 1
+     position 8 7
+     size 245 25.91
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     {
+      TextWidgetClass recoil_text {
+       inheritalpha 0
+       ignorepointer 1
+       color 0.6863 0.5804 0.2588 1
+       position 5 0.3
+       size 70 24
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "Top Rnd:"
+       font "gui/fonts/etelkatextpro16"
+       "text color" 0.6235 0.5059 0.1569 1
+       "text valign" center
+      }
+      TextWidgetClass recoil_perc {
+       ignorepointer 1
+       position 75 0.3
+       size 165 24
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "50"
+       font "gui/fonts/etelkatextpro16"
+       "text halign" right
+       "text valign" center
+      }
+     }
+    }
+    ImageWidgetClass sway {
+     visible 1
+     disabled 0
+     ignorepointer 1
+     color 0.1137 0.1137 0.1137 1
+     position 8 41
+     size 245 25.91
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     {
+      TextWidgetClass sway_text {
+       ignorepointer 1
+       color 0.6863 0.5804 0.2588 1
+       position 5 1.4
+       size 70 24
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "Sway %:"
+       font "gui/fonts/etelkatextpro16"
+       "text valign" center
+      }
+      TextWidgetClass sway_perc {
+       ignorepointer 1
+       position 75 1.4
+       size 165 24
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "50"
+       font "gui/fonts/etelkatextpro16"
+       "text halign" right
+       "text valign" center
+      }
+     }
+    }
+    ImageWidgetClass ads_speed {
+     visible 1
+     ignorepointer 1
+     color 0.1137 0.1137 0.1137 1
+     position 8 75
+     size 245 26
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     {
+      TextWidgetClass ads_speed_text {
+       ignorepointer 1
+       color 0.6863 0.5804 0.2588 1
+       position 5 1.4
+       size 70 24
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       scaled 1
+       text "ADS:"
+       font "gui/fonts/etelkatextpro16"
+       "text valign" center
+      }
+      TextWidgetClass ads_speed_sec {
+       ignorepointer 1
+       position 75 1.4
+       size 165 24
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "0.36 secs"
+       font "gui/fonts/etelkatextpro16"
+       "text halign" right
+       "text valign" center
+      }
+     }
+    }
+   }
+  }
+  ImageWidgetClass WeaponStatsDisplay {
+   visible 0
+   ignorepointer 1
+   color 0 0 0 0.3922
+   position 265 0
+   size 363 108
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   image0 ""
+   mode blend
+   {
+    ImageWidgetClass velocity {
+     visible 1
+     ignorepointer 1
+     color 0.1137 0.1137 0.1137 1
+     position 6.31871 75.26679
+     size 350 25.91
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     {
+      TextWidgetClass velocity_text {
+       ignorepointer 1
+       color 0.6863 0.5804 0.2588 1
+       position 5 0.3
+       size 150 25.3249
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       scaled 1
+       text "Velocity:"
+       font "gui/fonts/etelkatextpro16"
+       "text valign" center
+      }
+      TextWidgetClass velocity_value {
+       ignorepointer 1
+       position 195 0.3
+       size 150 27
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "1155 m/s"
+       font "gui/fonts/etelkatextpro16"
+       "text halign" right
+       "text valign" center
+      }
+     }
+    }
+    ImageWidgetClass rof {
+     visible 1
+     inheritalpha 0
+     ignorepointer 1
+     color 0.1137 0.1137 0.1137 1
+     position 6.31871 7.26683
+     size 350 26
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     {
+      TextWidgetClass rof_text {
+       inheritalpha 0
+       ignorepointer 1
+       color 0.6863 0.5804 0.2588 1
+       position 5 0.3045
+       size 150 24.7775
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "Rate of Fire:"
+       font "gui/fonts/etelkatextpro16"
+       "text valign" center
+      }
+      TextWidgetClass rof_value {
+       ignorepointer 1
+       position 195 0.3
+       size 150 27
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "900 RPM"
+       font "gui/fonts/etelkatextpro16"
+       "exact text" 0
+       "text halign" right
+       "text valign" center
+      }
+     }
+    }
+    ImageWidgetClass roundchamber {
+     visible 1
+     inheritalpha 0
+     ignorepointer 1
+     color 0.1137 0.1137 0.1137 1
+     position 6.31871 41.2668
+     size 350 26
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     {
+      TextWidgetClass rc_text {
+       inheritalpha 0
+       ignorepointer 1
+       color 0.6863 0.5804 0.2588 1
+       position 5 0.3
+       size 100 24.78
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "Chamber:"
+       font "gui/fonts/etelkatextpro16"
+       "text valign" center
+      }
+      TextWidgetClass rc_type {
+       ignorepointer 1
+       position 100 0.3
+       size 245 24.78
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text ".408 Cheyenne Tactical"
+       font "gui/fonts/etelkatextpro16"
+       "exact text" 0
+       "text halign" right
+       "text valign" center
+      }
+     }
+    }
+   }
+  }
+  ImageWidgetClass AmmoStatsDisplay {
+   visible 0
+   ignorepointer 1
+   color 0 0 0 0.3922
+   size 265 142
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   image0 ""
+   mode blend
+   {
+    ImageWidgetClass ammo_velocity {
+     visible 1
+     inheritalpha 0
+     ignorepointer 1
+     color 0.1137 0.1137 0.1137 1
+     position 8 7
+     size 245 25.91
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     {
+      TextWidgetClass ammo_velocity_text {
+       inheritalpha 0
+       ignorepointer 1
+       color 0.6863 0.5804 0.2588 1
+       position 5 0.3
+       size 75 24.7775
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "Velocity:"
+       font "gui/fonts/etelkatextpro16"
+       "text color" 0.6235 0.5059 0.1569 1
+       "text valign" center
+      }
+      TextWidgetClass ammo_velocity_value {
+       ignorepointer 1
+       position 80 0.3
+       size 160 26.4977
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "1100 m/s"
+       font "gui/fonts/etelkatextpro16"
+       "text halign" right
+       "text valign" center
+      }
+     }
+    }
+    ImageWidgetClass ammo_health_dmg {
+     visible 1
+     disabled 0
+     ignorepointer 1
+     color 0.1137 0.1137 0.1137 1
+     position 8 41
+     size 245 25.91
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     {
+      TextWidgetClass ammo_health_text {
+       ignorepointer 1
+       color 0.6863 0.5804 0.2588 1
+       position 5 1.4
+       size 130 25.3249
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "Health Dmg:"
+       font "gui/fonts/etelkatextpro16"
+       "text valign" center
+      }
+      TextWidgetClass ammo_health_value {
+       ignorepointer 1
+       position 135 1.4
+       size 105 27
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "100"
+       font "gui/fonts/etelkatextpro16"
+       "text halign" right
+       "text valign" center
+      }
+     }
+    }
+    ImageWidgetClass ammo_shock_dmg {
+     visible 1
+     ignorepointer 1
+     color 0.1137 0.1137 0.1137 1
+     position 8 75
+     size 245 26
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     {
+      TextWidgetClass ammo_shock_text {
+       ignorepointer 1
+       color 0.6863 0.5804 0.2588 1
+       position 5 1.4
+       size 130 25.3249
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       scaled 1
+       text "Shock Dmg:"
+       font "gui/fonts/etelkatextpro16"
+       "text valign" center
+      }
+      TextWidgetClass ammo_shock_value {
+       ignorepointer 1
+       position 135 1.4
+       size 105 27
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "100"
+       font "gui/fonts/etelkatextpro16"
+       "text halign" right
+       "text valign" center
+      }
+     }
+    }
+    ImageWidgetClass ammo_armor_dmg {
+     visible 1
+     ignorepointer 1
+     color 0.1137 0.1137 0.1137 1
+     position 8 109
+     size 245 26
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     {
+      TextWidgetClass ammo_armor_text {
+       ignorepointer 1
+       color 0.6863 0.5804 0.2588 1
+       position 5 1.4
+       size 130 25.3249
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       scaled 1
+       text "Armor Dmg:"
+       font "gui/fonts/etelkatextpro16"
+       "text valign" center
+      }
+      TextWidgetClass ammo_armor_value {
+       ignorepointer 1
+       position 135 1.4
+       size 105 27
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "5x"
+       font "gui/fonts/etelkatextpro16"
+       "text halign" right
+       "text valign" center
+      }
+     }
+    }
+   }
+  }
+  ImageWidgetClass ArmorStatsDisplay {
+   visible 1
+   ignorepointer 1
+   color 0 0 0 0.3922
+   size 265 142
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   image0 ""
+   mode blend
+   {
+    ImageWidgetClass bulletp {
+     visible 1
+     inheritalpha 0
+     ignorepointer 1
+     color 0.1137 0.1137 0.1137 1
+     position 8 7
+     size 245 25.91
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     {
+      TextWidgetClass bulletp_text {
+       inheritalpha 0
+       ignorepointer 1
+       color 0.6863 0.5804 0.2588 1
+       position 5 0.3
+       size 185 24.7775
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "Bullet HP Protection:"
+       font "gui/fonts/etelkatextpro16"
+       "text color" 0.6235 0.5059 0.1569 1
+       "text valign" center
+      }
+      TextWidgetClass bulletp_value {
+       ignorepointer 1
+       position 190 0.3
+       size 50 26.4977
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "70%"
+       font "gui/fonts/etelkatextpro16"
+       "text halign" right
+       "text valign" center
+      }
+     }
+    }
+    ImageWidgetClass meleep {
+     visible 1
+     disabled 0
+     ignorepointer 1
+     color 0.1137 0.1137 0.1137 1
+     position 8 75
+     size 245 25.91
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     {
+      TextWidgetClass meleep_text {
+       ignorepointer 1
+       color 0.6863 0.5804 0.2588 1
+       position 5 1.4
+       size 185 25.3249
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "Melee HP Protection:"
+       font "gui/fonts/etelkatextpro16"
+       "text valign" center
+      }
+      TextWidgetClass meleep_value {
+       ignorepointer 1
+       position 190 1.4
+       size 50 27
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "70%"
+       font "gui/fonts/etelkatextpro16"
+       "text halign" right
+       "text valign" center
+      }
+     }
+    }
+    ImageWidgetClass infectedp {
+     visible 1
+     ignorepointer 1
+     color 0.1137 0.1137 0.1137 1
+     position 8 41
+     size 245 26
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     {
+      TextWidgetClass infectedp_text {
+       ignorepointer 1
+       color 0.6863 0.5804 0.2588 1
+       position 5 1.4
+       size 185 25.3249
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       scaled 1
+       text "Bullet SHK Protection:"
+       font "gui/fonts/etelkatextpro16"
+       "text valign" center
+      }
+      TextWidgetClass infectedp_value {
+       ignorepointer 1
+       position 190 1.4
+       size 50 27
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "70%"
+       font "gui/fonts/etelkatextpro16"
+       "text halign" right
+       "text valign" center
+      }
+     }
+    }
+    ImageWidgetClass explosivep {
+     visible 1
+     ignorepointer 1
+     color 0.1137 0.1137 0.1137 1
+     position 8 109
+     size 245 26
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     {
+      TextWidgetClass explosivep_text {
+       ignorepointer 1
+       color 0.6863 0.5804 0.2588 1
+       position 5 1.4
+       size 185 25.3249
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       scaled 1
+       text "Explsve HP Protection:"
+       font "gui/fonts/etelkatextpro16"
+       "text valign" center
+      }
+      TextWidgetClass explosive_value {
+       ignorepointer 1
+       position 190 1.4
+       size 50 27
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "70%"
+       font "gui/fonts/etelkatextpro16"
+       "text halign" right
+       "text valign" center
+      }
+     }
+    }
+   }
+  }
+ }
+}

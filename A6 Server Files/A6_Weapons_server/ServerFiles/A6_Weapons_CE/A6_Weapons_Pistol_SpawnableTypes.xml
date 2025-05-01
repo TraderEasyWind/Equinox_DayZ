@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<spawnabletypes>
+      <type name="A6_RugerMarkIV">
+            <attachments chance="0.5">
+                  <item name="A6_DeadAirMask22_Suppressor" chance="1.00" />
+            </attachments>
+            <attachments chance="0.2">
+                  <item name="A6_Foxtrot_PistolLight" chance="1.0" />
+            </attachments>
+            <attachments chance="0.85">
+                  <item name="A6_Mag_RugerMarkIV_10Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_MP9Pro_Black">
+            <attachments chance="0.85">
+                  <item name="A6_Mag_MP9Pro_17Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_MP9Pro_Silver">
+            <attachments chance="0.85">
+                  <item name="A6_Mag_MP9Pro_17Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_MP9Pro_Tan">
+            <attachments chance="0.85">
+                  <item name="A6_Mag_MP9Pro_17Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_MP9Pro_Green">
+            <attachments chance="0.85">
+                  <item name="A6_Mag_MP9Pro_17Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_Glock19">
+            <attachments chance="0.85">
+                  <item name="A6_Mag_Glock19_15Rnd" chance="0.8" />
+                  <item name="A6_Mag_Vector_33Rnd" chance="0.2" />
+                  <item name="A6_Mag_Vector_50Rnd" chance="0.05" />
+            </attachments>
+            <attachments chance="0.2">
+                  <item name="A6_Foxtrot_Tan_PistolLight" chance="1.0" />
+            </attachments>
+            <attachments chance="0.2">
+                  <item name="A6_Gemtech_Tundra_Suppressor" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_Glock19_Tan">
+            <attachments chance="0.85">
+                  <item name="A6_Mag_Glock19_15Rnd" chance="0.8" />
+                  <item name="A6_Mag_Vector_33Rnd" chance="0.2" />
+                  <item name="A6_Mag_Vector_50Rnd" chance="0.05" />
+            </attachments>
+            <attachments chance="0.2">
+                  <item name="A6_Foxtrot_Tan_PistolLight" chance="1.0" />
+            </attachments>
+            <attachments chance="0.2">
+                  <item name="A6_Gemtech_Tundra_Suppressor" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_M1911_Compact">
+            <attachments chance="0.85">
+                  <item name="A6_Mag_M1911_Compact_9Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_M1911">
+            <attachments chance="0.85">
+                  <item name="A6_Mag_M1911_7Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_PX4">
+            <attachments chance="0.85">
+                  <item name="A6_Mag_PX4_14Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_M1911_Kimber">
+            <attachments chance="0.85">
+                  <item name="A6_Mag_M1911_7Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_M9">
+            <attachments chance="0.85">
+                  <item name="A6_Mag_M9_15Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_M9_Tan">
+            <attachments chance="0.85">
+                  <item name="A6_Mag_M9_15Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_P320">
+            <attachments chance="0.85">
+                  <item name="A6_Mag_P320_17Rnd" chance="1.0" />
+            </attachments>
+            <attachments chance="0.4">
+                  <item name="A6_Foxtrot_PistolLight" chance="1.0" />
+            </attachments>
+            <attachments chance="0.2">
+                  <item name="A6_Gemtech_Tundra_Suppressor" chance="0.75" />
+                  <item name="A6_OspreySuppressor" chance="0.25" />
+            </attachments>
+      </type>
+      <type name="A6_P320_Silver">
+            <attachments chance="0.85">
+                  <item name="A6_Mag_P320_17Rnd" chance="1.0" />
+            </attachments>
+            <attachments chance="0.4">
+                  <item name="A6_Foxtrot_PistolLight" chance="1.0" />
+            </attachments>
+            <attachments chance="0.2">
+                  <item name="A6_Gemtech_Tundra_Suppressor" chance="0.75" />
+                  <item name="A6_OspreySuppressor" chance="0.25" />
+            </attachments>
+      </type>
+      <type name="A6_P320_Tan">
+            <attachments chance="0.85">
+                  <item name="A6_Mag_P320_Tan_17Rnd" chance="1.0" />
+            </attachments>
+            <attachments chance="0.4">
+                  <item name="A6_Foxtrot_Tan_PistolLight" chance="1.0" />
+            </attachments>
+            <attachments chance="0.2">
+                  <item name="A6_Gemtech_Tundra_Suppressor" chance="0.75" />
+                  <item name="A6_OspreySuppressor" chance="0.25" />
+            </attachments>
+      </type>
+      <type name="A6_P320_Tan2">
+            <attachments chance="0.85">
+                  <item name="A6_Mag_P320_Tan_17Rnd" chance="1.0" />
+            </attachments>
+            <attachments chance="0.4">
+                  <item name="A6_Foxtrot_Tan_PistolLight" chance="1.0" />
+            </attachments>
+            <attachments chance="0.2">
+                  <item name="A6_Gemtech_Tundra_Suppressor" chance="0.75" />
+                  <item name="A6_OspreySuppressor" chance="0.25" />
+            </attachments>
+      </type>
+      <type name="A6_FiveSeven">
+            <attachments chance="0.85">
+                  <item name="A6_Mag_FiveSeven_20Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_FiveSeven_Tan">
+            <attachments chance="0.85">
+                  <item name="A6_Mag_FiveSeven_20Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_DesertEagle">
+            <attachments chance="0.85">
+                  <item name="A6_Mag_DesertEagle_9Rnd" chance="1.0" />
+            </attachments>
+      </type>
+      <type name="A6_DesertEagle_Gold">
+            <attachments chance="0.85">
+                  <item name="A6_Mag_DesertEagle_9Rnd" chance="1.0" />
+            </attachments>
+      </type>
+</spawnabletypes>    
