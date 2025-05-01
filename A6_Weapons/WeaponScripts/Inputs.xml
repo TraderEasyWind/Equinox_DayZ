@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<modded_inputs>
+    <inputs>
+        <actions>
+            <input name="UAA6ToggleBipod" loc="Toggle Weapon Bipod" />
+            <input name="UAA6ToggleLightPistol" loc="Toggle Pistol Light Slot" />
+            <input name="UAA6ToggleLightLeft" loc="Toggle Right Light Slot" />
+            <input name="UAA6ToggleLightRight" loc="Toggle Left Light Slot" />
+            <input name="UAA6ToggleLightTop" loc="Toggle Top Light Slot" />
+            <input name="UAA6ToggleLightLeftIR" loc="Toggle IR Left Slot" />
+            <input name="UAA6ToggleLightRightIR" loc="Toggle IR Right Slot" />
+            <input name="UAA6ToggleLightTopIR" loc="Toggle IR Top Slot" />
+        </actions>
+        <sorting name="a6_weapons" loc="A-6 Weapons">
+            <input name="UAA6ToggleBipod"/>
+            <input name="UAA6ToggleLightPistol"/>
+            <input name="UAA6ToggleLightLeft"/>
+            <input name="UAA6ToggleLightRight"/>
+            <input name="UAA6ToggleLightTop"/>
+            <input name="UAA6ToggleLightLeftIR"/>
+            <input name="UAA6ToggleLightRightIR"/>
+            <input name="UAA6ToggleLightTopIR"/>
+        </sorting>
+    </inputs>
+    <preset>
+        <input name="UAA6ToggleBipod">
+            <btn name="kLShift">
+                <btn name="kT"/>
+            </btn>
+        </input>
+        <input name="UAA6ToggleLightPistol">
+            <btn name="kLShift">
+                <btn name="kF"/>
+            </btn>
+        </input>
+        <input name="UAA6ToggleLightLeft">
+            <btn name="kLShift">
+                <btn name="kF"/>
+            </btn>
+        </input>
+        <input name="UAA6ToggleLightRight">
+            <btn name="kLControl">
+                <btn name="kF"/>
+            </btn>
+        </input>
+        <input name="UAA6ToggleLightTop">
+            <btn name="kLMenu">
+                <btn name="kF"/>
+            </btn>
+        </input>
+        <input name="UAA6ToggleLightLeftIR">
+            <btn name="kLShift">
+                <btn name="kN"/>
+            </btn>
+        </input>
+        <input name="UAA6ToggleLightRightIR">
+            <btn name="kLControl">
+                <btn name="kN"/>
+            </btn>
+        </input>
+        <input name="UAA6ToggleLightTopIR">
+            <btn name="kLMenu">
+                <btn name="kN"/>
+            </btn>
+        </input>
+    </preset>
+</modded_inputs>

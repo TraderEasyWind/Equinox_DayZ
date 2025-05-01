@@ -1,0 +1,1 @@
+class A6_Laser_Beam : ItemBase {}

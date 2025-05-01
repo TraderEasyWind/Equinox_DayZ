@@ -1,0 +1,94 @@
+class A6_PP19_Base : RifleBoltFree_Base {
+	void A6_PP19_Base() {	
+		ShowPistolGrip(this);
+	}
+	override RecoilBase SpawnRecoilObject() {
+		return new PP19Recoil(this);
+	}
+	override void EEItemAttached(EntityAI item, string slot_name) {	
+		super.EEItemAttached(item,slot_name);
+        if ( A6_AK_PistolGrip_Base.Cast(item) ) { 
+            HidePistolGrip(this);
+        }
+        if ( A6_AK_Handguard_Tactical_Polymer_Base.Cast(item) ) {
+    		SetAnimationPhase("translation", 0.725);
+    	}
+        if ( A6_AK_Handguard_MOE.Cast(item) ) {
+    		SetAnimationPhase("translation", 1);
+    	}
+	}
+	override void EEItemDetached(EntityAI item, string slot_name) {	
+		super.EEItemDetached(item,slot_name);
+        if ( A6_AK_PistolGrip_Base.Cast(item) ) { 
+            ShowPistolGrip(this);
+        }
+        if ( A6_AK_Handguard_Tactical_Polymer_Base.Cast(item) || A6_AK_Handguard_MOE.Cast(item) ) {
+    		SetAnimationPhase("translation", 0);
+    	}
+	}
+	override bool CanEnterIronsights() {
+		ItemOptics optic = GetAttachedOptics();
+		if ( optic && PSO1Optic.Cast(optic) || PSO11Optic.Cast(optic) || KashtanOptic.Cast(optic) || KazuarOptic.Cast(optic) )
+			return true;
+		return super.CanEnterIronsights();
+	}
+	override bool CanReceiveAttachment(EntityAI attachment, int slotId) {	    
+		#ifdef A6_OpticScripts  
+		if ( A6_ItemOpticsLongScope.Cast(attachment) || A6_AK_Handguard_Zentico_Long_Base.Cast(attachment) ) {
+			return false;
+		}	
+		#endif  
+        return super.CanReceiveAttachment(attachment, slotId);
+	}
+	override bool CanDisplayAttachmentSlot(int slot_id) {    
+        if ( slot_id == InventorySlots.GetSlotIdFromString("weaponOptics") ) {
+            return ( FindAttachmentBySlotName( "weaponOptics") != NULL);
+        }
+        if ( slot_id == InventorySlots.GetSlotIdFromString("weaponOptics") ) {
+            return ( FindAttachmentBySlotName( "weaponOpticMountAK") == NULL);    
+        }
+		if ( slot_id == InventorySlots.GetSlotIdFromString( "weaponOpticsAK" )) {
+            return ( FindAttachmentBySlotName( "weaponOptics") == NULL);
+        }  
+        if ( slot_id == InventorySlots.GetSlotIdFromString( "weaponButtstockM4" )) {
+            return ( FindAttachmentBySlotName( "weaponButtstockM4") != NULL);
+        }
+        if ( slot_id == InventorySlots.GetSlotIdFromString( "weaponButtstockM4" )) {
+            return ( FindAttachmentBySlotName( "weaponTubeStockAdapterAK") == NULL);    
+        }
+		if ( slot_id == InventorySlots.GetSlotIdFromString( "weaponButtstockAK" )) {
+            return ( FindAttachmentBySlotName( "weaponButtstockM4") == NULL);
+        } 
+        if ( slot_id == InventorySlots.GetSlotIdFromString( "weaponTubeStockAdapterAK" )) {
+            return ( FindAttachmentBySlotName( "weaponButtstockAK") == NULL);
+        } 
+        if ( slot_id == InventorySlots.GetSlotIdFromString( "weaponForegrip" ) ) {
+            return ( FindAttachmentBySlotName( "weaponHandguardAK") != NULL && this.FindAttachmentBySlotName("weaponHandguardAK").ConfigGetBool("CanAcceptGrip") == true);
+        }
+        if ( slot_id == InventorySlots.GetSlotIdFromString( "weaponLightRight" )) {
+            return ( FindAttachmentBySlotName( "weaponHandguardAK") != NULL && this.FindAttachmentBySlotName("weaponHandguardAK").ConfigGetBool("CanAcceptRightFlashlight") == true);
+        }
+        if ( slot_id == InventorySlots.GetSlotIdFromString( "weaponLightLeft" )) {
+            return ( FindAttachmentBySlotName( "weaponHandguardAK") != NULL && this.FindAttachmentBySlotName("weaponHandguardAK").ConfigGetBool("CanAcceptLeftFlashlight") == true);
+        }
+        if ( slot_id == InventorySlots.GetSlotIdFromString( "weaponLightTop" )) {
+            return ( FindAttachmentBySlotName( "weaponHandguardAK") != NULL && this.FindAttachmentBySlotName("weaponHandguardAK").ConfigGetBool("CanAcceptTopFlashlight") == true);
+        }
+        return super.CanDisplayAttachmentSlot(slot_id);
+	}
+}
+class A6_PP19 : A6_PP19_Base {
+    override void OnDebugSpawn() {
+        GameInventory inventory = GetInventory();
+        inventory.CreateInInventory( "A6_AKS74U_Buttstock" );
+        inventory.CreateInInventory( "A6_PP19_Muzzle" );
+        inventory.CreateInInventory( "A6_AK_Handguard_Zentico" );
+        inventory.CreateInInventory( "A6_AK_PP19_PistolGrip" );
+        inventory.CreateInInventory( "A6_AK_Dustcover_Optic_Mount" );
+        #ifdef A6_OpticScripts
+        inventory.CreateInInventory( "A6_MRS_Optic" );
+        inventory.CreateInInventory( "Battery9V" );
+        #endif
+        SpawnAttachedMagazine("A6_Mag_PP19_30Rnd");
+    }
+}

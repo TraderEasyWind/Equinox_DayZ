@@ -1,0 +1,50 @@
+ImageSetClass {
+ Name "A6_Weapons"
+ RefSize 1024 1024
+ Textures {
+  ImageSetTextureClass {
+   mpix 1
+   path "{58C26A7C4BDB98CC}A6_Weapons/WeaponScripts/GUI/ImageSets/AttachmentIcons.edds"
+  }
+ }
+ Images {
+  ImageSetDefClass bipod {
+   Name "bipod"
+   Pos 20 15
+   Size 150 150
+   Flags 0
+  }
+  ImageSetDefClass grip {
+   Name "grip"
+   Pos 184 16
+   Size 150 150
+   Flags 0
+  }
+  ImageSetDefClass pistolgrip {
+   Name "pistolgrip"
+   Pos 354 18
+   Size 150 150
+   Flags 0
+  }
+  ImageSetDefClass tubestock {
+   Name "tubestock"
+   Pos 522 17
+   Size 150 150
+   Flags 0
+  }
+  ImageSetDefClass opticmount {
+   Name "opticmount"
+   Pos 722 12
+   Size 175 175
+   Flags 0
+  }
+  ImageSetDefClass laser {
+   Name "laser"
+   Pos 18 178
+   Size 175 175
+   Flags 0
+  }
+ }
+ Groups {
+ }
+}

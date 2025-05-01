@@ -1,0 +1,1 @@
+class A6_PistolGrip_Base extends ItemBase {}

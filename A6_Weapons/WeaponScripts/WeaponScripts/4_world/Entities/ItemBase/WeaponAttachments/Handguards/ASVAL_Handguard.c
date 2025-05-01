@@ -1,0 +1,1 @@
+class A6_ASVAL_Handguard : A6_Handguard_Base {}

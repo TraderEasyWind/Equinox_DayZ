@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{990AC05CE2947E6D}AttachmentIcons.edds"
+ Author "desktop-nelhhlr"
+ ChangeDate 1674866430
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "AttachmentIcons.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}
