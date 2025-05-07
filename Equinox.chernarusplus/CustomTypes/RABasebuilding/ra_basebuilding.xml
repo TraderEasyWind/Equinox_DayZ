@@ -515,7 +515,7 @@
         <category name="tools"/>
         <usage name="Industrial"/>
 		<usage name="Unique"/>
-    </type
+    </type>
 	<type name="RA_ClawHammer_Yellow">
         <nominal>25</nominal>
         <lifetime>14400</lifetime>
@@ -530,10 +530,10 @@
         <usage name="Farm"/>
     </type>
     <type name="RA_CodeLock">
-        <nominal>75</nominal>
+        <nominal>50</nominal>
         <lifetime>7200</lifetime>
         <restock>600</restock>
-        <min>45</min>
+        <min>30</min>
         <quantmin>1</quantmin>
         <quantmax>1</quantmax>
         <cost>100</cost>

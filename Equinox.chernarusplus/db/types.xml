@@ -15489,7 +15489,7 @@
         <category name="tools"/>
     </type>
     <type name="Plastic_Explosive">
-        <nominal>25</nominal>
+        <nominal>30</nominal>
         <lifetime>28800</lifetime>
         <restock>28800</restock>
         <min>8</min>
@@ -15498,7 +15498,10 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="explosives"/>
-		<usage name="Unique"/>
+		<usage name="Military"/>
+		<value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="PlateCarrierHolster">
         <nominal>15</nominal>
@@ -16483,7 +16486,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="explosives"/>
 		<tag name="shelves"/>
-		<usage name="Unique"/>
 		<usage name="Military"/>
     </type>
     <type name="RemoteDetonatorReceiver">
