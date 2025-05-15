@@ -511,6 +511,60 @@ class CfgVehicles
 			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Mogilevka_flag.paa"
 		};
 	};
+	class Armband_Blackwater2: Armband_ColorBase
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="Blackwater";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Blackwater_armband2.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Blackwater_armband2.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Blackwater_armband2.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Blackwater_armband2.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Blackwater_armband2.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Blackwater_armband2.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Blackwater_armband2.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Blackwater_armband2.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Blackwater_armband2.paa"
+		};
+	};
+	class Armband_TBT: Armband_ColorBase
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="TBT";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Flag_TBT.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Flag_TBT.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Flag_TBT.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Flag_TBT.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Flag_TBT.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Flag_TBT.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Flag_TBT.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Flag_TBT.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Flag_TBT.paa"
+		};
+	};
+	class Armband_BRMercenarious: Armband_ColorBase
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="BRMercenarious";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Flag_BRMercenarious.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Flag_BRMercenarious.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Flag_BRMercenarious.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Flag_BRMercenarious.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Flag_BRMercenarious.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Flag_BRMercenarious.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Flag_BRMercenarious.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Flag_BRMercenarious.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Flag_BRMercenarious.paa"
+		};
+	};
 	class flag_base;
 	class flag_cmf: flag_base
 	{
@@ -960,6 +1014,60 @@ class CfgVehicles
 			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Mogilevka_flag.paa",
 			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Mogilevka_flag.paa",
 			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Mogilevka_flag.paa"
+		};
+	};
+	class flag_Blackwater2: flag_Base
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="Blackwater";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Blackwater2_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Blackwater2_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Blackwater2_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Blackwater2_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Blackwater2_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Blackwater2_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Blackwater2_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Blackwater2_flag.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Blackwater2_flag.paa"
+		};
+	};
+	class Flag_TBT: flag_Base
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="TBT";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Flag_TBT.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Flag_TBT.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Flag_TBT.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Flag_TBT.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Flag_TBT.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Flag_TBT.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Flag_TBT.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Flag_TBT.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Flag_TBT.paa"
+		};
+	};
+	class Flag_BRMercenarious: flag_Base
+	{
+		scope=2;
+		visibilityModifier=0.94999999;
+		color="BRMercenarious";
+		hiddenSelectionsTextures[]=
+		{
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Flag_BRMercenarious.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Flag_BRMercenarious.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Flag_BRMercenarious.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Flag_BRMercenarious.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Flag_BRMercenarious.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Flag_BRMercenarious.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Flag_BRMercenarious.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Flag_BRMercenarious.paa",
+			"MassiveMod\NewClothes\EQClothing\FlagsNBands\data\Flag_BRMercenarious.paa"
 		};
 	};
 };

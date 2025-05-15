@@ -121,4 +121,11 @@ class CfgVehicles
 		color = "camo16";
 		hiddenSelectionsTextures[] = {"MassiveMod\NewClothes\EQClothing\FaceGear\data\balaclava_1hole_camo16.paa","MassiveMod\NewClothes\EQClothing\FaceGear\data\balaclava_1hole_camo16.paa","MassiveMod\NewClothes\EQClothing\FaceGear\data\balaclava_1hole_camo16.paa"};
 	};
+	class Balaclava1Hole_Blackwater: BalaclavaMask_ColorBase
+	{
+		descriptionShort= "Ski mask, designed to expose only part of the face. Very useful in cold weather. Used by the Blackwater Faction. Still useful in cold weather.";
+		scope = 2;
+		color = "camo16";
+		hiddenSelectionsTextures[] = {"MassiveMod\NewClothes\EQClothing\FaceGear\data\balaclava_MSF_co.paa","MassiveMod\NewClothes\EQClothing\FaceGear\data\balaclava_MSF_co.paa","MassiveMod\NewClothes\EQClothing\FaceGear\data\balaclava_MSF_co.paa"};
+	};
 };
